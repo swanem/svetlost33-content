@@ -1,0 +1,1560 @@
+{
+  "schema_version": "0.3.0",
+  "package_id": "svetlo-psalms-prayerbook-7x3-v0.3",
+  "created_at": "2026-09-10",
+  "locale": "sr-Latn-RS",
+  "status": "source_checked_editorial_draft",
+  "official_endorsement": false,
+  "production_ready": false,
+  "description": "Sedmodnevni ciklus psalamskih citata, 20 celih psalama i biblioteka od 15 molitava. Sve čitanje, izvori i licence dostupni su lokalno. Nema Jevanđelja dana.",
+  "rotation": {
+    "length_days": 7,
+    "mode": "repeat_explicitly",
+    "anchor_local_date": null,
+    "anchor_policy": "Datum početka bira se pri aktiviranju; nije unapred vezan za septembar 2026.",
+    "timezone_policy": "Koristiti izabranu IANA zonu uređaja; Europe/Belgrade služi samo kao primer u testovima.",
+    "day_boundary": "local_midnight",
+    "calculation": "Razlika kalendarskih datuma, ne deljenje proteklih milisekundi sa 24 časa.",
+    "before_anchor": "cycle_not_started",
+    "label": "Sedmodnevni krug",
+    "after_last_day": "Posle Dana 7 vraća se Dan 1, uz jasnu oznaku ponavljanja."
+  },
+  "dayparts": {
+    "morning": {
+      "from": "05:00",
+      "until": "10:59"
+    },
+    "noon": {
+      "from": "11:00",
+      "until": "17:59"
+    },
+    "evening": {
+      "from": "18:00",
+      "until": "04:59",
+      "wraps_midnight": true
+    },
+    "note": "Predlog rasporeda aplikacije, ne propisano molitveno pravilo. Posle ponoći koristi se novi dan ciklusa i večernja kartica tog dana."
+  },
+  "translation_notes": {
+    "psalms": "Đura Daničić — digitalni tekst eBible srp1868; nije srpski prevod Septuaginte.",
+    "prayers": "Tri biblijske molitve u Vukovom prevodu (eBible) i 12 molitava iz istorijskog izdanja Jovana Konstantinovića (1929), prema Vikizvorniku.",
+    "source_revision": "Source files dated 3 Jan 2026; HTML generated 8 Aug 2026, according to the source copyright page.",
+    "changes": "Psalmi i tri postojeće molitve nisu izmenjeni. U novim molitvama normalizovan je prikaz i zavedene su dve slovne ispravke. Nije rađeno slobodno osavremenjivanje.",
+    "lxx_note": "LXX broj je dat samo za ceo psalam. Numeracija stiha nije automatski preneta u LXX.",
+    "rights_url": "https://ebible.org/srp1868/copyright.htm",
+    "rights_basis": "eBible: public domain declaration. Historical prayerbook: recorded open-license terms of the digital transcription; separate evidence for the historical compiler. See local licenses."
+  },
+  "ui": {
+    "day_label": "Dan",
+    "morning": "Jutro",
+    "noon": "Podne",
+    "evening": "Veče",
+    "read_psalm": "Pročitaj psalam",
+    "open_prayer": "Otvori molitvu",
+    "source": "Izvor i izdanje",
+    "close": "Zatvori",
+    "next_day": "Sledeći dan",
+    "previous_day": "Prethodni dan",
+    "cycle_label": "Sedmodnevni krug",
+    "offline_label": "Dostupno bez interneta",
+    "editorial_note": "Lični molitveni izbor, ne zvanični bogoslužbeni raspored.",
+    "prayer_repeat_note": "Dnevni krug koristi 9 različitih molitava; svih 15 je dostupno u biblioteci. Ponavljanje je namerno.",
+    "review_note": "Digitalni izvori su provereni; dve slovne ispravke su zabeležene. Stručna recenzija i poređenje molitava sa štampanim izdanjem nisu završeni.",
+    "local_content_unavailable": "Sadržaj nije pronađen u lokalnom paketu. Pokušaj ponovo nakon ažuriranja aplikacije."
+  },
+  "libraries": {
+    "psalms_file": "psalms.sr-Latn.json",
+    "prayers_file": "prayers.sr-Latn.json",
+    "source_registry_file": "sources.sr-Latn.json",
+    "licenses_file": "licenses.sr-Latn.json"
+  },
+  "days": [
+    {
+      "id": "general-day-1",
+      "cycle_day": 1,
+      "title": "Dan 1",
+      "theme": "Nov početak",
+      "slots": [
+        {
+          "id": "general-day-1-morning",
+          "phase": "morning",
+          "phase_label": "Jutro",
+          "title": "Pred Bogom",
+          "quote": {
+            "text": "Ujutru slušaš glas moj, ujutru stojim pred Tobom, i čekam.",
+            "kind": "scripture_quote",
+            "is_paraphrase": false,
+            "source_page": "PSA005",
+            "psalm_id": "psalm-5",
+            "verse_numbers": [
+              3
+            ],
+            "reference": "Ps 5,3 · Daničić",
+            "numbering": "DANICIC_EBIBLE_SRP1868",
+            "lxx_psalm_number": 5,
+            "lxx_verse_mapping": null,
+            "lxx_note": "Odgovarajući psalam u LXX: 5. Ovo ne menja prevod ni numeraciju stihova citiranog izdanja.",
+            "translation_id": "danicic-ebible-srp1868",
+            "source_id": "EBIBLE-PSA005",
+            "source_url": "https://ebible.org/srp1868/PSA005.htm#V3"
+          },
+          "prayer_id": "morning-prayer",
+          "actions": {
+            "primary": {
+              "type": "open_local_psalm",
+              "label": "Pročitaj psalam",
+              "target_id": "psalm-5",
+              "highlight_verses": [
+                3
+              ]
+            },
+            "secondary": {
+              "type": "open_local_prayer",
+              "label": "Pročitaj molitvu",
+              "target_id": "morning-prayer"
+            },
+            "source": {
+              "type": "open_local_source",
+              "label": "Izvor i izdanje",
+              "target_id": "EBIBLE-PSA005"
+            }
+          },
+          "widget": {
+            "quote_ref": "quote.text",
+            "reference_ref": "quote.reference",
+            "tap_action_ref": "actions.primary",
+            "prayer_action_ref": "actions.secondary",
+            "full_quote_required": true,
+            "small_widget_policy": "Referenca i dugme za čitanje; ne odsecati stih tako da mu se promeni smisao."
+          },
+          "wallpaper": {
+            "background": [
+              "#172D3D",
+              "#3A5867"
+            ],
+            "accent": "#E9C88A",
+            "quote_ref": "quote.text",
+            "reference_ref": "quote.reference",
+            "sync_with_slot_id": "general-day-1-morning",
+            "static_image_is_interactive": false,
+            "generated_image_path": null,
+            "note": "Predlog palete; nije liturgijski propis niti implementirana sistemska pozadina."
+          },
+          "prayer_title": "Jutarnja molitva"
+        },
+        {
+          "id": "general-day-1-noon",
+          "phase": "noon",
+          "phase_label": "Podne",
+          "title": "Dobri Pastir",
+          "quote": {
+            "text": "Gospod je pastir moj, ništa mi neće nedostajati.",
+            "kind": "scripture_quote",
+            "is_paraphrase": false,
+            "source_page": "PSA023",
+            "psalm_id": "psalm-23",
+            "verse_numbers": [
+              1
+            ],
+            "reference": "Ps 23,1 · Daničić",
+            "numbering": "DANICIC_EBIBLE_SRP1868",
+            "lxx_psalm_number": 22,
+            "lxx_verse_mapping": null,
+            "lxx_note": "Odgovarajući psalam u LXX: 22. Ovo ne menja prevod ni numeraciju stihova citiranog izdanja.",
+            "translation_id": "danicic-ebible-srp1868",
+            "source_id": "EBIBLE-PSA023",
+            "source_url": "https://ebible.org/srp1868/PSA023.htm#V1"
+          },
+          "prayer_id": "trinity-hope",
+          "actions": {
+            "primary": {
+              "type": "open_local_psalm",
+              "label": "Pročitaj psalam",
+              "target_id": "psalm-23",
+              "highlight_verses": [
+                1
+              ]
+            },
+            "secondary": {
+              "type": "open_local_prayer",
+              "label": "Pročitaj molitvu",
+              "target_id": "trinity-hope"
+            },
+            "source": {
+              "type": "open_local_source",
+              "label": "Izvor i izdanje",
+              "target_id": "EBIBLE-PSA023"
+            }
+          },
+          "widget": {
+            "quote_ref": "quote.text",
+            "reference_ref": "quote.reference",
+            "tap_action_ref": "actions.primary",
+            "prayer_action_ref": "actions.secondary",
+            "full_quote_required": true,
+            "small_widget_policy": "Referenca i dugme za čitanje; ne odsecati stih tako da mu se promeni smisao."
+          },
+          "wallpaper": {
+            "background": [
+              "#173933",
+              "#3E6250"
+            ],
+            "accent": "#D9DCB1",
+            "quote_ref": "quote.text",
+            "reference_ref": "quote.reference",
+            "sync_with_slot_id": "general-day-1-noon",
+            "static_image_is_interactive": false,
+            "generated_image_path": null,
+            "note": "Predlog palete; nije liturgijski propis niti implementirana sistemska pozadina."
+          },
+          "prayer_title": "Nadanje je moje Otac"
+        },
+        {
+          "id": "general-day-1-evening",
+          "phase": "evening",
+          "phase_label": "Veče",
+          "title": "Miran počinak",
+          "quote": {
+            "text": "Ja mirno ležem i spavam; jer Ti, Gospode, sam daješ mi, te sam bez straha.",
+            "kind": "scripture_quote",
+            "is_paraphrase": false,
+            "source_page": "PSA004",
+            "psalm_id": "psalm-4",
+            "verse_numbers": [
+              8
+            ],
+            "reference": "Ps 4,8 · Daničić",
+            "numbering": "DANICIC_EBIBLE_SRP1868",
+            "lxx_psalm_number": 4,
+            "lxx_verse_mapping": null,
+            "lxx_note": "Odgovarajući psalam u LXX: 4. Ovo ne menja prevod ni numeraciju stihova citiranog izdanja.",
+            "translation_id": "danicic-ebible-srp1868",
+            "source_id": "EBIBLE-PSA004",
+            "source_url": "https://ebible.org/srp1868/PSA004.htm#V8"
+          },
+          "prayer_id": "bedtime-prayer",
+          "actions": {
+            "primary": {
+              "type": "open_local_psalm",
+              "label": "Pročitaj psalam",
+              "target_id": "psalm-4",
+              "highlight_verses": [
+                8
+              ]
+            },
+            "secondary": {
+              "type": "open_local_prayer",
+              "label": "Pročitaj molitvu",
+              "target_id": "bedtime-prayer"
+            },
+            "source": {
+              "type": "open_local_source",
+              "label": "Izvor i izdanje",
+              "target_id": "EBIBLE-PSA004"
+            }
+          },
+          "widget": {
+            "quote_ref": "quote.text",
+            "reference_ref": "quote.reference",
+            "tap_action_ref": "actions.primary",
+            "prayer_action_ref": "actions.secondary",
+            "full_quote_required": true,
+            "small_widget_policy": "Referenca i dugme za čitanje; ne odsecati stih tako da mu se promeni smisao."
+          },
+          "wallpaper": {
+            "background": [
+              "#17192E",
+              "#38334F"
+            ],
+            "accent": "#CCC2E6",
+            "quote_ref": "quote.text",
+            "reference_ref": "quote.reference",
+            "sync_with_slot_id": "general-day-1-evening",
+            "static_image_is_interactive": false,
+            "generated_image_path": null,
+            "note": "Predlog palete; nije liturgijski propis niti implementirana sistemska pozadina."
+          },
+          "prayer_title": "Molitva pre spavanja"
+        }
+      ]
+    },
+    {
+      "id": "general-day-2",
+      "cycle_day": 2,
+      "title": "Dan 2",
+      "theme": "Uzdanje",
+      "slots": [
+        {
+          "id": "general-day-2-morning",
+          "phase": "morning",
+          "phase_label": "Jutro",
+          "title": "Dobrota na početku dana",
+          "quote": {
+            "text": "Ujutru nas nasiti dobrote svoje, i radovaćemo se i veseliti u sve dane svoje.",
+            "kind": "scripture_quote",
+            "is_paraphrase": false,
+            "source_page": "PSA090",
+            "psalm_id": "psalm-90",
+            "verse_numbers": [
+              14
+            ],
+            "reference": "Ps 90,14 · Daničić",
+            "numbering": "DANICIC_EBIBLE_SRP1868",
+            "lxx_psalm_number": 89,
+            "lxx_verse_mapping": null,
+            "lxx_note": "Odgovarajući psalam u LXX: 89. Ovo ne menja prevod ni numeraciju stihova citiranog izdanja.",
+            "translation_id": "danicic-ebible-srp1868",
+            "source_id": "EBIBLE-PSA090",
+            "source_url": "https://ebible.org/srp1868/PSA090.htm#V14"
+          },
+          "prayer_id": "our-father",
+          "actions": {
+            "primary": {
+              "type": "open_local_psalm",
+              "label": "Pročitaj psalam",
+              "target_id": "psalm-90",
+              "highlight_verses": [
+                14
+              ]
+            },
+            "secondary": {
+              "type": "open_local_prayer",
+              "label": "Pročitaj molitvu",
+              "target_id": "our-father"
+            },
+            "source": {
+              "type": "open_local_source",
+              "label": "Izvor i izdanje",
+              "target_id": "EBIBLE-PSA090"
+            }
+          },
+          "widget": {
+            "quote_ref": "quote.text",
+            "reference_ref": "quote.reference",
+            "tap_action_ref": "actions.primary",
+            "prayer_action_ref": "actions.secondary",
+            "full_quote_required": true,
+            "small_widget_policy": "Referenca i dugme za čitanje; ne odsecati stih tako da mu se promeni smisao."
+          },
+          "wallpaper": {
+            "background": [
+              "#172D3D",
+              "#3A5867"
+            ],
+            "accent": "#E9C88A",
+            "quote_ref": "quote.text",
+            "reference_ref": "quote.reference",
+            "sync_with_slot_id": "general-day-2-morning",
+            "static_image_is_interactive": false,
+            "generated_image_path": null,
+            "note": "Predlog palete; nije liturgijski propis niti implementirana sistemska pozadina."
+          },
+          "prayer_title": "Oče naš"
+        },
+        {
+          "id": "general-day-2-noon",
+          "phase": "noon",
+          "phase_label": "Podne",
+          "title": "Utočište",
+          "quote": {
+            "text": "Bog nam je utočište i sila, pomoćnik, koji se u nevoljama brzo nalazi.",
+            "kind": "scripture_quote",
+            "is_paraphrase": false,
+            "source_page": "PSA046",
+            "psalm_id": "psalm-46",
+            "verse_numbers": [
+              1
+            ],
+            "reference": "Ps 46,1 · Daničić",
+            "numbering": "DANICIC_EBIBLE_SRP1868",
+            "lxx_psalm_number": 45,
+            "lxx_verse_mapping": null,
+            "lxx_note": "Odgovarajući psalam u LXX: 45. Ovo ne menja prevod ni numeraciju stihova citiranog izdanja.",
+            "translation_id": "danicic-ebible-srp1868",
+            "source_id": "EBIBLE-PSA046",
+            "source_url": "https://ebible.org/srp1868/PSA046.htm#V1"
+          },
+          "prayer_id": "publican-prayer",
+          "actions": {
+            "primary": {
+              "type": "open_local_psalm",
+              "label": "Pročitaj psalam",
+              "target_id": "psalm-46",
+              "highlight_verses": [
+                1
+              ]
+            },
+            "secondary": {
+              "type": "open_local_prayer",
+              "label": "Pročitaj molitvu",
+              "target_id": "publican-prayer"
+            },
+            "source": {
+              "type": "open_local_source",
+              "label": "Izvor i izdanje",
+              "target_id": "EBIBLE-PSA046"
+            }
+          },
+          "widget": {
+            "quote_ref": "quote.text",
+            "reference_ref": "quote.reference",
+            "tap_action_ref": "actions.primary",
+            "prayer_action_ref": "actions.secondary",
+            "full_quote_required": true,
+            "small_widget_policy": "Referenca i dugme za čitanje; ne odsecati stih tako da mu se promeni smisao."
+          },
+          "wallpaper": {
+            "background": [
+              "#173933",
+              "#3E6250"
+            ],
+            "accent": "#D9DCB1",
+            "quote_ref": "quote.text",
+            "reference_ref": "quote.reference",
+            "sync_with_slot_id": "general-day-2-noon",
+            "static_image_is_interactive": false,
+            "generated_image_path": null,
+            "note": "Predlog palete; nije liturgijski propis niti implementirana sistemska pozadina."
+          },
+          "prayer_title": "Molitva carinika"
+        },
+        {
+          "id": "general-day-2-evening",
+          "phase": "evening",
+          "phase_label": "Veče",
+          "title": "Pod Božjim zaklonom",
+          "quote": {
+            "text": "Koji živi u zaklonu Višnjeg, u senu Svemogućeg počiva.",
+            "kind": "scripture_quote",
+            "is_paraphrase": false,
+            "source_page": "PSA091",
+            "psalm_id": "psalm-91",
+            "verse_numbers": [
+              1
+            ],
+            "reference": "Ps 91,1 · Daničić",
+            "numbering": "DANICIC_EBIBLE_SRP1868",
+            "lxx_psalm_number": 90,
+            "lxx_verse_mapping": null,
+            "lxx_note": "Odgovarajući psalam u LXX: 90. Ovo ne menja prevod ni numeraciju stihova citiranog izdanja.",
+            "translation_id": "danicic-ebible-srp1868",
+            "source_id": "EBIBLE-PSA091",
+            "source_url": "https://ebible.org/srp1868/PSA091.htm#V1"
+          },
+          "prayer_id": "simeon-prayer",
+          "actions": {
+            "primary": {
+              "type": "open_local_psalm",
+              "label": "Pročitaj psalam",
+              "target_id": "psalm-91",
+              "highlight_verses": [
+                1
+              ]
+            },
+            "secondary": {
+              "type": "open_local_prayer",
+              "label": "Pročitaj molitvu",
+              "target_id": "simeon-prayer"
+            },
+            "source": {
+              "type": "open_local_source",
+              "label": "Izvor i izdanje",
+              "target_id": "EBIBLE-PSA091"
+            }
+          },
+          "widget": {
+            "quote_ref": "quote.text",
+            "reference_ref": "quote.reference",
+            "tap_action_ref": "actions.primary",
+            "prayer_action_ref": "actions.secondary",
+            "full_quote_required": true,
+            "small_widget_policy": "Referenca i dugme za čitanje; ne odsecati stih tako da mu se promeni smisao."
+          },
+          "wallpaper": {
+            "background": [
+              "#17192E",
+              "#38334F"
+            ],
+            "accent": "#CCC2E6",
+            "quote_ref": "quote.text",
+            "reference_ref": "quote.reference",
+            "sync_with_slot_id": "general-day-2-evening",
+            "static_image_is_interactive": false,
+            "generated_image_path": null,
+            "note": "Predlog palete; nije liturgijski propis niti implementirana sistemska pozadina."
+          },
+          "prayer_title": "Simeonova molitva"
+        }
+      ]
+    },
+    {
+      "id": "general-day-3",
+      "cycle_day": 3,
+      "title": "Dan 3",
+      "theme": "Svetlost za put",
+      "slots": [
+        {
+          "id": "general-day-3-morning",
+          "phase": "morning",
+          "phase_label": "Jutro",
+          "title": "Radost novog dana",
+          "quote": {
+            "text": "Evo dan, koji stvori Gospod! Radujmo se i veselimo se u nj!",
+            "kind": "scripture_quote",
+            "is_paraphrase": false,
+            "source_page": "PSA118",
+            "psalm_id": "psalm-118",
+            "verse_numbers": [
+              24
+            ],
+            "reference": "Ps 118,24 · Daničić",
+            "numbering": "DANICIC_EBIBLE_SRP1868",
+            "lxx_psalm_number": 117,
+            "lxx_verse_mapping": null,
+            "lxx_note": "Odgovarajući psalam u LXX: 117. Ovo ne menja prevod ni numeraciju stihova citiranog izdanja.",
+            "translation_id": "danicic-ebible-srp1868",
+            "source_id": "EBIBLE-PSA118",
+            "source_url": "https://ebible.org/srp1868/PSA118.htm#V24"
+          },
+          "prayer_id": "trisagion",
+          "actions": {
+            "primary": {
+              "type": "open_local_psalm",
+              "label": "Pročitaj psalam",
+              "target_id": "psalm-118",
+              "highlight_verses": [
+                24
+              ]
+            },
+            "secondary": {
+              "type": "open_local_prayer",
+              "label": "Pročitaj molitvu",
+              "target_id": "trisagion"
+            },
+            "source": {
+              "type": "open_local_source",
+              "label": "Izvor i izdanje",
+              "target_id": "EBIBLE-PSA118"
+            }
+          },
+          "widget": {
+            "quote_ref": "quote.text",
+            "reference_ref": "quote.reference",
+            "tap_action_ref": "actions.primary",
+            "prayer_action_ref": "actions.secondary",
+            "full_quote_required": true,
+            "small_widget_policy": "Referenca i dugme za čitanje; ne odsecati stih tako da mu se promeni smisao."
+          },
+          "wallpaper": {
+            "background": [
+              "#172D3D",
+              "#3A5867"
+            ],
+            "accent": "#E9C88A",
+            "quote_ref": "quote.text",
+            "reference_ref": "quote.reference",
+            "sync_with_slot_id": "general-day-3-morning",
+            "static_image_is_interactive": false,
+            "generated_image_path": null,
+            "note": "Predlog palete; nije liturgijski propis niti implementirana sistemska pozadina."
+          },
+          "prayer_title": "Sveti Bože"
+        },
+        {
+          "id": "general-day-3-noon",
+          "phase": "noon",
+          "phase_label": "Podne",
+          "title": "Svetlost za korak",
+          "quote": {
+            "text": "Reč je Tvoja žižak nozi mojoj, i videlo stazi mojoj.",
+            "kind": "scripture_quote",
+            "is_paraphrase": false,
+            "source_page": "PSA119",
+            "psalm_id": "psalm-119",
+            "verse_numbers": [
+              105
+            ],
+            "reference": "Ps 119,105 · Daničić",
+            "numbering": "DANICIC_EBIBLE_SRP1868",
+            "lxx_psalm_number": 118,
+            "lxx_verse_mapping": null,
+            "lxx_note": "Odgovarajući psalam u LXX: 118. Ovo ne menja prevod ni numeraciju stihova citiranog izdanja.",
+            "translation_id": "danicic-ebible-srp1868",
+            "source_id": "EBIBLE-PSA119",
+            "source_url": "https://ebible.org/srp1868/PSA119.htm#V105"
+          },
+          "prayer_id": "trinity-hope",
+          "actions": {
+            "primary": {
+              "type": "open_local_psalm",
+              "label": "Pročitaj psalam",
+              "target_id": "psalm-119",
+              "highlight_verses": [
+                105
+              ]
+            },
+            "secondary": {
+              "type": "open_local_prayer",
+              "label": "Pročitaj molitvu",
+              "target_id": "trinity-hope"
+            },
+            "source": {
+              "type": "open_local_source",
+              "label": "Izvor i izdanje",
+              "target_id": "EBIBLE-PSA119"
+            }
+          },
+          "widget": {
+            "quote_ref": "quote.text",
+            "reference_ref": "quote.reference",
+            "tap_action_ref": "actions.primary",
+            "prayer_action_ref": "actions.secondary",
+            "full_quote_required": true,
+            "small_widget_policy": "Referenca i dugme za čitanje; ne odsecati stih tako da mu se promeni smisao."
+          },
+          "wallpaper": {
+            "background": [
+              "#173933",
+              "#3E6250"
+            ],
+            "accent": "#D9DCB1",
+            "quote_ref": "quote.text",
+            "reference_ref": "quote.reference",
+            "sync_with_slot_id": "general-day-3-noon",
+            "static_image_is_interactive": false,
+            "generated_image_path": null,
+            "note": "Predlog palete; nije liturgijski propis niti implementirana sistemska pozadina."
+          },
+          "prayer_title": "Nadanje je moje Otac"
+        },
+        {
+          "id": "general-day-3-evening",
+          "phase": "evening",
+          "phase_label": "Veče",
+          "title": "San i buđenje",
+          "quote": {
+            "text": "Ja ležem, spavam i ustajem, jer me Gospod čuva.",
+            "kind": "scripture_quote",
+            "is_paraphrase": false,
+            "source_page": "PSA003",
+            "psalm_id": "psalm-3",
+            "verse_numbers": [
+              5
+            ],
+            "reference": "Ps 3,5 · Daničić",
+            "numbering": "DANICIC_EBIBLE_SRP1868",
+            "lxx_psalm_number": 3,
+            "lxx_verse_mapping": null,
+            "lxx_note": "Odgovarajući psalam u LXX: 3. Ovo ne menja prevod ni numeraciju stihova citiranog izdanja.",
+            "translation_id": "danicic-ebible-srp1868",
+            "source_id": "EBIBLE-PSA003",
+            "source_url": "https://ebible.org/srp1868/PSA003.htm#V5"
+          },
+          "prayer_id": "guardian-angel",
+          "actions": {
+            "primary": {
+              "type": "open_local_psalm",
+              "label": "Pročitaj psalam",
+              "target_id": "psalm-3",
+              "highlight_verses": [
+                5
+              ]
+            },
+            "secondary": {
+              "type": "open_local_prayer",
+              "label": "Pročitaj molitvu",
+              "target_id": "guardian-angel"
+            },
+            "source": {
+              "type": "open_local_source",
+              "label": "Izvor i izdanje",
+              "target_id": "EBIBLE-PSA003"
+            }
+          },
+          "widget": {
+            "quote_ref": "quote.text",
+            "reference_ref": "quote.reference",
+            "tap_action_ref": "actions.primary",
+            "prayer_action_ref": "actions.secondary",
+            "full_quote_required": true,
+            "small_widget_policy": "Referenca i dugme za čitanje; ne odsecati stih tako da mu se promeni smisao."
+          },
+          "wallpaper": {
+            "background": [
+              "#17192E",
+              "#38334F"
+            ],
+            "accent": "#CCC2E6",
+            "quote_ref": "quote.text",
+            "reference_ref": "quote.reference",
+            "sync_with_slot_id": "general-day-3-evening",
+            "static_image_is_interactive": false,
+            "generated_image_path": null,
+            "note": "Predlog palete; nije liturgijski propis niti implementirana sistemska pozadina."
+          },
+          "prayer_title": "Molitva anđelu čuvaru"
+        }
+      ]
+    },
+    {
+      "id": "general-day-4",
+      "cycle_day": 4,
+      "title": "Dan 4",
+      "theme": "Traženje Boga",
+      "slots": [
+        {
+          "id": "general-day-4-morning",
+          "phase": "morning",
+          "phase_label": "Jutro",
+          "title": "Traženje Boga",
+          "quote": {
+            "text": "Bože! Ti si Bog moj, k Tebi ranim, žedna je Tebe duša moja, za Tobom čezne telo moje u zemlji suvoj, žednoj i bezvodnoj.",
+            "kind": "scripture_quote",
+            "is_paraphrase": false,
+            "source_page": "PSA063",
+            "psalm_id": "psalm-63",
+            "verse_numbers": [
+              1
+            ],
+            "reference": "Ps 63,1 · Daničić",
+            "numbering": "DANICIC_EBIBLE_SRP1868",
+            "lxx_psalm_number": 62,
+            "lxx_verse_mapping": null,
+            "lxx_note": "Odgovarajući psalam u LXX: 62. Ovo ne menja prevod ni numeraciju stihova citiranog izdanja.",
+            "translation_id": "danicic-ebible-srp1868",
+            "source_id": "EBIBLE-PSA063",
+            "source_url": "https://ebible.org/srp1868/PSA063.htm#V1"
+          },
+          "prayer_id": "theotokos-greeting",
+          "actions": {
+            "primary": {
+              "type": "open_local_psalm",
+              "label": "Pročitaj psalam",
+              "target_id": "psalm-63",
+              "highlight_verses": [
+                1
+              ]
+            },
+            "secondary": {
+              "type": "open_local_prayer",
+              "label": "Pročitaj molitvu",
+              "target_id": "theotokos-greeting"
+            },
+            "source": {
+              "type": "open_local_source",
+              "label": "Izvor i izdanje",
+              "target_id": "EBIBLE-PSA063"
+            }
+          },
+          "widget": {
+            "quote_ref": "quote.text",
+            "reference_ref": "quote.reference",
+            "tap_action_ref": "actions.primary",
+            "prayer_action_ref": "actions.secondary",
+            "full_quote_required": true,
+            "small_widget_policy": "Referenca i dugme za čitanje; ne odsecati stih tako da mu se promeni smisao."
+          },
+          "wallpaper": {
+            "background": [
+              "#172D3D",
+              "#3A5867"
+            ],
+            "accent": "#E9C88A",
+            "quote_ref": "quote.text",
+            "reference_ref": "quote.reference",
+            "sync_with_slot_id": "general-day-4-morning",
+            "static_image_is_interactive": false,
+            "generated_image_path": null,
+            "note": "Predlog palete; nije liturgijski propis niti implementirana sistemska pozadina."
+          },
+          "prayer_title": "Bogorodice Devo"
+        },
+        {
+          "id": "general-day-4-noon",
+          "phase": "noon",
+          "phase_label": "Podne",
+          "title": "Pomoć od Gospoda",
+          "quote": {
+            "text": "Pomoć je meni od Gospoda, koji je stvorio nebo i zemlju.",
+            "kind": "scripture_quote",
+            "is_paraphrase": false,
+            "source_page": "PSA121",
+            "psalm_id": "psalm-121",
+            "verse_numbers": [
+              2
+            ],
+            "reference": "Ps 121,2 · Daničić",
+            "numbering": "DANICIC_EBIBLE_SRP1868",
+            "lxx_psalm_number": 120,
+            "lxx_verse_mapping": null,
+            "lxx_note": "Odgovarajući psalam u LXX: 120. Ovo ne menja prevod ni numeraciju stihova citiranog izdanja.",
+            "translation_id": "danicic-ebible-srp1868",
+            "source_id": "EBIBLE-PSA121",
+            "source_url": "https://ebible.org/srp1868/PSA121.htm#V2"
+          },
+          "prayer_id": "publican-prayer",
+          "actions": {
+            "primary": {
+              "type": "open_local_psalm",
+              "label": "Pročitaj psalam",
+              "target_id": "psalm-121",
+              "highlight_verses": [
+                2
+              ]
+            },
+            "secondary": {
+              "type": "open_local_prayer",
+              "label": "Pročitaj molitvu",
+              "target_id": "publican-prayer"
+            },
+            "source": {
+              "type": "open_local_source",
+              "label": "Izvor i izdanje",
+              "target_id": "EBIBLE-PSA121"
+            }
+          },
+          "widget": {
+            "quote_ref": "quote.text",
+            "reference_ref": "quote.reference",
+            "tap_action_ref": "actions.primary",
+            "prayer_action_ref": "actions.secondary",
+            "full_quote_required": true,
+            "small_widget_policy": "Referenca i dugme za čitanje; ne odsecati stih tako da mu se promeni smisao."
+          },
+          "wallpaper": {
+            "background": [
+              "#173933",
+              "#3E6250"
+            ],
+            "accent": "#D9DCB1",
+            "quote_ref": "quote.text",
+            "reference_ref": "quote.reference",
+            "sync_with_slot_id": "general-day-4-noon",
+            "static_image_is_interactive": false,
+            "generated_image_path": null,
+            "note": "Predlog palete; nije liturgijski propis niti implementirana sistemska pozadina."
+          },
+          "prayer_title": "Molitva carinika"
+        },
+        {
+          "id": "general-day-4-evening",
+          "phase": "evening",
+          "phase_label": "Veče",
+          "title": "Mir duši",
+          "quote": {
+            "text": "Ta, u Boga je mir duši mojoj, od Njega je spasenje moje!",
+            "kind": "scripture_quote",
+            "is_paraphrase": false,
+            "source_page": "PSA062",
+            "psalm_id": "psalm-62",
+            "verse_numbers": [
+              1
+            ],
+            "reference": "Ps 62,1 · Daničić",
+            "numbering": "DANICIC_EBIBLE_SRP1868",
+            "lxx_psalm_number": 61,
+            "lxx_verse_mapping": null,
+            "lxx_note": "Odgovarajući psalam u LXX: 61. Ovo ne menja prevod ni numeraciju stihova citiranog izdanja.",
+            "translation_id": "danicic-ebible-srp1868",
+            "source_id": "EBIBLE-PSA062",
+            "source_url": "https://ebible.org/srp1868/PSA062.htm#V1"
+          },
+          "prayer_id": "bedtime-prayer",
+          "actions": {
+            "primary": {
+              "type": "open_local_psalm",
+              "label": "Pročitaj psalam",
+              "target_id": "psalm-62",
+              "highlight_verses": [
+                1
+              ]
+            },
+            "secondary": {
+              "type": "open_local_prayer",
+              "label": "Pročitaj molitvu",
+              "target_id": "bedtime-prayer"
+            },
+            "source": {
+              "type": "open_local_source",
+              "label": "Izvor i izdanje",
+              "target_id": "EBIBLE-PSA062"
+            }
+          },
+          "widget": {
+            "quote_ref": "quote.text",
+            "reference_ref": "quote.reference",
+            "tap_action_ref": "actions.primary",
+            "prayer_action_ref": "actions.secondary",
+            "full_quote_required": true,
+            "small_widget_policy": "Referenca i dugme za čitanje; ne odsecati stih tako da mu se promeni smisao."
+          },
+          "wallpaper": {
+            "background": [
+              "#17192E",
+              "#38334F"
+            ],
+            "accent": "#CCC2E6",
+            "quote_ref": "quote.text",
+            "reference_ref": "quote.reference",
+            "sync_with_slot_id": "general-day-4-evening",
+            "static_image_is_interactive": false,
+            "generated_image_path": null,
+            "note": "Predlog palete; nije liturgijski propis niti implementirana sistemska pozadina."
+          },
+          "prayer_title": "Molitva pre spavanja"
+        }
+      ]
+    },
+    {
+      "id": "general-day-5",
+      "cycle_day": 5,
+      "title": "Dan 5",
+      "theme": "Zahvalnost",
+      "slots": [
+        {
+          "id": "general-day-5-morning",
+          "phase": "morning",
+          "phase_label": "Jutro",
+          "title": "Jutarnja zahvalnost",
+          "quote": {
+            "text": "Lepo je hvaliti Gospoda, i pevati imenu Tvom, Višnji, Javljati jutrom milost Tvoju, i istinu Tvoju noću,",
+            "kind": "scripture_quote",
+            "is_paraphrase": false,
+            "source_page": "PSA092",
+            "psalm_id": "psalm-92",
+            "verse_numbers": [
+              1,
+              2
+            ],
+            "reference": "Ps 92,1–2 · Daničić",
+            "numbering": "DANICIC_EBIBLE_SRP1868",
+            "lxx_psalm_number": 91,
+            "lxx_verse_mapping": null,
+            "lxx_note": "Odgovarajući psalam u LXX: 91. Ovo ne menja prevod ni numeraciju stihova citiranog izdanja.",
+            "translation_id": "danicic-ebible-srp1868",
+            "source_id": "EBIBLE-PSA092",
+            "source_url": "https://ebible.org/srp1868/PSA092.htm#V1"
+          },
+          "prayer_id": "morning-prayer",
+          "actions": {
+            "primary": {
+              "type": "open_local_psalm",
+              "label": "Pročitaj psalam",
+              "target_id": "psalm-92",
+              "highlight_verses": [
+                1,
+                2
+              ]
+            },
+            "secondary": {
+              "type": "open_local_prayer",
+              "label": "Pročitaj molitvu",
+              "target_id": "morning-prayer"
+            },
+            "source": {
+              "type": "open_local_source",
+              "label": "Izvor i izdanje",
+              "target_id": "EBIBLE-PSA092"
+            }
+          },
+          "widget": {
+            "quote_ref": "quote.text",
+            "reference_ref": "quote.reference",
+            "tap_action_ref": "actions.primary",
+            "prayer_action_ref": "actions.secondary",
+            "full_quote_required": true,
+            "small_widget_policy": "Referenca i dugme za čitanje; ne odsecati stih tako da mu se promeni smisao."
+          },
+          "wallpaper": {
+            "background": [
+              "#172D3D",
+              "#3A5867"
+            ],
+            "accent": "#E9C88A",
+            "quote_ref": "quote.text",
+            "reference_ref": "quote.reference",
+            "sync_with_slot_id": "general-day-5-morning",
+            "static_image_is_interactive": false,
+            "generated_image_path": null,
+            "note": "Predlog palete; nije liturgijski propis niti implementirana sistemska pozadina."
+          },
+          "prayer_title": "Jutarnja molitva"
+        },
+        {
+          "id": "general-day-5-noon",
+          "phase": "noon",
+          "phase_label": "Podne",
+          "title": "Dobrota Gospodnja",
+          "quote": {
+            "text": "Ispitajte i vidite kako je dobar Gospod; blago čoveku koji se uzda u Nj.",
+            "kind": "scripture_quote",
+            "is_paraphrase": false,
+            "source_page": "PSA034",
+            "psalm_id": "psalm-34",
+            "verse_numbers": [
+              8
+            ],
+            "reference": "Ps 34,8 · Daničić",
+            "numbering": "DANICIC_EBIBLE_SRP1868",
+            "lxx_psalm_number": 33,
+            "lxx_verse_mapping": null,
+            "lxx_note": "Odgovarajući psalam u LXX: 33. Ovo ne menja prevod ni numeraciju stihova citiranog izdanja.",
+            "translation_id": "danicic-ebible-srp1868",
+            "source_id": "EBIBLE-PSA034",
+            "source_url": "https://ebible.org/srp1868/PSA034.htm#V8"
+          },
+          "prayer_id": "trinity-hope",
+          "actions": {
+            "primary": {
+              "type": "open_local_psalm",
+              "label": "Pročitaj psalam",
+              "target_id": "psalm-34",
+              "highlight_verses": [
+                8
+              ]
+            },
+            "secondary": {
+              "type": "open_local_prayer",
+              "label": "Pročitaj molitvu",
+              "target_id": "trinity-hope"
+            },
+            "source": {
+              "type": "open_local_source",
+              "label": "Izvor i izdanje",
+              "target_id": "EBIBLE-PSA034"
+            }
+          },
+          "widget": {
+            "quote_ref": "quote.text",
+            "reference_ref": "quote.reference",
+            "tap_action_ref": "actions.primary",
+            "prayer_action_ref": "actions.secondary",
+            "full_quote_required": true,
+            "small_widget_policy": "Referenca i dugme za čitanje; ne odsecati stih tako da mu se promeni smisao."
+          },
+          "wallpaper": {
+            "background": [
+              "#173933",
+              "#3E6250"
+            ],
+            "accent": "#D9DCB1",
+            "quote_ref": "quote.text",
+            "reference_ref": "quote.reference",
+            "sync_with_slot_id": "general-day-5-noon",
+            "static_image_is_interactive": false,
+            "generated_image_path": null,
+            "note": "Predlog palete; nije liturgijski propis niti implementirana sistemska pozadina."
+          },
+          "prayer_title": "Nadanje je moje Otac"
+        },
+        {
+          "id": "general-day-5-evening",
+          "phase": "evening",
+          "phase_label": "Veče",
+          "title": "Razumevanje u tišini",
+          "quote": {
+            "text": "Blagosiljam Gospoda, koji me urazumljuje; tome me i noću uči šta je u meni.",
+            "kind": "scripture_quote",
+            "is_paraphrase": false,
+            "source_page": "PSA016",
+            "psalm_id": "psalm-16",
+            "verse_numbers": [
+              7
+            ],
+            "reference": "Ps 16,7 · Daničić",
+            "numbering": "DANICIC_EBIBLE_SRP1868",
+            "lxx_psalm_number": 15,
+            "lxx_verse_mapping": null,
+            "lxx_note": "Odgovarajući psalam u LXX: 15. Ovo ne menja prevod ni numeraciju stihova citiranog izdanja.",
+            "translation_id": "danicic-ebible-srp1868",
+            "source_id": "EBIBLE-PSA016",
+            "source_url": "https://ebible.org/srp1868/PSA016.htm#V7"
+          },
+          "prayer_id": "simeon-prayer",
+          "actions": {
+            "primary": {
+              "type": "open_local_psalm",
+              "label": "Pročitaj psalam",
+              "target_id": "psalm-16",
+              "highlight_verses": [
+                7
+              ]
+            },
+            "secondary": {
+              "type": "open_local_prayer",
+              "label": "Pročitaj molitvu",
+              "target_id": "simeon-prayer"
+            },
+            "source": {
+              "type": "open_local_source",
+              "label": "Izvor i izdanje",
+              "target_id": "EBIBLE-PSA016"
+            }
+          },
+          "widget": {
+            "quote_ref": "quote.text",
+            "reference_ref": "quote.reference",
+            "tap_action_ref": "actions.primary",
+            "prayer_action_ref": "actions.secondary",
+            "full_quote_required": true,
+            "small_widget_policy": "Referenca i dugme za čitanje; ne odsecati stih tako da mu se promeni smisao."
+          },
+          "wallpaper": {
+            "background": [
+              "#17192E",
+              "#38334F"
+            ],
+            "accent": "#CCC2E6",
+            "quote_ref": "quote.text",
+            "reference_ref": "quote.reference",
+            "sync_with_slot_id": "general-day-5-evening",
+            "static_image_is_interactive": false,
+            "generated_image_path": null,
+            "note": "Predlog palete; nije liturgijski propis niti implementirana sistemska pozadina."
+          },
+          "prayer_title": "Simeonova molitva"
+        }
+      ]
+    },
+    {
+      "id": "general-day-6",
+      "cycle_day": 6,
+      "title": "Dan 6",
+      "theme": "Oslonac",
+      "slots": [
+        {
+          "id": "general-day-6-morning",
+          "phase": "morning",
+          "phase_label": "Jutro",
+          "title": "Pesma zahvalnosti",
+          "quote": {
+            "text": "A ja ću pevati silu Tvoju, rano ujutru glasiti milost Tvoju; jer si mi bio odbrana i utočište u dan nevolje moje.",
+            "kind": "scripture_quote",
+            "is_paraphrase": false,
+            "source_page": "PSA059",
+            "psalm_id": "psalm-59",
+            "verse_numbers": [
+              16
+            ],
+            "reference": "Ps 59,16 · Daničić",
+            "numbering": "DANICIC_EBIBLE_SRP1868",
+            "lxx_psalm_number": 58,
+            "lxx_verse_mapping": null,
+            "lxx_note": "Odgovarajući psalam u LXX: 58. Ovo ne menja prevod ni numeraciju stihova citiranog izdanja.",
+            "translation_id": "danicic-ebible-srp1868",
+            "source_id": "EBIBLE-PSA059",
+            "source_url": "https://ebible.org/srp1868/PSA059.htm#V16"
+          },
+          "prayer_id": "our-father",
+          "actions": {
+            "primary": {
+              "type": "open_local_psalm",
+              "label": "Pročitaj psalam",
+              "target_id": "psalm-59",
+              "highlight_verses": [
+                16
+              ]
+            },
+            "secondary": {
+              "type": "open_local_prayer",
+              "label": "Pročitaj molitvu",
+              "target_id": "our-father"
+            },
+            "source": {
+              "type": "open_local_source",
+              "label": "Izvor i izdanje",
+              "target_id": "EBIBLE-PSA059"
+            }
+          },
+          "widget": {
+            "quote_ref": "quote.text",
+            "reference_ref": "quote.reference",
+            "tap_action_ref": "actions.primary",
+            "prayer_action_ref": "actions.secondary",
+            "full_quote_required": true,
+            "small_widget_policy": "Referenca i dugme za čitanje; ne odsecati stih tako da mu se promeni smisao."
+          },
+          "wallpaper": {
+            "background": [
+              "#172D3D",
+              "#3A5867"
+            ],
+            "accent": "#E9C88A",
+            "quote_ref": "quote.text",
+            "reference_ref": "quote.reference",
+            "sync_with_slot_id": "general-day-6-morning",
+            "static_image_is_interactive": false,
+            "generated_image_path": null,
+            "note": "Predlog palete; nije liturgijski propis niti implementirana sistemska pozadina."
+          },
+          "prayer_title": "Oče naš"
+        },
+        {
+          "id": "general-day-6-noon",
+          "phase": "noon",
+          "phase_label": "Podne",
+          "title": "Predaj breme",
+          "quote": {
+            "text": "Stavi na Gospoda breme svoje, i On će te potkrepiti. Neće dati doveka pravedniku da posrne.",
+            "kind": "scripture_quote",
+            "is_paraphrase": false,
+            "source_page": "PSA055",
+            "psalm_id": "psalm-55",
+            "verse_numbers": [
+              22
+            ],
+            "reference": "Ps 55,22 · Daničić",
+            "numbering": "DANICIC_EBIBLE_SRP1868",
+            "lxx_psalm_number": 54,
+            "lxx_verse_mapping": null,
+            "lxx_note": "Odgovarajući psalam u LXX: 54. Ovo ne menja prevod ni numeraciju stihova citiranog izdanja.",
+            "translation_id": "danicic-ebible-srp1868",
+            "source_id": "EBIBLE-PSA055",
+            "source_url": "https://ebible.org/srp1868/PSA055.htm#V22"
+          },
+          "prayer_id": "publican-prayer",
+          "actions": {
+            "primary": {
+              "type": "open_local_psalm",
+              "label": "Pročitaj psalam",
+              "target_id": "psalm-55",
+              "highlight_verses": [
+                22
+              ]
+            },
+            "secondary": {
+              "type": "open_local_prayer",
+              "label": "Pročitaj molitvu",
+              "target_id": "publican-prayer"
+            },
+            "source": {
+              "type": "open_local_source",
+              "label": "Izvor i izdanje",
+              "target_id": "EBIBLE-PSA055"
+            }
+          },
+          "widget": {
+            "quote_ref": "quote.text",
+            "reference_ref": "quote.reference",
+            "tap_action_ref": "actions.primary",
+            "prayer_action_ref": "actions.secondary",
+            "full_quote_required": true,
+            "small_widget_policy": "Referenca i dugme za čitanje; ne odsecati stih tako da mu se promeni smisao."
+          },
+          "wallpaper": {
+            "background": [
+              "#173933",
+              "#3E6250"
+            ],
+            "accent": "#D9DCB1",
+            "quote_ref": "quote.text",
+            "reference_ref": "quote.reference",
+            "sync_with_slot_id": "general-day-6-noon",
+            "static_image_is_interactive": false,
+            "generated_image_path": null,
+            "note": "Predlog palete; nije liturgijski propis niti implementirana sistemska pozadina."
+          },
+          "prayer_title": "Molitva carinika"
+        },
+        {
+          "id": "general-day-6-evening",
+          "phase": "evening",
+          "phase_label": "Veče",
+          "title": "Onaj koji bdi",
+          "quote": {
+            "text": "Gle, ne dremlje i ne spava čuvar Izrailjev.",
+            "kind": "scripture_quote",
+            "is_paraphrase": false,
+            "source_page": "PSA121",
+            "psalm_id": "psalm-121",
+            "verse_numbers": [
+              4
+            ],
+            "reference": "Ps 121,4 · Daničić",
+            "numbering": "DANICIC_EBIBLE_SRP1868",
+            "lxx_psalm_number": 120,
+            "lxx_verse_mapping": null,
+            "lxx_note": "Odgovarajući psalam u LXX: 120. Ovo ne menja prevod ni numeraciju stihova citiranog izdanja.",
+            "translation_id": "danicic-ebible-srp1868",
+            "source_id": "EBIBLE-PSA121",
+            "source_url": "https://ebible.org/srp1868/PSA121.htm#V4"
+          },
+          "prayer_id": "guardian-angel",
+          "actions": {
+            "primary": {
+              "type": "open_local_psalm",
+              "label": "Pročitaj psalam",
+              "target_id": "psalm-121",
+              "highlight_verses": [
+                4
+              ]
+            },
+            "secondary": {
+              "type": "open_local_prayer",
+              "label": "Pročitaj molitvu",
+              "target_id": "guardian-angel"
+            },
+            "source": {
+              "type": "open_local_source",
+              "label": "Izvor i izdanje",
+              "target_id": "EBIBLE-PSA121"
+            }
+          },
+          "widget": {
+            "quote_ref": "quote.text",
+            "reference_ref": "quote.reference",
+            "tap_action_ref": "actions.primary",
+            "prayer_action_ref": "actions.secondary",
+            "full_quote_required": true,
+            "small_widget_policy": "Referenca i dugme za čitanje; ne odsecati stih tako da mu se promeni smisao."
+          },
+          "wallpaper": {
+            "background": [
+              "#17192E",
+              "#38334F"
+            ],
+            "accent": "#CCC2E6",
+            "quote_ref": "quote.text",
+            "reference_ref": "quote.reference",
+            "sync_with_slot_id": "general-day-6-evening",
+            "static_image_is_interactive": false,
+            "generated_image_path": null,
+            "note": "Predlog palete; nije liturgijski propis niti implementirana sistemska pozadina."
+          },
+          "prayer_title": "Molitva anđelu čuvaru"
+        }
+      ]
+    },
+    {
+      "id": "general-day-7",
+      "cycle_day": 7,
+      "title": "Dan 7",
+      "theme": "Mir",
+      "slots": [
+        {
+          "id": "general-day-7-morning",
+          "phase": "morning",
+          "phase_label": "Jutro",
+          "title": "Spremno srce",
+          "quote": {
+            "text": "Gotovo je srce moje, Bože; pevaću i hvaliću zajedno sa slavom svojom.",
+            "kind": "scripture_quote",
+            "is_paraphrase": false,
+            "source_page": "PSA108",
+            "psalm_id": "psalm-108",
+            "verse_numbers": [
+              1
+            ],
+            "reference": "Ps 108,1 · Daničić",
+            "numbering": "DANICIC_EBIBLE_SRP1868",
+            "lxx_psalm_number": 107,
+            "lxx_verse_mapping": null,
+            "lxx_note": "Odgovarajući psalam u LXX: 107. Ovo ne menja prevod ni numeraciju stihova citiranog izdanja.",
+            "translation_id": "danicic-ebible-srp1868",
+            "source_id": "EBIBLE-PSA108",
+            "source_url": "https://ebible.org/srp1868/PSA108.htm#V1"
+          },
+          "prayer_id": "trisagion",
+          "actions": {
+            "primary": {
+              "type": "open_local_psalm",
+              "label": "Pročitaj psalam",
+              "target_id": "psalm-108",
+              "highlight_verses": [
+                1
+              ]
+            },
+            "secondary": {
+              "type": "open_local_prayer",
+              "label": "Pročitaj molitvu",
+              "target_id": "trisagion"
+            },
+            "source": {
+              "type": "open_local_source",
+              "label": "Izvor i izdanje",
+              "target_id": "EBIBLE-PSA108"
+            }
+          },
+          "widget": {
+            "quote_ref": "quote.text",
+            "reference_ref": "quote.reference",
+            "tap_action_ref": "actions.primary",
+            "prayer_action_ref": "actions.secondary",
+            "full_quote_required": true,
+            "small_widget_policy": "Referenca i dugme za čitanje; ne odsecati stih tako da mu se promeni smisao."
+          },
+          "wallpaper": {
+            "background": [
+              "#172D3D",
+              "#3A5867"
+            ],
+            "accent": "#E9C88A",
+            "quote_ref": "quote.text",
+            "reference_ref": "quote.reference",
+            "sync_with_slot_id": "general-day-7-morning",
+            "static_image_is_interactive": false,
+            "generated_image_path": null,
+            "note": "Predlog palete; nije liturgijski propis niti implementirana sistemska pozadina."
+          },
+          "prayer_title": "Sveti Bože"
+        },
+        {
+          "id": "general-day-7-noon",
+          "phase": "noon",
+          "phase_label": "Podne",
+          "title": "Put poverenja",
+          "quote": {
+            "text": "Predaj Gospodu put svoj, i uzdaj se u Njega, On će učiniti.",
+            "kind": "scripture_quote",
+            "is_paraphrase": false,
+            "source_page": "PSA037",
+            "psalm_id": "psalm-37",
+            "verse_numbers": [
+              5
+            ],
+            "reference": "Ps 37,5 · Daničić",
+            "numbering": "DANICIC_EBIBLE_SRP1868",
+            "lxx_psalm_number": 36,
+            "lxx_verse_mapping": null,
+            "lxx_note": "Odgovarajući psalam u LXX: 36. Ovo ne menja prevod ni numeraciju stihova citiranog izdanja.",
+            "translation_id": "danicic-ebible-srp1868",
+            "source_id": "EBIBLE-PSA037",
+            "source_url": "https://ebible.org/srp1868/PSA037.htm#V5"
+          },
+          "prayer_id": "trinity-hope",
+          "actions": {
+            "primary": {
+              "type": "open_local_psalm",
+              "label": "Pročitaj psalam",
+              "target_id": "psalm-37",
+              "highlight_verses": [
+                5
+              ]
+            },
+            "secondary": {
+              "type": "open_local_prayer",
+              "label": "Pročitaj molitvu",
+              "target_id": "trinity-hope"
+            },
+            "source": {
+              "type": "open_local_source",
+              "label": "Izvor i izdanje",
+              "target_id": "EBIBLE-PSA037"
+            }
+          },
+          "widget": {
+            "quote_ref": "quote.text",
+            "reference_ref": "quote.reference",
+            "tap_action_ref": "actions.primary",
+            "prayer_action_ref": "actions.secondary",
+            "full_quote_required": true,
+            "small_widget_policy": "Referenca i dugme za čitanje; ne odsecati stih tako da mu se promeni smisao."
+          },
+          "wallpaper": {
+            "background": [
+              "#173933",
+              "#3E6250"
+            ],
+            "accent": "#D9DCB1",
+            "quote_ref": "quote.text",
+            "reference_ref": "quote.reference",
+            "sync_with_slot_id": "general-day-7-noon",
+            "static_image_is_interactive": false,
+            "generated_image_path": null,
+            "note": "Predlog palete; nije liturgijski propis niti implementirana sistemska pozadina."
+          },
+          "prayer_title": "Nadanje je moje Otac"
+        },
+        {
+          "id": "general-day-7-evening",
+          "phase": "evening",
+          "phase_label": "Veče",
+          "title": "U Božje ruke",
+          "quote": {
+            "text": "U Tvoju ruku predajem duh svoj; izbavljao si me, Gospode, Bože istiniti!",
+            "kind": "scripture_quote",
+            "is_paraphrase": false,
+            "source_page": "PSA031",
+            "psalm_id": "psalm-31",
+            "verse_numbers": [
+              5
+            ],
+            "reference": "Ps 31,5 · Daničić",
+            "numbering": "DANICIC_EBIBLE_SRP1868",
+            "lxx_psalm_number": 30,
+            "lxx_verse_mapping": null,
+            "lxx_note": "Odgovarajući psalam u LXX: 30. Ovo ne menja prevod ni numeraciju stihova citiranog izdanja.",
+            "translation_id": "danicic-ebible-srp1868",
+            "source_id": "EBIBLE-PSA031",
+            "source_url": "https://ebible.org/srp1868/PSA031.htm#V5"
+          },
+          "prayer_id": "bedtime-prayer",
+          "actions": {
+            "primary": {
+              "type": "open_local_psalm",
+              "label": "Pročitaj psalam",
+              "target_id": "psalm-31",
+              "highlight_verses": [
+                5
+              ]
+            },
+            "secondary": {
+              "type": "open_local_prayer",
+              "label": "Pročitaj molitvu",
+              "target_id": "bedtime-prayer"
+            },
+            "source": {
+              "type": "open_local_source",
+              "label": "Izvor i izdanje",
+              "target_id": "EBIBLE-PSA031"
+            }
+          },
+          "widget": {
+            "quote_ref": "quote.text",
+            "reference_ref": "quote.reference",
+            "tap_action_ref": "actions.primary",
+            "prayer_action_ref": "actions.secondary",
+            "full_quote_required": true,
+            "small_widget_policy": "Referenca i dugme za čitanje; ne odsecati stih tako da mu se promeni smisao."
+          },
+          "wallpaper": {
+            "background": [
+              "#17192E",
+              "#38334F"
+            ],
+            "accent": "#CCC2E6",
+            "quote_ref": "quote.text",
+            "reference_ref": "quote.reference",
+            "sync_with_slot_id": "general-day-7-evening",
+            "static_image_is_interactive": false,
+            "generated_image_path": null,
+            "note": "Predlog palete; nije liturgijski propis niti implementirana sistemska pozadina."
+          },
+          "prayer_title": "Molitva pre spavanja"
+        }
+      ]
+    }
+  ],
+  "delivery": {
+    "reading_mode": "in_app_only",
+    "offline_required": true,
+    "external_navigation_enabled": false,
+    "remote_content_fetch_required": false,
+    "source_urls_purpose": "bibliographic_metadata_only",
+    "missing_content_policy": "Prikaži lokalnu poruku o grešci; ne otvaraj veb-sajt i ne generiši zamenski tekst."
+  },
+  "library_actions": {
+    "psalms": {
+      "type": "open_local_library",
+      "target_id": "psalms",
+      "label": "Psalmi"
+    },
+    "prayers": {
+      "type": "open_local_library",
+      "target_id": "prayers",
+      "label": "Molitvenik"
+    }
+  },
+  "release_allowed": false,
+  "role": "migration_reference_only"
+}

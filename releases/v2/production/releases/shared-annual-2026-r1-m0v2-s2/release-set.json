@@ -1,0 +1,47 @@
+{
+  "schema_version": "svetlost33-release-set-2",
+  "release_set_id": "shared-annual-2026-r1-m0v2-s2",
+  "sequence": 2,
+  "channel": "production",
+  "key_id": "svetlost33-content-2026-key-1",
+  "approved_platforms": [
+    "android",
+    "ios"
+  ],
+  "min_clients": {
+    "android": 10,
+    "ios": "0.1.0"
+  },
+  "modules": [
+    {
+      "module_id": "library-annual-2026-r1",
+      "module_type": "library",
+      "version": "2026.1.1",
+      "required": true,
+      "manifest_path": "releases/shared-annual-2026-r1-m0v2-s2/modules/library-annual-2026-r1-2026.1.1-r2/manifest.json",
+      "manifest_bytes": 3329,
+      "manifest_sha256": "5247bedb3d3deaf5f81601ff2f7a274417b0ce11ac1cebbb3f4b518cd26ee16d",
+      "signature_path": "releases/shared-annual-2026-r1-m0v2-s2/modules/library-annual-2026-r1-2026.1.1-r2/manifest.sig"
+    },
+    {
+      "module_id": "daily-cycles-r1",
+      "module_type": "cycles",
+      "version": "2026.1.1",
+      "required": true,
+      "manifest_path": "releases/shared-annual-2026-r1-m0v2-s2/modules/daily-cycles-r1-2026.1.1-r2/manifest.json",
+      "manifest_bytes": 870,
+      "manifest_sha256": "91cff26f0a872afc654d1f5086bbdc78786c106f8e3c6e88830647112d1e600e",
+      "signature_path": "releases/shared-annual-2026-r1-m0v2-s2/modules/daily-cycles-r1-2026.1.1-r2/manifest.sig"
+    },
+    {
+      "module_id": "calendar-2026-r1",
+      "module_type": "calendar",
+      "version": "2026.1.1",
+      "required": true,
+      "manifest_path": "releases/shared-annual-2026-r1-m0v2-s2/modules/calendar-2026-r1-2026.1.1-r2/manifest.json",
+      "manifest_bytes": 630,
+      "manifest_sha256": "11e5d8b92ebbacd40ae6d0bad861c85a2df8220cd0b1091a2b7522754d538905",
+      "signature_path": "releases/shared-annual-2026-r1-m0v2-s2/modules/calendar-2026-r1-2026.1.1-r2/manifest.sig"
+    }
+  ]
+}

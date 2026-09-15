@@ -1,0 +1,60 @@
+{
+  "schema_version": "svetlost33-owner-content-approval-1",
+  "approval_id": "shared-annual-2026-r1-2026-09-15",
+  "approval_type": "SHARED_CONTENT_DISTRIBUTION_AUTHORIZATION",
+  "approved_at": "2026-09-15",
+  "approved_by": "project_owner",
+  "user_statement": "želim da se jednom odobri sadržaj i bude dostupan za osveženje oba OS",
+  "approval_policy": "ONCE_PER_IMMUTABLE_CONTENT_REVISION",
+  "consumer_platforms": ["android", "ios"],
+  "territories": ["RS", "BA"],
+  "consolidates_prior_decisions": [
+    "android-annual-2026-r1-2026-09-15",
+    "ios-annual-2026-r1-2026-09-15"
+  ],
+  "source": {
+    "repository": "swanem/svetlost33-content",
+    "commit": "3b1ca8050c44afc41d52ec28a5dc53d5b7e60b19",
+    "package_id": "svetlost33-annual-2026-r1",
+    "manifest_path": "releases/legacy/annual-2026-r1/manifest.json",
+    "manifest_sha256": "adcd9c4c03fea220142c4e4e7027ffc4596d77ea44f6f248556723cbe73c640a",
+    "payload_file_count": 13,
+    "payload_identity_rule": "All entries in manifest.files retain exact content bytes, sizes, SHA-256 and source identity; no independent platform edits."
+  },
+  "authorized_content": {
+    "psalms": 150,
+    "prayers": 18,
+    "historical_prayers": 12,
+    "gospel_books": 4,
+    "locales": ["sr-Cyrl", "sr-Latn"],
+    "daily_cycle_days": 7,
+    "daily_cycle_slots": 21,
+    "calendar_year": 2026,
+    "calendar_dates": 365,
+    "local_sources_and_licenses": true
+  },
+  "preserved_limits": {
+    "radio_suggestion_dates": 173,
+    "radio_source": "Radio Slovo ljubve",
+    "unresolved_gospel_dates": 192,
+    "unknown_fasting_rule_dates": 91,
+    "unresolved_display_policy": "SHOW_NOT_CONFIRMED",
+    "complete_liturgical_schedule": false,
+    "rights_basis": "Existing r1 per-item evidence and recorded owner authorization; no new legal or ecclesiastical certification or territory expansion."
+  },
+  "not_in_this_revision": ["background_module", "organizations_and_payment_data", "new_texts_translations_or_calendar_assertions"],
+  "release_policy": {
+    "shared_release_set": true,
+    "shared_discovery_channel": true,
+    "target_platforms": ["android", "ios"],
+    "platform_specific_content_reapproval_required": false,
+    "client_compatibility_checks_required": true,
+    "platform_technical_qa_required": true,
+    "existing_signed_artifacts_immutable": true,
+    "changed_content_or_rights_requires_new_shared_approval": true,
+    "technical_metadata_only_revision_may_reuse_approval": true
+  },
+  "evidence_record_only": true,
+  "signed_runtime_release_created_by_this_record": false,
+  "publication_or_installation_performed": false
+}

@@ -1,0 +1,2482 @@
+{
+  "schema_version": "annual-library-1",
+  "package_id": "svetlost33-annual-2026-review-1",
+  "locale": "sr-Cyrl",
+  "production_ready": false,
+  "release_allowed": false,
+  "sources": [
+    {
+      "id": "EBIBLE-RIGHTS",
+      "title": "Свето писмо или Библија — превод Даничић–Караџић: статус текста",
+      "url": "https://ebible.org/srp1868/copyright.htm",
+      "publisher": "eBible.org",
+      "checked_at": "2026-09-10",
+      "status": "page_fetched",
+      "evidence": "Извор изричито наводи: „Овај превод Библије је у јавном власништву (није заштићен ауторским правима).“",
+      "scope": "Текст издања srp1868; не односи се на слике, музику, друге преводе или званични статус апликације.",
+      "source_revision": "Source files: 3 Jan 2026; generated HTML: 8 Aug 2026.",
+      "snapshot_page": "copyright",
+      "url_policy": "display_as_plain_bibliographic_text",
+      "offline": true
+    },
+    {
+      "id": "OCA-NUMBERING",
+      "title": "Septuagint (LXX) numbering of the Psalms",
+      "url": "https://www.oca.org/liturgics/outlines/septuagint-numbering-psalms",
+      "publisher": "Orthodox Church in America",
+      "checked_at": "2026-09-10",
+      "status": "web_source_checked",
+      "evidence": "Табела односа бројева псалама у LXX и јеврејској нумерацији.",
+      "scope": "Само број целог псалма. Не потврђује да је Даничићев текст LXX, нити пренос истог броја стиха у други превод.",
+      "rights": "reference_only_no_article_copy",
+      "url_policy": "display_as_plain_bibliographic_text",
+      "offline": true
+    },
+    {
+      "id": "EBIBLE-PSA005",
+      "title": "Псалам 5",
+      "translation": "Ђура Даничић — текст дигиталног издања eBible srp1868",
+      "url": "https://ebible.org/srp1868/PSA005.htm",
+      "snapshot_sha256": "a2d603f219a581725ec5a65734fd38652699caa3fc102444a6d762d17325e1ea",
+      "rights_id": "EBIBLE-RIGHTS",
+      "offline": true
+    },
+    {
+      "id": "EBIBLE-PSA090",
+      "title": "Псалам 90",
+      "translation": "Ђура Даничић — текст дигиталног издања eBible srp1868",
+      "url": "https://ebible.org/srp1868/PSA090.htm",
+      "snapshot_sha256": "d625d8ebae5ce7e96ed25a396471b38d2920f23a7b023d8322f90ed57c09fd0c",
+      "rights_id": "EBIBLE-RIGHTS",
+      "offline": true
+    },
+    {
+      "id": "EBIBLE-PSA118",
+      "title": "Псалам 118",
+      "translation": "Ђура Даничић — текст дигиталног издања eBible srp1868",
+      "url": "https://ebible.org/srp1868/PSA118.htm",
+      "snapshot_sha256": "7facf930e49eebea23ec60e059aac8a3703f2743674046f26db55328419da019",
+      "rights_id": "EBIBLE-RIGHTS",
+      "offline": true
+    },
+    {
+      "id": "EBIBLE-PSA063",
+      "title": "Псалам 63",
+      "translation": "Ђура Даничић — текст дигиталног издања eBible srp1868",
+      "url": "https://ebible.org/srp1868/PSA063.htm",
+      "snapshot_sha256": "06619da8804f0511e6604e67b3b7591108dd7db80411820297dbb0c575384796",
+      "rights_id": "EBIBLE-RIGHTS",
+      "offline": true
+    },
+    {
+      "id": "EBIBLE-PSA092",
+      "title": "Псалам 92",
+      "translation": "Ђура Даничић — текст дигиталног издања eBible srp1868",
+      "url": "https://ebible.org/srp1868/PSA092.htm",
+      "snapshot_sha256": "030e76ab1645c4169fc2fa9186846a2524dff76ae71e3bea3d44ccd5de5fe723",
+      "rights_id": "EBIBLE-RIGHTS",
+      "offline": true
+    },
+    {
+      "id": "EBIBLE-PSA059",
+      "title": "Псалам 59",
+      "translation": "Ђура Даничић — текст дигиталног издања eBible srp1868",
+      "url": "https://ebible.org/srp1868/PSA059.htm",
+      "snapshot_sha256": "ecafe07ef98ba1b45b9e2d2caec023f3f0527bf491260169fdd2f35eb8360905",
+      "rights_id": "EBIBLE-RIGHTS",
+      "offline": true
+    },
+    {
+      "id": "EBIBLE-PSA108",
+      "title": "Псалам 108",
+      "translation": "Ђура Даничић — текст дигиталног издања eBible srp1868",
+      "url": "https://ebible.org/srp1868/PSA108.htm",
+      "snapshot_sha256": "fd6266abcdd5880bbfcb6d43105f5ceb670296adb1796c14d241775aa3d655a3",
+      "rights_id": "EBIBLE-RIGHTS",
+      "offline": true
+    },
+    {
+      "id": "EBIBLE-PSA023",
+      "title": "Псалам 23",
+      "translation": "Ђура Даничић — текст дигиталног издања eBible srp1868",
+      "url": "https://ebible.org/srp1868/PSA023.htm",
+      "snapshot_sha256": "8ef0b6fdb009db579ffeb495b0d7f0c12e9823268545be8895ec89ad94ea5cc9",
+      "rights_id": "EBIBLE-RIGHTS",
+      "offline": true
+    },
+    {
+      "id": "EBIBLE-PSA046",
+      "title": "Псалам 46",
+      "translation": "Ђура Даничић — текст дигиталног издања eBible srp1868",
+      "url": "https://ebible.org/srp1868/PSA046.htm",
+      "snapshot_sha256": "6bd3aea72246ad37736a599814d28ca3da28c10cc32d3969a6c122c58e1ff13e",
+      "rights_id": "EBIBLE-RIGHTS",
+      "offline": true
+    },
+    {
+      "id": "EBIBLE-PSA119",
+      "title": "Псалам 119",
+      "translation": "Ђура Даничић — текст дигиталног издања eBible srp1868",
+      "url": "https://ebible.org/srp1868/PSA119.htm",
+      "snapshot_sha256": "d8f9068065b1c3c17f11ff071832e884f8daa7dbb3b31be9ba68961144c16573",
+      "rights_id": "EBIBLE-RIGHTS",
+      "offline": true
+    },
+    {
+      "id": "EBIBLE-PSA121",
+      "title": "Псалам 121",
+      "translation": "Ђура Даничић — текст дигиталног издања eBible srp1868",
+      "url": "https://ebible.org/srp1868/PSA121.htm",
+      "snapshot_sha256": "0df5b54053ed46c137c97f1cc8c69aaec2daa9980cc1907f67c4f2a3e726fda4",
+      "rights_id": "EBIBLE-RIGHTS",
+      "offline": true
+    },
+    {
+      "id": "EBIBLE-PSA034",
+      "title": "Псалам 34",
+      "translation": "Ђура Даничић — текст дигиталног издања eBible srp1868",
+      "url": "https://ebible.org/srp1868/PSA034.htm",
+      "snapshot_sha256": "385788e5fe5834bb7d939154b967573cd226c2a73751bc734df261925869fa60",
+      "rights_id": "EBIBLE-RIGHTS",
+      "offline": true
+    },
+    {
+      "id": "EBIBLE-PSA055",
+      "title": "Псалам 55",
+      "translation": "Ђура Даничић — текст дигиталног издања eBible srp1868",
+      "url": "https://ebible.org/srp1868/PSA055.htm",
+      "snapshot_sha256": "f23708ac600bdcf8adeed842974da41d215c51546b5630c6f6aded991d8dca71",
+      "rights_id": "EBIBLE-RIGHTS",
+      "offline": true
+    },
+    {
+      "id": "EBIBLE-PSA037",
+      "title": "Псалам 37",
+      "translation": "Ђура Даничић — текст дигиталног издања eBible srp1868",
+      "url": "https://ebible.org/srp1868/PSA037.htm",
+      "snapshot_sha256": "cfeae882bc21bfe68ab8a8afc34560154c4c712c8d71f999308270aac093d8cc",
+      "rights_id": "EBIBLE-RIGHTS",
+      "offline": true
+    },
+    {
+      "id": "EBIBLE-PSA004",
+      "title": "Псалам 4",
+      "translation": "Ђура Даничић — текст дигиталног издања eBible srp1868",
+      "url": "https://ebible.org/srp1868/PSA004.htm",
+      "snapshot_sha256": "31741de285aa948929dfc7d91445f6a6872c5cc2f9c48f1e426564dd27145ccb",
+      "rights_id": "EBIBLE-RIGHTS",
+      "offline": true
+    },
+    {
+      "id": "EBIBLE-PSA091",
+      "title": "Псалам 91",
+      "translation": "Ђура Даничић — текст дигиталног издања eBible srp1868",
+      "url": "https://ebible.org/srp1868/PSA091.htm",
+      "snapshot_sha256": "cf693bb49ccff52dc4617eb3d29c3b69246e0ec032504f09709e409e9ff7259a",
+      "rights_id": "EBIBLE-RIGHTS",
+      "offline": true
+    },
+    {
+      "id": "EBIBLE-PSA003",
+      "title": "Псалам 3",
+      "translation": "Ђура Даничић — текст дигиталног издања eBible srp1868",
+      "url": "https://ebible.org/srp1868/PSA003.htm",
+      "snapshot_sha256": "d0627f6854bd940aa8af548b76807f13339e4daf0e0fa5f2b140e3e1066ddaae",
+      "rights_id": "EBIBLE-RIGHTS",
+      "offline": true
+    },
+    {
+      "id": "EBIBLE-PSA062",
+      "title": "Псалам 62",
+      "translation": "Ђура Даничић — текст дигиталног издања eBible srp1868",
+      "url": "https://ebible.org/srp1868/PSA062.htm",
+      "snapshot_sha256": "6ee3853e39dfa0cfc837f50891657b3d8001331d82ed250c60a357d2fb89d958",
+      "rights_id": "EBIBLE-RIGHTS",
+      "offline": true
+    },
+    {
+      "id": "EBIBLE-PSA016",
+      "title": "Псалам 16",
+      "translation": "Ђура Даничић — текст дигиталног издања eBible srp1868",
+      "url": "https://ebible.org/srp1868/PSA016.htm",
+      "snapshot_sha256": "d369a9f03532b8b1cb157a4f363beb697307fa61f2100530914b76f197a82bd8",
+      "rights_id": "EBIBLE-RIGHTS",
+      "offline": true
+    },
+    {
+      "id": "EBIBLE-PSA031",
+      "title": "Псалам 31",
+      "translation": "Ђура Даничић — текст дигиталног издања eBible srp1868",
+      "url": "https://ebible.org/srp1868/PSA031.htm",
+      "snapshot_sha256": "2b861e4de139861b530ba3fa71f26c4b1db914ffac542ad7c5715c54fc22a30a",
+      "rights_id": "EBIBLE-RIGHTS",
+      "offline": true
+    },
+    {
+      "id": "EBIBLE-MAT06",
+      "title": "Свето Јеванђеље по Матеју 6",
+      "translation": "Вук Караџић — eBible srp1868",
+      "url": "https://ebible.org/srp1868/MAT06.htm",
+      "snapshot_sha256": "8aec9a02e79592708262c8aea8a08fbbfd6ec673157345000076a33c54178dc6",
+      "rights_id": "EBIBLE-RIGHTS",
+      "offline": true
+    },
+    {
+      "id": "EBIBLE-LUK18",
+      "title": "Свето Јеванђеље по Луки 18",
+      "translation": "Вук Караџић — eBible srp1868",
+      "url": "https://ebible.org/srp1868/LUK18.htm",
+      "snapshot_sha256": "0434954466a4d105283112e2658acb4490653447cf466b72a0ab298012af42f4",
+      "rights_id": "EBIBLE-RIGHTS",
+      "offline": true
+    },
+    {
+      "id": "EBIBLE-LUK02",
+      "title": "Свето Јеванђеље по Луки 2",
+      "translation": "Вук Караџић — eBible srp1868",
+      "url": "https://ebible.org/srp1868/LUK02.htm",
+      "snapshot_sha256": "242988162f9dd78556c60ec88bc220dc7ba9468075c266c5a9705b2528ea7060",
+      "rights_id": "EBIBLE-RIGHTS",
+      "offline": true
+    },
+    {
+      "id": "WIKISOURCE-MOLITVENIK-1929",
+      "title": "Мали молитвеник (1929)",
+      "publisher": "Викизворник — дигитални препис",
+      "compiler": "Јован Константиновић",
+      "edition": "Загреб, 1929; редакција Викизворника 73934",
+      "url": "https://sr.wikisource.org/w/index.php?title=%D0%9C%D0%B0%D0%BB%D0%B8_%D0%BC%D0%BE%D0%BB%D0%B8%D1%82%D0%B2%D0%B5%D0%BD%D0%B8%D0%BA_(1929)&oldid=73934",
+      "history_url": "https://sr.wikisource.org/w/index.php?title=%D0%9C%D0%B0%D0%BB%D0%B8_%D0%BC%D0%BE%D0%BB%D0%B8%D1%82%D0%B2%D0%B5%D0%BD%D0%B8%D0%BA_(1929)&action=history",
+      "checked_at": "2026-09-10",
+      "offline": true,
+      "url_policy": "display_as_plain_bibliographic_text",
+      "license_id": "CC-BY-SA-4.0",
+      "attribution": "Јован Константиновић, „Мали молитвеник“, Загреб, 1929; дигитални препис: Викизворник, редакција 73934, сарадници странице (у заглављу наведен Smart). Дигитални уреднички доприноси: CC BY-SA 4.0. Избор, форматирање, две означене словне исправке и латиничка транслитерација у овом пакету.",
+      "evidence": "Проверени заглавље, означене молитвене целине и обавештење о лиценци дигиталне странице.",
+      "limitations": "Није упоређено са оригиналним штампаним примерком. Није савремено званично издање СПЦ."
+    },
+    {
+      "id": "MATICA-JK-1935",
+      "title": "Матица српска — биографски регистар, V том, Кв–Мао",
+      "url": "https://www.maticasrpska.org.rs/stariSajt/biografije/tom05.pdf",
+      "locator": "PDF страна 20 (индекс 19), при дну странице",
+      "checked_at": "2026-09-10",
+      "offline": true,
+      "url_policy": "display_as_plain_bibliographic_text",
+      "evidence": "Регистар наводи Јована Константиновића, свештеника и професора: Сремски Карловци, 1873 — Пожега, Славонија, 11. X 1935.",
+      "scope": "Биографска потврда године смрти. Оригинални PDF није део библиотеке за корисника."
+    },
+    {
+      "id": "ZIS-COPYRIGHT",
+      "title": "Завод за интелектуалну својину — ауторско право",
+      "url": "https://www.zis.gov.rs/prava/autorsko-i-srodna-prava/",
+      "checked_at": "2026-09-10",
+      "offline": true,
+      "url_policy": "display_as_plain_bibliographic_text",
+      "evidence": "Завод описује општи рок заштите као живот аутора и 70 година након смрти. Закључак о историјском издању је наша процена на основу библиографије и тог правила, не правно мишљење Завода о овој апликацији."
+    },
+    {
+      "id": "CC-BY-SA-4.0-SOURCE",
+      "title": "Creative Commons Attribution-ShareAlike 4.0 International",
+      "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "checked_at": "2026-09-10",
+      "offline": true,
+      "url_policy": "display_as_plain_bibliographic_text",
+      "license_id": "CC-BY-SA-4.0",
+      "evidence": "Дозвољава дељење и прераду, укључујући комерцијалну употребу, уз атрибуцију, исте услове за прераде и без додатних ограничења."
+    },
+    {
+      "id": "MOL1929-THEOTOKOS-GREETING",
+      "title": "Богородице Дево — извор",
+      "parent_source_id": "WIKISOURCE-MOLITVENIK-1929",
+      "url": "https://sr.wikisource.org/w/index.php?title=%D0%9C%D0%B0%D0%BB%D0%B8_%D0%BC%D0%BE%D0%BB%D0%B8%D1%82%D0%B2%D0%B5%D0%BD%D0%B8%D0%BA_(1929)&oldid=73934",
+      "locator": "Мали молитвеник (1929), „Поздрав Мајци Божјој“",
+      "compiler": "Јован Константиновић",
+      "edition_year": 1929,
+      "checked_at": "2026-09-10",
+      "offline": true,
+      "url_policy": "display_as_plain_bibliographic_text",
+      "license_id": "CC-BY-SA-4.0",
+      "attribution": "Јован Константиновић, „Мали молитвеник“, Загреб, 1929; дигитални препис: Викизворник, редакција 73934, сарадници странице (у заглављу наведен Smart). Дигитални уреднички доприноси: CC BY-SA 4.0. Избор, форматирање, две означене словне исправке и латиничка транслитерација у овом пакету.",
+      "editorial_changes": [],
+      "verification": "Поређено са дигиталним преписом, не са факсимилом.",
+      "excerpt_id": "theotokos-greeting"
+    },
+    {
+      "id": "MOL1929-TRISAGION",
+      "title": "Свети Боже — извор",
+      "parent_source_id": "WIKISOURCE-MOLITVENIK-1929",
+      "url": "https://sr.wikisource.org/w/index.php?title=%D0%9C%D0%B0%D0%BB%D0%B8_%D0%BC%D0%BE%D0%BB%D0%B8%D1%82%D0%B2%D0%B5%D0%BD%D0%B8%D0%BA_(1929)&oldid=73934",
+      "locator": "Мали молитвеник (1929), „Молитва Светој Тројици“",
+      "compiler": "Јован Константиновић",
+      "edition_year": 1929,
+      "checked_at": "2026-09-10",
+      "offline": true,
+      "url_policy": "display_as_plain_bibliographic_text",
+      "license_id": "CC-BY-SA-4.0",
+      "attribution": "Јован Константиновић, „Мали молитвеник“, Загреб, 1929; дигитални препис: Викизворник, редакција 73934, сарадници странице (у заглављу наведен Smart). Дигитални уреднички доприноси: CC BY-SA 4.0. Избор, форматирање, две означене словне исправке и латиничка транслитерација у овом пакету.",
+      "editorial_changes": [],
+      "verification": "Поређено са дигиталним преписом, не са факсимилом.",
+      "excerpt_id": "trisagion"
+    },
+    {
+      "id": "MOL1929-TRINITY-HOPE",
+      "title": "Надање је моје Отац — извор",
+      "parent_source_id": "WIKISOURCE-MOLITVENIK-1929",
+      "url": "https://sr.wikisource.org/w/index.php?title=%D0%9C%D0%B0%D0%BB%D0%B8_%D0%BC%D0%BE%D0%BB%D0%B8%D1%82%D0%B2%D0%B5%D0%BD%D0%B8%D0%BA_(1929)&oldid=73934",
+      "locator": "Мали молитвеник (1929), „Молитва Светој Тројици“ — молитва 3",
+      "compiler": "Јован Константиновић",
+      "edition_year": 1929,
+      "checked_at": "2026-09-10",
+      "offline": true,
+      "url_policy": "display_as_plain_bibliographic_text",
+      "license_id": "CC-BY-SA-4.0",
+      "attribution": "Јован Константиновић, „Мали молитвеник“, Загреб, 1929; дигитални препис: Викизворник, редакција 73934, сарадници странице (у заглављу наведен Smart). Дигитални уреднички доприноси: CC BY-SA 4.0. Избор, форматирање, две означене словне исправке и латиничка транслитерација у овом пакету.",
+      "editorial_changes": [],
+      "verification": "Поређено са дигиталним преписом, не са факсимилом.",
+      "excerpt_id": "trinity-hope"
+    },
+    {
+      "id": "MOL1929-MORNING-PRAYER",
+      "title": "Јутарња молитва — извор",
+      "parent_source_id": "WIKISOURCE-MOLITVENIK-1929",
+      "url": "https://sr.wikisource.org/w/index.php?title=%D0%9C%D0%B0%D0%BB%D0%B8_%D0%BC%D0%BE%D0%BB%D0%B8%D1%82%D0%B2%D0%B5%D0%BD%D0%B8%D0%BA_(1929)&oldid=73934",
+      "locator": "Мали молитвеник (1929), „Молитва јутарња“",
+      "compiler": "Јован Константиновић",
+      "edition_year": 1929,
+      "checked_at": "2026-09-10",
+      "offline": true,
+      "url_policy": "display_as_plain_bibliographic_text",
+      "license_id": "CC-BY-SA-4.0",
+      "attribution": "Јован Константиновић, „Мали молитвеник“, Загреб, 1929; дигитални препис: Викизворник, редакција 73934, сарадници странице (у заглављу наведен Smart). Дигитални уреднички доприноси: CC BY-SA 4.0. Избор, форматирање, две означене словне исправке и латиничка транслитерација у овом пакету.",
+      "editorial_changes": [
+        {
+          "id": "TYPO-001",
+          "prayer_id": "morning-prayer",
+          "original": "смилује се на нас",
+          "replacement": "смилуј се на нас",
+          "reason": "Исправка очигледне граматичке/словне грешке дигиталног преписа у заповедном облику. Није потврђена поређењем са штампаним примерком.",
+          "review": "editorial_correction_pending_human_review"
+        }
+      ],
+      "verification": "Поређено са дигиталним преписом, не са факсимилом.",
+      "excerpt_id": "morning-prayer"
+    },
+    {
+      "id": "MOL1929-BEFORE-LUNCH",
+      "title": "Молитва пре ручка — извор",
+      "parent_source_id": "WIKISOURCE-MOLITVENIK-1929",
+      "url": "https://sr.wikisource.org/w/index.php?title=%D0%9C%D0%B0%D0%BB%D0%B8_%D0%BC%D0%BE%D0%BB%D0%B8%D1%82%D0%B2%D0%B5%D0%BD%D0%B8%D0%BA_(1929)&oldid=73934",
+      "locator": "Мали молитвеник (1929), „Молитва пре ручка“",
+      "compiler": "Јован Константиновић",
+      "edition_year": 1929,
+      "checked_at": "2026-09-10",
+      "offline": true,
+      "url_policy": "display_as_plain_bibliographic_text",
+      "license_id": "CC-BY-SA-4.0",
+      "attribution": "Јован Константиновић, „Мали молитвеник“, Загреб, 1929; дигитални препис: Викизворник, редакција 73934, сарадници странице (у заглављу наведен Smart). Дигитални уреднички доприноси: CC BY-SA 4.0. Избор, форматирање, две означене словне исправке и латиничка транслитерација у овом пакету.",
+      "editorial_changes": [],
+      "verification": "Поређено са дигиталним преписом, не са факсимилом.",
+      "excerpt_id": "before-lunch"
+    },
+    {
+      "id": "MOL1929-AFTER-LUNCH",
+      "title": "Молитва после ручка — извор",
+      "parent_source_id": "WIKISOURCE-MOLITVENIK-1929",
+      "url": "https://sr.wikisource.org/w/index.php?title=%D0%9C%D0%B0%D0%BB%D0%B8_%D0%BC%D0%BE%D0%BB%D0%B8%D1%82%D0%B2%D0%B5%D0%BD%D0%B8%D0%BA_(1929)&oldid=73934",
+      "locator": "Мали молитвеник (1929), „Молитва после ручка“",
+      "compiler": "Јован Константиновић",
+      "edition_year": 1929,
+      "checked_at": "2026-09-10",
+      "offline": true,
+      "url_policy": "display_as_plain_bibliographic_text",
+      "license_id": "CC-BY-SA-4.0",
+      "attribution": "Јован Константиновић, „Мали молитвеник“, Загреб, 1929; дигитални препис: Викизворник, редакција 73934, сарадници странице (у заглављу наведен Smart). Дигитални уреднички доприноси: CC BY-SA 4.0. Избор, форматирање, две означене словне исправке и латиничка транслитерација у овом пакету.",
+      "editorial_changes": [],
+      "verification": "Поређено са дигиталним преписом, не са факсимилом.",
+      "excerpt_id": "after-lunch"
+    },
+    {
+      "id": "MOL1929-BEFORE-DINNER",
+      "title": "Молитва пре вечере — извор",
+      "parent_source_id": "WIKISOURCE-MOLITVENIK-1929",
+      "url": "https://sr.wikisource.org/w/index.php?title=%D0%9C%D0%B0%D0%BB%D0%B8_%D0%BC%D0%BE%D0%BB%D0%B8%D1%82%D0%B2%D0%B5%D0%BD%D0%B8%D0%BA_(1929)&oldid=73934",
+      "locator": "Мали молитвеник (1929), „Молитва пре вечере“",
+      "compiler": "Јован Константиновић",
+      "edition_year": 1929,
+      "checked_at": "2026-09-10",
+      "offline": true,
+      "url_policy": "display_as_plain_bibliographic_text",
+      "license_id": "CC-BY-SA-4.0",
+      "attribution": "Јован Константиновић, „Мали молитвеник“, Загреб, 1929; дигитални препис: Викизворник, редакција 73934, сарадници странице (у заглављу наведен Smart). Дигитални уреднички доприноси: CC BY-SA 4.0. Избор, форматирање, две означене словне исправке и латиничка транслитерација у овом пакету.",
+      "editorial_changes": [],
+      "verification": "Поређено са дигиталним преписом, не са факсимилом.",
+      "excerpt_id": "before-dinner"
+    },
+    {
+      "id": "MOL1929-BEDTIME-PRAYER",
+      "title": "Молитва пре спавања — извор",
+      "parent_source_id": "WIKISOURCE-MOLITVENIK-1929",
+      "url": "https://sr.wikisource.org/w/index.php?title=%D0%9C%D0%B0%D0%BB%D0%B8_%D0%BC%D0%BE%D0%BB%D0%B8%D1%82%D0%B2%D0%B5%D0%BD%D0%B8%D0%BA_(1929)&oldid=73934",
+      "locator": "Мали молитвеник (1929), „Молитва пре спавања“",
+      "compiler": "Јован Константиновић",
+      "edition_year": 1929,
+      "checked_at": "2026-09-10",
+      "offline": true,
+      "url_policy": "display_as_plain_bibliographic_text",
+      "license_id": "CC-BY-SA-4.0",
+      "attribution": "Јован Константиновић, „Мали молитвеник“, Загреб, 1929; дигитални препис: Викизворник, редакција 73934, сарадници странице (у заглављу наведен Smart). Дигитални уреднички доприноси: CC BY-SA 4.0. Избор, форматирање, две означене словне исправке и латиничка транслитерација у овом пакету.",
+      "editorial_changes": [],
+      "verification": "Поређено са дигиталним преписом, не са факсимилом.",
+      "excerpt_id": "bedtime-prayer"
+    },
+    {
+      "id": "MOL1929-GUARDIAN-ANGEL",
+      "title": "Молитва анђелу чувару — извор",
+      "parent_source_id": "WIKISOURCE-MOLITVENIK-1929",
+      "url": "https://sr.wikisource.org/w/index.php?title=%D0%9C%D0%B0%D0%BB%D0%B8_%D0%BC%D0%BE%D0%BB%D0%B8%D1%82%D0%B2%D0%B5%D0%BD%D0%B8%D0%BA_(1929)&oldid=73934",
+      "locator": "Мали молитвеник (1929), „Молитва анђелу чувару“",
+      "compiler": "Јован Константиновић",
+      "edition_year": 1929,
+      "checked_at": "2026-09-10",
+      "offline": true,
+      "url_policy": "display_as_plain_bibliographic_text",
+      "license_id": "CC-BY-SA-4.0",
+      "attribution": "Јован Константиновић, „Мали молитвеник“, Загреб, 1929; дигитални препис: Викизворник, редакција 73934, сарадници странице (у заглављу наведен Smart). Дигитални уреднички доприноси: CC BY-SA 4.0. Избор, форматирање, две означене словне исправке и латиничка транслитерација у овом пакету.",
+      "editorial_changes": [
+        {
+          "id": "TYPO-002",
+          "prayer_id": "guardian-angel",
+          "original": "велико милост",
+          "replacement": "велику милост",
+          "reason": "Исправка очигледног неслагања рода у дигиталном препису. Није потврђена поређењем са штампаним примерком.",
+          "review": "editorial_correction_pending_human_review"
+        }
+      ],
+      "verification": "Поређено са дигиталним преписом, не са факсимилом.",
+      "excerpt_id": "guardian-angel"
+    },
+    {
+      "id": "MOL1929-HEAVENLY-KING",
+      "title": "Царе небесни — извор",
+      "parent_source_id": "WIKISOURCE-MOLITVENIK-1929",
+      "url": "https://sr.wikisource.org/w/index.php?title=%D0%9C%D0%B0%D0%BB%D0%B8_%D0%BC%D0%BE%D0%BB%D0%B8%D1%82%D0%B2%D0%B5%D0%BD%D0%B8%D0%BA_(1929)&oldid=73934",
+      "locator": "Мали молитвеник (1929), „Молитва Светоме Духу“",
+      "compiler": "Јован Константиновић",
+      "edition_year": 1929,
+      "checked_at": "2026-09-10",
+      "offline": true,
+      "url_policy": "display_as_plain_bibliographic_text",
+      "license_id": "CC-BY-SA-4.0",
+      "attribution": "Јован Константиновић, „Мали молитвеник“, Загреб, 1929; дигитални препис: Викизворник, редакција 73934, сарадници странице (у заглављу наведен Smart). Дигитални уреднички доприноси: CC BY-SA 4.0. Избор, форматирање, две означене словне исправке и латиничка транслитерација у овом пакету.",
+      "editorial_changes": [],
+      "verification": "Поређено са дигиталним преписом, не са факсимилом.",
+      "excerpt_id": "heavenly-king"
+    },
+    {
+      "id": "MOL1929-BEFORE-STUDY",
+      "title": "Молитва пре учења — извор",
+      "parent_source_id": "WIKISOURCE-MOLITVENIK-1929",
+      "url": "https://sr.wikisource.org/w/index.php?title=%D0%9C%D0%B0%D0%BB%D0%B8_%D0%BC%D0%BE%D0%BB%D0%B8%D1%82%D0%B2%D0%B5%D0%BD%D0%B8%D0%BA_(1929)&oldid=73934",
+      "locator": "Мали молитвеник (1929), „Молитва пре учења“",
+      "compiler": "Јован Константиновић",
+      "edition_year": 1929,
+      "checked_at": "2026-09-10",
+      "offline": true,
+      "url_policy": "display_as_plain_bibliographic_text",
+      "license_id": "CC-BY-SA-4.0",
+      "attribution": "Јован Константиновић, „Мали молитвеник“, Загреб, 1929; дигитални препис: Викизворник, редакција 73934, сарадници странице (у заглављу наведен Smart). Дигитални уреднички доприноси: CC BY-SA 4.0. Избор, форматирање, две означене словне исправке и латиничка транслитерација у овом пакету.",
+      "editorial_changes": [],
+      "verification": "Поређено са дигиталним преписом, не са факсимилом.",
+      "excerpt_id": "before-study"
+    },
+    {
+      "id": "MOL1929-TRAVELLER-PRAYER",
+      "title": "Молитва за путника — извор",
+      "parent_source_id": "WIKISOURCE-MOLITVENIK-1929",
+      "url": "https://sr.wikisource.org/w/index.php?title=%D0%9C%D0%B0%D0%BB%D0%B8_%D0%BC%D0%BE%D0%BB%D0%B8%D1%82%D0%B2%D0%B5%D0%BD%D0%B8%D0%BA_(1929)&oldid=73934",
+      "locator": "Мали молитвеник (1929), „Молитве за путнике“ — молитва 2",
+      "compiler": "Јован Константиновић",
+      "edition_year": 1929,
+      "checked_at": "2026-09-10",
+      "offline": true,
+      "url_policy": "display_as_plain_bibliographic_text",
+      "license_id": "CC-BY-SA-4.0",
+      "attribution": "Јован Константиновић, „Мали молитвеник“, Загреб, 1929; дигитални препис: Викизворник, редакција 73934, сарадници странице (у заглављу наведен Smart). Дигитални уреднички доприноси: CC BY-SA 4.0. Избор, форматирање, две означене словне исправке и латиничка транслитерација у овом пакету.",
+      "editorial_changes": [],
+      "verification": "Поређено са дигиталним преписом, не са факсимилом.",
+      "excerpt_id": "traveller-prayer"
+    },
+    {
+      "id": "EBIBLE-PSA001",
+      "title": "Псалам 1",
+      "translation": "Ђура Даничић — текст дигиталног издања eBible srp1868",
+      "url": "https://ebible.org/srp1868/PSA001.htm",
+      "snapshot_sha256": "4afcde8ad2d2e745f7917d446c59cd1f2d11972ced0cf1f6d8f5b9e81d258bac",
+      "rights_id": "EBIBLE-RIGHTS",
+      "offline": true
+    },
+    {
+      "id": "EBIBLE-PSA002",
+      "title": "Псалам 2",
+      "translation": "Ђура Даничић — текст дигиталног издања eBible srp1868",
+      "url": "https://ebible.org/srp1868/PSA002.htm",
+      "snapshot_sha256": "8d8188d75282c8b7e93a31863e4ca3b8a04be8d143a54b39c940802b61caf216",
+      "rights_id": "EBIBLE-RIGHTS",
+      "offline": true
+    },
+    {
+      "id": "EBIBLE-PSA006",
+      "title": "Псалам 6",
+      "translation": "Ђура Даничић — текст дигиталног издања eBible srp1868",
+      "url": "https://ebible.org/srp1868/PSA006.htm",
+      "snapshot_sha256": "ec1502f577c6a847acc9cb55ac61d1ec49703cb04b7c7f4fb1763123df2f7d03",
+      "rights_id": "EBIBLE-RIGHTS",
+      "offline": true
+    },
+    {
+      "id": "EBIBLE-PSA007",
+      "title": "Псалам 7",
+      "translation": "Ђура Даничић — текст дигиталног издања eBible srp1868",
+      "url": "https://ebible.org/srp1868/PSA007.htm",
+      "snapshot_sha256": "2cae58946e57173d24e0ece4a4a11d04c001f7ba47e8e3d919b892bde256780f",
+      "rights_id": "EBIBLE-RIGHTS",
+      "offline": true
+    },
+    {
+      "id": "EBIBLE-PSA008",
+      "title": "Псалам 8",
+      "translation": "Ђура Даничић — текст дигиталног издања eBible srp1868",
+      "url": "https://ebible.org/srp1868/PSA008.htm",
+      "snapshot_sha256": "54f61479a8281e098bca42136b2d2daf9f2c85bf4455cd8cefd60924bd8aba12",
+      "rights_id": "EBIBLE-RIGHTS",
+      "offline": true
+    },
+    {
+      "id": "EBIBLE-PSA009",
+      "title": "Псалам 9",
+      "translation": "Ђура Даничић — текст дигиталног издања eBible srp1868",
+      "url": "https://ebible.org/srp1868/PSA009.htm",
+      "snapshot_sha256": "bcc02c36ade110accf778610cd96416961aa3bf3139e2753e8fe8651120056db",
+      "rights_id": "EBIBLE-RIGHTS",
+      "offline": true
+    },
+    {
+      "id": "EBIBLE-PSA010",
+      "title": "Псалам 10",
+      "translation": "Ђура Даничић — текст дигиталног издања eBible srp1868",
+      "url": "https://ebible.org/srp1868/PSA010.htm",
+      "snapshot_sha256": "4c07d18a63f2d9f7359378ea063645aa9e44c7261ef6962c06f39119a0f9f89d",
+      "rights_id": "EBIBLE-RIGHTS",
+      "offline": true
+    },
+    {
+      "id": "EBIBLE-PSA011",
+      "title": "Псалам 11",
+      "translation": "Ђура Даничић — текст дигиталног издања eBible srp1868",
+      "url": "https://ebible.org/srp1868/PSA011.htm",
+      "snapshot_sha256": "32a6da31876d3eb342ae8492d8256271232df47ba71d94474b2b3d795940cfe4",
+      "rights_id": "EBIBLE-RIGHTS",
+      "offline": true
+    },
+    {
+      "id": "EBIBLE-PSA012",
+      "title": "Псалам 12",
+      "translation": "Ђура Даничић — текст дигиталног издања eBible srp1868",
+      "url": "https://ebible.org/srp1868/PSA012.htm",
+      "snapshot_sha256": "ed516c31c460ccb76e238d4d0aa9a2a374b51d5d3794b24719ed12237fea2bf2",
+      "rights_id": "EBIBLE-RIGHTS",
+      "offline": true
+    },
+    {
+      "id": "EBIBLE-PSA013",
+      "title": "Псалам 13",
+      "translation": "Ђура Даничић — текст дигиталног издања eBible srp1868",
+      "url": "https://ebible.org/srp1868/PSA013.htm",
+      "snapshot_sha256": "90867c640c238fc025401181c8fd744934c7e0a03a3dc3a705cec4b390fe5e54",
+      "rights_id": "EBIBLE-RIGHTS",
+      "offline": true
+    },
+    {
+      "id": "EBIBLE-PSA014",
+      "title": "Псалам 14",
+      "translation": "Ђура Даничић — текст дигиталног издања eBible srp1868",
+      "url": "https://ebible.org/srp1868/PSA014.htm",
+      "snapshot_sha256": "02cdb6861913c59d6d151b7f343ec5329eca44490940c72741ea0cb44a662188",
+      "rights_id": "EBIBLE-RIGHTS",
+      "offline": true
+    },
+    {
+      "id": "EBIBLE-PSA015",
+      "title": "Псалам 15",
+      "translation": "Ђура Даничић — текст дигиталног издања eBible srp1868",
+      "url": "https://ebible.org/srp1868/PSA015.htm",
+      "snapshot_sha256": "249c8366801a0fee9df29e81fe2b7bd4ba5d808833ec6e7c0a7e760153a96e6a",
+      "rights_id": "EBIBLE-RIGHTS",
+      "offline": true
+    },
+    {
+      "id": "EBIBLE-PSA017",
+      "title": "Псалам 17",
+      "translation": "Ђура Даничић — текст дигиталног издања eBible srp1868",
+      "url": "https://ebible.org/srp1868/PSA017.htm",
+      "snapshot_sha256": "6bfd77d8edca2bf80c4297b96d1e4e4f4386ae76bb52b941cbe3e9f2c22dc3b4",
+      "rights_id": "EBIBLE-RIGHTS",
+      "offline": true
+    },
+    {
+      "id": "EBIBLE-PSA018",
+      "title": "Псалам 18",
+      "translation": "Ђура Даничић — текст дигиталног издања eBible srp1868",
+      "url": "https://ebible.org/srp1868/PSA018.htm",
+      "snapshot_sha256": "fb8d31a3319b3d2a72ff07512f2d805d4b9b13bf12ff0eada1731d4222c8cbca",
+      "rights_id": "EBIBLE-RIGHTS",
+      "offline": true
+    },
+    {
+      "id": "EBIBLE-PSA019",
+      "title": "Псалам 19",
+      "translation": "Ђура Даничић — текст дигиталног издања eBible srp1868",
+      "url": "https://ebible.org/srp1868/PSA019.htm",
+      "snapshot_sha256": "527729eaafd40311c183eefe1fc4a569715b981ecc716cb335244cf571098e5f",
+      "rights_id": "EBIBLE-RIGHTS",
+      "offline": true
+    },
+    {
+      "id": "EBIBLE-PSA020",
+      "title": "Псалам 20",
+      "translation": "Ђура Даничић — текст дигиталног издања eBible srp1868",
+      "url": "https://ebible.org/srp1868/PSA020.htm",
+      "snapshot_sha256": "e1590d943c94adc1885b38aa70026d153adfb55e19e86d5dd776128395b96b18",
+      "rights_id": "EBIBLE-RIGHTS",
+      "offline": true
+    },
+    {
+      "id": "EBIBLE-PSA021",
+      "title": "Псалам 21",
+      "translation": "Ђура Даничић — текст дигиталног издања eBible srp1868",
+      "url": "https://ebible.org/srp1868/PSA021.htm",
+      "snapshot_sha256": "6e7c66c0ad0b35311b1d5e32e2b928d4a81195fe9db76bd03abdb33c175ce997",
+      "rights_id": "EBIBLE-RIGHTS",
+      "offline": true
+    },
+    {
+      "id": "EBIBLE-PSA022",
+      "title": "Псалам 22",
+      "translation": "Ђура Даничић — текст дигиталног издања eBible srp1868",
+      "url": "https://ebible.org/srp1868/PSA022.htm",
+      "snapshot_sha256": "a8600ed5413813024e706fa10bfbc63bb6c290d557845a6ea6c7444cfc1ffb1c",
+      "rights_id": "EBIBLE-RIGHTS",
+      "offline": true
+    },
+    {
+      "id": "EBIBLE-PSA024",
+      "title": "Псалам 24",
+      "translation": "Ђура Даничић — текст дигиталног издања eBible srp1868",
+      "url": "https://ebible.org/srp1868/PSA024.htm",
+      "snapshot_sha256": "56ba16861bc08fb4781533587ea7699238f796b84dff2a2ed37038defbcfd223",
+      "rights_id": "EBIBLE-RIGHTS",
+      "offline": true
+    },
+    {
+      "id": "EBIBLE-PSA025",
+      "title": "Псалам 25",
+      "translation": "Ђура Даничић — текст дигиталног издања eBible srp1868",
+      "url": "https://ebible.org/srp1868/PSA025.htm",
+      "snapshot_sha256": "834485651bf8fec82d564243c6d00b5799fdbb90db19a539c42c76d1e6c36c7e",
+      "rights_id": "EBIBLE-RIGHTS",
+      "offline": true
+    },
+    {
+      "id": "EBIBLE-PSA026",
+      "title": "Псалам 26",
+      "translation": "Ђура Даничић — текст дигиталног издања eBible srp1868",
+      "url": "https://ebible.org/srp1868/PSA026.htm",
+      "snapshot_sha256": "037fc015c67f7958d2f207e0ff0da9474b27e504d173ad6f6fe290631e2bc340",
+      "rights_id": "EBIBLE-RIGHTS",
+      "offline": true
+    },
+    {
+      "id": "EBIBLE-PSA027",
+      "title": "Псалам 27",
+      "translation": "Ђура Даничић — текст дигиталног издања eBible srp1868",
+      "url": "https://ebible.org/srp1868/PSA027.htm",
+      "snapshot_sha256": "a0a45b7c7646f66820e933310ecd23079e6eb4653358ba63d4e5e0a44203353a",
+      "rights_id": "EBIBLE-RIGHTS",
+      "offline": true
+    },
+    {
+      "id": "EBIBLE-PSA028",
+      "title": "Псалам 28",
+      "translation": "Ђура Даничић — текст дигиталног издања eBible srp1868",
+      "url": "https://ebible.org/srp1868/PSA028.htm",
+      "snapshot_sha256": "fcf3bbee034d900be44853ac1495afa4b8f8b5186dae56de03f2604f1c57329c",
+      "rights_id": "EBIBLE-RIGHTS",
+      "offline": true
+    },
+    {
+      "id": "EBIBLE-PSA029",
+      "title": "Псалам 29",
+      "translation": "Ђура Даничић — текст дигиталног издања eBible srp1868",
+      "url": "https://ebible.org/srp1868/PSA029.htm",
+      "snapshot_sha256": "f023cd022170aed8598fc48c0d00c88f5ac561c04d52a450e0777947a499e7bd",
+      "rights_id": "EBIBLE-RIGHTS",
+      "offline": true
+    },
+    {
+      "id": "EBIBLE-PSA030",
+      "title": "Псалам 30",
+      "translation": "Ђура Даничић — текст дигиталног издања eBible srp1868",
+      "url": "https://ebible.org/srp1868/PSA030.htm",
+      "snapshot_sha256": "39a2f25403d55ed6a7d8cd709e7e7a6e220e7b3ac450f29dd36e8d50684881f7",
+      "rights_id": "EBIBLE-RIGHTS",
+      "offline": true
+    },
+    {
+      "id": "EBIBLE-PSA032",
+      "title": "Псалам 32",
+      "translation": "Ђура Даничић — текст дигиталног издања eBible srp1868",
+      "url": "https://ebible.org/srp1868/PSA032.htm",
+      "snapshot_sha256": "32b1d527ec69d47703d58bf55bda8418a3ef551279299d6607288bd518cc31ab",
+      "rights_id": "EBIBLE-RIGHTS",
+      "offline": true
+    },
+    {
+      "id": "EBIBLE-PSA033",
+      "title": "Псалам 33",
+      "translation": "Ђура Даничић — текст дигиталног издања eBible srp1868",
+      "url": "https://ebible.org/srp1868/PSA033.htm",
+      "snapshot_sha256": "2a80f0d3fb32a3e63f54b0cb4a63fbc5d36d379b112691b9e248ceb8110d1dc2",
+      "rights_id": "EBIBLE-RIGHTS",
+      "offline": true
+    },
+    {
+      "id": "EBIBLE-PSA035",
+      "title": "Псалам 35",
+      "translation": "Ђура Даничић — текст дигиталног издања eBible srp1868",
+      "url": "https://ebible.org/srp1868/PSA035.htm",
+      "snapshot_sha256": "e2bab016da2cfb23ec1dc1efdce2852a05cacb4b161bfce2c25fed17ae03cf6f",
+      "rights_id": "EBIBLE-RIGHTS",
+      "offline": true
+    },
+    {
+      "id": "EBIBLE-PSA036",
+      "title": "Псалам 36",
+      "translation": "Ђура Даничић — текст дигиталног издања eBible srp1868",
+      "url": "https://ebible.org/srp1868/PSA036.htm",
+      "snapshot_sha256": "31568ff30e2780689d146707d3b75c5223ea6068c57607c6df5069ce3d860dae",
+      "rights_id": "EBIBLE-RIGHTS",
+      "offline": true
+    },
+    {
+      "id": "EBIBLE-PSA038",
+      "title": "Псалам 38",
+      "translation": "Ђура Даничић — текст дигиталног издања eBible srp1868",
+      "url": "https://ebible.org/srp1868/PSA038.htm",
+      "snapshot_sha256": "270ca37f4c788c9f83836970d877df5cb9f98c9ac3eecc45b9128945f0079554",
+      "rights_id": "EBIBLE-RIGHTS",
+      "offline": true
+    },
+    {
+      "id": "EBIBLE-PSA039",
+      "title": "Псалам 39",
+      "translation": "Ђура Даничић — текст дигиталног издања eBible srp1868",
+      "url": "https://ebible.org/srp1868/PSA039.htm",
+      "snapshot_sha256": "fa1232803fd55e2ea7afd7ad89af028da7515225e3b8f3acc32651eaa1647be1",
+      "rights_id": "EBIBLE-RIGHTS",
+      "offline": true
+    },
+    {
+      "id": "EBIBLE-PSA040",
+      "title": "Псалам 40",
+      "translation": "Ђура Даничић — текст дигиталног издања eBible srp1868",
+      "url": "https://ebible.org/srp1868/PSA040.htm",
+      "snapshot_sha256": "9cd261909e514357ee18e8df463e5bd47260a274d5c381062f67a5356117a9eb",
+      "rights_id": "EBIBLE-RIGHTS",
+      "offline": true
+    },
+    {
+      "id": "EBIBLE-PSA041",
+      "title": "Псалам 41",
+      "translation": "Ђура Даничић — текст дигиталног издања eBible srp1868",
+      "url": "https://ebible.org/srp1868/PSA041.htm",
+      "snapshot_sha256": "823e64bbbbb12656341cbadc2f490daee3f20741f572d7d63724e017a5e8012a",
+      "rights_id": "EBIBLE-RIGHTS",
+      "offline": true
+    },
+    {
+      "id": "EBIBLE-PSA042",
+      "title": "Псалам 42",
+      "translation": "Ђура Даничић — текст дигиталног издања eBible srp1868",
+      "url": "https://ebible.org/srp1868/PSA042.htm",
+      "snapshot_sha256": "c66ba63d4c95cd6e8636eec819a761a0c832950e89bc9b2b321feb3587a1f230",
+      "rights_id": "EBIBLE-RIGHTS",
+      "offline": true
+    },
+    {
+      "id": "EBIBLE-PSA043",
+      "title": "Псалам 43",
+      "translation": "Ђура Даничић — текст дигиталног издања eBible srp1868",
+      "url": "https://ebible.org/srp1868/PSA043.htm",
+      "snapshot_sha256": "a4e37462d903243e89b79e4d27cdcd3e43e5366a859d4cb13472bfe71baf79c8",
+      "rights_id": "EBIBLE-RIGHTS",
+      "offline": true
+    },
+    {
+      "id": "EBIBLE-PSA044",
+      "title": "Псалам 44",
+      "translation": "Ђура Даничић — текст дигиталног издања eBible srp1868",
+      "url": "https://ebible.org/srp1868/PSA044.htm",
+      "snapshot_sha256": "07a8e1cf5eed065bb92e39815d2beb4328ed2c5507a78dd6a02cad100f623427",
+      "rights_id": "EBIBLE-RIGHTS",
+      "offline": true
+    },
+    {
+      "id": "EBIBLE-PSA045",
+      "title": "Псалам 45",
+      "translation": "Ђура Даничић — текст дигиталног издања eBible srp1868",
+      "url": "https://ebible.org/srp1868/PSA045.htm",
+      "snapshot_sha256": "069dfec93e409fc0d725550ac63a46a56257a7f3427db35e0dbff53a7b004740",
+      "rights_id": "EBIBLE-RIGHTS",
+      "offline": true
+    },
+    {
+      "id": "EBIBLE-PSA047",
+      "title": "Псалам 47",
+      "translation": "Ђура Даничић — текст дигиталног издања eBible srp1868",
+      "url": "https://ebible.org/srp1868/PSA047.htm",
+      "snapshot_sha256": "0e336046332d662a267d4660444aef63ac298cdf41df9b3720968d75be8bb3b8",
+      "rights_id": "EBIBLE-RIGHTS",
+      "offline": true
+    },
+    {
+      "id": "EBIBLE-PSA048",
+      "title": "Псалам 48",
+      "translation": "Ђура Даничић — текст дигиталног издања eBible srp1868",
+      "url": "https://ebible.org/srp1868/PSA048.htm",
+      "snapshot_sha256": "3bd801923eae0e0f1e142653850aef99b87778cb262b22aeb833e5ec4ccc63bf",
+      "rights_id": "EBIBLE-RIGHTS",
+      "offline": true
+    },
+    {
+      "id": "EBIBLE-PSA049",
+      "title": "Псалам 49",
+      "translation": "Ђура Даничић — текст дигиталног издања eBible srp1868",
+      "url": "https://ebible.org/srp1868/PSA049.htm",
+      "snapshot_sha256": "ceefc1e6e82b86318791249927284dd61555df962b92b2ba1ba4b924a33c93e1",
+      "rights_id": "EBIBLE-RIGHTS",
+      "offline": true
+    },
+    {
+      "id": "EBIBLE-PSA050",
+      "title": "Псалам 50",
+      "translation": "Ђура Даничић — текст дигиталног издања eBible srp1868",
+      "url": "https://ebible.org/srp1868/PSA050.htm",
+      "snapshot_sha256": "752463c6878c69a032a68441cdb86ff10abb7566ea0e1739f7c03bd67a0af9f7",
+      "rights_id": "EBIBLE-RIGHTS",
+      "offline": true
+    },
+    {
+      "id": "EBIBLE-PSA051",
+      "title": "Псалам 51",
+      "translation": "Ђура Даничић — текст дигиталног издања eBible srp1868",
+      "url": "https://ebible.org/srp1868/PSA051.htm",
+      "snapshot_sha256": "635a1f7e5cc309651fa42c3537c118071709af8b6817c25566e8f8d608449f39",
+      "rights_id": "EBIBLE-RIGHTS",
+      "offline": true
+    },
+    {
+      "id": "EBIBLE-PSA052",
+      "title": "Псалам 52",
+      "translation": "Ђура Даничић — текст дигиталног издања eBible srp1868",
+      "url": "https://ebible.org/srp1868/PSA052.htm",
+      "snapshot_sha256": "b1c85f55828f574cf6472b2075a4feb08e51907f0334fd9a3f1c3556b19cc054",
+      "rights_id": "EBIBLE-RIGHTS",
+      "offline": true
+    },
+    {
+      "id": "EBIBLE-PSA053",
+      "title": "Псалам 53",
+      "translation": "Ђура Даничић — текст дигиталног издања eBible srp1868",
+      "url": "https://ebible.org/srp1868/PSA053.htm",
+      "snapshot_sha256": "4daa2645e2af9d831b2b187a5d4102adfdaabffd1ff0d612733e3929399d5010",
+      "rights_id": "EBIBLE-RIGHTS",
+      "offline": true
+    },
+    {
+      "id": "EBIBLE-PSA054",
+      "title": "Псалам 54",
+      "translation": "Ђура Даничић — текст дигиталног издања eBible srp1868",
+      "url": "https://ebible.org/srp1868/PSA054.htm",
+      "snapshot_sha256": "cdfe8ce41d5333366e6f43f8bdd94ed0d2cd7c9dc0404787ce4ef1c5092f98dd",
+      "rights_id": "EBIBLE-RIGHTS",
+      "offline": true
+    },
+    {
+      "id": "EBIBLE-PSA056",
+      "title": "Псалам 56",
+      "translation": "Ђура Даничић — текст дигиталног издања eBible srp1868",
+      "url": "https://ebible.org/srp1868/PSA056.htm",
+      "snapshot_sha256": "0b8d2b1d423a0fc27ddc357411bed3c81fff2e4a56d33321f001eeaf5d8ece82",
+      "rights_id": "EBIBLE-RIGHTS",
+      "offline": true
+    },
+    {
+      "id": "EBIBLE-PSA057",
+      "title": "Псалам 57",
+      "translation": "Ђура Даничић — текст дигиталног издања eBible srp1868",
+      "url": "https://ebible.org/srp1868/PSA057.htm",
+      "snapshot_sha256": "614c34ec02d9f43668df66546af2e4727b31831efb4407a8a55bd58b748dbfce",
+      "rights_id": "EBIBLE-RIGHTS",
+      "offline": true
+    },
+    {
+      "id": "EBIBLE-PSA058",
+      "title": "Псалам 58",
+      "translation": "Ђура Даничић — текст дигиталног издања eBible srp1868",
+      "url": "https://ebible.org/srp1868/PSA058.htm",
+      "snapshot_sha256": "a2b684507e29842f1ee5622c39f126542f48572d08090b9a720e8f638eb0e906",
+      "rights_id": "EBIBLE-RIGHTS",
+      "offline": true
+    },
+    {
+      "id": "EBIBLE-PSA060",
+      "title": "Псалам 60",
+      "translation": "Ђура Даничић — текст дигиталног издања eBible srp1868",
+      "url": "https://ebible.org/srp1868/PSA060.htm",
+      "snapshot_sha256": "384e00a1b5036483d019331f6fb546d8b7268e5899f90be23ccaf477086b4388",
+      "rights_id": "EBIBLE-RIGHTS",
+      "offline": true
+    },
+    {
+      "id": "EBIBLE-PSA061",
+      "title": "Псалам 61",
+      "translation": "Ђура Даничић — текст дигиталног издања eBible srp1868",
+      "url": "https://ebible.org/srp1868/PSA061.htm",
+      "snapshot_sha256": "c26aa64dda559f8adec77f2ebdbf9961c797b18e55001445fac94f4fb12fff95",
+      "rights_id": "EBIBLE-RIGHTS",
+      "offline": true
+    },
+    {
+      "id": "EBIBLE-PSA064",
+      "title": "Псалам 64",
+      "translation": "Ђура Даничић — текст дигиталног издања eBible srp1868",
+      "url": "https://ebible.org/srp1868/PSA064.htm",
+      "snapshot_sha256": "72c95f909ec65f25702409c7812455ad91b563953120ca03661fdc19cf0c610a",
+      "rights_id": "EBIBLE-RIGHTS",
+      "offline": true
+    },
+    {
+      "id": "EBIBLE-PSA065",
+      "title": "Псалам 65",
+      "translation": "Ђура Даничић — текст дигиталног издања eBible srp1868",
+      "url": "https://ebible.org/srp1868/PSA065.htm",
+      "snapshot_sha256": "da9f8250f548dd2e4aecf9fb672c3a66d03eecedadd3c1428d9ff70e3825f43a",
+      "rights_id": "EBIBLE-RIGHTS",
+      "offline": true
+    },
+    {
+      "id": "EBIBLE-PSA066",
+      "title": "Псалам 66",
+      "translation": "Ђура Даничић — текст дигиталног издања eBible srp1868",
+      "url": "https://ebible.org/srp1868/PSA066.htm",
+      "snapshot_sha256": "90aaf1bac05e1ca808b87bc4825d83a96f8d1e812eabff56e7ca277c252b0cbc",
+      "rights_id": "EBIBLE-RIGHTS",
+      "offline": true
+    },
+    {
+      "id": "EBIBLE-PSA067",
+      "title": "Псалам 67",
+      "translation": "Ђура Даничић — текст дигиталног издања eBible srp1868",
+      "url": "https://ebible.org/srp1868/PSA067.htm",
+      "snapshot_sha256": "4a8f7e444e4c5025021699cd457057a403daeb509b9c7cd9be703884398e85ac",
+      "rights_id": "EBIBLE-RIGHTS",
+      "offline": true
+    },
+    {
+      "id": "EBIBLE-PSA068",
+      "title": "Псалам 68",
+      "translation": "Ђура Даничић — текст дигиталног издања eBible srp1868",
+      "url": "https://ebible.org/srp1868/PSA068.htm",
+      "snapshot_sha256": "7046207e194230fdf2db12152938d3655161369efe08a84eefb6b4a98a13a9ce",
+      "rights_id": "EBIBLE-RIGHTS",
+      "offline": true
+    },
+    {
+      "id": "EBIBLE-PSA069",
+      "title": "Псалам 69",
+      "translation": "Ђура Даничић — текст дигиталног издања eBible srp1868",
+      "url": "https://ebible.org/srp1868/PSA069.htm",
+      "snapshot_sha256": "0ab95c8902011841a3e2884ab36f8d64eb10c94a1d5f370eab621f1265c2a8d0",
+      "rights_id": "EBIBLE-RIGHTS",
+      "offline": true
+    },
+    {
+      "id": "EBIBLE-PSA070",
+      "title": "Псалам 70",
+      "translation": "Ђура Даничић — текст дигиталног издања eBible srp1868",
+      "url": "https://ebible.org/srp1868/PSA070.htm",
+      "snapshot_sha256": "8eb7c5885115a7ba81bbc97f30ecc14e42aba3fa9cae710ef17bee3abce3a865",
+      "rights_id": "EBIBLE-RIGHTS",
+      "offline": true
+    },
+    {
+      "id": "EBIBLE-PSA071",
+      "title": "Псалам 71",
+      "translation": "Ђура Даничић — текст дигиталног издања eBible srp1868",
+      "url": "https://ebible.org/srp1868/PSA071.htm",
+      "snapshot_sha256": "e3787c6a7ef25a217123e7d8a0bcc6c83789a64335d46bd8448574bfc895dd2b",
+      "rights_id": "EBIBLE-RIGHTS",
+      "offline": true
+    },
+    {
+      "id": "EBIBLE-PSA072",
+      "title": "Псалам 72",
+      "translation": "Ђура Даничић — текст дигиталног издања eBible srp1868",
+      "url": "https://ebible.org/srp1868/PSA072.htm",
+      "snapshot_sha256": "943eef7fea41aff0b7399e794b7857e21f29fc8d01c1b5b81c07eccdebe145f6",
+      "rights_id": "EBIBLE-RIGHTS",
+      "offline": true
+    },
+    {
+      "id": "EBIBLE-PSA073",
+      "title": "Псалам 73",
+      "translation": "Ђура Даничић — текст дигиталног издања eBible srp1868",
+      "url": "https://ebible.org/srp1868/PSA073.htm",
+      "snapshot_sha256": "edb6aa10be71bd75d1b271e8d5b9bc69f23c39e6eda16efa4fba47b2a4d0567b",
+      "rights_id": "EBIBLE-RIGHTS",
+      "offline": true
+    },
+    {
+      "id": "EBIBLE-PSA074",
+      "title": "Псалам 74",
+      "translation": "Ђура Даничић — текст дигиталног издања eBible srp1868",
+      "url": "https://ebible.org/srp1868/PSA074.htm",
+      "snapshot_sha256": "953dd583139510a981ac16992bc33804748cccf26e13cf6744504492dcfb306f",
+      "rights_id": "EBIBLE-RIGHTS",
+      "offline": true
+    },
+    {
+      "id": "EBIBLE-PSA075",
+      "title": "Псалам 75",
+      "translation": "Ђура Даничић — текст дигиталног издања eBible srp1868",
+      "url": "https://ebible.org/srp1868/PSA075.htm",
+      "snapshot_sha256": "3585cdbb44eece7a88985db1d198771a96cef15bbd31462ebe544878a521bf11",
+      "rights_id": "EBIBLE-RIGHTS",
+      "offline": true
+    },
+    {
+      "id": "EBIBLE-PSA076",
+      "title": "Псалам 76",
+      "translation": "Ђура Даничић — текст дигиталног издања eBible srp1868",
+      "url": "https://ebible.org/srp1868/PSA076.htm",
+      "snapshot_sha256": "8e191536256e22d7e1aa8950ebfaf051f7eb2118a663e12669a76a68c91d1b96",
+      "rights_id": "EBIBLE-RIGHTS",
+      "offline": true
+    },
+    {
+      "id": "EBIBLE-PSA077",
+      "title": "Псалам 77",
+      "translation": "Ђура Даничић — текст дигиталног издања eBible srp1868",
+      "url": "https://ebible.org/srp1868/PSA077.htm",
+      "snapshot_sha256": "38ce2455cf66b6f7b00b84c1934a4b67fa7def4a1c8cec3cd62b70129b87c523",
+      "rights_id": "EBIBLE-RIGHTS",
+      "offline": true
+    },
+    {
+      "id": "EBIBLE-PSA078",
+      "title": "Псалам 78",
+      "translation": "Ђура Даничић — текст дигиталног издања eBible srp1868",
+      "url": "https://ebible.org/srp1868/PSA078.htm",
+      "snapshot_sha256": "2c613d05e3a5d123e7cad4f842a41f1a2272e608d1b6a8b703865b0493e26c3b",
+      "rights_id": "EBIBLE-RIGHTS",
+      "offline": true
+    },
+    {
+      "id": "EBIBLE-PSA079",
+      "title": "Псалам 79",
+      "translation": "Ђура Даничић — текст дигиталног издања eBible srp1868",
+      "url": "https://ebible.org/srp1868/PSA079.htm",
+      "snapshot_sha256": "1760004badcc78aa944a7412fddbfeb6e47d2e757be3f24357b92a946a95b378",
+      "rights_id": "EBIBLE-RIGHTS",
+      "offline": true
+    },
+    {
+      "id": "EBIBLE-PSA080",
+      "title": "Псалам 80",
+      "translation": "Ђура Даничић — текст дигиталног издања eBible srp1868",
+      "url": "https://ebible.org/srp1868/PSA080.htm",
+      "snapshot_sha256": "790db8837f35729f3df3fd38785198464958ca401701170c1616d1f53c6b837d",
+      "rights_id": "EBIBLE-RIGHTS",
+      "offline": true
+    },
+    {
+      "id": "EBIBLE-PSA081",
+      "title": "Псалам 81",
+      "translation": "Ђура Даничић — текст дигиталног издања eBible srp1868",
+      "url": "https://ebible.org/srp1868/PSA081.htm",
+      "snapshot_sha256": "5641dd5202be98065570bcb83f617453a4a13bd0aa82362b2031393bf510b4c8",
+      "rights_id": "EBIBLE-RIGHTS",
+      "offline": true
+    },
+    {
+      "id": "EBIBLE-PSA082",
+      "title": "Псалам 82",
+      "translation": "Ђура Даничић — текст дигиталног издања eBible srp1868",
+      "url": "https://ebible.org/srp1868/PSA082.htm",
+      "snapshot_sha256": "e85fbe666b992a99775cb6adf120ebd9a1879e65cb8c4a2a7f50cc1d057c5699",
+      "rights_id": "EBIBLE-RIGHTS",
+      "offline": true
+    },
+    {
+      "id": "EBIBLE-PSA083",
+      "title": "Псалам 83",
+      "translation": "Ђура Даничић — текст дигиталног издања eBible srp1868",
+      "url": "https://ebible.org/srp1868/PSA083.htm",
+      "snapshot_sha256": "896895b9b9435f24a7baeb4377ebe81ccd95379ebf88d4c0154fa80688f4ae25",
+      "rights_id": "EBIBLE-RIGHTS",
+      "offline": true
+    },
+    {
+      "id": "EBIBLE-PSA084",
+      "title": "Псалам 84",
+      "translation": "Ђура Даничић — текст дигиталног издања eBible srp1868",
+      "url": "https://ebible.org/srp1868/PSA084.htm",
+      "snapshot_sha256": "11ba11bd91d8f1c2e3b3909eb38d639e102212218d31980ddfbe8a1465fdbcf3",
+      "rights_id": "EBIBLE-RIGHTS",
+      "offline": true
+    },
+    {
+      "id": "EBIBLE-PSA085",
+      "title": "Псалам 85",
+      "translation": "Ђура Даничић — текст дигиталног издања eBible srp1868",
+      "url": "https://ebible.org/srp1868/PSA085.htm",
+      "snapshot_sha256": "057a43eed59fd9bb74f85930ff42bc342a77d95562319a5edf6941739b394acc",
+      "rights_id": "EBIBLE-RIGHTS",
+      "offline": true
+    },
+    {
+      "id": "EBIBLE-PSA086",
+      "title": "Псалам 86",
+      "translation": "Ђура Даничић — текст дигиталног издања eBible srp1868",
+      "url": "https://ebible.org/srp1868/PSA086.htm",
+      "snapshot_sha256": "d0c4aed9386c9b79a70ab918e11b427c9631db43b00306e92403da338242e2df",
+      "rights_id": "EBIBLE-RIGHTS",
+      "offline": true
+    },
+    {
+      "id": "EBIBLE-PSA087",
+      "title": "Псалам 87",
+      "translation": "Ђура Даничић — текст дигиталног издања eBible srp1868",
+      "url": "https://ebible.org/srp1868/PSA087.htm",
+      "snapshot_sha256": "a4ea45023de6955de189c9f5a21f75b10195bda14e53491b9ddc879a53f820d5",
+      "rights_id": "EBIBLE-RIGHTS",
+      "offline": true
+    },
+    {
+      "id": "EBIBLE-PSA088",
+      "title": "Псалам 88",
+      "translation": "Ђура Даничић — текст дигиталног издања eBible srp1868",
+      "url": "https://ebible.org/srp1868/PSA088.htm",
+      "snapshot_sha256": "0cb644781c9f1d712b953c48f88ae4caa19cf1dd76fb956c9f6521df364bcc9d",
+      "rights_id": "EBIBLE-RIGHTS",
+      "offline": true
+    },
+    {
+      "id": "EBIBLE-PSA089",
+      "title": "Псалам 89",
+      "translation": "Ђура Даничић — текст дигиталног издања eBible srp1868",
+      "url": "https://ebible.org/srp1868/PSA089.htm",
+      "snapshot_sha256": "1136ed9b93e60732c78031c12b8c99fe9e5cae1795e6cab66bd39a807abae90a",
+      "rights_id": "EBIBLE-RIGHTS",
+      "offline": true
+    },
+    {
+      "id": "EBIBLE-PSA093",
+      "title": "Псалам 93",
+      "translation": "Ђура Даничић — текст дигиталног издања eBible srp1868",
+      "url": "https://ebible.org/srp1868/PSA093.htm",
+      "snapshot_sha256": "e0b513dc80858438c52ea2262754e17ed0b2b076efab95a01e6ec587dbdbe8b0",
+      "rights_id": "EBIBLE-RIGHTS",
+      "offline": true
+    },
+    {
+      "id": "EBIBLE-PSA094",
+      "title": "Псалам 94",
+      "translation": "Ђура Даничић — текст дигиталног издања eBible srp1868",
+      "url": "https://ebible.org/srp1868/PSA094.htm",
+      "snapshot_sha256": "f31cfc6a5758af59b4283a3d9458427517075d7989a05f38bc18556b724e032d",
+      "rights_id": "EBIBLE-RIGHTS",
+      "offline": true
+    },
+    {
+      "id": "EBIBLE-PSA095",
+      "title": "Псалам 95",
+      "translation": "Ђура Даничић — текст дигиталног издања eBible srp1868",
+      "url": "https://ebible.org/srp1868/PSA095.htm",
+      "snapshot_sha256": "c51b26afcc7e0256663654f230986d1e3bfff563ac2722ac399aabe6704561b3",
+      "rights_id": "EBIBLE-RIGHTS",
+      "offline": true
+    },
+    {
+      "id": "EBIBLE-PSA096",
+      "title": "Псалам 96",
+      "translation": "Ђура Даничић — текст дигиталног издања eBible srp1868",
+      "url": "https://ebible.org/srp1868/PSA096.htm",
+      "snapshot_sha256": "488a8d7789ea0b33cf96639fde1c59af2e0daaa3d4be23b1d87bb6d79a8c3eb5",
+      "rights_id": "EBIBLE-RIGHTS",
+      "offline": true
+    },
+    {
+      "id": "EBIBLE-PSA097",
+      "title": "Псалам 97",
+      "translation": "Ђура Даничић — текст дигиталног издања eBible srp1868",
+      "url": "https://ebible.org/srp1868/PSA097.htm",
+      "snapshot_sha256": "c8a55acaf31b2532f0ef5b5934e7ba2a045a0c1f7bdd095f031b8557604541ef",
+      "rights_id": "EBIBLE-RIGHTS",
+      "offline": true
+    },
+    {
+      "id": "EBIBLE-PSA098",
+      "title": "Псалам 98",
+      "translation": "Ђура Даничић — текст дигиталног издања eBible srp1868",
+      "url": "https://ebible.org/srp1868/PSA098.htm",
+      "snapshot_sha256": "60913b27c81ca38275fe25cc757f015b22e4e99f9f05e799fd291cfe5011fd57",
+      "rights_id": "EBIBLE-RIGHTS",
+      "offline": true
+    },
+    {
+      "id": "EBIBLE-PSA099",
+      "title": "Псалам 99",
+      "translation": "Ђура Даничић — текст дигиталног издања eBible srp1868",
+      "url": "https://ebible.org/srp1868/PSA099.htm",
+      "snapshot_sha256": "40dfc1e727c3782a5ffcb778014d80fef00efccbb62667c1c9e246897de86b99",
+      "rights_id": "EBIBLE-RIGHTS",
+      "offline": true
+    },
+    {
+      "id": "EBIBLE-PSA100",
+      "title": "Псалам 100",
+      "translation": "Ђура Даничић — текст дигиталног издања eBible srp1868",
+      "url": "https://ebible.org/srp1868/PSA100.htm",
+      "snapshot_sha256": "bd4c185582b6418f085c6946ae98b504b9135a4850f237b263d0d94ab9eae7d1",
+      "rights_id": "EBIBLE-RIGHTS",
+      "offline": true
+    },
+    {
+      "id": "EBIBLE-PSA101",
+      "title": "Псалам 101",
+      "translation": "Ђура Даничић — текст дигиталног издања eBible srp1868",
+      "url": "https://ebible.org/srp1868/PSA101.htm",
+      "snapshot_sha256": "b69ada93dc3004c619f7f5ee89bb19eb2ffc3a34302633bb5781abac8cd0ea78",
+      "rights_id": "EBIBLE-RIGHTS",
+      "offline": true
+    },
+    {
+      "id": "EBIBLE-PSA102",
+      "title": "Псалам 102",
+      "translation": "Ђура Даничић — текст дигиталног издања eBible srp1868",
+      "url": "https://ebible.org/srp1868/PSA102.htm",
+      "snapshot_sha256": "fe75c1d83a674bf048126e2177d6506a841e378bc80957f241ecf89edb52739b",
+      "rights_id": "EBIBLE-RIGHTS",
+      "offline": true
+    },
+    {
+      "id": "EBIBLE-PSA103",
+      "title": "Псалам 103",
+      "translation": "Ђура Даничић — текст дигиталног издања eBible srp1868",
+      "url": "https://ebible.org/srp1868/PSA103.htm",
+      "snapshot_sha256": "5146ec0f757056067c3be1d216b85bc3b302014289dcd2335e2fdea5e9657780",
+      "rights_id": "EBIBLE-RIGHTS",
+      "offline": true
+    },
+    {
+      "id": "EBIBLE-PSA104",
+      "title": "Псалам 104",
+      "translation": "Ђура Даничић — текст дигиталног издања eBible srp1868",
+      "url": "https://ebible.org/srp1868/PSA104.htm",
+      "snapshot_sha256": "c02f0b95e414fec1db7af1f4f37c598cfdd6a7c397bf1dcdd5ba89740f7e9463",
+      "rights_id": "EBIBLE-RIGHTS",
+      "offline": true
+    },
+    {
+      "id": "EBIBLE-PSA105",
+      "title": "Псалам 105",
+      "translation": "Ђура Даничић — текст дигиталног издања eBible srp1868",
+      "url": "https://ebible.org/srp1868/PSA105.htm",
+      "snapshot_sha256": "b0be6eb42685f96b6e71325dea9c038482cd9cfa6dc671cfcf6010c1e48ad46c",
+      "rights_id": "EBIBLE-RIGHTS",
+      "offline": true
+    },
+    {
+      "id": "EBIBLE-PSA106",
+      "title": "Псалам 106",
+      "translation": "Ђура Даничић — текст дигиталног издања eBible srp1868",
+      "url": "https://ebible.org/srp1868/PSA106.htm",
+      "snapshot_sha256": "3c5f0630fdb4c76cae7a218b77e0be36c262227df56a7b867d681709bd10b383",
+      "rights_id": "EBIBLE-RIGHTS",
+      "offline": true
+    },
+    {
+      "id": "EBIBLE-PSA107",
+      "title": "Псалам 107",
+      "translation": "Ђура Даничић — текст дигиталног издања eBible srp1868",
+      "url": "https://ebible.org/srp1868/PSA107.htm",
+      "snapshot_sha256": "028707b1614b722b31ef545d71aba925aff0c997844de49637455eccaba939af",
+      "rights_id": "EBIBLE-RIGHTS",
+      "offline": true
+    },
+    {
+      "id": "EBIBLE-PSA109",
+      "title": "Псалам 109",
+      "translation": "Ђура Даничић — текст дигиталног издања eBible srp1868",
+      "url": "https://ebible.org/srp1868/PSA109.htm",
+      "snapshot_sha256": "8e3999b294b05364334cd834b77b87ec0648751facf8c30ad3b2d28229c003d5",
+      "rights_id": "EBIBLE-RIGHTS",
+      "offline": true
+    },
+    {
+      "id": "EBIBLE-PSA110",
+      "title": "Псалам 110",
+      "translation": "Ђура Даничић — текст дигиталног издања eBible srp1868",
+      "url": "https://ebible.org/srp1868/PSA110.htm",
+      "snapshot_sha256": "e51417f32b07054049a46f5fdb5fcc638baa4c5de4d581b9b627f8f769a72129",
+      "rights_id": "EBIBLE-RIGHTS",
+      "offline": true
+    },
+    {
+      "id": "EBIBLE-PSA111",
+      "title": "Псалам 111",
+      "translation": "Ђура Даничић — текст дигиталног издања eBible srp1868",
+      "url": "https://ebible.org/srp1868/PSA111.htm",
+      "snapshot_sha256": "397f93217d9af2706ff297c6a14b4beb1c3a6f6852cc69024545fc5d5cf7fe3d",
+      "rights_id": "EBIBLE-RIGHTS",
+      "offline": true
+    },
+    {
+      "id": "EBIBLE-PSA112",
+      "title": "Псалам 112",
+      "translation": "Ђура Даничић — текст дигиталног издања eBible srp1868",
+      "url": "https://ebible.org/srp1868/PSA112.htm",
+      "snapshot_sha256": "05bef78560d5da7dadc11393d612366fcdf55860bcb9a96be8ac8d59316bff23",
+      "rights_id": "EBIBLE-RIGHTS",
+      "offline": true
+    },
+    {
+      "id": "EBIBLE-PSA113",
+      "title": "Псалам 113",
+      "translation": "Ђура Даничић — текст дигиталног издања eBible srp1868",
+      "url": "https://ebible.org/srp1868/PSA113.htm",
+      "snapshot_sha256": "fb15acb3f79be82bf132439030d46ccb66e401b3a39185c828dadd2ea444ac9d",
+      "rights_id": "EBIBLE-RIGHTS",
+      "offline": true
+    },
+    {
+      "id": "EBIBLE-PSA114",
+      "title": "Псалам 114",
+      "translation": "Ђура Даничић — текст дигиталног издања eBible srp1868",
+      "url": "https://ebible.org/srp1868/PSA114.htm",
+      "snapshot_sha256": "0f8e6780bfe0e572dc804cabf98d81bf5a768a7d6c32e4c4b2523823af769acd",
+      "rights_id": "EBIBLE-RIGHTS",
+      "offline": true
+    },
+    {
+      "id": "EBIBLE-PSA115",
+      "title": "Псалам 115",
+      "translation": "Ђура Даничић — текст дигиталног издања eBible srp1868",
+      "url": "https://ebible.org/srp1868/PSA115.htm",
+      "snapshot_sha256": "bcce0f9671dc5120b7ae5a6c8ddc8d97e696cc5ff9f6b41121a649102fa70bc9",
+      "rights_id": "EBIBLE-RIGHTS",
+      "offline": true
+    },
+    {
+      "id": "EBIBLE-PSA116",
+      "title": "Псалам 116",
+      "translation": "Ђура Даничић — текст дигиталног издања eBible srp1868",
+      "url": "https://ebible.org/srp1868/PSA116.htm",
+      "snapshot_sha256": "df1626bfc2f3d537441d03abd638fafc9c28bd91ba62385ca8aaac9b6b4ff2c5",
+      "rights_id": "EBIBLE-RIGHTS",
+      "offline": true
+    },
+    {
+      "id": "EBIBLE-PSA117",
+      "title": "Псалам 117",
+      "translation": "Ђура Даничић — текст дигиталног издања eBible srp1868",
+      "url": "https://ebible.org/srp1868/PSA117.htm",
+      "snapshot_sha256": "45190b27a3cc9463dd65f6c27bd2b594dcad12c57852d03860177f97312f49a9",
+      "rights_id": "EBIBLE-RIGHTS",
+      "offline": true
+    },
+    {
+      "id": "EBIBLE-PSA120",
+      "title": "Псалам 120",
+      "translation": "Ђура Даничић — текст дигиталног издања eBible srp1868",
+      "url": "https://ebible.org/srp1868/PSA120.htm",
+      "snapshot_sha256": "7056b7d1ba458b72c84bb09ed87dcbf97fd6acbcbd2e12427ba6e8b8faefa88c",
+      "rights_id": "EBIBLE-RIGHTS",
+      "offline": true
+    },
+    {
+      "id": "EBIBLE-PSA122",
+      "title": "Псалам 122",
+      "translation": "Ђура Даничић — текст дигиталног издања eBible srp1868",
+      "url": "https://ebible.org/srp1868/PSA122.htm",
+      "snapshot_sha256": "9f4608bd0894dcea0648e0441de40b07544ddcef4e1726bebaa889d543a901c1",
+      "rights_id": "EBIBLE-RIGHTS",
+      "offline": true
+    },
+    {
+      "id": "EBIBLE-PSA123",
+      "title": "Псалам 123",
+      "translation": "Ђура Даничић — текст дигиталног издања eBible srp1868",
+      "url": "https://ebible.org/srp1868/PSA123.htm",
+      "snapshot_sha256": "6909554b72264673429759dd3f1619db5b46ed33a8b7488d9338aecb001c3c57",
+      "rights_id": "EBIBLE-RIGHTS",
+      "offline": true
+    },
+    {
+      "id": "EBIBLE-PSA124",
+      "title": "Псалам 124",
+      "translation": "Ђура Даничић — текст дигиталног издања eBible srp1868",
+      "url": "https://ebible.org/srp1868/PSA124.htm",
+      "snapshot_sha256": "9ba10a4687708663d4c3e5793857cf749cdfe1fe59267987fed9fbc525f6dd05",
+      "rights_id": "EBIBLE-RIGHTS",
+      "offline": true
+    },
+    {
+      "id": "EBIBLE-PSA125",
+      "title": "Псалам 125",
+      "translation": "Ђура Даничић — текст дигиталног издања eBible srp1868",
+      "url": "https://ebible.org/srp1868/PSA125.htm",
+      "snapshot_sha256": "3f93352d7f29209ea1c59d1ba0646551d5f33ab5270020e02532e6832a98b1a8",
+      "rights_id": "EBIBLE-RIGHTS",
+      "offline": true
+    },
+    {
+      "id": "EBIBLE-PSA126",
+      "title": "Псалам 126",
+      "translation": "Ђура Даничић — текст дигиталног издања eBible srp1868",
+      "url": "https://ebible.org/srp1868/PSA126.htm",
+      "snapshot_sha256": "25a982ebf2d9a65322c9ff881ba764641b8ff552ef835336d06dceff382173bb",
+      "rights_id": "EBIBLE-RIGHTS",
+      "offline": true
+    },
+    {
+      "id": "EBIBLE-PSA127",
+      "title": "Псалам 127",
+      "translation": "Ђура Даничић — текст дигиталног издања eBible srp1868",
+      "url": "https://ebible.org/srp1868/PSA127.htm",
+      "snapshot_sha256": "d1ad0ba00212c1227c2ada247c7f8aa1f4f5826b616e3db64b03327ad00dfabf",
+      "rights_id": "EBIBLE-RIGHTS",
+      "offline": true
+    },
+    {
+      "id": "EBIBLE-PSA128",
+      "title": "Псалам 128",
+      "translation": "Ђура Даничић — текст дигиталног издања eBible srp1868",
+      "url": "https://ebible.org/srp1868/PSA128.htm",
+      "snapshot_sha256": "63d55a08cd3974d7fd4867ef75ac0b5ae4961a764863e39b783555a225b725fc",
+      "rights_id": "EBIBLE-RIGHTS",
+      "offline": true
+    },
+    {
+      "id": "EBIBLE-PSA129",
+      "title": "Псалам 129",
+      "translation": "Ђура Даничић — текст дигиталног издања eBible srp1868",
+      "url": "https://ebible.org/srp1868/PSA129.htm",
+      "snapshot_sha256": "15cea7346c4d01e0e0739c049db8702f07b7765fa8b76f6524cb439a42515481",
+      "rights_id": "EBIBLE-RIGHTS",
+      "offline": true
+    },
+    {
+      "id": "EBIBLE-PSA130",
+      "title": "Псалам 130",
+      "translation": "Ђура Даничић — текст дигиталног издања eBible srp1868",
+      "url": "https://ebible.org/srp1868/PSA130.htm",
+      "snapshot_sha256": "bcc870518db8dbd081fdda6ca2104bcfe5e0c43c8f559ed12aee2eacfd08793c",
+      "rights_id": "EBIBLE-RIGHTS",
+      "offline": true
+    },
+    {
+      "id": "EBIBLE-PSA131",
+      "title": "Псалам 131",
+      "translation": "Ђура Даничић — текст дигиталног издања eBible srp1868",
+      "url": "https://ebible.org/srp1868/PSA131.htm",
+      "snapshot_sha256": "c7b535205121b2e5c1faabeec1d3d285436d0015064e8458f94fd5d4a715aa56",
+      "rights_id": "EBIBLE-RIGHTS",
+      "offline": true
+    },
+    {
+      "id": "EBIBLE-PSA132",
+      "title": "Псалам 132",
+      "translation": "Ђура Даничић — текст дигиталног издања eBible srp1868",
+      "url": "https://ebible.org/srp1868/PSA132.htm",
+      "snapshot_sha256": "ca81e85761563f4a9d8fd5bb40ce330b9adbfa36229e04f6726cfd1728ce77ab",
+      "rights_id": "EBIBLE-RIGHTS",
+      "offline": true
+    },
+    {
+      "id": "EBIBLE-PSA133",
+      "title": "Псалам 133",
+      "translation": "Ђура Даничић — текст дигиталног издања eBible srp1868",
+      "url": "https://ebible.org/srp1868/PSA133.htm",
+      "snapshot_sha256": "fd07a9e69644aaec2d2bb5a550cb6f9d3a6f13fc6d99ea93750cf7aff3ca1a3b",
+      "rights_id": "EBIBLE-RIGHTS",
+      "offline": true
+    },
+    {
+      "id": "EBIBLE-PSA134",
+      "title": "Псалам 134",
+      "translation": "Ђура Даничић — текст дигиталног издања eBible srp1868",
+      "url": "https://ebible.org/srp1868/PSA134.htm",
+      "snapshot_sha256": "0e429aef5eb71ce198b7b4d7bab5df7e978b676fbc8fd337ac7fe0804ec56a00",
+      "rights_id": "EBIBLE-RIGHTS",
+      "offline": true
+    },
+    {
+      "id": "EBIBLE-PSA135",
+      "title": "Псалам 135",
+      "translation": "Ђура Даничић — текст дигиталног издања eBible srp1868",
+      "url": "https://ebible.org/srp1868/PSA135.htm",
+      "snapshot_sha256": "534b4c00534ca1027819020fe5dd7a89cc547c036181ee94c57e795b146c2d31",
+      "rights_id": "EBIBLE-RIGHTS",
+      "offline": true
+    },
+    {
+      "id": "EBIBLE-PSA136",
+      "title": "Псалам 136",
+      "translation": "Ђура Даничић — текст дигиталног издања eBible srp1868",
+      "url": "https://ebible.org/srp1868/PSA136.htm",
+      "snapshot_sha256": "4425b95e1a452c4df78b482c1da6ee34f2d529497ce8c312315e0174a3eaeba7",
+      "rights_id": "EBIBLE-RIGHTS",
+      "offline": true
+    },
+    {
+      "id": "EBIBLE-PSA137",
+      "title": "Псалам 137",
+      "translation": "Ђура Даничић — текст дигиталног издања eBible srp1868",
+      "url": "https://ebible.org/srp1868/PSA137.htm",
+      "snapshot_sha256": "1f99971ef4a9d8512383d808a7f28e2d911078d86996fd95e13d524d613bfc25",
+      "rights_id": "EBIBLE-RIGHTS",
+      "offline": true
+    },
+    {
+      "id": "EBIBLE-PSA138",
+      "title": "Псалам 138",
+      "translation": "Ђура Даничић — текст дигиталног издања eBible srp1868",
+      "url": "https://ebible.org/srp1868/PSA138.htm",
+      "snapshot_sha256": "c5436642d401ad5d3b664c908c06b6f71748e2f2c704a388fbb55e65e7d07102",
+      "rights_id": "EBIBLE-RIGHTS",
+      "offline": true
+    },
+    {
+      "id": "EBIBLE-PSA139",
+      "title": "Псалам 139",
+      "translation": "Ђура Даничић — текст дигиталног издања eBible srp1868",
+      "url": "https://ebible.org/srp1868/PSA139.htm",
+      "snapshot_sha256": "9d89139cbce7ce62deec8c5e1b633125d3e5c59c36d1eb0ab3b6f922712e8c43",
+      "rights_id": "EBIBLE-RIGHTS",
+      "offline": true
+    },
+    {
+      "id": "EBIBLE-PSA140",
+      "title": "Псалам 140",
+      "translation": "Ђура Даничић — текст дигиталног издања eBible srp1868",
+      "url": "https://ebible.org/srp1868/PSA140.htm",
+      "snapshot_sha256": "08e0cde96092b6b612bd1fe02fa403877f6e9ca5e766eb7e7f3a014bb725b3d7",
+      "rights_id": "EBIBLE-RIGHTS",
+      "offline": true
+    },
+    {
+      "id": "EBIBLE-PSA141",
+      "title": "Псалам 141",
+      "translation": "Ђура Даничић — текст дигиталног издања eBible srp1868",
+      "url": "https://ebible.org/srp1868/PSA141.htm",
+      "snapshot_sha256": "e1f577681271e064927ff878d5c875652b3f241228fd16f88c4b4b7df35ee235",
+      "rights_id": "EBIBLE-RIGHTS",
+      "offline": true
+    },
+    {
+      "id": "EBIBLE-PSA142",
+      "title": "Псалам 142",
+      "translation": "Ђура Даничић — текст дигиталног издања eBible srp1868",
+      "url": "https://ebible.org/srp1868/PSA142.htm",
+      "snapshot_sha256": "6aca5f68c960cb8bd2e8a20e8f1443782188bd5d70da2b198a373562626cda51",
+      "rights_id": "EBIBLE-RIGHTS",
+      "offline": true
+    },
+    {
+      "id": "EBIBLE-PSA143",
+      "title": "Псалам 143",
+      "translation": "Ђура Даничић — текст дигиталног издања eBible srp1868",
+      "url": "https://ebible.org/srp1868/PSA143.htm",
+      "snapshot_sha256": "fef450619d13c8bb8d6f552f8b99af8154a2a257420b9ccbd3fbac18938006f3",
+      "rights_id": "EBIBLE-RIGHTS",
+      "offline": true
+    },
+    {
+      "id": "EBIBLE-PSA144",
+      "title": "Псалам 144",
+      "translation": "Ђура Даничић — текст дигиталног издања eBible srp1868",
+      "url": "https://ebible.org/srp1868/PSA144.htm",
+      "snapshot_sha256": "11bdae847805edb6df3ac7356858dc302caca3cc5b1077c13a392128dc4b70fb",
+      "rights_id": "EBIBLE-RIGHTS",
+      "offline": true
+    },
+    {
+      "id": "EBIBLE-PSA145",
+      "title": "Псалам 145",
+      "translation": "Ђура Даничић — текст дигиталног издања eBible srp1868",
+      "url": "https://ebible.org/srp1868/PSA145.htm",
+      "snapshot_sha256": "95f92caa5da5e97781d98d1d1583ab233ae4d6837d2dde5f02c1a83b0fd95e32",
+      "rights_id": "EBIBLE-RIGHTS",
+      "offline": true
+    },
+    {
+      "id": "EBIBLE-PSA146",
+      "title": "Псалам 146",
+      "translation": "Ђура Даничић — текст дигиталног издања eBible srp1868",
+      "url": "https://ebible.org/srp1868/PSA146.htm",
+      "snapshot_sha256": "5b0a372311c1c207d3e80fc8014ae51e5261a07b22a3069fcf746a635468b4e4",
+      "rights_id": "EBIBLE-RIGHTS",
+      "offline": true
+    },
+    {
+      "id": "EBIBLE-PSA147",
+      "title": "Псалам 147",
+      "translation": "Ђура Даничић — текст дигиталног издања eBible srp1868",
+      "url": "https://ebible.org/srp1868/PSA147.htm",
+      "snapshot_sha256": "8c696f0a674b4f2b30ac34afc77cad95fdcf0013e133d8b68e22e329809fe6ed",
+      "rights_id": "EBIBLE-RIGHTS",
+      "offline": true
+    },
+    {
+      "id": "EBIBLE-PSA148",
+      "title": "Псалам 148",
+      "translation": "Ђура Даничић — текст дигиталног издања eBible srp1868",
+      "url": "https://ebible.org/srp1868/PSA148.htm",
+      "snapshot_sha256": "a6ed16547cf887064cca642ee423fe74ebfe447f5897b1538580bfacd2eff625",
+      "rights_id": "EBIBLE-RIGHTS",
+      "offline": true
+    },
+    {
+      "id": "EBIBLE-PSA149",
+      "title": "Псалам 149",
+      "translation": "Ђура Даничић — текст дигиталног издања eBible srp1868",
+      "url": "https://ebible.org/srp1868/PSA149.htm",
+      "snapshot_sha256": "70d4deb4ff4d4926c7da9e66216a3612780376b2e40385e3a9a624c3f55ffe03",
+      "rights_id": "EBIBLE-RIGHTS",
+      "offline": true
+    },
+    {
+      "id": "EBIBLE-PSA150",
+      "title": "Псалам 150",
+      "translation": "Ђура Даничић — текст дигиталног издања eBible srp1868",
+      "url": "https://ebible.org/srp1868/PSA150.htm",
+      "snapshot_sha256": "4ffd026df390d7026b719c12658fccc79e10b2c405ce5c7ea6f448d832758400",
+      "rights_id": "EBIBLE-RIGHTS",
+      "offline": true
+    },
+    {
+      "id": "EBIBLE-LUK01-46-55",
+      "title": "Маријин хвалоспев",
+      "translation": "Вук Караџић — текст дигиталног издања eBible srp1868",
+      "url": "https://ebible.org/srp1868/LUK01.htm#V46",
+      "snapshot_sha256": "42165a36fa26076543790eaaf0d509118dcf0d71f968e92d44f1817ff1eaebfa",
+      "rights_id": "EBIBLE-RIGHTS",
+      "offline": true
+    },
+    {
+      "id": "EBIBLE-LUK01-68-79",
+      "title": "Захаријин хвалоспев",
+      "translation": "Вук Караџић — текст дигиталног издања eBible srp1868",
+      "url": "https://ebible.org/srp1868/LUK01.htm#V68",
+      "snapshot_sha256": "42165a36fa26076543790eaaf0d509118dcf0d71f968e92d44f1817ff1eaebfa",
+      "rights_id": "EBIBLE-RIGHTS",
+      "offline": true
+    },
+    {
+      "id": "EBIBLE-ACT04-24-30",
+      "title": "Молитва првих хришћана",
+      "translation": "Вук Караџић — текст дигиталног издања eBible srp1868",
+      "url": "https://ebible.org/srp1868/ACT04.htm#V24",
+      "snapshot_sha256": "7e5d8dd20267be731097fa74c7ef512e8f62d142734ffd05b9206a28becdd8b8",
+      "rights_id": "EBIBLE-RIGHTS",
+      "offline": true
+    },
+    {
+      "id": "EBIBLE-MAT01",
+      "title": "Свето Јеванђеље по Матеју 1",
+      "translation": "Вук Караџић — eBible srp1868",
+      "url": "https://ebible.org/srp1868/MAT01.htm",
+      "snapshot_sha256": "c7792449011c8293d859778ebe8816ea3713c8d4c96f72a07fbff7c1e317c7f5",
+      "rights_id": "EBIBLE-RIGHTS",
+      "offline": true
+    },
+    {
+      "id": "EBIBLE-MAT02",
+      "title": "Свето Јеванђеље по Матеју 2",
+      "translation": "Вук Караџић — eBible srp1868",
+      "url": "https://ebible.org/srp1868/MAT02.htm",
+      "snapshot_sha256": "5b0318f586a906d6cfa7620f924146b6a339a01234d80bbd073c360ae0f49747",
+      "rights_id": "EBIBLE-RIGHTS",
+      "offline": true
+    },
+    {
+      "id": "EBIBLE-MAT03",
+      "title": "Свето Јеванђеље по Матеју 3",
+      "translation": "Вук Караџић — eBible srp1868",
+      "url": "https://ebible.org/srp1868/MAT03.htm",
+      "snapshot_sha256": "b51d424140686419443aaec602e2e4a17b412f74162cb45652465457294d45e5",
+      "rights_id": "EBIBLE-RIGHTS",
+      "offline": true
+    },
+    {
+      "id": "EBIBLE-MAT04",
+      "title": "Свето Јеванђеље по Матеју 4",
+      "translation": "Вук Караџић — eBible srp1868",
+      "url": "https://ebible.org/srp1868/MAT04.htm",
+      "snapshot_sha256": "c0cf905f9e321ec633fe49e485ffc14badad49a573715e77cad353cd4cb28cb5",
+      "rights_id": "EBIBLE-RIGHTS",
+      "offline": true
+    },
+    {
+      "id": "EBIBLE-MAT05",
+      "title": "Свето Јеванђеље по Матеју 5",
+      "translation": "Вук Караџић — eBible srp1868",
+      "url": "https://ebible.org/srp1868/MAT05.htm",
+      "snapshot_sha256": "19a61fac03deb9dfde47a19be515387cf4acddb9abcd7bdbf2c07d704049dcf4",
+      "rights_id": "EBIBLE-RIGHTS",
+      "offline": true
+    },
+    {
+      "id": "EBIBLE-MAT07",
+      "title": "Свето Јеванђеље по Матеју 7",
+      "translation": "Вук Караџић — eBible srp1868",
+      "url": "https://ebible.org/srp1868/MAT07.htm",
+      "snapshot_sha256": "dbb4b0d32f7d73d872d8999fa822bf0182755e5df00388cea238d4c7625ea13b",
+      "rights_id": "EBIBLE-RIGHTS",
+      "offline": true
+    },
+    {
+      "id": "EBIBLE-MAT08",
+      "title": "Свето Јеванђеље по Матеју 8",
+      "translation": "Вук Караџић — eBible srp1868",
+      "url": "https://ebible.org/srp1868/MAT08.htm",
+      "snapshot_sha256": "fe5dab49592b0a97ea1067e25036608289c9a763706c3ed9732c6dbd41e58f39",
+      "rights_id": "EBIBLE-RIGHTS",
+      "offline": true
+    },
+    {
+      "id": "EBIBLE-MAT09",
+      "title": "Свето Јеванђеље по Матеју 9",
+      "translation": "Вук Караџић — eBible srp1868",
+      "url": "https://ebible.org/srp1868/MAT09.htm",
+      "snapshot_sha256": "c67516a0f134e2299a4fbb81ac1dc3adf493211120354fc154e7c5f0d2865390",
+      "rights_id": "EBIBLE-RIGHTS",
+      "offline": true
+    },
+    {
+      "id": "EBIBLE-MAT10",
+      "title": "Свето Јеванђеље по Матеју 10",
+      "translation": "Вук Караџић — eBible srp1868",
+      "url": "https://ebible.org/srp1868/MAT10.htm",
+      "snapshot_sha256": "dff67468016ad0b5419ff789210833ed2e42b263d5b427d89647ff238d6b7249",
+      "rights_id": "EBIBLE-RIGHTS",
+      "offline": true
+    },
+    {
+      "id": "EBIBLE-MAT11",
+      "title": "Свето Јеванђеље по Матеју 11",
+      "translation": "Вук Караџић — eBible srp1868",
+      "url": "https://ebible.org/srp1868/MAT11.htm",
+      "snapshot_sha256": "b505878ca693a04d3269f39f38383cb4d7cae2f604eddcfabf6664065bbc4a64",
+      "rights_id": "EBIBLE-RIGHTS",
+      "offline": true
+    },
+    {
+      "id": "EBIBLE-MAT12",
+      "title": "Свето Јеванђеље по Матеју 12",
+      "translation": "Вук Караџић — eBible srp1868",
+      "url": "https://ebible.org/srp1868/MAT12.htm",
+      "snapshot_sha256": "e6ba6006ff147995de156161c217e4a4cf7fa277a4720902d3554fb9bdae0ad2",
+      "rights_id": "EBIBLE-RIGHTS",
+      "offline": true
+    },
+    {
+      "id": "EBIBLE-MAT13",
+      "title": "Свето Јеванђеље по Матеју 13",
+      "translation": "Вук Караџић — eBible srp1868",
+      "url": "https://ebible.org/srp1868/MAT13.htm",
+      "snapshot_sha256": "2f5a087dbcbde1262a51c436c9028bbd5dfc3780a157957046fc15277be69b0b",
+      "rights_id": "EBIBLE-RIGHTS",
+      "offline": true
+    },
+    {
+      "id": "EBIBLE-MAT14",
+      "title": "Свето Јеванђеље по Матеју 14",
+      "translation": "Вук Караџић — eBible srp1868",
+      "url": "https://ebible.org/srp1868/MAT14.htm",
+      "snapshot_sha256": "8347aa09387c8ac1ab21efd9f0d48bbb888012c0ca5fb8e4e99ed7213dc341e3",
+      "rights_id": "EBIBLE-RIGHTS",
+      "offline": true
+    },
+    {
+      "id": "EBIBLE-MAT15",
+      "title": "Свето Јеванђеље по Матеју 15",
+      "translation": "Вук Караџић — eBible srp1868",
+      "url": "https://ebible.org/srp1868/MAT15.htm",
+      "snapshot_sha256": "59a5c146db83663951873d257ca69446d888a98f21aff2d55d3083773045eb9d",
+      "rights_id": "EBIBLE-RIGHTS",
+      "offline": true
+    },
+    {
+      "id": "EBIBLE-MAT16",
+      "title": "Свето Јеванђеље по Матеју 16",
+      "translation": "Вук Караџић — eBible srp1868",
+      "url": "https://ebible.org/srp1868/MAT16.htm",
+      "snapshot_sha256": "9b4760a6cf980bbe52242228687e039ca16bc7cb4b6fe0bb3f4a046ee7ca6c49",
+      "rights_id": "EBIBLE-RIGHTS",
+      "offline": true
+    },
+    {
+      "id": "EBIBLE-MAT17",
+      "title": "Свето Јеванђеље по Матеју 17",
+      "translation": "Вук Караџић — eBible srp1868",
+      "url": "https://ebible.org/srp1868/MAT17.htm",
+      "snapshot_sha256": "64984bc295d5c831fc1a7dd7017cbc216006604c62ae487dba67f685746ac19f",
+      "rights_id": "EBIBLE-RIGHTS",
+      "offline": true
+    },
+    {
+      "id": "EBIBLE-MAT18",
+      "title": "Свето Јеванђеље по Матеју 18",
+      "translation": "Вук Караџић — eBible srp1868",
+      "url": "https://ebible.org/srp1868/MAT18.htm",
+      "snapshot_sha256": "88803a9c52c1f00671fbccf8287187ed187143db40699ac06447758d7686f859",
+      "rights_id": "EBIBLE-RIGHTS",
+      "offline": true
+    },
+    {
+      "id": "EBIBLE-MAT19",
+      "title": "Свето Јеванђеље по Матеју 19",
+      "translation": "Вук Караџић — eBible srp1868",
+      "url": "https://ebible.org/srp1868/MAT19.htm",
+      "snapshot_sha256": "4ca9e623cce6e1d3e286d73d116cc2b1cf76efdadfddb14cc840bd2166864441",
+      "rights_id": "EBIBLE-RIGHTS",
+      "offline": true
+    },
+    {
+      "id": "EBIBLE-MAT20",
+      "title": "Свето Јеванђеље по Матеју 20",
+      "translation": "Вук Караџић — eBible srp1868",
+      "url": "https://ebible.org/srp1868/MAT20.htm",
+      "snapshot_sha256": "dccbc2a11dfef8c3b980d3c9f24016f4f83aa7009f254ecfaccc4475643b2c94",
+      "rights_id": "EBIBLE-RIGHTS",
+      "offline": true
+    },
+    {
+      "id": "EBIBLE-MAT21",
+      "title": "Свето Јеванђеље по Матеју 21",
+      "translation": "Вук Караџић — eBible srp1868",
+      "url": "https://ebible.org/srp1868/MAT21.htm",
+      "snapshot_sha256": "6845acea7b6f0df2b4aae9f50d92e648869e997ce46813582b80d4acc0fca122",
+      "rights_id": "EBIBLE-RIGHTS",
+      "offline": true
+    },
+    {
+      "id": "EBIBLE-MAT22",
+      "title": "Свето Јеванђеље по Матеју 22",
+      "translation": "Вук Караџић — eBible srp1868",
+      "url": "https://ebible.org/srp1868/MAT22.htm",
+      "snapshot_sha256": "f60d21e6d6f41f879ba27aaa5759f932486fc4df2a07f6ecd608c0a011d8b115",
+      "rights_id": "EBIBLE-RIGHTS",
+      "offline": true
+    },
+    {
+      "id": "EBIBLE-MAT23",
+      "title": "Свето Јеванђеље по Матеју 23",
+      "translation": "Вук Караџић — eBible srp1868",
+      "url": "https://ebible.org/srp1868/MAT23.htm",
+      "snapshot_sha256": "b2ae938859b2b7ac2b7b65c19748074e270fc3deb593a790dfbb165f6bc5cbef",
+      "rights_id": "EBIBLE-RIGHTS",
+      "offline": true
+    },
+    {
+      "id": "EBIBLE-MAT24",
+      "title": "Свето Јеванђеље по Матеју 24",
+      "translation": "Вук Караџић — eBible srp1868",
+      "url": "https://ebible.org/srp1868/MAT24.htm",
+      "snapshot_sha256": "deb65ea8492285b17c9e55c3491d98a43039c3fe472db6016f57f1264ed44765",
+      "rights_id": "EBIBLE-RIGHTS",
+      "offline": true
+    },
+    {
+      "id": "EBIBLE-MAT25",
+      "title": "Свето Јеванђеље по Матеју 25",
+      "translation": "Вук Караџић — eBible srp1868",
+      "url": "https://ebible.org/srp1868/MAT25.htm",
+      "snapshot_sha256": "1f550b370344a134818b389c2bd57c31dc71868873e0f1d9e36b9e4c2ce9081f",
+      "rights_id": "EBIBLE-RIGHTS",
+      "offline": true
+    },
+    {
+      "id": "EBIBLE-MAT26",
+      "title": "Свето Јеванђеље по Матеју 26",
+      "translation": "Вук Караџић — eBible srp1868",
+      "url": "https://ebible.org/srp1868/MAT26.htm",
+      "snapshot_sha256": "a53a5a2009be8818ab854fabd36cf228a2e145132cf46594cb759d4a74dd1acb",
+      "rights_id": "EBIBLE-RIGHTS",
+      "offline": true
+    },
+    {
+      "id": "EBIBLE-MAT27",
+      "title": "Свето Јеванђеље по Матеју 27",
+      "translation": "Вук Караџић — eBible srp1868",
+      "url": "https://ebible.org/srp1868/MAT27.htm",
+      "snapshot_sha256": "6f41eab4abf13d986f8ce6cb65df7ade173022a1966d8901924ff4a1af8315c0",
+      "rights_id": "EBIBLE-RIGHTS",
+      "offline": true
+    },
+    {
+      "id": "EBIBLE-MAT28",
+      "title": "Свето Јеванђеље по Матеју 28",
+      "translation": "Вук Караџић — eBible srp1868",
+      "url": "https://ebible.org/srp1868/MAT28.htm",
+      "snapshot_sha256": "d019557230b3ef0eee4a87ce8386b2c5d11ccb58fdeee0feb99cf230bc44c194",
+      "rights_id": "EBIBLE-RIGHTS",
+      "offline": true
+    },
+    {
+      "id": "EBIBLE-MRK01",
+      "title": "Свето Јеванђеље по Марку 1",
+      "translation": "Вук Караџић — eBible srp1868",
+      "url": "https://ebible.org/srp1868/MRK01.htm",
+      "snapshot_sha256": "b9bc15d304d34fc8d4d28cef4e6ffef63c21b7eb9d0319ed94119308496ddb80",
+      "rights_id": "EBIBLE-RIGHTS",
+      "offline": true
+    },
+    {
+      "id": "EBIBLE-MRK02",
+      "title": "Свето Јеванђеље по Марку 2",
+      "translation": "Вук Караџић — eBible srp1868",
+      "url": "https://ebible.org/srp1868/MRK02.htm",
+      "snapshot_sha256": "a9bc2fd569638b572191c10461f97e008fcb7b45969ca0297faf1a7e4351e41e",
+      "rights_id": "EBIBLE-RIGHTS",
+      "offline": true
+    },
+    {
+      "id": "EBIBLE-MRK03",
+      "title": "Свето Јеванђеље по Марку 3",
+      "translation": "Вук Караџић — eBible srp1868",
+      "url": "https://ebible.org/srp1868/MRK03.htm",
+      "snapshot_sha256": "cb057366447c6345fc99968de3c98daa46cef4323ce3223933dcb5d0c7a28e7c",
+      "rights_id": "EBIBLE-RIGHTS",
+      "offline": true
+    },
+    {
+      "id": "EBIBLE-MRK04",
+      "title": "Свето Јеванђеље по Марку 4",
+      "translation": "Вук Караџић — eBible srp1868",
+      "url": "https://ebible.org/srp1868/MRK04.htm",
+      "snapshot_sha256": "4740b59b32ad331290f081c9a712ecbcd184f742a9a0f181c44da8abc768f805",
+      "rights_id": "EBIBLE-RIGHTS",
+      "offline": true
+    },
+    {
+      "id": "EBIBLE-MRK05",
+      "title": "Свето Јеванђеље по Марку 5",
+      "translation": "Вук Караџић — eBible srp1868",
+      "url": "https://ebible.org/srp1868/MRK05.htm",
+      "snapshot_sha256": "4abd3bdd007f6c58df2eeab7a0351a51c8d9d3844980e782e9cbb99123075dc1",
+      "rights_id": "EBIBLE-RIGHTS",
+      "offline": true
+    },
+    {
+      "id": "EBIBLE-MRK06",
+      "title": "Свето Јеванђеље по Марку 6",
+      "translation": "Вук Караџић — eBible srp1868",
+      "url": "https://ebible.org/srp1868/MRK06.htm",
+      "snapshot_sha256": "574be45f40d60771f082339f1b37eb66b8607f6b38f3c4b4fbc01596192b58d3",
+      "rights_id": "EBIBLE-RIGHTS",
+      "offline": true
+    },
+    {
+      "id": "EBIBLE-MRK07",
+      "title": "Свето Јеванђеље по Марку 7",
+      "translation": "Вук Караџић — eBible srp1868",
+      "url": "https://ebible.org/srp1868/MRK07.htm",
+      "snapshot_sha256": "4dc68435d3d2b0d99266ee45f196cc55f3283eb9e52f75d6f465aa802100f02f",
+      "rights_id": "EBIBLE-RIGHTS",
+      "offline": true
+    },
+    {
+      "id": "EBIBLE-MRK08",
+      "title": "Свето Јеванђеље по Марку 8",
+      "translation": "Вук Караџић — eBible srp1868",
+      "url": "https://ebible.org/srp1868/MRK08.htm",
+      "snapshot_sha256": "698c68b10548f94b90211ad711b67367d795601c018b7556da1ff144e87e4f24",
+      "rights_id": "EBIBLE-RIGHTS",
+      "offline": true
+    },
+    {
+      "id": "EBIBLE-MRK09",
+      "title": "Свето Јеванђеље по Марку 9",
+      "translation": "Вук Караџић — eBible srp1868",
+      "url": "https://ebible.org/srp1868/MRK09.htm",
+      "snapshot_sha256": "0c7661452d9e0d30f8608e421125a15a5cdc15099d0dc85936339a02aad7f93f",
+      "rights_id": "EBIBLE-RIGHTS",
+      "offline": true
+    },
+    {
+      "id": "EBIBLE-MRK10",
+      "title": "Свето Јеванђеље по Марку 10",
+      "translation": "Вук Караџић — eBible srp1868",
+      "url": "https://ebible.org/srp1868/MRK10.htm",
+      "snapshot_sha256": "5397969955e92a9960ccd511fbbe7373720ca0274d42139855f390a88a8e43ec",
+      "rights_id": "EBIBLE-RIGHTS",
+      "offline": true
+    },
+    {
+      "id": "EBIBLE-MRK11",
+      "title": "Свето Јеванђеље по Марку 11",
+      "translation": "Вук Караџић — eBible srp1868",
+      "url": "https://ebible.org/srp1868/MRK11.htm",
+      "snapshot_sha256": "583b7c38c74914f31dc07a9a4d3d46c77d180a8a803d2ab897c4e6adcb0c099b",
+      "rights_id": "EBIBLE-RIGHTS",
+      "offline": true
+    },
+    {
+      "id": "EBIBLE-MRK12",
+      "title": "Свето Јеванђеље по Марку 12",
+      "translation": "Вук Караџић — eBible srp1868",
+      "url": "https://ebible.org/srp1868/MRK12.htm",
+      "snapshot_sha256": "a3a506755a9907284edd1b4c2f9458f36f407b2bd6ba693673a9a8c05bb76fe1",
+      "rights_id": "EBIBLE-RIGHTS",
+      "offline": true
+    },
+    {
+      "id": "EBIBLE-MRK13",
+      "title": "Свето Јеванђеље по Марку 13",
+      "translation": "Вук Караџић — eBible srp1868",
+      "url": "https://ebible.org/srp1868/MRK13.htm",
+      "snapshot_sha256": "8e5af64bb2b2dd6c0d617a7c04fae300fb7917c8c68a9482e2d1c208e1aa6468",
+      "rights_id": "EBIBLE-RIGHTS",
+      "offline": true
+    },
+    {
+      "id": "EBIBLE-MRK14",
+      "title": "Свето Јеванђеље по Марку 14",
+      "translation": "Вук Караџић — eBible srp1868",
+      "url": "https://ebible.org/srp1868/MRK14.htm",
+      "snapshot_sha256": "ebcce1f47a1c3df356d989b206f3b7656f855fbfa47750831e668b1fc118642c",
+      "rights_id": "EBIBLE-RIGHTS",
+      "offline": true
+    },
+    {
+      "id": "EBIBLE-MRK15",
+      "title": "Свето Јеванђеље по Марку 15",
+      "translation": "Вук Караџић — eBible srp1868",
+      "url": "https://ebible.org/srp1868/MRK15.htm",
+      "snapshot_sha256": "622e4a8e67a4b3d59b27692a652ea5feba336e28c1ca632f153e76db2ae3418e",
+      "rights_id": "EBIBLE-RIGHTS",
+      "offline": true
+    },
+    {
+      "id": "EBIBLE-MRK16",
+      "title": "Свето Јеванђеље по Марку 16",
+      "translation": "Вук Караџић — eBible srp1868",
+      "url": "https://ebible.org/srp1868/MRK16.htm",
+      "snapshot_sha256": "8c814000416386f5497db52e70d771d7b10b6b9a13118e0bc52aa3db38597cd9",
+      "rights_id": "EBIBLE-RIGHTS",
+      "offline": true
+    },
+    {
+      "id": "EBIBLE-LUK01",
+      "title": "Свето Јеванђеље по Луки 1",
+      "translation": "Вук Караџић — eBible srp1868",
+      "url": "https://ebible.org/srp1868/LUK01.htm",
+      "snapshot_sha256": "42165a36fa26076543790eaaf0d509118dcf0d71f968e92d44f1817ff1eaebfa",
+      "rights_id": "EBIBLE-RIGHTS",
+      "offline": true
+    },
+    {
+      "id": "EBIBLE-LUK03",
+      "title": "Свето Јеванђеље по Луки 3",
+      "translation": "Вук Караџић — eBible srp1868",
+      "url": "https://ebible.org/srp1868/LUK03.htm",
+      "snapshot_sha256": "63cc3e871a10be38888106566c2c11400fe1ea954a21373a538979e0b9b75e47",
+      "rights_id": "EBIBLE-RIGHTS",
+      "offline": true
+    },
+    {
+      "id": "EBIBLE-LUK04",
+      "title": "Свето Јеванђеље по Луки 4",
+      "translation": "Вук Караџић — eBible srp1868",
+      "url": "https://ebible.org/srp1868/LUK04.htm",
+      "snapshot_sha256": "1b8c6d2148aefaaf5cb1a2d36c7d85742b9b9e67f7a94cd968c7bd313117d313",
+      "rights_id": "EBIBLE-RIGHTS",
+      "offline": true
+    },
+    {
+      "id": "EBIBLE-LUK05",
+      "title": "Свето Јеванђеље по Луки 5",
+      "translation": "Вук Караџић — eBible srp1868",
+      "url": "https://ebible.org/srp1868/LUK05.htm",
+      "snapshot_sha256": "81c64aa8f574703ed745f09812e226b261c12d19bb5076c53289dc19b83f535d",
+      "rights_id": "EBIBLE-RIGHTS",
+      "offline": true
+    },
+    {
+      "id": "EBIBLE-LUK06",
+      "title": "Свето Јеванђеље по Луки 6",
+      "translation": "Вук Караџић — eBible srp1868",
+      "url": "https://ebible.org/srp1868/LUK06.htm",
+      "snapshot_sha256": "4664a451b9707209a6df5645709fe0a3578d06c2385460d0e81d16a17f8a6333",
+      "rights_id": "EBIBLE-RIGHTS",
+      "offline": true
+    },
+    {
+      "id": "EBIBLE-LUK07",
+      "title": "Свето Јеванђеље по Луки 7",
+      "translation": "Вук Караџић — eBible srp1868",
+      "url": "https://ebible.org/srp1868/LUK07.htm",
+      "snapshot_sha256": "0de57c455d487b2899879b89e316da0423a5b6cc9762306b946d7f01053f2183",
+      "rights_id": "EBIBLE-RIGHTS",
+      "offline": true
+    },
+    {
+      "id": "EBIBLE-LUK08",
+      "title": "Свето Јеванђеље по Луки 8",
+      "translation": "Вук Караџић — eBible srp1868",
+      "url": "https://ebible.org/srp1868/LUK08.htm",
+      "snapshot_sha256": "9161492050140351f159c13eb4495b35c9d1df5b15a919a49f753238a77aeb1e",
+      "rights_id": "EBIBLE-RIGHTS",
+      "offline": true
+    },
+    {
+      "id": "EBIBLE-LUK09",
+      "title": "Свето Јеванђеље по Луки 9",
+      "translation": "Вук Караџић — eBible srp1868",
+      "url": "https://ebible.org/srp1868/LUK09.htm",
+      "snapshot_sha256": "474e90a592b32b30fe67d59e0dc894595e8dd946523a0f96891b5dc287be030e",
+      "rights_id": "EBIBLE-RIGHTS",
+      "offline": true
+    },
+    {
+      "id": "EBIBLE-LUK10",
+      "title": "Свето Јеванђеље по Луки 10",
+      "translation": "Вук Караџић — eBible srp1868",
+      "url": "https://ebible.org/srp1868/LUK10.htm",
+      "snapshot_sha256": "e57c19e324fe6dfcf3d505ad0fb848ca92aa9d9b8298de47f8a08bf1db8bc5cd",
+      "rights_id": "EBIBLE-RIGHTS",
+      "offline": true
+    },
+    {
+      "id": "EBIBLE-LUK11",
+      "title": "Свето Јеванђеље по Луки 11",
+      "translation": "Вук Караџић — eBible srp1868",
+      "url": "https://ebible.org/srp1868/LUK11.htm",
+      "snapshot_sha256": "836983392c3e41f76a6a85cf83c658aeb8ddf5fe8fbd7a7eaa24de1423f4509b",
+      "rights_id": "EBIBLE-RIGHTS",
+      "offline": true
+    },
+    {
+      "id": "EBIBLE-LUK12",
+      "title": "Свето Јеванђеље по Луки 12",
+      "translation": "Вук Караџић — eBible srp1868",
+      "url": "https://ebible.org/srp1868/LUK12.htm",
+      "snapshot_sha256": "3aa893c66dea59eb061fbba042ecef37fce0cdb594c4314cb6ae6421755cba38",
+      "rights_id": "EBIBLE-RIGHTS",
+      "offline": true
+    },
+    {
+      "id": "EBIBLE-LUK13",
+      "title": "Свето Јеванђеље по Луки 13",
+      "translation": "Вук Караџић — eBible srp1868",
+      "url": "https://ebible.org/srp1868/LUK13.htm",
+      "snapshot_sha256": "9ad4fcc3fce4b81f05f8b29699b95444170f9c332af39e96c13d4faa4adfe70d",
+      "rights_id": "EBIBLE-RIGHTS",
+      "offline": true
+    },
+    {
+      "id": "EBIBLE-LUK14",
+      "title": "Свето Јеванђеље по Луки 14",
+      "translation": "Вук Караџић — eBible srp1868",
+      "url": "https://ebible.org/srp1868/LUK14.htm",
+      "snapshot_sha256": "fe5f87033e43fdb165a938ff9c329b908c3c2512820e25a55979855bd0a7d703",
+      "rights_id": "EBIBLE-RIGHTS",
+      "offline": true
+    },
+    {
+      "id": "EBIBLE-LUK15",
+      "title": "Свето Јеванђеље по Луки 15",
+      "translation": "Вук Караџић — eBible srp1868",
+      "url": "https://ebible.org/srp1868/LUK15.htm",
+      "snapshot_sha256": "f08b6178d0275b35a9dcdef787bab39ac1cc36e3fb6484c944ab559e95ed8da4",
+      "rights_id": "EBIBLE-RIGHTS",
+      "offline": true
+    },
+    {
+      "id": "EBIBLE-LUK16",
+      "title": "Свето Јеванђеље по Луки 16",
+      "translation": "Вук Караџић — eBible srp1868",
+      "url": "https://ebible.org/srp1868/LUK16.htm",
+      "snapshot_sha256": "cde9f39944452ae98090d79798034d37aad55846ceef510bfb40faebe82c4bb1",
+      "rights_id": "EBIBLE-RIGHTS",
+      "offline": true
+    },
+    {
+      "id": "EBIBLE-LUK17",
+      "title": "Свето Јеванђеље по Луки 17",
+      "translation": "Вук Караџић — eBible srp1868",
+      "url": "https://ebible.org/srp1868/LUK17.htm",
+      "snapshot_sha256": "028f3f2b5650fe23841824ea5dad2bd1cca846c01761a3dfa119b8e5b7e5f166",
+      "rights_id": "EBIBLE-RIGHTS",
+      "offline": true
+    },
+    {
+      "id": "EBIBLE-LUK19",
+      "title": "Свето Јеванђеље по Луки 19",
+      "translation": "Вук Караџић — eBible srp1868",
+      "url": "https://ebible.org/srp1868/LUK19.htm",
+      "snapshot_sha256": "32c8c3ac8ecc65c3e4bff6866c6ffa289b980decee85a2b1bd9504f53340bf16",
+      "rights_id": "EBIBLE-RIGHTS",
+      "offline": true
+    },
+    {
+      "id": "EBIBLE-LUK20",
+      "title": "Свето Јеванђеље по Луки 20",
+      "translation": "Вук Караџић — eBible srp1868",
+      "url": "https://ebible.org/srp1868/LUK20.htm",
+      "snapshot_sha256": "aa4737530c21ec51f6d8e991fad2d959fe4c824634c1abc7df49486e584c2806",
+      "rights_id": "EBIBLE-RIGHTS",
+      "offline": true
+    },
+    {
+      "id": "EBIBLE-LUK21",
+      "title": "Свето Јеванђеље по Луки 21",
+      "translation": "Вук Караџић — eBible srp1868",
+      "url": "https://ebible.org/srp1868/LUK21.htm",
+      "snapshot_sha256": "b5715b75ba7a37514cfab02e98d9a1865db8c7c48e33f87046336c47b365564a",
+      "rights_id": "EBIBLE-RIGHTS",
+      "offline": true
+    },
+    {
+      "id": "EBIBLE-LUK22",
+      "title": "Свето Јеванђеље по Луки 22",
+      "translation": "Вук Караџић — eBible srp1868",
+      "url": "https://ebible.org/srp1868/LUK22.htm",
+      "snapshot_sha256": "0b1de78efa0837c42d8e6196e7f8834efc0ed7be2dac4527f08ce5d422ff4a4f",
+      "rights_id": "EBIBLE-RIGHTS",
+      "offline": true
+    },
+    {
+      "id": "EBIBLE-LUK23",
+      "title": "Свето Јеванђеље по Луки 23",
+      "translation": "Вук Караџић — eBible srp1868",
+      "url": "https://ebible.org/srp1868/LUK23.htm",
+      "snapshot_sha256": "254331f2ba87c73bb2850a7b1cb81e4982785dc5c1e73a863e9f99b9c46b67ce",
+      "rights_id": "EBIBLE-RIGHTS",
+      "offline": true
+    },
+    {
+      "id": "EBIBLE-LUK24",
+      "title": "Свето Јеванђеље по Луки 24",
+      "translation": "Вук Караџић — eBible srp1868",
+      "url": "https://ebible.org/srp1868/LUK24.htm",
+      "snapshot_sha256": "369281af5335176727663eff6749046ad76f3a438ea0d2d3a1f9be2f8b233399",
+      "rights_id": "EBIBLE-RIGHTS",
+      "offline": true
+    },
+    {
+      "id": "EBIBLE-JHN01",
+      "title": "Свето Јеванђеље по Јовану 1",
+      "translation": "Вук Караџић — eBible srp1868",
+      "url": "https://ebible.org/srp1868/JHN01.htm",
+      "snapshot_sha256": "78e15a13f3cb21eea559448fc8b774b57e54cfde66a1fadea0189b16e3ab2c46",
+      "rights_id": "EBIBLE-RIGHTS",
+      "offline": true
+    },
+    {
+      "id": "EBIBLE-JHN02",
+      "title": "Свето Јеванђеље по Јовану 2",
+      "translation": "Вук Караџић — eBible srp1868",
+      "url": "https://ebible.org/srp1868/JHN02.htm",
+      "snapshot_sha256": "895af1d216ec75bef265af772ee033598d65d2932f488d7c50ff88ea8c7f983d",
+      "rights_id": "EBIBLE-RIGHTS",
+      "offline": true
+    },
+    {
+      "id": "EBIBLE-JHN03",
+      "title": "Свето Јеванђеље по Јовану 3",
+      "translation": "Вук Караџић — eBible srp1868",
+      "url": "https://ebible.org/srp1868/JHN03.htm",
+      "snapshot_sha256": "19e17a2fa4789808c3bbd0f25f6a78a8d1f89b740190a2e574c86ae2d9307be1",
+      "rights_id": "EBIBLE-RIGHTS",
+      "offline": true
+    },
+    {
+      "id": "EBIBLE-JHN04",
+      "title": "Свето Јеванђеље по Јовану 4",
+      "translation": "Вук Караџић — eBible srp1868",
+      "url": "https://ebible.org/srp1868/JHN04.htm",
+      "snapshot_sha256": "148c5ef19b99311f0d8b6090a0827b8909949979664b134ca2b84f809d08863b",
+      "rights_id": "EBIBLE-RIGHTS",
+      "offline": true
+    },
+    {
+      "id": "EBIBLE-JHN05",
+      "title": "Свето Јеванђеље по Јовану 5",
+      "translation": "Вук Караџић — eBible srp1868",
+      "url": "https://ebible.org/srp1868/JHN05.htm",
+      "snapshot_sha256": "f888f347fe5e89629bfa9c4b6872ecd389b434e33b6564a84e8c2ba8e1d4e186",
+      "rights_id": "EBIBLE-RIGHTS",
+      "offline": true
+    },
+    {
+      "id": "EBIBLE-JHN06",
+      "title": "Свето Јеванђеље по Јовану 6",
+      "translation": "Вук Караџић — eBible srp1868",
+      "url": "https://ebible.org/srp1868/JHN06.htm",
+      "snapshot_sha256": "72997b984dba8839fdabc7e9d941de7469eff319d482a6c7013701176f873a03",
+      "rights_id": "EBIBLE-RIGHTS",
+      "offline": true
+    },
+    {
+      "id": "EBIBLE-JHN07",
+      "title": "Свето Јеванђеље по Јовану 7",
+      "translation": "Вук Караџић — eBible srp1868",
+      "url": "https://ebible.org/srp1868/JHN07.htm",
+      "snapshot_sha256": "a5c7e38a1917c30fdec1ab1f8cf6e7aa3866ef1bbcc245e98aac5d9dd70cec2a",
+      "rights_id": "EBIBLE-RIGHTS",
+      "offline": true
+    },
+    {
+      "id": "EBIBLE-JHN08",
+      "title": "Свето Јеванђеље по Јовану 8",
+      "translation": "Вук Караџић — eBible srp1868",
+      "url": "https://ebible.org/srp1868/JHN08.htm",
+      "snapshot_sha256": "6530ca27bc871950da9ac73d83864b557bf79f52b44a919adc3b5da9ea6abbfe",
+      "rights_id": "EBIBLE-RIGHTS",
+      "offline": true
+    },
+    {
+      "id": "EBIBLE-JHN09",
+      "title": "Свето Јеванђеље по Јовану 9",
+      "translation": "Вук Караџић — eBible srp1868",
+      "url": "https://ebible.org/srp1868/JHN09.htm",
+      "snapshot_sha256": "23348f27d518c152aa57b7f38259e5d1e698d2d94e0d88fbba6dbac850fd428c",
+      "rights_id": "EBIBLE-RIGHTS",
+      "offline": true
+    },
+    {
+      "id": "EBIBLE-JHN10",
+      "title": "Свето Јеванђеље по Јовану 10",
+      "translation": "Вук Караџић — eBible srp1868",
+      "url": "https://ebible.org/srp1868/JHN10.htm",
+      "snapshot_sha256": "adebcd06aaaec80d7a30052549553bf51c61f0cadbe2027bf365c3ca77c26060",
+      "rights_id": "EBIBLE-RIGHTS",
+      "offline": true
+    },
+    {
+      "id": "EBIBLE-JHN11",
+      "title": "Свето Јеванђеље по Јовану 11",
+      "translation": "Вук Караџић — eBible srp1868",
+      "url": "https://ebible.org/srp1868/JHN11.htm",
+      "snapshot_sha256": "b826429e0a2764654ee1c7588044b002cef18c0a813a85bdf1bacf84eddcc632",
+      "rights_id": "EBIBLE-RIGHTS",
+      "offline": true
+    },
+    {
+      "id": "EBIBLE-JHN12",
+      "title": "Свето Јеванђеље по Јовану 12",
+      "translation": "Вук Караџић — eBible srp1868",
+      "url": "https://ebible.org/srp1868/JHN12.htm",
+      "snapshot_sha256": "d9827c740383ba4ea448a499ebd00e62c67597ee777c2bf7daf633dc6045eb7c",
+      "rights_id": "EBIBLE-RIGHTS",
+      "offline": true
+    },
+    {
+      "id": "EBIBLE-JHN13",
+      "title": "Свето Јеванђеље по Јовану 13",
+      "translation": "Вук Караџић — eBible srp1868",
+      "url": "https://ebible.org/srp1868/JHN13.htm",
+      "snapshot_sha256": "f1b1f0fb6761f4c716d418a447e86d856997c77280606666dd981362822c8cf6",
+      "rights_id": "EBIBLE-RIGHTS",
+      "offline": true
+    },
+    {
+      "id": "EBIBLE-JHN14",
+      "title": "Свето Јеванђеље по Јовану 14",
+      "translation": "Вук Караџић — eBible srp1868",
+      "url": "https://ebible.org/srp1868/JHN14.htm",
+      "snapshot_sha256": "2456017eed5dc00c1eca2154ca4ab962cc047c64d0df807cef997698e56d87f3",
+      "rights_id": "EBIBLE-RIGHTS",
+      "offline": true
+    },
+    {
+      "id": "EBIBLE-JHN15",
+      "title": "Свето Јеванђеље по Јовану 15",
+      "translation": "Вук Караџић — eBible srp1868",
+      "url": "https://ebible.org/srp1868/JHN15.htm",
+      "snapshot_sha256": "0442a9a88a2b06bc440854fc8c33f961baf43ac31b37773f5c8a5ae43ac13304",
+      "rights_id": "EBIBLE-RIGHTS",
+      "offline": true
+    },
+    {
+      "id": "EBIBLE-JHN16",
+      "title": "Свето Јеванђеље по Јовану 16",
+      "translation": "Вук Караџић — eBible srp1868",
+      "url": "https://ebible.org/srp1868/JHN16.htm",
+      "snapshot_sha256": "e4bc1cb4b3b5acef03bd9e22ef3227eadc862f34e66425b6f499d388ea39ffd0",
+      "rights_id": "EBIBLE-RIGHTS",
+      "offline": true
+    },
+    {
+      "id": "EBIBLE-JHN17",
+      "title": "Свето Јеванђеље по Јовану 17",
+      "translation": "Вук Караџић — eBible srp1868",
+      "url": "https://ebible.org/srp1868/JHN17.htm",
+      "snapshot_sha256": "dc3680337483dcd451f1c9eb855010627b089c0ecfaf8e0fb34e6cf101d7e1ce",
+      "rights_id": "EBIBLE-RIGHTS",
+      "offline": true
+    },
+    {
+      "id": "EBIBLE-JHN18",
+      "title": "Свето Јеванђеље по Јовану 18",
+      "translation": "Вук Караџић — eBible srp1868",
+      "url": "https://ebible.org/srp1868/JHN18.htm",
+      "snapshot_sha256": "347f5d01e77c163905506499be9ab6a0ecb7deec2931de0d02dd1339bf2260cb",
+      "rights_id": "EBIBLE-RIGHTS",
+      "offline": true
+    },
+    {
+      "id": "EBIBLE-JHN19",
+      "title": "Свето Јеванђеље по Јовану 19",
+      "translation": "Вук Караџић — eBible srp1868",
+      "url": "https://ebible.org/srp1868/JHN19.htm",
+      "snapshot_sha256": "5316995bf0097930bb1c4dc5b2b733fc18ee5c9347f8f8a3a606bc771d2a3a78",
+      "rights_id": "EBIBLE-RIGHTS",
+      "offline": true
+    },
+    {
+      "id": "EBIBLE-JHN20",
+      "title": "Свето Јеванђеље по Јовану 20",
+      "translation": "Вук Караџић — eBible srp1868",
+      "url": "https://ebible.org/srp1868/JHN20.htm",
+      "snapshot_sha256": "a575beaf15eee4e0b7241b1939020d5a11f01ab8cf17d01d20a6fb6c842ceef0",
+      "rights_id": "EBIBLE-RIGHTS",
+      "offline": true
+    },
+    {
+      "id": "EBIBLE-JHN21",
+      "title": "Свето Јеванђеље по Јовану 21",
+      "translation": "Вук Караџић — eBible srp1868",
+      "url": "https://ebible.org/srp1868/JHN21.htm",
+      "snapshot_sha256": "bcd87d75731305e22ebf71d5dd37f781339e5fa545d9521323fa3ccd30f7d894",
+      "rights_id": "EBIBLE-RIGHTS",
+      "offline": true
+    }
+  ]
+}
