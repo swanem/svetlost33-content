@@ -1,0 +1,26 @@
+{
+  "schema_version": "svetlost33-module-manifest-2",
+  "module_id": "daily-cycles",
+  "module_type": "cycles",
+  "version": "1.0.0",
+  "revision": 1,
+  "key_id": "svetlost33-fixture-key-1",
+  "capabilities": [
+    "cycle-v1"
+  ],
+  "dependencies": [
+    {
+      "module_id": "library-core",
+      "version": "1.0.0"
+    }
+  ],
+  "files": [
+    {
+      "path": "data/cycles.json",
+      "bytes": 138,
+      "sha256": "38814d947d2b0bb931f057dfee645526218991f7598c6ff3942ced1cfd233bcd",
+      "content_type": "application/json",
+      "encoding": "utf-8"
+    }
+  ]
+}

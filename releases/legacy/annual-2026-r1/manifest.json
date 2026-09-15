@@ -1,0 +1,131 @@
+{
+  "schema_version": "annual-content-handoff-1",
+  "package_id": "svetlost33-annual-2026-r1",
+  "revision": 1,
+  "year": 2026,
+  "valid_from": "2026-01-01",
+  "valid_to": "2026-12-31",
+  "status": "RELEASED",
+  "production_ready": true,
+  "release_allowed": true,
+  "calendar_active_in_apps": true,
+  "signing_key_id": "svetlost33-content-2026-key-1",
+  "owner_release_approval": {
+    "schema_version": "svetlost33-owner-release-approval-1",
+    "approval_id": "android-annual-2026-r1-2026-09-15",
+    "approved_at": "2026-09-15",
+    "source_package_id": "svetlost33-annual-2026-review-1",
+    "source_manifest_sha256": "ba0e4da37a792094aaac9919d1638e5d75d0590b0a7dd7ff5d5680e557bfa99d",
+    "source_commit": "a240a87cac915dee26e0106a43a327c1582a07f3",
+    "psalms": 150,
+    "prayers": 18,
+    "gospel_books": 4,
+    "historical_prayers_distribution_authorized": true,
+    "radio_suggestion_dates": 173,
+    "unresolved_gospel_dates": 192,
+    "unknown_fasting_rule_dates": 91,
+    "unresolved_display_policy": "SHOW_NOT_CONFIRMED",
+    "android_release_before_ios_authorized": true,
+    "statement": "Vlasnik je odobrio Android izdanje, distribuciju svih 18 molitava i prikaz 173 radio-predloga bez tvrdnje o kompletnom bogosluzbenom rasporedu. Nereseni podaci ostaju jasno nepotvrdjeni."
+  },
+  "files": [
+    {
+      "path": "calendar.2026.json",
+      "bytes": 1665524,
+      "sha256": "a1b6a5d5911ae03f77802bd466227f0c1ea4fe97708b1b6f92cd4b08847c7c9c"
+    },
+    {
+      "path": "gospels.sr-Cyrl.json",
+      "bytes": 1026828,
+      "sha256": "3855892ef6a8784e20b3ef83729a29437b7f8663bf83f6775f63978eeedc9809"
+    },
+    {
+      "path": "gospels.sr-Latn.json",
+      "bytes": 778280,
+      "sha256": "392b4290654a9b2376e7319af980e8b9238ba8b4c20593f4b20c9d8688e31610"
+    },
+    {
+      "path": "legacy-cycle.sr-Cyrl.json",
+      "bytes": 66639,
+      "sha256": "7e0de7104845133e26c326f770cdd9faef1b91993261ef78bcdf6b9629a7f4c4"
+    },
+    {
+      "path": "legacy-cycle.sr-Latn.json",
+      "bytes": 58613,
+      "sha256": "5becca805591135d7120c89c3052f577633072fa60fb0eaf691450baefe5c0f3"
+    },
+    {
+      "path": "licenses.sr-Cyrl.json",
+      "bytes": 23878,
+      "sha256": "6cf614188455fdc99826f4f6ce0a141fb7e40ca812a72830305524d9dd9a7629"
+    },
+    {
+      "path": "licenses.sr-Latn.json",
+      "bytes": 22899,
+      "sha256": "32fdeaf7e5b02ee79ee84977fa111767f5d8230828889a1ce2e1bc6ddb8afa48"
+    },
+    {
+      "path": "prayers.sr-Cyrl.json",
+      "bytes": 92677,
+      "sha256": "246982434b47014bfbd3bca0646b5f5770d1fd5f433e517bfbf08e49cf35722f"
+    },
+    {
+      "path": "prayers.sr-Latn.json",
+      "bytes": 71066,
+      "sha256": "ae66eba3ec77946d6de3240baa9f7faff786f3b5eabe04d5c7b1ee3b2a881629"
+    },
+    {
+      "path": "psalms.sr-Cyrl.json",
+      "bytes": 707117,
+      "sha256": "71918c97fe6fcc6d9f21a1990aaf0ceb2399bc503a43a9106f8e680f67844e83"
+    },
+    {
+      "path": "psalms.sr-Latn.json",
+      "bytes": 553977,
+      "sha256": "01b2657d85430ec68bcc56d8a0b7b45e03449d1c2cb658a07d130ea57cf8a63d"
+    },
+    {
+      "path": "sources.sr-Cyrl.json",
+      "bytes": 117364,
+      "sha256": "0dba9e468f7e6e541bd2ce2b2f6f203642f15a0b6d8f8d0b3157337a83a070a0"
+    },
+    {
+      "path": "sources.sr-Latn.json",
+      "bytes": 104511,
+      "sha256": "b837e9c284548a9613efe6f129e889fb821402346f3639c6812a29dad8fc1b6c"
+    }
+  ],
+  "counts": {
+    "psalms": 150,
+    "psalm_verses": 2461,
+    "prayers": 18,
+    "biblical_prayers": 6,
+    "held_historical_prayers": 12,
+    "gospel_books": 4,
+    "gospel_chapters": 89,
+    "gospel_verses": 3779,
+    "calendar_dates": 365,
+    "gospel_dates": {
+      "SOURCE_RECORDED": 173,
+      "CONFIRMED_NONE": 0,
+      "UNRESOLVED": 192
+    },
+    "gospel_reference_records": 493,
+    "service_schedules_verified": 0,
+    "fasting_dates": {
+      "FAST": 194,
+      "NON_FAST": 166,
+      "UNKNOWN": 5
+    },
+    "fasting_rule_dates": {
+      "NONE": 166,
+      "WATER": 54,
+      "OIL": 30,
+      "FISH": 24,
+      "OTHER": 0,
+      "UNKNOWN": 91
+    },
+    "legacy_cycle_slots": 21,
+    "slots_depending_on_held_prayers": 14
+  }
+}

@@ -1,0 +1,11 @@
+.DS_Store
+node_modules/
+*.pem.tmp
+*.key
+*.p12
+*.jks
+*.keystore
+*.zip
+*.tar
+*.tar.gz
+dist/

@@ -1,0 +1,16 @@
+{
+  "$schema":"https://json-schema.org/draft/2020-12/schema",
+  "$id":"https://svetlost33.example/schemas/m0-v2/index.schema.json",
+  "title":"Svetlost33 M0 v2 signed index",
+  "type":"object","additionalProperties":false,
+  "required":["schema_version","sequence","issued_at","expires_at","key_id","channels"],
+  "properties":{
+    "schema_version":{"const":"svetlost33-m0-index-2"},
+    "sequence":{"type":"integer","minimum":1},
+    "issued_at":{"type":"string","format":"date-time"},
+    "expires_at":{"type":"string","format":"date-time"},
+    "key_id":{"type":"string","pattern":"^[a-z0-9][a-z0-9._-]{2,63}$"},
+    "channels":{"type":"object","minProperties":1,"additionalProperties":{"$ref":"#/$defs/release"}}
+  },
+  "$defs":{"release":{"type":"object","additionalProperties":false,"required":["release_set_id","path","bytes","sha256","signature_path"],"properties":{"release_set_id":{"type":"string"},"path":{"type":"string"},"bytes":{"type":"integer","minimum":1},"sha256":{"type":"string","pattern":"^[0-9a-f]{64}$"},"signature_path":{"type":"string"}}}}
+}

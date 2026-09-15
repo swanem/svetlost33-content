@@ -1,0 +1,10 @@
+{
+  "slots": [
+    {
+      "day": 1,
+      "part": "MORNING",
+      "psalm_id": "psalm-001",
+      "prayer_id": "morning-001"
+    }
+  ]
+}

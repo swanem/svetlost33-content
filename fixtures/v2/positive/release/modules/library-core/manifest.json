@@ -1,0 +1,23 @@
+{
+  "schema_version": "svetlost33-module-manifest-2",
+  "module_id": "library-core",
+  "module_type": "library",
+  "version": "1.0.0",
+  "revision": 1,
+  "key_id": "svetlost33-fixture-key-1",
+  "capabilities": [
+    "library-v1",
+    "sr-Cyrl",
+    "sr-Latn"
+  ],
+  "dependencies": [],
+  "files": [
+    {
+      "path": "data/library.json",
+      "bytes": 408,
+      "sha256": "bcd34e63f744ebf8b1204a9b2b817889b5ef2a634ff2640ca0b4e542fabbeb7b",
+      "content_type": "application/json",
+      "encoding": "utf-8"
+    }
+  ]
+}

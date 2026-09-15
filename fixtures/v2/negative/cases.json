@@ -1,0 +1,15 @@
+{
+  "schema_version": "svetlost33-m0-v2-negative-fixtures-1",
+  "cases": [
+    {"id":"bad-signature","expected_code":"SIGNATURE"},
+    {"id":"bad-hash","expected_code":"LENGTH"},
+    {"id":"unknown-key","expected_code":"KEY"},
+    {"id":"missing-dependency","expected_code":"DEPENDENCY"},
+    {"id":"duplicate-id","expected_code":"DUPLICATE_ID"},
+    {"id":"unknown-schema","expected_code":"SCHEMA"},
+    {"id":"corrupt-media","expected_code":"MEDIA"},
+    {"id":"unsafe-path","expected_code":"PATH"},
+    {"id":"invalid-utf8","expected_code":"UTF8"},
+    {"id":"oversized-file","expected_code":"SCHEMA"}
+  ]
+}

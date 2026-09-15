@@ -1,0 +1,28 @@
+{
+  "psalms": [
+    {
+      "id": "psalm-001",
+      "sr-Cyrl": "Псалам 1",
+      "sr-Latn": "Psalam 1"
+    }
+  ],
+  "prayers": [
+    {
+      "id": "morning-001",
+      "sr-Cyrl": "Молитва",
+      "sr-Latn": "Molitva"
+    }
+  ],
+  "gospels": [
+    {
+      "id": "MAT",
+      "chapters": 28
+    }
+  ],
+  "sources": [
+    {
+      "id": "fixture-source",
+      "rights": "fixture-only"
+    }
+  ]
+}

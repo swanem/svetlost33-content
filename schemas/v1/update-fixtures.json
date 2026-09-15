@@ -1,0 +1,24 @@
+{
+  "schema_version": "svetlost33-update-contract-fixtures-1",
+  "minimum_check_interval_millis": 86400000,
+  "candidate_cases": [
+    {"id": "released-complete-valid", "expected": "INSTALL"},
+    {"id": "review-package-release-gates-closed", "expected": "REJECT_KEEP_PREVIOUS"},
+    {"id": "signature-invalid", "expected": "REJECT_KEEP_PREVIOUS"},
+    {"id": "signing-key-unknown", "expected": "REJECT_KEEP_PREVIOUS"},
+    {"id": "manifest-byte-changed-after-signing", "expected": "REJECT_KEEP_PREVIOUS"},
+    {"id": "file-hash-mismatch", "expected": "REJECT_KEEP_PREVIOUS"},
+    {"id": "file-missing", "expected": "REJECT_KEEP_PREVIOUS"},
+    {"id": "file-extra", "expected": "REJECT_KEEP_PREVIOUS"},
+    {"id": "path-traversal", "expected": "REJECT_KEEP_PREVIOUS"},
+    {"id": "unsupported-schema", "expected": "REJECT_KEEP_PREVIOUS"},
+    {"id": "partial-stage-write", "expected": "REJECT_KEEP_PREVIOUS"},
+    {"id": "already-installed-same-revision", "expected": "INSTALL_IDEMPOTENT"}
+  ],
+  "schedule_cases": [
+    {"id": "never-attempted", "now": 1000, "last_attempt": 0, "expected_due": true},
+    {"id": "one-millisecond-early", "now": 86400999, "last_attempt": 1000, "expected_due": false},
+    {"id": "exactly-24-hours", "now": 86401000, "last_attempt": 1000, "expected_due": true},
+    {"id": "clock-moved-back", "now": 500, "last_attempt": 1000, "expected_due": false}
+  ]
+}

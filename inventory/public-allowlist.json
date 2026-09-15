@@ -1,0 +1,36 @@
+{
+  "schema_version": "svetlost33-public-allowlist-1",
+  "source_repository": "swanem/svetlost33",
+  "source_revision": "bd4de4a04b8ab6ec1e1404c3f8982b4fae297589",
+  "release_id": "svetlost33-annual-2026-r1",
+  "allowed": [
+    "shared/annual/2026/calendar.2026.json",
+    "shared/annual/2026/gospels.sr-Cyrl.json",
+    "shared/annual/2026/gospels.sr-Latn.json",
+    "shared/annual/2026/legacy-cycle.sr-Cyrl.json",
+    "shared/annual/2026/legacy-cycle.sr-Latn.json",
+    "shared/annual/2026/licenses.sr-Cyrl.json",
+    "shared/annual/2026/licenses.sr-Latn.json",
+    "shared/annual/2026/prayers.sr-Cyrl.json",
+    "shared/annual/2026/prayers.sr-Latn.json",
+    "shared/annual/2026/psalms.sr-Cyrl.json",
+    "shared/annual/2026/psalms.sr-Latn.json",
+    "shared/annual/2026/sources.sr-Cyrl.json",
+    "shared/annual/2026/sources.sr-Latn.json",
+    "shared/releases/annual-2026-r1/manifest.json",
+    "shared/releases/annual-2026-r1/manifest.sig",
+    "shared/releases/annual-2026-r1/public-key.pem",
+    "shared/releases/annual-2026-r1/approval.json"
+  ],
+  "technical_contract_allowed": [
+    "shared/update-contract/v1/README.md",
+    "shared/update-contract/v1/update-fixtures.json"
+  ],
+  "explicitly_excluded": [
+    "private signing keys and credentials",
+    "research archives and downloaded websites",
+    "unapproved scans and images",
+    "application source and user data",
+    "build archives and APK/IPA artifacts"
+  ]
+}

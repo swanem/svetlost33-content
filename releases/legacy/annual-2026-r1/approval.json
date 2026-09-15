@@ -1,0 +1,18 @@
+{
+  "schema_version": "svetlost33-owner-release-approval-1",
+  "approval_id": "android-annual-2026-r1-2026-09-15",
+  "approved_at": "2026-09-15",
+  "source_package_id": "svetlost33-annual-2026-review-1",
+  "source_manifest_sha256": "ba0e4da37a792094aaac9919d1638e5d75d0590b0a7dd7ff5d5680e557bfa99d",
+  "source_commit": "a240a87cac915dee26e0106a43a327c1582a07f3",
+  "psalms": 150,
+  "prayers": 18,
+  "gospel_books": 4,
+  "historical_prayers_distribution_authorized": true,
+  "radio_suggestion_dates": 173,
+  "unresolved_gospel_dates": 192,
+  "unknown_fasting_rule_dates": 91,
+  "unresolved_display_policy": "SHOW_NOT_CONFIRMED",
+  "android_release_before_ios_authorized": true,
+  "statement": "Vlasnik je odobrio Android izdanje, distribuciju svih 18 molitava i prikaz 173 radio-predloga bez tvrdnje o kompletnom bogosluzbenom rasporedu. Nereseni podaci ostaju jasno nepotvrdjeni."
+}

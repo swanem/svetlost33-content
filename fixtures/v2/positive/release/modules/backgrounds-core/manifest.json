@@ -1,0 +1,31 @@
+{
+  "schema_version": "svetlost33-module-manifest-2",
+  "module_id": "backgrounds-core",
+  "module_type": "backgrounds",
+  "version": "1.0.0",
+  "revision": 1,
+  "key_id": "svetlost33-fixture-key-1",
+  "capabilities": [
+    "background-catalog-v1"
+  ],
+  "dependencies": [],
+  "files": [
+    {
+      "path": "data/catalog.json",
+      "bytes": 184,
+      "sha256": "e57791b13b7f8a2f9212ca7ae7037ab08d6200ca8e3053b351a57138649f9346",
+      "content_type": "application/json",
+      "encoding": "utf-8"
+    },
+    {
+      "path": "media/light.png",
+      "bytes": 68,
+      "sha256": "431ced6916a2a21a156e38701afe55bbd7f88969fbbfc56d7fe099d47f265460",
+      "content_type": "image/png",
+      "image": {
+        "width": 1,
+        "height": 1
+      }
+    }
+  ]
+}

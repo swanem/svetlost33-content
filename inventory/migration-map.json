@@ -1,0 +1,18 @@
+{
+  "schema_version": "svetlost33-migration-map-1",
+  "source_repository": "https://github.com/swanem/svetlost33.git",
+  "source_revision": "bd4de4a04b8ab6ec1e1404c3f8982b4fae297589",
+  "signed_source_commit": "a240a87cac915dee26e0106a43a327c1582a07f3",
+  "release_manifest_sha256": "adcd9c4c03fea220142c4e4e7027ffc4596d77ea44f6f248556723cbe73c640a",
+  "entries": [
+    {"from":"shared/annual/2026/<manifest.files.path>","to":"releases/legacy/annual-2026-r1/payload/<manifest.files.path>","mode":"exact-bytes","count":13,"hash_catalog":"releases/legacy/annual-2026-r1/manifest.json#files"},
+    {"from":"shared/releases/annual-2026-r1/manifest.json","to":"releases/legacy/annual-2026-r1/manifest.json","mode":"exact-bytes"},
+    {"from":"shared/releases/annual-2026-r1/manifest.sig","to":"releases/legacy/annual-2026-r1/manifest.sig","mode":"exact-bytes"},
+    {"from":"shared/releases/annual-2026-r1/public-key.pem","to":"releases/legacy/annual-2026-r1/public-key.pem","mode":"exact-bytes"},
+    {"from":"shared/releases/annual-2026-r1/approval.json","to":"releases/legacy/annual-2026-r1/approval.json","mode":"exact-bytes"},
+    {"from":"shared/update-contract/v1/README.md","to":"schemas/v1/README.md","mode":"exact-bytes"},
+    {"from":"shared/update-contract/v1/update-fixtures.json","to":"schemas/v1/update-fixtures.json","mode":"exact-bytes"}
+  ],
+  "cutover_status": "NOT_STARTED",
+  "legacy_master_status": "ACTIVE_UNTIL_BOTH_CLIENTS_ACCEPT_V2"
+}

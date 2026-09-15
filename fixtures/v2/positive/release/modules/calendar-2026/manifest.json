@@ -1,0 +1,27 @@
+{
+  "schema_version": "svetlost33-module-manifest-2",
+  "module_id": "calendar-2026",
+  "module_type": "calendar",
+  "version": "2026.1.0",
+  "revision": 1,
+  "key_id": "svetlost33-fixture-key-1",
+  "capabilities": [
+    "calendar-v1",
+    "explicit-unknown"
+  ],
+  "dependencies": [
+    {
+      "module_id": "library-core",
+      "version": "1.0.0"
+    }
+  ],
+  "files": [
+    {
+      "path": "data/calendar.json",
+      "bytes": 147,
+      "sha256": "46391e222d7137dd614b4ab72a9801bd032a4b8d4e85a63e02aa8240b5a38c37",
+      "content_type": "application/json",
+      "encoding": "utf-8"
+    }
+  ]
+}

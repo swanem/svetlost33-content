@@ -1,0 +1,57 @@
+{
+  "schema_version": "svetlost33-release-set-2",
+  "release_set_id": "fixture-release-2026-r1",
+  "sequence": 1,
+  "channel": "production",
+  "key_id": "svetlost33-fixture-key-1",
+  "approved_platforms": [
+    "android",
+    "ios"
+  ],
+  "min_clients": {
+    "android": 10,
+    "ios": "0.15.0"
+  },
+  "modules": [
+    {
+      "module_id": "library-core",
+      "module_type": "library",
+      "version": "1.0.0",
+      "required": true,
+      "manifest_path": "modules/library-core/manifest.json",
+      "manifest_bytes": 524,
+      "manifest_sha256": "3d58ced5f9be9983adb45e1db9ef0712361f5dbaf52c9a0c640fecc6fd6c46c0",
+      "signature_path": "modules/library-core/manifest.sig"
+    },
+    {
+      "module_id": "daily-cycles",
+      "module_type": "cycles",
+      "version": "1.0.0",
+      "required": true,
+      "manifest_path": "modules/daily-cycles/manifest.json",
+      "manifest_bytes": 565,
+      "manifest_sha256": "17938b29fa2c4c4fc1c1200011cd23babefe91504ebac735bd0248040ee77f90",
+      "signature_path": "modules/daily-cycles/manifest.sig"
+    },
+    {
+      "module_id": "calendar-2026",
+      "module_type": "calendar",
+      "version": "2026.1.0",
+      "required": true,
+      "manifest_path": "modules/calendar-2026/manifest.json",
+      "manifest_bytes": 600,
+      "manifest_sha256": "7a0e4c9dadbc64a9daf1ac44220f2ca2c4ffd8f3b8b974eb00c093355253f792",
+      "signature_path": "modules/calendar-2026/manifest.sig"
+    },
+    {
+      "module_id": "backgrounds-core",
+      "module_type": "backgrounds",
+      "version": "1.0.0",
+      "required": false,
+      "manifest_path": "modules/backgrounds-core/manifest.json",
+      "manifest_bytes": 762,
+      "manifest_sha256": "4a8096eef23d8683605ab6e623dfb8d7162b3c925a9acb9d0325ba51373123a2",
+      "signature_path": "modules/backgrounds-core/manifest.sig"
+    }
+  ]
+}
