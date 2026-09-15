@@ -1,7 +1,7 @@
 import assert from 'node:assert/strict';
 import { constants, createHash, generateKeyPairSync, verify } from 'node:crypto';
 import { execFile } from 'node:child_process';
-import { mkdtemp, readFile, rm, writeFile } from 'node:fs/promises';
+import { mkdtemp, readFile, readdir, rm, writeFile } from 'node:fs/promises';
 import { tmpdir } from 'node:os';
 import { dirname, resolve } from 'node:path';
 import { promisify } from 'node:util';
@@ -15,6 +15,23 @@ const legacy = resolve(root, 'releases/legacy/annual-2026-r1');
 const positive = resolve(root, 'fixtures/v2/positive/release');
 const production = resolve(root, 'releases/v2/annual-2026-r1');
 const sha256 = bytes => createHash('sha256').update(bytes).digest('hex');
+const walkFiles = async directory => {
+  const files = [];
+  for (const entry of await readdir(directory, { withFileTypes:true })) {
+    const path = resolve(directory, entry.name);
+    if (entry.isDirectory()) files.push(...await walkFiles(path));
+    else if (entry.isFile()) files.push(path);
+  }
+  return files;
+};
+const treeDigest = async directory => {
+  const hash = createHash('sha256');
+  for (const path of (await walkFiles(directory)).sort()) {
+    const relativePath = path.slice(resolve(directory).length + 1).split('\\').join('/');
+    hash.update(relativePath); hash.update('\0'); hash.update(sha256(await readFile(path))); hash.update('\n');
+  }
+  return hash.digest('hex');
+};
 const androidClient = {
   trustedKeyId:'svetlost33-fixture-key-1',
   platform:'android',
@@ -101,6 +118,10 @@ test('production export contains the complete approved Android r1 scope', async 
   }), error => error instanceof ValidationError && error.code === 'APPROVAL');
 });
 
+test('UC-T18 historical Android-only release remains byte-identical', async () => {
+  assert.equal(await treeDigest(production), '1393c6281e487998675705ff8ca439631aa9750b2b58130b3a1058d220b714bf');
+});
+
 test('production exporter is reproducible from approved bytes and never writes a private key', async () => {
   const temp = await mkdtemp(resolve(tmpdir(), 'svetlost33-v2-production-'));
   try {
@@ -120,6 +141,77 @@ test('production exporter is reproducible from approved bytes and never writes a
     const sourceManifest = await readFile(resolve(legacy, 'manifest.json'));
     const exportedManifest = await readFile(resolve(output, 'modules/library-annual-2026-r1/evidence/source-release-manifest.json'));
     assert.equal(exportedManifest.equals(sourceManifest), true);
+  } finally { await rm(temp, { recursive:true, force:true }); }
+});
+
+test('shared exporter binds one approval and one release to both compatible clients', async () => {
+  const temp = await mkdtemp(resolve(tmpdir(), 'svetlost33-v2-shared-'));
+  try {
+    const { privateKey } = generateKeyPairSync('rsa', {
+      modulusLength:2048,
+      privateKeyEncoding:{ type:'pkcs8', format:'pem' }
+    });
+    const privatePath = resolve(temp, 'signing-private.pem');
+    const output = resolve(temp, 'release');
+    await writeFile(privatePath, privateKey, { mode:0o600 });
+    await exec(process.execPath, [resolve(root, 'scripts/export-approved-r1-v2.mjs'),
+      '--approval-mode', 'shared', '--out', output, '--private-key', privatePath]);
+    const client = {
+      ...androidClient,
+      trustedKeyId:'svetlost33-content-2026-key-1',
+      publicKeyPath:resolve(output, 'trusted-public-key.pem'),
+      now:'2026-09-15T12:00:00Z'
+    };
+    const androidResult = await validateRelease(output, client);
+    const iosResult = await validateRelease(output, {
+      ...client, platform:'ios', clientVersion:'0.1.0'
+    });
+    assert.deepEqual({ id:androidResult.releaseSetId, sequence:androidResult.sequence, modules:androidResult.modules },
+      { id:'shared-annual-2026-r1-m0v2-s2', sequence:2, modules:3 });
+    assert.deepEqual(iosResult, androidResult);
+
+    const index = JSON.parse(await readFile(resolve(output, 'index.json')));
+    const set = JSON.parse(await readFile(resolve(output, index.channels.production.path)));
+    assert.deepEqual(set.approved_platforms, ['android', 'ios']);
+    assert.deepEqual(set.min_clients, { android:10, ios:'0.1.0' });
+    assert.ok(set.modules.every(module => module.version === '2026.1.1'));
+    const libraryReference = set.modules.find(module => module.module_id === 'library-annual-2026-r1');
+    assert.ok(libraryReference);
+    const libraryRoot = resolve(output, dirname(libraryReference.manifest_path));
+    const libraryManifest = JSON.parse(await readFile(resolve(libraryRoot, 'manifest.json')));
+    assert.equal(libraryManifest.revision, 2);
+    const scope = JSON.parse(await readFile(resolve(libraryRoot, 'data/release-scope.json')));
+    assert.equal(scope.owner_approval_id, 'shared-annual-2026-r1-2026-09-15');
+    assert.deepEqual(scope.approved_platforms, ['android', 'ios']);
+    const approval = JSON.parse(await readFile(resolve(libraryRoot, 'evidence/owner-approval.json')));
+    assert.equal(approval.approval_id, scope.owner_approval_id);
+    assert.deepEqual(approval.consumer_platforms, scope.approved_platforms);
+
+    const sourceManifest = JSON.parse(await readFile(resolve(legacy, 'manifest.json')));
+    const payloads = new Map(sourceManifest.files.map(record => [record.path, record]));
+    const release = set;
+    let unchangedPayloads = 0;
+    for (const module of release.modules) {
+      const manifest = JSON.parse(await readFile(resolve(output, module.manifest_path)));
+      const moduleRoot = dirname(module.manifest_path);
+      for (const file of manifest.files) {
+        const sourceName = file.path.replace(/^data\//, '');
+        const expected = payloads.get(sourceName);
+        if (!expected) continue;
+        const bytes = await readFile(resolve(output, moduleRoot, file.path));
+        assert.equal(bytes.length, expected.bytes, sourceName);
+        assert.equal(sha256(bytes), expected.sha256, sourceName);
+        unchangedPayloads += 1;
+      }
+    }
+    assert.equal(unchangedPayloads, 13);
+    await assert.rejects(validateRelease(output, {
+      ...client, platform:'ios', clientVersion:'0.0.9'
+    }), error => error instanceof ValidationError && error.code === 'CLIENT_VERSION');
+    await assert.rejects(readFile(resolve(output, 'private-key.pem')));
+    await assert.rejects(exec(process.execPath, [resolve(root, 'scripts/export-approved-r1-v2.mjs'),
+      '--approval-mode', 'shared', '--sequence', '1', '--out', resolve(temp, 'replayed'),
+      '--private-key', privatePath]), /shared sequence must advance/);
   } finally { await rm(temp, { recursive:true, force:true }); }
 });
 

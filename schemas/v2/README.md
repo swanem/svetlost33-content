@@ -84,9 +84,10 @@ capability i platformski QA proveravaju tehničku kompatibilnost odvojeno.
 
 JSON šema već dopušta obe platforme i ovom dopunom **nije menjana**. Zadržati
 čitanje istorijskih Android-only izdanja na Androidu i njihovo odbijanje na iOS-u.
-Exporter novog zajedničkog izdanja mora uskladiti i unutrašnji scope/evidence;
-ne samo spoljašnju listu platformi. Postojeći exporter još hardkodira Android;
-ova dokumentacija ne predstavlja njegovu implementaciju ili novu objavu.
+Zajednički režim exportera usklađuje i unutrašnji scope/evidence, podiže
+sekvencu i verzije izmenjenih modula i zadržava stari Android-only režim kao
+istorijski izlaz. Automatizovana provera koristi privremeni ključ i direktorijum;
+implementacija sama nije produkcijski potpis ili nova objava.
 
 ### Postojeće šeme i referentna provera
 

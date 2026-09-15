@@ -51,6 +51,7 @@ provere potpisa/platforme**.
    pregled. Odobrenje, potpisivanje, objava, kompatibilnost i platformski QA
    imaju odvojene stvarne dokaze po UC-T15–UC-T18.
 
-Ova dokumentaciona predaja ne menja exporter, validatore, klijentski kod,
-runtime JSON šeme, stare potpisane pakete, URL-ove ili lockove; ne pokreće
-MVP teme, build, objavu ili instalaciju.
+Zajednički režim exportera sada proverava ovu evidenciju i u testu pravi novi
+paket u privremenom direktorijumu. Ne menja stare potpisane pakete, runtime JSON
+šeme, URL-ove ili klijentske lockove i ne predstavlja produkcijski potpis,
+objavu, instalaciju ili platformsko prihvatanje.

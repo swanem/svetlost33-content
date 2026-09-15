@@ -4,18 +4,38 @@ import { lstat, mkdir, readFile, rm, writeFile } from 'node:fs/promises';
 import { dirname, resolve } from 'node:path';
 
 const root = resolve(import.meta.dirname, '..');
-const legacy = resolve(root, 'releases/legacy/annual-2026-r1');
 const valueAfter = flag => {
   const index = process.argv.indexOf(flag);
   return index < 0 ? undefined : process.argv[index + 1];
 };
-const out = resolve(valueAfter('--out') || resolve(root, 'releases/v2/annual-2026-r1'));
+const legacy = resolve(valueAfter('--source') || resolve(root, 'releases/legacy/annual-2026-r1'));
+const approvalMode = valueAfter('--approval-mode') || 'android-history';
+if (!['android-history', 'shared'].includes(approvalMode)) {
+  throw new Error('approval-mode must be android-history or shared');
+}
+const shared = approvalMode === 'shared';
+const releaseSetId = shared ? 'shared-annual-2026-r1-m0v2-s2' : 'annual-2026-r1-m0v2';
+const moduleVersion = shared ? '2026.1.1' : '2026.1.0';
+const moduleRevision = shared ? 2 : 1;
+const ownerApprovalId = shared
+  ? 'shared-annual-2026-r1-2026-09-15'
+  : 'android-annual-2026-r1-2026-09-15';
+const approvedPlatforms = shared ? ['android', 'ios'] : ['android'];
+const out = resolve(valueAfter('--out') || resolve(root, shared
+  ? 'build/v0.17-shared-discovery-root'
+  : 'releases/v2/annual-2026-r1'));
 const privateKeyPath = valueAfter('--private-key') || process.env.SVETLOST33_CONTENT_PRIVATE_KEY;
 const expectedPublicKeyPath = valueAfter('--public-key');
-const sequence = Number(valueAfter('--sequence') || 1);
+const sequence = Number(valueAfter('--sequence') || (shared ? 2 : 1));
 const issuedAt = valueAfter('--issued-at') || '2026-09-15T00:00:00Z';
 const expiresAt = valueAfter('--expires-at') || '2027-02-01T00:00:00Z';
 const keyId = 'svetlost33-content-2026-key-1';
+// The output root is the stable discovery root. Shared artifacts live below a
+// release-specific immutable prefix, while only index.json/index.sig change
+// between signed discovery decisions. Paths remain root-relative for both
+// native M0 v2 resolvers.
+const releasePrefix = shared ? `releases/${releaseSetId}` : '';
+const atRelease = path => releasePrefix ? `${releasePrefix}/${path}` : path;
 const json = value => Buffer.from(`${JSON.stringify(value, null, 2)}\n`, 'utf8');
 const sha256 = bytes => createHash('sha256').update(bytes).digest('hex');
 const signature = (bytes, privateKey) => Buffer.from(`${sign('sha256', bytes, {
@@ -49,8 +69,8 @@ async function loadApprovedSource(publicKey) {
   }
   requireEqual(sha256(manifestBytes), 'adcd9c4c03fea220142c4e4e7027ffc4596d77ea44f6f248556723cbe73c640a', 'legacy manifest SHA-256');
   const manifest = JSON.parse(manifestBytes);
-  const approvalBytes = await readFile(resolve(legacy, 'approval.json'));
-  const approval = JSON.parse(approvalBytes);
+  const legacyApprovalBytes = await readFile(resolve(legacy, 'approval.json'));
+  const approval = JSON.parse(legacyApprovalBytes);
   requireEqual(manifest.package_id, 'svetlost33-annual-2026-r1', 'source package');
   requireEqual(manifest.status, 'RELEASED', 'source release status');
   requireEqual(manifest.production_ready, true, 'source production approval');
@@ -87,6 +107,63 @@ async function loadApprovedSource(publicKey) {
   if (calendar.days.some(day => day.gospel.complete_service_schedule_verified !== false)) {
     throw new Error('Calendar must not claim a complete service schedule');
   }
+
+  let approvalBytes = legacyApprovalBytes;
+  if (shared) {
+    approvalBytes = await readFile(resolve(root, 'approvals/shared-annual-2026-r1-2026-09-15.json'));
+    const sharedApproval = JSON.parse(approvalBytes);
+    requireEqual(sharedApproval.schema_version, 'svetlost33-owner-content-approval-1', 'shared approval schema');
+    requireEqual(sharedApproval.approval_id, ownerApprovalId, 'shared owner approval');
+    requireEqual(sharedApproval.approval_type, 'SHARED_CONTENT_DISTRIBUTION_AUTHORIZATION', 'shared approval type');
+    requireEqual(sharedApproval.approved_at, '2026-09-15', 'shared approval date');
+    requireEqual(sharedApproval.approved_by, 'project_owner', 'shared approver');
+    requireEqual(sharedApproval.user_statement, 'želim da se jednom odobri sadržaj i bude dostupan za osveženje oba OS', 'shared owner statement');
+    requireEqual(sharedApproval.approval_policy, 'ONCE_PER_IMMUTABLE_CONTENT_REVISION', 'shared approval policy');
+    requireEqual(JSON.stringify(sharedApproval.consumer_platforms), JSON.stringify(approvedPlatforms), 'shared platforms');
+    requireEqual(JSON.stringify(sharedApproval.territories), JSON.stringify(['RS', 'BA']), 'shared territories');
+    requireEqual(JSON.stringify(sharedApproval.consolidates_prior_decisions), JSON.stringify([
+      'android-annual-2026-r1-2026-09-15', 'ios-annual-2026-r1-2026-09-15'
+    ]), 'consolidated approvals');
+    requireEqual(sharedApproval.source.repository, 'swanem/svetlost33-content', 'approval source repository');
+    requireEqual(sharedApproval.source.commit, '3b1ca8050c44afc41d52ec28a5dc53d5b7e60b19', 'approval source commit');
+    requireEqual(sharedApproval.source.package_id, manifest.package_id, 'approval source package');
+    requireEqual(sharedApproval.source.manifest_path, 'releases/legacy/annual-2026-r1/manifest.json', 'approval manifest path');
+    requireEqual(sharedApproval.source.manifest_sha256, sha256(manifestBytes), 'approval source manifest');
+    requireEqual(sharedApproval.source.payload_file_count, manifest.files.length, 'approval payload count');
+    requireEqual(sharedApproval.source.payload_identity_rule,
+      'All entries in manifest.files retain exact content bytes, sizes, SHA-256 and source identity; no independent platform edits.',
+      'approval payload identity rule');
+    const authorized = sharedApproval.authorized_content;
+    for (const [field, expected] of [['psalms',150], ['prayers',18], ['historical_prayers',12],
+      ['gospel_books',4], ['daily_cycle_days',7], ['daily_cycle_slots',21],
+      ['calendar_year',2026], ['calendar_dates',365]]) {
+      requireEqual(authorized[field], expected, `shared approval ${field}`);
+    }
+    requireEqual(JSON.stringify(authorized.locales), JSON.stringify(['sr-Cyrl', 'sr-Latn']), 'approved locales');
+    requireEqual(authorized.local_sources_and_licenses, true, 'approved sources and licenses');
+    const limits = sharedApproval.preserved_limits;
+    requireEqual(limits.radio_suggestion_dates, 173, 'shared radio suggestions');
+    requireEqual(limits.radio_source, 'Radio Slovo ljubve', 'shared radio source');
+    requireEqual(limits.unresolved_gospel_dates, 192, 'shared unresolved readings');
+    requireEqual(limits.unknown_fasting_rule_dates, 91, 'shared unknown fasting rules');
+    requireEqual(limits.unresolved_display_policy, 'SHOW_NOT_CONFIRMED', 'shared unresolved display policy');
+    requireEqual(limits.complete_liturgical_schedule, false, 'shared service-schedule boundary');
+    requireEqual(JSON.stringify(sharedApproval.not_in_this_revision), JSON.stringify([
+      'background_module', 'organizations_and_payment_data', 'new_texts_translations_or_calendar_assertions'
+    ]), 'shared approval exclusions');
+    const policy = sharedApproval.release_policy;
+    for (const field of ['shared_release_set', 'shared_discovery_channel',
+      'client_compatibility_checks_required', 'platform_technical_qa_required',
+      'existing_signed_artifacts_immutable', 'changed_content_or_rights_requires_new_shared_approval',
+      'technical_metadata_only_revision_may_reuse_approval']) {
+      requireEqual(policy[field], true, `shared release policy ${field}`);
+    }
+    requireEqual(policy.platform_specific_content_reapproval_required, false, 'platform reapproval policy');
+    requireEqual(JSON.stringify(policy.target_platforms), JSON.stringify(approvedPlatforms), 'shared target platforms');
+    requireEqual(sharedApproval.evidence_record_only, true, 'approval evidence state');
+    requireEqual(sharedApproval.signed_runtime_release_created_by_this_record, false, 'approval signing state');
+    requireEqual(sharedApproval.publication_or_installation_performed, false, 'approval publication state');
+  }
   return { manifest, manifestBytes, approvalBytes, payload };
 }
 
@@ -94,6 +171,7 @@ if (!privateKeyPath) {
   throw new Error('Pass --private-key or set SVETLOST33_CONTENT_PRIVATE_KEY; a production signing key is never stored in the repository');
 }
 if (!Number.isSafeInteger(sequence) || sequence < 1) throw new Error('sequence must be a positive safe integer');
+if (shared && sequence < 2) throw new Error('shared sequence must advance beyond the historical sequence 1');
 if (!Number.isFinite(Date.parse(issuedAt)) || !Number.isFinite(Date.parse(expiresAt)) || Date.parse(expiresAt) <= Date.parse(issuedAt)) {
   throw new Error('issued-at and expires-at must define a valid increasing RFC 3339 interval');
 }
@@ -122,8 +200,8 @@ const scope = json({
   schema_version:'svetlost33-approved-content-scope-1',
   source_package_id:source.manifest.package_id,
   source_manifest_sha256:sha256(source.manifestBytes),
-  owner_approval_id:'android-annual-2026-r1-2026-09-15',
-  approved_platforms:['android'],
+  owner_approval_id:ownerApprovalId,
+  approved_platforms:approvedPlatforms,
   content:{ psalms:150, prayers:18, historical_prayers:12, gospel_books:4, calendar_dates:365 },
   daily_readings:{
     source:'Radio Slovo ljubve',
@@ -137,12 +215,14 @@ const scope = json({
     backgrounds:'No per-asset rights inventory and approval is present in annual-2026-r1.',
     organizations:'No approved organization or payment data is present.'
   },
-  provenance_note:'Payload bytes retain their pre-approval review fields as historical evidence; this signed scope and the immutable owner approval record the later Android release decision.'
+  provenance_note:shared
+    ? 'Payload bytes retain their historical review fields; this signed scope records one immutable owner approval for the same content revision on Android and iOS.'
+    : 'Payload bytes retain their pre-approval review fields as historical evidence; this signed scope and the immutable owner approval record the later Android release decision.'
 });
 
 const definitions = [
   {
-    id:'library-annual-2026-r1', type:'library', version:'2026.1.0', required:true,
+    id:'library-annual-2026-r1', type:'library', version:moduleVersion, required:true,
     capabilities:['library-v1','sr-Cyrl','sr-Latn'], dependencies:[],
     files:[
       ...['psalms','prayers','gospels','sources','licenses'].flatMap(kind => ['sr-Cyrl','sr-Latn'].map(locale => `data/${kind}.${locale}.json`)),
@@ -150,13 +230,13 @@ const definitions = [
     ]
   },
   {
-    id:'daily-cycles-r1', type:'cycles', version:'2026.1.0', required:true,
-    capabilities:['cycle-v1','sr-Cyrl','sr-Latn'], dependencies:[{ module_id:'library-annual-2026-r1', version:'2026.1.0' }],
+    id:'daily-cycles-r1', type:'cycles', version:moduleVersion, required:true,
+    capabilities:['cycle-v1','sr-Cyrl','sr-Latn'], dependencies:[{ module_id:'library-annual-2026-r1', version:moduleVersion }],
     files:['data/legacy-cycle.sr-Cyrl.json','data/legacy-cycle.sr-Latn.json']
   },
   {
-    id:'calendar-2026-r1', type:'calendar', version:'2026.1.0', required:true,
-    capabilities:['calendar-v1','explicit-unknown'], dependencies:[{ module_id:'library-annual-2026-r1', version:'2026.1.0' }],
+    id:'calendar-2026-r1', type:'calendar', version:moduleVersion, required:true,
+    capabilities:['calendar-v1','explicit-unknown'], dependencies:[{ module_id:'library-annual-2026-r1', version:moduleVersion }],
     files:['data/calendar.2026.json']
   }
 ];
@@ -167,7 +247,10 @@ const synthetic = new Map([
 ]);
 const modules = [];
 for (const definition of definitions) {
-  const directory = `modules/${definition.id}`;
+  const moduleLeaf = shared
+    ? `${definition.id}-${definition.version}-r${moduleRevision}`
+    : definition.id;
+  const directory = atRelease(`modules/${moduleLeaf}`);
   const records = [];
   for (const path of definition.files) {
     let bytes = synthetic.get(path);
@@ -178,7 +261,7 @@ for (const definition of definitions) {
   }
   const manifestBytes = json({
     schema_version:'svetlost33-module-manifest-2', module_id:definition.id, module_type:definition.type,
-    version:definition.version, revision:1, key_id:keyId, capabilities:definition.capabilities,
+    version:definition.version, revision:moduleRevision, key_id:keyId, capabilities:definition.capabilities,
     dependencies:definition.dependencies, files:records
   });
   await put(`${directory}/manifest.json`, manifestBytes);
@@ -190,16 +273,18 @@ for (const definition of definitions) {
   });
 }
 const releaseSetBytes = json({
-  schema_version:'svetlost33-release-set-2', release_set_id:'annual-2026-r1-m0v2', sequence,
-  channel:'production', key_id:keyId, approved_platforms:['android'],
-  min_clients:{ android:10, ios:'0.15.0' }, modules
+  schema_version:'svetlost33-release-set-2', release_set_id:releaseSetId, sequence,
+  channel:'production', key_id:keyId, approved_platforms:approvedPlatforms,
+  min_clients:{ android:10, ios:shared ? '0.1.0' : '0.15.0' }, modules
 });
-await put('release-set.json', releaseSetBytes);
-await put('release-set.sig', signature(releaseSetBytes, privateKey));
+const releaseSetPath = atRelease('release-set.json');
+const releaseSignaturePath = atRelease('release-set.sig');
+await put(releaseSetPath, releaseSetBytes);
+await put(releaseSignaturePath, signature(releaseSetBytes, privateKey));
 const indexBytes = json({
   schema_version:'svetlost33-m0-index-2', sequence, issued_at:issuedAt, expires_at:expiresAt, key_id:keyId,
-  channels:{ production:{ release_set_id:'annual-2026-r1-m0v2', path:'release-set.json', bytes:releaseSetBytes.length, sha256:sha256(releaseSetBytes), signature_path:'release-set.sig' } }
+  channels:{ production:{ release_set_id:releaseSetId, path:releaseSetPath, bytes:releaseSetBytes.length, sha256:sha256(releaseSetBytes), signature_path:releaseSignaturePath } }
 });
 await put('index.json', indexBytes);
 await put('index.sig', signature(indexBytes, privateKey));
-console.log(`Exported signed Android M0 v2 annual-2026-r1 release (${modules.length} modules, ${source.manifest.files.length} approved payloads) to ${out}`);
+console.log(`Exported signed ${shared ? 'shared Android/iOS' : 'historical Android'} M0 v2 annual-2026-r1 release (${modules.length} modules, ${source.manifest.files.length} approved payloads) to ${out}`);

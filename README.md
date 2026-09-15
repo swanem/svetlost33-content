@@ -70,9 +70,10 @@ ugovor je opisan u [schemas/v2/README.md](schemas/v2/README.md).
 
 ## Produkcioni izvoz
 
-**Postojeća komanda ispod je istorijski Android-only exporter.** Nije novi
-zajednički tok iz v0.17 i ne sme se pokretati radi prepisivanja objavljenog r1.
-Za naredno zajedničko izdanje pratiti [predaju](approvals/README.md).
+Podrazumevana komanda ispod ostaje istorijski Android-only exporter i ne sme se
+pokretati radi prepisivanja objavljenog r1. Zajednički režim v0.17 je zasebna
+komanda sa novim izlaznim direktorijumom, sekvencom 2, verzijom modula 2026.1.1,
+obe platforme i [jednim odobrenjem](approvals/README.md):
 
 Izvoz zahteva privatni ključ van repozitorijuma i ponovo proverava istorijski
 potpis, hash svake ulazne datoteke, odobrenje prava, broj sadržaja i eksplicitne
@@ -80,7 +81,13 @@ nepoznate vrednosti pre potpisivanja:
 
 ```sh
 npm run export:r1:v2 -- --private-key /bezbedna/putanja/annual-content-private.pem
+npm run export:r1:v2:shared -- --private-key /bezbedna/putanja/annual-content-private.pem
 ```
+
+Zajednički režim proverava odobrenje, svih 13 neizmenjenih payload datoteka,
+stvarne minimalne klijente Android code 10 / iOS 0.1.0 i odbija sekvencu koja
+ne napreduje. Testovi ga izvršavaju samo u privremenom direktorijumu sa
+jednokratnim ključem. To nije produkcijski potpis, objava ili promena hosta.
 
 Paket obuhvata 150 psalama, 18 molitava, četiri Jevanđelja, oba dnevna ciklusa
 i svih 365 datuma. Za 173 datuma čitanje je označeno kao predlog na osnovu

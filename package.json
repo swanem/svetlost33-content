@@ -6,6 +6,7 @@
   "scripts": {
     "import:r1": "node scripts/import-approved-r1.mjs",
     "export:r1:v2": "node scripts/export-approved-r1-v2.mjs",
+    "export:r1:v2:shared": "node scripts/export-approved-r1-v2.mjs --approval-mode shared",
     "fixtures": "node scripts/generate-v2-fixtures.mjs",
     "development:rc": "node scripts/generate-development-rc.mjs",
     "validate": "node scripts/validate-m0-v2.mjs fixtures/v2/positive/release",
