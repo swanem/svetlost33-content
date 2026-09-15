@@ -1,9 +1,9 @@
 import assert from 'node:assert/strict';
-import { constants, createHash, verify } from 'node:crypto';
+import { constants, createHash, generateKeyPairSync, verify } from 'node:crypto';
 import { execFile } from 'node:child_process';
-import { mkdtemp, readFile, rm } from 'node:fs/promises';
+import { mkdtemp, readFile, rm, writeFile } from 'node:fs/promises';
 import { tmpdir } from 'node:os';
-import { resolve } from 'node:path';
+import { dirname, resolve } from 'node:path';
 import { promisify } from 'node:util';
 import test from 'node:test';
 import { ValidationError, validateRelease } from '../scripts/validate-m0-v2.mjs';
@@ -13,6 +13,7 @@ const root = resolve(import.meta.dirname, '..');
 const android = resolve(root, '../svetlost33-github');
 const legacy = resolve(root, 'releases/legacy/annual-2026-r1');
 const positive = resolve(root, 'fixtures/v2/positive/release');
+const production = resolve(root, 'releases/v2/annual-2026-r1');
 const sha256 = bytes => createHash('sha256').update(bytes).digest('hex');
 const androidClient = {
   trustedKeyId:'svetlost33-fixture-key-1',
@@ -73,6 +74,84 @@ test('fixture generator creates a complete valid signed release without a privat
   try {
     await exec(process.execPath, [resolve(root, 'scripts/generate-v2-fixtures.mjs'), '--out', temp]);
     assert.equal((await validateRelease(temp, androidClient)).modules, 4);
+    await assert.rejects(readFile(resolve(temp, 'private-key.pem')));
+  } finally { await rm(temp, { recursive:true, force:true }); }
+});
+
+test('production export contains the complete approved Android r1 scope', async () => {
+  const client = { ...androidClient, trustedKeyId:'svetlost33-content-2026-key-1' };
+  const result = await validateRelease(production, { ...client, now:'2026-09-15T12:00:00Z' });
+  assert.deepEqual({ id:result.releaseSetId, sequence:result.sequence, modules:result.modules }, {
+    id:'annual-2026-r1-m0v2', sequence:1, modules:3
+  });
+  const set = JSON.parse(await readFile(resolve(production, 'release-set.json')));
+  assert.deepEqual(set.approved_platforms, ['android']);
+  assert.deepEqual(set.modules.map(module => module.module_id), [
+    'library-annual-2026-r1', 'daily-cycles-r1', 'calendar-2026-r1'
+  ]);
+  const scope = JSON.parse(await readFile(resolve(production, 'modules/library-annual-2026-r1/data/release-scope.json')));
+  assert.deepEqual(scope.content, { psalms:150, prayers:18, historical_prayers:12, gospel_books:4, calendar_dates:365 });
+  assert.equal(scope.daily_readings.source_recorded_suggestion_dates, 173);
+  assert.equal(scope.daily_readings.unresolved_dates, 192);
+  assert.equal(scope.daily_readings.complete_liturgical_schedule, false);
+  assert.equal(scope.fasting.unknown_rule_dates, 91);
+  assert.match(scope.exclusions.backgrounds, /rights inventory/);
+  await assert.rejects(validateRelease(production, {
+    ...client, platform:'ios', clientVersion:'0.15.0', now:'2026-09-15T12:00:00Z'
+  }), error => error instanceof ValidationError && error.code === 'APPROVAL');
+});
+
+test('production exporter is reproducible from approved bytes and never writes a private key', async () => {
+  const temp = await mkdtemp(resolve(tmpdir(), 'svetlost33-v2-production-'));
+  try {
+    const { privateKey } = generateKeyPairSync('rsa', {
+      modulusLength:2048,
+      privateKeyEncoding:{ type:'pkcs8', format:'pem' }
+    });
+    const privatePath = resolve(temp, 'signing-private.pem');
+    const output = resolve(temp, 'release');
+    await writeFile(privatePath, privateKey, { mode:0o600 });
+    await exec(process.execPath, [resolve(root, 'scripts/export-approved-r1-v2.mjs'), '--out', output, '--private-key', privatePath]);
+    const result = await validateRelease(output, {
+      ...androidClient, trustedKeyId:'svetlost33-content-2026-key-1', publicKeyPath:resolve(output, 'trusted-public-key.pem'), now:'2026-09-15T12:00:00Z'
+    });
+    assert.equal(result.modules, 3);
+    await assert.rejects(readFile(resolve(output, 'private-key.pem')));
+    const sourceManifest = await readFile(resolve(legacy, 'manifest.json'));
+    const exportedManifest = await readFile(resolve(output, 'modules/library-annual-2026-r1/evidence/source-release-manifest.json'));
+    assert.equal(exportedManifest.equals(sourceManifest), true);
+  } finally { await rm(temp, { recursive:true, force:true }); }
+});
+
+test('development RC wraps every approved annual r1 payload byte into three iOS-compatible modules', async () => {
+  const temp = await mkdtemp(resolve(tmpdir(), 'svetlost33-v2-development-'));
+  try {
+    await exec(process.execPath, [resolve(root, 'scripts/generate-development-rc.mjs'), '--out', temp]);
+    const result = await validateRelease(temp, {
+      ...androidClient,
+      trustedKeyId: 'svetlost33-development-key-1',
+      platform: 'ios', clientVersion: '0.15.0', channel: 'development'
+    });
+    assert.deepEqual({ id:result.releaseSetId, modules:result.modules },
+      { id:'development-annual-2026-r1', modules:3 });
+    const provenance = JSON.parse(await readFile(resolve(temp, 'development-provenance.json')));
+    assert.equal(provenance.production_release, false);
+    assert.deepEqual(provenance.excluded_modules, ['backgrounds']);
+    const release = JSON.parse(await readFile(resolve(temp, 'release-set.json')));
+    const copied = [];
+    for (const module of release.modules) {
+      const manifest = JSON.parse(await readFile(resolve(temp, module.manifest_path)));
+      const moduleRoot = dirname(module.manifest_path);
+      for (const file of manifest.files) {
+        const name = file.path.replace(/^data\//, '');
+        const actual = await readFile(resolve(temp, moduleRoot, file.path));
+        const expected = await readFile(resolve(legacy, 'payload', name));
+        assert.equal(actual.equals(expected), true, name);
+        copied.push(name);
+      }
+    }
+    assert.deepEqual(copied.sort(), JSON.parse(await readFile(resolve(legacy, 'manifest.json')))
+      .files.map(record => record.path).sort());
     await assert.rejects(readFile(resolve(temp, 'private-key.pem')));
   } finally { await rm(temp, { recursive:true, force:true }); }
 });
