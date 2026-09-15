@@ -1,0 +1,107 @@
+{
+  "schema_version": "svetlost33-module-manifest-2",
+  "module_id": "library-annual-2026-r1",
+  "module_type": "library",
+  "version": "2026.1.0",
+  "revision": 1,
+  "key_id": "svetlost33-content-2026-key-1",
+  "capabilities": [
+    "library-v1",
+    "sr-Cyrl",
+    "sr-Latn"
+  ],
+  "dependencies": [],
+  "files": [
+    {
+      "path": "data/psalms.sr-Cyrl.json",
+      "bytes": 707117,
+      "sha256": "71918c97fe6fcc6d9f21a1990aaf0ceb2399bc503a43a9106f8e680f67844e83",
+      "content_type": "application/json",
+      "encoding": "utf-8"
+    },
+    {
+      "path": "data/psalms.sr-Latn.json",
+      "bytes": 553977,
+      "sha256": "01b2657d85430ec68bcc56d8a0b7b45e03449d1c2cb658a07d130ea57cf8a63d",
+      "content_type": "application/json",
+      "encoding": "utf-8"
+    },
+    {
+      "path": "data/prayers.sr-Cyrl.json",
+      "bytes": 92677,
+      "sha256": "246982434b47014bfbd3bca0646b5f5770d1fd5f433e517bfbf08e49cf35722f",
+      "content_type": "application/json",
+      "encoding": "utf-8"
+    },
+    {
+      "path": "data/prayers.sr-Latn.json",
+      "bytes": 71066,
+      "sha256": "ae66eba3ec77946d6de3240baa9f7faff786f3b5eabe04d5c7b1ee3b2a881629",
+      "content_type": "application/json",
+      "encoding": "utf-8"
+    },
+    {
+      "path": "data/gospels.sr-Cyrl.json",
+      "bytes": 1026828,
+      "sha256": "3855892ef6a8784e20b3ef83729a29437b7f8663bf83f6775f63978eeedc9809",
+      "content_type": "application/json",
+      "encoding": "utf-8"
+    },
+    {
+      "path": "data/gospels.sr-Latn.json",
+      "bytes": 778280,
+      "sha256": "392b4290654a9b2376e7319af980e8b9238ba8b4c20593f4b20c9d8688e31610",
+      "content_type": "application/json",
+      "encoding": "utf-8"
+    },
+    {
+      "path": "data/sources.sr-Cyrl.json",
+      "bytes": 117364,
+      "sha256": "0dba9e468f7e6e541bd2ce2b2f6f203642f15a0b6d8f8d0b3157337a83a070a0",
+      "content_type": "application/json",
+      "encoding": "utf-8"
+    },
+    {
+      "path": "data/sources.sr-Latn.json",
+      "bytes": 104511,
+      "sha256": "b837e9c284548a9613efe6f129e889fb821402346f3639c6812a29dad8fc1b6c",
+      "content_type": "application/json",
+      "encoding": "utf-8"
+    },
+    {
+      "path": "data/licenses.sr-Cyrl.json",
+      "bytes": 23878,
+      "sha256": "6cf614188455fdc99826f4f6ce0a141fb7e40ca812a72830305524d9dd9a7629",
+      "content_type": "application/json",
+      "encoding": "utf-8"
+    },
+    {
+      "path": "data/licenses.sr-Latn.json",
+      "bytes": 22899,
+      "sha256": "32fdeaf7e5b02ee79ee84977fa111767f5d8230828889a1ce2e1bc6ddb8afa48",
+      "content_type": "application/json",
+      "encoding": "utf-8"
+    },
+    {
+      "path": "data/release-scope.json",
+      "bytes": 1180,
+      "sha256": "c9f098bc085a3bb73ed28f624de3aa2d119f9f4dd3d04730bb4fa3de34a080bb",
+      "content_type": "application/json",
+      "encoding": "utf-8"
+    },
+    {
+      "path": "evidence/owner-approval.json",
+      "bytes": 883,
+      "sha256": "932240870f1d2f8638c17413c144e5311f3d1819d177c014cc4e42a925aaeae2",
+      "content_type": "application/json",
+      "encoding": "utf-8"
+    },
+    {
+      "path": "evidence/source-release-manifest.json",
+      "bytes": 4104,
+      "sha256": "adcd9c4c03fea220142c4e4e7027ffc4596d77ea44f6f248556723cbe73c640a",
+      "content_type": "application/json",
+      "encoding": "utf-8"
+    }
+  ]
+}

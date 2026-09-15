@@ -1,0 +1,32 @@
+{
+  "schema_version": "svetlost33-approved-content-scope-1",
+  "source_package_id": "svetlost33-annual-2026-r1",
+  "source_manifest_sha256": "adcd9c4c03fea220142c4e4e7027ffc4596d77ea44f6f248556723cbe73c640a",
+  "owner_approval_id": "android-annual-2026-r1-2026-09-15",
+  "approved_platforms": [
+    "android"
+  ],
+  "content": {
+    "psalms": 150,
+    "prayers": 18,
+    "historical_prayers": 12,
+    "gospel_books": 4,
+    "calendar_dates": 365
+  },
+  "daily_readings": {
+    "source": "Radio Slovo ljubve",
+    "source_recorded_suggestion_dates": 173,
+    "unresolved_dates": 192,
+    "complete_liturgical_schedule": false,
+    "unresolved_display_policy": "SHOW_NOT_CONFIRMED"
+  },
+  "fasting": {
+    "unknown_rule_dates": 91,
+    "unresolved_display_policy": "SHOW_NOT_CONFIRMED"
+  },
+  "exclusions": {
+    "backgrounds": "No per-asset rights inventory and approval is present in annual-2026-r1.",
+    "organizations": "No approved organization or payment data is present."
+  },
+  "provenance_note": "Payload bytes retain their pre-approval review fields as historical evidence; this signed scope and the immutable owner approval record the later Android release decision."
+}

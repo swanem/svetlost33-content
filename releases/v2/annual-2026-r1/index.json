@@ -1,0 +1,16 @@
+{
+  "schema_version": "svetlost33-m0-index-2",
+  "sequence": 1,
+  "issued_at": "2026-09-15T00:00:00Z",
+  "expires_at": "2027-02-01T00:00:00Z",
+  "key_id": "svetlost33-content-2026-key-1",
+  "channels": {
+    "production": {
+      "release_set_id": "annual-2026-r1-m0v2",
+      "path": "release-set.json",
+      "bytes": 1490,
+      "sha256": "140668eb27daa8ad29241634d811add6ca10cf53ed0669fae2f53d650555e171",
+      "signature_path": "release-set.sig"
+    }
+  }
+}

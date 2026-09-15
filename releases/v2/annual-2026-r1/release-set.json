@@ -1,0 +1,46 @@
+{
+  "schema_version": "svetlost33-release-set-2",
+  "release_set_id": "annual-2026-r1-m0v2",
+  "sequence": 1,
+  "channel": "production",
+  "key_id": "svetlost33-content-2026-key-1",
+  "approved_platforms": [
+    "android"
+  ],
+  "min_clients": {
+    "android": 10,
+    "ios": "0.15.0"
+  },
+  "modules": [
+    {
+      "module_id": "library-annual-2026-r1",
+      "module_type": "library",
+      "version": "2026.1.0",
+      "required": true,
+      "manifest_path": "modules/library-annual-2026-r1/manifest.json",
+      "manifest_bytes": 3328,
+      "manifest_sha256": "7109a0a78365c8e72b65cdeeb471a87d0f470039a842e4cfd246e9203fb913da",
+      "signature_path": "modules/library-annual-2026-r1/manifest.sig"
+    },
+    {
+      "module_id": "daily-cycles-r1",
+      "module_type": "cycles",
+      "version": "2026.1.0",
+      "required": true,
+      "manifest_path": "modules/daily-cycles-r1/manifest.json",
+      "manifest_bytes": 870,
+      "manifest_sha256": "4a5ab6d4d12b4a39d8ec33d267762c50a5fe9ff7ac3754784fc1373e700405a6",
+      "signature_path": "modules/daily-cycles-r1/manifest.sig"
+    },
+    {
+      "module_id": "calendar-2026-r1",
+      "module_type": "calendar",
+      "version": "2026.1.0",
+      "required": true,
+      "manifest_path": "modules/calendar-2026-r1/manifest.json",
+      "manifest_bytes": 630,
+      "manifest_sha256": "9cc15c886c85532fa44b261ffbe0fb3b7f9c54af133ffb7e9e943b6b189c52a5",
+      "signature_path": "modules/calendar-2026-r1/manifest.sig"
+    }
+  ]
+}
