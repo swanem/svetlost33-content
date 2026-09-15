@@ -1,7 +1,7 @@
 import assert from 'node:assert/strict';
 import { constants, createHash, generateKeyPairSync, verify } from 'node:crypto';
 import { execFile } from 'node:child_process';
-import { mkdtemp, readFile, readdir, rm, writeFile } from 'node:fs/promises';
+import { cp, mkdtemp, readFile, readdir, rm, writeFile } from 'node:fs/promises';
 import { tmpdir } from 'node:os';
 import { dirname, resolve } from 'node:path';
 import { promisify } from 'node:util';
@@ -144,7 +144,7 @@ test('production exporter is reproducible from approved bytes and never writes a
   } finally { await rm(temp, { recursive:true, force:true }); }
 });
 
-test('shared exporter binds one approval and one release to both compatible clients', async () => {
+test('UC-T15/16 shared exporter binds one approval and one immutable release to both clients', async () => {
   const temp = await mkdtemp(resolve(tmpdir(), 'svetlost33-v2-shared-'));
   try {
     const { privateKey } = generateKeyPairSync('rsa', {
@@ -171,10 +171,14 @@ test('shared exporter binds one approval and one release to both compatible clie
     assert.deepEqual(iosResult, androidResult);
 
     const index = JSON.parse(await readFile(resolve(output, 'index.json')));
+    assert.equal(index.channels.production.path, 'releases/shared-annual-2026-r1-m0v2-s2/release-set.json');
+    assert.equal(index.channels.production.signature_path, 'releases/shared-annual-2026-r1-m0v2-s2/release-set.sig');
     const set = JSON.parse(await readFile(resolve(output, index.channels.production.path)));
     assert.deepEqual(set.approved_platforms, ['android', 'ios']);
     assert.deepEqual(set.min_clients, { android:10, ios:'0.1.0' });
     assert.ok(set.modules.every(module => module.version === '2026.1.1'));
+    assert.ok(set.modules.every(module => module.manifest_path.startsWith(
+      'releases/shared-annual-2026-r1-m0v2-s2/modules/')));
     const libraryReference = set.modules.find(module => module.module_id === 'library-annual-2026-r1');
     assert.ok(libraryReference);
     const libraryRoot = resolve(output, dirname(libraryReference.manifest_path));
@@ -211,7 +215,52 @@ test('shared exporter binds one approval and one release to both compatible clie
     await assert.rejects(readFile(resolve(output, 'private-key.pem')));
     await assert.rejects(exec(process.execPath, [resolve(root, 'scripts/export-approved-r1-v2.mjs'),
       '--approval-mode', 'shared', '--sequence', '1', '--out', resolve(temp, 'replayed'),
-      '--private-key', privatePath]), /shared sequence must advance/);
+      '--private-key', privatePath]), /immutable at sequence 2/);
+    await assert.rejects(exec(process.execPath, [resolve(root, 'scripts/export-approved-r1-v2.mjs'),
+      '--approval-mode', 'shared', '--sequence', '3', '--out', resolve(temp, 'reused-path'),
+      '--private-key', privatePath]), /immutable at sequence 2/);
+  } finally { await rm(temp, { recursive:true, force:true }); }
+});
+
+test('UC-T18 shared export is reproducible and changed source bytes cannot reuse the approval', async () => {
+  const temp = await mkdtemp(resolve(tmpdir(), 'svetlost33-v2-shared-repeat-'));
+  try {
+    const { privateKey } = generateKeyPairSync('rsa', {
+      modulusLength:2048,
+      privateKeyEncoding:{ type:'pkcs8', format:'pem' }
+    });
+    const privatePath = resolve(temp, 'ephemeral-private.pem');
+    const first = resolve(temp, 'first');
+    const second = resolve(temp, 'second');
+    await writeFile(privatePath, privateKey, { mode:0o600 });
+    const args = output => [resolve(root, 'scripts/export-approved-r1-v2.mjs'),
+      '--approval-mode', 'shared', '--out', output, '--private-key', privatePath];
+    await exec(process.execPath, args(first));
+    await exec(process.execPath, args(second));
+
+    const firstFiles = (await walkFiles(first)).map(path => path.slice(first.length + 1)).sort();
+    const secondFiles = (await walkFiles(second)).map(path => path.slice(second.length + 1)).sort();
+    assert.deepEqual(secondFiles, firstFiles);
+    // RSA-PSS signatures intentionally contain random salt. Every other export
+    // byte, including the signed documents and public key, is reproducible.
+    for (const path of firstFiles.filter(path => !path.endsWith('.sig'))) {
+      assert.equal((await readFile(resolve(first, path))).equals(await readFile(resolve(second, path))), true, path);
+    }
+    const client = {
+      ...androidClient, trustedKeyId:'svetlost33-content-2026-key-1',
+      publicKeyPath:resolve(first, 'trusted-public-key.pem'), now:'2026-09-15T12:00:00Z'
+    };
+    assert.equal((await validateRelease(first, client)).sequence, 2);
+    assert.equal((await validateRelease(second, { ...client,
+      publicKeyPath:resolve(second, 'trusted-public-key.pem') })).sequence, 2);
+
+    const tamperedSource = resolve(temp, 'tampered-source');
+    await cp(legacy, tamperedSource, { recursive:true });
+    const tamperedPsalm = resolve(tamperedSource, 'payload/psalms.sr-Cyrl.json');
+    await writeFile(tamperedPsalm, Buffer.concat([await readFile(tamperedPsalm), Buffer.from(' ')]));
+    await assert.rejects(exec(process.execPath, [
+      ...args(resolve(temp, 'rejected')), '--source', tamperedSource
+    ]), /length|SHA-256/);
   } finally { await rm(temp, { recursive:true, force:true }); }
 });
 

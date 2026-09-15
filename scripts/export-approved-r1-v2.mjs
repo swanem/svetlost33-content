@@ -171,7 +171,7 @@ if (!privateKeyPath) {
   throw new Error('Pass --private-key or set SVETLOST33_CONTENT_PRIVATE_KEY; a production signing key is never stored in the repository');
 }
 if (!Number.isSafeInteger(sequence) || sequence < 1) throw new Error('sequence must be a positive safe integer');
-if (shared && sequence < 2) throw new Error('shared sequence must advance beyond the historical sequence 1');
+if (shared && sequence !== 2) throw new Error('shared annual r1 export is immutable at sequence 2');
 if (!Number.isFinite(Date.parse(issuedAt)) || !Number.isFinite(Date.parse(expiresAt)) || Date.parse(expiresAt) <= Date.parse(issuedAt)) {
   throw new Error('issued-at and expires-at must define a valid increasing RFC 3339 interval');
 }
