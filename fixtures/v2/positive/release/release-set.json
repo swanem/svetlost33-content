@@ -49,8 +49,8 @@
       "version": "1.0.0",
       "required": false,
       "manifest_path": "modules/backgrounds-core/manifest.json",
-      "manifest_bytes": 762,
-      "manifest_sha256": "4a8096eef23d8683605ab6e623dfb8d7162b3c925a9acb9d0325ba51373123a2",
+      "manifest_bytes": 1013,
+      "manifest_sha256": "4329b428d7a9eae63c68980c0fd183cab7fbdc9d0948b6dc78a80c8047132e98",
       "signature_path": "modules/backgrounds-core/manifest.sig"
     }
   ]

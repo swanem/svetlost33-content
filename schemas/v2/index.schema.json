@@ -9,8 +9,8 @@
     "sequence":{"type":"integer","minimum":1},
     "issued_at":{"type":"string","format":"date-time"},
     "expires_at":{"type":"string","format":"date-time"},
-    "key_id":{"type":"string","pattern":"^[a-z0-9][a-z0-9._-]{2,63}$"},
-    "channels":{"type":"object","minProperties":1,"additionalProperties":{"$ref":"#/$defs/release"}}
+    "key_id":{"$ref":"#/$defs/id"},
+    "channels":{"type":"object","minProperties":1,"propertyNames":{"$ref":"#/$defs/id"},"additionalProperties":{"$ref":"#/$defs/release"}}
   },
-  "$defs":{"release":{"type":"object","additionalProperties":false,"required":["release_set_id","path","bytes","sha256","signature_path"],"properties":{"release_set_id":{"type":"string"},"path":{"type":"string"},"bytes":{"type":"integer","minimum":1},"sha256":{"type":"string","pattern":"^[0-9a-f]{64}$"},"signature_path":{"type":"string"}}}}
+  "$defs":{"id":{"type":"string","pattern":"^[a-z0-9][a-z0-9._-]{2,63}$"},"path":{"type":"string","minLength":1,"maxLength":160},"release":{"type":"object","additionalProperties":false,"required":["release_set_id","path","bytes","sha256","signature_path"],"properties":{"release_set_id":{"$ref":"#/$defs/id"},"path":{"$ref":"#/$defs/path"},"bytes":{"type":"integer","minimum":1,"maximum":262144},"sha256":{"type":"string","pattern":"^[0-9a-f]{64}$"},"signature_path":{"$ref":"#/$defs/path"}}}}
 }

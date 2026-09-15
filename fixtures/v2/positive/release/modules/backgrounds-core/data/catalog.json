@@ -1,11 +1,19 @@
 {
   "items": [
     {
-      "id": "fixture-light",
+      "id": "fixture-light-png",
       "revision": 1,
       "file": "media/light.png",
       "width": 1,
       "height": 1,
+      "rights": "fixture-only"
+    },
+    {
+      "id": "fixture-light-jpeg",
+      "revision": 1,
+      "file": "media/light.jpg",
+      "width": 2,
+      "height": 2,
       "rights": "fixture-only"
     }
   ]

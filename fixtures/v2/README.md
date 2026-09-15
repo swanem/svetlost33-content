@@ -1,7 +1,8 @@
 # Zajednički M0 v2 primeri
 
 `positive/release` je mali, potpisani skup sa četiri modula, oba pisma,
-eksplicitno nepoznatim kalendarskim vrednostima i stvarnim PNG bajtovima.
+eksplicitno nepoznatim kalendarskim vrednostima i potpuno dekodiranim PNG/JPEG
+bajtovima. Potpisani negativni generator pokriva oštećenje oba formata.
 Javni ključ je isključivo fixture trust anchor; privatni testni ključ nije
 sačuvan.
 

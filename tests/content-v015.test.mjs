@@ -14,6 +14,12 @@ const android = resolve(root, '../svetlost33-github');
 const legacy = resolve(root, 'releases/legacy/annual-2026-r1');
 const positive = resolve(root, 'fixtures/v2/positive/release');
 const sha256 = bytes => createHash('sha256').update(bytes).digest('hex');
+const androidClient = {
+  trustedKeyId:'svetlost33-fixture-key-1',
+  platform:'android',
+  clientVersion:10,
+  clientCapabilities:['library-v1','sr-Cyrl','sr-Latn','cycle-v1','calendar-v1','explicit-unknown','background-catalog-v1']
+};
 
 test('I0 public allowlist has only the exact 13 payloads and four release artifacts', async () => {
   const allowlist = JSON.parse(await readFile(resolve(root, 'inventory/public-allowlist.json')));
@@ -58,7 +64,7 @@ test('all M0 v2 JSON schemas parse and declare Draft 2020-12', async () => {
 });
 
 test('committed positive fixture validates as a four-module release', async () => {
-  const result = await validateRelease(positive, { trustedKeyId:'svetlost33-fixture-key-1' });
+  const result = await validateRelease(positive, androidClient);
   assert.deepEqual({ id:result.releaseSetId, sequence:result.sequence, modules:result.modules }, { id:'fixture-release-2026-r1', sequence:1, modules:4 });
 });
 
@@ -66,7 +72,7 @@ test('fixture generator creates a complete valid signed release without a privat
   const temp = await mkdtemp(resolve(tmpdir(), 'svetlost33-v2-valid-'));
   try {
     await exec(process.execPath, [resolve(root, 'scripts/generate-v2-fixtures.mjs'), '--out', temp]);
-    assert.equal((await validateRelease(temp, { trustedKeyId:'svetlost33-fixture-key-1' })).modules, 4);
+    assert.equal((await validateRelease(temp, androidClient)).modules, 4);
     await assert.rejects(readFile(resolve(temp, 'private-key.pem')));
   } finally { await rm(temp, { recursive:true, force:true }); }
 });
@@ -77,11 +83,36 @@ test('every frozen negative fixture is rejected for its expected reason', async 
     const temp = await mkdtemp(resolve(tmpdir(), `svetlost33-v2-${scenario.id}-`));
     try {
       await exec(process.execPath, [resolve(root, 'scripts/generate-v2-fixtures.mjs'), '--out', temp, '--scenario', scenario.id]);
-      await assert.rejects(validateRelease(temp, { trustedKeyId:'svetlost33-fixture-key-1' }), error => error instanceof ValidationError && error.code === scenario.expected_code);
+      await assert.rejects(validateRelease(temp, androidClient), error => error instanceof ValidationError && error.code === scenario.expected_code);
     } finally { await rm(temp, { recursive:true, force:true }); }
   });
 });
 
 test('older network sequence is rejected without touching package bytes', async () => {
-  await assert.rejects(validateRelease(positive, { trustedKeyId:'svetlost33-fixture-key-1', minimumSequence:2 }), error => error instanceof ValidationError && error.code === 'REPLAY');
+  await assert.rejects(validateRelease(positive, { ...androidClient, minimumSequence:2 }), error => error instanceof ValidationError && error.code === 'REPLAY');
+});
+
+test('client compatibility is enforced for Android, iOS and required capabilities', async () => {
+  await assert.rejects(validateRelease(positive, { ...androidClient, clientVersion:9 }), error => error instanceof ValidationError && error.code === 'CLIENT_VERSION');
+  await assert.rejects(validateRelease(positive, { ...androidClient, clientCapabilities:androidClient.clientCapabilities.filter(value => value !== 'calendar-v1') }), error => error instanceof ValidationError && error.code === 'CAPABILITY');
+  const withoutBackgrounds = await validateRelease(positive, { ...androidClient, clientCapabilities:androidClient.clientCapabilities.filter(value => value !== 'background-catalog-v1') });
+  assert.equal(withoutBackgrounds.modules, 3);
+  assert.deepEqual(withoutBackgrounds.skippedOptionalModules, ['backgrounds-core']);
+  assert.equal((await validateRelease(positive, { ...androidClient, platform:'ios', clientVersion:'0.15.0' })).modules, 4);
+  await assert.rejects(validateRelease(positive, { ...androidClient, platform:'ios', clientVersion:'0.14.9' }), error => error instanceof ValidationError && error.code === 'CLIENT_VERSION');
+});
+
+test('index time interval includes issued_at and excludes expires_at', async () => {
+  assert.equal((await validateRelease(positive, { ...androidClient, now:'2026-09-15T00:00:00Z' })).sequence, 1);
+  await assert.rejects(validateRelease(positive, { ...androidClient, now:'2099-09-15T00:00:00Z' }), error => error instanceof ValidationError && error.code === 'TIME');
+});
+
+test('unsupported optional module skips even a corrupt payload after signed manifest verification', async () => {
+  const temp = await mkdtemp(resolve(tmpdir(), 'svetlost33-v2-optional-corrupt-'));
+  try {
+    await exec(process.execPath, [resolve(root, 'scripts/generate-v2-fixtures.mjs'), '--out', temp, '--scenario', 'corrupt-media']);
+    const result = await validateRelease(temp, { ...androidClient, clientCapabilities:androidClient.clientCapabilities.filter(value => value !== 'background-catalog-v1') });
+    assert.equal(result.modules, 3);
+    assert.deepEqual(result.skippedOptionalModules, ['backgrounds-core']);
+  } finally { await rm(temp, { recursive:true, force:true }); }
 });

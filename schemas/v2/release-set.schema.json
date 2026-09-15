@@ -5,9 +5,10 @@
   "type":"object","additionalProperties":false,
   "required":["schema_version","release_set_id","sequence","channel","key_id","approved_platforms","min_clients","modules"],
   "properties":{
-    "schema_version":{"const":"svetlost33-release-set-2"},"release_set_id":{"type":"string"},"sequence":{"type":"integer","minimum":1},"channel":{"type":"string"},"key_id":{"type":"string"},
-    "approved_platforms":{"type":"array","uniqueItems":true,"items":{"enum":["android","ios"]}},
+    "schema_version":{"const":"svetlost33-release-set-2"},"release_set_id":{"$ref":"#/$defs/id"},"sequence":{"type":"integer","minimum":1},"channel":{"$ref":"#/$defs/id"},"key_id":{"$ref":"#/$defs/id"},
+    "approved_platforms":{"type":"array","minItems":1,"maxItems":2,"uniqueItems":true,"items":{"enum":["android","ios"]}},
     "min_clients":{"type":"object","additionalProperties":false,"required":["android","ios"],"properties":{"android":{"type":"integer","minimum":1},"ios":{"type":"string","pattern":"^[0-9]+\\.[0-9]+\\.[0-9]+$"}}},
-    "modules":{"type":"array","minItems":1,"maxItems":16,"items":{"type":"object","additionalProperties":false,"required":["module_id","module_type","version","required","manifest_path","manifest_bytes","manifest_sha256","signature_path"],"properties":{"module_id":{"type":"string"},"module_type":{"enum":["library","cycles","calendar","backgrounds","organizations"]},"version":{"type":"string"},"required":{"type":"boolean"},"manifest_path":{"type":"string"},"manifest_bytes":{"type":"integer","minimum":1},"manifest_sha256":{"type":"string","pattern":"^[0-9a-f]{64}$"},"signature_path":{"type":"string"}}}}
-  }
+    "modules":{"type":"array","minItems":1,"maxItems":16,"items":{"type":"object","additionalProperties":false,"required":["module_id","module_type","version","required","manifest_path","manifest_bytes","manifest_sha256","signature_path"],"properties":{"module_id":{"$ref":"#/$defs/id"},"module_type":{"enum":["library","cycles","calendar","backgrounds","organizations"]},"version":{"$ref":"#/$defs/id"},"required":{"type":"boolean"},"manifest_path":{"$ref":"#/$defs/path"},"manifest_bytes":{"type":"integer","minimum":1,"maximum":262144},"manifest_sha256":{"type":"string","pattern":"^[0-9a-f]{64}$"},"signature_path":{"$ref":"#/$defs/path"}}}}
+  },
+  "$defs":{"id":{"type":"string","pattern":"^[a-z0-9][a-z0-9._-]{2,63}$"},"path":{"type":"string","minLength":1,"maxLength":160}}
 }

@@ -2,18 +2,43 @@
 import { constants, createHash, verify } from 'node:crypto';
 import { lstat, readFile } from 'node:fs/promises';
 import { dirname, relative, resolve, sep } from 'node:path';
-import { inflateSync } from 'node:zlib';
+import Ajv2020 from 'ajv/dist/2020.js';
+import addFormats from 'ajv-formats';
+import sharp from 'sharp';
 
 const LIMITS = { document: 256 * 1024, modules: 16, files: 512, file: 20 * 1024 * 1024, total: 100 * 1024 * 1024, path: 160, side: 4096, pixels: 16_000_000 };
 const TYPES = new Set(['application/json', 'image/png', 'image/jpeg']);
 const MODULE_TYPES = new Set(['library', 'cycles', 'calendar', 'backgrounds', 'organizations']);
 const SHA = /^[0-9a-f]{64}$/;
-const KEY = /^[a-z0-9][a-z0-9._-]{2,63}$/;
+const IDENTIFIER = /^[a-z0-9][a-z0-9._-]{2,63}$/;
+const SEMVER = /^[0-9]+\.[0-9]+\.[0-9]+$/;
+const CAPABILITY = /^[A-Za-z0-9][A-Za-z0-9._-]{0,63}$/;
+const ajv = new Ajv2020({ allErrors:true, strict:true });
+addFormats(ajv);
+const schemaRoot = resolve(import.meta.dirname, '../schemas/v2');
+const schemaValidators = Object.fromEntries(await Promise.all([
+  ['index', 'index.schema.json'],
+  ['release-set', 'release-set.schema.json'],
+  ['module', 'module-manifest.schema.json']
+].map(async ([kind, name]) => [kind, ajv.compile(JSON.parse(await readFile(resolve(schemaRoot, name), 'utf8')))])));
 
 export class ValidationError extends Error {
   constructor(code, message) { super(`${code}: ${message}`); this.code = code; }
 }
 const fail = (code, message) => { throw new ValidationError(code, message); };
+const identifier = (value, label) => {
+  if (typeof value !== 'string' || !IDENTIFIER.test(value)) fail('SCHEMA', `Invalid ${label}`);
+};
+const positiveInteger = (value, label) => {
+  if (!Number.isInteger(value) || value < 1) fail('SCHEMA', `Invalid ${label}`);
+};
+const againstSchema = (kind, value) => {
+  const validate = schemaValidators[kind];
+  if (!validate(value)) {
+    const code = validate.errors?.some(error => error.keyword === 'pattern' && /\/(path|manifest_path|signature_path)$/.test(error.instancePath)) ? 'PATH' : 'SCHEMA';
+    fail(code, `${kind}: ${ajv.errorsText(validate.errors, { separator:'; ' })}`);
+  }
+};
 const exactKeys = (object, required, optional = []) => {
   if (!object || typeof object !== 'object' || Array.isArray(object)) fail('SCHEMA', 'Expected object');
   for (const key of required) if (!(key in object)) fail('SCHEMA', `Missing ${key}`);
@@ -49,10 +74,16 @@ async function exactFile(root, record) {
   return bytes;
 }
 async function signatureBytes(root, path) {
-  const raw = await readFile(inside(root, path)).catch(() => fail('MISSING', path));
-  let signature;
-  try { signature = Buffer.from(raw.toString('ascii').trim(), 'base64'); } catch { fail('SIGNATURE', path); }
-  if (!signature.length) fail('SIGNATURE', path);
+  const target = inside(root, path);
+  const stat = await lstat(target).catch(() => fail('MISSING', path));
+  if (!stat.isFile() || stat.isSymbolicLink()) fail('PATH', `Not a regular signature: ${path}`);
+  if (stat.size < 1 || stat.size > 8192) fail('SIGNATURE', `Invalid signature size: ${path}`);
+  const raw = await readFile(target);
+  if (raw.some(byte => byte > 0x7f)) fail('SIGNATURE', `Signature is not ASCII: ${path}`);
+  const encoded = raw.toString('ascii').trim();
+  if (!/^(?:[A-Za-z0-9+/]{4})*(?:[A-Za-z0-9+/]{2}==|[A-Za-z0-9+/]{3}=)?$/.test(encoded)) fail('SIGNATURE', `Signature is not strict Base64: ${path}`);
+  const signature = Buffer.from(encoded, 'base64');
+  if (!signature.length || signature.toString('base64') !== encoded) fail('SIGNATURE', `Signature is not canonical Base64: ${path}`);
   return signature;
 }
 async function verifyDetached(root, bytes, signaturePath, publicKey) {
@@ -60,60 +91,60 @@ async function verifyDetached(root, bytes, signaturePath, publicKey) {
   const valid = verify('sha256', bytes, { key: publicKey, padding: constants.RSA_PKCS1_PSS_PADDING, saltLength: 32 }, signature);
   if (!valid) fail('SIGNATURE', signaturePath);
 }
-function pngDimensions(bytes) {
-  const magic = Buffer.from([137,80,78,71,13,10,26,10]);
-  if (bytes.length < 45 || !bytes.subarray(0,8).equals(magic)) fail('MEDIA', 'Invalid PNG signature');
-  let offset = 8, width, height, ended = false; const idat = [];
-  while (offset + 12 <= bytes.length) {
-    const length = bytes.readUInt32BE(offset); const type = bytes.toString('ascii', offset + 4, offset + 8);
-    if (offset + 12 + length > bytes.length) fail('MEDIA', 'Truncated PNG chunk');
-    const data = bytes.subarray(offset + 8, offset + 8 + length);
-    if (type === 'IHDR') { if (length !== 13) fail('MEDIA', 'Invalid IHDR'); width = data.readUInt32BE(0); height = data.readUInt32BE(4); }
-    if (type === 'IDAT') idat.push(data);
-    if (type === 'IEND') { ended = true; break; }
-    offset += length + 12;
-  }
-  if (!width || !height || !ended || !idat.length) fail('MEDIA', 'PNG cannot be decoded');
-  try { inflateSync(Buffer.concat(idat), { maxOutputLength: LIMITS.pixels * 4 + LIMITS.side }); } catch { fail('MEDIA', 'PNG pixel stream cannot be decoded'); }
-  return { width, height };
-}
-function jpegDimensions(bytes) {
-  if (bytes.length < 4 || bytes[0] !== 0xff || bytes[1] !== 0xd8 || bytes.at(-2) !== 0xff || bytes.at(-1) !== 0xd9) fail('MEDIA', 'Invalid JPEG framing');
-  let offset = 2;
-  while (offset + 8 < bytes.length) {
-    if (bytes[offset++] !== 0xff) continue;
-    const marker = bytes[offset++];
-    if (marker === 0xd9 || marker === 0xda) break;
-    const length = bytes.readUInt16BE(offset); if (length < 2 || offset + length > bytes.length) fail('MEDIA', 'Truncated JPEG');
-    if ([0xc0,0xc1,0xc2,0xc3,0xc5,0xc6,0xc7,0xc9,0xca,0xcb,0xcd,0xce,0xcf].includes(marker)) return { height: bytes.readUInt16BE(offset + 3), width: bytes.readUInt16BE(offset + 5) };
-    offset += length;
-  }
-  fail('MEDIA', 'JPEG dimensions missing');
-}
-function validateImage(bytes, record) {
+async function validateImage(bytes, record) {
   if (!record.image || !Number.isInteger(record.image.width) || !Number.isInteger(record.image.height)) fail('SCHEMA', `Missing image metadata: ${record.path}`);
-  const actual = record.content_type === 'image/png' ? pngDimensions(bytes) : jpegDimensions(bytes);
+  let decoded, metadata;
+  try {
+    const input = sharp(bytes, { failOn:'error', limitInputPixels:LIMITS.pixels, sequentialRead:true });
+    metadata = await input.metadata();
+    decoded = await sharp(bytes, { failOn:'error', limitInputPixels:LIMITS.pixels, sequentialRead:true }).raw().toBuffer({ resolveWithObject:true });
+  } catch { fail('MEDIA', `Image cannot be fully decoded: ${record.path}`); }
+  const expectedFormat = record.content_type === 'image/png' ? 'png' : 'jpeg';
+  if (metadata.format !== expectedFormat || (metadata.pages || 1) !== 1) fail('MEDIA', `Image format mismatch: ${record.path}`);
+  const actual = { width:decoded.info.width, height:decoded.info.height };
   if (actual.width !== record.image.width || actual.height !== record.image.height) fail('MEDIA', `Dimension mismatch: ${record.path}`);
   if (actual.width > LIMITS.side || actual.height > LIMITS.side || actual.width * actual.height > LIMITS.pixels) fail('MEDIA_LIMIT', record.path);
 }
 function validateIndexShape(index) {
   exactKeys(index, ['schema_version','sequence','issued_at','expires_at','key_id','channels']);
-  if (index.schema_version !== 'svetlost33-m0-index-2' || !Number.isInteger(index.sequence) || index.sequence < 1 || !KEY.test(index.key_id)) fail('SCHEMA', 'Invalid index');
-  if (!Number.isFinite(Date.parse(index.issued_at)) || !Number.isFinite(Date.parse(index.expires_at)) || Date.parse(index.expires_at) <= Date.parse(index.issued_at)) fail('SCHEMA', 'Invalid index dates');
+  if (index.schema_version !== 'svetlost33-m0-index-2') fail('SCHEMA', 'Invalid index schema');
+  positiveInteger(index.sequence, 'index sequence'); identifier(index.key_id, 'key id');
+  if (typeof index.issued_at !== 'string' || typeof index.expires_at !== 'string' || !Number.isFinite(Date.parse(index.issued_at)) || !Number.isFinite(Date.parse(index.expires_at)) || Date.parse(index.expires_at) <= Date.parse(index.issued_at)) fail('SCHEMA', 'Invalid index dates');
   if (!index.channels || typeof index.channels !== 'object' || !Object.keys(index.channels).length) fail('SCHEMA', 'No channels');
+  for (const [name, channel] of Object.entries(index.channels)) {
+    identifier(name, 'channel id'); exactKeys(channel, ['release_set_id','path','bytes','sha256','signature_path']);
+    identifier(channel.release_set_id, 'release set id'); safePath(channel.path); safePath(channel.signature_path);
+    positiveInteger(channel.bytes, 'release set bytes'); if (channel.bytes > LIMITS.document || typeof channel.sha256 !== 'string' || !SHA.test(channel.sha256)) fail('SCHEMA', 'Invalid release set record');
+  }
 }
 function validateReleaseShape(set) {
   exactKeys(set, ['schema_version','release_set_id','sequence','channel','key_id','approved_platforms','min_clients','modules']);
-  if (set.schema_version !== 'svetlost33-release-set-2' || !Number.isInteger(set.sequence) || set.sequence < 1 || !KEY.test(set.key_id)) fail('SCHEMA', 'Invalid release set');
+  if (set.schema_version !== 'svetlost33-release-set-2') fail('SCHEMA', 'Invalid release set schema');
+  identifier(set.release_set_id, 'release set id'); positiveInteger(set.sequence, 'release sequence'); identifier(set.channel, 'channel id'); identifier(set.key_id, 'key id');
   if (!Array.isArray(set.modules) || !set.modules.length || set.modules.length > LIMITS.modules) fail('LIMIT', 'Invalid module count');
-  if (!Array.isArray(set.approved_platforms) || !['android','ios'].every(x => set.approved_platforms.includes(x))) fail('APPROVAL', 'Both clients are not approved in fixture release');
+  if (!Array.isArray(set.approved_platforms) || !set.approved_platforms.length || set.approved_platforms.some(value => value !== 'android' && value !== 'ios') || new Set(set.approved_platforms).size !== set.approved_platforms.length) fail('SCHEMA', 'Invalid approved platforms');
   exactKeys(set.min_clients, ['android','ios']);
+  positiveInteger(set.min_clients.android, 'minimum Android versionCode');
+  if (typeof set.min_clients.ios !== 'string' || !SEMVER.test(set.min_clients.ios)) fail('SCHEMA', 'Invalid minimum iOS version');
 }
 function validateModuleShape(manifest) {
   exactKeys(manifest, ['schema_version','module_id','module_type','version','revision','key_id','capabilities','dependencies','files']);
-  if (manifest.schema_version !== 'svetlost33-module-manifest-2' || !MODULE_TYPES.has(manifest.module_type) || !Number.isInteger(manifest.revision) || manifest.revision < 1 || !KEY.test(manifest.key_id)) fail('SCHEMA', `Invalid module ${manifest.module_id}`);
+  if (manifest.schema_version !== 'svetlost33-module-manifest-2' || !MODULE_TYPES.has(manifest.module_type)) fail('SCHEMA', `Invalid module ${manifest.module_id}`);
+  identifier(manifest.module_id, 'module id'); identifier(manifest.version, 'module version'); positiveInteger(manifest.revision, 'module revision'); identifier(manifest.key_id, 'key id');
   if (!Array.isArray(manifest.files) || !manifest.files.length || manifest.files.length > LIMITS.files) fail('LIMIT', `Invalid file count ${manifest.module_id}`);
   if (!Array.isArray(manifest.dependencies) || !Array.isArray(manifest.capabilities) || new Set(manifest.capabilities).size !== manifest.capabilities.length) fail('SCHEMA', `Invalid arrays ${manifest.module_id}`);
+  for (const capability of manifest.capabilities) if (typeof capability !== 'string' || !CAPABILITY.test(capability)) fail('SCHEMA', 'Invalid capability id');
+  const dependencies = new Set();
+  for (const dependency of manifest.dependencies) {
+    exactKeys(dependency, ['module_id','version']); identifier(dependency.module_id, 'dependency module id'); identifier(dependency.version, 'dependency version');
+    if (dependencies.has(dependency.module_id)) fail('DUPLICATE_ID', `Dependency ${dependency.module_id}`); dependencies.add(dependency.module_id);
+  }
+}
+
+function compareSemver(left, right) {
+  const a = left.split('.').map(Number), b = right.split('.').map(Number);
+  for (let index = 0; index < 3; index++) if (a[index] !== b[index]) return a[index] - b[index];
+  return 0;
 }
 
 export async function validateRelease(rootInput, options = {}) {
@@ -123,43 +154,71 @@ export async function validateRelease(rootInput, options = {}) {
   if (indexBytes.length > LIMITS.document) fail('LIMIT', 'index.json');
   await verifyDetached(root, indexBytes, 'index.sig', publicKey);
   const index = parseJson(indexBytes, 'index.json'); validateIndexShape(index);
+  againstSchema('index', index);
   if (options.trustedKeyId && index.key_id !== options.trustedKeyId) fail('KEY', `Unknown key id ${index.key_id}`);
+  const now = options.now === undefined ? Date.now() : new Date(options.now).getTime();
+  if (!Number.isFinite(now)) fail('SCHEMA', 'Invalid validator time');
+  if (Date.parse(index.issued_at) > now) fail('TIME', 'Index is not valid yet');
+  if (now >= Date.parse(index.expires_at)) fail('TIME', 'Index has expired');
   if (options.minimumSequence && index.sequence < options.minimumSequence) fail('REPLAY', `${index.sequence} < ${options.minimumSequence}`);
   const channel = index.channels[options.channel || 'production']; if (!channel) fail('CHANNEL', 'Missing channel');
   exactKeys(channel, ['release_set_id','path','bytes','sha256','signature_path']);
   const setBytes = await exactFile(root, { path: channel.path, bytes: channel.bytes, sha256: channel.sha256 });
   if (setBytes.length > LIMITS.document) fail('LIMIT', channel.path);
   await verifyDetached(root, setBytes, channel.signature_path, publicKey);
-  const set = parseJson(setBytes, channel.path); validateReleaseShape(set);
+  const set = parseJson(setBytes, channel.path); againstSchema('release-set', set); validateReleaseShape(set);
   if (set.release_set_id !== channel.release_set_id || set.sequence !== index.sequence || set.channel !== (options.channel || 'production') || set.key_id !== index.key_id) fail('IDENTITY', 'Index/release-set mismatch');
-  const moduleIds = new Set(); const manifests = new Map(); let total = indexBytes.length + setBytes.length;
+  if (!options.platform || (options.platform !== 'android' && options.platform !== 'ios')) fail('CLIENT_CONTEXT', 'platform is required');
+  if (!set.approved_platforms.includes(options.platform)) fail('APPROVAL', `Release is not approved for ${options.platform}`);
+  if (options.platform === 'android') {
+    positiveInteger(options.clientVersion, 'Android client versionCode');
+    if (options.clientVersion < set.min_clients.android) fail('CLIENT_VERSION', `${options.clientVersion} < ${set.min_clients.android}`);
+  } else {
+    if (typeof options.clientVersion !== 'string' || !SEMVER.test(options.clientVersion)) fail('SCHEMA', 'Invalid iOS client version');
+    if (compareSemver(options.clientVersion, set.min_clients.ios) < 0) fail('CLIENT_VERSION', `${options.clientVersion} < ${set.min_clients.ios}`);
+  }
+  if (!Array.isArray(options.clientCapabilities) || options.clientCapabilities.some(value => typeof value !== 'string' || !CAPABILITY.test(value))) fail('CLIENT_CONTEXT', 'clientCapabilities are required');
+  const clientCapabilities = new Set(options.clientCapabilities);
+  const moduleIds = new Set(); const manifests = new Map(); const activeManifests = new Map(); const skippedOptionalModules = []; let total = indexBytes.length + setBytes.length;
   for (const entry of set.modules) {
     exactKeys(entry, ['module_id','module_type','version','required','manifest_path','manifest_bytes','manifest_sha256','signature_path']);
+    identifier(entry.module_id, 'module id'); identifier(entry.version, 'module version');
+    if (!MODULE_TYPES.has(entry.module_type) || typeof entry.required !== 'boolean') fail('SCHEMA', `Invalid module entry ${entry.module_id}`);
+    safePath(entry.manifest_path); safePath(entry.signature_path); positiveInteger(entry.manifest_bytes, 'manifest bytes');
+    if (entry.manifest_bytes > LIMITS.document || typeof entry.manifest_sha256 !== 'string' || !SHA.test(entry.manifest_sha256)) fail('SCHEMA', `Invalid module record ${entry.module_id}`);
     if (moduleIds.has(entry.module_id)) fail('DUPLICATE_ID', entry.module_id); moduleIds.add(entry.module_id);
     const bytes = await exactFile(root, { path: entry.manifest_path, bytes: entry.manifest_bytes, sha256: entry.manifest_sha256 });
     if (bytes.length > LIMITS.document) fail('LIMIT', entry.manifest_path);
     await verifyDetached(root, bytes, entry.signature_path, publicKey);
-    const manifest = parseJson(bytes, entry.manifest_path); validateModuleShape(manifest);
+    const manifest = parseJson(bytes, entry.manifest_path); againstSchema('module', manifest); validateModuleShape(manifest);
     if (manifest.module_id !== entry.module_id || manifest.module_type !== entry.module_type || manifest.version !== entry.version || manifest.key_id !== set.key_id) fail('IDENTITY', entry.module_id);
+    const missingCapabilities = manifest.capabilities.filter(capability => !clientCapabilities.has(capability));
+    if (entry.required && missingCapabilities.length) fail('CAPABILITY', missingCapabilities[0]);
+    manifests.set(manifest.module_id, manifest);
+    if (missingCapabilities.length) {
+      skippedOptionalModules.push(manifest.module_id);
+      continue;
+    }
     const base = dirname(inside(root, entry.manifest_path)); const paths = new Set();
     for (const file of manifest.files) {
       exactKeys(file, ['path','bytes','sha256','content_type'], ['encoding','image']);
       if (!TYPES.has(file.content_type) || paths.has(file.path)) fail(paths.has(file.path) ? 'DUPLICATE_PATH' : 'TYPE', file.path); paths.add(file.path);
       const payload = await exactFile(base, file); total += payload.length; if (total > LIMITS.total) fail('LIMIT', 'Release total');
       if (file.content_type === 'application/json') { if (file.encoding !== 'utf-8' || file.image) fail('SCHEMA', file.path); parseJson(payload, file.path); }
-      else { if (file.encoding) fail('SCHEMA', file.path); validateImage(payload, file); }
+      else { if (file.encoding) fail('SCHEMA', file.path); exactKeys(file.image, ['width','height']); await validateImage(payload, file); }
     }
-    manifests.set(manifest.module_id, manifest);
+    activeManifests.set(manifest.module_id, manifest);
   }
-  for (const manifest of manifests.values()) for (const dependency of manifest.dependencies) {
-    exactKeys(dependency, ['module_id','version']); const actual = manifests.get(dependency.module_id);
+  for (const manifest of activeManifests.values()) for (const dependency of manifest.dependencies) {
+    exactKeys(dependency, ['module_id','version']); const actual = activeManifests.get(dependency.module_id);
     if (!actual || actual.version !== dependency.version) fail('DEPENDENCY', `${manifest.module_id} -> ${dependency.module_id}@${dependency.version}`);
   }
-  return { releaseSetId: set.release_set_id, sequence: set.sequence, modules: manifests.size, totalBytes: total };
+  return { releaseSetId: set.release_set_id, sequence: set.sequence, modules:activeManifests.size, verifiedModules:manifests.size, skippedOptionalModules, totalBytes: total };
 }
 
 if (process.argv[1] === import.meta.filename) {
   const target = process.argv[2]; if (!target) { console.error('Usage: validate-m0-v2.mjs <release-directory>'); process.exit(2); }
-  const keyIndex = process.argv.indexOf('--key'); const idIndex = process.argv.indexOf('--key-id');
-  validateRelease(target, { publicKeyPath:keyIndex >= 0 ? process.argv[keyIndex + 1] : undefined, trustedKeyId:idIndex >= 0 ? process.argv[idIndex + 1] : 'svetlost33-fixture-key-1' }).then(result => console.log(`Valid M0 v2 ${result.releaseSetId}: ${result.modules} modules, ${result.totalBytes} bytes.`)).catch(error => { console.error(error.message); process.exit(1); });
+  const keyIndex = process.argv.indexOf('--key'); const idIndex = process.argv.indexOf('--key-id'); const platformIndex = process.argv.indexOf('--platform'); const versionIndex = process.argv.indexOf('--client-version');
+  const platform = platformIndex >= 0 ? process.argv[platformIndex + 1] : 'android'; const versionRaw = versionIndex >= 0 ? process.argv[versionIndex + 1] : (platform === 'android' ? '10' : '0.15.0');
+  validateRelease(target, { publicKeyPath:keyIndex >= 0 ? process.argv[keyIndex + 1] : undefined, trustedKeyId:idIndex >= 0 ? process.argv[idIndex + 1] : 'svetlost33-fixture-key-1', platform, clientVersion:platform === 'android' ? Number(versionRaw) : versionRaw, clientCapabilities:['library-v1','sr-Cyrl','sr-Latn','cycle-v1','calendar-v1','explicit-unknown','background-catalog-v1'] }).then(result => console.log(`Valid M0 v2 ${result.releaseSetId}: ${result.modules} active modules, ${result.totalBytes} bytes.`)).catch(error => { console.error(error.message); process.exit(1); });
 }

@@ -12,8 +12,8 @@
   "files": [
     {
       "path": "data/catalog.json",
-      "bytes": 184,
-      "sha256": "e57791b13b7f8a2f9212ca7ae7037ab08d6200ca8e3053b351a57138649f9346",
+      "bytes": 357,
+      "sha256": "3fde9fdb890140ffcf85bd69371abeb38075ed5da4cd8538f8e06ea995554905",
       "content_type": "application/json",
       "encoding": "utf-8"
     },
@@ -25,6 +25,16 @@
       "image": {
         "width": 1,
         "height": 1
+      }
+    },
+    {
+      "path": "media/light.jpg",
+      "bytes": 267,
+      "sha256": "e200fe1eeb00f6ca4f78949aa6d357cf135ce01cddac561709fce5d2c1d70b92",
+      "content_type": "image/jpeg",
+      "image": {
+        "width": 2,
+        "height": 2
       }
     }
   ]

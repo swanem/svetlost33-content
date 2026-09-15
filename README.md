@@ -13,9 +13,11 @@ postojeće zaključane ulaze dok obe platforme ne integrišu i ne prihvate M0 v2
 
 ## Provera
 
-Potreban je Node.js 20 ili noviji. Nisu potrebni dodatni paketi.
+Potreban je Node.js 20.9 ili noviji. `npm ci` instalira zaključani `sharp`
+decoder kojim validator potpuno dekodira PNG/JPEG sadržaj.
 
 ```sh
+npm ci
 npm test
 ```
 
