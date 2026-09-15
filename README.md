@@ -17,10 +17,11 @@ iOS ima zasebnu klijentsku integraciju i tehničko prihvatanje zajedničkog kana
 **Jedno odobrenje za oba OS-a — v0.17, 15.09.2026:** vlasnik jednom odobrava
 sadržajnu reviziju za Android i iOS. [Zajednička r1 evidencija i predaja](approvals/README.md)
 objedinjuje prethodne odluke za istih 13 datoteka, uz isti obim Srbije/BiH.
-Sledeća zajednička objava koristi jedan potpisani release-set i discovery kanal;
+Zajednički produkcioni izvoz sada koristi jedan potpisani release-set i discovery kanal;
 minimalne verzije i platformski QA nisu novo sadržajno odobrenje.
 Postojeći potpisani M0 izvoz ostaje istorijski Android-only i ne prepisuje se.
-Nova zajednička produkciona objava nije izvršena ovom dokumentacionom odlukom.
+Potpisani bajtovi su pripremljeni u `releases/v2/production`; javna objava i
+platformsko prihvatanje vode se kao odvojeni koraci.
 
 Za integracioni rad može se napraviti privremeni tro-modularni RC iz tačnih
 `annual-2026-r1` bajtova:
@@ -56,6 +57,8 @@ M0 v2 pozitivni primer i očekivano odbija svaki negativni primer.
 - `releases/legacy/annual-2026-r1/` — neizmenjeni M0 v1/r1 bajtovi.
 - `releases/v2/annual-2026-r1/` — potpisani produkcioni Android M0 v2 izvoz:
   biblioteka, dnevni ciklus i kalendar.
+- `releases/v2/production/` — stabilni discovery koren i nepromenljivi
+  zajednički Android/iOS release-set sekvence 2.
 - `schemas/v2/` — mašinski čitljive M0 v2 šeme.
 - `modules/` — mesto kanonskih modularnih izvora; trenutno sadrži uputstvo za
   sledeći, odobreni izvoz iz legacy paketa.
@@ -87,7 +90,9 @@ npm run export:r1:v2:shared -- --private-key /bezbedna/putanja/annual-content-pr
 Zajednički režim proverava odobrenje, svih 13 neizmenjenih payload datoteka,
 stvarne minimalne klijente Android code 10 / iOS 0.1.0 i odbija sekvencu koja
 ne napreduje. Testovi ga izvršavaju samo u privremenom direktorijumu sa
-jednokratnim ključem. To nije produkcijski potpis, objava ili promena hosta.
+jednokratnim ključem. Komitovani `releases/v2/production` je zasebno napravljen
+spoljašnjim produkcijskim ključem i validiran za oba klijenta; to samo po sebi
+ne dokazuje javnu objavu, instalaciju ili platformski QA.
 
 Paket obuhvata 150 psalama, 18 molitava, četiri Jevanđelja, oba dnevna ciklusa
 i svih 365 datuma. Za 173 datuma čitanje je označeno kao predlog na osnovu

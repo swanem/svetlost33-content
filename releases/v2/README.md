@@ -15,8 +15,9 @@ Nije uključen modul organizacija ili donacija.
 
 ## Zajednički v0.17 izvoz i discovery raspored
 
-`npm run export:r1:v2:shared` priprema narednu zajedničku tehničku reviziju u
-novom izlaznom korenu `build/v0.17-shared-discovery-root`. Komanda ne može da
+`npm run export:r1:v2:shared` priprema zajedničku tehničku reviziju u
+novom izlaznom korenu `build/v0.17-shared-discovery-root`. Produkcijski potpisana
+kopija iste strukture nalazi se u `releases/v2/production`. Komanda ne može da
 prepiše istorijski `releases/v2/annual-2026-r1`: zajednički release-set ima
 identitet `shared-annual-2026-r1-m0v2-s2`, sekvencu 2, oba OS-a i iOS minimum
 `0.1.0`.
@@ -39,7 +40,8 @@ putanje. Sve putanje u indeksu i release-setu računaju se od discovery korena,
 što odgovara Android i iOS M0 v2 resolverima.
 
 Exporter zahteva spoljašnji privatni ključ. Automatizovani test koristi samo
-jednokratni ključ u privremenom direktorijumu i ne pravi produkcijski artefakt.
+jednokratni ključ u privremenom direktorijumu; komitovani produkcijski artefakt
+potpisan je odvojeno i prošao validator za Android 10 i iOS 0.1.0.
 Zbog nasumične soli RSA-PSS potpisi nisu bajt-po-bajt ponovljivi; svi potpisani
 dokumenti, payload i raspored putanja jesu, a svaki generisani potpis prolazi
 punu proveru.
