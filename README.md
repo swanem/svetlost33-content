@@ -10,9 +10,17 @@ Trenutna predaja završava iteracije **I0–I2** i produkcioni sadržajni deo **
 - potpisani Android modularni izvoz `annual-2026-r1-m0v2` sa svih 13 ranije
   odobrenih payload datoteka, bez promene njihovih bajtova.
 
-Ovo još nije produkcioni cutover. Android mora da integriše i prihvati ovaj izvoz,
-a iOS dobija zaseban platformski release-set kada završi prihvatanje. Javni HTTPS
-endpoint i fizičke provere takođe ostaju otvoreni.
+Ovo samo po sebi nije zajednički produkcioni cutover. Aktuelnu Android integraciju
+i njene dokaze vodi `svetlost33-github/docs/STATUS-IMPLEMENTACIJE-v0.15-ANDROID.md`;
+iOS ima zasebnu klijentsku integraciju i tehničko prihvatanje zajedničkog kanala.
+
+**Jedno odobrenje za oba OS-a — v0.17, 15.09.2026:** vlasnik jednom odobrava
+sadržajnu reviziju za Android i iOS. [Zajednička r1 evidencija i predaja](approvals/README.md)
+objedinjuje prethodne odluke za istih 13 datoteka, uz isti obim Srbije/BiH.
+Sledeća zajednička objava koristi jedan potpisani release-set i discovery kanal;
+minimalne verzije i platformski QA nisu novo sadržajno odobrenje.
+Postojeći potpisani M0 izvoz ostaje istorijski Android-only i ne prepisuje se.
+Nova zajednička produkciona objava nije izvršena ovom dokumentacionom odlukom.
 
 Za integracioni rad može se napraviti privremeni tro-modularni RC iz tačnih
 `annual-2026-r1` bajtova:
@@ -54,11 +62,17 @@ M0 v2 pozitivni primer i očekivano odbija svaki negativni primer.
 - `fixtures/v2/` — zamrznuti pozitivni i negativni primeri zajedničkog ugovora.
 - `scripts/` — reproduktivan import, validator i generator.
 - `licenses/` — granice licenci i atribucije; sadržaj nema jednu zbirnu licencu.
+- `approvals/` — dodatne vlasnikove odluke sa tačnim sadržajnim obimom; nisu
+  runtime paketi i ne menjaju istorijske potpise/odobrenja na mestu.
 
 Normativna pravila proizvoda ostaju u `swanem/svetlost33`. Tehnički M0 v2
 ugovor je opisan u [schemas/v2/README.md](schemas/v2/README.md).
 
 ## Produkcioni izvoz
+
+**Postojeća komanda ispod je istorijski Android-only exporter.** Nije novi
+zajednički tok iz v0.17 i ne sme se pokretati radi prepisivanja objavljenog r1.
+Za naredno zajedničko izdanje pratiti [predaju](approvals/README.md).
 
 Izvoz zahteva privatni ključ van repozitorijuma i ponovo proverava istorijski
 potpis, hash svake ulazne datoteke, odobrenje prava, broj sadržaja i eksplicitne

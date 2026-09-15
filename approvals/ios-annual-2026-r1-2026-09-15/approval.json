@@ -1,0 +1,56 @@
+{
+  "schema_version": "svetlost33-owner-platform-approval-1",
+  "approval_id": "ios-annual-2026-r1-2026-09-15",
+  "approval_type": "OWNER_CONTENT_DISTRIBUTION_AUTHORIZATION",
+  "approved_at": "2026-09-15",
+  "approved_by": "project_owner",
+  "user_statement": "odobri sve za ios izdavanje",
+  "authorized_platform": "ios",
+  "territories": ["RS", "BA"],
+  "source": {
+    "repository": "swanem/svetlost33-content",
+    "commit": "3b1ca8050c44afc41d52ec28a5dc53d5b7e60b19",
+    "package_id": "svetlost33-annual-2026-r1",
+    "manifest_path": "releases/legacy/annual-2026-r1/manifest.json",
+    "manifest_sha256": "adcd9c4c03fea220142c4e4e7027ffc4596d77ea44f6f248556723cbe73c640a",
+    "payload_file_count": 13,
+    "payload_identity_rule": "Every file in source manifest.files must retain its path identity, exact bytes, byte count and SHA-256; no text, cycle, calendar, source or license rewrite is authorized.",
+    "prior_owner_approval_id": "android-annual-2026-r1-2026-09-15"
+  },
+  "authorized_content": {
+    "psalms": 150,
+    "prayers": 18,
+    "historical_prayers": 12,
+    "gospel_books": 4,
+    "locales": ["sr-Cyrl", "sr-Latn"],
+    "daily_cycle_days": 7,
+    "daily_cycle_slots": 21,
+    "calendar_year": 2026,
+    "calendar_dates": 365,
+    "local_sources_and_licenses": true
+  },
+  "preserved_limits": {
+    "radio_suggestion_dates": 173,
+    "radio_source": "Radio Slovo ljubve",
+    "unresolved_gospel_dates": 192,
+    "unknown_fasting_rule_dates": 91,
+    "unresolved_display_policy": "SHOW_NOT_CONFIRMED",
+    "complete_liturgical_schedule": false,
+    "rights_basis": "Existing per-item r1 evidence and the owner's recorded historical-prayer distribution authorization; no new independent legal or ecclesiastical certification and no territory expansion."
+  },
+  "outside_this_payload_approval": {
+    "background_module": "Not present in annual r1; requires exact per-image inventory, provenance and rights evidence before new public distribution. Existing bundled backgrounds are not modified by this record.",
+    "organizations_and_payment_data": "No concrete approved data set exists; no recipient or account is authorized by this record.",
+    "new_texts_translations_or_dates": "Changed content requires approval of the changed immutable revision."
+  },
+  "release_requirements": [
+    "Create a new immutable iOS-compatible release with signed scope and evidence referring to this approval; do not edit an existing Android release, index, signature or manifest in place.",
+    "Existing Android-only release-scope metadata cannot be used as iOS authorization. Any changed module bytes require a new module version/revision; unchanged module/version pairs remain byte-identical.",
+    "Preserve all 13 source payload files, stable IDs, original sources and licenses, unknown calendar states, existing cycle and January 2027 fallback coverage.",
+    "Complete production signing, approved discovery distribution, client compatibility, offline bundle, integration and separate iOS acceptance evidence before release activation."
+  ],
+  "evidence_record_only": true,
+  "signed_runtime_release_created_by_this_record": false,
+  "technical_acceptance_granted": false,
+  "publication_or_installation_performed": false
+}

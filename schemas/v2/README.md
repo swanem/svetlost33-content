@@ -74,6 +74,22 @@ ne šalje tajne. Ova I2 predaja ne objavljuje endpoint.
 
 ## JSON šeme i validator
 
+### Izdavačka politika v0.17 — jedno sadržajno odobrenje
+
+Nova zajednička produkciona izdanja ciljaju `approved_platforms: ["android", "ios"]`
+uz [jedno vlasnikovo sadržajno odobrenje](../../approvals/README.md), zajedničke
+module i jedan discovery kanal. Naziv postojećeg polja ne zahteva dva odobrenja:
+ono ostaje potpisana transportna lista ciljanih platformi. `min_clients`,
+capability i platformski QA proveravaju tehničku kompatibilnost odvojeno.
+
+JSON šema već dopušta obe platforme i ovom dopunom **nije menjana**. Zadržati
+čitanje istorijskih Android-only izdanja na Androidu i njihovo odbijanje na iOS-u.
+Exporter novog zajedničkog izdanja mora uskladiti i unutrašnji scope/evidence;
+ne samo spoljašnju listu platformi. Postojeći exporter još hardkodira Android;
+ova dokumentacija ne predstavlja njegovu implementaciju ili novu objavu.
+
+### Postojeće šeme i referentna provera
+
 Šeme su Draft 2020-12 i dokumentuju zatvoren javni format. Referentni validator
 dodatno proverava potpise, hashove, zavisnosti, slike i bezbedne putanje:
 
