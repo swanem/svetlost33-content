@@ -9,6 +9,8 @@
     "export:r1:v2:shared": "node scripts/export-approved-r1-v2.mjs --approval-mode shared",
     "fixtures": "node scripts/generate-v2-fixtures.mjs",
     "development:rc": "node scripts/generate-development-rc.mjs",
+    "development:backgrounds": "node scripts/generate-development-backgrounds-v1.mjs",
+    "development:combined": "node scripts/generate-development-combined.mjs",
     "validate": "node scripts/validate-m0-v2.mjs fixtures/v2/positive/release",
     "test": "node --test tests/*.test.mjs"
   },

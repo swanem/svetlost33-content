@@ -9,3 +9,4 @@ node_modules/
 *.tar
 *.tar.gz
 dist/
+build/

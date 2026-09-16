@@ -43,6 +43,34 @@ Android/iOS odobrenje, tačan SHA-256 inventar i registar prava po slici u
 Ovo još nije runtime objava: zasebni `backgrounds` modul ulazi u sledeću
 sekvencu tek kada kompatibilni klijenti i rollback testovi prođu QA.
 
+Za lokalni QA postoje dva nova razvojna generatora. Podrazumevano čitaju originalne
+slike iz susednog `svetlost33-github` checkout-a; druga putanja se prosleđuje kroz
+`--source`. Izlaz mora biti nov direktorijum: postojeći se nikada ne prepisuje.
+
+```sh
+# Samostalni opcioni backgrounds-v1 modul za transportne provere:
+npm run development:backgrounds -- --out build/backgrounds-v1-qa
+# Biblioteka + ciklusi + kalendar + iste podloge za celokupni klijentski projektor:
+npm run development:combined -- --out build/combined-qa
+node scripts/validate-m0-v2.mjs build/combined-qa \
+  --platform ios --client-version 0.1.0 --channel development \
+  --key-id svetlost33-development-key-1
+```
+
+Samostalni modul koristi `svetlost33-development-backgrounds-key-1`; kombinovani
+skup koristi `svetlost33-development-key-1`. Svako pokretanje stvara novi privremeni
+par ključeva i zapisuje samo javni ključ. Za testiranje klijent dobija taj eksplicitni
+razvojni trust anchor; ključ iz paketa nije produkcioni autoritet.
+
+Modul sadrži 18 identičnih PNG originala, 18 izvedenih JPEG pregleda 480 × 853,
+native katalog i pet JSON dokaza. JPEG parametri prate postojeći iOS preview tok:
+kvalitet 80, progresivni JPEG, 4:2:0, optimizovano Huffman kodiranje i Lanczos
+umanjenje. Encoder je zaključani `sharp`; originalne slike se nikada ne menjaju.
+Četiri ulazna dokaza, odobreni katalog i svih 18 slika proveravaju se po tačnim
+odobrenim hash-evima pre izvoza. [Detalji fixture-a](fixtures/v2/backgrounds-v1/README.md)
+objašnjavaju putanje, semantiku i granice provere. Ovi generatori ne menjaju
+`releases/`, ne prihvataju produkcioni ključ i ništa ne objavljuju.
+
 ## Provera
 
 Potreban je Node.js 20.9 ili noviji. `npm ci` instalira zaključani `sharp`

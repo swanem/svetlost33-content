@@ -19,3 +19,11 @@ slici u `approvals/shared-backgrounds-v1-2026-09-16` i
 klijenta ne prihvate opcioni `backgrounds` modul, njegove umanjene preglede i
 pravila bezbedne zamene/rollbacka. `organizations` ostaje odsutan jer nema
 odobrenih podataka.
+
+Razvojni `backgrounds-v1` sada proizvodi `scripts/generate-development-backgrounds-v1.mjs`:
+`data/catalog-v1.json`, neizmenjeni originali `media/backgrounds/...`, pregledi
+`thumbnails/<id>-<original-sha256>.jpg` i potpisana evidence dokumenta. Katalog je
+tehnički preslikan u native camelCase model; originalni odobreni katalog je zaseban,
+neizmenjen dokaz. `scripts/generate-development-combined.mjs` dodaje isti modul uz
+tri godišnja razvojna modula i ponovo potpisuje celinu jednim jednokratnim ključem.
+Ovo je lokalni QA izlaz, bez izmene istorijskih ili produkcionih izdanja.
