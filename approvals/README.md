@@ -14,10 +14,23 @@ termin, lokalni izvori/licence i 365 kalendarskih datuma**, u obimu Srbije/BiH.
 Hash izvornog manifesta zaključava tačan spisak datoteka i njihovih hashova.
 
 Ostaje 173 radio-predloga, 192 nepotvrđena čitanja i 91 nepotvrđena strogost
-posta. Podloge nisu u tom paketu i čekaju dokaze prava po slici; nema konkretnog
-registra udruženja/računa. Odluka nije nova opšta licenca, crkveno odobrenje ili
-automatsko odobravanje budućih promena. Novi provereni sadržaj dobija novo
-zajedničko odobrenje, a ne dva platformska.
+posta. Odluka nije nova opšta licenca, crkveno odobrenje ili automatsko
+odobravanje budućih promena. Novi provereni sadržaj dobija novo zajedničko
+odobrenje, a ne dva platformska.
+
+## Odobrene podloge v1
+
+[shared-backgrounds-v1-2026-09-16](shared-backgrounds-v1-2026-09-16/approval.json)
+zaključava tačne bajtove kataloga i svih 18 postojećih PNG podloga za Android i
+iOS. [Izvorni manifest](shared-backgrounds-v1-2026-09-16/source-manifest.json)
+navodi putanju, veličinu, SHA-256 i dimenzije svake slike, a
+[registar prava](../licenses/backgrounds-v1.json) vezuje svaku stavku za isto
+odobrenje vlasnika. Tehnički izvedene umanjene slike dozvoljene su samo kao
+pregled iste podloge.
+
+Ovo je urednička evidencija, još nije potpisani `backgrounds` modul niti dokaz
+javne objave. Modul se objavljuje tek nakon kompatibilnih Android i iOS klijenata
+i platformskog QA, tako da starije instalacije zadrže poslednji važeći katalog.
 
 Ranije odluke ostaju istorijski trag. Posebni
 [iOS zapis](ios-annual-2026-r1-2026-09-15/approval.json) i potpisana Android

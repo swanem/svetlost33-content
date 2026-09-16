@@ -47,6 +47,42 @@ test('I0 public allowlist has only the exact 13 payloads and four release artifa
   assert.ok(allowlist.explicitly_excluded.some(value => value.includes('private signing keys')));
 });
 
+test('approved backgrounds v1 inventory binds the exact catalog and 18 source images', async () => {
+  const approvalId = 'shared-backgrounds-v1-2026-09-16';
+  const approvalRoot = resolve(root, 'approvals', approvalId);
+  const approval = JSON.parse(await readFile(resolve(approvalRoot, 'approval.json')));
+  const manifestBytes = await readFile(resolve(approvalRoot, 'source-manifest.json'));
+  const manifest = JSON.parse(manifestBytes);
+  const rights = JSON.parse(await readFile(resolve(root, 'licenses/backgrounds-v1.json')));
+  const sourceCatalogBytes = await readFile(resolve(android, manifest.catalog.source_path));
+  const approvedCatalogBytes = await readFile(resolve(approvalRoot, 'catalog.json'));
+  const catalog = JSON.parse(sourceCatalogBytes);
+
+  assert.equal(approval.approval_id, approvalId);
+  assert.equal(approval.source.manifest_sha256, sha256(manifestBytes));
+  assert.equal(approval.source.commit, manifest.source_commit);
+  assert.deepEqual(approval.consumer_platforms, ['android', 'ios']);
+  assert.equal(manifest.asset_count, 18);
+  assert.equal(manifest.assets.length, 18);
+  assert.equal(new Set(manifest.assets.map(asset => asset.id)).size, 18);
+  assert.equal(approvedCatalogBytes.equals(sourceCatalogBytes), true);
+  assert.equal(manifest.catalog.sha256, sha256(sourceCatalogBytes));
+  assert.deepEqual(manifest.default_ids, catalog.defaultIds);
+  assert.deepEqual(manifest.assets.map(asset => asset.id), catalog.items.map(item => item.id));
+  assert.equal(rights.approval_id, approvalId);
+  assert.deepEqual(rights.items.map(item => item.id), manifest.assets.map(asset => asset.id));
+
+  for (const asset of manifest.assets) {
+    const sourceBytes = await readFile(resolve(android, asset.source_path));
+    const rightsItem = rights.items.find(item => item.id === asset.id);
+    assert.equal(sourceBytes.length, asset.bytes, asset.id);
+    assert.equal(sha256(sourceBytes), asset.sha256, asset.id);
+    assert.equal(rightsItem.sha256, asset.sha256, asset.id);
+    assert.equal(rightsItem.approval_id, approvalId, asset.id);
+    assert.deepEqual({ width:asset.width, height:asset.height }, { width:941, height:1672 });
+  }
+});
+
 test('legacy r1 mirror preserves all source bytes and manifest hashes', async () => {
   await exec(process.execPath, [resolve(root, 'scripts/import-approved-r1.mjs'), '--source', android, '--check']);
   const manifestBytes = await readFile(resolve(legacy, 'manifest.json'));

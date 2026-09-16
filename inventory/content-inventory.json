@@ -5,7 +5,7 @@
     {"id":"annual-2026-r1-library","kind":"library","contents":{"psalms":150,"prayers":18,"gospel_books":4,"locales":["sr-Cyrl","sr-Latn"]},"rights":"approved release evidence and per-item source/license records retained in the package","consumers":["Android app","Android widget","iOS app","iOS widget","Shortcuts"]},
     {"id":"legacy-cycle-v1","kind":"cycles","contents":{"slots":21,"locales":["sr-Cyrl","sr-Latn"]},"rights":"inherits exact library references and release approval","consumers":["daily resolver","widget","reader"]},
     {"id":"calendar-2026-r1","kind":"calendar-2026","contents":{"dates":365,"radio_suggestion_dates":173,"unresolved_gospel_dates":192,"unknown_fasting_rule_dates":91},"rights":"Radio Slovo ljubve rows are suggestions only; unresolved values stay explicit","consumers":["daily resolver","fasting display","widget"]},
-    {"id":"backgrounds-existing-native","kind":"backgrounds","contents":{"status":"not migrated in I0-I2"},"rights":"requires per-asset inventory and approval before public transfer","consumers":["gallery","widget","wallpaper renderer"]},
+    {"id":"backgrounds-v1","kind":"backgrounds","contents":{"catalog_version":"1","images":18,"default_images":7,"saint_images":10,"fasting_images":1,"status":"approved; runtime module not yet published"},"rights":"exact catalog and per-asset SHA-256 inventory approved by the project owner on 2026-09-16 for Android and iOS in the existing RS/BA scope","consumers":["gallery","widget","wallpaper renderer"]},
     {"id":"organizations","kind":"organizations","contents":{"status":"optional and absent"},"rights":"no recipient or payment data approved","consumers":[]}
   ]
 }

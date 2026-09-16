@@ -1,0 +1,171 @@
+{
+  "schemaVersion": 1,
+  "version": "1",
+  "defaultIds": [
+    "day1",
+    "day2",
+    "day3",
+    "day4",
+    "day5",
+    "day6",
+    "day7"
+  ],
+  "items": [
+    {
+      "id": "day1",
+      "assetPath": "backgrounds/day1.png",
+      "titleLatn": "Tihe vode",
+      "titleCyrl": "Тихе воде",
+      "dark": false
+    },
+    {
+      "id": "day2",
+      "assetPath": "backgrounds/day2.png",
+      "titleLatn": "Sigurno utočište",
+      "titleCyrl": "Сигурно уточиште",
+      "dark": true
+    },
+    {
+      "id": "day3",
+      "assetPath": "backgrounds/day3.png",
+      "titleLatn": "Svetlost na putu",
+      "titleCyrl": "Светлост на путу",
+      "dark": false
+    },
+    {
+      "id": "day4",
+      "assetPath": "backgrounds/day4.png",
+      "titleLatn": "Žeđ duše",
+      "titleCyrl": "Жеђ душе",
+      "dark": false
+    },
+    {
+      "id": "day5",
+      "assetPath": "backgrounds/day5.png",
+      "titleLatn": "Lepota stvaranja",
+      "titleCyrl": "Лепота стварања",
+      "dark": false
+    },
+    {
+      "id": "day6",
+      "assetPath": "backgrounds/day6.png",
+      "titleLatn": "Čisto srce",
+      "titleCyrl": "Чисто срце",
+      "dark": false
+    },
+    {
+      "id": "day7",
+      "assetPath": "backgrounds/day7.png",
+      "titleLatn": "Iz dubine ka jutru",
+      "titleCyrl": "Из дубине ка јутру",
+      "dark": true
+    },
+    {
+      "id": "sveta-petka",
+      "assetPath": "backgrounds/saints/sveta-petka.png",
+      "titleLatn": "Tišina izvora",
+      "titleCyrl": "Тишина извора",
+      "saintLatn": "Sveta Petka",
+      "saintCyrl": "Света Петка",
+      "dark": false,
+      "feastMonthDay": "10-27"
+    },
+    {
+      "id": "sveti-sava",
+      "assetPath": "backgrounds/saints/sveti-sava.png",
+      "titleLatn": "Svetosavska zora",
+      "titleCyrl": "Светосавска зора",
+      "saintLatn": "Sveti Sava",
+      "saintCyrl": "Свети Сава",
+      "dark": false,
+      "feastMonthDay": "01-27"
+    },
+    {
+      "id": "sveti-nikola",
+      "assetPath": "backgrounds/saints/sveti-nikola.png",
+      "titleLatn": "Mirna luka",
+      "titleCyrl": "Мирна лука",
+      "saintLatn": "Sveti Nikola",
+      "saintCyrl": "Свети Никола",
+      "dark": true,
+      "feastMonthDay": "12-19"
+    },
+    {
+      "id": "sveti-jovan",
+      "assetPath": "backgrounds/saints/sveti-jovan.png",
+      "titleLatn": "Tišina Jordana",
+      "titleCyrl": "Тишина Јордана",
+      "saintLatn": "Sveti Jovan Krstitelj",
+      "saintCyrl": "Свети Јован Крститељ",
+      "dark": false,
+      "feastMonthDay": "01-20"
+    },
+    {
+      "id": "sveti-georgije",
+      "assetPath": "backgrounds/saints/sveti-georgije.png",
+      "titleLatn": "Đurđevdansko jutro",
+      "titleCyrl": "Ђурђевданско јутро",
+      "saintLatn": "Sveti Georgije",
+      "saintCyrl": "Свети Георгије",
+      "dark": false,
+      "feastMonthDay": "05-06"
+    },
+    {
+      "id": "sveti-dimitrije",
+      "assetPath": "backgrounds/saints/sveti-dimitrije.png",
+      "titleLatn": "Solunsko bdenije",
+      "titleCyrl": "Солунско бденије",
+      "saintLatn": "Sveti Dimitrije",
+      "saintCyrl": "Свети Димитрије",
+      "dark": true,
+      "feastMonthDay": "11-08"
+    },
+    {
+      "id": "arhangel-mihailo",
+      "assetPath": "backgrounds/saints/arhangel-mihailo.png",
+      "titleLatn": "Nebeska svetlost",
+      "titleCyrl": "Небеска светлост",
+      "saintLatn": "Sveti arhangel Mihailo",
+      "saintCyrl": "Свети архангел Михаило",
+      "dark": true,
+      "feastMonthDay": "11-21"
+    },
+    {
+      "id": "sveti-stefan-decanski",
+      "assetPath": "backgrounds/saints/sveti-stefan-decanski.png",
+      "titleLatn": "Dečanska svetlost",
+      "titleCyrl": "Дечанска светлост",
+      "saintLatn": "Sveti Stefan Dečanski",
+      "saintCyrl": "Свети Стефан Дечански",
+      "dark": false,
+      "feastMonthDay": "11-24"
+    },
+    {
+      "id": "sveti-simeon",
+      "assetPath": "backgrounds/saints/sveti-simeon.png",
+      "titleLatn": "Studenička tišina",
+      "titleCyrl": "Студеничка тишина",
+      "saintLatn": "Sveti Simeon Mirotočivi",
+      "saintCyrl": "Свети Симеон Мироточиви",
+      "dark": false,
+      "feastMonthDay": "02-26"
+    },
+    {
+      "id": "sveti-nektarije",
+      "assetPath": "backgrounds/saints/sveti-nektarije.png",
+      "titleLatn": "Eginski mir",
+      "titleCyrl": "Егински мир",
+      "saintLatn": "Sveti Nektarije Eginski",
+      "saintCyrl": "Свети Нектарије Егински",
+      "dark": false,
+      "feastMonthDay": "11-22"
+    },
+    {
+      "id": "fast",
+      "assetPath": "backgrounds/fast.png",
+      "titleLatn": "Tišina posta",
+      "titleCyrl": "Тишина поста",
+      "dark": true
+    }
+  ]
+}

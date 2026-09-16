@@ -1,0 +1,81 @@
+{
+  "schema_version": "svetlost33-owner-content-approval-1",
+  "approval_id": "shared-backgrounds-v1-2026-09-16",
+  "approval_type": "SHARED_BACKGROUND_CATALOG_AND_ASSET_DISTRIBUTION_AUTHORIZATION",
+  "approved_at": "2026-09-16",
+  "approved_by": "project_owner",
+  "user_statement": "odobrense su sve slike i katalog, sta seldece?",
+  "approval_policy": "ONCE_PER_IMMUTABLE_CONTENT_REVISION",
+  "consumer_platforms": [
+    "android",
+    "ios"
+  ],
+  "territories": [
+    "RS",
+    "BA"
+  ],
+  "source": {
+    "repository": "swanem/svetlost33",
+    "commit": "95addbb3b6076324cdbb3e2e4ee9525c0432207a",
+    "package_id": "backgrounds-v1",
+    "manifest_path": "approvals/shared-backgrounds-v1-2026-09-16/source-manifest.json",
+    "manifest_sha256": "6b8102f428daf16d361aa87d686eb444e8ed1ef4ba94ed241cafc44a8a7c15b4",
+    "catalog_path": "shared/background-catalog.json",
+    "catalog_sha256": "9895ddbeee59b2fc1203ffae21c727121ad6474a267bfb1b013c79a554ae4894",
+    "asset_count": 18,
+    "asset_identity_rule": "Every approved image retains the exact source path, byte size, SHA-256 and stable catalog ID recorded in the source manifest."
+  },
+  "authorized_content": {
+    "catalog_version": "1",
+    "images": 18,
+    "default_images": 7,
+    "saint_images": 10,
+    "fasting_images": 1,
+    "stable_ids": [
+      "day1",
+      "day2",
+      "day3",
+      "day4",
+      "day5",
+      "day6",
+      "day7",
+      "sveta-petka",
+      "sveti-sava",
+      "sveti-nikola",
+      "sveti-jovan",
+      "sveti-georgije",
+      "sveti-dimitrije",
+      "arhangel-mihailo",
+      "sveti-stefan-decanski",
+      "sveti-simeon",
+      "sveti-nektarije",
+      "fast"
+    ],
+    "technical_derivatives": [
+      "downsampled JPEG thumbnails of the same approved images"
+    ]
+  },
+  "preserved_limits": {
+    "rights_basis": "Recorded project-owner authorization for distribution of the exact catalog and asset bytes in the current Android/iOS app scope.",
+    "public_license_asserted": false,
+    "authorship_asserted_by_this_record": false,
+    "territory_expansion": false,
+    "future_catalog_or_asset_revisions_covered": false
+  },
+  "release_policy": {
+    "shared_release_set": true,
+    "target_platforms": [
+      "android",
+      "ios"
+    ],
+    "platform_specific_content_reapproval_required": false,
+    "client_compatibility_checks_required": true,
+    "platform_technical_qa_required": true,
+    "existing_signed_artifacts_immutable": true,
+    "publish_only_after_compatible_clients": true,
+    "changed_catalog_asset_or_rights_requires_new_shared_approval": true
+  },
+  "evidence_record_only": true,
+  "signed_runtime_release_created_by_this_record": false,
+  "publication_or_installation_performed": false
+}

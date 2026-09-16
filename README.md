@@ -34,8 +34,14 @@ node scripts/validate-m0-v2.mjs /tmp/svetlost33-development-rc \
 ```
 
 Generator koristi jednokratni testni ključ i ne zapisuje privatni ključ. RC nije
-produkcijsko izdanje. Sadrži biblioteku, ciklus i kalendar; pozadine su izostavljene
-dok ne dobiju inventar i odobrenje po svakoj slici.
+produkcijsko izdanje. Sadrži biblioteku, ciklus i kalendar. Podloge ostaju
+izostavljene iz ovog istorijskog generatora.
+
+**Podloge v1 — 16.09.2026:** katalog i svih 18 slika sada imaju zajedničko
+Android/iOS odobrenje, tačan SHA-256 inventar i registar prava po slici u
+`approvals/shared-backgrounds-v1-2026-09-16` i `licenses/backgrounds-v1.json`.
+Ovo još nije runtime objava: zasebni `backgrounds` modul ulazi u sledeću
+sekvencu tek kada kompatibilni klijenti i rollback testovi prođu QA.
 
 ## Provera
 

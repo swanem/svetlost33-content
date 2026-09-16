@@ -1,0 +1,207 @@
+{
+  "schema_version": "svetlost33-background-source-manifest-1",
+  "package_id": "backgrounds-v1",
+  "source_repository": "https://github.com/swanem/svetlost33.git",
+  "source_commit": "95addbb3b6076324cdbb3e2e4ee9525c0432207a",
+  "catalog": {
+    "source_path": "shared/background-catalog.json",
+    "approval_copy_path": "approvals/shared-backgrounds-v1-2026-09-16/catalog.json",
+    "bytes": 5011,
+    "sha256": "9895ddbeee59b2fc1203ffae21c727121ad6474a267bfb1b013c79a554ae4894",
+    "schema_version": 1,
+    "catalog_version": "1"
+  },
+  "asset_count": 18,
+  "total_asset_bytes": 45881284,
+  "default_ids": [
+    "day1",
+    "day2",
+    "day3",
+    "day4",
+    "day5",
+    "day6",
+    "day7"
+  ],
+  "assets": [
+    {
+      "id": "day1",
+      "source_path": "app/src/main/assets/backgrounds/day1.png",
+      "bytes": 2642832,
+      "sha256": "754a24836b33027d8bcaf4cfaa7770c4b0bc24a8012010fd03c1c6bd43571a9e",
+      "content_type": "image/png",
+      "width": 941,
+      "height": 1672,
+      "feast_month_day": null
+    },
+    {
+      "id": "day2",
+      "source_path": "app/src/main/assets/backgrounds/day2.png",
+      "bytes": 2637222,
+      "sha256": "7bdafabaacae4f5f75a1a8522794fcfe6e2c41420d862593f32107af7b581e4c",
+      "content_type": "image/png",
+      "width": 941,
+      "height": 1672,
+      "feast_month_day": null
+    },
+    {
+      "id": "day3",
+      "source_path": "app/src/main/assets/backgrounds/day3.png",
+      "bytes": 2836981,
+      "sha256": "30dc32de31ab7fd2a87edd7af683b399f448f10d457cdfa7412fbd75d1ae1ddf",
+      "content_type": "image/png",
+      "width": 941,
+      "height": 1672,
+      "feast_month_day": null
+    },
+    {
+      "id": "day4",
+      "source_path": "app/src/main/assets/backgrounds/day4.png",
+      "bytes": 3020963,
+      "sha256": "6d14f488e97dfdc8380efda582858f3e3f01935bb2f94a35f0abc2c081937e22",
+      "content_type": "image/png",
+      "width": 941,
+      "height": 1672,
+      "feast_month_day": null
+    },
+    {
+      "id": "day5",
+      "source_path": "app/src/main/assets/backgrounds/day5.png",
+      "bytes": 2557057,
+      "sha256": "109bcfd4dd5e1bc6534c9af5f78cb66f9bf063bfa19343c2613132bedda343d4",
+      "content_type": "image/png",
+      "width": 941,
+      "height": 1672,
+      "feast_month_day": null
+    },
+    {
+      "id": "day6",
+      "source_path": "app/src/main/assets/backgrounds/day6.png",
+      "bytes": 2790818,
+      "sha256": "21dc5908abf336f9b31c4cd65dbae3df0509f677f6d7d6168ccc5d5cc3b044e7",
+      "content_type": "image/png",
+      "width": 941,
+      "height": 1672,
+      "feast_month_day": null
+    },
+    {
+      "id": "day7",
+      "source_path": "app/src/main/assets/backgrounds/day7.png",
+      "bytes": 2364087,
+      "sha256": "d693391df7a6d7e9e50530c74f0a7c8f6ebe8f331eb3177775fb9d41bd7b61c5",
+      "content_type": "image/png",
+      "width": 941,
+      "height": 1672,
+      "feast_month_day": null
+    },
+    {
+      "id": "sveta-petka",
+      "source_path": "app/src/main/assets/backgrounds/saints/sveta-petka.png",
+      "bytes": 2498804,
+      "sha256": "4e342036be4c8055803f789ae932571055928c366ceb90e3cebd4ba8ec905d68",
+      "content_type": "image/png",
+      "width": 941,
+      "height": 1672,
+      "feast_month_day": "10-27"
+    },
+    {
+      "id": "sveti-sava",
+      "source_path": "app/src/main/assets/backgrounds/saints/sveti-sava.png",
+      "bytes": 2019325,
+      "sha256": "51c0f82e6203cadf3059dc40f61550ca6cb3a9aefe1fda3c72ceec40344a9943",
+      "content_type": "image/png",
+      "width": 941,
+      "height": 1672,
+      "feast_month_day": "01-27"
+    },
+    {
+      "id": "sveti-nikola",
+      "source_path": "app/src/main/assets/backgrounds/saints/sveti-nikola.png",
+      "bytes": 2361255,
+      "sha256": "32c28f8f14e7074a86ec46a5b771b21beb07299cf787aca33a7fccba22070e22",
+      "content_type": "image/png",
+      "width": 941,
+      "height": 1672,
+      "feast_month_day": "12-19"
+    },
+    {
+      "id": "sveti-jovan",
+      "source_path": "app/src/main/assets/backgrounds/saints/sveti-jovan.png",
+      "bytes": 2671916,
+      "sha256": "6f58cd033ed42e07298173222bcf6a9297f0a30da94ecbc4717c942ea346e786",
+      "content_type": "image/png",
+      "width": 941,
+      "height": 1672,
+      "feast_month_day": "01-20"
+    },
+    {
+      "id": "sveti-georgije",
+      "source_path": "app/src/main/assets/backgrounds/saints/sveti-georgije.png",
+      "bytes": 2685300,
+      "sha256": "9a0ba486840d69af4f76a0f08aaa1775bfec88e364018e7d5401cda79a7be2dc",
+      "content_type": "image/png",
+      "width": 941,
+      "height": 1672,
+      "feast_month_day": "05-06"
+    },
+    {
+      "id": "sveti-dimitrije",
+      "source_path": "app/src/main/assets/backgrounds/saints/sveti-dimitrije.png",
+      "bytes": 2483364,
+      "sha256": "69702a1f5062767d7a5ca9391999812dcc09db956bed2eb431ab6d8b8eb24710",
+      "content_type": "image/png",
+      "width": 941,
+      "height": 1672,
+      "feast_month_day": "11-08"
+    },
+    {
+      "id": "arhangel-mihailo",
+      "source_path": "app/src/main/assets/backgrounds/saints/arhangel-mihailo.png",
+      "bytes": 2322153,
+      "sha256": "2f0a4d51d8bd679849ee54df6aec728d4d063c6d0fde240a530afe966223e6a1",
+      "content_type": "image/png",
+      "width": 941,
+      "height": 1672,
+      "feast_month_day": "11-21"
+    },
+    {
+      "id": "sveti-stefan-decanski",
+      "source_path": "app/src/main/assets/backgrounds/saints/sveti-stefan-decanski.png",
+      "bytes": 2648769,
+      "sha256": "9a319c2441d663d8a9f9b4288950d220243114807a3a6990f7541f5cfa15aa34",
+      "content_type": "image/png",
+      "width": 941,
+      "height": 1672,
+      "feast_month_day": "11-24"
+    },
+    {
+      "id": "sveti-simeon",
+      "source_path": "app/src/main/assets/backgrounds/saints/sveti-simeon.png",
+      "bytes": 2277368,
+      "sha256": "06ca4416a8f50d83eafb5a3c74823a41e80cd525bbd148a04b04d72e9aab1ff6",
+      "content_type": "image/png",
+      "width": 941,
+      "height": 1672,
+      "feast_month_day": "02-26"
+    },
+    {
+      "id": "sveti-nektarije",
+      "source_path": "app/src/main/assets/backgrounds/saints/sveti-nektarije.png",
+      "bytes": 2630573,
+      "sha256": "d0b50f1f2b96e635403b21c9d9ad652b6911d2e98ce9b5a64c4bb1adc827f362",
+      "content_type": "image/png",
+      "width": 941,
+      "height": 1672,
+      "feast_month_day": "11-22"
+    },
+    {
+      "id": "fast",
+      "source_path": "app/src/main/assets/backgrounds/fast.png",
+      "bytes": 2432497,
+      "sha256": "32780fab2af739567da83caac2bc24ca2c57449af0e4a439cd986407af01d693",
+      "content_type": "image/png",
+      "width": 941,
+      "height": 1672,
+      "feast_month_day": null
+    }
+  ]
+}
