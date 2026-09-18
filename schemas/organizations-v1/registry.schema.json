@@ -1,0 +1,156 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://svetlost33.example/schemas/organizations-v1/registry.schema.json",
+  "title": "Svetlost33 organizations registry v1 (public content only)",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "dataset_kind", "version", "revision", "issued_at", "expires_at", "organizations"],
+  "properties": {
+    "schema_version": { "const": "svetlost33-organizations-1" },
+    "dataset_kind": { "enum": ["candidate", "reviewed", "synthetic_test_only"] },
+    "version": { "$ref": "#/$defs/id" },
+    "revision": { "type": "integer", "minimum": 1, "maximum": 9007199254740991 },
+    "issued_at": { "$ref": "#/$defs/time" },
+    "expires_at": { "$ref": "#/$defs/time" },
+    "organizations": { "type": "array", "maxItems": 100, "items": { "$ref": "#/$defs/organization" } }
+  },
+  "$defs": {
+    "id": { "type": "string", "pattern": "^[a-z0-9][a-z0-9._-]{2,63}$" },
+    "time": { "type": "string", "format": "date-time", "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}T[0-9]{2}:[0-9]{2}:[0-9]{2}Z$" },
+    "nullableTime": { "anyOf": [{ "$ref": "#/$defs/time" }, { "type": "null" }] },
+    "text": { "type": "string", "minLength": 1, "maxLength": 500 },
+    "nullableText": { "anyOf": [{ "$ref": "#/$defs/text" }, { "type": "null" }] },
+    "localized": {
+      "type": "object", "additionalProperties": false, "required": ["sr-Latn", "sr-Cyrl"],
+      "properties": { "sr-Latn": { "$ref": "#/$defs/text" }, "sr-Cyrl": { "$ref": "#/$defs/text" } }
+    },
+    "url": { "type": "string", "format": "uri", "minLength": 9, "maxLength": 2048, "pattern": "^https://" },
+    "status": { "enum": ["draft", "active", "suspended", "revoked"] },
+    "country": { "type": "string", "pattern": "^[A-Z]{2}$" },
+    "sourceIds": { "type": "array", "minItems": 1, "maxItems": 16, "uniqueItems": true, "items": { "$ref": "#/$defs/id" } },
+    "source": {
+      "type": "object", "additionalProperties": false, "required": ["id", "url", "fetched_on"],
+      "properties": {
+        "id": { "$ref": "#/$defs/id" }, "url": { "$ref": "#/$defs/url" },
+        "fetched_on": { "type": "string", "format": "date" }
+      }
+    },
+    "link": {
+      "type": "object", "additionalProperties": false,
+      "required": ["id", "kind", "label", "url", "source_ids", "status", "verified_at", "valid_until"],
+      "properties": {
+        "id": { "$ref": "#/$defs/id" }, "kind": { "enum": ["website", "story", "donation", "social"] },
+        "label": { "$ref": "#/$defs/localized" }, "url": { "$ref": "#/$defs/url" },
+        "source_ids": { "$ref": "#/$defs/sourceIds" }, "status": { "$ref": "#/$defs/status" },
+        "verified_at": { "$ref": "#/$defs/nullableTime" }, "valid_until": { "$ref": "#/$defs/nullableTime" }
+      }
+    },
+    "amount": {
+      "type": "object", "additionalProperties": false, "required": ["decimal", "currency"],
+      "properties": {
+        "decimal": { "type": "string", "pattern": "^(0|[1-9][0-9]{0,8})\\.[0-9]{2}$" },
+        "currency": { "type": "string", "pattern": "^[A-Z]{3}$" }
+      }
+    },
+    "payee": {
+      "type": "object", "additionalProperties": false, "required": ["legal_name", "address", "country"],
+      "properties": {
+        "legal_name": { "$ref": "#/$defs/text" }, "address": { "$ref": "#/$defs/text" }, "country": { "$ref": "#/$defs/country" }
+      }
+    },
+    "domesticDetails": {
+      "type": "object", "additionalProperties": false,
+      "required": ["account", "payment_code", "purpose", "model", "reference"],
+      "properties": {
+        "account": { "type": "string", "pattern": "^[0-9]{18}$" },
+        "payment_code": { "type": "string", "pattern": "^[0-9]{3}$" },
+        "purpose": { "$ref": "#/$defs/localized" },
+        "model": { "anyOf": [{ "type": "string", "pattern": "^[0-9]{2}$" }, { "type": "null" }] },
+        "reference": { "anyOf": [{ "type": "string", "pattern": "^[A-Za-z0-9 -]{1,25}$" }, { "type": "null" }] }
+      }
+    },
+    "swiftDetails": {
+      "type": "object", "additionalProperties": false,
+      "required": ["iban", "bic", "bank_name", "bank_address", "instructions"],
+      "properties": {
+        "iban": { "type": "string", "pattern": "^[A-Z]{2}[0-9]{2}[A-Z0-9]{11,30}$" },
+        "bic": { "type": "string", "pattern": "^[A-Z]{6}[A-Z0-9]{2}([A-Z0-9]{3})?$" },
+        "bank_name": { "$ref": "#/$defs/text" }, "bank_address": { "$ref": "#/$defs/text" },
+        "instructions": { "$ref": "#/$defs/localized" }
+      }
+    },
+    "rail": {
+      "type": "object", "additionalProperties": false,
+      "required": ["id", "revision", "type", "status", "currency", "payee", "source_ids", "verified_at", "valid_until", "suggested_amount", "source_marker", "details"],
+      "properties": {
+        "id": { "$ref": "#/$defs/id" }, "revision": { "type": "integer", "minimum": 1, "maximum": 9007199254740991 },
+        "type": { "type": "string", "pattern": "^[a-z][a-z0-9_]{2,31}$" }, "status": { "$ref": "#/$defs/status" },
+        "currency": { "type": "string", "pattern": "^[A-Z]{3}$" }, "payee": { "$ref": "#/$defs/payee" },
+        "source_ids": { "$ref": "#/$defs/sourceIds" }, "verified_at": { "$ref": "#/$defs/nullableTime" },
+        "valid_until": { "$ref": "#/$defs/nullableTime" },
+        "suggested_amount": { "anyOf": [{ "$ref": "#/$defs/amount" }, { "type": "null" }] },
+        "source_marker": {
+          "type": "object", "additionalProperties": false, "required": ["enabled", "value"],
+          "properties": {
+            "enabled": { "type": "boolean" }, "value": { "$ref": "#/$defs/nullableText" },
+            "placement": { "const": "purpose" }, "agreement": { "$ref": "#/$defs/agreement" }
+          },
+          "allOf": [
+            { "if": { "properties": { "enabled": { "const": true } } }, "then": { "required": ["placement", "agreement"], "properties": { "value": { "$ref": "#/$defs/text" }, "placement": { "const": "purpose" }, "agreement": { "$ref": "#/$defs/agreement" } } } },
+            { "if": { "properties": { "enabled": { "const": false } } }, "then": { "properties": { "value": { "type": "null" }, "placement": false, "agreement": false } } }
+          ]
+        },
+        "details": { "type": "object" }
+      },
+      "allOf": [
+        { "if": { "properties": { "type": { "const": "domestic_rs" } } }, "then": { "properties": { "currency": { "const": "RSD" }, "details": { "$ref": "#/$defs/domesticDetails" } } } },
+        { "if": { "properties": { "type": { "const": "swift" } } }, "then": { "properties": { "details": { "$ref": "#/$defs/swiftDetails" } } } }
+      ]
+    },
+    "agreement": {
+      "type": "object", "additionalProperties": false,
+      "required": ["id", "source_ids", "status", "verified_at", "valid_until"],
+      "properties": {
+        "id": { "$ref": "#/$defs/id" }, "source_ids": { "$ref": "#/$defs/sourceIds" },
+        "status": { "$ref": "#/$defs/status" }, "verified_at": { "$ref": "#/$defs/nullableTime" },
+        "valid_until": { "$ref": "#/$defs/nullableTime" }
+      }
+    },
+    "logo": {
+      "type": "object", "additionalProperties": false,
+      "required": ["path", "sha256", "content_type", "width", "height", "rights"],
+      "properties": {
+        "path": { "type": "string", "maxLength": 160, "pattern": "^media/[a-z0-9][a-z0-9._/-]*$" },
+        "sha256": { "type": "string", "pattern": "^[0-9a-f]{64}$" },
+        "content_type": { "enum": ["image/png", "image/jpeg"] },
+        "width": { "type": "integer", "minimum": 1, "maximum": 2048 },
+        "height": { "type": "integer", "minimum": 1, "maximum": 2048 },
+        "rights": {
+          "type": "object", "additionalProperties": false,
+          "required": ["license", "attribution", "source_ids", "status", "verified_at", "valid_until"],
+          "properties": {
+            "license": { "$ref": "#/$defs/text" }, "attribution": { "$ref": "#/$defs/localized" },
+            "source_ids": { "$ref": "#/$defs/sourceIds" }, "status": { "$ref": "#/$defs/status" },
+            "verified_at": { "$ref": "#/$defs/nullableTime" }, "valid_until": { "$ref": "#/$defs/nullableTime" }
+          }
+        }
+      }
+    },
+    "organization": {
+      "type": "object", "additionalProperties": false,
+      "required": ["id", "name", "description", "legal_name", "country", "status", "sources", "links", "payment_rails"],
+      "properties": {
+        "id": { "$ref": "#/$defs/id" }, "name": { "$ref": "#/$defs/localized" },
+        "description": { "$ref": "#/$defs/localized" }, "legal_name": { "$ref": "#/$defs/nullableText" },
+        "country": { "$ref": "#/$defs/country" }, "status": { "$ref": "#/$defs/status" },
+        "sources": { "type": "array", "minItems": 1, "maxItems": 32, "items": { "$ref": "#/$defs/source" } },
+        "links": { "type": "array", "maxItems": 32, "items": { "$ref": "#/$defs/link" } },
+        "payment_rails": { "type": "array", "maxItems": 16, "items": { "$ref": "#/$defs/rail" } },
+        "logo": { "anyOf": [{ "$ref": "#/$defs/logo" }, { "type": "null" }] }
+      },
+      "allOf": [
+        { "if": { "properties": { "status": { "enum": ["active", "suspended", "revoked"] } } }, "then": { "properties": { "legal_name": { "$ref": "#/$defs/text" } } } }
+      ]
+    }
+  }
+}

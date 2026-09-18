@@ -73,6 +73,15 @@ objašnjavaju putanje, semantiku i granice provere. Ovi generatori ne menjaju
 
 ## Provera
 
+**Dobročinstvo v0.24.3 — 18.09.2026:** tri kartice imaju zajedničko odobrenje i
+tačan dvojezični `reviewed` izvor u
+`modules/organizations-v1/2026.9.18-r1/data/organizations-v1.json`.
+[Predaja sa hash-om i granicama pregleda](approvals/charity-cards-2026-09-18/IMPLEMENTATION.md)
+opisuje novi opcioni modul, šest spoljašnjih veza i rok pregleda od 30 dana.
+`npm run prepare:charity:v2 -- --out build/charity-v0243-candidate-archived-s2` priprema
+nepotpisanu sekvencu 3 bez prepisivanja ranijih sadržaja. Produkcioni potpis,
+native QA i objava ostaju odvojeni koraci.
+
 Potreban je Node.js 20.9 ili noviji. `npm ci` instalira zaključani `sharp`
 decoder kojim validator potpuno dekodira PNG/JPEG sadržaj.
 

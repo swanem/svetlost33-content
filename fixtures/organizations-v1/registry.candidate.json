@@ -1,0 +1,64 @@
+{
+  "schema_version": "svetlost33-organizations-1",
+  "dataset_kind": "candidate",
+  "version": "0.1.0-draft.1",
+  "revision": 1,
+  "issued_at": "2026-09-18T00:00:00Z",
+  "expires_at": "2026-12-17T00:00:00Z",
+  "organizations": [
+    {
+      "id": "nurdor-rs",
+      "name": { "sr-Latn": "NURDOR", "sr-Cyrl": "НУРДОР" },
+      "description": { "sr-Latn": "Podrška deci oboleloj od raka i njihovim porodicama.", "sr-Cyrl": "Подршка деци оболелој од рака и њиховим породицама." },
+      "legal_name": null,
+      "country": "RS",
+      "status": "draft",
+      "sources": [{ "id": "nurdor-official-source", "url": "https://www.nurdor.org/podrzi-nurdor", "fetched_on": "2026-09-18" }],
+      "links": [
+        {
+          "id": "nurdor-donation-page", "kind": "donation",
+          "label": { "sr-Latn": "Podrži NURDOR", "sr-Cyrl": "Подржи НУРДОР" },
+          "url": "https://www.nurdor.org/podrzi-nurdor", "source_ids": ["nurdor-official-source"],
+          "status": "draft", "verified_at": null, "valid_until": null
+        }
+      ],
+      "payment_rails": []
+    },
+    {
+      "id": "norbs-plus-rs",
+      "name": { "sr-Latn": "Fondacija NORBS+", "sr-Cyrl": "Фондација НОРБС+" },
+      "description": { "sr-Latn": "Fondacija za podršku osobama sa retkim bolestima; zaseban primalac od organizacije NORBS.", "sr-Cyrl": "Фондација за подршку особама са ретким болестима; засебан прималац од организације НОРБС." },
+      "legal_name": "Fondacija NORBS Plus",
+      "country": "RS",
+      "status": "draft",
+      "sources": [{ "id": "norbs-plus-official-source", "url": "https://norbs.rs/fondacija-norbs-plus/", "fetched_on": "2026-09-18" }],
+      "links": [
+        {
+          "id": "norbs-plus-website", "kind": "website",
+          "label": { "sr-Latn": "O Fondaciji NORBS+", "sr-Cyrl": "О Фондацији НОРБС+" },
+          "url": "https://norbs.rs/fondacija-norbs-plus/", "source_ids": ["norbs-plus-official-source"],
+          "status": "draft", "verified_at": null, "valid_until": null
+        }
+      ],
+      "payment_rails": []
+    },
+    {
+      "id": "28-jun-rs",
+      "name": { "sr-Latn": "28. Jun", "sr-Cyrl": "28. Јун" },
+      "description": { "sr-Latn": "Humanitarna organizacija; tačan pravni identitet primaoca za Srbiju čeka proveru.", "sr-Cyrl": "Хуманитарна организација; тачан правни идентитет примаоца за Србију чека проверу." },
+      "legal_name": null,
+      "country": "RS",
+      "status": "draft",
+      "sources": [{ "id": "28-jun-official-source", "url": "https://28jun.org/", "fetched_on": "2026-09-18" }],
+      "links": [
+        {
+          "id": "28-jun-website", "kind": "website",
+          "label": { "sr-Latn": "Zvanični sajt", "sr-Cyrl": "Званични сајт" },
+          "url": "https://28jun.org/", "source_ids": ["28-jun-official-source"],
+          "status": "draft", "verified_at": null, "valid_until": null
+        }
+      ],
+      "payment_rails": []
+    }
+  ]
+}

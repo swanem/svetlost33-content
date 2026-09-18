@@ -1,0 +1,35 @@
+{
+  "schema_version": "svetlost33-module-manifest-2",
+  "module_id": "organizations-v1",
+  "module_type": "organizations",
+  "version": "2026.9.18",
+  "revision": 1,
+  "key_id": "svetlost33-content-2026-key-1",
+  "capabilities": [
+    "organizations-v1"
+  ],
+  "dependencies": [],
+  "files": [
+    {
+      "path": "data/organizations-v1.json",
+      "bytes": 5565,
+      "sha256": "4654b5c05b7c4e0ada963d022491c8683ac9d329c5db937a522925f6d10d89d7",
+      "content_type": "application/json",
+      "encoding": "utf-8"
+    },
+    {
+      "path": "evidence/owner-approval.json",
+      "bytes": 2461,
+      "sha256": "7f2aca9b0f349ee417c2dc89cc27949176c4d22f93f6788a59855a3f95b1c94d",
+      "content_type": "application/json",
+      "encoding": "utf-8"
+    },
+    {
+      "path": "evidence/source-review.json",
+      "bytes": 3051,
+      "sha256": "5a7cec6cecdaa5fb8d2a7ee244f402167644d0b8a2e0a52e6ce5cb0a4a273c24",
+      "content_type": "application/json",
+      "encoding": "utf-8"
+    }
+  ]
+}

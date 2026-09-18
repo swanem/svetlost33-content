@@ -1,0 +1,52 @@
+{
+  "schema_version": "svetlost33-owner-content-approval-1",
+  "approval_id": "shared-charity-cards-2026-09-18-r1",
+  "approval_type": "SHARED_ORGANIZATION_CARDS_SCOPE_AUTHORIZATION",
+  "approved_at": "2026-09-18",
+  "approved_by": "project_owner",
+  "user_statement": "ok odobravam sve tri kartice da li mozemo onda dobiti ux koji smo iznad definisali?",
+  "consumer_platforms": ["android", "ios"],
+  "decision_evidence": {
+    "path": "approvals/charity-cards-2026-09-18/README.md",
+    "sha256": "162303783d07b41f29519ae4ab3d4addfb7ce539b53b145ccfa1719645c992bb"
+  },
+  "payload_binding": {
+    "path": "modules/organizations-v1/2026.9.18-r1/data/organizations-v1.json",
+    "bytes": 5565,
+    "sha256": "4654b5c05b7c4e0ada963d022491c8683ac9d329c5db937a522925f6d10d89d7",
+    "version": "2026.9.18",
+    "revision": 1,
+    "binding_basis": "Technical realization of the previously approved three cards, exact bilingual descriptions, neutral icons and six official external URLs. The quoted owner decision approved that editorial scope; this preparation record binds its resulting bytes and does not invent a separate owner signature or later hash-review event."
+  },
+  "authorized_content": {
+    "organization_ids": ["nurdor-rs", "norbs-plus-rs", "srbi-za-srbe-rs"],
+    "locales": ["sr-Latn", "sr-Cyrl"],
+    "official_external_donation_links": 3,
+    "official_external_story_links": 3,
+    "payment_rails": 0,
+    "logos": 0,
+    "icon_policy": "neutral_native_placeholder"
+  },
+  "review_policy": {
+    "reviewed_at": "2026-09-18T10:35:15Z",
+    "valid_until_exclusive": "2026-10-18T10:35:15Z",
+    "interval_days": 30,
+    "basis": "Operational re-review cutoff chosen for this implementation; no claim that any external destination, legal status or payment service is guaranteed unchanged for 30 days.",
+    "donation_requires_current_signed_channel_check": true,
+    "recheck_at_resume_and_action": true
+  },
+  "preserved_limits": {
+    "external_browser_only": true,
+    "payment_execution_tested": false,
+    "independent_registry_or_bank_audit": false,
+    "partnership_claim": false,
+    "source_marker_or_tracking_parameters": false,
+    "story_republication_or_photos": false,
+    "browser_return_confirms_donation": false,
+    "excluded_historical_id": "28-jun-rs",
+    "reuse_excluded_id": false
+  },
+  "evidence_record_only": true,
+  "signed_runtime_release_created_by_this_record": false,
+  "publication_or_installation_performed": false
+}

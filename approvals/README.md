@@ -38,6 +38,15 @@ evidencija se ne prepravljaju niti ponavljaju kao dve aktivne uredničke kapije.
 Ovaj registar je evidencija izdavača, **nije runtime šema ili zaobilaženje
 provere potpisa/platforme**.
 
+## Dobročinstvo — kartice odobrene 18.09.2026.
+
+[Zajednička odluka za tri kartice](charity-cards-2026-09-18/README.md) beleži
+NURDOR, Fondaciju NORBS+ i Srbi za Srbe umesto 28. Juna. Odobreni su kartice i
+navedene zvanične spoljašnje veze, ne naši IPS/SWIFT nalozi, logotipi ili
+privatni servis. Odluka nije potpisani runtime registar ili dokaz objave;
+tačan payload, proverena obavezna polja i nativno učitavanje ostaju posebni
+koraci. Raniji fixture-i i potpisani paketi ostaju nepromenjeni.
+
 ## Predaja za zajedničkog izdavača i oba MVP toka
 
 1. Koristiti isto odobrenje i pripremiti **jedan novi zajednički potpisani

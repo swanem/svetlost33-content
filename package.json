@@ -7,6 +7,8 @@
     "import:r1": "node scripts/import-approved-r1.mjs",
     "export:r1:v2": "node scripts/export-approved-r1-v2.mjs",
     "export:r1:v2:shared": "node scripts/export-approved-r1-v2.mjs --approval-mode shared",
+    "prepare:charity:v2": "node scripts/prepare-charity-release-v2.mjs",
+    "sign:charity:v2": "node scripts/sign-charity-release-v2.mjs",
     "fixtures": "node scripts/generate-v2-fixtures.mjs",
     "development:rc": "node scripts/generate-development-rc.mjs",
     "development:backgrounds": "node scripts/generate-development-backgrounds-v1.mjs",

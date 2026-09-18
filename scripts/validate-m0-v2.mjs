@@ -150,9 +150,17 @@ function compareSemver(left, right) {
 export async function validateRelease(rootInput, options = {}) {
   const root = resolve(rootInput); const keyPath = resolve(options.publicKeyPath || resolve(root, 'trusted-public-key.pem'));
   const publicKey = await readFile(keyPath, 'utf8').catch(() => fail('KEY', keyPath));
-  const indexBytes = await readFile(resolve(root, 'index.json')).catch(() => fail('MISSING', 'index.json'));
+  // Offline historical verification may select an archived, still-signed
+  // discovery decision inside this content root. The default live paths and
+  // every signature/hash/time/replay check remain unchanged.
+  const indexPath = options.indexPath || 'index.json';
+  const indexSignaturePath = options.indexSignaturePath || 'index.sig';
+  const indexBytes = await readFile(inside(root, indexPath)).catch(error => {
+    if (error instanceof ValidationError) throw error;
+    fail('MISSING', indexPath);
+  });
   if (indexBytes.length > LIMITS.document) fail('LIMIT', 'index.json');
-  await verifyDetached(root, indexBytes, 'index.sig', publicKey);
+  await verifyDetached(root, indexBytes, indexSignaturePath, publicKey);
   const index = parseJson(indexBytes, 'index.json'); validateIndexShape(index);
   againstSchema('index', index);
   if (options.trustedKeyId && index.key_id !== options.trustedKeyId) fail('KEY', `Unknown key id ${index.key_id}`);

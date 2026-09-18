@@ -1,0 +1,130 @@
+{
+  "schema_version": "svetlost33-organizations-1",
+  "dataset_kind": "reviewed",
+  "version": "2026.9.18",
+  "revision": 1,
+  "issued_at": "2026-09-18T10:35:15Z",
+  "expires_at": "2026-10-18T10:35:15Z",
+  "organizations": [
+    {
+      "id": "nurdor-rs",
+      "name": { "sr-Latn": "NURDOR", "sr-Cyrl": "НУРДОР" },
+      "description": {
+        "sr-Latn": "Podrška deci oboleloj od raka i njihovim porodicama.",
+        "sr-Cyrl": "Подршка деци оболелој од рака и њиховим породицама."
+      },
+      "legal_name": "Nacionalno udruženje roditelja dece obolele od raka - NURDOR",
+      "country": "RS",
+      "status": "active",
+      "sources": [
+        { "id": "nurdor-identity", "url": "https://www.nurdor.org/identifikacioni-podaci", "fetched_on": "2026-09-18" },
+        { "id": "nurdor-donation-source", "url": "https://www.nurdor.org/doniraj", "fetched_on": "2026-09-18" },
+        { "id": "nurdor-story-source", "url": "https://www.nurdor.org/nase-price", "fetched_on": "2026-09-18" }
+      ],
+      "links": [
+        {
+          "id": "nurdor-donation",
+          "kind": "donation",
+          "label": { "sr-Latn": "Podrži", "sr-Cyrl": "Подржи" },
+          "url": "https://www.nurdor.org/doniraj",
+          "source_ids": ["nurdor-identity", "nurdor-donation-source"],
+          "status": "active",
+          "verified_at": "2026-09-18T10:35:15Z",
+          "valid_until": "2026-10-18T10:35:15Z"
+        },
+        {
+          "id": "nurdor-stories",
+          "kind": "story",
+          "label": { "sr-Latn": "Priče i rezultati", "sr-Cyrl": "Приче и резултати" },
+          "url": "https://www.nurdor.org/nase-price",
+          "source_ids": ["nurdor-story-source"],
+          "status": "active",
+          "verified_at": "2026-09-18T10:35:15Z",
+          "valid_until": "2026-10-18T10:35:15Z"
+        }
+      ],
+      "payment_rails": [],
+      "logo": null
+    },
+    {
+      "id": "norbs-plus-rs",
+      "name": { "sr-Latn": "Fondacija NORBS+", "sr-Cyrl": "Фондација НОРБС+" },
+      "description": {
+        "sr-Latn": "Podrška osobama sa retkim bolestima kroz medicinsko-tehnička pomagala.",
+        "sr-Cyrl": "Подршка особама са ретким болестима кроз медицинско-техничка помагала."
+      },
+      "legal_name": "Fondacija NORBS Plus",
+      "country": "RS",
+      "status": "active",
+      "sources": [
+        { "id": "norbs-plus-identity", "url": "https://norbs.rs/fondacija-norbs-plus/", "fetched_on": "2026-09-18" },
+        { "id": "norbs-plus-donation-source", "url": "https://1jeposeban.rs/", "fetched_on": "2026-09-18" }
+      ],
+      "links": [
+        {
+          "id": "norbs-plus-donation",
+          "kind": "donation",
+          "label": { "sr-Latn": "Podrži", "sr-Cyrl": "Подржи" },
+          "url": "https://1jeposeban.rs/",
+          "source_ids": ["norbs-plus-identity", "norbs-plus-donation-source"],
+          "status": "active",
+          "verified_at": "2026-09-18T10:35:15Z",
+          "valid_until": "2026-10-18T10:35:15Z"
+        },
+        {
+          "id": "norbs-plus-stories",
+          "kind": "story",
+          "label": { "sr-Latn": "Priče i rezultati", "sr-Cyrl": "Приче и резултати" },
+          "url": "https://norbs.rs/fondacija-norbs-plus/",
+          "source_ids": ["norbs-plus-identity"],
+          "status": "active",
+          "verified_at": "2026-09-18T10:35:15Z",
+          "valid_until": "2026-10-18T10:35:15Z"
+        }
+      ],
+      "payment_rails": [],
+      "logo": null
+    },
+    {
+      "id": "srbi-za-srbe-rs",
+      "name": { "sr-Latn": "Srbi za Srbe", "sr-Cyrl": "Срби за Србе" },
+      "description": {
+        "sr-Latn": "Pomoć ugroženim višedetnim srpskim porodicama.",
+        "sr-Cyrl": "Помоћ угроженим вишедетним српским породицама."
+      },
+      "legal_name": "Хуманитарна организација Срби за Србе",
+      "country": "RS",
+      "status": "active",
+      "sources": [
+        { "id": "srbi-za-srbe-identity", "url": "https://www.srbizasrbe.org/srbija/", "fetched_on": "2026-09-18" },
+        { "id": "srbi-za-srbe-about", "url": "https://www.srbizasrbe.org/o-nama/", "fetched_on": "2026-09-18" },
+        { "id": "srbi-za-srbe-donation-source", "url": "https://donacije.srbizasrbe.org/", "fetched_on": "2026-09-18" },
+        { "id": "srbi-za-srbe-story-source", "url": "https://www.srbizasrbe.org/pomogli-smo/", "fetched_on": "2026-09-18" }
+      ],
+      "links": [
+        {
+          "id": "srbi-za-srbe-donation",
+          "kind": "donation",
+          "label": { "sr-Latn": "Podrži", "sr-Cyrl": "Подржи" },
+          "url": "https://donacije.srbizasrbe.org/",
+          "source_ids": ["srbi-za-srbe-identity", "srbi-za-srbe-about", "srbi-za-srbe-donation-source"],
+          "status": "active",
+          "verified_at": "2026-09-18T10:35:15Z",
+          "valid_until": "2026-10-18T10:35:15Z"
+        },
+        {
+          "id": "srbi-za-srbe-stories",
+          "kind": "story",
+          "label": { "sr-Latn": "Priče i rezultati", "sr-Cyrl": "Приче и резултати" },
+          "url": "https://www.srbizasrbe.org/pomogli-smo/",
+          "source_ids": ["srbi-za-srbe-story-source"],
+          "status": "active",
+          "verified_at": "2026-09-18T10:35:15Z",
+          "valid_until": "2026-10-18T10:35:15Z"
+        }
+      ],
+      "payment_rails": [],
+      "logo": null
+    }
+  ]
+}

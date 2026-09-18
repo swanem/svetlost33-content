@@ -1,0 +1,494 @@
+{
+  "schema_version": "svetlost33-preserved-content-inputs-1",
+  "recorded_on": "2026-09-18",
+  "note": "Historical fixtures, release-sets, manifests, payloads and signatures remain immutable. The two stable production discovery decision files are recorded separately because a new signed publication replaces only those pointers.",
+  "immutable_files": [
+    {
+      "path": "fixtures/organizations-v1/cases.json",
+      "bytes": 15941,
+      "sha256": "54db758ce934ae07c4ad03d8390ade953649a1ca7c3789fd6e139b50e5886a22"
+    },
+    {
+      "path": "fixtures/organizations-v1/registry.candidate.json",
+      "bytes": 3166,
+      "sha256": "949d82faf787060e428fe094844e0d596869c0b5be85551c8099551e5213969c"
+    },
+    {
+      "path": "fixtures/v2/backgrounds-v1/README.md",
+      "bytes": 3984,
+      "sha256": "8cfe30b7e6bf743364f19e6dca5dc13f1f5a163ded5a5831a0377004f298ddfd"
+    },
+    {
+      "path": "fixtures/v2/negative/cases.json",
+      "bytes": 1396,
+      "sha256": "748ef2dbff49b863987461f5b86fcf2f3f147679de1d166cfb2bf35fb4e0f716"
+    },
+    {
+      "path": "fixtures/v2/positive/release/index.json",
+      "bytes": 463,
+      "sha256": "8996d08682bf7195d3a87e5ec869ddb5fcab1e9a270acc50a5711c5176229436"
+    },
+    {
+      "path": "fixtures/v2/positive/release/index.sig",
+      "bytes": 345,
+      "sha256": "0746426e7ce01d009a6335d614d44218aa9fbb9ef1527d59b8ad533adfe04bd3"
+    },
+    {
+      "path": "fixtures/v2/positive/release/modules/backgrounds-core/data/catalog.json",
+      "bytes": 357,
+      "sha256": "3fde9fdb890140ffcf85bd69371abeb38075ed5da4cd8538f8e06ea995554905"
+    },
+    {
+      "path": "fixtures/v2/positive/release/modules/backgrounds-core/manifest.json",
+      "bytes": 1013,
+      "sha256": "4329b428d7a9eae63c68980c0fd183cab7fbdc9d0948b6dc78a80c8047132e98"
+    },
+    {
+      "path": "fixtures/v2/positive/release/modules/backgrounds-core/manifest.sig",
+      "bytes": 345,
+      "sha256": "6d754b8c2ffab990b080ed1163a86fd18c627ccbdaccc58b9c4ab2356713745a"
+    },
+    {
+      "path": "fixtures/v2/positive/release/modules/backgrounds-core/media/light.jpg",
+      "bytes": 267,
+      "sha256": "e200fe1eeb00f6ca4f78949aa6d357cf135ce01cddac561709fce5d2c1d70b92"
+    },
+    {
+      "path": "fixtures/v2/positive/release/modules/backgrounds-core/media/light.png",
+      "bytes": 68,
+      "sha256": "431ced6916a2a21a156e38701afe55bbd7f88969fbbfc56d7fe099d47f265460"
+    },
+    {
+      "path": "fixtures/v2/positive/release/modules/calendar-2026/data/calendar.json",
+      "bytes": 147,
+      "sha256": "46391e222d7137dd614b4ab72a9801bd032a4b8d4e85a63e02aa8240b5a38c37"
+    },
+    {
+      "path": "fixtures/v2/positive/release/modules/calendar-2026/manifest.json",
+      "bytes": 600,
+      "sha256": "7a0e4c9dadbc64a9daf1ac44220f2ca2c4ffd8f3b8b974eb00c093355253f792"
+    },
+    {
+      "path": "fixtures/v2/positive/release/modules/calendar-2026/manifest.sig",
+      "bytes": 345,
+      "sha256": "8ff1cd23e82c4b2d7b4a4805d5a9791df105750cf1094af14a931d1d8198a0f6"
+    },
+    {
+      "path": "fixtures/v2/positive/release/modules/daily-cycles/data/cycles.json",
+      "bytes": 138,
+      "sha256": "38814d947d2b0bb931f057dfee645526218991f7598c6ff3942ced1cfd233bcd"
+    },
+    {
+      "path": "fixtures/v2/positive/release/modules/daily-cycles/manifest.json",
+      "bytes": 565,
+      "sha256": "17938b29fa2c4c4fc1c1200011cd23babefe91504ebac735bd0248040ee77f90"
+    },
+    {
+      "path": "fixtures/v2/positive/release/modules/daily-cycles/manifest.sig",
+      "bytes": 345,
+      "sha256": "8a305c0cf2f2c2fef8b38dc88874d48ef642eb52be43b3ab653bc1d2ca48c3dd"
+    },
+    {
+      "path": "fixtures/v2/positive/release/modules/library-core/data/library.json",
+      "bytes": 408,
+      "sha256": "bcd34e63f744ebf8b1204a9b2b817889b5ef2a634ff2640ca0b4e542fabbeb7b"
+    },
+    {
+      "path": "fixtures/v2/positive/release/modules/library-core/manifest.json",
+      "bytes": 524,
+      "sha256": "3d58ced5f9be9983adb45e1db9ef0712361f5dbaf52c9a0c640fecc6fd6c46c0"
+    },
+    {
+      "path": "fixtures/v2/positive/release/modules/library-core/manifest.sig",
+      "bytes": 345,
+      "sha256": "fe7889ad99ca4e77d14a93179c3f3ccc87ca1332d4406842d6763cfe3b6bc9dd"
+    },
+    {
+      "path": "fixtures/v2/positive/release/release-set.json",
+      "bytes": 1836,
+      "sha256": "edac746fd4ad2ecfa91d3c41bb67429e7cec9106ea52a90380395fbec86ed507"
+    },
+    {
+      "path": "fixtures/v2/positive/release/release-set.sig",
+      "bytes": 345,
+      "sha256": "12c1e1b7c1019046a9d1f8532e4d8718dcefb895eaea7d9755e29f44e98ab0e2"
+    },
+    {
+      "path": "fixtures/v2/positive/release/trusted-public-key.pem",
+      "bytes": 451,
+      "sha256": "48b4a7bd49c2bced976fa32c824102ea6a83228d48bb954c4121c40be5b03630"
+    },
+    {
+      "path": "fixtures/v2/README.md",
+      "bytes": 606,
+      "sha256": "e2c1640b7bc6cc0eebcfe03dab0ca43cc099a1dfb3abc9cd17aa75d3c2474e1d"
+    },
+    {
+      "path": "releases/legacy/annual-2026-r1/approval.json",
+      "bytes": 883,
+      "sha256": "932240870f1d2f8638c17413c144e5311f3d1819d177c014cc4e42a925aaeae2"
+    },
+    {
+      "path": "releases/legacy/annual-2026-r1/manifest.json",
+      "bytes": 4104,
+      "sha256": "adcd9c4c03fea220142c4e4e7027ffc4596d77ea44f6f248556723cbe73c640a"
+    },
+    {
+      "path": "releases/legacy/annual-2026-r1/manifest.sig",
+      "bytes": 513,
+      "sha256": "39e260e2ef17963a1b649e06f0c200fc0b50e0736ac97c81477d58b50f6e6c5e"
+    },
+    {
+      "path": "releases/legacy/annual-2026-r1/payload/calendar.2026.json",
+      "bytes": 1665524,
+      "sha256": "a1b6a5d5911ae03f77802bd466227f0c1ea4fe97708b1b6f92cd4b08847c7c9c"
+    },
+    {
+      "path": "releases/legacy/annual-2026-r1/payload/gospels.sr-Cyrl.json",
+      "bytes": 1026828,
+      "sha256": "3855892ef6a8784e20b3ef83729a29437b7f8663bf83f6775f63978eeedc9809"
+    },
+    {
+      "path": "releases/legacy/annual-2026-r1/payload/gospels.sr-Latn.json",
+      "bytes": 778280,
+      "sha256": "392b4290654a9b2376e7319af980e8b9238ba8b4c20593f4b20c9d8688e31610"
+    },
+    {
+      "path": "releases/legacy/annual-2026-r1/payload/legacy-cycle.sr-Cyrl.json",
+      "bytes": 66639,
+      "sha256": "7e0de7104845133e26c326f770cdd9faef1b91993261ef78bcdf6b9629a7f4c4"
+    },
+    {
+      "path": "releases/legacy/annual-2026-r1/payload/legacy-cycle.sr-Latn.json",
+      "bytes": 58613,
+      "sha256": "5becca805591135d7120c89c3052f577633072fa60fb0eaf691450baefe5c0f3"
+    },
+    {
+      "path": "releases/legacy/annual-2026-r1/payload/licenses.sr-Cyrl.json",
+      "bytes": 23878,
+      "sha256": "6cf614188455fdc99826f4f6ce0a141fb7e40ca812a72830305524d9dd9a7629"
+    },
+    {
+      "path": "releases/legacy/annual-2026-r1/payload/licenses.sr-Latn.json",
+      "bytes": 22899,
+      "sha256": "32fdeaf7e5b02ee79ee84977fa111767f5d8230828889a1ce2e1bc6ddb8afa48"
+    },
+    {
+      "path": "releases/legacy/annual-2026-r1/payload/prayers.sr-Cyrl.json",
+      "bytes": 92677,
+      "sha256": "246982434b47014bfbd3bca0646b5f5770d1fd5f433e517bfbf08e49cf35722f"
+    },
+    {
+      "path": "releases/legacy/annual-2026-r1/payload/prayers.sr-Latn.json",
+      "bytes": 71066,
+      "sha256": "ae66eba3ec77946d6de3240baa9f7faff786f3b5eabe04d5c7b1ee3b2a881629"
+    },
+    {
+      "path": "releases/legacy/annual-2026-r1/payload/psalms.sr-Cyrl.json",
+      "bytes": 707117,
+      "sha256": "71918c97fe6fcc6d9f21a1990aaf0ceb2399bc503a43a9106f8e680f67844e83"
+    },
+    {
+      "path": "releases/legacy/annual-2026-r1/payload/psalms.sr-Latn.json",
+      "bytes": 553977,
+      "sha256": "01b2657d85430ec68bcc56d8a0b7b45e03449d1c2cb658a07d130ea57cf8a63d"
+    },
+    {
+      "path": "releases/legacy/annual-2026-r1/payload/sources.sr-Cyrl.json",
+      "bytes": 117364,
+      "sha256": "0dba9e468f7e6e541bd2ce2b2f6f203642f15a0b6d8f8d0b3157337a83a070a0"
+    },
+    {
+      "path": "releases/legacy/annual-2026-r1/payload/sources.sr-Latn.json",
+      "bytes": 104511,
+      "sha256": "b837e9c284548a9613efe6f129e889fb821402346f3639c6812a29dad8fc1b6c"
+    },
+    {
+      "path": "releases/legacy/annual-2026-r1/public-key.pem",
+      "bytes": 625,
+      "sha256": "9671cc745a71f3b35ac2281bfd4e8da9335db9c6a44beda0ae5cf380b292c1f6"
+    },
+    {
+      "path": "releases/legacy/annual-2026-r1/README.md",
+      "bytes": 473,
+      "sha256": "b9aa5053371791f73a336c97fc3f069ca419328c8d4dc73cdfb3e13ff6ca6f40"
+    },
+    {
+      "path": "releases/v2/annual-2026-r1/index.json",
+      "bytes": 464,
+      "sha256": "7d97d5557310170ea64bf615032b7c3896b62b2b7130d8ba5eb45cf3b6b38ac6"
+    },
+    {
+      "path": "releases/v2/annual-2026-r1/index.sig",
+      "bytes": 513,
+      "sha256": "1e67c54de1b95ef57ad12cbe1b4d631a24cd4724d03c0ebc7fde9a9bcdfe282b"
+    },
+    {
+      "path": "releases/v2/annual-2026-r1/modules/calendar-2026-r1/data/calendar.2026.json",
+      "bytes": 1665524,
+      "sha256": "a1b6a5d5911ae03f77802bd466227f0c1ea4fe97708b1b6f92cd4b08847c7c9c"
+    },
+    {
+      "path": "releases/v2/annual-2026-r1/modules/calendar-2026-r1/manifest.json",
+      "bytes": 630,
+      "sha256": "9cc15c886c85532fa44b261ffbe0fb3b7f9c54af133ffb7e9e943b6b189c52a5"
+    },
+    {
+      "path": "releases/v2/annual-2026-r1/modules/calendar-2026-r1/manifest.sig",
+      "bytes": 513,
+      "sha256": "faa1f6b4f58062e9a7cc7ab88698ad09a0037d54456df811b18663af731fc19f"
+    },
+    {
+      "path": "releases/v2/annual-2026-r1/modules/daily-cycles-r1/data/legacy-cycle.sr-Cyrl.json",
+      "bytes": 66639,
+      "sha256": "7e0de7104845133e26c326f770cdd9faef1b91993261ef78bcdf6b9629a7f4c4"
+    },
+    {
+      "path": "releases/v2/annual-2026-r1/modules/daily-cycles-r1/data/legacy-cycle.sr-Latn.json",
+      "bytes": 58613,
+      "sha256": "5becca805591135d7120c89c3052f577633072fa60fb0eaf691450baefe5c0f3"
+    },
+    {
+      "path": "releases/v2/annual-2026-r1/modules/daily-cycles-r1/manifest.json",
+      "bytes": 870,
+      "sha256": "4a5ab6d4d12b4a39d8ec33d267762c50a5fe9ff7ac3754784fc1373e700405a6"
+    },
+    {
+      "path": "releases/v2/annual-2026-r1/modules/daily-cycles-r1/manifest.sig",
+      "bytes": 513,
+      "sha256": "eab812770a174911cd1747b287298439e9ed500bcffab8cbcf66cd128bb77d0c"
+    },
+    {
+      "path": "releases/v2/annual-2026-r1/modules/library-annual-2026-r1/data/gospels.sr-Cyrl.json",
+      "bytes": 1026828,
+      "sha256": "3855892ef6a8784e20b3ef83729a29437b7f8663bf83f6775f63978eeedc9809"
+    },
+    {
+      "path": "releases/v2/annual-2026-r1/modules/library-annual-2026-r1/data/gospels.sr-Latn.json",
+      "bytes": 778280,
+      "sha256": "392b4290654a9b2376e7319af980e8b9238ba8b4c20593f4b20c9d8688e31610"
+    },
+    {
+      "path": "releases/v2/annual-2026-r1/modules/library-annual-2026-r1/data/licenses.sr-Cyrl.json",
+      "bytes": 23878,
+      "sha256": "6cf614188455fdc99826f4f6ce0a141fb7e40ca812a72830305524d9dd9a7629"
+    },
+    {
+      "path": "releases/v2/annual-2026-r1/modules/library-annual-2026-r1/data/licenses.sr-Latn.json",
+      "bytes": 22899,
+      "sha256": "32fdeaf7e5b02ee79ee84977fa111767f5d8230828889a1ce2e1bc6ddb8afa48"
+    },
+    {
+      "path": "releases/v2/annual-2026-r1/modules/library-annual-2026-r1/data/prayers.sr-Cyrl.json",
+      "bytes": 92677,
+      "sha256": "246982434b47014bfbd3bca0646b5f5770d1fd5f433e517bfbf08e49cf35722f"
+    },
+    {
+      "path": "releases/v2/annual-2026-r1/modules/library-annual-2026-r1/data/prayers.sr-Latn.json",
+      "bytes": 71066,
+      "sha256": "ae66eba3ec77946d6de3240baa9f7faff786f3b5eabe04d5c7b1ee3b2a881629"
+    },
+    {
+      "path": "releases/v2/annual-2026-r1/modules/library-annual-2026-r1/data/psalms.sr-Cyrl.json",
+      "bytes": 707117,
+      "sha256": "71918c97fe6fcc6d9f21a1990aaf0ceb2399bc503a43a9106f8e680f67844e83"
+    },
+    {
+      "path": "releases/v2/annual-2026-r1/modules/library-annual-2026-r1/data/psalms.sr-Latn.json",
+      "bytes": 553977,
+      "sha256": "01b2657d85430ec68bcc56d8a0b7b45e03449d1c2cb658a07d130ea57cf8a63d"
+    },
+    {
+      "path": "releases/v2/annual-2026-r1/modules/library-annual-2026-r1/data/release-scope.json",
+      "bytes": 1180,
+      "sha256": "c9f098bc085a3bb73ed28f624de3aa2d119f9f4dd3d04730bb4fa3de34a080bb"
+    },
+    {
+      "path": "releases/v2/annual-2026-r1/modules/library-annual-2026-r1/data/sources.sr-Cyrl.json",
+      "bytes": 117364,
+      "sha256": "0dba9e468f7e6e541bd2ce2b2f6f203642f15a0b6d8f8d0b3157337a83a070a0"
+    },
+    {
+      "path": "releases/v2/annual-2026-r1/modules/library-annual-2026-r1/data/sources.sr-Latn.json",
+      "bytes": 104511,
+      "sha256": "b837e9c284548a9613efe6f129e889fb821402346f3639c6812a29dad8fc1b6c"
+    },
+    {
+      "path": "releases/v2/annual-2026-r1/modules/library-annual-2026-r1/evidence/owner-approval.json",
+      "bytes": 883,
+      "sha256": "932240870f1d2f8638c17413c144e5311f3d1819d177c014cc4e42a925aaeae2"
+    },
+    {
+      "path": "releases/v2/annual-2026-r1/modules/library-annual-2026-r1/evidence/source-release-manifest.json",
+      "bytes": 4104,
+      "sha256": "adcd9c4c03fea220142c4e4e7027ffc4596d77ea44f6f248556723cbe73c640a"
+    },
+    {
+      "path": "releases/v2/annual-2026-r1/modules/library-annual-2026-r1/manifest.json",
+      "bytes": 3328,
+      "sha256": "7109a0a78365c8e72b65cdeeb471a87d0f470039a842e4cfd246e9203fb913da"
+    },
+    {
+      "path": "releases/v2/annual-2026-r1/modules/library-annual-2026-r1/manifest.sig",
+      "bytes": 513,
+      "sha256": "7a295138cddc2bfb907548f43a0c6017c427ea52f867537c6d7ae1d8d65c13da"
+    },
+    {
+      "path": "releases/v2/annual-2026-r1/release-set.json",
+      "bytes": 1490,
+      "sha256": "140668eb27daa8ad29241634d811add6ca10cf53ed0669fae2f53d650555e171"
+    },
+    {
+      "path": "releases/v2/annual-2026-r1/release-set.sig",
+      "bytes": 513,
+      "sha256": "6f11b74dd27cdbb1a966baa47461a6d44898571303359f55161283b9d66cf3e1"
+    },
+    {
+      "path": "releases/v2/annual-2026-r1/trusted-public-key.pem",
+      "bytes": 625,
+      "sha256": "9671cc745a71f3b35ac2281bfd4e8da9335db9c6a44beda0ae5cf380b292c1f6"
+    },
+    {
+      "path": "releases/v2/production/releases/shared-annual-2026-r1-m0v2-s2/modules/calendar-2026-r1-2026.1.1-r2/data/calendar.2026.json",
+      "bytes": 1665524,
+      "sha256": "a1b6a5d5911ae03f77802bd466227f0c1ea4fe97708b1b6f92cd4b08847c7c9c"
+    },
+    {
+      "path": "releases/v2/production/releases/shared-annual-2026-r1-m0v2-s2/modules/calendar-2026-r1-2026.1.1-r2/manifest.json",
+      "bytes": 630,
+      "sha256": "11e5d8b92ebbacd40ae6d0bad861c85a2df8220cd0b1091a2b7522754d538905"
+    },
+    {
+      "path": "releases/v2/production/releases/shared-annual-2026-r1-m0v2-s2/modules/calendar-2026-r1-2026.1.1-r2/manifest.sig",
+      "bytes": 513,
+      "sha256": "969b6e297bd64f8f539ecd150c40cfc1d1b154fe06abd641118d03903969b5b0"
+    },
+    {
+      "path": "releases/v2/production/releases/shared-annual-2026-r1-m0v2-s2/modules/daily-cycles-r1-2026.1.1-r2/data/legacy-cycle.sr-Cyrl.json",
+      "bytes": 66639,
+      "sha256": "7e0de7104845133e26c326f770cdd9faef1b91993261ef78bcdf6b9629a7f4c4"
+    },
+    {
+      "path": "releases/v2/production/releases/shared-annual-2026-r1-m0v2-s2/modules/daily-cycles-r1-2026.1.1-r2/data/legacy-cycle.sr-Latn.json",
+      "bytes": 58613,
+      "sha256": "5becca805591135d7120c89c3052f577633072fa60fb0eaf691450baefe5c0f3"
+    },
+    {
+      "path": "releases/v2/production/releases/shared-annual-2026-r1-m0v2-s2/modules/daily-cycles-r1-2026.1.1-r2/manifest.json",
+      "bytes": 870,
+      "sha256": "91cff26f0a872afc654d1f5086bbdc78786c106f8e3c6e88830647112d1e600e"
+    },
+    {
+      "path": "releases/v2/production/releases/shared-annual-2026-r1-m0v2-s2/modules/daily-cycles-r1-2026.1.1-r2/manifest.sig",
+      "bytes": 513,
+      "sha256": "f105ae66c813c1590cdaf5666e88cdadc4a4105cbb3b553359e8cd1c03194508"
+    },
+    {
+      "path": "releases/v2/production/releases/shared-annual-2026-r1-m0v2-s2/modules/library-annual-2026-r1-2026.1.1-r2/data/gospels.sr-Cyrl.json",
+      "bytes": 1026828,
+      "sha256": "3855892ef6a8784e20b3ef83729a29437b7f8663bf83f6775f63978eeedc9809"
+    },
+    {
+      "path": "releases/v2/production/releases/shared-annual-2026-r1-m0v2-s2/modules/library-annual-2026-r1-2026.1.1-r2/data/gospels.sr-Latn.json",
+      "bytes": 778280,
+      "sha256": "392b4290654a9b2376e7319af980e8b9238ba8b4c20593f4b20c9d8688e31610"
+    },
+    {
+      "path": "releases/v2/production/releases/shared-annual-2026-r1-m0v2-s2/modules/library-annual-2026-r1-2026.1.1-r2/data/licenses.sr-Cyrl.json",
+      "bytes": 23878,
+      "sha256": "6cf614188455fdc99826f4f6ce0a141fb7e40ca812a72830305524d9dd9a7629"
+    },
+    {
+      "path": "releases/v2/production/releases/shared-annual-2026-r1-m0v2-s2/modules/library-annual-2026-r1-2026.1.1-r2/data/licenses.sr-Latn.json",
+      "bytes": 22899,
+      "sha256": "32fdeaf7e5b02ee79ee84977fa111767f5d8230828889a1ce2e1bc6ddb8afa48"
+    },
+    {
+      "path": "releases/v2/production/releases/shared-annual-2026-r1-m0v2-s2/modules/library-annual-2026-r1-2026.1.1-r2/data/prayers.sr-Cyrl.json",
+      "bytes": 92677,
+      "sha256": "246982434b47014bfbd3bca0646b5f5770d1fd5f433e517bfbf08e49cf35722f"
+    },
+    {
+      "path": "releases/v2/production/releases/shared-annual-2026-r1-m0v2-s2/modules/library-annual-2026-r1-2026.1.1-r2/data/prayers.sr-Latn.json",
+      "bytes": 71066,
+      "sha256": "ae66eba3ec77946d6de3240baa9f7faff786f3b5eabe04d5c7b1ee3b2a881629"
+    },
+    {
+      "path": "releases/v2/production/releases/shared-annual-2026-r1-m0v2-s2/modules/library-annual-2026-r1-2026.1.1-r2/data/psalms.sr-Cyrl.json",
+      "bytes": 707117,
+      "sha256": "71918c97fe6fcc6d9f21a1990aaf0ceb2399bc503a43a9106f8e680f67844e83"
+    },
+    {
+      "path": "releases/v2/production/releases/shared-annual-2026-r1-m0v2-s2/modules/library-annual-2026-r1-2026.1.1-r2/data/psalms.sr-Latn.json",
+      "bytes": 553977,
+      "sha256": "01b2657d85430ec68bcc56d8a0b7b45e03449d1c2cb658a07d130ea57cf8a63d"
+    },
+    {
+      "path": "releases/v2/production/releases/shared-annual-2026-r1-m0v2-s2/modules/library-annual-2026-r1-2026.1.1-r2/data/release-scope.json",
+      "bytes": 1176,
+      "sha256": "3f89787c8868b6afb17d164e3074b833c5e10e07a76eac066e7b55b50c21ff78"
+    },
+    {
+      "path": "releases/v2/production/releases/shared-annual-2026-r1-m0v2-s2/modules/library-annual-2026-r1-2026.1.1-r2/data/sources.sr-Cyrl.json",
+      "bytes": 117364,
+      "sha256": "0dba9e468f7e6e541bd2ce2b2f6f203642f15a0b6d8f8d0b3157337a83a070a0"
+    },
+    {
+      "path": "releases/v2/production/releases/shared-annual-2026-r1-m0v2-s2/modules/library-annual-2026-r1-2026.1.1-r2/data/sources.sr-Latn.json",
+      "bytes": 104511,
+      "sha256": "b837e9c284548a9613efe6f129e889fb821402346f3639c6812a29dad8fc1b6c"
+    },
+    {
+      "path": "releases/v2/production/releases/shared-annual-2026-r1-m0v2-s2/modules/library-annual-2026-r1-2026.1.1-r2/evidence/owner-approval.json",
+      "bytes": 2601,
+      "sha256": "8460422a065ad8055381a7855eb9c729ceea31992041ee0c40d48e71c3d7ba22"
+    },
+    {
+      "path": "releases/v2/production/releases/shared-annual-2026-r1-m0v2-s2/modules/library-annual-2026-r1-2026.1.1-r2/evidence/source-release-manifest.json",
+      "bytes": 4104,
+      "sha256": "adcd9c4c03fea220142c4e4e7027ffc4596d77ea44f6f248556723cbe73c640a"
+    },
+    {
+      "path": "releases/v2/production/releases/shared-annual-2026-r1-m0v2-s2/modules/library-annual-2026-r1-2026.1.1-r2/manifest.json",
+      "bytes": 3329,
+      "sha256": "5247bedb3d3deaf5f81601ff2f7a274417b0ce11ac1cebbb3f4b518cd26ee16d"
+    },
+    {
+      "path": "releases/v2/production/releases/shared-annual-2026-r1-m0v2-s2/modules/library-annual-2026-r1-2026.1.1-r2/manifest.sig",
+      "bytes": 513,
+      "sha256": "6bc2b00b1b608ad1a8c04d8b1d50a0ba323addd2c40cd48652c4c19aabf74648"
+    },
+    {
+      "path": "releases/v2/production/releases/shared-annual-2026-r1-m0v2-s2/release-set.json",
+      "bytes": 1816,
+      "sha256": "e8751a0924b41d1dcb8cf708eb36193a9979a6d551edc092a79bc23890a01506"
+    },
+    {
+      "path": "releases/v2/production/releases/shared-annual-2026-r1-m0v2-s2/release-set.sig",
+      "bytes": 513,
+      "sha256": "6f8eb796e13b729986a4c0a2f4376204159ad2e296c9ec68ed10fa3806133293"
+    },
+    {
+      "path": "releases/v2/production/trusted-public-key.pem",
+      "bytes": 625,
+      "sha256": "9671cc745a71f3b35ac2281bfd4e8da9335db9c6a44beda0ae5cf380b292c1f6"
+    },
+    {
+      "path": "releases/v2/README.md",
+      "bytes": 2142,
+      "sha256": "e4bf0ad61747ea03c4d9b47c1b861c4adba7923439b58b10f02b920d2c771b2f"
+    }
+  ],
+  "previous_discovery_files": [
+    {
+      "path": "releases/v2/production/index.json",
+      "bytes": 552,
+      "sha256": "7b94f68698796b9c2802cf7d411b391a99bd2cc246aeb16a34b18526182a592c"
+    },
+    {
+      "path": "releases/v2/production/index.sig",
+      "bytes": 513,
+      "sha256": "91921ec6ce0b767f4ad8af622e3ef1060af01a671810fc4e570e4c87730fbf07"
+    }
+  ]
+}

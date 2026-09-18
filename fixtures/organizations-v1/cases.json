@@ -1,0 +1,115 @@
+{
+  "fixture_schema": "svetlost33-organizations-cases-1",
+  "test_only": true,
+  "warning": "SYNTHETIC NON-RUNTIME DATA. No real recipient, bank account, payment code, verified donation, or production approval. Never sign, publish, or ship the synthetic registry.",
+  "default_options": {
+    "now": "2026-09-18T12:00:00Z",
+    "allowSynthetic": true,
+    "contentAuthenticated": true,
+    "paymentSessionFresh": true,
+    "clientCapabilities": ["organizations-v1"],
+    "moduleContext": {
+      "module_type": "organizations", "required": false,
+      "capabilities": ["organizations-v1"], "payload_path": "data/organizations-v1.json",
+      "version": "1.0.0-test.1", "revision": 1
+    }
+  },
+  "synthetic_registry": {
+    "schema_version": "svetlost33-organizations-1",
+    "dataset_kind": "synthetic_test_only",
+    "version": "1.0.0-test.1", "revision": 1,
+    "issued_at": "2026-09-18T00:00:00Z", "expires_at": "2026-12-17T00:00:00Z",
+    "organizations": [{
+      "id": "synthetic-org",
+      "name": { "sr-Latn": "TEST ONLY: izmišljeni primalac", "sr-Cyrl": "САМО ТЕСТ: измишљени прималац" },
+      "description": { "sr-Latn": "Samo test ugovora. Nije organizacija niti odredište za uplatu.", "sr-Cyrl": "Само тест уговора. Није организација нити одредиште за уплату." },
+      "legal_name": "TEST ONLY - NOT A RECIPIENT",
+      "country": "RS", "status": "active",
+      "sources": [{ "id": "synthetic-source", "url": "https://example.org/test-only-source", "fetched_on": "2026-09-17" }],
+      "links": [{
+        "id": "synthetic-donation-link", "kind": "donation",
+        "label": { "sr-Latn": "Samo test linka", "sr-Cyrl": "Само тест линка" },
+        "url": "https://example.org/test-only-donation", "source_ids": ["synthetic-source"],
+        "status": "active", "verified_at": "2026-09-17T12:00:00Z", "valid_until": "2026-10-18T12:00:00Z"
+      }],
+      "payment_rails": [
+        {
+          "id": "synthetic-domestic", "revision": 1, "type": "domestic_rs", "status": "active", "currency": "RSD",
+          "payee": { "legal_name": "TEST ONLY - NOT A RECIPIENT", "address": "TEST ONLY - NO REAL ADDRESS", "country": "RS" },
+          "source_ids": ["synthetic-source"], "verified_at": "2026-09-17T12:00:00Z", "valid_until": "2026-10-18T12:00:00Z",
+          "suggested_amount": { "decimal": "1.00", "currency": "RSD" },
+          "source_marker": { "enabled": false, "value": null },
+          "details": {
+            "account": "000000000000000000", "payment_code": "000",
+            "purpose": { "sr-Latn": "TEST ONLY - NE PLAĆATI", "sr-Cyrl": "САМО ТЕСТ - НЕ ПЛАЋАТИ" },
+            "model": null, "reference": null
+          }
+        },
+        {
+          "id": "synthetic-swift", "revision": 1, "type": "swift", "status": "active", "currency": "EUR",
+          "payee": { "legal_name": "TEST ONLY - NOT A RECIPIENT", "address": "TEST ONLY - NO REAL ADDRESS", "country": "RS" },
+          "source_ids": ["synthetic-source"], "verified_at": "2026-09-17T12:00:00Z", "valid_until": "2026-10-18T12:00:00Z",
+          "suggested_amount": null, "source_marker": { "enabled": false, "value": null },
+          "details": {
+            "iban": "ZZ00TESTONLY0000000000", "bic": "TESTZZ00",
+            "bank_name": "SYNTHETIC TEST ONLY - NOT A BANK", "bank_address": "TEST ONLY - NO REAL ADDRESS",
+            "instructions": { "sr-Latn": "TEST ONLY - NE PLAĆATI", "sr-Cyrl": "САМО ТЕСТ - НЕ ПЛАЋАТИ" }
+          }
+        }
+      ]
+    }]
+  },
+  "cases": [
+    { "id": "synthetic-positive-both-rails", "patch": [], "expected": { "valid": true, "registry_eligible": true, "enabled_links": ["synthetic-org/synthetic-donation-link"], "enabled_rails": ["synthetic-org/synthetic-domestic", "synthetic-org/synthetic-swift"] } },
+    { "id": "synthetic-runtime-rejected", "options": { "allowSynthetic": false }, "patch": [], "expected": { "error": "SYNTHETIC_TEST_ONLY" } },
+    { "id": "unauthenticated-no-actions", "options": { "contentAuthenticated": false }, "patch": [], "expected": { "valid": true, "all_disabled": true, "blocker": "content_not_authenticated" } },
+    { "id": "authenticated-stale-cache-no-payment", "options": { "paymentSessionFresh": false }, "patch": [], "expected": { "valid": true, "registry_eligible": true, "all_disabled": true, "blocker": "payment_session_not_fresh" } },
+    { "id": "fresh-payment-check-not-required-for-story", "options": { "paymentSessionFresh": false }, "patch": [{ "op": "replace", "path": "/organizations/0/links/0/kind", "value": "story" }], "expected": { "valid": true, "enabled_links": ["synthetic-org/synthetic-donation-link"], "enabled_rails": [], "blocker": "payment_session_not_fresh" } },
+    { "id": "unknown-rail-stays-valid-and-disabled", "patch": [{ "op": "replace", "path": "/organizations/0/payment_rails/0/type", "value": "future_rail" }], "expected": { "valid": true, "enabled_rails": ["synthetic-org/synthetic-swift"], "blocker": "rail_type_unsupported" } },
+    { "id": "future-country-keeps-organization-readable", "patch": [{ "op": "replace", "path": "/organizations/0/country", "value": "BA" }, { "op": "replace", "path": "/organizations/0/payment_rails/0/payee/country", "value": "BA" }, { "op": "replace", "path": "/organizations/0/payment_rails/0/type", "value": "future_rail" }, { "op": "replace", "path": "/organizations/0/payment_rails/1/payee/country", "value": "BA" }], "expected": { "valid": true, "all_disabled": true, "blocker": "country_unsupported" } },
+    { "id": "domestic-rail-cannot-claim-non-rs-payee", "patch": [{ "op": "replace", "path": "/organizations/0/country", "value": "BA" }, { "op": "replace", "path": "/organizations/0/payment_rails/0/payee/country", "value": "BA" }], "expected": { "error": "DOMESTIC_COUNTRY" } },
+    { "id": "missing-module-context-no-actions", "options": { "moduleContext": null }, "patch": [], "expected": { "valid": true, "all_disabled": true, "blocker": "module_context_missing" } },
+    { "id": "unknown-client-capability", "options": { "clientCapabilities": ["organizations-v9"] }, "patch": [], "expected": { "valid": true, "all_disabled": true, "blocker": "capability_unsupported" } },
+    { "id": "unknown-module-capability", "options": { "moduleContext": { "module_type": "organizations", "required": false, "capabilities": ["organizations-v1", "organizations-v9"], "payload_path": "data/organizations-v1.json", "version": "1.0.0-test.1", "revision": 1 } }, "patch": [], "expected": { "valid": true, "all_disabled": true, "blocker": "capability_unsupported" } },
+    { "id": "module-version-mismatch", "patch": [{ "op": "replace", "path": "/version", "value": "1.0.0-test.2" }], "expected": { "error": "MODULE_IDENTITY" } },
+    { "id": "registry-expiry-boundary", "options": { "now": "2026-12-17T00:00:00Z" }, "patch": [], "expected": { "valid": true, "all_disabled": true, "blocker": "registry_expired" } },
+    { "id": "registry-not-yet-valid", "options": { "now": "2026-09-17T23:59:59Z" }, "patch": [], "expected": { "valid": true, "all_disabled": true, "blocker": "registry_not_yet_valid" } },
+    { "id": "review-expiry-boundary", "options": { "now": "2026-10-18T12:00:00Z" }, "patch": [], "expected": { "valid": true, "registry_eligible": true, "all_disabled": true, "blocker": "review_expired" } },
+    { "id": "organization-revoked", "patch": [{ "op": "replace", "path": "/organizations/0/status", "value": "revoked" }], "expected": { "valid": true, "all_disabled": true, "blocker": "organization_revoked" } },
+    { "id": "organization-suspended", "patch": [{ "op": "replace", "path": "/organizations/0/status", "value": "suspended" }], "expected": { "valid": true, "all_disabled": true, "blocker": "organization_suspended" } },
+    { "id": "domestic-revoked-swift-stays-enabled", "patch": [{ "op": "replace", "path": "/organizations/0/payment_rails/0/status", "value": "revoked" }], "expected": { "valid": true, "enabled_rails": ["synthetic-org/synthetic-swift"], "blocker": "rail_revoked" } },
+    { "id": "donation-link-draft-independent-of-rails", "patch": [{ "op": "replace", "path": "/organizations/0/links/0/status", "value": "draft" }], "expected": { "valid": true, "enabled_links": [], "enabled_rails": ["synthetic-org/synthetic-domestic", "synthetic-org/synthetic-swift"], "blocker": "link_draft" } },
+    { "id": "partial-domestic-account", "patch": [{ "op": "replace", "path": "/organizations/0/payment_rails/0/details/account", "value": "000000" }], "expected": { "error": "SCHEMA" } },
+    { "id": "missing-domestic-account", "patch": [{ "op": "remove", "path": "/organizations/0/payment_rails/0/details/account" }], "expected": { "error": "SCHEMA" } },
+    { "id": "partial-suggested-amount", "patch": [{ "op": "remove", "path": "/organizations/0/payment_rails/0/suggested_amount/currency" }], "expected": { "error": "SCHEMA" } },
+    { "id": "amount-no-binary-float", "patch": [{ "op": "replace", "path": "/organizations/0/payment_rails/0/suggested_amount/decimal", "value": 1.00 }], "expected": { "error": "SCHEMA" } },
+    { "id": "amount-currency-mismatch", "patch": [{ "op": "replace", "path": "/organizations/0/payment_rails/0/suggested_amount/currency", "value": "EUR" }], "expected": { "error": "AMOUNT_CURRENCY" } },
+    { "id": "amount-zero-rejected", "patch": [{ "op": "replace", "path": "/organizations/0/payment_rails/0/suggested_amount/decimal", "value": "0.00" }], "expected": { "error": "AMOUNT_NONPOSITIVE" } },
+    { "id": "partial-reference", "patch": [{ "op": "replace", "path": "/organizations/0/payment_rails/0/details/model", "value": "00" }], "expected": { "error": "PARTIAL_REFERENCE" } },
+    { "id": "reference-over-v1-limit", "patch": [{ "op": "replace", "path": "/organizations/0/payment_rails/0/details/model", "value": "00" }, { "op": "replace", "path": "/organizations/0/payment_rails/0/details/reference", "value": "00000000000000000000000000" }], "expected": { "error": "SCHEMA" } },
+    { "id": "purpose-over-nbs-limit", "patch": [{ "op": "replace", "path": "/organizations/0/payment_rails/0/details/purpose/sr-Latn", "value": "TEST ONLY THIS PURPOSE IS TOO LONG FOR NBS" }], "expected": { "error": "DOMESTIC_PURPOSE" } },
+    { "id": "purpose-cannot-inject-qr-tag", "patch": [{ "op": "replace", "path": "/organizations/0/payment_rails/0/details/purpose/sr-Latn", "value": "TEST|RO:000" }], "expected": { "error": "DOMESTIC_PURPOSE" } },
+    { "id": "identity-not-inferred-from-brand", "patch": [{ "op": "replace", "path": "/organizations/0/payment_rails/0/payee/legal_name", "value": "OTHER SYNTHETIC RECIPIENT" }], "expected": { "error": "PAYEE_IDENTITY" } },
+    { "id": "active-unresolved-legal-identity", "patch": [{ "op": "replace", "path": "/organizations/0/legal_name", "value": null }], "expected": { "error": "SCHEMA" } },
+    { "id": "payment-link-needs-separate-review", "patch": [{ "op": "replace", "path": "/organizations/0/links/0/verified_at", "value": null }, { "op": "replace", "path": "/organizations/0/links/0/valid_until", "value": null }], "expected": { "error": "MISSING_REVIEW" } },
+    { "id": "partial-review", "patch": [{ "op": "replace", "path": "/organizations/0/payment_rails/0/valid_until", "value": null }], "expected": { "error": "PARTIAL_REVIEW" } },
+    { "id": "unknown-source", "patch": [{ "op": "replace", "path": "/organizations/0/links/0/source_ids", "value": ["missing-source"] }], "expected": { "error": "SOURCE_REFERENCE" } },
+    { "id": "duplicate-link-id", "patch": [{ "op": "copy", "from": "/organizations/0/links/0", "path": "/organizations/0/links/-" }], "expected": { "error": "DUPLICATE_ID" } },
+    { "id": "duplicate-organization-id", "patch": [{ "op": "copy", "from": "/organizations/0", "path": "/organizations/-" }], "expected": { "error": "DUPLICATE_ID" } },
+    { "id": "duplicate-rail-id", "patch": [{ "op": "replace", "path": "/organizations/0/payment_rails/1/id", "value": "synthetic-domestic" }], "expected": { "error": "DUPLICATE_ID" } },
+    { "id": "url-credentials", "patch": [{ "op": "replace", "path": "/organizations/0/links/0/url", "value": "https://user:secret@example.org/donate" }], "expected": { "error": "URL" } },
+    { "id": "url-fragment", "patch": [{ "op": "replace", "path": "/organizations/0/links/0/url", "value": "https://example.org/donate#recipient" }], "expected": { "error": "URL" } },
+    { "id": "url-unsafe-scheme", "patch": [{ "op": "replace", "path": "/organizations/0/links/0/url", "value": "javascript:alert(1)" }], "expected": { "error": "SCHEMA" } },
+    { "id": "url-http", "patch": [{ "op": "replace", "path": "/organizations/0/links/0/url", "value": "http://example.org/donate" }], "expected": { "error": "SCHEMA" } },
+    { "id": "url-loopback-ip", "patch": [{ "op": "replace", "path": "/organizations/0/links/0/url", "value": "https://127.0.0.1/donate" }], "expected": { "error": "URL" } },
+    { "id": "url-encoded-control", "patch": [{ "op": "replace", "path": "/organizations/0/links/0/url", "value": "https://example.org/%0adonate" }], "expected": { "error": "URL" } },
+    { "id": "unknown-public-field", "patch": [{ "op": "add", "path": "/donor_records", "value": [] }], "expected": { "error": "SCHEMA" } },
+    { "id": "source-marker-not-agreed", "patch": [{ "op": "replace", "path": "/organizations/0/payment_rails/0/source_marker/enabled", "value": true }], "expected": { "error": "SCHEMA" } },
+    { "id": "agreed-purpose-marker", "patch": [{ "op": "replace", "path": "/organizations/0/payment_rails/0/source_marker", "value": { "enabled": true, "value": "TEST", "placement": "purpose", "agreement": { "id": "synthetic-marker-agreement", "source_ids": ["synthetic-source"], "status": "active", "verified_at": "2026-09-17T12:00:00Z", "valid_until": "2026-10-18T12:00:00Z" } } }], "expected": { "valid": true, "enabled_rails": ["synthetic-org/synthetic-domestic", "synthetic-org/synthetic-swift"] } },
+    { "id": "marker-agreement-revoked", "patch": [{ "op": "replace", "path": "/organizations/0/payment_rails/0/source_marker", "value": { "enabled": true, "value": "TEST", "placement": "purpose", "agreement": { "id": "synthetic-marker-agreement", "source_ids": ["synthetic-source"], "status": "revoked", "verified_at": "2026-09-17T12:00:00Z", "valid_until": "2026-10-18T12:00:00Z" } } }], "expected": { "valid": true, "enabled_rails": ["synthetic-org/synthetic-swift"], "blocker": "marker_agreement_revoked" } },
+    { "id": "marker-cannot-target-reference", "patch": [{ "op": "replace", "path": "/organizations/0/payment_rails/0/source_marker", "value": { "enabled": true, "value": "TEST", "placement": "reference", "agreement": { "id": "synthetic-marker-agreement", "source_ids": ["synthetic-source"], "status": "active", "verified_at": "2026-09-17T12:00:00Z", "valid_until": "2026-10-18T12:00:00Z" } } }], "expected": { "error": "SCHEMA" } },
+    { "id": "html-rejected", "patch": [{ "op": "replace", "path": "/organizations/0/description/sr-Latn", "value": "<script>external()</script>" }], "expected": { "error": "UNSAFE_TEXT" } },
+    { "id": "real-candidate-never-active", "base": "candidate", "options": { "allowSynthetic": false, "moduleContext": { "module_type": "organizations", "required": false, "capabilities": ["organizations-v1"], "payload_path": "data/organizations-v1.json", "version": "0.1.0-draft.1", "revision": 1 } }, "patch": [], "expected": { "valid": true, "all_disabled": true, "blocker": "candidate_only" } },
+    { "id": "candidate-cannot-enable-reviewed-link", "base": "candidate", "options": { "allowSynthetic": false, "moduleContext": { "module_type": "organizations", "required": false, "capabilities": ["organizations-v1"], "payload_path": "data/organizations-v1.json", "version": "0.1.0-draft.1", "revision": 1 } }, "patch": [{ "op": "replace", "path": "/organizations/0/links/0/status", "value": "active" }], "expected": { "error": "CANDIDATE_STATUS" } }
+  ]
+}

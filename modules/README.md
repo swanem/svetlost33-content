@@ -17,8 +17,14 @@ opis obima. Podloge v1 sada imaju inventar i odobrenje prava po pojedinačnoj
 slici u `approvals/shared-backgrounds-v1-2026-09-16` i
 `licenses/backgrounds-v1.json`. Još ostaju izvan produkcionog izvoza dok oba
 klijenta ne prihvate opcioni `backgrounds` modul, njegove umanjene preglede i
-pravila bezbedne zamene/rollbacka. `organizations` ostaje odsutan jer nema
-odobrenih podataka.
+pravila bezbedne zamene/rollbacka.
+
+`organizations-v1/2026.9.18-r1/data/organizations-v1.json` sada sadrži zaseban
+pregledani registar tri odobrene dobrotvorne kartice: NURDOR, Fondacija NORBS+
+i Srbi za Srbe. Sadrži samo šest odobrenih spoljašnjih veza, oba pisma,
+identitet sa zvaničnih stranica i rokove pregleda; nema naloga za uplatu niti
+logotipa. [Tačan obim, hash i predaja](../approvals/charity-cards-2026-09-18/IMPLEMENTATION.md)
+prate novi opcioni modul. Sam izvor nije potpisan runtime paket.
 
 Razvojni `backgrounds-v1` sada proizvodi `scripts/generate-development-backgrounds-v1.mjs`:
 `data/catalog-v1.json`, neizmenjeni originali `media/backgrounds/...`, pregledi

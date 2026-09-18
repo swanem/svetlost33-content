@@ -1,0 +1,39 @@
+{
+  "schema_version": "svetlost33-organization-source-review-1",
+  "reviewed_at": "2026-09-18T10:35:15Z",
+  "reviewer": "implementation_agent",
+  "method": "Read the official organization identity pages and all six approved destination pages using the web retrieval tool on 2026-09-18. Retrieval may use a recent crawl. No payment was submitted; no independent current register/bank audit was performed.",
+  "payload_sha256": "4654b5c05b7c4e0ada963d022491c8683ac9d329c5db937a522925f6d10d89d7",
+  "organizations": [
+    {
+      "id": "nurdor-rs",
+      "legal_name": "Nacionalno udruženje roditelja dece obolele od raka - NURDOR",
+      "identity_source": "https://www.nurdor.org/identifikacioni-podaci",
+      "identity_basis": "Exact name in the official Podaci o udruženju section; organization identifier 17521705. This is official self-identification, not a fresh APR certification.",
+      "donation_url": "https://www.nurdor.org/doniraj",
+      "story_url": "https://www.nurdor.org/nase-price",
+      "destination_review": "Official donation selection page and official stories page are readable. Their URLs match the approved decision exactly. No form was submitted."
+    },
+    {
+      "id": "norbs-plus-rs",
+      "legal_name": "Fondacija NORBS Plus",
+      "identity_source": "https://norbs.rs/fondacija-norbs-plus/",
+      "identity_basis": "Exact Naziv in the official foundation information section; organization identifier 28830637. The page links directly to 1jeposeban.rs as the foundation website; the foundation is distinct from the NORBS association.",
+      "donation_url": "https://1jeposeban.rs/",
+      "story_url": "https://norbs.rs/fondacija-norbs-plus/",
+      "destination_review": "Foundation campaign/instructions page and foundation information/results source are readable. No claim of an available card-payment flow; the association's general donation endpoint was not substituted."
+    },
+    {
+      "id": "srbi-za-srbe-rs",
+      "legal_name": "Хуманитарна организација Срби за Србе",
+      "identity_source": "https://www.srbizasrbe.org/srbija/",
+      "identity_basis": "Exact Назив on the official Serbia branch page, preserving the published Cyrillic spelling. Official Serbia/about pages link to the donation portal. This is official self-identification, not a fresh APR certification or identification of every international branch.",
+      "donation_url": "https://donacije.srbizasrbe.org/",
+      "story_url": "https://www.srbizasrbe.org/pomogli-smo/",
+      "destination_review": "Official donation portal and helped-families/results page are readable. No amount, SMS price, national bank account or payment result is imported."
+    }
+  ],
+  "expiry_basis": "A bounded 30-day operational re-review interval from the actual recorded review time. It is not an assurance of future destination availability or bank/recipient status. All action validity ends at equality with valid_until.",
+  "private_data_collected": false,
+  "payment_rails_reviewed_or_enabled": false
+}
