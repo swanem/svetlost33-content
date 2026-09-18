@@ -87,7 +87,7 @@ Android klijenta, opcioni skip organizacija, replay/tamper zaštita, zaštita
 postojećeg izlaza i odbijanje pogrešnog ključa. To nisu dokazi stvarnog
 native prihvatanja ili vizuelnog uklapanja; te provere vode native zadaci.
 
-## Potpisani kandidat — još nije aktiviran
+## Potpisani paket i provere aktivacije
 
 Root je proverio odobrenje i nepromenjene izvorne tekstove, ponovio 42/42
 fokusirana testa i potpisao kandidat postojećim produkcionim ključem.
@@ -95,5 +95,10 @@ Izlaz je `build/widget-excerpts-v0243-signed`; naziv direktorijuma zadržava
 istorijsko ime pripreme, a važeća zajednička specifikacija je v0.24.4.
 Index SHA-256: `c7e327ed6e7108a6c33a4df525934d85a945fd2baeccce0eccee161311d685e6`.
 Release-set SHA-256: `6524151c4a249c85ad58bcb2ab475104a898ade76acefb417edb8561361e09c4`.
-Potpisani paket poslat je oba native zadatka na proveru; produkcioni index
-ostaje na sekvenci 2 do uspešne zajedničke provere.
+Pri potpisivanju javni index ostao je na sekvenci 2. Potom su oba native
+zadatka prihvatila tačan potpisani paket: Android 0.16.3/code35 i iOS
+0.1.0/build21. Prošli su prelazi 2→4 i 3→4, puna čitanja, prikaz vidžeta i
+očuvanje podešavanja pri nadogradnji. Aktivacioni commit menja samo javni
+discovery pokazivač i njegov odgovarajući potpis na sekvencu 4; stari paketi
+ostaju nepromenjeni. Stvarna objava proverava se ponovnim preuzimanjem
+javnog paketa i proverom potpisa, odvojeno od ovih lokalnih dokaza.
