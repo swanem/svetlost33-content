@@ -1,0 +1,29 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://svetlost33.example/schemas/widget-excerpt-v1/widget-excerpt.schema.json",
+  "title": "Optional approved literal widget excerpt v1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "locale", "source_slot_id", "text", "text_sha256", "reference", "verse_numbers", "source_range", "source_text_sha256", "psalm_id", "source_id", "source_url", "numbering", "approval_id", "review_status"],
+  "properties": {
+    "schema_version": { "const": "svetlost33-widget-excerpt-1" },
+    "locale": { "enum": ["sr-Cyrl", "sr-Latn"] },
+    "source_slot_id": { "$ref": "#/$defs/id" },
+    "text": { "type": "string", "minLength": 1, "maxLength": 160 },
+    "text_sha256": { "$ref": "#/$defs/sha256" },
+    "reference": { "type": "string", "minLength": 1, "maxLength": 120 },
+    "verse_numbers": { "type": "array", "minItems": 1, "maxItems": 8, "uniqueItems": true, "items": { "type": "integer", "minimum": 1, "maximum": 200 } },
+    "source_range": { "type": "object", "additionalProperties": false, "required": ["start", "end"], "properties": { "start": { "type": "integer", "minimum": 0 }, "end": { "type": "integer", "minimum": 1, "maximum": 160 } } },
+    "source_text_sha256": { "$ref": "#/$defs/sha256" },
+    "psalm_id": { "type": "string", "pattern": "^psalm-([1-9]|[1-9][0-9]|1[0-4][0-9]|150)$" },
+    "source_id": { "type": "string", "pattern": "^EBIBLE-PSA[0-9]{3}$" },
+    "source_url": { "type": "string", "minLength": 1, "maxLength": 2048 },
+    "numbering": { "const": "DANICIC_EBIBLE_SRP1868" },
+    "approval_id": { "$ref": "#/$defs/id" },
+    "review_status": { "enum": ["approved", "draft", "rejected"] }
+  },
+  "$defs": {
+    "id": { "type": "string", "pattern": "^[a-z0-9][a-z0-9._-]{2,95}$" },
+    "sha256": { "type": "string", "pattern": "^[0-9a-f]{64}$" }
+  }
+}

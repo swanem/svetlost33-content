@@ -1,0 +1,187 @@
+{
+  "schema_version": "svetlost33-frozen-release-source-files-1",
+  "release_set_id": "shared-charity-2026-09-18-m0v2-s3",
+  "sequence": 3,
+  "files": [
+    {
+      "path": "discovery-archive/shared-annual-2026-r1-m0v2-s2/index.json",
+      "bytes": 552,
+      "sha256": "7b94f68698796b9c2802cf7d411b391a99bd2cc246aeb16a34b18526182a592c"
+    },
+    {
+      "path": "discovery-archive/shared-annual-2026-r1-m0v2-s2/index.sig",
+      "bytes": 513,
+      "sha256": "91921ec6ce0b767f4ad8af622e3ef1060af01a671810fc4e570e4c87730fbf07"
+    },
+    {
+      "path": "index.json",
+      "bytes": 564,
+      "sha256": "edb65e95d11370f2e29f32a1dbc36fd67646f1182afab68bd2da428d77e98724"
+    },
+    {
+      "path": "index.sig",
+      "bytes": 513,
+      "sha256": "1f066f117284724e3dd08b7ba3c343e77cf9365abf788efc4c5a3bb7981c829c"
+    },
+    {
+      "path": "releases/shared-annual-2026-r1-m0v2-s2/modules/calendar-2026-r1-2026.1.1-r2/data/calendar.2026.json",
+      "bytes": 1665524,
+      "sha256": "a1b6a5d5911ae03f77802bd466227f0c1ea4fe97708b1b6f92cd4b08847c7c9c"
+    },
+    {
+      "path": "releases/shared-annual-2026-r1-m0v2-s2/modules/calendar-2026-r1-2026.1.1-r2/manifest.json",
+      "bytes": 630,
+      "sha256": "11e5d8b92ebbacd40ae6d0bad861c85a2df8220cd0b1091a2b7522754d538905"
+    },
+    {
+      "path": "releases/shared-annual-2026-r1-m0v2-s2/modules/calendar-2026-r1-2026.1.1-r2/manifest.sig",
+      "bytes": 513,
+      "sha256": "969b6e297bd64f8f539ecd150c40cfc1d1b154fe06abd641118d03903969b5b0"
+    },
+    {
+      "path": "releases/shared-annual-2026-r1-m0v2-s2/modules/daily-cycles-r1-2026.1.1-r2/data/legacy-cycle.sr-Cyrl.json",
+      "bytes": 66639,
+      "sha256": "7e0de7104845133e26c326f770cdd9faef1b91993261ef78bcdf6b9629a7f4c4"
+    },
+    {
+      "path": "releases/shared-annual-2026-r1-m0v2-s2/modules/daily-cycles-r1-2026.1.1-r2/data/legacy-cycle.sr-Latn.json",
+      "bytes": 58613,
+      "sha256": "5becca805591135d7120c89c3052f577633072fa60fb0eaf691450baefe5c0f3"
+    },
+    {
+      "path": "releases/shared-annual-2026-r1-m0v2-s2/modules/daily-cycles-r1-2026.1.1-r2/manifest.json",
+      "bytes": 870,
+      "sha256": "91cff26f0a872afc654d1f5086bbdc78786c106f8e3c6e88830647112d1e600e"
+    },
+    {
+      "path": "releases/shared-annual-2026-r1-m0v2-s2/modules/daily-cycles-r1-2026.1.1-r2/manifest.sig",
+      "bytes": 513,
+      "sha256": "f105ae66c813c1590cdaf5666e88cdadc4a4105cbb3b553359e8cd1c03194508"
+    },
+    {
+      "path": "releases/shared-annual-2026-r1-m0v2-s2/modules/library-annual-2026-r1-2026.1.1-r2/data/gospels.sr-Cyrl.json",
+      "bytes": 1026828,
+      "sha256": "3855892ef6a8784e20b3ef83729a29437b7f8663bf83f6775f63978eeedc9809"
+    },
+    {
+      "path": "releases/shared-annual-2026-r1-m0v2-s2/modules/library-annual-2026-r1-2026.1.1-r2/data/gospels.sr-Latn.json",
+      "bytes": 778280,
+      "sha256": "392b4290654a9b2376e7319af980e8b9238ba8b4c20593f4b20c9d8688e31610"
+    },
+    {
+      "path": "releases/shared-annual-2026-r1-m0v2-s2/modules/library-annual-2026-r1-2026.1.1-r2/data/licenses.sr-Cyrl.json",
+      "bytes": 23878,
+      "sha256": "6cf614188455fdc99826f4f6ce0a141fb7e40ca812a72830305524d9dd9a7629"
+    },
+    {
+      "path": "releases/shared-annual-2026-r1-m0v2-s2/modules/library-annual-2026-r1-2026.1.1-r2/data/licenses.sr-Latn.json",
+      "bytes": 22899,
+      "sha256": "32fdeaf7e5b02ee79ee84977fa111767f5d8230828889a1ce2e1bc6ddb8afa48"
+    },
+    {
+      "path": "releases/shared-annual-2026-r1-m0v2-s2/modules/library-annual-2026-r1-2026.1.1-r2/data/prayers.sr-Cyrl.json",
+      "bytes": 92677,
+      "sha256": "246982434b47014bfbd3bca0646b5f5770d1fd5f433e517bfbf08e49cf35722f"
+    },
+    {
+      "path": "releases/shared-annual-2026-r1-m0v2-s2/modules/library-annual-2026-r1-2026.1.1-r2/data/prayers.sr-Latn.json",
+      "bytes": 71066,
+      "sha256": "ae66eba3ec77946d6de3240baa9f7faff786f3b5eabe04d5c7b1ee3b2a881629"
+    },
+    {
+      "path": "releases/shared-annual-2026-r1-m0v2-s2/modules/library-annual-2026-r1-2026.1.1-r2/data/psalms.sr-Cyrl.json",
+      "bytes": 707117,
+      "sha256": "71918c97fe6fcc6d9f21a1990aaf0ceb2399bc503a43a9106f8e680f67844e83"
+    },
+    {
+      "path": "releases/shared-annual-2026-r1-m0v2-s2/modules/library-annual-2026-r1-2026.1.1-r2/data/psalms.sr-Latn.json",
+      "bytes": 553977,
+      "sha256": "01b2657d85430ec68bcc56d8a0b7b45e03449d1c2cb658a07d130ea57cf8a63d"
+    },
+    {
+      "path": "releases/shared-annual-2026-r1-m0v2-s2/modules/library-annual-2026-r1-2026.1.1-r2/data/release-scope.json",
+      "bytes": 1176,
+      "sha256": "3f89787c8868b6afb17d164e3074b833c5e10e07a76eac066e7b55b50c21ff78"
+    },
+    {
+      "path": "releases/shared-annual-2026-r1-m0v2-s2/modules/library-annual-2026-r1-2026.1.1-r2/data/sources.sr-Cyrl.json",
+      "bytes": 117364,
+      "sha256": "0dba9e468f7e6e541bd2ce2b2f6f203642f15a0b6d8f8d0b3157337a83a070a0"
+    },
+    {
+      "path": "releases/shared-annual-2026-r1-m0v2-s2/modules/library-annual-2026-r1-2026.1.1-r2/data/sources.sr-Latn.json",
+      "bytes": 104511,
+      "sha256": "b837e9c284548a9613efe6f129e889fb821402346f3639c6812a29dad8fc1b6c"
+    },
+    {
+      "path": "releases/shared-annual-2026-r1-m0v2-s2/modules/library-annual-2026-r1-2026.1.1-r2/evidence/owner-approval.json",
+      "bytes": 2601,
+      "sha256": "8460422a065ad8055381a7855eb9c729ceea31992041ee0c40d48e71c3d7ba22"
+    },
+    {
+      "path": "releases/shared-annual-2026-r1-m0v2-s2/modules/library-annual-2026-r1-2026.1.1-r2/evidence/source-release-manifest.json",
+      "bytes": 4104,
+      "sha256": "adcd9c4c03fea220142c4e4e7027ffc4596d77ea44f6f248556723cbe73c640a"
+    },
+    {
+      "path": "releases/shared-annual-2026-r1-m0v2-s2/modules/library-annual-2026-r1-2026.1.1-r2/manifest.json",
+      "bytes": 3329,
+      "sha256": "5247bedb3d3deaf5f81601ff2f7a274417b0ce11ac1cebbb3f4b518cd26ee16d"
+    },
+    {
+      "path": "releases/shared-annual-2026-r1-m0v2-s2/modules/library-annual-2026-r1-2026.1.1-r2/manifest.sig",
+      "bytes": 513,
+      "sha256": "6bc2b00b1b608ad1a8c04d8b1d50a0ba323addd2c40cd48652c4c19aabf74648"
+    },
+    {
+      "path": "releases/shared-annual-2026-r1-m0v2-s2/release-set.json",
+      "bytes": 1816,
+      "sha256": "e8751a0924b41d1dcb8cf708eb36193a9979a6d551edc092a79bc23890a01506"
+    },
+    {
+      "path": "releases/shared-annual-2026-r1-m0v2-s2/release-set.sig",
+      "bytes": 513,
+      "sha256": "6f8eb796e13b729986a4c0a2f4376204159ad2e296c9ec68ed10fa3806133293"
+    },
+    {
+      "path": "releases/shared-charity-2026-09-18-m0v2-s3/modules/organizations-v1-2026.9.18-r1/data/organizations-v1.json",
+      "bytes": 5565,
+      "sha256": "4654b5c05b7c4e0ada963d022491c8683ac9d329c5db937a522925f6d10d89d7"
+    },
+    {
+      "path": "releases/shared-charity-2026-09-18-m0v2-s3/modules/organizations-v1-2026.9.18-r1/evidence/owner-approval.json",
+      "bytes": 2461,
+      "sha256": "7f2aca9b0f349ee417c2dc89cc27949176c4d22f93f6788a59855a3f95b1c94d"
+    },
+    {
+      "path": "releases/shared-charity-2026-09-18-m0v2-s3/modules/organizations-v1-2026.9.18-r1/evidence/source-review.json",
+      "bytes": 3051,
+      "sha256": "5a7cec6cecdaa5fb8d2a7ee244f402167644d0b8a2e0a52e6ce5cb0a4a273c24"
+    },
+    {
+      "path": "releases/shared-charity-2026-09-18-m0v2-s3/modules/organizations-v1-2026.9.18-r1/manifest.json",
+      "bytes": 992,
+      "sha256": "f961e6bfb2fd8c3443533f1fedd40a64e06342de019c8314d72c0dbfaf5cc8ad"
+    },
+    {
+      "path": "releases/shared-charity-2026-09-18-m0v2-s3/modules/organizations-v1-2026.9.18-r1/manifest.sig",
+      "bytes": 513,
+      "sha256": "f366611dc2f75029ab63bf911bb89fe23a202e85a225725b491a320460f80da9"
+    },
+    {
+      "path": "releases/shared-charity-2026-09-18-m0v2-s3/release-set.json",
+      "bytes": 2328,
+      "sha256": "34d98c1b975fda17e2e81daaf7bbcbcf180e1bc7c30c165b3c1b2578253cae45"
+    },
+    {
+      "path": "releases/shared-charity-2026-09-18-m0v2-s3/release-set.sig",
+      "bytes": 513,
+      "sha256": "59c2e1845fd265645335d41329148ebe0e411d067ea7df48984a65815b3eff90"
+    },
+    {
+      "path": "trusted-public-key.pem",
+      "bytes": 625,
+      "sha256": "9671cc745a71f3b35ac2281bfd4e8da9335db9c6a44beda0ae5cf380b292c1f6"
+    }
+  ]
+}
