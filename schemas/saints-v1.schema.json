@@ -1,0 +1,101 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://svetlost33.rs/schemas/saints-v1.schema.json",
+  "title": "Svetlost33 saints and feasts short editorial library v1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "version", "revision", "approval_id", "review_status", "authorship", "calendar_binding", "sources", "articles", "days"],
+  "properties": {
+    "schema_version": {"const": "svetlost33-saints-1"},
+    "version": {"$ref": "#/$defs/id"},
+    "revision": {"$ref": "#/$defs/revision"},
+    "approval_id": {"$ref": "#/$defs/id"},
+    "review_status": {"enum": ["approved", "draft", "rejected"]},
+    "authorship": {
+      "type": "object", "additionalProperties": false,
+      "required": ["kind", "assistance", "attribution", "clerical_review"],
+      "properties": {
+        "kind": {"const": "editorial_summary"}, "assistance": {"const": "ai"},
+        "attribution": {"$ref": "#/$defs/localized"}, "clerical_review": {"type": "null"}
+      }
+    },
+    "calendar_binding": {
+      "type": "object", "additionalProperties": false,
+      "required": ["module_id", "version", "revision", "path", "sha256"],
+      "properties": {
+        "module_id": {"$ref": "#/$defs/id"}, "version": {"$ref": "#/$defs/id"},
+        "revision": {"$ref": "#/$defs/revision"},
+        "path": {"type": "string", "maxLength": 160, "pattern": "^data/calendar\\.[0-9]{4}\\.json$"},
+        "sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"}
+      }
+    },
+    "sources": {"type": "array", "minItems": 1, "maxItems": 512, "items": {"$ref": "#/$defs/source"}},
+    "articles": {"type": "array", "minItems": 1, "maxItems": 64, "items": {"$ref": "#/$defs/article"}},
+    "days": {"type": "array", "minItems": 1, "maxItems": 366, "items": {"$ref": "#/$defs/day"}}
+  },
+  "$defs": {
+    "id": {"type": "string", "pattern": "^[a-z0-9][a-z0-9._-]{2,63}$"},
+    "revision": {"type": "integer", "minimum": 1, "maximum": 9007199254740991},
+    "date": {"type": "string", "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$"},
+    "shortText": {"type": "string", "minLength": 1, "maxLength": 200},
+    "localized": {
+      "type": "object", "additionalProperties": false, "required": ["sr-Cyrl", "sr-Latn"],
+      "properties": {"sr-Cyrl": {"$ref": "#/$defs/shortText"}, "sr-Latn": {"$ref": "#/$defs/shortText"}}
+    },
+    "sourceIds": {"type": "array", "minItems": 1, "maxItems": 8, "uniqueItems": true, "items": {"$ref": "#/$defs/id"}},
+    "source": {
+      "type": "object", "additionalProperties": false,
+      "required": ["id", "kind", "title", "url", "publisher", "original_author", "published_on", "reviewed_on"],
+      "properties": {
+        "id": {"$ref": "#/$defs/id"}, "kind": {"enum": ["calendar", "article"]},
+        "title": {"type": "string", "minLength": 1, "maxLength": 300},
+        "url": {"type": "string", "minLength": 1, "maxLength": 2048, "pattern": "^https://"},
+        "publisher": {"type": "string", "minLength": 1, "maxLength": 300},
+        "original_author": {"type": ["string", "null"], "minLength": 1, "maxLength": 300},
+        "published_on": {"anyOf": [{"$ref": "#/$defs/date"}, {"type": "null"}]},
+        "reviewed_on": {"$ref": "#/$defs/date"}
+      }
+    },
+    "content": {
+      "type": "object", "additionalProperties": false, "required": ["title", "intro", "body", "takeaway"],
+      "properties": {
+        "title": {"$ref": "#/$defs/shortText"},
+        "intro": {"type": "string", "minLength": 1, "maxLength": 1000},
+        "body": {"type": "array", "minItems": 1, "maxItems": 8, "items": {"type": "string", "minLength": 1, "maxLength": 3000}},
+        "takeaway": {"type": "string", "minLength": 1, "maxLength": 1000}
+      }
+    },
+    "article": {
+      "type": "object", "additionalProperties": false,
+      "required": ["id", "revision", "type", "subtype", "source_ids", "content"],
+      "properties": {
+        "id": {"$ref": "#/$defs/id"}, "revision": {"$ref": "#/$defs/revision"},
+        "type": {"enum": ["saint", "group", "feast"]},
+        "subtype": {"enum": [null, "feast", "commemoration_of_event"]},
+        "source_ids": {"$ref": "#/$defs/sourceIds"},
+        "content": {
+          "type": "object", "additionalProperties": false, "required": ["sr-Cyrl", "sr-Latn"],
+          "properties": {"sr-Cyrl": {"$ref": "#/$defs/content"}, "sr-Latn": {"$ref": "#/$defs/content"}}
+        }
+      }
+    },
+    "note": {
+      "type": "object", "additionalProperties": false, "required": ["kind", "label", "related_article_id", "source_ids"],
+      "properties": {
+        "kind": {"enum": ["forefeast", "leavetaking"]}, "label": {"$ref": "#/$defs/localized"},
+        "related_article_id": {"$ref": "#/$defs/id"}, "source_ids": {"$ref": "#/$defs/sourceIds"}
+      }
+    },
+    "day": {
+      "type": "object", "additionalProperties": false,
+      "required": ["date", "julian_date", "calendar_title", "calendar_source_ids", "article_ids", "complete_saint_list", "calendar_notes"],
+      "properties": {
+        "date": {"$ref": "#/$defs/date"}, "julian_date": {"$ref": "#/$defs/date"},
+        "calendar_title": {"$ref": "#/$defs/localized"}, "calendar_source_ids": {"$ref": "#/$defs/sourceIds"},
+        "article_ids": {"type": "array", "minItems": 1, "maxItems": 8, "uniqueItems": true, "items": {"$ref": "#/$defs/id"}},
+        "complete_saint_list": {"const": false},
+        "calendar_notes": {"type": "array", "maxItems": 4, "items": {"$ref": "#/$defs/note"}}
+      }
+    }
+  }
+}

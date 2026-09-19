@@ -1,0 +1,773 @@
+{
+  "schema_version": "svetlost33-saints-test-expectations-1",
+  "fixture": "saints-v1.json",
+  "fixture_sha256": "ab4ced9bbbec3f0765e9c6d45c866c13e76b0adc20d6eb75693be778c7cab000",
+  "fixture_bytes": 30924,
+  "manuscript_sha256": "5847568a2aab22446ef4ab875fbceceecc9e800fad9344e5f23df59c4931ee2a",
+  "provenance": "Owner-approved manuscript exported deterministically; unsigned fixture, never production authentication.",
+  "authoritative_calendar": {
+    "repository_path": "releases/v2/production/releases/shared-annual-2026-r1-m0v2-s2/modules/calendar-2026-r1-2026.1.1-r2/data/calendar.2026.json",
+    "module_id": "calendar-2026-r1",
+    "version": "2026.1.1",
+    "revision": 2,
+    "path": "data/calendar.2026.json",
+    "sha256": "a1b6a5d5911ae03f77802bd466227f0c1ea4fe97708b1b6f92cd4b08847c7c9c"
+  },
+  "context": {
+    "contentAuthenticated": true,
+    "calendarAuthenticated": true,
+    "moduleContext": {
+      "module_id": "saints-v1",
+      "module_type": "library",
+      "required": false,
+      "capabilities": [
+        "saints-v1"
+      ],
+      "payload_path": "data/saints-v1.json",
+      "version": "2026.9.19",
+      "revision": 1
+    }
+  },
+  "context_instructions": "Test-only context. Load calendarContext identity from authoritative_calendar (omit repository_path) and days from the exact hash-checked canonical calendar. Never take authentication or identity from this fixture in runtime.",
+  "mutation_format": "Replace/add the property at path segments in a deep copy of payload/context before evaluation. Paths contain strings or zero-based integer array indices.",
+  "word_counts": [
+    {
+      "id": "michael-miracle-chonae",
+      "sr-Cyrl": 144,
+      "sr-Latn": 144
+    },
+    {
+      "id": "martyr-sozont",
+      "sr-Cyrl": 142,
+      "sr-Latn": 142
+    },
+    {
+      "id": "nativity-theotokos",
+      "sr-Cyrl": 135,
+      "sr-Latn": 135
+    },
+    {
+      "id": "joachim-and-anna",
+      "sr-Cyrl": 125,
+      "sr-Latn": 125
+    },
+    {
+      "id": "minodora-mitrodora-nimfodora",
+      "sr-Cyrl": 129,
+      "sr-Latn": 129
+    },
+    {
+      "id": "theodora-alexandria",
+      "sr-Cyrl": 125,
+      "sr-Latn": 125
+    },
+    {
+      "id": "hieromartyr-autonomus",
+      "sr-Cyrl": 128,
+      "sr-Latn": 128
+    }
+  ],
+  "calendar_notes": [
+    {
+      "date": "2026-09-20",
+      "kind": "forefeast",
+      "related_article_id": "nativity-theotokos"
+    },
+    {
+      "date": "2026-09-25",
+      "kind": "leavetaking",
+      "related_article_id": "nativity-theotokos"
+    }
+  ],
+  "cases": [
+    {
+      "id": "available-2026-09-19",
+      "date": "2026-09-19",
+      "payload_mutations": [],
+      "context_mutations": [],
+      "expected": {
+        "eligible": true,
+        "reason": null,
+        "article_ids": [
+          "michael-miracle-chonae"
+        ]
+      }
+    },
+    {
+      "id": "available-2026-09-20",
+      "date": "2026-09-20",
+      "payload_mutations": [],
+      "context_mutations": [],
+      "expected": {
+        "eligible": true,
+        "reason": null,
+        "article_ids": [
+          "martyr-sozont"
+        ]
+      }
+    },
+    {
+      "id": "available-2026-09-21",
+      "date": "2026-09-21",
+      "payload_mutations": [],
+      "context_mutations": [],
+      "expected": {
+        "eligible": true,
+        "reason": null,
+        "article_ids": [
+          "nativity-theotokos"
+        ]
+      }
+    },
+    {
+      "id": "available-2026-09-22",
+      "date": "2026-09-22",
+      "payload_mutations": [],
+      "context_mutations": [],
+      "expected": {
+        "eligible": true,
+        "reason": null,
+        "article_ids": [
+          "joachim-and-anna"
+        ]
+      }
+    },
+    {
+      "id": "available-2026-09-23",
+      "date": "2026-09-23",
+      "payload_mutations": [],
+      "context_mutations": [],
+      "expected": {
+        "eligible": true,
+        "reason": null,
+        "article_ids": [
+          "minodora-mitrodora-nimfodora"
+        ]
+      }
+    },
+    {
+      "id": "available-2026-09-24",
+      "date": "2026-09-24",
+      "payload_mutations": [],
+      "context_mutations": [],
+      "expected": {
+        "eligible": true,
+        "reason": null,
+        "article_ids": [
+          "theodora-alexandria"
+        ]
+      }
+    },
+    {
+      "id": "available-2026-09-25",
+      "date": "2026-09-25",
+      "payload_mutations": [],
+      "context_mutations": [],
+      "expected": {
+        "eligible": true,
+        "reason": null,
+        "article_ids": [
+          "hieromartyr-autonomus"
+        ]
+      }
+    },
+    {
+      "id": "outside-pilot",
+      "date": "2026-09-26",
+      "payload_mutations": [],
+      "context_mutations": [],
+      "expected": {
+        "eligible": false,
+        "reason": "uncovered_date"
+      }
+    },
+    {
+      "id": "outside-pilot-year",
+      "date": "2027-09-19",
+      "payload_mutations": [],
+      "context_mutations": [],
+      "expected": {
+        "eligible": false,
+        "reason": "uncovered_date"
+      }
+    },
+    {
+      "id": "invalid-request-date",
+      "date": "2026-02-30",
+      "payload_mutations": [],
+      "context_mutations": [],
+      "expected": {
+        "eligible": false,
+        "reason": "invalid_date"
+      }
+    },
+    {
+      "id": "not-authenticated",
+      "date": "2026-09-19",
+      "payload_mutations": [],
+      "context_mutations": [
+        {
+          "path": [
+            "contentAuthenticated"
+          ],
+          "value": false
+        }
+      ],
+      "expected": {
+        "eligible": false,
+        "reason": "content_not_authenticated"
+      }
+    },
+    {
+      "id": "calendar-not-authenticated",
+      "date": "2026-09-19",
+      "payload_mutations": [],
+      "context_mutations": [
+        {
+          "path": [
+            "calendarAuthenticated"
+          ],
+          "value": false
+        }
+      ],
+      "expected": {
+        "eligible": false,
+        "reason": "calendar_not_authenticated"
+      }
+    },
+    {
+      "id": "draft",
+      "date": "2026-09-19",
+      "payload_mutations": [
+        {
+          "path": [
+            "review_status"
+          ],
+          "value": "draft"
+        }
+      ],
+      "context_mutations": [],
+      "expected": {
+        "eligible": false,
+        "reason": "unapproved"
+      }
+    },
+    {
+      "id": "unknown-schema",
+      "date": "2026-09-19",
+      "payload_mutations": [
+        {
+          "path": [
+            "schema_version"
+          ],
+          "value": "svetlost33-saints-2"
+        }
+      ],
+      "context_mutations": [],
+      "expected": {
+        "eligible": false,
+        "reason": "unsupported_schema"
+      }
+    },
+    {
+      "id": "wrong-module-id",
+      "date": "2026-09-19",
+      "payload_mutations": [],
+      "context_mutations": [
+        {
+          "path": [
+            "moduleContext",
+            "module_id"
+          ],
+          "value": "library-annual-2026-r1"
+        }
+      ],
+      "expected": {
+        "eligible": false,
+        "reason": "module_mismatch"
+      }
+    },
+    {
+      "id": "required-module",
+      "date": "2026-09-19",
+      "payload_mutations": [],
+      "context_mutations": [
+        {
+          "path": [
+            "moduleContext",
+            "required"
+          ],
+          "value": true
+        }
+      ],
+      "expected": {
+        "eligible": false,
+        "reason": "module_mismatch"
+      }
+    },
+    {
+      "id": "missing-capability",
+      "date": "2026-09-19",
+      "payload_mutations": [],
+      "context_mutations": [
+        {
+          "path": [
+            "moduleContext",
+            "capabilities"
+          ],
+          "value": []
+        }
+      ],
+      "expected": {
+        "eligible": false,
+        "reason": "module_mismatch"
+      }
+    },
+    {
+      "id": "wrong-module-revision",
+      "date": "2026-09-19",
+      "payload_mutations": [],
+      "context_mutations": [
+        {
+          "path": [
+            "moduleContext",
+            "revision"
+          ],
+          "value": 2
+        }
+      ],
+      "expected": {
+        "eligible": false,
+        "reason": "module_mismatch"
+      }
+    },
+    {
+      "id": "calendar-module_id-mismatch",
+      "date": "2026-09-19",
+      "payload_mutations": [],
+      "context_mutations": [
+        {
+          "path": [
+            "calendarContext",
+            "module_id"
+          ],
+          "value": "calendar-other"
+        }
+      ],
+      "expected": {
+        "eligible": false,
+        "reason": "calendar_mismatch"
+      }
+    },
+    {
+      "id": "calendar-version-mismatch",
+      "date": "2026-09-19",
+      "payload_mutations": [],
+      "context_mutations": [
+        {
+          "path": [
+            "calendarContext",
+            "version"
+          ],
+          "value": "2026.1.2"
+        }
+      ],
+      "expected": {
+        "eligible": false,
+        "reason": "calendar_mismatch"
+      }
+    },
+    {
+      "id": "calendar-revision-mismatch",
+      "date": "2026-09-19",
+      "payload_mutations": [],
+      "context_mutations": [
+        {
+          "path": [
+            "calendarContext",
+            "revision"
+          ],
+          "value": 3
+        }
+      ],
+      "expected": {
+        "eligible": false,
+        "reason": "calendar_mismatch"
+      }
+    },
+    {
+      "id": "calendar-path-mismatch",
+      "date": "2026-09-19",
+      "payload_mutations": [],
+      "context_mutations": [
+        {
+          "path": [
+            "calendarContext",
+            "path"
+          ],
+          "value": "data/calendar.2027.json"
+        }
+      ],
+      "expected": {
+        "eligible": false,
+        "reason": "calendar_mismatch"
+      }
+    },
+    {
+      "id": "calendar-sha256-mismatch",
+      "date": "2026-09-19",
+      "payload_mutations": [],
+      "context_mutations": [
+        {
+          "path": [
+            "calendarContext",
+            "sha256"
+          ],
+          "value": "0000000000000000000000000000000000000000000000000000000000000000"
+        }
+      ],
+      "expected": {
+        "eligible": false,
+        "reason": "calendar_mismatch"
+      }
+    },
+    {
+      "id": "exact-calendar-title-mismatch",
+      "date": "2026-09-19",
+      "payload_mutations": [
+        {
+          "path": [
+            "days",
+            0,
+            "calendar_title"
+          ],
+          "value": {
+            "sr-Cyrl": "Други спомен",
+            "sr-Latn": "Drugi spomen"
+          }
+        }
+      ],
+      "context_mutations": [],
+      "expected": {
+        "eligible": false,
+        "reason": "calendar_day_mismatch"
+      }
+    },
+    {
+      "id": "exact-julian-date-mismatch",
+      "date": "2026-09-19",
+      "payload_mutations": [
+        {
+          "path": [
+            "days",
+            0,
+            "julian_date"
+          ],
+          "value": "2026-09-07"
+        }
+      ],
+      "context_mutations": [],
+      "expected": {
+        "eligible": false,
+        "reason": "calendar_day_mismatch"
+      }
+    },
+    {
+      "id": "duplicate-day",
+      "date": "2026-09-19",
+      "payload_mutations": [
+        {
+          "path": [
+            "days",
+            1,
+            "date"
+          ],
+          "value": "2026-09-19"
+        }
+      ],
+      "context_mutations": [],
+      "expected": {
+        "eligible": false,
+        "reason": "malformed"
+      }
+    },
+    {
+      "id": "duplicate-article",
+      "date": "2026-09-19",
+      "payload_mutations": [
+        {
+          "path": [
+            "articles",
+            1,
+            "id"
+          ],
+          "value": "michael-miracle-chonae"
+        }
+      ],
+      "context_mutations": [],
+      "expected": {
+        "eligible": false,
+        "reason": "malformed"
+      }
+    },
+    {
+      "id": "duplicate-source",
+      "date": "2026-09-19",
+      "payload_mutations": [
+        {
+          "path": [
+            "sources",
+            1,
+            "id"
+          ],
+          "value": "eparhija-month-09"
+        }
+      ],
+      "context_mutations": [],
+      "expected": {
+        "eligible": false,
+        "reason": "malformed"
+      }
+    },
+    {
+      "id": "unknown-article",
+      "date": "2026-09-19",
+      "payload_mutations": [
+        {
+          "path": [
+            "days",
+            0,
+            "article_ids"
+          ],
+          "value": [
+            "missing-article"
+          ]
+        }
+      ],
+      "context_mutations": [],
+      "expected": {
+        "eligible": false,
+        "reason": "malformed"
+      }
+    },
+    {
+      "id": "wrong-kind-article-source",
+      "date": "2026-09-19",
+      "payload_mutations": [
+        {
+          "path": [
+            "articles",
+            0,
+            "source_ids"
+          ],
+          "value": [
+            "eparhija-month-09"
+          ]
+        }
+      ],
+      "context_mutations": [],
+      "expected": {
+        "eligible": false,
+        "reason": "malformed"
+      }
+    },
+    {
+      "id": "wrong-kind-calendar-source",
+      "date": "2026-09-19",
+      "payload_mutations": [
+        {
+          "path": [
+            "days",
+            0,
+            "calendar_source_ids"
+          ],
+          "value": [
+            "mcp-michael-chonae-2026"
+          ]
+        }
+      ],
+      "context_mutations": [],
+      "expected": {
+        "eligible": false,
+        "reason": "malformed"
+      }
+    },
+    {
+      "id": "missing-related-feast",
+      "date": "2026-09-19",
+      "payload_mutations": [
+        {
+          "path": [
+            "days",
+            1,
+            "calendar_notes",
+            0,
+            "related_article_id"
+          ],
+          "value": "missing-article"
+        }
+      ],
+      "context_mutations": [],
+      "expected": {
+        "eligible": false,
+        "reason": "malformed"
+      }
+    },
+    {
+      "id": "related-person-not-feast",
+      "date": "2026-09-19",
+      "payload_mutations": [
+        {
+          "path": [
+            "days",
+            1,
+            "calendar_notes",
+            0,
+            "related_article_id"
+          ],
+          "value": "martyr-sozont"
+        }
+      ],
+      "context_mutations": [],
+      "expected": {
+        "eligible": false,
+        "reason": "malformed"
+      }
+    },
+    {
+      "id": "impossible-civil-date",
+      "date": "2026-09-19",
+      "payload_mutations": [
+        {
+          "path": [
+            "days",
+            0,
+            "date"
+          ],
+          "value": "2026-02-30"
+        }
+      ],
+      "context_mutations": [],
+      "expected": {
+        "eligible": false,
+        "reason": "malformed"
+      }
+    },
+    {
+      "id": "impossible-julian-date",
+      "date": "2026-09-19",
+      "payload_mutations": [
+        {
+          "path": [
+            "days",
+            0,
+            "julian_date"
+          ],
+          "value": "2026-02-30"
+        }
+      ],
+      "context_mutations": [],
+      "expected": {
+        "eligible": false,
+        "reason": "malformed"
+      }
+    },
+    {
+      "id": "latin-title-not-transliteration",
+      "date": "2026-09-19",
+      "payload_mutations": [
+        {
+          "path": [
+            "days",
+            0,
+            "calendar_title",
+            "sr-Latn"
+          ],
+          "value": "Drugi naslov"
+        }
+      ],
+      "context_mutations": [],
+      "expected": {
+        "eligible": false,
+        "reason": "malformed"
+      }
+    },
+    {
+      "id": "latin-body-not-transliteration",
+      "date": "2026-09-19",
+      "payload_mutations": [
+        {
+          "path": [
+            "articles",
+            0,
+            "content",
+            "sr-Latn",
+            "body",
+            0
+          ],
+          "value": "Drugi tekst."
+        }
+      ],
+      "context_mutations": [],
+      "expected": {
+        "eligible": false,
+        "reason": "malformed"
+      }
+    },
+    {
+      "id": "unknown-root-key",
+      "date": "2026-09-19",
+      "payload_mutations": [
+        {
+          "path": [
+            "executable"
+          ],
+          "value": "no"
+        }
+      ],
+      "context_mutations": [],
+      "expected": {
+        "eligible": false,
+        "reason": "malformed"
+      }
+    },
+    {
+      "id": "complete-list-claim",
+      "date": "2026-09-19",
+      "payload_mutations": [
+        {
+          "path": [
+            "days",
+            0,
+            "complete_saint_list"
+          ],
+          "value": true
+        }
+      ],
+      "context_mutations": [],
+      "expected": {
+        "eligible": false,
+        "reason": "malformed"
+      }
+    },
+    {
+      "id": "unsafe-source-url",
+      "date": "2026-09-19",
+      "payload_mutations": [
+        {
+          "path": [
+            "sources",
+            0,
+            "url"
+          ],
+          "value": "javascript:alert(1)"
+        }
+      ],
+      "context_mutations": [],
+      "expected": {
+        "eligible": false,
+        "reason": "malformed"
+      }
+    }
+  ]
+}
