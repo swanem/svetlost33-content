@@ -1,0 +1,165 @@
+{
+  "draft_format": "saints-editorial-pilot-1",
+  "id": "saints-pilot-2026-09-19-r1",
+  "prepared_on": "2026-09-19",
+  "status": "EDITORIALLY_APPROVED_IMPLEMENTATION",
+  "runtime_compatible": false,
+  "production_ready": false,
+  "published": false,
+  "intended_platforms": ["android", "ios"],
+  "intended_distribution_scope": ["RS", "BA"],
+  "content_document": "TEKSTOVI.md",
+  "master_language": "sr-Cyrl",
+  "latin_policy": "derive_with_existing_deterministic_transliteration_at_export_then_review",
+  "authorship": "AI-assisted editorial summaries; not quotations or church-approved texts",
+  "human_editorial_approval": {
+    "status": "APPROVED",
+    "recorded_on": "2026-09-19",
+    "record": "approvals/saints-pilot-2026-09-19/owner-approval.json",
+    "manuscript_sha256": "5847568a2aab22446ef4ab875fbceceecc9e800fad9344e5f23df59c4931ee2a",
+    "platforms": ["android", "ios"],
+    "scope": "seven_reviewed_texts_and_native_implementation_not_publication"
+  },
+  "format_approval": {
+    "status": "APPROVED",
+    "recorded_on": "2026-09-19",
+    "statement": "odgovara kratki format",
+    "scope": "short_format_only_not_exact_texts_implementation_or_publication",
+    "platforms": ["android", "ios"],
+    "target_words": {"min": 100, "max": 200, "includes": ["intro", "body", "editorial_takeaway"], "excludes": ["title", "dates", "sources"]},
+    "long_form_expansion": false,
+    "canonical_spec": "v0.25.2 / SF-01"
+  },
+  "clerical_review": null,
+  "rights": {
+    "basis": "USER_ATTESTATION",
+    "statement": "može prava racunaj da imamo",
+    "recorded_on": "2026-09-19",
+    "scope": "Text preparation for the daily saints and feasts feature",
+    "independently_verified": false,
+    "public_license_assigned": false,
+    "excludes": ["icons", "photographs", "charity_logos", "audio"]
+  },
+  "calendar_input": {
+    "path": "releases/v2/production/releases/shared-annual-2026-r1-m0v2-s2/modules/calendar-2026-r1-2026.1.1-r2/data/calendar.2026.json",
+    "sha256": "a1b6a5d5911ae03f77802bd466227f0c1ea4fe97708b1b6f92cd4b08847c7c9c",
+    "source_id": "eparhija-month-09",
+    "url": "https://www.eparhija.at/kalendar?m=2026-9",
+    "publisher": "Епархија аустријска Српске православне цркве",
+    "source_snapshot_fetched_on": "2026-09-15",
+    "mapping_checked_on": "2026-09-19",
+    "preserve_source_record": true,
+    "complete_saint_list_verified": false,
+    "existing_title_review": "publisher_page_titles_differ_not_resolved",
+    "existing_reading_page_title_cyrl": "—",
+    "calendar_date_policy": "civil_date_in_local_zone_not_reading_effective_date"
+  },
+  "sources": [
+    {
+      "id": "mcp-michael-chonae-2026",
+      "title": "Чудо Светог архангела Михаила у Хони",
+      "url": "https://mitropolija.com/2026/09/18/cudo-svetog-arhangela-mihaila-u-honi-4/",
+      "publisher": "Митрополија црногорско-приморска",
+      "original_author": null,
+      "published_on": "2026-09-18",
+      "reviewed_on": "2026-09-19",
+      "access_method": "search_index_article_text",
+      "review_scope": "hagiographical_narrative_not_independent_historical_verification"
+    },
+    {
+      "id": "mcp-sozont-2025",
+      "title": "Свети мученик Созонт",
+      "url": "https://mitropolija.com/2025/09/19/sveti-mucenik-sozont/",
+      "publisher": "Митрополија црногорско-приморска",
+      "original_author": null,
+      "published_on": "2025-09-19",
+      "reviewed_on": "2026-09-19",
+      "access_method": "direct_page",
+      "review_scope": "hagiographical_narrative_not_independent_historical_verification"
+    },
+    {
+      "id": "spc-nativity-2021",
+      "title": "Рођење Пресвете Богородице - почетак истинске радости",
+      "url": "https://spc.rs/sr/news/4444.rodenje-presvete-bogorodice---pocetak-istinske-radosti.html",
+      "publisher": "Информативна служба Српске православне цркве",
+      "original_author": "катихета Бранислав Илић",
+      "published_on": "2021-09-21",
+      "reviewed_on": "2026-09-19",
+      "access_method": "search_index_article_text",
+      "review_scope": "feast_explanation_and_church_tradition"
+    },
+    {
+      "id": "spc-joachim-anna-2025",
+      "title": "Свети праведни богородитељи Јоаким и Ана",
+      "url": "https://spc.rs/sr/news/14829.sveti-pravedni-bogoroditelji-joakim-i-ana-.html",
+      "publisher": "Информативна служба Српске православне цркве",
+      "original_author": null,
+      "published_on": "2025-09-22",
+      "reviewed_on": "2026-09-19",
+      "access_method": "search_index_article_text",
+      "review_scope": "hagiographical_narrative_not_independent_historical_verification"
+    },
+    {
+      "id": "spc-three-sisters-2022",
+      "title": "Свете мученице Минодора, Митродора и Нимфодора",
+      "url": "https://spc.rs/sr/news/8121.svete-mucenice-minodora%2C-mitrodora-i-nimfodora.html",
+      "publisher": "Информативна служба Српске православне цркве",
+      "original_author": null,
+      "published_on": "2022-09-23",
+      "reviewed_on": "2026-09-19",
+      "access_method": "search_index_article_text",
+      "review_scope": "hagiographical_narrative_not_independent_historical_verification"
+    },
+    {
+      "id": "spc-theodora-2025",
+      "title": "Преподобна Теодора Александријска",
+      "url": "https://www.spc.rs/sr/news/10067.prepodobna-teodora.html",
+      "publisher": "Информативна служба Српске православне цркве",
+      "original_author": null,
+      "published_on": "2025-09-24",
+      "reviewed_on": "2026-09-19",
+      "access_method": "search_index_article_text",
+      "review_scope": "hagiographical_narrative_not_independent_historical_verification"
+    },
+    {
+      "id": "mcp-autonomus-2025",
+      "title": "Свети свештеномученик Автоном",
+      "url": "https://mitropolija.com/2025/09/24/sveti-svestenomucenik-avtonom-2/",
+      "publisher": "Митрополија црногорско-приморска",
+      "original_author": null,
+      "published_on": "2025-09-24",
+      "reviewed_on": "2026-09-19",
+      "access_method": "search_index_article_text",
+      "review_scope": "hagiographical_narrative_not_independent_historical_verification"
+    },
+    {
+      "id": "spc-autonomus",
+      "title": "Свети свештеномученик Автоном",
+      "url": "https://www.spc.rs/sr/news/11761.sveti-svestenomucenik-avtonom.html",
+      "publisher": "Информативна служба Српске православне цркве",
+      "original_author": null,
+      "published_on": null,
+      "reviewed_on": "2026-09-19",
+      "access_method": "search_index_article_text",
+      "review_scope": "hagiographical_narrative_not_independent_historical_verification"
+    }
+  ],
+  "articles": [
+    {"id": "michael-miracle-chonae", "revision": 1, "type": "feast", "subtype": "commemoration_of_event", "title_cyrl": "Чудо Светог архангела Михаила у Хони", "source_ids": ["mcp-michael-chonae-2026"]},
+    {"id": "martyr-sozont", "revision": 1, "type": "saint", "title_cyrl": "Свети мученик Созонт", "source_ids": ["mcp-sozont-2025"]},
+    {"id": "nativity-theotokos", "revision": 1, "type": "feast", "subtype": "feast", "title_cyrl": "Рођење Пресвете Богородице – Мала Госпојина", "source_ids": ["spc-nativity-2021"]},
+    {"id": "joachim-and-anna", "revision": 1, "type": "group", "title_cyrl": "Свети праведни богородитељи Јоаким и Ана", "source_ids": ["spc-joachim-anna-2025"]},
+    {"id": "minodora-mitrodora-nimfodora", "revision": 1, "type": "group", "title_cyrl": "Свете мученице Минодора, Митродора и Нимфодора", "source_ids": ["spc-three-sisters-2022"]},
+    {"id": "theodora-alexandria", "revision": 1, "type": "saint", "title_cyrl": "Преподобна Теодора Александријска", "source_ids": ["spc-theodora-2025"]},
+    {"id": "hieromartyr-autonomus", "revision": 1, "type": "saint", "title_cyrl": "Свети свештеномученик Автоном", "source_ids": ["mcp-autonomus-2025", "spc-autonomus"]}
+  ],
+  "days": [
+    {"date": "2026-09-19", "julian_date": "2026-09-06", "calendar_title_cyrl": "Чудо Светог Архангела Михаила", "article_ids": ["michael-miracle-chonae"], "calendar_notes": []},
+    {"date": "2026-09-20", "julian_date": "2026-09-07", "calendar_title_cyrl": "Свети мученик Созонт (Претпразништво Рођења Пресвете Богородице)", "article_ids": ["martyr-sozont"], "calendar_notes": [{"kind": "forefeast", "label_cyrl": "Претпразништво Рођења Пресвете Богородице", "related_article_id": "nativity-theotokos", "source_ids": ["eparhija-month-09"]}]},
+    {"date": "2026-09-21", "julian_date": "2026-09-08", "calendar_title_cyrl": "Рођење Пресвете Богородице – Мала Госпојина", "article_ids": ["nativity-theotokos"], "calendar_notes": []},
+    {"date": "2026-09-22", "julian_date": "2026-09-09", "calendar_title_cyrl": "Свети праведни богородитељи Јоаким и Ана", "article_ids": ["joachim-and-anna"], "calendar_notes": []},
+    {"date": "2026-09-23", "julian_date": "2026-09-10", "calendar_title_cyrl": "Свете мученице Минодора, Митродора и Нимфодора", "article_ids": ["minodora-mitrodora-nimfodora"], "calendar_notes": []},
+    {"date": "2026-09-24", "julian_date": "2026-09-11", "calendar_title_cyrl": "Преподобна Теодора Александријска", "article_ids": ["theodora-alexandria"], "calendar_notes": []},
+    {"date": "2026-09-25", "julian_date": "2026-09-12", "calendar_title_cyrl": "Свети свештеномученик Автоном (Оданије Рођења Пресвете Богородице)", "article_ids": ["hieromartyr-autonomus"], "calendar_notes": [{"kind": "leavetaking", "label_cyrl": "Оданије Рођења Пресвете Богородице", "related_article_id": "nativity-theotokos", "source_ids": ["eparhija-month-09"]}]}
+  ]
+}
