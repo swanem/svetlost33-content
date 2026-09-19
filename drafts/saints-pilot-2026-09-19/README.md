@@ -26,7 +26,7 @@ Dodir otvara postojeći detalj, proširen za čitanje unutar aplikacije:
 
 1. Naziv spomena i jasno označeni građanski i crkveni datum.
 2. Kratak uvod, dve rečenice koje korisniku objašnjavaju o kome ili o čemu čita.
-3. **O svetitelju**, **O svetiteljima** ili **O prazniku**, u nekoliko kratkih pasusa.
+3. **O svetitelju**, **O svetiteljima**, **O prazniku** ili **O spomenu** za događaj, u nekoliko kratkih pasusa.
 4. Kratak završetak **Šta izdvajamo**, kao označen urednički osvrt, nikada izmišljen citat ili poruka svetitelja korisniku.
 5. **Izvori i podaci o tekstu**: originalni naslov, izdavač, autor ako je potvrđen, link, datum pregleda, urednička obrada. Otvaranje originala je opciono; glavni tekst se čita offline unutar aplikacije.
 
@@ -40,7 +40,8 @@ Kada isti dan ima više odvojenih obrađenih spomena, prikazati jednostavnu list
 - Promena Jutro / Dan / Veče, slika ili slave ne menja spomen. Posle ponoći kalendar može biti današnji, a automatsko čitanje prethodna večer; datume ne spajati.
 - Stara veza iz vidžeta otvara datum i sadržajnu generaciju koju nosi. Ako nije današnji datum, naslov je „Spomen za …”, ne „Danas”. Nema zamene nepoznatog članka jučerašnjim.
 - Kalendarski naziv bez članka ostaje dostupan sa datumom i izvorom: „Detaljniji tekst nije dostupan u aplikaciji.” Ne nuditi prazan čitač.
-- Ako sam kalendarski podatak nedostaje: „Kalendarski podatak za ovaj datum nije dostupan.” Ne pisati „Danas nema svetitelja”.
+- Ako sam kalendarski podatak nedostaje: „Kalendarski naziv za ovaj datum nije dostupan.” Ne pisati „Danas nema svetitelja”.
+- Povezani praznik iz pretprazništva/odanija otvara jasno označen tekst praznika uz sačuvani datum i generaciju polaznog spomena; Back vraća isti polazni detalj i položaj. Ne menja se činjenica Danas slavimo.
 - Veliki vidžet zadržava postojeći kalendarski naziv; ne ubacivati žitije ili switcher. Mali vidžet ostaje bez reda svetitelja prema WG-03/WG-07.
 - Čitanje svetitelja, njegov ID i lični izbori ne šalju se u analitiku.
 
@@ -75,6 +76,6 @@ Vlasnik projekta je za ovaj sadržaj rekao: „može prava racunaj da imamo”. 
 2. Sačuvati kontrolni potpis i isti izvoz ćirilice/latinice za oba OS-a.
 3. Implementirati zajednički ugovor, šemu, izvoz i native čitač prema SF-02; koristiti razvojni/testni paket bez produkcionog potpisa.
 4. Proveriti paket, oba pisma, rad bez interneta, više spomena, prelaz ponoći, nepotpunu pokrivenost i povratak iz čitača.
-5. Objaviti zajednički paket tek nakon odgovarajuće implementacije i odobrenja. Nakon pilota širiti pokrivenost na ceo naredni mesec i zatim na ostatak godine.
+5. Objaviti zajednički paket tek nakon odgovarajuće implementacije i odobrenja. Budući predlog posle pilota: širenje na naredni mesec i ostatak godine, uz zaseban pregled i odobrenje novih tekstova/datuma.
 
 Lokalna strukturna provera: `node drafts/saints-pilot-2026-09-19/validate.mjs`. Ona nije zamena za ljudski urednički ili crkveni pregled.
