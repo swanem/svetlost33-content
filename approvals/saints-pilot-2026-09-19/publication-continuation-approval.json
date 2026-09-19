@@ -1,0 +1,44 @@
+{
+  "approval_id": "saints-pilot-publication-2026-09-19-r1",
+  "status": "APPROVED_FOR_SHARED_PUBLICATION",
+  "recorded_at": "2026-09-19T21:33:30Z",
+  "approver_role": "project_owner",
+  "statement": "Pokreni objavu novog sadržaja android i iPhone šta još treba?",
+  "platforms": ["android", "ios"],
+  "continuation_of": "saints-pilot-2026-09-19-owner-r1",
+  "original_approval": "approvals/saints-pilot-2026-09-19/owner-approval.json",
+  "original_approval_unchanged": true,
+  "approved_content_commit": "8561986abe32707b5f33a9ecf0b0f4c9bde34423",
+  "payload": {
+    "path": "fixtures/saints-v1/saints-v1.json",
+    "bytes": 30924,
+    "sha256": "ab4ced9bbbec3f0765e9c6d45c866c13e76b0adc20d6eb75693be778c7cab000",
+    "version": "2026.9.19",
+    "revision": 1
+  },
+  "module": {
+    "module_id": "saints-v1",
+    "module_type": "library",
+    "required": false,
+    "capabilities": ["saints-v1"],
+    "payload_path": "data/saints-v1.json",
+    "manifest_payload_files": 1
+  },
+  "publication": {
+    "release_set_id": "shared-saints-2026-09-19-m0v2-s6",
+    "sequence": 6,
+    "base_release_set_id": "shared-widget-excerpts-2026-09-18-m0v2-s4",
+    "base_sequence": 4,
+    "base_index_sha256": "c7e327ed6e7108a6c33a4df525934d85a945fd2baeccce0eccee161311d685e6",
+    "base_release_sha256": "6524151c4a249c85ad58bcb2ab475104a898ade76acefb417edb8561361e09c4",
+    "key_id": "svetlost33-content-2026-key-1",
+    "existing_public_key_pem_sha256": "9671cc745a71f3b35ac2281bfd4e8da9335db9c6a44beda0ae5cf380b292c1f6",
+    "minimum_clients": {"android": 35, "ios": "0.1.0"},
+    "preserved_module_ids": ["library-annual-2026-r1", "daily-cycles-r1", "calendar-2026-r1", "organizations-v1"],
+    "pending_sequence_5": "Reserved unsigned charity-details candidate remains untouched and is not activated by this approval. Any later charity publication must be rebased and resequenced."
+  },
+  "authorized": ["prepare_and_sign_exact_shared_saints_module_with_existing_key", "publish_immutable_artifacts_and_shared_signed_index", "normal_non_force_git_push", "public_signature_hash_and_compatibility_verification"],
+  "not_authorized_by_this_record": ["new_or_rewritten_saints_texts", "pending_charity_details_activation", "new_trust_anchor", "physical_device_installation"],
+  "clerical_review": null,
+  "complete_saint_list_verified": false
+}

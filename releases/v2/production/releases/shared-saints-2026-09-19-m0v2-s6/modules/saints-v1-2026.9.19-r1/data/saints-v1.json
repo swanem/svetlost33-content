@@ -1,0 +1,475 @@
+{
+  "schema_version": "svetlost33-saints-1",
+  "version": "2026.9.19",
+  "revision": 1,
+  "approval_id": "saints-pilot-2026-09-19-owner-r1",
+  "review_status": "approved",
+  "authorship": {
+    "kind": "editorial_summary",
+    "assistance": "ai",
+    "attribution": {
+      "sr-Cyrl": "Уреднички сажетак припремљен уз помоћ AI, према наведеним црквеним изворима. Није званично црквено одобрен текст.",
+      "sr-Latn": "Urednički sažetak pripremljen uz pomoć AI, prema navedenim crkvenim izvorima. Nije zvanično crkveno odobren tekst."
+    },
+    "clerical_review": null
+  },
+  "calendar_binding": {
+    "module_id": "calendar-2026-r1",
+    "version": "2026.1.1",
+    "revision": 2,
+    "path": "data/calendar.2026.json",
+    "sha256": "a1b6a5d5911ae03f77802bd466227f0c1ea4fe97708b1b6f92cd4b08847c7c9c"
+  },
+  "sources": [
+    {
+      "id": "eparhija-month-09",
+      "kind": "calendar",
+      "title": "Епархија аустријска СПЦ — календар",
+      "url": "https://www.eparhija.at/kalendar?m=2026-9",
+      "publisher": "Епархија аустријска Српске православне цркве",
+      "original_author": null,
+      "published_on": null,
+      "reviewed_on": "2026-09-19"
+    },
+    {
+      "id": "mcp-michael-chonae-2026",
+      "kind": "article",
+      "title": "Чудо Светог архангела Михаила у Хони",
+      "url": "https://mitropolija.com/2026/09/18/cudo-svetog-arhangela-mihaila-u-honi-4/",
+      "publisher": "Митрополија црногорско-приморска",
+      "original_author": null,
+      "published_on": "2026-09-18",
+      "reviewed_on": "2026-09-19"
+    },
+    {
+      "id": "mcp-sozont-2025",
+      "kind": "article",
+      "title": "Свети мученик Созонт",
+      "url": "https://mitropolija.com/2025/09/19/sveti-mucenik-sozont/",
+      "publisher": "Митрополија црногорско-приморска",
+      "original_author": null,
+      "published_on": "2025-09-19",
+      "reviewed_on": "2026-09-19"
+    },
+    {
+      "id": "spc-nativity-2021",
+      "kind": "article",
+      "title": "Рођење Пресвете Богородице - почетак истинске радости",
+      "url": "https://spc.rs/sr/news/4444.rodenje-presvete-bogorodice---pocetak-istinske-radosti.html",
+      "publisher": "Информативна служба Српске православне цркве",
+      "original_author": "катихета Бранислав Илић",
+      "published_on": "2021-09-21",
+      "reviewed_on": "2026-09-19"
+    },
+    {
+      "id": "spc-joachim-anna-2025",
+      "kind": "article",
+      "title": "Свети праведни богородитељи Јоаким и Ана",
+      "url": "https://spc.rs/sr/news/14829.sveti-pravedni-bogoroditelji-joakim-i-ana-.html",
+      "publisher": "Информативна служба Српске православне цркве",
+      "original_author": null,
+      "published_on": "2025-09-22",
+      "reviewed_on": "2026-09-19"
+    },
+    {
+      "id": "spc-three-sisters-2022",
+      "kind": "article",
+      "title": "Свете мученице Минодора, Митродора и Нимфодора",
+      "url": "https://spc.rs/sr/news/8121.svete-mucenice-minodora%2C-mitrodora-i-nimfodora.html",
+      "publisher": "Информативна служба Српске православне цркве",
+      "original_author": null,
+      "published_on": "2022-09-23",
+      "reviewed_on": "2026-09-19"
+    },
+    {
+      "id": "spc-theodora-2025",
+      "kind": "article",
+      "title": "Преподобна Теодора Александријска",
+      "url": "https://www.spc.rs/sr/news/10067.prepodobna-teodora.html",
+      "publisher": "Информативна служба Српске православне цркве",
+      "original_author": null,
+      "published_on": "2025-09-24",
+      "reviewed_on": "2026-09-19"
+    },
+    {
+      "id": "mcp-autonomus-2025",
+      "kind": "article",
+      "title": "Свети свештеномученик Автоном",
+      "url": "https://mitropolija.com/2025/09/24/sveti-svestenomucenik-avtonom-2/",
+      "publisher": "Митрополија црногорско-приморска",
+      "original_author": null,
+      "published_on": "2025-09-24",
+      "reviewed_on": "2026-09-19"
+    },
+    {
+      "id": "spc-autonomus",
+      "kind": "article",
+      "title": "Свети свештеномученик Автоном",
+      "url": "https://www.spc.rs/sr/news/11761.sveti-svestenomucenik-avtonom.html",
+      "publisher": "Информативна служба Српске православне цркве",
+      "original_author": null,
+      "published_on": null,
+      "reviewed_on": "2026-09-19"
+    }
+  ],
+  "articles": [
+    {
+      "id": "michael-miracle-chonae",
+      "revision": 1,
+      "type": "feast",
+      "subtype": "commemoration_of_event",
+      "source_ids": [
+        "mcp-michael-chonae-2026"
+      ],
+      "content": {
+        "sr-Cyrl": {
+          "title": "Чудо Светог архангела Михаила у Хони",
+          "intro": "Спомен избављења храма у Хони и молитве његовог чувара Архипа. Црквено предање приповеда о помоћи Светог архангела Михаила пред надолазећом водом.",
+          "body": [
+            "Предање овај догађај смешта у Фригију, код храма посвећеног Светом архангелу Михаилу. Уз храм је био извор, а о светињи се старао Архип, чији је живот описан као истрајно служење Богу и ближњима.",
+            "Противници су намеравали да усмере воду двеју река према храму и униште га. Архип се у опасности обратио Богу молитвом. Према предању, јавио се архангел Михаило, а вода је скренута у раселину стене. Храм и његов чувар били су сачувани.",
+            "После избављења Архип је заблагодарио Богу и наставио да служи при храму. Са овим догађајем предање повезује назив Хони, који упућује на понирање воде. Данашњим споменом Црква чува сећање на ово избављење и помоћ архангела Михаила."
+          ],
+          "takeaway": "У средишту приповести су молитва у невољи, верност служењу и благодарност за примљену помоћ."
+        },
+        "sr-Latn": {
+          "title": "Čudo Svetog arhangela Mihaila u Honi",
+          "intro": "Spomen izbavljenja hrama u Honi i molitve njegovog čuvara Arhipa. Crkveno predanje pripoveda o pomoći Svetog arhangela Mihaila pred nadolazećom vodom.",
+          "body": [
+            "Predanje ovaj događaj smešta u Frigiju, kod hrama posvećenog Svetom arhangelu Mihailu. Uz hram je bio izvor, a o svetinji se starao Arhip, čiji je život opisan kao istrajno služenje Bogu i bližnjima.",
+            "Protivnici su nameravali da usmere vodu dveju reka prema hramu i unište ga. Arhip se u opasnosti obratio Bogu molitvom. Prema predanju, javio se arhangel Mihailo, a voda je skrenuta u raselinu stene. Hram i njegov čuvar bili su sačuvani.",
+            "Posle izbavljenja Arhip je zablagodario Bogu i nastavio da služi pri hramu. Sa ovim događajem predanje povezuje naziv Honi, koji upućuje na poniranje vode. Današnjim spomenom Crkva čuva sećanje na ovo izbavljenje i pomoć arhangela Mihaila."
+          ],
+          "takeaway": "U središtu pripovesti su molitva u nevolji, vernost služenju i blagodarnost za primljenu pomoć."
+        }
+      }
+    },
+    {
+      "id": "martyr-sozont",
+      "revision": 1,
+      "type": "saint",
+      "subtype": null,
+      "source_ids": [
+        "mcp-sozont-2025"
+      ],
+      "content": {
+        "sr-Cyrl": {
+          "title": "Свети мученик Созонт",
+          "intro": "Млади пастир из Ликаоније кога Црква памти као мученика. Његово житије истиче веру, доброчинство и спремност да други не страдају због њега.",
+          "body": [
+            "Према житију, Созонт је био хришћанин из Ликаоније и бавио се чувањем оваца. Док је радио, другим пастирима је говорио о Богу и упознавао их са хришћанском вером.",
+            "Приповест га потом доводи у Помпеопољ у Киликији. Тамо је одломио део златног идола и злато разделио сиромашнима. Када су власти почеле да траже кривца и кажњавају друге, сам се пријавио, не желећи да они страдају због његовог поступка.",
+            "Пред управником је исповедио веру у Христа и није пристао да је се одрекне. Житије описује његово мученичко страдање и поштовање које су му потом указали хришћани. Верни су сахранили његово тело, а касније је подигнута и црква посвећена његовом спомену."
+          ],
+          "takeaway": "Одговорност за сопствене поступке и брига да други не сносе њихове последице."
+        },
+        "sr-Latn": {
+          "title": "Sveti mučenik Sozont",
+          "intro": "Mladi pastir iz Likaonije koga Crkva pamti kao mučenika. Njegovo žitije ističe veru, dobročinstvo i spremnost da drugi ne stradaju zbog njega.",
+          "body": [
+            "Prema žitiju, Sozont je bio hrišćanin iz Likaonije i bavio se čuvanjem ovaca. Dok je radio, drugim pastirima je govorio o Bogu i upoznavao ih sa hrišćanskom verom.",
+            "Pripovest ga potom dovodi u Pompeopolj u Kilikiji. Tamo je odlomio deo zlatnog idola i zlato razdelio siromašnima. Kada su vlasti počele da traže krivca i kažnjavaju druge, sam se prijavio, ne želeći da oni stradaju zbog njegovog postupka.",
+            "Pred upravnikom je ispovedio veru u Hrista i nije pristao da je se odrekne. Žitije opisuje njegovo mučeničko stradanje i poštovanje koje su mu potom ukazali hrišćani. Verni su sahranili njegovo telo, a kasnije je podignuta i crkva posvećena njegovom spomenu."
+          ],
+          "takeaway": "Odgovornost za sopstvene postupke i briga da drugi ne snose njihove posledice."
+        }
+      }
+    },
+    {
+      "id": "nativity-theotokos",
+      "revision": 1,
+      "type": "feast",
+      "subtype": "feast",
+      "source_ids": [
+        "spc-nativity-2021"
+      ],
+      "content": {
+        "sr-Cyrl": {
+          "title": "Рођење Пресвете Богородице – Мала Госпојина",
+          "intro": "Мала Госпојина је празник рођења Пресвете Богородице. Црква у њему прославља почетак радости повезане са доласком Христа у свет.",
+          "body": [
+            "Празник је посвећен рођењу Дјеве Марије, коју Црква поштује као Богородицу. Предање говори о њеним родитељима, Јоакиму и Ани, њиховој дугој молитви и радости због рођења кћери.",
+            "Сведочанство о овом рођењу не налази се у јеванђелским приповестима, већ је сачувано у црквеном предању. Зато детаље о породици и детињству Богородице треба читати као део тог предања.",
+            "Смисао празника није само сећање на један породични догађај. Богослужбене песме повезују рођење Марије са Христом и спасењем које Он доноси. Нагласак је на радости, благослову и нади.",
+            "Мала Госпојина припада великим празницима црквене године. Њој претходи дан припреме, а празновање се наставља и наредних дана, до оданија."
+          ],
+          "takeaway": "Радост празника усмерена је ка Христу, а породична приповест припада црквеном предању."
+        },
+        "sr-Latn": {
+          "title": "Rođenje Presvete Bogorodice – Mala Gospojina",
+          "intro": "Mala Gospojina je praznik rođenja Presvete Bogorodice. Crkva u njemu proslavlja početak radosti povezane sa dolaskom Hrista u svet.",
+          "body": [
+            "Praznik je posvećen rođenju Djeve Marije, koju Crkva poštuje kao Bogorodicu. Predanje govori o njenim roditeljima, Joakimu i Ani, njihovoj dugoj molitvi i radosti zbog rođenja kćeri.",
+            "Svedočanstvo o ovom rođenju ne nalazi se u jevanđelskim pripovestima, već je sačuvano u crkvenom predanju. Zato detalje o porodici i detinjstvu Bogorodice treba čitati kao deo tog predanja.",
+            "Smisao praznika nije samo sećanje na jedan porodični događaj. Bogoslužbene pesme povezuju rođenje Marije sa Hristom i spasenjem koje On donosi. Naglasak je na radosti, blagoslovu i nadi.",
+            "Mala Gospojina pripada velikim praznicima crkvene godine. Njoj prethodi dan pripreme, a praznovanje se nastavlja i narednih dana, do odanija."
+          ],
+          "takeaway": "Radost praznika usmerena je ka Hristu, a porodična pripovest pripada crkvenom predanju."
+        }
+      }
+    },
+    {
+      "id": "joachim-and-anna",
+      "revision": 1,
+      "type": "group",
+      "subtype": null,
+      "source_ids": [
+        "spc-joachim-anna-2025"
+      ],
+      "content": {
+        "sr-Cyrl": {
+          "title": "Свети праведни богородитељи Јоаким и Ана",
+          "intro": "Јоаким и Ана поштују се као родитељи Пресвете Богородице. Њихово житије говори о молитви, дарежљивости и захвалности.",
+          "body": [
+            "Црквено предање описује Јоакима и Ану као побожне супружнике који су делили своја добра са сиромашнима и приносили дарове храму. Дуго нису имали деце, а њихова жеља за дететом била је праћена молитвом.",
+            "Житије приповеда о њиховој жалости, али и о истрајном обраћању Богу. Рођење Марије примили су са великом радошћу и благодарношћу. Њен живот су посветили Богу, старајући се о њој и испуњавајући своје обећање да је доведу у храм.",
+            "Назив „богородитељи” овде означава родитеље Богородице. Њихов заједнички спомен долази непосредно после празника њеног рођења, па омогућава да се иста породична приповест сагледа кроз живот Јоакима и Ане."
+          ],
+          "takeaway": "Дарежљивост, истрајност у молитви и благодарност за примљени дар."
+        },
+        "sr-Latn": {
+          "title": "Sveti pravedni bogoroditelji Joakim i Ana",
+          "intro": "Joakim i Ana poštuju se kao roditelji Presvete Bogorodice. Njihovo žitije govori o molitvi, darežljivosti i zahvalnosti.",
+          "body": [
+            "Crkveno predanje opisuje Joakima i Anu kao pobožne supružnike koji su delili svoja dobra sa siromašnima i prinosili darove hramu. Dugo nisu imali dece, a njihova želja za detetom bila je praćena molitvom.",
+            "Žitije pripoveda o njihovoj žalosti, ali i o istrajnom obraćanju Bogu. Rođenje Marije primili su sa velikom radošću i blagodarnošću. Njen život su posvetili Bogu, starajući se o njoj i ispunjavajući svoje obećanje da je dovedu u hram.",
+            "Naziv „bogoroditelji” ovde označava roditelje Bogorodice. Njihov zajednički spomen dolazi neposredno posle praznika njenog rođenja, pa omogućava da se ista porodična pripovest sagleda kroz život Joakima i Ane."
+          ],
+          "takeaway": "Darežljivost, istrajnost u molitvi i blagodarnost za primljeni dar."
+        }
+      }
+    },
+    {
+      "id": "minodora-mitrodora-nimfodora",
+      "revision": 1,
+      "type": "group",
+      "subtype": null,
+      "source_ids": [
+        "spc-three-sisters-2022"
+      ],
+      "content": {
+        "sr-Cyrl": {
+          "title": "Свете мученице Минодора, Митродора и Нимфодора",
+          "intro": "Три сестре из Витиније које су заједно живеле у молитви и подвигу. Црква их памти по верности Христу у време страдања.",
+          "body": [
+            "Житије представља Минодору, Митродору и Нимфодору као рођене сестре, васпитане у хришћанској вери. Напустиле су градски живот и повукле се у осаму, посветивши се раду, посту и молитви.",
+            "Према предању, људи су почели да им долазе тражећи помоћ и исцељење. Тако се глас о сестрама проширио и до управника Фронтона, који их је извео пред суд. Покушао је обећањима, а затим и претњама, да их одврати од вере.",
+            "Сестре нису пристале да се одрекну Христа и пострадале су као мученице. Црква заједно чува спомен Минодоре, Митродоре и Нимфодоре, сећајући се њиховог заједничког живота и постојаности у страдању."
+          ],
+          "takeaway": "Заједништво, постојаност и вера која се не напушта због понуђених повластица."
+        },
+        "sr-Latn": {
+          "title": "Svete mučenice Minodora, Mitrodora i Nimfodora",
+          "intro": "Tri sestre iz Vitinije koje su zajedno živele u molitvi i podvigu. Crkva ih pamti po vernosti Hristu u vreme stradanja.",
+          "body": [
+            "Žitije predstavlja Minodoru, Mitrodoru i Nimfodoru kao rođene sestre, vaspitane u hrišćanskoj veri. Napustile su gradski život i povukle se u osamu, posvetivši se radu, postu i molitvi.",
+            "Prema predanju, ljudi su počeli da im dolaze tražeći pomoć i isceljenje. Tako se glas o sestrama proširio i do upravnika Frontona, koji ih je izveo pred sud. Pokušao je obećanjima, a zatim i pretnjama, da ih odvrati od vere.",
+            "Sestre nisu pristale da se odreknu Hrista i postradale su kao mučenice. Crkva zajedno čuva spomen Minodore, Mitrodore i Nimfodore, sećajući se njihovog zajedničkog života i postojanosti u stradanju."
+          ],
+          "takeaway": "Zajedništvo, postojanost i vera koja se ne napušta zbog ponuđenih povlastica."
+        }
+      }
+    },
+    {
+      "id": "theodora-alexandria",
+      "revision": 1,
+      "type": "saint",
+      "subtype": null,
+      "source_ids": [
+        "spc-theodora-2025"
+      ],
+      "content": {
+        "sr-Cyrl": {
+          "title": "Преподобна Теодора Александријска",
+          "intro": "Теодорино житије говори о покајању, монашком труду и бризи за другога. Црква је памти као подвижницу из Александрије.",
+          "body": [
+            "Према житију, Теодора је живела у Александрији и после личног пада одлучила да промени свој живот. Ступила је у мушки манастир Октодекат под именом Теодор, не откривајући свој идентитет.",
+            "Предање описује њен труд, молитву и послушање. Касније је била неправедно оптужена и удаљена из манастира. Примила је на старање дете које јој је предато и наставила да живи у подвигу, бринући о њему.",
+            "По њеној смрти монаси су сазнали ко је била. Приповест наглашава дубину покајања и скривеног служења које други нису препознавали. У њеним поукама детету истичу се љубав према Богу, неосуђивање и помоћ болеснима."
+          ],
+          "takeaway": "Спремност на промену живота, неосуђивање других и верност бризи за дете."
+        },
+        "sr-Latn": {
+          "title": "Prepodobna Teodora Aleksandrijska",
+          "intro": "Teodorino žitije govori o pokajanju, monaškom trudu i brizi za drugoga. Crkva je pamti kao podvižnicu iz Aleksandrije.",
+          "body": [
+            "Prema žitiju, Teodora je živela u Aleksandriji i posle ličnog pada odlučila da promeni svoj život. Stupila je u muški manastir Oktodekat pod imenom Teodor, ne otkrivajući svoj identitet.",
+            "Predanje opisuje njen trud, molitvu i poslušanje. Kasnije je bila nepravedno optužena i udaljena iz manastira. Primila je na staranje dete koje joj je predato i nastavila da živi u podvigu, brinući o njemu.",
+            "Po njenoj smrti monasi su saznali ko je bila. Pripovest naglašava dubinu pokajanja i skrivenog služenja koje drugi nisu prepoznavali. U njenim poukama detetu ističu se ljubav prema Bogu, neosuđivanje i pomoć bolesnima."
+          ],
+          "takeaway": "Spremnost na promenu života, neosuđivanje drugih i vernost brizi za dete."
+        }
+      }
+    },
+    {
+      "id": "hieromartyr-autonomus",
+      "revision": 1,
+      "type": "saint",
+      "subtype": null,
+      "source_ids": [
+        "mcp-autonomus-2025",
+        "spc-autonomus"
+      ],
+      "content": {
+        "sr-Cyrl": {
+          "title": "Свети свештеномученик Автоном",
+          "intro": "Епископ и проповедник кога Црква памти као свештеномученика. Његово житије прати служење хришћанским заједницама у време прогона.",
+          "body": [
+            "Према житију, Автоном је био епископ у Италији у време цара Диоклецијана. Због прогона хришћана прешао је у Витинију и настанио се у месту Сореос, где га је примио Корнилије.",
+            "У Корнилијевом дому окупљали су се људи да слушају његову проповед. Предање му приписује подизање храма Светог архангела Михаила и старање о новој хришћанској заједници. Корнилију је поверавао одговорности, а сам је одлазио да проповеда и у другим крајевима, па се враћао да обиђе верне.",
+            "Житије бележи његово мученичко страдање током богослужења. Назив „свештеномученик” повезује његову свештену службу са страдањем за веру. Његов спомен чува успомену на обе стране тог служења."
+          ],
+          "takeaway": "Пастирску бригу, гостопримство које помаже заједници и истрајност у служењу."
+        },
+        "sr-Latn": {
+          "title": "Sveti sveštenomučenik Avtonom",
+          "intro": "Episkop i propovednik koga Crkva pamti kao sveštenomučenika. Njegovo žitije prati služenje hrišćanskim zajednicama u vreme progona.",
+          "body": [
+            "Prema žitiju, Avtonom je bio episkop u Italiji u vreme cara Dioklecijana. Zbog progona hrišćana prešao je u Vitiniju i nastanio se u mestu Soreos, gde ga je primio Kornilije.",
+            "U Kornilijevom domu okupljali su se ljudi da slušaju njegovu propoved. Predanje mu pripisuje podizanje hrama Svetog arhangela Mihaila i staranje o novoj hrišćanskoj zajednici. Korniliju je poveravao odgovornosti, a sam je odlazio da propoveda i u drugim krajevima, pa se vraćao da obiđe verne.",
+            "Žitije beleži njegovo mučeničko stradanje tokom bogosluženja. Naziv „sveštenomučenik” povezuje njegovu sveštenu službu sa stradanjem za veru. Njegov spomen čuva uspomenu na obe strane tog služenja."
+          ],
+          "takeaway": "Pastirsku brigu, gostoprimstvo koje pomaže zajednici i istrajnost u služenju."
+        }
+      }
+    }
+  ],
+  "days": [
+    {
+      "date": "2026-09-19",
+      "julian_date": "2026-09-06",
+      "calendar_title": {
+        "sr-Cyrl": "Чудо Светог Архангела Михаила",
+        "sr-Latn": "Čudo Svetog Arhangela Mihaila"
+      },
+      "calendar_source_ids": [
+        "eparhija-month-09"
+      ],
+      "article_ids": [
+        "michael-miracle-chonae"
+      ],
+      "complete_saint_list": false,
+      "calendar_notes": []
+    },
+    {
+      "date": "2026-09-20",
+      "julian_date": "2026-09-07",
+      "calendar_title": {
+        "sr-Cyrl": "Свети мученик Созонт (Претпразништво Рођења Пресвете Богородице)",
+        "sr-Latn": "Sveti mučenik Sozont (Pretprazništvo Rođenja Presvete Bogorodice)"
+      },
+      "calendar_source_ids": [
+        "eparhija-month-09"
+      ],
+      "article_ids": [
+        "martyr-sozont"
+      ],
+      "complete_saint_list": false,
+      "calendar_notes": [
+        {
+          "kind": "forefeast",
+          "label": {
+            "sr-Cyrl": "Претпразништво Рођења Пресвете Богородице",
+            "sr-Latn": "Pretprazništvo Rođenja Presvete Bogorodice"
+          },
+          "related_article_id": "nativity-theotokos",
+          "source_ids": [
+            "eparhija-month-09"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-09-21",
+      "julian_date": "2026-09-08",
+      "calendar_title": {
+        "sr-Cyrl": "Рођење Пресвете Богородице – Мала Госпојина",
+        "sr-Latn": "Rođenje Presvete Bogorodice – Mala Gospojina"
+      },
+      "calendar_source_ids": [
+        "eparhija-month-09"
+      ],
+      "article_ids": [
+        "nativity-theotokos"
+      ],
+      "complete_saint_list": false,
+      "calendar_notes": []
+    },
+    {
+      "date": "2026-09-22",
+      "julian_date": "2026-09-09",
+      "calendar_title": {
+        "sr-Cyrl": "Свети праведни богородитељи Јоаким и Ана",
+        "sr-Latn": "Sveti pravedni bogoroditelji Joakim i Ana"
+      },
+      "calendar_source_ids": [
+        "eparhija-month-09"
+      ],
+      "article_ids": [
+        "joachim-and-anna"
+      ],
+      "complete_saint_list": false,
+      "calendar_notes": []
+    },
+    {
+      "date": "2026-09-23",
+      "julian_date": "2026-09-10",
+      "calendar_title": {
+        "sr-Cyrl": "Свете мученице Минодора, Митродора и Нимфодора",
+        "sr-Latn": "Svete mučenice Minodora, Mitrodora i Nimfodora"
+      },
+      "calendar_source_ids": [
+        "eparhija-month-09"
+      ],
+      "article_ids": [
+        "minodora-mitrodora-nimfodora"
+      ],
+      "complete_saint_list": false,
+      "calendar_notes": []
+    },
+    {
+      "date": "2026-09-24",
+      "julian_date": "2026-09-11",
+      "calendar_title": {
+        "sr-Cyrl": "Преподобна Теодора Александријска",
+        "sr-Latn": "Prepodobna Teodora Aleksandrijska"
+      },
+      "calendar_source_ids": [
+        "eparhija-month-09"
+      ],
+      "article_ids": [
+        "theodora-alexandria"
+      ],
+      "complete_saint_list": false,
+      "calendar_notes": []
+    },
+    {
+      "date": "2026-09-25",
+      "julian_date": "2026-09-12",
+      "calendar_title": {
+        "sr-Cyrl": "Свети свештеномученик Автоном (Оданије Рођења Пресвете Богородице)",
+        "sr-Latn": "Sveti sveštenomučenik Avtonom (Odanije Rođenja Presvete Bogorodice)"
+      },
+      "calendar_source_ids": [
+        "eparhija-month-09"
+      ],
+      "article_ids": [
+        "hieromartyr-autonomus"
+      ],
+      "complete_saint_list": false,
+      "calendar_notes": [
+        {
+          "kind": "leavetaking",
+          "label": {
+            "sr-Cyrl": "Оданије Рођења Пресвете Богородице",
+            "sr-Latn": "Odanije Rođenja Presvete Bogorodice"
+          },
+          "related_article_id": "nativity-theotokos",
+          "source_ids": [
+            "eparhija-month-09"
+          ]
+        }
+      ]
+    }
+  ]
+}

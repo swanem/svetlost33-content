@@ -1,0 +1,23 @@
+{
+  "approval_id": "saints-pilot-2026-09-19-owner-r1",
+  "status": "APPROVED_FOR_IMPLEMENTATION",
+  "recorded_on": "2026-09-19",
+  "approver_role": "project_owner",
+  "statement": "pregledao sam nastvi sa planom implementacije i.pokreni implementaciju",
+  "context": "Owner reviewed the seven previously presented short manuscripts after approving their format.",
+  "platforms": ["android", "ios"],
+  "territories": ["RS", "BA"],
+  "manuscript": {
+    "path": "drafts/saints-pilot-2026-09-19/TEKSTOVI.md",
+    "sha256": "5847568a2aab22446ef4ab875fbceceecc9e800fad9344e5f23df59c4931ee2a"
+  },
+  "article_ids": ["michael-miracle-chonae", "martyr-sozont", "nativity-theotokos", "joachim-and-anna", "minodora-mitrodora-nimfodora", "theodora-alexandria", "hieromartyr-autonomus"],
+  "date_coverage": {"from": "2026-09-19", "through": "2026-09-25"},
+  "approved": ["exact_seven_cyrillic_manuscripts", "deterministic_latin_transliteration_subject_to_parity_QA", "shared_content_contract_and_tests", "android_and_ios_reader_implementation", "local_build_and_emulator_simulator_QA"],
+  "not_authorized_by_this_record": ["production_signing_or_activation", "website_publication", "physical_device_installation", "new_or_rewritten_manuscripts", "2027_date_mappings"],
+  "rights_basis": "USER_ATTESTATION_ALREADY_RECORDED_IN_PILOT",
+  "independent_legal_verification": false,
+  "clerical_review": null,
+  "complete_saint_list_verified": false,
+  "production_ready": false
+}

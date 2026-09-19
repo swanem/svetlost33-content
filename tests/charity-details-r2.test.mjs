@@ -40,10 +40,13 @@ const editorialOptions = {
   }
 };
 
-test('profile r2 preserves pinned source, approvals and current signed discovery bytes', async () => {
+test('profile r2 preserves pinned source, approvals and live or archived S4 discovery bytes', async () => {
   assert.equal(sourceReview.preserved_files.length, 7);
   for (const record of sourceReview.preserved_files) {
-    const preserved = await readFile(new URL(record.path, root));
+    let preserved = await readFile(new URL(record.path, root));
+    if (sha256(preserved) !== record.sha256 && /^releases\/v2\/production\/index\.(json|sig)$/.test(record.path)) {
+      preserved = await readFile(new URL(`releases/v2/production/discovery-archive/shared-widget-excerpts-2026-09-18-m0v2-s4/${record.path.split('/').at(-1)}`, root));
+    }
     assert.equal(preserved.length, record.bytes, record.path);
     assert.equal(sha256(preserved), record.sha256, record.path);
   }

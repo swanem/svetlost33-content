@@ -1,0 +1,16 @@
+{
+  "schema_version": "svetlost33-m0-index-2",
+  "sequence": 4,
+  "issued_at": "2026-09-18T12:31:45Z",
+  "expires_at": "2027-02-01T00:00:00Z",
+  "key_id": "svetlost33-content-2026-key-1",
+  "channels": {
+    "production": {
+      "release_set_id": "shared-widget-excerpts-2026-09-18-m0v2-s4",
+      "path": "releases/shared-widget-excerpts-2026-09-18-m0v2-s4/release-set.json",
+      "bytes": 2361,
+      "sha256": "6524151c4a249c85ad58bcb2ab475104a898ade76acefb417edb8561361e09c4",
+      "signature_path": "releases/shared-widget-excerpts-2026-09-18-m0v2-s4/release-set.sig"
+    }
+  }
+}

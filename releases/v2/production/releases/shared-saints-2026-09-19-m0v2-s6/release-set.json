@@ -1,0 +1,67 @@
+{
+  "schema_version": "svetlost33-release-set-2",
+  "release_set_id": "shared-saints-2026-09-19-m0v2-s6",
+  "sequence": 6,
+  "channel": "production",
+  "key_id": "svetlost33-content-2026-key-1",
+  "approved_platforms": [
+    "android",
+    "ios"
+  ],
+  "min_clients": {
+    "android": 35,
+    "ios": "0.1.0"
+  },
+  "modules": [
+    {
+      "module_id": "library-annual-2026-r1",
+      "module_type": "library",
+      "version": "2026.1.1",
+      "required": true,
+      "manifest_path": "releases/shared-annual-2026-r1-m0v2-s2/modules/library-annual-2026-r1-2026.1.1-r2/manifest.json",
+      "manifest_bytes": 3329,
+      "manifest_sha256": "5247bedb3d3deaf5f81601ff2f7a274417b0ce11ac1cebbb3f4b518cd26ee16d",
+      "signature_path": "releases/shared-annual-2026-r1-m0v2-s2/modules/library-annual-2026-r1-2026.1.1-r2/manifest.sig"
+    },
+    {
+      "module_id": "daily-cycles-r1",
+      "module_type": "cycles",
+      "version": "2026.1.2",
+      "required": true,
+      "manifest_path": "releases/shared-widget-excerpts-2026-09-18-m0v2-s4/modules/daily-cycles-r1-2026.1.2-r3/manifest.json",
+      "manifest_bytes": 1118,
+      "manifest_sha256": "b20e5ff4f29faf3b18b4e1e23d37dd5384a00b9cb54567fb838de71b095a630d",
+      "signature_path": "releases/shared-widget-excerpts-2026-09-18-m0v2-s4/modules/daily-cycles-r1-2026.1.2-r3/manifest.sig"
+    },
+    {
+      "module_id": "calendar-2026-r1",
+      "module_type": "calendar",
+      "version": "2026.1.1",
+      "required": true,
+      "manifest_path": "releases/shared-annual-2026-r1-m0v2-s2/modules/calendar-2026-r1-2026.1.1-r2/manifest.json",
+      "manifest_bytes": 630,
+      "manifest_sha256": "11e5d8b92ebbacd40ae6d0bad861c85a2df8220cd0b1091a2b7522754d538905",
+      "signature_path": "releases/shared-annual-2026-r1-m0v2-s2/modules/calendar-2026-r1-2026.1.1-r2/manifest.sig"
+    },
+    {
+      "module_id": "organizations-v1",
+      "module_type": "organizations",
+      "version": "2026.9.18",
+      "required": false,
+      "manifest_path": "releases/shared-charity-2026-09-18-m0v2-s3/modules/organizations-v1-2026.9.18-r1/manifest.json",
+      "manifest_bytes": 992,
+      "manifest_sha256": "f961e6bfb2fd8c3443533f1fedd40a64e06342de019c8314d72c0dbfaf5cc8ad",
+      "signature_path": "releases/shared-charity-2026-09-18-m0v2-s3/modules/organizations-v1-2026.9.18-r1/manifest.sig"
+    },
+    {
+      "module_id": "saints-v1",
+      "module_type": "library",
+      "version": "2026.9.19",
+      "required": false,
+      "manifest_path": "releases/shared-saints-2026-09-19-m0v2-s6/modules/saints-v1-2026.9.19-r1/manifest.json",
+      "manifest_bytes": 585,
+      "manifest_sha256": "899cf39e9220b2289b17db86dfb87cb808742fba3373be2d0478725f5bf1df59",
+      "signature_path": "releases/shared-saints-2026-09-19-m0v2-s6/modules/saints-v1-2026.9.19-r1/manifest.sig"
+    }
+  ]
+}
