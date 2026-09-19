@@ -1,0 +1,205 @@
+{
+  "schema_version": "svetlost33-organization-profile-source-review-1",
+  "review_id": "shared-charity-profile-links-2026-09-19-r2",
+  "status": "source_review_record_for_unsigned_revision",
+  "reviewed_at": "2026-09-19T10:23:18Z",
+  "payload_binding": {
+    "path": "modules/organizations-v1/2026.9.19-r2/data/organizations-v1.json",
+    "bytes": 11073,
+    "sha256": "ad1fa507b83da7186a4bf66fdb3eb2695cbb0703e45e21d42ddfadbdcd4709a0",
+    "version": "2026.9.19",
+    "revision": 2
+  },
+  "method": "Read each official organization page in the browser on 2026-09-19 and inspected the page DOM for the exact website and social hrefs. The official page's publication of a social URL is the attribution evidence; the social accounts were not independently audited. Image URLs and natural dimensions were read from those pages; selected NORBS+ images were visually inspected in the browser. No source asset was downloaded into this repository.",
+  "time_basis": "Review and issue timestamp recorded from the current UTC clock after source inspection. Existing donation/story reviews are carried forward unchanged from 2026-09-18; this record does not renew them.",
+  "valid_until_exclusive": "2026-10-18T10:35:15Z",
+  "organizations": [
+    {
+      "organization_id": "nurdor-rs",
+      "publishing_page": "https://www.nurdor.org/",
+      "source_id": "nurdor-profile-links-source",
+      "fetched_on": "2026-09-19",
+      "identity_basis": "Official NURDOR homepage and its footer publish the exact profile URLs.",
+      "added_links": [
+        {
+          "id": "nurdor-website",
+          "kind": "website",
+          "url": "https://www.nurdor.org/",
+          "evidence": "Official organization homepage used as the website destination."
+        },
+        {
+          "id": "nurdor-instagram",
+          "kind": "social",
+          "url": "https://www.instagram.com/nurdor_srbija/",
+          "evidence": "Exact href published by the official page."
+        },
+        {
+          "id": "nurdor-facebook",
+          "kind": "social",
+          "url": "https://www.facebook.com/nurdor/",
+          "evidence": "Exact href published by the official page."
+        }
+      ]
+    },
+    {
+      "organization_id": "norbs-plus-rs",
+      "publishing_page": "https://norbs.rs/fondacija-norbs-plus/",
+      "source_id": "norbs-plus-profile-links-source",
+      "fetched_on": "2026-09-19",
+      "identity_basis": "The Informacije o Fondaciji NORBS+ section explicitly names Fondacija NORBS Plus, MB 28830637, and publishes the foundation's social URLs. The page's general NORBS footer accounts are different and were excluded.",
+      "added_links": [
+        {
+          "id": "norbs-plus-website",
+          "kind": "website",
+          "url": "https://norbs.rs/fondacija-norbs-plus/",
+          "evidence": "Official foundation identity page used as the website destination; the distinct campaign remains the existing donation destination."
+        },
+        {
+          "id": "norbs-plus-instagram",
+          "kind": "social",
+          "url": "https://www.instagram.com/norbsplus/",
+          "evidence": "Exact href published by the official page."
+        },
+        {
+          "id": "norbs-plus-facebook",
+          "kind": "social",
+          "url": "https://www.facebook.com/NORBSPlus",
+          "evidence": "Exact href published by the official page."
+        }
+      ]
+    },
+    {
+      "organization_id": "srbi-za-srbe-rs",
+      "publishing_page": "https://www.srbizasrbe.org/",
+      "source_id": "srbi-za-srbe-profile-links-source",
+      "fetched_on": "2026-09-19",
+      "identity_basis": "Official Srbi za Srbe homepage and its footer publish the exact profile URLs.",
+      "added_links": [
+        {
+          "id": "srbi-za-srbe-website",
+          "kind": "website",
+          "url": "https://www.srbizasrbe.org/",
+          "evidence": "Official organization homepage used as the website destination."
+        },
+        {
+          "id": "srbi-za-srbe-instagram",
+          "kind": "social",
+          "url": "https://www.instagram.com/srbizasrbe",
+          "evidence": "Exact href published by the official page."
+        },
+        {
+          "id": "srbi-za-srbe-facebook",
+          "kind": "social",
+          "url": "https://www.facebook.com/srbizasrbe",
+          "evidence": "Exact href published by the official page."
+        }
+      ]
+    }
+  ],
+  "logo_source_notes": [
+    {
+      "organization_id": "nurdor-rs",
+      "source_page": "https://www.nurdor.org/",
+      "asset_url": "https://www.nurdor.org/img/nurdor-logo.png",
+      "observed_width": 1912,
+      "observed_height": 421,
+      "asset_role": "Official homepage header and footer logo",
+      "rights_status": "not_verified",
+      "reusable_asset_approved": false
+    },
+    {
+      "organization_id": "srbi-za-srbe-rs",
+      "source_page": "https://www.srbizasrbe.org/",
+      "asset_url": "https://www.srbizasrbe.org/wp-content/uploads/2023/02/szs-logo-1.png",
+      "observed_width": 430,
+      "observed_height": 65,
+      "asset_role": "Official homepage header logo",
+      "rights_status": "not_verified",
+      "reusable_asset_approved": false
+    },
+    {
+      "organization_id": "norbs-plus-rs",
+      "source_page": "https://norbs.rs/fondacija-norbs-plus/",
+      "clean_foundation_asset_verified": false,
+      "rights_status": "not_verified",
+      "reusable_asset_approved": false,
+      "observed_assets": [
+        {
+          "url": "https://norbs.rs/wp-content/uploads/2024/08/Group-1217.png",
+          "width": 614,
+          "height": 533,
+          "finding": "Photograph of children holding the foundation wordmark; not a standalone logo."
+        },
+        {
+          "url": "https://norbs.rs/wp-content/uploads/2024/08/Fotografija-2-NORBS.jpg",
+          "width": 536,
+          "height": 446,
+          "finding": "Fundraising illustration carrying a five-year anniversary mark; not a standalone logo."
+        },
+        {
+          "url": "https://1jeposeban.rs/assets/img/section-2.png",
+          "width": 800,
+          "height": 400,
+          "finding": "1 je poseban campaign mark; not the NORBS+ foundation wordmark."
+        },
+        {
+          "url": "https://1jeposeban.rs/assets/img/logo.svg",
+          "width": 300,
+          "height": 113,
+          "finding": "1 je poseban campaign header lockup; not the foundation wordmark; SVG is outside organizations-v1 packaged-image types."
+        }
+      ],
+      "excluded_substitutions": [
+        "Parent NORBS association flower logo and retkebolesti social profiles",
+        "https://www.norbsplus.rs/ (observed under construction with a broken image)"
+      ]
+    }
+  ],
+  "rights_limit": "Official publication proves source provenance, not a reuse license. No written logo permission, reusable brand license, or approved packaged logo bytes have been established. The current user request authorizes logo UI scope but is not recorded as permission from the organizations. All runtime logo fields remain null.",
+  "unchanged_content": "All three organization IDs, legal names, localized names/descriptions, existing sources, original donation/story link records and payment_rails are retained. No donor data, copied stories, bank details, tracking parameters, source markers, synthetic logos or partnership claim is added.",
+  "limits": {
+    "independent_social_account_audit": false,
+    "independent_registry_or_bank_audit": false,
+    "payment_execution_tested": false,
+    "asset_downloaded": false,
+    "production_signature_created": false,
+    "published": false
+  },
+  "preserved_files": [
+    {
+      "path": "modules/organizations-v1/2026.9.18-r1/data/organizations-v1.json",
+      "bytes": 5565,
+      "sha256": "4654b5c05b7c4e0ada963d022491c8683ac9d329c5db937a522925f6d10d89d7"
+    },
+    {
+      "path": "approvals/charity-cards-2026-09-18/payload-approval.json",
+      "bytes": 2461,
+      "sha256": "7f2aca9b0f349ee417c2dc89cc27949176c4d22f93f6788a59855a3f95b1c94d"
+    },
+    {
+      "path": "approvals/charity-cards-2026-09-18/source-review.json",
+      "bytes": 3051,
+      "sha256": "5a7cec6cecdaa5fb8d2a7ee244f402167644d0b8a2e0a52e6ce5cb0a4a273c24"
+    },
+    {
+      "path": "releases/v2/production/index.json",
+      "bytes": 588,
+      "sha256": "c7e327ed6e7108a6c33a4df525934d85a945fd2baeccce0eccee161311d685e6"
+    },
+    {
+      "path": "releases/v2/production/index.sig",
+      "bytes": 513,
+      "sha256": "f78e63baac205acccbaf8d192c17f43122436740ed9e153b45a2fd094d268bc7"
+    },
+    {
+      "path": "releases/v2/production/releases/shared-widget-excerpts-2026-09-18-m0v2-s4/release-set.json",
+      "bytes": 2361,
+      "sha256": "6524151c4a249c85ad58bcb2ab475104a898ade76acefb417edb8561361e09c4"
+    },
+    {
+      "path": "releases/v2/production/releases/shared-widget-excerpts-2026-09-18-m0v2-s4/release-set.sig",
+      "bytes": 513,
+      "sha256": "45eda32b6066352deff8be028ca4a7581ac6eab25ba3f48c6c7847030497b8b5"
+    }
+  ]
+}

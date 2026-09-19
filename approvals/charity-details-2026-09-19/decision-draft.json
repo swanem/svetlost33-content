@@ -1,0 +1,55 @@
+{
+  "schema_version": "svetlost33-content-decision-draft-1",
+  "decision_id": "shared-charity-details-2026-09-19-r2",
+  "status": "draft_for_coordinating_task_review",
+  "recorded_at": "2026-09-19T10:23:18Z",
+  "consumer_platforms": [
+    "android",
+    "ios"
+  ],
+  "canonical_spec": {
+    "repository": "swanem/svetlost33",
+    "path": "docs/SPECIFIKACIJA.md",
+    "revision": "c67d96c",
+    "version": "v0.24.8",
+    "applicable_requirement": "DB-12"
+  },
+  "authority_basis": "The coordinating task reports that the current user request approves organization logos in the list, Podrži opening organization details with description, official website and social links, and removal of self-reported payments. This draft records that requested scope and the new verified links; it does not invent a separate owner signature, an unavailable verbatim quotation, or third-party logo permission.",
+  "payload_binding": {
+    "path": "modules/organizations-v1/2026.9.19-r2/data/organizations-v1.json",
+    "bytes": 11073,
+    "sha256": "ad1fa507b83da7186a4bf66fdb3eb2695cbb0703e45e21d42ddfadbdcd4709a0",
+    "version": "2026.9.19",
+    "revision": 2
+  },
+  "proposed_content": {
+    "organization_ids": [
+      "nurdor-rs",
+      "norbs-plus-rs",
+      "srbi-za-srbe-rs"
+    ],
+    "unchanged_donation_links": 3,
+    "unchanged_story_links": 3,
+    "added_website_links": 3,
+    "added_social_links": 6,
+    "payment_rails": 0,
+    "packaged_logos": 0
+  },
+  "logo_ui_scope_authorized": true,
+  "third_party_logo_rights_verified": false,
+  "pending_logo_work": "Document a valid reuse basis and exact packaged asset for each organization, including a clean NORBS+ foundation mark. No logo license or asset approval is asserted by this draft; runtime logo remains null.",
+  "review_limits": {
+    "original_reviews_extended": false,
+    "valid_until_exclusive": "2026-10-18T10:35:15Z",
+    "social_evidence": "Official organization page publishes exact profile URL; no independent social-account audit."
+  },
+  "publication_state": {
+    "unsigned": true,
+    "module_manifest_created": false,
+    "release_set_created": false,
+    "production_index_changed": false,
+    "signed": false,
+    "published": false
+  },
+  "next_review": "Coordinating task reviews this exact payload, source record and targeted checks before deciding the separate candidate packaging/signing step. A future release must build on the then-current signed production base; the observed local base is sequence 4."
+}
