@@ -1,0 +1,44 @@
+{
+  "schema_version": "svetlost33-publication-verification-1",
+  "status": "PUBLIC_SIGNED_CONTENT_VERIFIED",
+  "verified_at": "2026-09-19T21:51:38.236Z",
+  "artifact_commit": "98ecd57fcc687eeb6e58657c240a612d15a3b23d",
+  "release_set_id": "shared-saints-2026-09-19-m0v2-s6",
+  "sequence": 6,
+  "consumer_platforms": ["android", "ios"],
+  "discovery_url": "https://raw.githubusercontent.com/swanem/svetlost33-content/main/releases/v2/production/index.json",
+  "public_base_url": "https://raw.githubusercontent.com/swanem/svetlost33-content/main/releases/v2/production/",
+  "immutable_base_url": "https://raw.githubusercontent.com/swanem/svetlost33-content/98ecd57fcc687eeb6e58657c240a612d15a3b23d/releases/v2/production/",
+  "artifacts": {
+    "index": {"path": "index.json", "bytes": 561, "sha256": "fa4a38a4c97f7634fe7554a03d94438b5a9486d1fcf89446bdd21abbaa2fd3fc"},
+    "release": {"path": "releases/shared-saints-2026-09-19-m0v2-s6/release-set.json", "bytes": 2831, "sha256": "3e9b1ef707ebb4e0cd71fa5c59f1ee1df1cb99bb0572d1729e29cadeacde8e28"},
+    "saints_manifest": {"path": "releases/shared-saints-2026-09-19-m0v2-s6/modules/saints-v1-2026.9.19-r1/manifest.json", "bytes": 585, "sha256": "899cf39e9220b2289b17db86dfb87cb808742fba3373be2d0478725f5bf1df59"},
+    "saints_payload": {"path": "releases/shared-saints-2026-09-19-m0v2-s6/modules/saints-v1-2026.9.19-r1/data/saints-v1.json", "bytes": 30924, "sha256": "ab4ced9bbbec3f0765e9c6d45c866c13e76b0adc20d6eb75693be778c7cab000"}
+  },
+  "verification": {
+    "ordinary_main_url_gets": true,
+    "immutable_commit_gets": true,
+    "public_objects_compared_byte_for_byte": 36,
+    "manifest_payload_files_compared": 21,
+    "rsa_pss_sha256_signatures_verified": true,
+    "existing_trust_anchor_unchanged": true,
+    "current_capabilities_modules_each_platform": 5,
+    "previous_capabilities_modules_each_platform": 4,
+    "previous_capabilities_skipped": ["saints-v1"],
+    "without_optional_capabilities_modules_each_platform": 3,
+    "without_optional_capabilities_skipped": ["organizations-v1", "saints-v1"],
+    "exact_commit_tree_tests_passed": 239,
+    "exact_commit_tree_tests_failed": 0,
+    "broader_dirty_worktree_tests_not_used_as_commit_proof": 246,
+    "all_four_s4_modules_preserved": true,
+    "pending_charity_s5_activated": false
+  },
+  "cache_propagation": {
+    "temporary_stable_index_s4_signature_s6_mismatch_observed": true,
+    "provider_cache_control": "max-age=300",
+    "provider_cache_node": "cache-fra-eddf8230185-FRA",
+    "stable_index_first_confirmed_s6_at": "2026-09-19T21:50:53.154Z",
+    "resolved_without_content_or_sequence_mutation": true
+  },
+  "native_runtime_acceptance": "Recorded separately by Android and iOS tasks; this record proves public shared content, not a physical-device installation."
+}
