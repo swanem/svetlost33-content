@@ -1,16 +1,16 @@
 {
   "schema_version": "svetlost33-m0-index-2",
-  "sequence": 6,
-  "issued_at": "2026-09-19T21:33:30Z",
+  "sequence": 7,
+  "issued_at": "2026-09-20T17:45:07Z",
   "expires_at": "2027-02-01T00:00:00Z",
   "key_id": "svetlost33-content-2026-key-1",
   "channels": {
     "production": {
-      "release_set_id": "shared-saints-2026-09-19-m0v2-s6",
-      "path": "releases/shared-saints-2026-09-19-m0v2-s6/release-set.json",
-      "bytes": 2831,
-      "sha256": "3e9b1ef707ebb4e0cd71fa5c59f1ee1df1cb99bb0572d1729e29cadeacde8e28",
-      "signature_path": "releases/shared-saints-2026-09-19-m0v2-s6/release-set.sig"
+      "release_set_id": "shared-liturgical-catalog-2026-09-20-m0v2-s7",
+      "path": "releases/shared-liturgical-catalog-2026-09-20-m0v2-s7/release-set.json",
+      "bytes": 3382,
+      "sha256": "07adbbb4fe394f79d526bc1d5635d296d6e669a62c8545c81495f68164127d80",
+      "signature_path": "releases/shared-liturgical-catalog-2026-09-20-m0v2-s7/release-set.sig"
     }
   }
 }
