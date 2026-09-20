@@ -1,0 +1,66 @@
+{
+  "status": "PASS",
+  "scope": "Editorial consistency only; not approval or release validation",
+  "calendar_rows": 30,
+  "existing_window_days": 5,
+  "pending_drafts": 7,
+  "remaining_undrafted_days": 18,
+  "master_sha256": "0f912a46cff2f1558018d43d8e2c564d5b0d44e56fb7ab2eafd7971c1676d0ba",
+  "article_counts": [
+    {
+      "id": "dedication-resurrection-jerusalem",
+      "words_sr_Cyrl": 131,
+      "words_sr_Latn": 131,
+      "prose_scalars": 849,
+      "deterministic_latin_sha256": "5c71fd1021ca5e43b994eded8e7c12f1156866bbdf05560f20acd17bc898a09b"
+    },
+    {
+      "id": "exaltation-cross",
+      "words_sr_Cyrl": 129,
+      "words_sr_Latn": 129,
+      "prose_scalars": 816,
+      "deterministic_latin_sha256": "714ad73c7025c6c6d39204b8e42c5a1d6315ad8292c66a64823b7e02067c801e"
+    },
+    {
+      "id": "greatmartyr-niketas-goth",
+      "words_sr_Cyrl": 138,
+      "words_sr_Latn": 138,
+      "prose_scalars": 854,
+      "deterministic_latin_sha256": "b1db853c169a86d1f4a96f1599d79824de3110b50cbeed6592dcffb8e5842183"
+    },
+    {
+      "id": "dorotheus-egypt",
+      "words_sr_Cyrl": 141,
+      "words_sr_Latn": 141,
+      "prose_scalars": 875,
+      "deterministic_latin_sha256": "790cd14ab31d0838f2f13338fe242a4994586ea9c251396aa75c1e3041566c0c"
+    },
+    {
+      "id": "faith-hope-love-sophia",
+      "words_sr_Cyrl": 133,
+      "words_sr_Latn": 133,
+      "prose_scalars": 843,
+      "deterministic_latin_sha256": "0ef4e67e9bc2324fe11288a4cc38dc5f237e4182fbb45793c67b947bf2b2e480"
+    },
+    {
+      "id": "eumenius-gortyna",
+      "words_sr_Cyrl": 137,
+      "words_sr_Latn": 137,
+      "prose_scalars": 881,
+      "deterministic_latin_sha256": "a7c823ded9e9f522937ff0897559aaff596bfa87345ca1728acc915a0fb59c99"
+    },
+    {
+      "id": "trophimus-sabbatius-dorymedon",
+      "words_sr_Cyrl": 141,
+      "words_sr_Latn": 141,
+      "prose_scalars": 887,
+      "deterministic_latin_sha256": "2daddca28877843a9330481133813bcb5c17da005566a0ef1b03557cd9d48e1d"
+    }
+  ],
+  "checked_on": "2026-09-20",
+  "command": "README.md#Поновљива провера",
+  "source_review_status": "pending_human_review",
+  "rights_status": "pending_for_new_package",
+  "owner_approval": null,
+  "production_changes": false
+}

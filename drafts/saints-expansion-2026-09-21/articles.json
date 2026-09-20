@@ -1,0 +1,405 @@
+{
+  "document_kind": "editorial_working_metadata_not_runtime_payload",
+  "revision": 1,
+  "prepared_on": "2026-09-20",
+  "master": "TEKSTOVI.md",
+  "master_locale": "sr-Cyrl",
+  "latin_policy": "Deterministic toLatin from scripts/validate-saints-v1.mjs; no independently edited Latin master.",
+  "review_status": "pending_human_review",
+  "owner_approval": null,
+  "clerical_review": null,
+  "rights_status": "pending_for_new_package",
+  "authorship": {
+    "kind": "original_editorial_summary",
+    "assistance": "ai",
+    "source_publishers_are_not_authors_of_this_summary": true,
+    "takeaway": "Editorial interpretation, not a quotation or new prayer."
+  },
+  "articles": [
+    {
+      "id": "dedication-resurrection-jerusalem",
+      "manuscript_marker": "<!-- article:dedication-resurrection-jerusalem -->",
+      "date": "2026-09-26",
+      "julian_date": "2026-09-13",
+      "type": "feast",
+      "subtype": "commemoration_of_event",
+      "source_ids": [
+        "oca-dedication",
+        "mcp-dedication"
+      ],
+      "review_status": "pending_human_review",
+      "owner_approval": null,
+      "rights_status": "pending_for_new_package",
+      "date_proof": "coverage.json#2026-09-26",
+      "claims": [
+        {
+          "id": "dedication-resurrection-jerusalem:C1",
+          "location": "intro; body[0]",
+          "label": "Освећење; храм и Јерусалим.",
+          "kind": "church_account",
+          "source_ids": [
+            "oca-dedication",
+            "mcp-dedication"
+          ]
+        },
+        {
+          "id": "dedication-resurrection-jerusalem:C2",
+          "location": "body[1]",
+          "label": "Сабрање; значење обновљења.",
+          "kind": "church_history_and_liturgical_interpretation",
+          "source_ids": [
+            "oca-dedication",
+            "mcp-dedication"
+          ]
+        },
+        {
+          "id": "dedication-resurrection-jerusalem:C3",
+          "location": "body[2]",
+          "label": "Редослед календарских дана.",
+          "kind": "calendar_fact",
+          "source_ids": [
+            "eparhija-month-09"
+          ]
+        }
+      ],
+      "takeaway_status": "editorial_interpretation_not_source_quotation",
+      "required_catalog_work": {
+        "proposed_observance_id": "obs-dedication-resurrection-jerusalem",
+        "status": "pending_identity_and_source_review",
+        "subject_ids": [],
+        "article_link": "not_created",
+        "rule": "No article ID to saint ID inference. An article-only Save needs exactly one reviewed observance link in an approved authenticated catalog."
+      },
+      "limitations": [
+        "Conflicting dedication year in consulted church sources; exact year omitted."
+      ]
+    },
+    {
+      "id": "exaltation-cross",
+      "manuscript_marker": "<!-- article:exaltation-cross -->",
+      "date": "2026-09-27",
+      "julian_date": "2026-09-14",
+      "type": "feast",
+      "subtype": "feast",
+      "source_ids": [
+        "spc-exaltation",
+        "oca-exaltation"
+      ],
+      "review_status": "pending_human_review",
+      "owner_approval": null,
+      "rights_status": "pending_for_new_package",
+      "date_proof": "coverage.json#2026-09-27",
+      "claims": [
+        {
+          "id": "exaltation-cross:C1",
+          "location": "body[0]",
+          "label": "Јелена; Макарије; уздизање.",
+          "kind": "church_tradition",
+          "source_ids": [
+            "spc-exaltation"
+          ]
+        },
+        {
+          "id": "exaltation-cross:C2",
+          "location": "body[1]",
+          "label": "Повратак; богослужбено поштовање.",
+          "kind": "church_account",
+          "source_ids": [
+            "oca-exaltation"
+          ]
+        },
+        {
+          "id": "exaltation-cross:C3",
+          "location": "intro; body[2]",
+          "label": "Смисао празника.",
+          "kind": "theological_interpretation",
+          "source_ids": [
+            "oca-exaltation"
+          ]
+        }
+      ],
+      "takeaway_status": "editorial_interpretation_not_source_quotation",
+      "required_catalog_work": {
+        "proposed_observance_id": "obs-exaltation-cross",
+        "status": "pending_identity_and_source_review",
+        "subject_ids": [],
+        "article_link": "not_created",
+        "rule": "No article ID to saint ID inference. An article-only Save needs exactly one reviewed observance link in an approved authenticated catalog."
+      },
+      "limitations": []
+    },
+    {
+      "id": "greatmartyr-niketas-goth",
+      "manuscript_marker": "<!-- article:greatmartyr-niketas-goth -->",
+      "date": "2026-09-28",
+      "julian_date": "2026-09-15",
+      "type": "saint",
+      "subtype": null,
+      "source_ids": [
+        "oca-niketas"
+      ],
+      "review_status": "pending_human_review",
+      "owner_approval": null,
+      "rights_status": "pending_for_new_package",
+      "date_proof": "coverage.json#2026-09-28",
+      "claims": [
+        {
+          "id": "greatmartyr-niketas-goth:C1",
+          "location": "intro; body[0]",
+          "label": "Готи; Дунав; Теофил.",
+          "kind": "church_tradition",
+          "source_ids": [
+            "oca-niketas"
+          ]
+        },
+        {
+          "id": "greatmartyr-niketas-goth:C2",
+          "location": "body[1]",
+          "label": "Атанарих; исповедање; страдање.",
+          "kind": "church_tradition",
+          "source_ids": [
+            "oca-niketas"
+          ]
+        },
+        {
+          "id": "greatmartyr-niketas-goth:C3",
+          "location": "body[2]",
+          "label": "Сажета уредничка интерпретација.",
+          "kind": "editorial_interpretation",
+          "source_ids": [
+            "oca-niketas"
+          ]
+        }
+      ],
+      "takeaway_status": "editorial_interpretation_not_source_quotation",
+      "required_catalog_work": {
+        "proposed_observance_id": "obs-niketas-goth",
+        "status": "pending_identity_and_source_review",
+        "subject_ids": [],
+        "article_link": "not_created",
+        "rule": "No article ID to saint ID inference. An article-only Save needs exactly one reviewed observance link in an approved authenticated catalog."
+      },
+      "limitations": []
+    },
+    {
+      "id": "dorotheus-egypt",
+      "manuscript_marker": "<!-- article:dorotheus-egypt -->",
+      "date": "2026-09-29",
+      "julian_date": "2026-09-16",
+      "type": "saint",
+      "subtype": null,
+      "source_ids": [
+        "oca-dorotheus"
+      ],
+      "review_status": "pending_human_review",
+      "owner_approval": null,
+      "rights_status": "pending_for_new_package",
+      "date_proof": "coverage.json#2026-09-29",
+      "claims": [
+        {
+          "id": "dorotheus-egypt:C1",
+          "location": "intro; body[0]",
+          "label": "Тиваида; Паладије; Лавсаик.",
+          "kind": "church_tradition",
+          "source_ids": [
+            "oca-dorotheus"
+          ]
+        },
+        {
+          "id": "dorotheus-egypt:C2",
+          "location": "body[1]",
+          "label": "Келије; корпе; рад.",
+          "kind": "church_tradition",
+          "source_ids": [
+            "oca-dorotheus"
+          ]
+        },
+        {
+          "id": "dorotheus-egypt:C3",
+          "location": "body[2]",
+          "label": "Подвижништво није опште упутство.",
+          "kind": "editorial_safety_context",
+          "source_ids": [
+            "oca-dorotheus"
+          ]
+        }
+      ],
+      "takeaway_status": "editorial_interpretation_not_source_quotation",
+      "required_catalog_work": {
+        "proposed_observance_id": "obs-dorotheus-egypt",
+        "status": "pending_identity_and_source_review",
+        "subject_ids": [],
+        "article_link": "not_created",
+        "rule": "No article ID to saint ID inference. An article-only Save needs exactly one reviewed observance link in an approved authenticated catalog."
+      },
+      "limitations": [
+        "Egyptian hermit identity requires human confirmation against the shortened calendar title; do not substitute Dorotheus of Gaza."
+      ]
+    },
+    {
+      "id": "faith-hope-love-sophia",
+      "manuscript_marker": "<!-- article:faith-hope-love-sophia -->",
+      "date": "2026-09-30",
+      "julian_date": "2026-09-17",
+      "type": "group",
+      "subtype": null,
+      "source_ids": [
+        "oca-sophia"
+      ],
+      "review_status": "pending_human_review",
+      "owner_approval": null,
+      "rights_status": "pending_for_new_package",
+      "date_proof": "coverage.json#2026-09-30",
+      "claims": [
+        {
+          "id": "faith-hope-love-sophia:C1",
+          "location": "intro; body[0]",
+          "label": "Софија; кћери; Рим; Адријан.",
+          "kind": "church_tradition",
+          "source_ids": [
+            "oca-sophia"
+          ]
+        },
+        {
+          "id": "faith-hope-love-sophia:C2",
+          "location": "body[1]",
+          "label": "Исповедање; страдање; гробови.",
+          "kind": "church_tradition",
+          "source_ids": [
+            "oca-sophia"
+          ]
+        },
+        {
+          "id": "faith-hope-love-sophia:C3",
+          "location": "body[2]",
+          "label": "Сажимање без графичких детаља.",
+          "kind": "editorial_selection",
+          "source_ids": [
+            "oca-sophia"
+          ]
+        }
+      ],
+      "takeaway_status": "editorial_interpretation_not_source_quotation",
+      "required_catalog_work": {
+        "proposed_observance_id": "obs-faith-hope-love-sophia",
+        "status": "pending_identity_and_source_review",
+        "subject_ids": [],
+        "article_link": "not_created",
+        "rule": "No article ID to saint ID inference. An article-only Save needs exactly one reviewed observance link in an approved authenticated catalog."
+      },
+      "limitations": []
+    },
+    {
+      "id": "eumenius-gortyna",
+      "manuscript_marker": "<!-- article:eumenius-gortyna -->",
+      "date": "2026-10-01",
+      "julian_date": "2026-09-18",
+      "type": "saint",
+      "subtype": null,
+      "source_ids": [
+        "oca-eumenius",
+        "radio-glas-eumenius"
+      ],
+      "review_status": "pending_human_review",
+      "owner_approval": null,
+      "rights_status": "pending_for_new_package",
+      "date_proof": "coverage.json#2026-10-01",
+      "claims": [
+        {
+          "id": "eumenius-gortyna:C1",
+          "location": "intro; body[0]",
+          "label": "Гортин; имовина; сиромашни.",
+          "kind": "church_tradition",
+          "source_ids": [
+            "oca-eumenius",
+            "radio-glas-eumenius"
+          ]
+        },
+        {
+          "id": "eumenius-gortyna:C2",
+          "location": "body[1]",
+          "label": "Утеха и старање.",
+          "kind": "church_tradition",
+          "source_ids": [
+            "oca-eumenius",
+            "radio-glas-eumenius"
+          ]
+        },
+        {
+          "id": "eumenius-gortyna:C3",
+          "location": "body[2]",
+          "label": "Тиваида; пренос тела.",
+          "kind": "church_tradition",
+          "source_ids": [
+            "oca-eumenius",
+            "radio-glas-eumenius"
+          ]
+        }
+      ],
+      "takeaway_status": "editorial_interpretation_not_source_quotation",
+      "required_catalog_work": {
+        "proposed_observance_id": "obs-eumenius-gortyna",
+        "status": "pending_identity_and_source_review",
+        "subject_ids": [],
+        "article_link": "not_created",
+        "rule": "No article ID to saint ID inference. An article-only Save needs exactly one reviewed observance link in an approved authenticated catalog."
+      },
+      "limitations": [
+        "Not Eumenius Saridakis; exact dating and causes of travel remain outside this draft."
+      ]
+    },
+    {
+      "id": "trophimus-sabbatius-dorymedon",
+      "manuscript_marker": "<!-- article:trophimus-sabbatius-dorymedon -->",
+      "date": "2026-10-02",
+      "julian_date": "2026-09-19",
+      "type": "group",
+      "subtype": null,
+      "source_ids": [
+        "oca-trophimus"
+      ],
+      "review_status": "pending_human_review",
+      "owner_approval": null,
+      "rights_status": "pending_for_new_package",
+      "date_proof": "coverage.json#2026-10-02",
+      "claims": [
+        {
+          "id": "trophimus-sabbatius-dorymedon:C1",
+          "location": "intro; body[0]",
+          "label": "Тројица; Антиохија; Пров.",
+          "kind": "church_tradition",
+          "source_ids": [
+            "oca-trophimus"
+          ]
+        },
+        {
+          "id": "trophimus-sabbatius-dorymedon:C2",
+          "location": "body[1]",
+          "label": "Синада; Доримедонтова брига.",
+          "kind": "church_tradition",
+          "source_ids": [
+            "oca-trophimus"
+          ]
+        },
+        {
+          "id": "trophimus-sabbatius-dorymedon:C3",
+          "location": "body[2]",
+          "label": "Исповедање; заједнички спомен.",
+          "kind": "church_tradition",
+          "source_ids": [
+            "oca-trophimus"
+          ]
+        }
+      ],
+      "takeaway_status": "editorial_interpretation_not_source_quotation",
+      "required_catalog_work": {
+        "proposed_observance_id": "obs-trophimus-sabbatius-dorymedon",
+        "status": "pending_identity_and_source_review",
+        "subject_ids": [],
+        "article_link": "not_created",
+        "rule": "No article ID to saint ID inference. An article-only Save needs exactly one reviewed observance link in an approved authenticated catalog."
+      },
+      "limitations": []
+    }
+  ]
+}

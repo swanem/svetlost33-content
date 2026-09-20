@@ -1,0 +1,260 @@
+{
+  "document_kind": "editorial_source_ledger_not_permission_record",
+  "revision": 1,
+  "checked_on": "2026-09-20",
+  "source_fact_policy": "Hagiographic details are attributed to church tradition. Neither web access nor institutional publication establishes independent historical corroboration, owner approval, clergy review, or reuse rights.",
+  "date_proof": {
+    "kind": "exact_active_calendar_bytes_and_existing_capture_provenance",
+    "binding": "coverage.json#calendar_binding",
+    "fresh_complete_30_day_refetch": false,
+    "limitation": "The two month records below were captured on 2026-09-15. A fresh monthly-page open was unavailable during this pass; no new full-calendar verification is claimed.",
+    "sources": [
+      {
+        "id": "eparhija-month-09",
+        "url": "https://www.eparhija.at/kalendar?m=2026-9",
+        "effective_url": "https://www.eparhija.at/kalendar?m=2026-9",
+        "fetched_at": "2026-09-15T09:42:14.721080+00:00",
+        "http_status": "200",
+        "response_sha256": "2465d88a24630654197d874a4fafe25f77a26af3f702d3b18deac1e21e4d7523",
+        "response_bytes": 1040860,
+        "evidence_path": "docs/content-review/2026-09-15-calendar/evidence/eparhija-month-09.json",
+        "evidence_sha256": "856c652b7bf6390739e439d57f161acf9916cc3e3a0492f8f58ef9f03b3d5004",
+        "title": "Епархија аустријска СПЦ — календар",
+        "evidence_path_base": "canonical_repository"
+      },
+      {
+        "id": "eparhija-month-10",
+        "url": "https://www.eparhija.at/kalendar?m=2026-10",
+        "effective_url": "https://www.eparhija.at/kalendar?m=2026-10",
+        "fetched_at": "2026-09-15T09:42:14.696624+00:00",
+        "http_status": "200",
+        "response_sha256": "0e453e83d0afef6e41d7c9386925fa3a67ebe278a401b01db013894d1baafbbb",
+        "response_bytes": 1043264,
+        "evidence_path": "docs/content-review/2026-09-15-calendar/evidence/eparhija-month-10.json",
+        "evidence_sha256": "0dabf782b5f933bce9c7fbf4d402ca58b1c39e572b30171b97b8bbab36586f52",
+        "title": "Епархија аустријска СПЦ — календар",
+        "evidence_path_base": "canonical_repository"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "oca-dedication",
+      "purpose": "biographical_or_feast_source_not_2026_spc_date_proof",
+      "url": "https://www.oca.org/saints/lives/2026/09/13/102593-commemoration-of-the-founding-of-the-church-of-the-resurrection",
+      "title_original": "Commemoration of the Founding of the Church of the Resurrection (Holy Sepulchre) at Jerusalem",
+      "publisher_original": "Orthodox Church in America",
+      "original_author": null,
+      "author_note": "No individual byline established on the consulted page.",
+      "published_on": null,
+      "checked_on": "2026-09-20",
+      "check_method": "web_open_text",
+      "review_status": "pending_human_review",
+      "rights_status": "pending",
+      "collection_attribution_id": "oca-saints-attributions",
+      "calendar_route_warning": "URL calendar date, where present, is not the publication date and is not imported as an SPC civil date."
+    },
+    {
+      "id": "oca-exaltation",
+      "purpose": "biographical_or_feast_source_not_2026_spc_date_proof",
+      "url": "https://www.oca.org/orthodoxy/the-orthodox-faith/worship/the-church-year/elevation-of-the-cross",
+      "title_original": "Elevation of the Cross",
+      "publisher_original": "Orthodox Church in America",
+      "original_author": null,
+      "author_note": "No individual byline established on the consulted page.",
+      "published_on": null,
+      "checked_on": "2026-09-20",
+      "check_method": "web_open_text",
+      "review_status": "pending_human_review",
+      "rights_status": "pending",
+      "collection_attribution_id": null,
+      "calendar_route_warning": "URL calendar date, where present, is not the publication date and is not imported as an SPC civil date."
+    },
+    {
+      "id": "oca-niketas",
+      "purpose": "biographical_or_feast_source_not_2026_spc_date_proof",
+      "url": "https://www.oca.org/saints/lives/2026/09/15/102615-greatmartyr-niketas-the-goth",
+      "title_original": "Greatmartyr Niketas the Goth",
+      "publisher_original": "Orthodox Church in America",
+      "original_author": null,
+      "author_note": "No individual byline established on the consulted page.",
+      "published_on": null,
+      "checked_on": "2026-09-20",
+      "check_method": "web_open_text",
+      "review_status": "pending_human_review",
+      "rights_status": "pending",
+      "collection_attribution_id": "oca-saints-attributions",
+      "calendar_route_warning": "URL calendar date, where present, is not the publication date and is not imported as an SPC civil date."
+    },
+    {
+      "id": "oca-dorotheus",
+      "purpose": "biographical_or_feast_source_not_2026_spc_date_proof",
+      "url": "https://www.oca.org/saints/lives/2026/09/16/102632-venerable-dorotheus-the-hermit-of-egypt",
+      "title_original": "Venerable Dorotheus the Hermit of Egypt",
+      "publisher_original": "Orthodox Church in America",
+      "original_author": null,
+      "author_note": "No individual byline established on the consulted page.",
+      "published_on": null,
+      "checked_on": "2026-09-20",
+      "check_method": "web_open_text",
+      "review_status": "pending_human_review",
+      "rights_status": "pending",
+      "collection_attribution_id": "oca-saints-attributions",
+      "calendar_route_warning": "URL calendar date, where present, is not the publication date and is not imported as an SPC civil date."
+    },
+    {
+      "id": "oca-sophia",
+      "purpose": "biographical_or_feast_source_not_2026_spc_date_proof",
+      "url": "https://www.oca.org/saints/lives/2026/09/17/102638-martyr-sophia-and-her-three-daughters-at-rome",
+      "title_original": "Martyr Sophia and her three daughters at Rome",
+      "publisher_original": "Orthodox Church in America",
+      "original_author": null,
+      "author_note": "No individual byline established on the consulted page.",
+      "published_on": null,
+      "checked_on": "2026-09-20",
+      "check_method": "web_open_text",
+      "review_status": "pending_human_review",
+      "rights_status": "pending",
+      "collection_attribution_id": "oca-saints-attributions",
+      "calendar_route_warning": "URL calendar date, where present, is not the publication date and is not imported as an SPC civil date."
+    },
+    {
+      "id": "oca-eumenius",
+      "purpose": "biographical_or_feast_source_not_2026_spc_date_proof",
+      "url": "https://www.oca.org/saints/lives/2026/09/18/102653-saint-eumenius-bishop-of-gortyna",
+      "title_original": "Saint Eumenius, Bishop of Gortyna",
+      "publisher_original": "Orthodox Church in America",
+      "original_author": null,
+      "author_note": "No individual byline established on the consulted page.",
+      "published_on": null,
+      "checked_on": "2026-09-20",
+      "check_method": "web_open_text",
+      "review_status": "pending_human_review",
+      "rights_status": "pending",
+      "collection_attribution_id": "oca-saints-attributions",
+      "calendar_route_warning": "URL calendar date, where present, is not the publication date and is not imported as an SPC civil date."
+    },
+    {
+      "id": "oca-trophimus",
+      "purpose": "biographical_or_feast_source_not_2026_spc_date_proof",
+      "url": "https://www.oca.org/saints/lives/2026/09/19/102664-martyrs-trophimus-sabbatius-and-dorymedon-of-synnada",
+      "title_original": "Martyrs Trophimus, Sabbatius, and Dorymedon of Synnada",
+      "publisher_original": "Orthodox Church in America",
+      "original_author": null,
+      "author_note": "No individual byline established on the consulted page.",
+      "published_on": null,
+      "checked_on": "2026-09-20",
+      "check_method": "web_open_text",
+      "review_status": "pending_human_review",
+      "rights_status": "pending",
+      "collection_attribution_id": "oca-saints-attributions",
+      "calendar_route_warning": "URL calendar date, where present, is not the publication date and is not imported as an SPC civil date."
+    },
+    {
+      "id": "mcp-dedication",
+      "purpose": "liturgical_term_interpretation",
+      "url": "https://mitropolija.com/2017/10/06/u-susret-godisnjici-osvecenja-da-nas-obnovi-praznik-obnovljenja-hrama-hristovog-vaskrsenja-u-podgorici/",
+      "title_original": "У сусрет годишњици освећења – Да нас обнови празник обновљења Храма Христовог Васкрсења у Подгорици",
+      "publisher_original": "Митрополија црногорско-приморска",
+      "original_author": "Протојереј Мирчета Шљиванчанин",
+      "published_on": "2017-10-06",
+      "checked_on": "2026-09-20",
+      "check_method": "web_search_index_text",
+      "review_status": "pending_human_review",
+      "rights_status": "pending"
+    },
+    {
+      "id": "spc-exaltation",
+      "purpose": "feast_tradition_not_2026_date_proof",
+      "url": "https://spc.rs/sr/news/11767.vozdvizenje-casnog-krsta-%E2%80%93-krstovdan.html",
+      "title_original": "Воздвижење Часног Крста – Крстовдан",
+      "publisher_original": "Српска православна црква",
+      "original_author": null,
+      "published_on": "2025-09-27",
+      "checked_on": "2026-09-20",
+      "check_method": "web_search_index_text_direct_open_failed",
+      "review_status": "pending_human_review",
+      "rights_status": "pending"
+    },
+    {
+      "id": "radio-glas-eumenius",
+      "purpose": "supporting_hagiography",
+      "url": "https://www.radioglas.rs/Newsview.asp?ID=5149",
+      "title_original": "Свети Евменије Гортински",
+      "publisher_original": "Радио Глас",
+      "original_author": null,
+      "source_credit_original": "СПЦ",
+      "published_on": "2024-10-01",
+      "checked_on": "2026-09-20",
+      "check_method": "web_search_index_text_direct_open_failed",
+      "review_status": "pending_human_review",
+      "rights_status": "pending"
+    }
+  ],
+  "collection_attributions": [
+    {
+      "id": "oca-saints-attributions",
+      "url": "https://www.oca.org/fs/attributions",
+      "publisher_original": "Orthodox Church in America",
+      "checked_on": "2026-09-20",
+      "check_method": "web_open_text",
+      "scope": "Collection-level attribution only; not a proven individual byline for each page.",
+      "translator_credit": "Fr. Stephen Janos",
+      "translation_period": "1997–2001",
+      "principal_collection_source": "Moscow Patriarchate, Reference Book for Clergy-Servers, volumes 2 (1978) and 3 (1979); other resources are also credited.",
+      "rights_notice": "All rights reserved; no application reuse permission verified.",
+      "rights_status": "pending"
+    }
+  ],
+  "unresolved_review_items": [
+    {
+      "id": "dedication-year",
+      "article_id": "dedication-resurrection-jerusalem",
+      "source_ids": [
+        "oca-dedication",
+        "mcp-dedication"
+      ],
+      "issue": "OCA gives 335; the consulted MCP account gives 325. The exact year is absent from the draft.",
+      "blocking_scope": "Do not insert a historical year without human source review."
+    },
+    {
+      "id": "dorotheus-identity",
+      "article_id": "dorotheus-egypt",
+      "source_ids": [
+        "oca-dorotheus",
+        "eparhija-month-09"
+      ],
+      "issue": "The calendar title is abbreviated. Egyptian hermit is a proposed identity, not a newly approved catalog relation.",
+      "blocking_scope": "Identity and observance/article relation require review before approval or Save."
+    },
+    {
+      "id": "eumenius-dating",
+      "article_id": "eumenius-gortyna",
+      "source_ids": [
+        "oca-eumenius",
+        "radio-glas-eumenius"
+      ],
+      "issue": "Precise chronology and reasons for travel are not asserted; cross-check remains open. Do not conflate with Eumenius Saridakis.",
+      "blocking_scope": "No exact chronology or extra biographical material without review."
+    },
+    {
+      "id": "access-levels",
+      "article_id": null,
+      "source_ids": [
+        "mcp-dedication",
+        "spc-exaltation",
+        "radio-glas-eumenius"
+      ],
+      "issue": "These supporting texts were inspected through search-index results, not a successfully opened current origin page.",
+      "blocking_scope": "Human editorial source review should reopen primary pages or capture equivalent verified material."
+    }
+  ],
+  "excluded_material": [
+    "Source photographs and icons",
+    "Troparia, kontakia and prayers",
+    "Health-outcome promises",
+    "Graphic martyrdom details",
+    "Dangerous ascetic or water-drinking practices as reader advice"
+  ],
+  "claim_map": "articles.json#articles[].claims; section locations refer to the single Cyrillic manuscript, not duplicated prose."
+}
