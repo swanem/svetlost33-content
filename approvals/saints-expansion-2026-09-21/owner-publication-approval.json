@@ -1,0 +1,159 @@
+{
+  "approval_id": "saints-expansion-2026-09-21-owner-r2",
+  "status": "APPROVED_FOR_SHARED_PUBLICATION",
+  "recorded_at": "2026-09-20T20:24:08Z",
+  "approver_role": "project_owner",
+  "statement": "objavi sadržaj i nastavi",
+  "context": "The owner responded to the handoff linking the seven exact Cyrillic drafts below. The publication decision covers these seven texts for both platforms, not the unwritten remainder of the 30-day plan.",
+  "platforms": [
+    "android",
+    "ios"
+  ],
+  "source_commit": "3ccb3405d5c1e6a1f685bb230ee9038590f85ea3",
+  "manuscript": {
+    "path": "drafts/saints-expansion-2026-09-21/TEKSTOVI.md",
+    "sha256": "0f912a46cff2f1558018d43d8e2c564d5b0d44e56fb7ab2eafd7971c1676d0ba"
+  },
+  "source_inputs": {
+    "manuscript": {
+      "path": "drafts/saints-expansion-2026-09-21/TEKSTOVI.md",
+      "sha256": "0f912a46cff2f1558018d43d8e2c564d5b0d44e56fb7ab2eafd7971c1676d0ba"
+    },
+    "metadata": {
+      "path": "drafts/saints-expansion-2026-09-21/articles.json",
+      "sha256": "d711be392023892c05844c1011796b05360984f4479716b801c3687bc7bf6692"
+    },
+    "sources": {
+      "path": "drafts/saints-expansion-2026-09-21/sources.json",
+      "sha256": "62e76ae799a2e7d2f7a5b4af718fba961fbad46dbb8c17462e91e0351c7ff26f"
+    },
+    "coverage": {
+      "path": "drafts/saints-expansion-2026-09-21/coverage.json",
+      "sha256": "05b8cf4c969e457e725fceb76bb518aa28c3a62461fa8e5dfe8966bbdbe9aeeb"
+    },
+    "previous": {
+      "path": "releases/v2/production/releases/shared-saints-2026-09-19-m0v2-s6/modules/saints-v1-2026.9.19-r1/data/saints-v1.json",
+      "sha256": "ab4ced9bbbec3f0765e9c6d45c866c13e76b0adc20d6eb75693be778c7cab000"
+    },
+    "calendar": {
+      "path": "releases/v2/production/releases/shared-annual-2026-r1-m0v2-s2/modules/calendar-2026-r1-2026.1.1-r2/data/calendar.2026.json",
+      "sha256": "a1b6a5d5911ae03f77802bd466227f0c1ea4fe97708b1b6f92cd4b08847c7c9c"
+    },
+    "catalog": {
+      "path": "modules/liturgical-catalog-v1/2026.9.20-r2/data/liturgical-catalog-v1.json",
+      "sha256": "18a581b5bb1a3c881d48a9af3fc3e05596d3528c82ba29bfe53cedd54ec7f910"
+    }
+  },
+  "new_article_ids": [
+    "dedication-resurrection-jerusalem",
+    "exaltation-cross",
+    "greatmartyr-niketas-goth",
+    "dorotheus-egypt",
+    "faith-hope-love-sophia",
+    "eumenius-gortyna",
+    "trophimus-sabbatius-dorymedon"
+  ],
+  "scope": {
+    "new_articles": 7,
+    "previous_articles_preserved": 7,
+    "total_articles": 14,
+    "total_days": 14,
+    "new_dates": {
+      "from": "2026-09-26",
+      "through": "2026-10-02"
+    },
+    "remaining_18_unwritten_days_approved": false,
+    "new_catalog_subjects": 0,
+    "new_catalog_observances": 0,
+    "new_catalog_occurrences": 0,
+    "new_catalog_article_links": 0,
+    "existing_catalog_article_links_preserved": 2,
+    "occurrences_2027": 0,
+    "complete_saint_list": false
+  },
+  "payloads": {
+    "saints": {
+      "version": "2026.9.21",
+      "revision": 2,
+      "bytes": 60425,
+      "sha256": "e85c725d109a322c109e8455bf94c6ddd28c113e67cd77dde9f34642d3559a21"
+    },
+    "catalog": {
+      "version": "2026.9.20",
+      "revision": 3,
+      "bytes": 39772,
+      "sha256": "f202bff8a92f4d4f84a6c025ea67144bf61c2df3fe38030fc446de2116d82e8c"
+    }
+  },
+  "catalog_continuation": {
+    "previous_approval": "approvals/liturgical-catalog-2026-09-20/owner-publication-approval.json",
+    "previous_payload_sha256": "18a581b5bb1a3c881d48a9af3fc3e05596d3528c82ba29bfe53cedd54ec7f910",
+    "allowed_changed_fields": [
+      "revision",
+      "approval_id",
+      "article_bindings/0/version",
+      "article_bindings/0/revision",
+      "article_bindings/0/sha256"
+    ],
+    "all_other_catalog_fields_unchanged": true
+  },
+  "rights_basis": {
+    "kind": "USER_ATTESTATION",
+    "original_record": "drafts/saints-pilot-2026-09-19/pilot.json#rights",
+    "original_statement": "može prava racunaj da imamo",
+    "recorded_on": "2026-09-19",
+    "application_to_this_package": "Coordinator instructed continuing reliance on the owner's text-rights attestation; the exact new publication request is recorded above.",
+    "independently_verified": false,
+    "public_license_assigned": false,
+    "source_permissions_independently_verified": false,
+    "scope_excludes": [
+      "icons",
+      "photographs",
+      "charity_logos",
+      "audio"
+    ],
+    "note": "This is owner attestation, not a claim that source publishers granted a public licence or that a legal or clergy review occurred. Historical pending source-ledger fields remain unchanged."
+  },
+  "publication": {
+    "release_set_id": "shared-saints-expansion-2026-09-21-m0v2-s8",
+    "sequence": 8,
+    "base_release_set_id": "shared-liturgical-catalog-2026-09-20-m0v2-s7",
+    "base_sequence": 7,
+    "base_index_sha256": "955b4a8ccf3345ce8821dd2187583ae3e8604f66fc6480ecf9a410556248d144",
+    "base_release_sha256": "07adbbb4fe394f79d526bc1d5635d296d6e669a62c8545c81495f68164127d80",
+    "key_id": "svetlost33-content-2026-key-1",
+    "existing_public_key_pem_sha256": "9671cc745a71f3b35ac2281bfd4e8da9335db9c6a44beda0ae5cf380b292c1f6",
+    "minimum_clients": {
+      "android": 35,
+      "ios": "0.1.0"
+    },
+    "discovery_expires_at": "2027-02-01T00:00:00Z",
+    "production_channel": "https://raw.githubusercontent.com/swanem/svetlost33-content/main/releases/v2/production",
+    "gates": [
+      "Independent source/identity review, including the shortened Dorotheus calendar title",
+      "Root coordinator GO before signing",
+      "Both native signed S8 integration checks and a separate root GO before installation and Git push"
+    ],
+    "pending_charity_candidate_excluded": true
+  },
+  "authorized": [
+    "prepare_exact_seven_texts_and_deterministic_latin",
+    "retain_previous_seven_articles_and_day_notes",
+    "catalog_existing_article_binding_only_update",
+    "publish_shared_content_after_explicit_coordination_gates"
+  ],
+  "not_authorized": [
+    "unwritten_remaining_18_texts",
+    "new_or_rewritten_reader_texts",
+    "new_canonical_subjects_or_observances",
+    "new_catalog_dates_or_article_links",
+    "2027_date_mapping",
+    "prayers_troparia_kontakia",
+    "pending_charity_activation",
+    "new_trust_anchor",
+    "new_distribution_channel"
+  ],
+  "clerical_review": null,
+  "independent_legal_verification": false,
+  "complete_saint_list_verified": false
+}
