@@ -3,7 +3,7 @@ import { mkdtemp, readFile, rm, writeFile } from 'node:fs/promises';
 import { tmpdir } from 'node:os';
 import { resolve } from 'node:path';
 import test from 'node:test';
-import { BASE, sha256, writeNewTree } from '../scripts/prepare-charity-release-v2.mjs';
+import { BASE, readTree, sha256, writeNewTree } from '../scripts/prepare-charity-release-v2.mjs';
 import { createSaintsReleasePlan, loadSaintsS4Base, SAINTS_RELEASE_ID, SAINTS_PAYLOAD_SHA256, S4_ARCHIVE } from '../scripts/prepare-saints-release-v2.mjs';
 import { signSaintsRelease, validateSaintsRelease } from '../scripts/sign-saints-release-v2.mjs';
 
@@ -40,15 +40,19 @@ test('saints publication plan is deterministic, one-payload optional library, pr
 
 test('published signed S6 bytes equal the reconstructed plan and pass new/old capability gates for both platforms', async () => {
   const { files, request } = await createSaintsReleasePlan({ now });
+  const published = await readTree(BASE);
+  const archive = 'discovery-archive/shared-saints-2026-09-19-m0v2-s6';
+  const discovery = published.has(`${archive}/index.json`) ? { indexPath: `${archive}/index.json`, indexSignaturePath: `${archive}/index.sig` } : {};
+  const sourcePath = path => path === 'index.json' ? (discovery.indexPath ?? path) : path === 'index.sig' ? (discovery.indexSignaturePath ?? path) : path;
   for (const [path, bytes] of files) {
     if (path === 'signing-request.json') continue;
-    assert.deepEqual(await readFile(resolve(BASE, path)), bytes, path);
+    assert.deepEqual(published.get(sourcePath(path)), bytes, path);
   }
   for (const document of request.documents_to_sign) {
-    assert.equal(sha256(await readFile(resolve(BASE, document.path))), document.sha256);
-    assert.ok((await readFile(resolve(BASE, document.signature_path))).length > 0);
+    assert.equal(sha256(published.get(sourcePath(document.path))), document.sha256);
+    assert.ok(published.get(sourcePath(document.signature_path)).length > 0);
   }
-  const checks = await validateSaintsRelease(BASE, now);
+  const checks = await validateSaintsRelease(BASE, now, discovery);
   assert.deepEqual(checks.map(check => check.platform), ['android', 'ios']);
   assert.ok(checks.every(check => check.current.releaseSetId === SAINTS_RELEASE_ID && check.current.modules === 5 && check.previous_capabilities.modules === 4 && check.without_optional_capabilities.modules === 3));
 });

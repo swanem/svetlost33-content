@@ -8,10 +8,11 @@ import { BASE, CAPABILITIES, KEY_ID, readTree, sha256, writeNewTree } from './pr
 import { createSaintsReleasePlan, SAINTS_CAPABILITIES, SAINTS_RELEASE_ID, SAINTS_SEQUENCE, S4_INDEX_SHA256 } from './prepare-saints-release-v2.mjs';
 import { validateRelease } from './validate-m0-v2.mjs';
 
-export async function validateSaintsRelease(directory, now = new Date().toISOString()) {
+export async function validateSaintsRelease(directory, now = new Date().toISOString(), discovery = {}) {
   const checks = [];
   for (const [platform, clientVersion] of [['android', 35], ['ios', '0.1.0']]) {
-    const options = { now, platform, clientVersion, trustedKeyId: KEY_ID, minimumSequence: SAINTS_SEQUENCE };
+    const options = { now, platform, clientVersion, trustedKeyId: KEY_ID, minimumSequence: SAINTS_SEQUENCE,
+      indexPath: discovery.indexPath, indexSignaturePath: discovery.indexSignaturePath };
     const current = await validateRelease(directory, { ...options, clientCapabilities: SAINTS_CAPABILITIES });
     assert.equal(current.releaseSetId, SAINTS_RELEASE_ID);
     assert.equal(current.modules, 5); assert.equal(current.verifiedModules, 5);

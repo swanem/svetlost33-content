@@ -34,9 +34,10 @@ for (const c of fixture.cases) test(`shared reference: ${c.id}`, () => {
   assert.deepEqual(evaluateBibleReference(c.input, c.context_override ?? fixture.context), c.expected);
 });
 
-test('current S6 corpus semantic audit passes, does not pretend to authenticate or approve', async () => {
+test('active published corpus semantic audit passes, does not pretend to authenticate or approve', async () => {
   const result = await validateBibleReleaseDirectory(resolve(root, 'releases/v2/production'));
-  assert.equal(result.generation_id, fixture.context.generation_id);
+  const index = await json('releases/v2/production/index.json');
+  assert.equal(result.generation_id, index.channels.production.release_set_id);
   assert.equal(result.authentication, 'not_performed_by_this_semantic_validator');
   assert.deepEqual(result.results.map(result => result.counts), [{ quotes: 21, calendar_readings: 252 }, { quotes: 21, calendar_readings: 252 }]);
 });

@@ -1,0 +1,83 @@
+{
+  "approval_id": "liturgical-catalog-2026-09-20-owner-r2",
+  "status": "APPROVED_FOR_SHARED_PUBLICATION",
+  "recorded_at": "2026-09-20T17:45:07Z",
+  "approver_role": "project_owner",
+  "statement": "Da, objavi i taj katalog",
+  "question_context": "Za aplikacije je objava odobrena. Da li odobravaš i aktiviranje novog zajedničkog kataloga: 15 spomena, od kojih 13 ima potvrđen datum za 2026, dok Nektarije i Stefan Dečanski ostaju bez potvrđenog datuma? Katalog za 2027 još nije dostupan.",
+  "preceding_release_request": "objavi sve verzije",
+  "platforms": ["android", "ios"],
+  "source": {
+    "repository": "swanem/svetlost33-content",
+    "commit": "b755d06be30905d531c0e34477b50cd978607824",
+    "candidate_path": "fixtures/liturgical-catalog-v1/catalog-candidate.json",
+    "candidate_sha256": "3722e9fbbf53bbd75b1a76289b59965f6ae929d693e0f700cdf1a6d6ff48015b",
+    "candidate_unchanged": true,
+    "contract_path": "docs/LITURGICAL-CATALOG-V1-CONTRACT.md",
+    "contract_sha256": "befd17795bb9e75fc710374ce5287e6a32e21ab97e1b96a036c31dab6be7ff10",
+    "schema_path": "schemas/liturgical-catalog-v1.schema.json",
+    "schema_sha256": "da1b2d0811d91152592483fc5f9e5322b98d0bf905356068e0c78e3e3a595e70",
+    "source_review_path": "docs/I2-CALENDAR-SOURCE-REVIEW.md",
+    "source_review_sha256": "05e3c1452ed3491cc6d2e74bfbb2d145e9e8107cda0ae238bbbc490308815351"
+  },
+  "scope": {
+    "subjects": 12,
+    "observances": 15,
+    "occurrences_2026": 13,
+    "article_links": 2,
+    "undated_observances": ["obs-stefan-decanski", "obs-nektarios-aegina"],
+    "occurrences_2027": 0,
+    "complete_saint_list": false,
+    "legacy_slava_migration_authorized": false,
+    "new_religious_texts": false
+  },
+  "transformation": {
+    "root_revision": 2,
+    "root_review_status": "approved",
+    "reviewed_arrays": ["sources", "subjects", "observances", "occurrences", "article_links"],
+    "reviewed_record_count": 59,
+    "total_changed_scalar_fields": 62,
+    "preserve_rights_status": true,
+    "preserve_source_checked_dates": true,
+    "preserve_legacy_link_pending_status": true,
+    "preserved_fields": "All names, aliases, IDs, source metadata, bindings, dates, source order, article identities, unresolved cases and coverage remain identical to the frozen candidate. Only the stated status/revision/approval fields change."
+  },
+  "payload": {
+    "path": "modules/liturgical-catalog-v1/2026.9.20-r2/data/liturgical-catalog-v1.json",
+    "bytes": 39774,
+    "sha256": "18a581b5bb1a3c881d48a9af3fc3e05596d3528c82ba29bfe53cedd54ec7f910",
+    "version": "2026.9.20",
+    "revision": 2
+  },
+  "module": {
+    "module_id": "liturgical-catalog-v1",
+    "module_type": "library",
+    "required": false,
+    "capabilities": ["liturgical-catalog-v1"],
+    "payload_path": "data/liturgical-catalog-v1.json",
+    "manifest_payload_files": 1,
+    "dependencies": [
+      {"module_id": "calendar-2026-r1", "version": "2026.1.1"},
+      {"module_id": "saints-v1", "version": "2026.9.19"}
+    ]
+  },
+  "publication": {
+    "release_set_id": "shared-liturgical-catalog-2026-09-20-m0v2-s7",
+    "sequence": 7,
+    "base_release_set_id": "shared-saints-2026-09-19-m0v2-s6",
+    "base_sequence": 6,
+    "base_index_sha256": "fa4a38a4c97f7634fe7554a03d94438b5a9486d1fcf89446bdd21abbaa2fd3fc",
+    "base_release_sha256": "3e9b1ef707ebb4e0cd71fa5c59f1ee1df1cb99bb0572d1729e29cadeacde8e28",
+    "key_id": "svetlost33-content-2026-key-1",
+    "existing_public_key_pem_sha256": "9671cc745a71f3b35ac2281bfd4e8da9335db9c6a44beda0ae5cf380b292c1f6",
+    "minimum_clients": {"android": 35, "ios": "0.1.0"},
+    "preserved_module_ids": ["library-annual-2026-r1", "daily-cycles-r1", "calendar-2026-r1", "organizations-v1", "saints-v1"],
+    "production_channel": "https://raw.githubusercontent.com/swanem/svetlost33-content/main/releases/v2/production",
+    "activation_gate": "Keep signed S7 in separate staging until root coordination confirms both native QA results and gives GO for production index installation and normal Git push.",
+    "pending_charity_candidate": "Unrelated S5 charity candidate and dirty files remain untouched and excluded."
+  },
+  "authorized": ["prepare_exact_metadata_revision", "sign_shared_catalog_module_with_existing_production_key", "publish_after_native_QA_and_root_coordination_GO", "normal_non_force_git_push_after_GO", "public_signature_hash_and_compatibility_verification"],
+  "not_authorized_by_this_record": ["new_saints_texts_or_prayers", "invented_dates_for_unresolved_observances", "copied_2027_dates", "I4_settings_migration", "pending_charity_activation", "new_trust_anchor", "new_content_channel_or_Site_mirror"],
+  "rights_note": "This approves the bounded metadata/catalog revision and its distribution. All source rights_status values remain pending; no new public licence, translation-rights clearance, clerical review or endorsement is asserted. Existing approved article bytes are unchanged.",
+  "clerical_review": null
+}
