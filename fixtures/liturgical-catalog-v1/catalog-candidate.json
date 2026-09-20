@@ -1,0 +1,1384 @@
+{
+  "schema_version": "svetlost33-liturgical-catalog-1",
+  "version": "2026.9.20",
+  "revision": 1,
+  "review_status": "pending",
+  "approval_id": null,
+  "calendar_profiles": [
+    {
+      "id": "spc-rs-ba-julian-v1",
+      "name": {
+        "sr-Cyrl": "СПЦ — Србија и Босна и Херцеговина, јулијански календар",
+        "sr-Latn": "SPC — Srbija i Bosna i Hercegovina, julijanski kalendar"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "spc-kirijak",
+      "title": "Преподобни Киријак Отшелник",
+      "url": "https://spc.rs/sr/news/11852.prepodobni-kirijak-otselnik.html",
+      "publisher": "Српска православна црква",
+      "original_author": null,
+      "checked_on": "2026-09-20",
+      "review_status": "pending",
+      "rights_status": "pending"
+    },
+    {
+      "id": "spc-nicholas-transfer",
+      "title": "Празник преноса моштију Светог Николаја у Никољцу",
+      "url": "https://spc.rs/sr/news/2598.praznik-prenosa-mostiju-svetog-nikolaja-u-nikoljcu.html",
+      "publisher": "Српска православна црква",
+      "original_author": null,
+      "checked_on": "2026-09-20",
+      "review_status": "pending",
+      "rights_status": "pending"
+    },
+    {
+      "id": "spc-nicholas",
+      "title": "Празник Светог Николаја у Новом Саду",
+      "url": "https://www.spc.rs/sr/news/iz-zivota-crkve/12225.praznik-svetog-nikolaja-u-novom-sadu.html",
+      "publisher": "Српска православна црква",
+      "original_author": null,
+      "checked_on": "2026-09-20",
+      "review_status": "pending",
+      "rights_status": "pending"
+    },
+    {
+      "id": "eparhija-michael-chonae",
+      "title": "Чудо Светог Архангела Михаила у Хони",
+      "url": "https://www.eparhija-sumadijska.org.rs/index.php/vesti/11139-blagovestenje-19092026",
+      "publisher": "Епархија шумадијска",
+      "original_author": null,
+      "checked_on": "2026-09-20",
+      "review_status": "pending",
+      "rights_status": "pending"
+    },
+    {
+      "id": "spc-michael-synaxis",
+      "title": "Аранђеловдан у Епархији врањској",
+      "url": "https://spc.rs/sr/news/5493.arandelovdan-u-eparhiji-vranjskoj.html",
+      "publisher": "Српска православна црква",
+      "original_author": null,
+      "checked_on": "2026-09-20",
+      "review_status": "pending",
+      "rights_status": "pending"
+    },
+    {
+      "id": "spc-peter-paul",
+      "title": "Права вера није лични ударнички подвиг, него је вера Цркве",
+      "url": "https://www.spc.rs/sr/news/patrijarh/17190.prava-vera-nije-licni-udarnicki-podvig%2C-nego-je-vera-crkve-.html",
+      "publisher": "Српска православна црква",
+      "original_author": null,
+      "checked_on": "2026-09-20",
+      "review_status": "pending",
+      "rights_status": "pending"
+    },
+    {
+      "id": "eparhija-nativity",
+      "title": "Календар: 21.09.2026.",
+      "url": "https://kalendar.eparhija.at/2026/9/21",
+      "publisher": "Епархија аустријска СПЦ",
+      "original_author": null,
+      "checked_on": "2026-09-20",
+      "review_status": "pending",
+      "rights_status": "pending"
+    },
+    {
+      "id": "radio-nektarije",
+      "title": "Свети Нектарије Егински",
+      "url": "https://radioglas.rs/Newsview.asp?ID=2367",
+      "publisher": "Радио Глас Епархије нишке",
+      "original_author": null,
+      "checked_on": "2026-09-20",
+      "review_status": "pending",
+      "rights_status": "pending"
+    },
+    {
+      "id": "spc-stefan-decanski",
+      "title": "Свети краљ Стефан Дечански — крсна слава епископа Јеротеја",
+      "url": "https://www.spc.rs/sr/news/iz-zivota-crkve/-/12109.sveti-kralj-stefan-decanski-%E2%80%93-krsna-slava-episkopa-jeroteja.html",
+      "publisher": "Српска православна црква",
+      "original_author": null,
+      "checked_on": "2026-09-20",
+      "review_status": "pending",
+      "rights_status": "pending"
+    },
+    {
+      "id": "eparhija-month-01",
+      "title": "Епархија аустријска СПЦ — календар",
+      "url": "https://www.eparhija.at/kalendar?m=2026-1",
+      "publisher": "Епархија аустријска СПЦ",
+      "original_author": null,
+      "checked_on": "2026-09-15",
+      "review_status": "pending",
+      "rights_status": "pending"
+    },
+    {
+      "id": "eparhija-month-02",
+      "title": "Епархија аустријска СПЦ — календар",
+      "url": "https://www.eparhija.at/kalendar?m=2026-2",
+      "publisher": "Епархија аустријска СПЦ",
+      "original_author": null,
+      "checked_on": "2026-09-15",
+      "review_status": "pending",
+      "rights_status": "pending"
+    },
+    {
+      "id": "eparhija-month-05",
+      "title": "Епархија аустријска СПЦ — календар",
+      "url": "https://www.eparhija.at/kalendar?m=2026-5",
+      "publisher": "Епархија аустријска СПЦ",
+      "original_author": null,
+      "checked_on": "2026-09-15",
+      "review_status": "pending",
+      "rights_status": "pending"
+    },
+    {
+      "id": "eparhija-month-07",
+      "title": "Епархија аустријска СПЦ — календар",
+      "url": "https://www.eparhija.at/kalendar?m=2026-7",
+      "publisher": "Епархија аустријска СПЦ",
+      "original_author": null,
+      "checked_on": "2026-09-15",
+      "review_status": "pending",
+      "rights_status": "pending"
+    },
+    {
+      "id": "eparhija-month-09",
+      "title": "Епархија аустријска СПЦ — календар",
+      "url": "https://www.eparhija.at/kalendar?m=2026-9",
+      "publisher": "Епархија аустријска СПЦ",
+      "original_author": null,
+      "checked_on": "2026-09-15",
+      "review_status": "pending",
+      "rights_status": "pending"
+    },
+    {
+      "id": "eparhija-month-10",
+      "title": "Епархија аустријска СПЦ — календар",
+      "url": "https://www.eparhija.at/kalendar?m=2026-10",
+      "publisher": "Епархија аустријска СПЦ",
+      "original_author": null,
+      "checked_on": "2026-09-15",
+      "review_status": "pending",
+      "rights_status": "pending"
+    },
+    {
+      "id": "eparhija-month-11",
+      "title": "Епархија аустријска СПЦ — календар",
+      "url": "https://www.eparhija.at/kalendar?m=2026-11",
+      "publisher": "Епархија аустријска СПЦ",
+      "original_author": null,
+      "checked_on": "2026-09-15",
+      "review_status": "pending",
+      "rights_status": "pending"
+    },
+    {
+      "id": "eparhija-month-12",
+      "title": "Епархија аустријска СПЦ — календар",
+      "url": "https://www.eparhija.at/kalendar?m=2026-12",
+      "publisher": "Епархија аустријска СПЦ",
+      "original_author": null,
+      "checked_on": "2026-09-15",
+      "review_status": "pending",
+      "rights_status": "pending"
+    }
+  ],
+  "subjects": [
+    {
+      "id": "saint-paraskeva",
+      "type": "saint",
+      "name": {
+        "sr-Cyrl": "Преподобна мати Параскева",
+        "sr-Latn": "Prepodobna mati Paraskeva"
+      },
+      "aliases": [
+        {
+          "text": "Света Петка",
+          "locale": "sr-Cyrl",
+          "kind": "name_variant",
+          "source_ids": [
+            "eparhija-month-10"
+          ]
+        },
+        {
+          "text": "Sveta Petka",
+          "locale": "sr-Latn",
+          "kind": "name_variant",
+          "source_ids": [
+            "eparhija-month-10"
+          ]
+        }
+      ],
+      "source_ids": [
+        "eparhija-month-10"
+      ],
+      "review_status": "pending"
+    },
+    {
+      "id": "saint-sava-serbian",
+      "type": "saint",
+      "name": {
+        "sr-Cyrl": "Свети Сава Српски",
+        "sr-Latn": "Sveti Sava Srpski"
+      },
+      "aliases": [
+        {
+          "text": "Свети Сава",
+          "locale": "sr-Cyrl",
+          "kind": "name_variant",
+          "source_ids": [
+            "eparhija-month-01"
+          ]
+        },
+        {
+          "text": "Sveti Sava",
+          "locale": "sr-Latn",
+          "kind": "name_variant",
+          "source_ids": [
+            "eparhija-month-01"
+          ]
+        }
+      ],
+      "source_ids": [
+        "eparhija-month-01"
+      ],
+      "review_status": "pending"
+    },
+    {
+      "id": "saint-nicholas-myra",
+      "type": "saint",
+      "name": {
+        "sr-Cyrl": "Свети Николај Мирликијски",
+        "sr-Latn": "Sveti Nikolaj Mirlikijski"
+      },
+      "aliases": [
+        {
+          "text": "Свети Никола",
+          "locale": "sr-Cyrl",
+          "kind": "name_variant",
+          "source_ids": [
+            "spc-nicholas",
+            "spc-nicholas-transfer"
+          ]
+        },
+        {
+          "text": "Sveti Nikola",
+          "locale": "sr-Latn",
+          "kind": "name_variant",
+          "source_ids": [
+            "spc-nicholas",
+            "spc-nicholas-transfer"
+          ]
+        },
+        {
+          "text": "Свети Николај",
+          "locale": "sr-Cyrl",
+          "kind": "name_variant",
+          "source_ids": [
+            "spc-nicholas",
+            "spc-nicholas-transfer"
+          ]
+        },
+        {
+          "text": "Sveti Nikolaj",
+          "locale": "sr-Latn",
+          "kind": "name_variant",
+          "source_ids": [
+            "spc-nicholas",
+            "spc-nicholas-transfer"
+          ]
+        }
+      ],
+      "source_ids": [
+        "spc-nicholas",
+        "spc-nicholas-transfer"
+      ],
+      "review_status": "pending"
+    },
+    {
+      "id": "saint-john-baptist",
+      "type": "saint",
+      "name": {
+        "sr-Cyrl": "Свети Јован Крститељ",
+        "sr-Latn": "Sveti Jovan Krstitelj"
+      },
+      "aliases": [
+        {
+          "text": "Јован Претеча",
+          "locale": "sr-Cyrl",
+          "kind": "name_variant",
+          "source_ids": [
+            "eparhija-month-01"
+          ]
+        },
+        {
+          "text": "Jovan Preteča",
+          "locale": "sr-Latn",
+          "kind": "name_variant",
+          "source_ids": [
+            "eparhija-month-01"
+          ]
+        }
+      ],
+      "source_ids": [
+        "eparhija-month-01"
+      ],
+      "review_status": "pending"
+    },
+    {
+      "id": "saint-george",
+      "type": "saint",
+      "name": {
+        "sr-Cyrl": "Свети великомученик Георгије",
+        "sr-Latn": "Sveti velikomučenik Georgije"
+      },
+      "aliases": [
+        {
+          "text": "Свети Георгије",
+          "locale": "sr-Cyrl",
+          "kind": "name_variant",
+          "source_ids": [
+            "eparhija-month-05"
+          ]
+        },
+        {
+          "text": "Sveti Georgije",
+          "locale": "sr-Latn",
+          "kind": "name_variant",
+          "source_ids": [
+            "eparhija-month-05"
+          ]
+        }
+      ],
+      "source_ids": [
+        "eparhija-month-05"
+      ],
+      "review_status": "pending"
+    },
+    {
+      "id": "saint-demetrius",
+      "type": "saint",
+      "name": {
+        "sr-Cyrl": "Свети великомученик Димитрије",
+        "sr-Latn": "Sveti velikomučenik Dimitrije"
+      },
+      "aliases": [
+        {
+          "text": "Свети Димитрије",
+          "locale": "sr-Cyrl",
+          "kind": "name_variant",
+          "source_ids": [
+            "eparhija-month-11"
+          ]
+        },
+        {
+          "text": "Sveti Dimitrije",
+          "locale": "sr-Latn",
+          "kind": "name_variant",
+          "source_ids": [
+            "eparhija-month-11"
+          ]
+        }
+      ],
+      "source_ids": [
+        "eparhija-month-11"
+      ],
+      "review_status": "pending"
+    },
+    {
+      "id": "saint-archangel-michael",
+      "type": "saint",
+      "name": {
+        "sr-Cyrl": "Свети архангел Михаило",
+        "sr-Latn": "Sveti arhangel Mihailo"
+      },
+      "aliases": [
+        {
+          "text": "Архангел Михаило",
+          "locale": "sr-Cyrl",
+          "kind": "name_variant",
+          "source_ids": [
+            "spc-michael-synaxis",
+            "eparhija-michael-chonae"
+          ]
+        },
+        {
+          "text": "Arhangel Mihailo",
+          "locale": "sr-Latn",
+          "kind": "name_variant",
+          "source_ids": [
+            "spc-michael-synaxis",
+            "eparhija-michael-chonae"
+          ]
+        }
+      ],
+      "source_ids": [
+        "spc-michael-synaxis",
+        "eparhija-michael-chonae"
+      ],
+      "review_status": "pending"
+    },
+    {
+      "id": "saint-stefan-decanski",
+      "type": "saint",
+      "name": {
+        "sr-Cyrl": "Свети краљ Стефан Дечански",
+        "sr-Latn": "Sveti kralj Stefan Dečanski"
+      },
+      "aliases": [
+        {
+          "text": "Свети Стефан Дечански",
+          "locale": "sr-Cyrl",
+          "kind": "name_variant",
+          "source_ids": [
+            "spc-stefan-decanski"
+          ]
+        },
+        {
+          "text": "Sveti Stefan Dečanski",
+          "locale": "sr-Latn",
+          "kind": "name_variant",
+          "source_ids": [
+            "spc-stefan-decanski"
+          ]
+        }
+      ],
+      "source_ids": [
+        "spc-stefan-decanski"
+      ],
+      "review_status": "pending"
+    },
+    {
+      "id": "saint-simeon-myrrh-streaming",
+      "type": "saint",
+      "name": {
+        "sr-Cyrl": "Преподобни Симеон Мироточиви",
+        "sr-Latn": "Prepodobni Simeon Mirotočivi"
+      },
+      "aliases": [
+        {
+          "text": "Свети Симеон Мироточиви",
+          "locale": "sr-Cyrl",
+          "kind": "name_variant",
+          "source_ids": [
+            "eparhija-month-02"
+          ]
+        },
+        {
+          "text": "Sveti Simeon Mirotočivi",
+          "locale": "sr-Latn",
+          "kind": "name_variant",
+          "source_ids": [
+            "eparhija-month-02"
+          ]
+        }
+      ],
+      "source_ids": [
+        "eparhija-month-02"
+      ],
+      "review_status": "pending"
+    },
+    {
+      "id": "saint-nektarios-aegina",
+      "type": "saint",
+      "name": {
+        "sr-Cyrl": "Свети Нектарије Егински",
+        "sr-Latn": "Sveti Nektarije Eginski"
+      },
+      "aliases": [],
+      "source_ids": [
+        "radio-nektarije"
+      ],
+      "review_status": "pending"
+    },
+    {
+      "id": "saint-cyriacus-hermit",
+      "type": "saint",
+      "name": {
+        "sr-Cyrl": "Преподобни Киријак Отшелник",
+        "sr-Latn": "Prepodobni Kirijak Otšelnik"
+      },
+      "aliases": [
+        {
+          "text": "Киријак",
+          "locale": "sr-Cyrl",
+          "kind": "name_variant",
+          "source_ids": [
+            "spc-kirijak",
+            "eparhija-month-10"
+          ]
+        },
+        {
+          "text": "Kirijak",
+          "locale": "sr-Latn",
+          "kind": "name_variant",
+          "source_ids": [
+            "spc-kirijak",
+            "eparhija-month-10"
+          ]
+        }
+      ],
+      "source_ids": [
+        "spc-kirijak",
+        "eparhija-month-10"
+      ],
+      "review_status": "pending"
+    },
+    {
+      "id": "group-apostles-peter-paul",
+      "type": "group",
+      "name": {
+        "sr-Cyrl": "Свети апостоли Петар и Павле",
+        "sr-Latn": "Sveti apostoli Petar i Pavle"
+      },
+      "aliases": [
+        {
+          "text": "Петар и Павле",
+          "locale": "sr-Cyrl",
+          "kind": "name_variant",
+          "source_ids": [
+            "spc-peter-paul",
+            "eparhija-month-07"
+          ]
+        },
+        {
+          "text": "Petar i Pavle",
+          "locale": "sr-Latn",
+          "kind": "name_variant",
+          "source_ids": [
+            "spc-peter-paul",
+            "eparhija-month-07"
+          ]
+        }
+      ],
+      "source_ids": [
+        "spc-peter-paul",
+        "eparhija-month-07"
+      ],
+      "review_status": "pending"
+    }
+  ],
+  "observances": [
+    {
+      "id": "obs-paraskeva",
+      "kind": "saint_commemoration",
+      "name": {
+        "sr-Cyrl": "Преподобна мати Параскева (Света Петка)",
+        "sr-Latn": "Prepodobna mati Paraskeva (Sveta Petka)"
+      },
+      "description": {
+        "sr-Cyrl": "Спомен светитеља",
+        "sr-Latn": "Spomen svetitelja"
+      },
+      "subject_ids": [
+        "saint-paraskeva"
+      ],
+      "aliases": [],
+      "source_ids": [
+        "eparhija-month-10"
+      ],
+      "review_status": "pending"
+    },
+    {
+      "id": "obs-sava-serbian",
+      "kind": "saint_commemoration",
+      "name": {
+        "sr-Cyrl": "Свети Сава Српски",
+        "sr-Latn": "Sveti Sava Srpski"
+      },
+      "description": {
+        "sr-Cyrl": "Спомен светитеља",
+        "sr-Latn": "Spomen svetitelja"
+      },
+      "subject_ids": [
+        "saint-sava-serbian"
+      ],
+      "aliases": [],
+      "source_ids": [
+        "eparhija-month-01"
+      ],
+      "review_status": "pending"
+    },
+    {
+      "id": "obs-nicholas-december",
+      "kind": "saint_commemoration",
+      "name": {
+        "sr-Cyrl": "Свети Николај, Архиепископ мирликијски Чудотворац – Никољдан",
+        "sr-Latn": "Sveti Nikolaj, Arhiepiskop mirlikijski Čudotvorac – Nikoljdan"
+      },
+      "description": {
+        "sr-Cyrl": "Децембарски спомен Светог Николаја",
+        "sr-Latn": "Decembarski spomen Svetog Nikolaja"
+      },
+      "subject_ids": [
+        "saint-nicholas-myra"
+      ],
+      "aliases": [
+        {
+          "text": "Никољдан",
+          "locale": "sr-Cyrl",
+          "kind": "popular",
+          "source_ids": [
+            "eparhija-month-12"
+          ]
+        },
+        {
+          "text": "Nikoljdan",
+          "locale": "sr-Latn",
+          "kind": "popular",
+          "source_ids": [
+            "eparhija-month-12"
+          ]
+        }
+      ],
+      "source_ids": [
+        "eparhija-month-12"
+      ],
+      "review_status": "pending"
+    },
+    {
+      "id": "obs-john-baptist-synaxis",
+      "kind": "saint_commemoration",
+      "name": {
+        "sr-Cyrl": "Сабор Св. Јована Крститеља",
+        "sr-Latn": "Sabor Sv. Jovana Krstitelja"
+      },
+      "description": {
+        "sr-Cyrl": "Сабор Светог Јована Крститеља",
+        "sr-Latn": "Sabor Svetog Jovana Krstitelja"
+      },
+      "subject_ids": [
+        "saint-john-baptist"
+      ],
+      "aliases": [],
+      "source_ids": [
+        "eparhija-month-01"
+      ],
+      "review_status": "pending"
+    },
+    {
+      "id": "obs-george",
+      "kind": "saint_commemoration",
+      "name": {
+        "sr-Cyrl": "Свети великомученик Георгије – Ђурђевдан",
+        "sr-Latn": "Sveti velikomučenik Georgije – Đurđevdan"
+      },
+      "description": {
+        "sr-Cyrl": "Спомен светитеља",
+        "sr-Latn": "Spomen svetitelja"
+      },
+      "subject_ids": [
+        "saint-george"
+      ],
+      "aliases": [
+        {
+          "text": "Ђурђевдан",
+          "locale": "sr-Cyrl",
+          "kind": "popular",
+          "source_ids": [
+            "eparhija-month-05"
+          ]
+        },
+        {
+          "text": "Đurđevdan",
+          "locale": "sr-Latn",
+          "kind": "popular",
+          "source_ids": [
+            "eparhija-month-05"
+          ]
+        }
+      ],
+      "source_ids": [
+        "eparhija-month-05"
+      ],
+      "review_status": "pending"
+    },
+    {
+      "id": "obs-demetrius",
+      "kind": "saint_commemoration",
+      "name": {
+        "sr-Cyrl": "Свети великомученик Димитрије – Митровдан",
+        "sr-Latn": "Sveti velikomučenik Dimitrije – Mitrovdan"
+      },
+      "description": {
+        "sr-Cyrl": "Спомен светитеља",
+        "sr-Latn": "Spomen svetitelja"
+      },
+      "subject_ids": [
+        "saint-demetrius"
+      ],
+      "aliases": [
+        {
+          "text": "Митровдан",
+          "locale": "sr-Cyrl",
+          "kind": "popular",
+          "source_ids": [
+            "eparhija-month-11"
+          ]
+        },
+        {
+          "text": "Mitrovdan",
+          "locale": "sr-Latn",
+          "kind": "popular",
+          "source_ids": [
+            "eparhija-month-11"
+          ]
+        }
+      ],
+      "source_ids": [
+        "eparhija-month-11"
+      ],
+      "review_status": "pending"
+    },
+    {
+      "id": "obs-michael-synaxis",
+      "kind": "feast",
+      "name": {
+        "sr-Cyrl": "Сабор Светог Архангела Михаила и осталих Небеских Сила Бестелесних – Аранђеловдан",
+        "sr-Latn": "Sabor Svetog Arhangela Mihaila i ostalih Nebeskih Sila Bestelesnih – Aranđelovdan"
+      },
+      "description": {
+        "sr-Cyrl": "Сабор Архангела Михаила и осталих небеских сила",
+        "sr-Latn": "Sabor Arhangela Mihaila i ostalih nebeskih sila"
+      },
+      "subject_ids": [
+        "saint-archangel-michael"
+      ],
+      "aliases": [
+        {
+          "text": "Аранђеловдан",
+          "locale": "sr-Cyrl",
+          "kind": "popular",
+          "source_ids": [
+            "eparhija-month-11"
+          ]
+        },
+        {
+          "text": "Aranđelovdan",
+          "locale": "sr-Latn",
+          "kind": "popular",
+          "source_ids": [
+            "eparhija-month-11"
+          ]
+        }
+      ],
+      "source_ids": [
+        "eparhija-month-11"
+      ],
+      "review_status": "pending"
+    },
+    {
+      "id": "obs-stefan-decanski",
+      "kind": "saint_commemoration",
+      "name": {
+        "sr-Cyrl": "Свети краљ Стефан Дечански",
+        "sr-Latn": "Sveti kralj Stefan Dečanski"
+      },
+      "description": {
+        "sr-Cyrl": "Годишња веза није потврђена",
+        "sr-Latn": "Godišnja veza nije potvrđena"
+      },
+      "subject_ids": [
+        "saint-stefan-decanski"
+      ],
+      "aliases": [],
+      "source_ids": [
+        "spc-stefan-decanski"
+      ],
+      "review_status": "pending"
+    },
+    {
+      "id": "obs-simeon-myrrh-streaming",
+      "kind": "saint_commemoration",
+      "name": {
+        "sr-Cyrl": "Преподобни Симеон Мироточиви",
+        "sr-Latn": "Prepodobni Simeon Mirotočivi"
+      },
+      "description": {
+        "sr-Cyrl": "Спомен светитеља",
+        "sr-Latn": "Spomen svetitelja"
+      },
+      "subject_ids": [
+        "saint-simeon-myrrh-streaming"
+      ],
+      "aliases": [],
+      "source_ids": [
+        "eparhija-month-02"
+      ],
+      "review_status": "pending"
+    },
+    {
+      "id": "obs-nektarios-aegina",
+      "kind": "saint_commemoration",
+      "name": {
+        "sr-Cyrl": "Свети Нектарије Егински",
+        "sr-Latn": "Sveti Nektarije Eginski"
+      },
+      "description": {
+        "sr-Cyrl": "Годишња веза није потврђена",
+        "sr-Latn": "Godišnja veza nije potvrđena"
+      },
+      "subject_ids": [
+        "saint-nektarios-aegina"
+      ],
+      "aliases": [],
+      "source_ids": [
+        "radio-nektarije"
+      ],
+      "review_status": "pending"
+    },
+    {
+      "id": "obs-cyriacus-miholjdan",
+      "kind": "saint_commemoration",
+      "name": {
+        "sr-Cyrl": "Преподобни Киријак Отшелник – Михољдан",
+        "sr-Latn": "Prepodobni Kirijak Otšelnik – Miholjdan"
+      },
+      "description": {
+        "sr-Cyrl": "Спомен светитеља",
+        "sr-Latn": "Spomen svetitelja"
+      },
+      "subject_ids": [
+        "saint-cyriacus-hermit"
+      ],
+      "aliases": [
+        {
+          "text": "Михољдан",
+          "locale": "sr-Cyrl",
+          "kind": "popular",
+          "source_ids": [
+            "eparhija-month-10"
+          ]
+        },
+        {
+          "text": "Miholjdan",
+          "locale": "sr-Latn",
+          "kind": "popular",
+          "source_ids": [
+            "eparhija-month-10"
+          ]
+        }
+      ],
+      "source_ids": [
+        "eparhija-month-10"
+      ],
+      "review_status": "pending"
+    },
+    {
+      "id": "obs-nicholas-relics-transfer",
+      "kind": "saint_commemoration",
+      "name": {
+        "sr-Cyrl": "Пренос моштију Светог оца Николаја",
+        "sr-Latn": "Prenos moštiju Svetog oca Nikolaja"
+      },
+      "description": {
+        "sr-Cyrl": "Пренос моштију Светог Николаја",
+        "sr-Latn": "Prenos moštiju Svetog Nikolaja"
+      },
+      "subject_ids": [
+        "saint-nicholas-myra"
+      ],
+      "aliases": [],
+      "source_ids": [
+        "eparhija-month-05",
+        "spc-nicholas-transfer"
+      ],
+      "review_status": "pending"
+    },
+    {
+      "id": "obs-michael-chonae",
+      "kind": "event",
+      "name": {
+        "sr-Cyrl": "Чудо Светог Архангела Михаила",
+        "sr-Latn": "Čudo Svetog Arhangela Mihaila"
+      },
+      "description": {
+        "sr-Cyrl": "Чудо Архангела Михаила у Хони",
+        "sr-Latn": "Čudo Arhangela Mihaila u Honi"
+      },
+      "subject_ids": [
+        "saint-archangel-michael"
+      ],
+      "aliases": [
+        {
+          "text": "Чудо у Хони",
+          "locale": "sr-Cyrl",
+          "kind": "popular",
+          "source_ids": [
+            "eparhija-month-09",
+            "eparhija-michael-chonae"
+          ]
+        },
+        {
+          "text": "Čudo u Honi",
+          "locale": "sr-Latn",
+          "kind": "popular",
+          "source_ids": [
+            "eparhija-month-09",
+            "eparhija-michael-chonae"
+          ]
+        }
+      ],
+      "source_ids": [
+        "eparhija-month-09",
+        "eparhija-michael-chonae"
+      ],
+      "review_status": "pending"
+    },
+    {
+      "id": "obs-apostles-peter-paul",
+      "kind": "group_commemoration",
+      "name": {
+        "sr-Cyrl": "Свети апостоли Петар и Павле – Петровдан",
+        "sr-Latn": "Sveti apostoli Petar i Pavle – Petrovdan"
+      },
+      "description": {
+        "sr-Cyrl": "Заједнички спомен апостола",
+        "sr-Latn": "Zajednički spomen apostola"
+      },
+      "subject_ids": [
+        "group-apostles-peter-paul"
+      ],
+      "aliases": [
+        {
+          "text": "Петровдан",
+          "locale": "sr-Cyrl",
+          "kind": "popular",
+          "source_ids": [
+            "eparhija-month-07",
+            "spc-peter-paul"
+          ]
+        },
+        {
+          "text": "Petrovdan",
+          "locale": "sr-Latn",
+          "kind": "popular",
+          "source_ids": [
+            "eparhija-month-07",
+            "spc-peter-paul"
+          ]
+        }
+      ],
+      "source_ids": [
+        "eparhija-month-07",
+        "spc-peter-paul"
+      ],
+      "review_status": "pending"
+    },
+    {
+      "id": "obs-nativity-theotokos",
+      "kind": "feast",
+      "name": {
+        "sr-Cyrl": "Рођење Пресвете Богородице – Мала Госпојина",
+        "sr-Latn": "Rođenje Presvete Bogorodice – Mala Gospojina"
+      },
+      "description": {
+        "sr-Cyrl": "Рођење Пресвете Богородице",
+        "sr-Latn": "Rođenje Presvete Bogorodice"
+      },
+      "subject_ids": [],
+      "aliases": [
+        {
+          "text": "Мала Госпојина",
+          "locale": "sr-Cyrl",
+          "kind": "popular",
+          "source_ids": [
+            "eparhija-month-09",
+            "eparhija-nativity"
+          ]
+        },
+        {
+          "text": "Mala Gospojina",
+          "locale": "sr-Latn",
+          "kind": "popular",
+          "source_ids": [
+            "eparhija-month-09",
+            "eparhija-nativity"
+          ]
+        }
+      ],
+      "source_ids": [
+        "eparhija-month-09",
+        "eparhija-nativity"
+      ],
+      "review_status": "pending"
+    }
+  ],
+  "calendar_bindings": [
+    {
+      "id": "calendar-spc-2026",
+      "calendar_profile_id": "spc-rs-ba-julian-v1",
+      "year": 2026,
+      "module_id": "calendar-2026-r1",
+      "version": "2026.1.1",
+      "revision": 2,
+      "path": "data/calendar.2026.json",
+      "sha256": "a1b6a5d5911ae03f77802bd466227f0c1ea4fe97708b1b6f92cd4b08847c7c9c"
+    }
+  ],
+  "occurrences": [
+    {
+      "id": "occ-obs-paraskeva-2026",
+      "observance_id": "obs-paraskeva",
+      "calendar_binding_id": "calendar-spc-2026",
+      "date": "2026-10-27",
+      "julian_date": "2026-10-14",
+      "calendar_title": {
+        "sr-Cyrl": "Преподобна мати Параскева (Света Петка)",
+        "sr-Latn": "Prepodobna mati Paraskeva (Sveta Petka)"
+      },
+      "calendar_source_ids": [
+        "eparhija-month-10"
+      ],
+      "source_ids": [
+        "eparhija-month-10"
+      ],
+      "review_status": "pending"
+    },
+    {
+      "id": "occ-obs-sava-serbian-2026",
+      "observance_id": "obs-sava-serbian",
+      "calendar_binding_id": "calendar-spc-2026",
+      "date": "2026-01-27",
+      "julian_date": "2026-01-14",
+      "calendar_title": {
+        "sr-Cyrl": "Свети Сава Српски",
+        "sr-Latn": "Sveti Sava Srpski"
+      },
+      "calendar_source_ids": [
+        "eparhija-month-01"
+      ],
+      "source_ids": [
+        "eparhija-month-01"
+      ],
+      "review_status": "pending"
+    },
+    {
+      "id": "occ-obs-nicholas-december-2026",
+      "observance_id": "obs-nicholas-december",
+      "calendar_binding_id": "calendar-spc-2026",
+      "date": "2026-12-19",
+      "julian_date": "2026-12-06",
+      "calendar_title": {
+        "sr-Cyrl": "Свети Николај, Архиепископ мирликијски Чудотворац – Никољдан",
+        "sr-Latn": "Sveti Nikolaj, Arhiepiskop mirlikijski Čudotvorac – Nikoljdan"
+      },
+      "calendar_source_ids": [
+        "eparhija-month-12"
+      ],
+      "source_ids": [
+        "eparhija-month-12"
+      ],
+      "review_status": "pending"
+    },
+    {
+      "id": "occ-obs-john-baptist-synaxis-2026",
+      "observance_id": "obs-john-baptist-synaxis",
+      "calendar_binding_id": "calendar-spc-2026",
+      "date": "2026-01-20",
+      "julian_date": "2026-01-07",
+      "calendar_title": {
+        "sr-Cyrl": "Сабор Св. Јована Крститеља",
+        "sr-Latn": "Sabor Sv. Jovana Krstitelja"
+      },
+      "calendar_source_ids": [
+        "eparhija-month-01"
+      ],
+      "source_ids": [
+        "eparhija-month-01"
+      ],
+      "review_status": "pending"
+    },
+    {
+      "id": "occ-obs-george-2026",
+      "observance_id": "obs-george",
+      "calendar_binding_id": "calendar-spc-2026",
+      "date": "2026-05-06",
+      "julian_date": "2026-04-23",
+      "calendar_title": {
+        "sr-Cyrl": "Свети великомученик Георгије – Ђурђевдан",
+        "sr-Latn": "Sveti velikomučenik Georgije – Đurđevdan"
+      },
+      "calendar_source_ids": [
+        "eparhija-month-05"
+      ],
+      "source_ids": [
+        "eparhija-month-05"
+      ],
+      "review_status": "pending"
+    },
+    {
+      "id": "occ-obs-demetrius-2026",
+      "observance_id": "obs-demetrius",
+      "calendar_binding_id": "calendar-spc-2026",
+      "date": "2026-11-08",
+      "julian_date": "2026-10-26",
+      "calendar_title": {
+        "sr-Cyrl": "Свети великомученик Димитрије – Митровдан",
+        "sr-Latn": "Sveti velikomučenik Dimitrije – Mitrovdan"
+      },
+      "calendar_source_ids": [
+        "eparhija-month-11"
+      ],
+      "source_ids": [
+        "eparhija-month-11"
+      ],
+      "review_status": "pending"
+    },
+    {
+      "id": "occ-obs-michael-synaxis-2026",
+      "observance_id": "obs-michael-synaxis",
+      "calendar_binding_id": "calendar-spc-2026",
+      "date": "2026-11-21",
+      "julian_date": "2026-11-08",
+      "calendar_title": {
+        "sr-Cyrl": "Сабор Светог Архангела Михаила и осталих Небеских Сила Бестелесних – Аранђеловдан",
+        "sr-Latn": "Sabor Svetog Arhangela Mihaila i ostalih Nebeskih Sila Bestelesnih – Aranđelovdan"
+      },
+      "calendar_source_ids": [
+        "eparhija-month-11"
+      ],
+      "source_ids": [
+        "eparhija-month-11"
+      ],
+      "review_status": "pending"
+    },
+    {
+      "id": "occ-obs-simeon-myrrh-streaming-2026",
+      "observance_id": "obs-simeon-myrrh-streaming",
+      "calendar_binding_id": "calendar-spc-2026",
+      "date": "2026-02-26",
+      "julian_date": "2026-02-13",
+      "calendar_title": {
+        "sr-Cyrl": "Преподобни Симеон Мироточиви",
+        "sr-Latn": "Prepodobni Simeon Mirotočivi"
+      },
+      "calendar_source_ids": [
+        "eparhija-month-02"
+      ],
+      "source_ids": [
+        "eparhija-month-02"
+      ],
+      "review_status": "pending"
+    },
+    {
+      "id": "occ-obs-cyriacus-miholjdan-2026",
+      "observance_id": "obs-cyriacus-miholjdan",
+      "calendar_binding_id": "calendar-spc-2026",
+      "date": "2026-10-12",
+      "julian_date": "2026-09-29",
+      "calendar_title": {
+        "sr-Cyrl": "Преподобни Киријак Отшелник – Михољдан",
+        "sr-Latn": "Prepodobni Kirijak Otšelnik – Miholjdan"
+      },
+      "calendar_source_ids": [
+        "eparhija-month-10"
+      ],
+      "source_ids": [
+        "eparhija-month-10"
+      ],
+      "review_status": "pending"
+    },
+    {
+      "id": "occ-obs-nicholas-relics-transfer-2026",
+      "observance_id": "obs-nicholas-relics-transfer",
+      "calendar_binding_id": "calendar-spc-2026",
+      "date": "2026-05-22",
+      "julian_date": "2026-05-09",
+      "calendar_title": {
+        "sr-Cyrl": "Пренос моштију Светог оца Николаја",
+        "sr-Latn": "Prenos moštiju Svetog oca Nikolaja"
+      },
+      "calendar_source_ids": [
+        "eparhija-month-05"
+      ],
+      "source_ids": [
+        "eparhija-month-05",
+        "spc-nicholas-transfer"
+      ],
+      "review_status": "pending"
+    },
+    {
+      "id": "occ-obs-michael-chonae-2026",
+      "observance_id": "obs-michael-chonae",
+      "calendar_binding_id": "calendar-spc-2026",
+      "date": "2026-09-19",
+      "julian_date": "2026-09-06",
+      "calendar_title": {
+        "sr-Cyrl": "Чудо Светог Архангела Михаила",
+        "sr-Latn": "Čudo Svetog Arhangela Mihaila"
+      },
+      "calendar_source_ids": [
+        "eparhija-month-09"
+      ],
+      "source_ids": [
+        "eparhija-month-09",
+        "eparhija-michael-chonae"
+      ],
+      "review_status": "pending"
+    },
+    {
+      "id": "occ-obs-apostles-peter-paul-2026",
+      "observance_id": "obs-apostles-peter-paul",
+      "calendar_binding_id": "calendar-spc-2026",
+      "date": "2026-07-12",
+      "julian_date": "2026-06-29",
+      "calendar_title": {
+        "sr-Cyrl": "Свети апостоли Петар и Павле – Петровдан",
+        "sr-Latn": "Sveti apostoli Petar i Pavle – Petrovdan"
+      },
+      "calendar_source_ids": [
+        "eparhija-month-07"
+      ],
+      "source_ids": [
+        "eparhija-month-07",
+        "spc-peter-paul"
+      ],
+      "review_status": "pending"
+    },
+    {
+      "id": "occ-obs-nativity-theotokos-2026",
+      "observance_id": "obs-nativity-theotokos",
+      "calendar_binding_id": "calendar-spc-2026",
+      "date": "2026-09-21",
+      "julian_date": "2026-09-08",
+      "calendar_title": {
+        "sr-Cyrl": "Рођење Пресвете Богородице – Мала Госпојина",
+        "sr-Latn": "Rođenje Presvete Bogorodice – Mala Gospojina"
+      },
+      "calendar_source_ids": [
+        "eparhija-month-09"
+      ],
+      "source_ids": [
+        "eparhija-month-09",
+        "eparhija-nativity"
+      ],
+      "review_status": "pending"
+    }
+  ],
+  "day_reviews": [],
+  "article_bindings": [
+    {
+      "id": "saints-pilot-2026",
+      "module_id": "saints-v1",
+      "version": "2026.9.19",
+      "revision": 1,
+      "path": "data/saints-v1.json",
+      "sha256": "ab4ced9bbbec3f0765e9c6d45c866c13e76b0adc20d6eb75693be778c7cab000"
+    }
+  ],
+  "article_links": [
+    {
+      "observance_id": "obs-michael-chonae",
+      "article_binding_id": "saints-pilot-2026",
+      "article_id": "michael-miracle-chonae",
+      "source_ids": [
+        "eparhija-michael-chonae"
+      ],
+      "review_status": "pending"
+    },
+    {
+      "observance_id": "obs-nativity-theotokos",
+      "article_binding_id": "saints-pilot-2026",
+      "article_id": "nativity-theotokos",
+      "source_ids": [
+        "eparhija-nativity"
+      ],
+      "review_status": "pending"
+    }
+  ],
+  "legacy_slava_links": [
+    {
+      "legacy_id": "sveta-petka",
+      "observance_ids": [
+        "obs-paraskeva"
+      ],
+      "review_status": "pending"
+    },
+    {
+      "legacy_id": "sveti-sava",
+      "observance_ids": [
+        "obs-sava-serbian"
+      ],
+      "review_status": "pending"
+    },
+    {
+      "legacy_id": "sveti-nikola",
+      "observance_ids": [
+        "obs-nicholas-december"
+      ],
+      "review_status": "pending"
+    },
+    {
+      "legacy_id": "sveti-jovan",
+      "observance_ids": [
+        "obs-john-baptist-synaxis"
+      ],
+      "review_status": "pending"
+    },
+    {
+      "legacy_id": "sveti-georgije",
+      "observance_ids": [
+        "obs-george"
+      ],
+      "review_status": "pending"
+    },
+    {
+      "legacy_id": "sveti-dimitrije",
+      "observance_ids": [
+        "obs-demetrius"
+      ],
+      "review_status": "pending"
+    },
+    {
+      "legacy_id": "arhangel-mihailo",
+      "observance_ids": [
+        "obs-michael-synaxis"
+      ],
+      "review_status": "pending"
+    },
+    {
+      "legacy_id": "sveti-stefan-decanski",
+      "observance_ids": [
+        "obs-stefan-decanski"
+      ],
+      "review_status": "pending"
+    },
+    {
+      "legacy_id": "sveti-simeon",
+      "observance_ids": [
+        "obs-simeon-myrrh-streaming"
+      ],
+      "review_status": "pending"
+    },
+    {
+      "legacy_id": "sveti-nektarije",
+      "observance_ids": [
+        "obs-nektarios-aegina"
+      ],
+      "review_status": "pending"
+    }
+  ],
+  "coverage": [
+    {
+      "calendar_profile_id": "spc-rs-ba-julian-v1",
+      "year": 2026,
+      "calendar_binding_id": "calendar-spc-2026",
+      "status": "limited_catalog",
+      "mapped_dates": 13,
+      "occurrences": 13,
+      "complete_saint_list": false
+    },
+    {
+      "calendar_profile_id": "spc-rs-ba-julian-v1",
+      "year": 2027,
+      "calendar_binding_id": null,
+      "status": "unavailable",
+      "mapped_dates": 0,
+      "occurrences": 0,
+      "complete_saint_list": false
+    }
+  ]
+}

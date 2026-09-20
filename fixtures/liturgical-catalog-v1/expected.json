@@ -1,0 +1,3450 @@
+{
+  "schema_version": "svetlost33-liturgical-catalog-test-cases-1",
+  "purpose": "TEST_ONLY_SYNTHETIC_TRUST_AND_REVIEW_NOT_OWNER_APPROVAL",
+  "candidate_sha256": "3722e9fbbf53bbd75b1a76289b59965f6ae929d693e0f700cdf1a6d6ff48015b",
+  "candidate_bytes": 39678,
+  "synthetic_test_setup_mutations": [
+    {
+      "path": [
+        "review_status"
+      ],
+      "value": "approved"
+    },
+    {
+      "path": [
+        "approval_id"
+      ],
+      "value": "synthetic-test-only-not-owner-approval"
+    },
+    {
+      "path": [
+        "sources",
+        0,
+        "review_status"
+      ],
+      "value": "reviewed"
+    },
+    {
+      "path": [
+        "sources",
+        1,
+        "review_status"
+      ],
+      "value": "reviewed"
+    },
+    {
+      "path": [
+        "sources",
+        2,
+        "review_status"
+      ],
+      "value": "reviewed"
+    },
+    {
+      "path": [
+        "sources",
+        3,
+        "review_status"
+      ],
+      "value": "reviewed"
+    },
+    {
+      "path": [
+        "sources",
+        4,
+        "review_status"
+      ],
+      "value": "reviewed"
+    },
+    {
+      "path": [
+        "sources",
+        5,
+        "review_status"
+      ],
+      "value": "reviewed"
+    },
+    {
+      "path": [
+        "sources",
+        6,
+        "review_status"
+      ],
+      "value": "reviewed"
+    },
+    {
+      "path": [
+        "sources",
+        7,
+        "review_status"
+      ],
+      "value": "reviewed"
+    },
+    {
+      "path": [
+        "sources",
+        8,
+        "review_status"
+      ],
+      "value": "reviewed"
+    },
+    {
+      "path": [
+        "sources",
+        9,
+        "review_status"
+      ],
+      "value": "reviewed"
+    },
+    {
+      "path": [
+        "sources",
+        10,
+        "review_status"
+      ],
+      "value": "reviewed"
+    },
+    {
+      "path": [
+        "sources",
+        11,
+        "review_status"
+      ],
+      "value": "reviewed"
+    },
+    {
+      "path": [
+        "sources",
+        12,
+        "review_status"
+      ],
+      "value": "reviewed"
+    },
+    {
+      "path": [
+        "sources",
+        13,
+        "review_status"
+      ],
+      "value": "reviewed"
+    },
+    {
+      "path": [
+        "sources",
+        14,
+        "review_status"
+      ],
+      "value": "reviewed"
+    },
+    {
+      "path": [
+        "sources",
+        15,
+        "review_status"
+      ],
+      "value": "reviewed"
+    },
+    {
+      "path": [
+        "sources",
+        16,
+        "review_status"
+      ],
+      "value": "reviewed"
+    },
+    {
+      "path": [
+        "subjects",
+        0,
+        "review_status"
+      ],
+      "value": "reviewed"
+    },
+    {
+      "path": [
+        "subjects",
+        1,
+        "review_status"
+      ],
+      "value": "reviewed"
+    },
+    {
+      "path": [
+        "subjects",
+        2,
+        "review_status"
+      ],
+      "value": "reviewed"
+    },
+    {
+      "path": [
+        "subjects",
+        3,
+        "review_status"
+      ],
+      "value": "reviewed"
+    },
+    {
+      "path": [
+        "subjects",
+        4,
+        "review_status"
+      ],
+      "value": "reviewed"
+    },
+    {
+      "path": [
+        "subjects",
+        5,
+        "review_status"
+      ],
+      "value": "reviewed"
+    },
+    {
+      "path": [
+        "subjects",
+        6,
+        "review_status"
+      ],
+      "value": "reviewed"
+    },
+    {
+      "path": [
+        "subjects",
+        7,
+        "review_status"
+      ],
+      "value": "reviewed"
+    },
+    {
+      "path": [
+        "subjects",
+        8,
+        "review_status"
+      ],
+      "value": "reviewed"
+    },
+    {
+      "path": [
+        "subjects",
+        9,
+        "review_status"
+      ],
+      "value": "reviewed"
+    },
+    {
+      "path": [
+        "subjects",
+        10,
+        "review_status"
+      ],
+      "value": "reviewed"
+    },
+    {
+      "path": [
+        "subjects",
+        11,
+        "review_status"
+      ],
+      "value": "reviewed"
+    },
+    {
+      "path": [
+        "observances",
+        0,
+        "review_status"
+      ],
+      "value": "reviewed"
+    },
+    {
+      "path": [
+        "observances",
+        1,
+        "review_status"
+      ],
+      "value": "reviewed"
+    },
+    {
+      "path": [
+        "observances",
+        2,
+        "review_status"
+      ],
+      "value": "reviewed"
+    },
+    {
+      "path": [
+        "observances",
+        3,
+        "review_status"
+      ],
+      "value": "reviewed"
+    },
+    {
+      "path": [
+        "observances",
+        4,
+        "review_status"
+      ],
+      "value": "reviewed"
+    },
+    {
+      "path": [
+        "observances",
+        5,
+        "review_status"
+      ],
+      "value": "reviewed"
+    },
+    {
+      "path": [
+        "observances",
+        6,
+        "review_status"
+      ],
+      "value": "reviewed"
+    },
+    {
+      "path": [
+        "observances",
+        7,
+        "review_status"
+      ],
+      "value": "reviewed"
+    },
+    {
+      "path": [
+        "observances",
+        8,
+        "review_status"
+      ],
+      "value": "reviewed"
+    },
+    {
+      "path": [
+        "observances",
+        9,
+        "review_status"
+      ],
+      "value": "reviewed"
+    },
+    {
+      "path": [
+        "observances",
+        10,
+        "review_status"
+      ],
+      "value": "reviewed"
+    },
+    {
+      "path": [
+        "observances",
+        11,
+        "review_status"
+      ],
+      "value": "reviewed"
+    },
+    {
+      "path": [
+        "observances",
+        12,
+        "review_status"
+      ],
+      "value": "reviewed"
+    },
+    {
+      "path": [
+        "observances",
+        13,
+        "review_status"
+      ],
+      "value": "reviewed"
+    },
+    {
+      "path": [
+        "observances",
+        14,
+        "review_status"
+      ],
+      "value": "reviewed"
+    },
+    {
+      "path": [
+        "occurrences",
+        0,
+        "review_status"
+      ],
+      "value": "reviewed"
+    },
+    {
+      "path": [
+        "occurrences",
+        1,
+        "review_status"
+      ],
+      "value": "reviewed"
+    },
+    {
+      "path": [
+        "occurrences",
+        2,
+        "review_status"
+      ],
+      "value": "reviewed"
+    },
+    {
+      "path": [
+        "occurrences",
+        3,
+        "review_status"
+      ],
+      "value": "reviewed"
+    },
+    {
+      "path": [
+        "occurrences",
+        4,
+        "review_status"
+      ],
+      "value": "reviewed"
+    },
+    {
+      "path": [
+        "occurrences",
+        5,
+        "review_status"
+      ],
+      "value": "reviewed"
+    },
+    {
+      "path": [
+        "occurrences",
+        6,
+        "review_status"
+      ],
+      "value": "reviewed"
+    },
+    {
+      "path": [
+        "occurrences",
+        7,
+        "review_status"
+      ],
+      "value": "reviewed"
+    },
+    {
+      "path": [
+        "occurrences",
+        8,
+        "review_status"
+      ],
+      "value": "reviewed"
+    },
+    {
+      "path": [
+        "occurrences",
+        9,
+        "review_status"
+      ],
+      "value": "reviewed"
+    },
+    {
+      "path": [
+        "occurrences",
+        10,
+        "review_status"
+      ],
+      "value": "reviewed"
+    },
+    {
+      "path": [
+        "occurrences",
+        11,
+        "review_status"
+      ],
+      "value": "reviewed"
+    },
+    {
+      "path": [
+        "occurrences",
+        12,
+        "review_status"
+      ],
+      "value": "reviewed"
+    },
+    {
+      "path": [
+        "article_links",
+        0,
+        "review_status"
+      ],
+      "value": "reviewed"
+    },
+    {
+      "path": [
+        "article_links",
+        1,
+        "review_status"
+      ],
+      "value": "reviewed"
+    },
+    {
+      "path": [
+        "legacy_slava_links",
+        0,
+        "review_status"
+      ],
+      "value": "reviewed"
+    },
+    {
+      "path": [
+        "legacy_slava_links",
+        1,
+        "review_status"
+      ],
+      "value": "reviewed"
+    },
+    {
+      "path": [
+        "legacy_slava_links",
+        2,
+        "review_status"
+      ],
+      "value": "reviewed"
+    },
+    {
+      "path": [
+        "legacy_slava_links",
+        3,
+        "review_status"
+      ],
+      "value": "reviewed"
+    },
+    {
+      "path": [
+        "legacy_slava_links",
+        4,
+        "review_status"
+      ],
+      "value": "reviewed"
+    },
+    {
+      "path": [
+        "legacy_slava_links",
+        5,
+        "review_status"
+      ],
+      "value": "reviewed"
+    },
+    {
+      "path": [
+        "legacy_slava_links",
+        6,
+        "review_status"
+      ],
+      "value": "reviewed"
+    },
+    {
+      "path": [
+        "legacy_slava_links",
+        7,
+        "review_status"
+      ],
+      "value": "reviewed"
+    },
+    {
+      "path": [
+        "legacy_slava_links",
+        8,
+        "review_status"
+      ],
+      "value": "reviewed"
+    },
+    {
+      "path": [
+        "legacy_slava_links",
+        9,
+        "review_status"
+      ],
+      "value": "reviewed"
+    }
+  ],
+  "context": {
+    "generation": {
+      "id": "synthetic-i2-test-generation-not-a-release",
+      "sequence": 1,
+      "decision_sha256": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    "contentAuthenticated": true,
+    "moduleContext": {
+      "module_id": "liturgical-catalog-v1",
+      "module_type": "library",
+      "required": false,
+      "capabilities": [
+        "liturgical-catalog-v1"
+      ],
+      "payload_path": "data/liturgical-catalog-v1.json",
+      "version": "2026.9.20",
+      "revision": 1,
+      "generation": {
+        "id": "synthetic-i2-test-generation-not-a-release",
+        "sequence": 1,
+        "decision_sha256": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+      },
+      "dependencies": [
+        {
+          "module_id": "calendar-2026-r1",
+          "version": "2026.1.1"
+        },
+        {
+          "module_id": "saints-v1",
+          "version": "2026.9.19"
+        }
+      ]
+    },
+    "calendarContexts": [
+      {
+        "id": "calendar-spc-2026",
+        "calendar_profile_id": "spc-rs-ba-julian-v1",
+        "year": 2026,
+        "module_id": "calendar-2026-r1",
+        "version": "2026.1.1",
+        "revision": 2,
+        "path": "data/calendar.2026.json",
+        "sha256": "a1b6a5d5911ae03f77802bd466227f0c1ea4fe97708b1b6f92cd4b08847c7c9c",
+        "generation": {
+          "id": "synthetic-i2-test-generation-not-a-release",
+          "sequence": 1,
+          "decision_sha256": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+        },
+        "authenticated": true,
+        "days": [
+          {
+            "date": "2026-01-20",
+            "julian_date": "2026-01-07",
+            "commemoration": {
+              "status": "SOURCE_RECORDED",
+              "title_cyrl": "Сабор Св. Јована Крститеља",
+              "subtitle_cyrl": "Сабор Светог Јована Крститеља и Претече",
+              "feast_label": "Велики празник",
+              "source_ids": [
+                "eparhija-month-01"
+              ],
+              "complete_saint_list_verified": false
+            }
+          },
+          {
+            "date": "2026-01-27",
+            "julian_date": "2026-01-14",
+            "commemoration": {
+              "status": "SOURCE_RECORDED",
+              "title_cyrl": "Свети Сава Српски",
+              "subtitle_cyrl": "Свети Сава, први архиепископ и просветитељ српски",
+              "feast_label": "Велики празник",
+              "source_ids": [
+                "eparhija-month-01"
+              ],
+              "complete_saint_list_verified": false
+            }
+          },
+          {
+            "date": "2026-02-26",
+            "julian_date": "2026-02-13",
+            "commemoration": {
+              "status": "SOURCE_RECORDED",
+              "title_cyrl": "Преподобни Симеон Мироточиви",
+              "subtitle_cyrl": "",
+              "feast_label": "Празник",
+              "source_ids": [
+                "eparhija-month-02"
+              ],
+              "complete_saint_list_verified": false
+            }
+          },
+          {
+            "date": "2026-05-06",
+            "julian_date": "2026-04-23",
+            "commemoration": {
+              "status": "SOURCE_RECORDED",
+              "title_cyrl": "Свети великомученик Георгије – Ђурђевдан",
+              "subtitle_cyrl": "",
+              "feast_label": "Велики празник",
+              "source_ids": [
+                "eparhija-month-05"
+              ],
+              "complete_saint_list_verified": false,
+              "reading_page_title_cyrl": "—",
+              "title_review": "publisher_page_titles_differ_not_resolved"
+            }
+          },
+          {
+            "date": "2026-05-22",
+            "julian_date": "2026-05-09",
+            "commemoration": {
+              "status": "SOURCE_RECORDED",
+              "title_cyrl": "Пренос моштију Светог оца Николаја",
+              "subtitle_cyrl": "",
+              "feast_label": "Празник",
+              "source_ids": [
+                "eparhija-month-05"
+              ],
+              "complete_saint_list_verified": false,
+              "reading_page_title_cyrl": "—",
+              "title_review": "publisher_page_titles_differ_not_resolved"
+            }
+          },
+          {
+            "date": "2026-07-12",
+            "julian_date": "2026-06-29",
+            "commemoration": {
+              "status": "SOURCE_RECORDED",
+              "title_cyrl": "Свети апостоли Петар и Павле – Петровдан",
+              "subtitle_cyrl": "",
+              "feast_label": "Велики празник",
+              "source_ids": [
+                "eparhija-month-07"
+              ],
+              "complete_saint_list_verified": false,
+              "reading_page_title_cyrl": "—",
+              "title_review": "publisher_page_titles_differ_not_resolved"
+            }
+          },
+          {
+            "date": "2026-09-19",
+            "julian_date": "2026-09-06",
+            "commemoration": {
+              "status": "SOURCE_RECORDED",
+              "title_cyrl": "Чудо Светог Архангела Михаила",
+              "subtitle_cyrl": "",
+              "feast_label": "",
+              "source_ids": [
+                "eparhija-month-09"
+              ],
+              "complete_saint_list_verified": false,
+              "reading_page_title_cyrl": "—",
+              "title_review": "publisher_page_titles_differ_not_resolved"
+            }
+          },
+          {
+            "date": "2026-09-21",
+            "julian_date": "2026-09-08",
+            "commemoration": {
+              "status": "SOURCE_RECORDED",
+              "title_cyrl": "Рођење Пресвете Богородице – Мала Госпојина",
+              "subtitle_cyrl": "",
+              "feast_label": "Велики празник",
+              "source_ids": [
+                "eparhija-month-09"
+              ],
+              "complete_saint_list_verified": false,
+              "reading_page_title_cyrl": "—",
+              "title_review": "publisher_page_titles_differ_not_resolved"
+            }
+          },
+          {
+            "date": "2026-10-12",
+            "julian_date": "2026-09-29",
+            "commemoration": {
+              "status": "SOURCE_RECORDED",
+              "title_cyrl": "Преподобни Киријак Отшелник – Михољдан",
+              "subtitle_cyrl": "",
+              "feast_label": "Празник",
+              "source_ids": [
+                "eparhija-month-10"
+              ],
+              "complete_saint_list_verified": false,
+              "reading_page_title_cyrl": "—",
+              "title_review": "publisher_page_titles_differ_not_resolved"
+            }
+          },
+          {
+            "date": "2026-10-27",
+            "julian_date": "2026-10-14",
+            "commemoration": {
+              "status": "SOURCE_RECORDED",
+              "title_cyrl": "Преподобна мати Параскева (Света Петка)",
+              "subtitle_cyrl": "",
+              "feast_label": "Велики празник",
+              "source_ids": [
+                "eparhija-month-10"
+              ],
+              "complete_saint_list_verified": false,
+              "reading_page_title_cyrl": "—",
+              "title_review": "publisher_page_titles_differ_not_resolved"
+            }
+          },
+          {
+            "date": "2026-11-08",
+            "julian_date": "2026-10-26",
+            "commemoration": {
+              "status": "SOURCE_RECORDED",
+              "title_cyrl": "Свети великомученик Димитрије – Митровдан",
+              "subtitle_cyrl": "",
+              "feast_label": "Велики празник",
+              "source_ids": [
+                "eparhija-month-11"
+              ],
+              "complete_saint_list_verified": false,
+              "reading_page_title_cyrl": "—",
+              "title_review": "publisher_page_titles_differ_not_resolved"
+            }
+          },
+          {
+            "date": "2026-11-21",
+            "julian_date": "2026-11-08",
+            "commemoration": {
+              "status": "SOURCE_RECORDED",
+              "title_cyrl": "Сабор Светог Архангела Михаила и осталих Небеских Сила Бестелесних – Аранђеловдан",
+              "subtitle_cyrl": "",
+              "feast_label": "Велики празник",
+              "source_ids": [
+                "eparhija-month-11"
+              ],
+              "complete_saint_list_verified": false,
+              "reading_page_title_cyrl": "—",
+              "title_review": "publisher_page_titles_differ_not_resolved"
+            }
+          },
+          {
+            "date": "2026-12-19",
+            "julian_date": "2026-12-06",
+            "commemoration": {
+              "status": "SOURCE_RECORDED",
+              "title_cyrl": "Свети Николај, Архиепископ мирликијски Чудотворац – Никољдан",
+              "subtitle_cyrl": "",
+              "feast_label": "Велики празник",
+              "source_ids": [
+                "eparhija-month-12"
+              ],
+              "complete_saint_list_verified": false,
+              "reading_page_title_cyrl": "—",
+              "title_review": "publisher_page_titles_differ_not_resolved"
+            }
+          },
+          {
+            "date": "2026-12-31",
+            "julian_date": "2026-12-18",
+            "commemoration": {
+              "status": "SOURCE_RECORDED",
+              "title_cyrl": "Свети мученик Севастијан",
+              "subtitle_cyrl": "",
+              "feast_label": "",
+              "source_ids": [
+                "eparhija-month-12"
+              ],
+              "complete_saint_list_verified": false,
+              "reading_page_title_cyrl": "—",
+              "title_review": "publisher_page_titles_differ_not_resolved"
+            }
+          }
+        ]
+      }
+    ],
+    "articleContexts": [
+      {
+        "id": "saints-pilot-2026",
+        "module_id": "saints-v1",
+        "version": "2026.9.19",
+        "revision": 1,
+        "path": "data/saints-v1.json",
+        "sha256": "ab4ced9bbbec3f0765e9c6d45c866c13e76b0adc20d6eb75693be778c7cab000",
+        "generation": {
+          "id": "synthetic-i2-test-generation-not-a-release",
+          "sequence": 1,
+          "decision_sha256": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+        },
+        "authenticated": true,
+        "review_status": "approved",
+        "calendar_binding": {
+          "module_id": "calendar-2026-r1",
+          "version": "2026.1.1",
+          "revision": 2,
+          "path": "data/calendar.2026.json",
+          "sha256": "a1b6a5d5911ae03f77802bd466227f0c1ea4fe97708b1b6f92cd4b08847c7c9c"
+        },
+        "articles": [
+          {
+            "id": "michael-miracle-chonae",
+            "type": "feast"
+          },
+          {
+            "id": "martyr-sozont",
+            "type": "saint"
+          },
+          {
+            "id": "nativity-theotokos",
+            "type": "feast"
+          },
+          {
+            "id": "joachim-and-anna",
+            "type": "group"
+          },
+          {
+            "id": "minodora-mitrodora-nimfodora",
+            "type": "group"
+          },
+          {
+            "id": "theodora-alexandria",
+            "type": "saint"
+          },
+          {
+            "id": "hieromartyr-autonomus",
+            "type": "saint"
+          }
+        ]
+      }
+    ]
+  },
+  "cases": [
+    {
+      "id": "candidate-is-not-runtime-approved",
+      "operation": "evaluate",
+      "input": {},
+      "synthetic_setup": false,
+      "payload_mutations": [],
+      "context_mutations": [],
+      "expected": {
+        "eligible": false,
+        "reason": "unapproved"
+      }
+    },
+    {
+      "id": "reviewed-synthetic-catalog",
+      "operation": "evaluate",
+      "input": {},
+      "synthetic_setup": true,
+      "payload_mutations": [],
+      "context_mutations": [],
+      "expected": {
+        "eligible": true,
+        "reason": null
+      }
+    },
+    {
+      "id": "miholjdan-2",
+      "operation": "search",
+      "input": {
+        "query": "Михољдан",
+        "locale": "sr-Latn",
+        "year": 2026,
+        "calendar_profile_id": "spc-rs-ba-julian-v1"
+      },
+      "synthetic_setup": true,
+      "payload_mutations": [],
+      "context_mutations": [],
+      "expected": {
+        "eligible": true,
+        "reason": null,
+        "state": "matches",
+        "truncated": false,
+        "results": [
+          {
+            "observance_id": "obs-cyriacus-miholjdan",
+            "kind": "saint_commemoration",
+            "name": "Prepodobni Kirijak Otšelnik – Miholjdan",
+            "description": "Spomen svetitelja",
+            "subject_ids": [
+              "saint-cyriacus-hermit"
+            ],
+            "date_state": "source_recorded",
+            "dates": [
+              "2026-10-12"
+            ],
+            "occurrence_ids": [
+              "occ-obs-cyriacus-miholjdan-2026"
+            ],
+            "article_ids": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "miholjdan-3",
+      "operation": "search",
+      "input": {
+        "query": "miholjdan",
+        "locale": "sr-Latn",
+        "year": 2026,
+        "calendar_profile_id": "spc-rs-ba-julian-v1"
+      },
+      "synthetic_setup": true,
+      "payload_mutations": [],
+      "context_mutations": [],
+      "expected": {
+        "eligible": true,
+        "reason": null,
+        "state": "matches",
+        "truncated": false,
+        "results": [
+          {
+            "observance_id": "obs-cyriacus-miholjdan",
+            "kind": "saint_commemoration",
+            "name": "Prepodobni Kirijak Otšelnik – Miholjdan",
+            "description": "Spomen svetitelja",
+            "subject_ids": [
+              "saint-cyriacus-hermit"
+            ],
+            "date_state": "source_recorded",
+            "dates": [
+              "2026-10-12"
+            ],
+            "occurrence_ids": [
+              "occ-obs-cyriacus-miholjdan-2026"
+            ],
+            "article_ids": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "miholjdan-4",
+      "operation": "search",
+      "input": {
+        "query": "МИХОЉДАН",
+        "locale": "sr-Latn",
+        "year": 2026,
+        "calendar_profile_id": "spc-rs-ba-julian-v1"
+      },
+      "synthetic_setup": true,
+      "payload_mutations": [],
+      "context_mutations": [],
+      "expected": {
+        "eligible": true,
+        "reason": null,
+        "state": "matches",
+        "truncated": false,
+        "results": [
+          {
+            "observance_id": "obs-cyriacus-miholjdan",
+            "kind": "saint_commemoration",
+            "name": "Prepodobni Kirijak Otšelnik – Miholjdan",
+            "description": "Spomen svetitelja",
+            "subject_ids": [
+              "saint-cyriacus-hermit"
+            ],
+            "date_state": "source_recorded",
+            "dates": [
+              "2026-10-12"
+            ],
+            "occurrence_ids": [
+              "occ-obs-cyriacus-miholjdan-2026"
+            ],
+            "article_ids": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "miholjdan-5",
+      "operation": "search",
+      "input": {
+        "query": "Киријак",
+        "locale": "sr-Latn",
+        "year": 2026,
+        "calendar_profile_id": "spc-rs-ba-julian-v1"
+      },
+      "synthetic_setup": true,
+      "payload_mutations": [],
+      "context_mutations": [],
+      "expected": {
+        "eligible": true,
+        "reason": null,
+        "state": "matches",
+        "truncated": false,
+        "results": [
+          {
+            "observance_id": "obs-cyriacus-miholjdan",
+            "kind": "saint_commemoration",
+            "name": "Prepodobni Kirijak Otšelnik – Miholjdan",
+            "description": "Spomen svetitelja",
+            "subject_ids": [
+              "saint-cyriacus-hermit"
+            ],
+            "date_state": "source_recorded",
+            "dates": [
+              "2026-10-12"
+            ],
+            "occurrence_ids": [
+              "occ-obs-cyriacus-miholjdan-2026"
+            ],
+            "article_ids": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "miholjdan-6",
+      "operation": "search",
+      "input": {
+        "query": "kirijak",
+        "locale": "sr-Latn",
+        "year": 2026,
+        "calendar_profile_id": "spc-rs-ba-julian-v1"
+      },
+      "synthetic_setup": true,
+      "payload_mutations": [],
+      "context_mutations": [],
+      "expected": {
+        "eligible": true,
+        "reason": null,
+        "state": "matches",
+        "truncated": false,
+        "results": [
+          {
+            "observance_id": "obs-cyriacus-miholjdan",
+            "kind": "saint_commemoration",
+            "name": "Prepodobni Kirijak Otšelnik – Miholjdan",
+            "description": "Spomen svetitelja",
+            "subject_ids": [
+              "saint-cyriacus-hermit"
+            ],
+            "date_state": "source_recorded",
+            "dates": [
+              "2026-10-12"
+            ],
+            "occurrence_ids": [
+              "occ-obs-cyriacus-miholjdan-2026"
+            ],
+            "article_ids": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "miholjdan-7",
+      "operation": "search",
+      "input": {
+        "query": "Miholjdan",
+        "locale": "sr-Latn",
+        "year": 2026,
+        "calendar_profile_id": "spc-rs-ba-julian-v1"
+      },
+      "synthetic_setup": true,
+      "payload_mutations": [],
+      "context_mutations": [],
+      "expected": {
+        "eligible": true,
+        "reason": null,
+        "state": "matches",
+        "truncated": false,
+        "results": [
+          {
+            "observance_id": "obs-cyriacus-miholjdan",
+            "kind": "saint_commemoration",
+            "name": "Prepodobni Kirijak Otšelnik – Miholjdan",
+            "description": "Spomen svetitelja",
+            "subject_ids": [
+              "saint-cyriacus-hermit"
+            ],
+            "date_state": "source_recorded",
+            "dates": [
+              "2026-10-12"
+            ],
+            "occurrence_ids": [
+              "occ-obs-cyriacus-miholjdan-2026"
+            ],
+            "article_ids": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "miholjdan-8",
+      "operation": "search",
+      "input": {
+        "query": "miholj",
+        "locale": "sr-Latn",
+        "year": 2026,
+        "calendar_profile_id": "spc-rs-ba-julian-v1"
+      },
+      "synthetic_setup": true,
+      "payload_mutations": [],
+      "context_mutations": [],
+      "expected": {
+        "eligible": true,
+        "reason": null,
+        "state": "matches",
+        "truncated": false,
+        "results": [
+          {
+            "observance_id": "obs-cyriacus-miholjdan",
+            "kind": "saint_commemoration",
+            "name": "Prepodobni Kirijak Otšelnik – Miholjdan",
+            "description": "Spomen svetitelja",
+            "subject_ids": [
+              "saint-cyriacus-hermit"
+            ],
+            "date_state": "source_recorded",
+            "dates": [
+              "2026-10-12"
+            ],
+            "occurrence_ids": [
+              "occ-obs-cyriacus-miholjdan-2026"
+            ],
+            "article_ids": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "miholjdan-9",
+      "operation": "search",
+      "input": {
+        "query": "КИРИЈАК",
+        "locale": "sr-Latn",
+        "year": 2026,
+        "calendar_profile_id": "spc-rs-ba-julian-v1"
+      },
+      "synthetic_setup": true,
+      "payload_mutations": [],
+      "context_mutations": [],
+      "expected": {
+        "eligible": true,
+        "reason": null,
+        "state": "matches",
+        "truncated": false,
+        "results": [
+          {
+            "observance_id": "obs-cyriacus-miholjdan",
+            "kind": "saint_commemoration",
+            "name": "Prepodobni Kirijak Otšelnik – Miholjdan",
+            "description": "Spomen svetitelja",
+            "subject_ids": [
+              "saint-cyriacus-hermit"
+            ],
+            "date_state": "source_recorded",
+            "dates": [
+              "2026-10-12"
+            ],
+            "occurrence_ids": [
+              "occ-obs-cyriacus-miholjdan-2026"
+            ],
+            "article_ids": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "djurdjevdan-10",
+      "operation": "search",
+      "input": {
+        "query": "Ђурђевдан",
+        "locale": "sr-Latn",
+        "year": 2026,
+        "calendar_profile_id": "spc-rs-ba-julian-v1"
+      },
+      "synthetic_setup": true,
+      "payload_mutations": [],
+      "context_mutations": [],
+      "expected": {
+        "eligible": true,
+        "reason": null,
+        "state": "matches",
+        "truncated": false,
+        "results": [
+          {
+            "observance_id": "obs-george",
+            "kind": "saint_commemoration",
+            "name": "Sveti velikomučenik Georgije – Đurđevdan",
+            "description": "Spomen svetitelja",
+            "subject_ids": [
+              "saint-george"
+            ],
+            "date_state": "source_recorded",
+            "dates": [
+              "2026-05-06"
+            ],
+            "occurrence_ids": [
+              "occ-obs-george-2026"
+            ],
+            "article_ids": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "djurdjevdan-11",
+      "operation": "search",
+      "input": {
+        "query": "Đurđevdan",
+        "locale": "sr-Latn",
+        "year": 2026,
+        "calendar_profile_id": "spc-rs-ba-julian-v1"
+      },
+      "synthetic_setup": true,
+      "payload_mutations": [],
+      "context_mutations": [],
+      "expected": {
+        "eligible": true,
+        "reason": null,
+        "state": "matches",
+        "truncated": false,
+        "results": [
+          {
+            "observance_id": "obs-george",
+            "kind": "saint_commemoration",
+            "name": "Sveti velikomučenik Georgije – Đurđevdan",
+            "description": "Spomen svetitelja",
+            "subject_ids": [
+              "saint-george"
+            ],
+            "date_state": "source_recorded",
+            "dates": [
+              "2026-05-06"
+            ],
+            "occurrence_ids": [
+              "occ-obs-george-2026"
+            ],
+            "article_ids": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "djurdjevdan-12",
+      "operation": "search",
+      "input": {
+        "query": "Djurdjevdan",
+        "locale": "sr-Latn",
+        "year": 2026,
+        "calendar_profile_id": "spc-rs-ba-julian-v1"
+      },
+      "synthetic_setup": true,
+      "payload_mutations": [],
+      "context_mutations": [],
+      "expected": {
+        "eligible": true,
+        "reason": null,
+        "state": "matches",
+        "truncated": false,
+        "results": [
+          {
+            "observance_id": "obs-george",
+            "kind": "saint_commemoration",
+            "name": "Sveti velikomučenik Georgije – Đurđevdan",
+            "description": "Spomen svetitelja",
+            "subject_ids": [
+              "saint-george"
+            ],
+            "date_state": "source_recorded",
+            "dates": [
+              "2026-05-06"
+            ],
+            "occurrence_ids": [
+              "occ-obs-george-2026"
+            ],
+            "article_ids": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "djurdjevdan-13",
+      "operation": "search",
+      "input": {
+        "query": "Đurđevdan",
+        "locale": "sr-Latn",
+        "year": 2026,
+        "calendar_profile_id": "spc-rs-ba-julian-v1"
+      },
+      "synthetic_setup": true,
+      "payload_mutations": [],
+      "context_mutations": [],
+      "expected": {
+        "eligible": true,
+        "reason": null,
+        "state": "matches",
+        "truncated": false,
+        "results": [
+          {
+            "observance_id": "obs-george",
+            "kind": "saint_commemoration",
+            "name": "Sveti velikomučenik Georgije – Đurđevdan",
+            "description": "Spomen svetitelja",
+            "subject_ids": [
+              "saint-george"
+            ],
+            "date_state": "source_recorded",
+            "dates": [
+              "2026-05-06"
+            ],
+            "occurrence_ids": [
+              "occ-obs-george-2026"
+            ],
+            "article_ids": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "lj-digraph-14",
+      "operation": "search",
+      "input": {
+        "query": "Никољдан",
+        "locale": "sr-Latn",
+        "year": 2026,
+        "calendar_profile_id": "spc-rs-ba-julian-v1"
+      },
+      "synthetic_setup": true,
+      "payload_mutations": [],
+      "context_mutations": [],
+      "expected": {
+        "eligible": true,
+        "reason": null,
+        "state": "matches",
+        "truncated": false,
+        "results": [
+          {
+            "observance_id": "obs-nicholas-december",
+            "kind": "saint_commemoration",
+            "name": "Sveti Nikolaj, Arhiepiskop mirlikijski Čudotvorac – Nikoljdan",
+            "description": "Decembarski spomen Svetog Nikolaja",
+            "subject_ids": [
+              "saint-nicholas-myra"
+            ],
+            "date_state": "source_recorded",
+            "dates": [
+              "2026-12-19"
+            ],
+            "occurrence_ids": [
+              "occ-obs-nicholas-december-2026"
+            ],
+            "article_ids": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "lj-digraph-15",
+      "operation": "search",
+      "input": {
+        "query": "Nikoljdan",
+        "locale": "sr-Latn",
+        "year": 2026,
+        "calendar_profile_id": "spc-rs-ba-julian-v1"
+      },
+      "synthetic_setup": true,
+      "payload_mutations": [],
+      "context_mutations": [],
+      "expected": {
+        "eligible": true,
+        "reason": null,
+        "state": "matches",
+        "truncated": false,
+        "results": [
+          {
+            "observance_id": "obs-nicholas-december",
+            "kind": "saint_commemoration",
+            "name": "Sveti Nikolaj, Arhiepiskop mirlikijski Čudotvorac – Nikoljdan",
+            "description": "Decembarski spomen Svetog Nikolaja",
+            "subject_ids": [
+              "saint-nicholas-myra"
+            ],
+            "date_state": "source_recorded",
+            "dates": [
+              "2026-12-19"
+            ],
+            "occurrence_ids": [
+              "occ-obs-nicholas-december-2026"
+            ],
+            "article_ids": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "lj-digraph-16",
+      "operation": "search",
+      "input": {
+        "query": "Љ",
+        "locale": "sr-Latn",
+        "year": 2026,
+        "calendar_profile_id": "spc-rs-ba-julian-v1"
+      },
+      "synthetic_setup": true,
+      "payload_mutations": [],
+      "context_mutations": [],
+      "expected": {
+        "eligible": true,
+        "reason": null,
+        "state": "no_match",
+        "truncated": false,
+        "results": []
+      }
+    },
+    {
+      "id": "lj-digraph-17",
+      "operation": "search",
+      "input": {
+        "query": "lj",
+        "locale": "sr-Latn",
+        "year": 2026,
+        "calendar_profile_id": "spc-rs-ba-julian-v1"
+      },
+      "synthetic_setup": true,
+      "payload_mutations": [],
+      "context_mutations": [],
+      "expected": {
+        "eligible": true,
+        "reason": null,
+        "state": "no_match",
+        "truncated": false,
+        "results": []
+      }
+    },
+    {
+      "id": "ambiguous-nicholas-date-order",
+      "operation": "search",
+      "input": {
+        "query": "Sveti Nikola",
+        "locale": "sr-Latn",
+        "year": 2026,
+        "calendar_profile_id": "spc-rs-ba-julian-v1"
+      },
+      "synthetic_setup": true,
+      "payload_mutations": [],
+      "context_mutations": [],
+      "expected": {
+        "eligible": true,
+        "reason": null,
+        "state": "matches",
+        "truncated": false,
+        "results": [
+          {
+            "observance_id": "obs-nicholas-relics-transfer",
+            "kind": "saint_commemoration",
+            "name": "Prenos moštiju Svetog oca Nikolaja",
+            "description": "Prenos moštiju Svetog Nikolaja",
+            "subject_ids": [
+              "saint-nicholas-myra"
+            ],
+            "date_state": "source_recorded",
+            "dates": [
+              "2026-05-22"
+            ],
+            "occurrence_ids": [
+              "occ-obs-nicholas-relics-transfer-2026"
+            ],
+            "article_ids": []
+          },
+          {
+            "observance_id": "obs-nicholas-december",
+            "kind": "saint_commemoration",
+            "name": "Sveti Nikolaj, Arhiepiskop mirlikijski Čudotvorac – Nikoljdan",
+            "description": "Decembarski spomen Svetog Nikolaja",
+            "subject_ids": [
+              "saint-nicholas-myra"
+            ],
+            "date_state": "source_recorded",
+            "dates": [
+              "2026-12-19"
+            ],
+            "occurrence_ids": [
+              "occ-obs-nicholas-december-2026"
+            ],
+            "article_ids": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "ambiguous-michael-date-order",
+      "operation": "search",
+      "input": {
+        "query": "Arhangel Mihailo",
+        "locale": "sr-Latn",
+        "year": 2026,
+        "calendar_profile_id": "spc-rs-ba-julian-v1"
+      },
+      "synthetic_setup": true,
+      "payload_mutations": [],
+      "context_mutations": [],
+      "expected": {
+        "eligible": true,
+        "reason": null,
+        "state": "matches",
+        "truncated": false,
+        "results": [
+          {
+            "observance_id": "obs-michael-chonae",
+            "kind": "event",
+            "name": "Čudo Svetog Arhangela Mihaila",
+            "description": "Čudo Arhangela Mihaila u Honi",
+            "subject_ids": [
+              "saint-archangel-michael"
+            ],
+            "date_state": "source_recorded",
+            "dates": [
+              "2026-09-19"
+            ],
+            "occurrence_ids": [
+              "occ-obs-michael-chonae-2026"
+            ],
+            "article_ids": [
+              "michael-miracle-chonae"
+            ]
+          },
+          {
+            "observance_id": "obs-michael-synaxis",
+            "kind": "feast",
+            "name": "Sabor Svetog Arhangela Mihaila i ostalih Nebeskih Sila Bestelesnih – Aranđelovdan",
+            "description": "Sabor Arhangela Mihaila i ostalih nebeskih sila",
+            "subject_ids": [
+              "saint-archangel-michael"
+            ],
+            "date_state": "source_recorded",
+            "dates": [
+              "2026-11-21"
+            ],
+            "occurrence_ids": [
+              "occ-obs-michael-synaxis-2026"
+            ],
+            "article_ids": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "unavailable-date-ascii-id-tiebreak",
+      "operation": "search",
+      "input": {
+        "query": "Sveti",
+        "locale": "sr-Latn",
+        "year": 2027,
+        "calendar_profile_id": "spc-rs-ba-julian-v1"
+      },
+      "synthetic_setup": true,
+      "payload_mutations": [],
+      "context_mutations": [],
+      "expected": {
+        "eligible": true,
+        "reason": null,
+        "state": "matches",
+        "truncated": false,
+        "results": [
+          {
+            "observance_id": "obs-apostles-peter-paul",
+            "kind": "group_commemoration",
+            "name": "Sveti apostoli Petar i Pavle – Petrovdan",
+            "description": "Zajednički spomen apostola",
+            "subject_ids": [
+              "group-apostles-peter-paul"
+            ],
+            "date_state": "unavailable",
+            "dates": [],
+            "occurrence_ids": [],
+            "article_ids": []
+          },
+          {
+            "observance_id": "obs-demetrius",
+            "kind": "saint_commemoration",
+            "name": "Sveti velikomučenik Dimitrije – Mitrovdan",
+            "description": "Spomen svetitelja",
+            "subject_ids": [
+              "saint-demetrius"
+            ],
+            "date_state": "unavailable",
+            "dates": [],
+            "occurrence_ids": [],
+            "article_ids": []
+          },
+          {
+            "observance_id": "obs-george",
+            "kind": "saint_commemoration",
+            "name": "Sveti velikomučenik Georgije – Đurđevdan",
+            "description": "Spomen svetitelja",
+            "subject_ids": [
+              "saint-george"
+            ],
+            "date_state": "unavailable",
+            "dates": [],
+            "occurrence_ids": [],
+            "article_ids": []
+          },
+          {
+            "observance_id": "obs-john-baptist-synaxis",
+            "kind": "saint_commemoration",
+            "name": "Sabor Sv. Jovana Krstitelja",
+            "description": "Sabor Svetog Jovana Krstitelja",
+            "subject_ids": [
+              "saint-john-baptist"
+            ],
+            "date_state": "unavailable",
+            "dates": [],
+            "occurrence_ids": [],
+            "article_ids": []
+          },
+          {
+            "observance_id": "obs-michael-chonae",
+            "kind": "event",
+            "name": "Čudo Svetog Arhangela Mihaila",
+            "description": "Čudo Arhangela Mihaila u Honi",
+            "subject_ids": [
+              "saint-archangel-michael"
+            ],
+            "date_state": "unavailable",
+            "dates": [],
+            "occurrence_ids": [],
+            "article_ids": [
+              "michael-miracle-chonae"
+            ]
+          },
+          {
+            "observance_id": "obs-michael-synaxis",
+            "kind": "feast",
+            "name": "Sabor Svetog Arhangela Mihaila i ostalih Nebeskih Sila Bestelesnih – Aranđelovdan",
+            "description": "Sabor Arhangela Mihaila i ostalih nebeskih sila",
+            "subject_ids": [
+              "saint-archangel-michael"
+            ],
+            "date_state": "unavailable",
+            "dates": [],
+            "occurrence_ids": [],
+            "article_ids": []
+          },
+          {
+            "observance_id": "obs-nektarios-aegina",
+            "kind": "saint_commemoration",
+            "name": "Sveti Nektarije Eginski",
+            "description": "Godišnja veza nije potvrđena",
+            "subject_ids": [
+              "saint-nektarios-aegina"
+            ],
+            "date_state": "unavailable",
+            "dates": [],
+            "occurrence_ids": [],
+            "article_ids": []
+          },
+          {
+            "observance_id": "obs-nicholas-december",
+            "kind": "saint_commemoration",
+            "name": "Sveti Nikolaj, Arhiepiskop mirlikijski Čudotvorac – Nikoljdan",
+            "description": "Decembarski spomen Svetog Nikolaja",
+            "subject_ids": [
+              "saint-nicholas-myra"
+            ],
+            "date_state": "unavailable",
+            "dates": [],
+            "occurrence_ids": [],
+            "article_ids": []
+          },
+          {
+            "observance_id": "obs-nicholas-relics-transfer",
+            "kind": "saint_commemoration",
+            "name": "Prenos moštiju Svetog oca Nikolaja",
+            "description": "Prenos moštiju Svetog Nikolaja",
+            "subject_ids": [
+              "saint-nicholas-myra"
+            ],
+            "date_state": "unavailable",
+            "dates": [],
+            "occurrence_ids": [],
+            "article_ids": []
+          },
+          {
+            "observance_id": "obs-sava-serbian",
+            "kind": "saint_commemoration",
+            "name": "Sveti Sava Srpski",
+            "description": "Spomen svetitelja",
+            "subject_ids": [
+              "saint-sava-serbian"
+            ],
+            "date_state": "unavailable",
+            "dates": [],
+            "occurrence_ids": [],
+            "article_ids": []
+          },
+          {
+            "observance_id": "obs-simeon-myrrh-streaming",
+            "kind": "saint_commemoration",
+            "name": "Prepodobni Simeon Mirotočivi",
+            "description": "Spomen svetitelja",
+            "subject_ids": [
+              "saint-simeon-myrrh-streaming"
+            ],
+            "date_state": "unavailable",
+            "dates": [],
+            "occurrence_ids": [],
+            "article_ids": []
+          },
+          {
+            "observance_id": "obs-stefan-decanski",
+            "kind": "saint_commemoration",
+            "name": "Sveti kralj Stefan Dečanski",
+            "description": "Godišnja veza nije potvrđena",
+            "subject_ids": [
+              "saint-stefan-decanski"
+            ],
+            "date_state": "unavailable",
+            "dates": [],
+            "occurrence_ids": [],
+            "article_ids": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-and-combining-george",
+      "operation": "search",
+      "input": {
+        "query": "SVETI GEORGIJE",
+        "locale": "sr-Cyrl",
+        "year": 2026,
+        "calendar_profile_id": "spc-rs-ba-julian-v1"
+      },
+      "synthetic_setup": true,
+      "payload_mutations": [],
+      "context_mutations": [],
+      "expected": {
+        "eligible": true,
+        "reason": null,
+        "state": "matches",
+        "truncated": false,
+        "results": [
+          {
+            "observance_id": "obs-george",
+            "kind": "saint_commemoration",
+            "name": "Свети великомученик Георгије – Ђурђевдан",
+            "description": "Спомен светитеља",
+            "subject_ids": [
+              "saint-george"
+            ],
+            "date_state": "source_recorded",
+            "dates": [
+              "2026-05-06"
+            ],
+            "occurrence_ids": [
+              "occ-obs-george-2026"
+            ],
+            "article_ids": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "michael-not-miholjdan",
+      "operation": "search",
+      "input": {
+        "query": "Aranđelovdan",
+        "locale": "sr-Latn",
+        "year": 2026,
+        "calendar_profile_id": "spc-rs-ba-julian-v1"
+      },
+      "synthetic_setup": true,
+      "payload_mutations": [],
+      "context_mutations": [],
+      "expected": {
+        "eligible": true,
+        "reason": null,
+        "state": "matches",
+        "truncated": false,
+        "results": [
+          {
+            "observance_id": "obs-michael-synaxis",
+            "kind": "feast",
+            "name": "Sabor Svetog Arhangela Mihaila i ostalih Nebeskih Sila Bestelesnih – Aranđelovdan",
+            "description": "Sabor Arhangela Mihaila i ostalih nebeskih sila",
+            "subject_ids": [
+              "saint-archangel-michael"
+            ],
+            "date_state": "source_recorded",
+            "dates": [
+              "2026-11-21"
+            ],
+            "occurrence_ids": [
+              "occ-obs-michael-synaxis-2026"
+            ],
+            "article_ids": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "group-peter-paul",
+      "operation": "search",
+      "input": {
+        "query": "Petar i Pavle",
+        "locale": "sr-Latn",
+        "year": 2026,
+        "calendar_profile_id": "spc-rs-ba-julian-v1"
+      },
+      "synthetic_setup": true,
+      "payload_mutations": [],
+      "context_mutations": [],
+      "expected": {
+        "eligible": true,
+        "reason": null,
+        "state": "matches",
+        "truncated": false,
+        "results": [
+          {
+            "observance_id": "obs-apostles-peter-paul",
+            "kind": "group_commemoration",
+            "name": "Sveti apostoli Petar i Pavle – Petrovdan",
+            "description": "Zajednički spomen apostola",
+            "subject_ids": [
+              "group-apostles-peter-paul"
+            ],
+            "date_state": "source_recorded",
+            "dates": [
+              "2026-07-12"
+            ],
+            "occurrence_ids": [
+              "occ-obs-apostles-peter-paul-2026"
+            ],
+            "article_ids": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "feast-mala-gospojina",
+      "operation": "search",
+      "input": {
+        "query": "Mala Gospojina",
+        "locale": "sr-Cyrl",
+        "year": 2026,
+        "calendar_profile_id": "spc-rs-ba-julian-v1"
+      },
+      "synthetic_setup": true,
+      "payload_mutations": [],
+      "context_mutations": [],
+      "expected": {
+        "eligible": true,
+        "reason": null,
+        "state": "matches",
+        "truncated": false,
+        "results": [
+          {
+            "observance_id": "obs-nativity-theotokos",
+            "kind": "feast",
+            "name": "Рођење Пресвете Богородице – Мала Госпојина",
+            "description": "Рођење Пресвете Богородице",
+            "subject_ids": [],
+            "date_state": "source_recorded",
+            "dates": [
+              "2026-09-21"
+            ],
+            "occurrence_ids": [
+              "occ-obs-nativity-theotokos-2026"
+            ],
+            "article_ids": [
+              "nativity-theotokos"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "unresolved-nektarios",
+      "operation": "search",
+      "input": {
+        "query": "Nektarije",
+        "locale": "sr-Latn",
+        "year": 2026,
+        "calendar_profile_id": "spc-rs-ba-julian-v1"
+      },
+      "synthetic_setup": true,
+      "payload_mutations": [],
+      "context_mutations": [],
+      "expected": {
+        "eligible": true,
+        "reason": null,
+        "state": "matches",
+        "truncated": false,
+        "results": [
+          {
+            "observance_id": "obs-nektarios-aegina",
+            "kind": "saint_commemoration",
+            "name": "Sveti Nektarije Eginski",
+            "description": "Godišnja veza nije potvrđena",
+            "subject_ids": [
+              "saint-nektarios-aegina"
+            ],
+            "date_state": "unavailable",
+            "dates": [],
+            "occurrence_ids": [],
+            "article_ids": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "unresolved-stefan",
+      "operation": "search",
+      "input": {
+        "query": "Stefan",
+        "locale": "sr-Latn",
+        "year": 2026,
+        "calendar_profile_id": "spc-rs-ba-julian-v1"
+      },
+      "synthetic_setup": true,
+      "payload_mutations": [],
+      "context_mutations": [],
+      "expected": {
+        "eligible": true,
+        "reason": null,
+        "state": "matches",
+        "truncated": false,
+        "results": [
+          {
+            "observance_id": "obs-stefan-decanski",
+            "kind": "saint_commemoration",
+            "name": "Sveti kralj Stefan Dečanski",
+            "description": "Godišnja veza nije potvrđena",
+            "subject_ids": [
+              "saint-stefan-decanski"
+            ],
+            "date_state": "unavailable",
+            "dates": [],
+            "occurrence_ids": [],
+            "article_ids": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "year-2027-no-date-copy",
+      "operation": "search",
+      "input": {
+        "query": "Miholjdan",
+        "locale": "sr-Latn",
+        "year": 2027,
+        "calendar_profile_id": "spc-rs-ba-julian-v1"
+      },
+      "synthetic_setup": true,
+      "payload_mutations": [],
+      "context_mutations": [],
+      "expected": {
+        "eligible": true,
+        "reason": null,
+        "state": "matches",
+        "truncated": false,
+        "results": [
+          {
+            "observance_id": "obs-cyriacus-miholjdan",
+            "kind": "saint_commemoration",
+            "name": "Prepodobni Kirijak Otšelnik – Miholjdan",
+            "description": "Spomen svetitelja",
+            "subject_ids": [
+              "saint-cyriacus-hermit"
+            ],
+            "date_state": "unavailable",
+            "dates": [],
+            "occurrence_ids": [],
+            "article_ids": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "empty-query",
+      "operation": "search",
+      "input": {
+        "query": "",
+        "locale": "sr-Latn",
+        "year": 2026,
+        "calendar_profile_id": "spc-rs-ba-julian-v1"
+      },
+      "synthetic_setup": true,
+      "payload_mutations": [],
+      "context_mutations": [],
+      "expected": {
+        "eligible": true,
+        "reason": null,
+        "state": "empty_query",
+        "truncated": false,
+        "results": []
+      }
+    },
+    {
+      "id": "emoji-only-query",
+      "operation": "search",
+      "input": {
+        "query": "🙏🕊️",
+        "locale": "sr-Latn",
+        "year": 2026,
+        "calendar_profile_id": "spc-rs-ba-julian-v1"
+      },
+      "synthetic_setup": true,
+      "payload_mutations": [],
+      "context_mutations": [],
+      "expected": {
+        "eligible": true,
+        "reason": null,
+        "state": "empty_query",
+        "truncated": false,
+        "results": []
+      }
+    },
+    {
+      "id": "punctuation-only-query",
+      "operation": "search",
+      "input": {
+        "query": " ... ",
+        "locale": "sr-Latn",
+        "year": 2026,
+        "calendar_profile_id": "spc-rs-ba-julian-v1"
+      },
+      "synthetic_setup": true,
+      "payload_mutations": [],
+      "context_mutations": [],
+      "expected": {
+        "eligible": true,
+        "reason": null,
+        "state": "empty_query",
+        "truncated": false,
+        "results": []
+      }
+    },
+    {
+      "id": "query-too-long-no-truncation",
+      "operation": "search",
+      "input": {
+        "query": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+        "locale": "sr-Latn",
+        "year": 2026,
+        "calendar_profile_id": "spc-rs-ba-julian-v1"
+      },
+      "synthetic_setup": true,
+      "payload_mutations": [],
+      "context_mutations": [],
+      "expected": {
+        "eligible": false,
+        "reason": "query_too_long"
+      }
+    },
+    {
+      "id": "unknown-query",
+      "operation": "search",
+      "input": {
+        "query": "nepoznat naziv",
+        "locale": "sr-Latn",
+        "year": 2026,
+        "calendar_profile_id": "spc-rs-ba-julian-v1"
+      },
+      "synthetic_setup": true,
+      "payload_mutations": [],
+      "context_mutations": [],
+      "expected": {
+        "eligible": true,
+        "reason": null,
+        "state": "no_match",
+        "truncated": false,
+        "results": []
+      }
+    },
+    {
+      "id": "recorded-date",
+      "operation": "day",
+      "input": {
+        "date": "2026-10-12",
+        "calendar_profile_id": "spc-rs-ba-julian-v1"
+      },
+      "synthetic_setup": true,
+      "payload_mutations": [],
+      "context_mutations": [],
+      "expected": {
+        "eligible": true,
+        "reason": null,
+        "state": "source_recorded",
+        "occurrence_ids": [
+          "occ-obs-cyriacus-miholjdan-2026"
+        ]
+      }
+    },
+    {
+      "id": "missing-is-not-confirmed-none",
+      "operation": "day",
+      "input": {
+        "date": "2026-12-31",
+        "calendar_profile_id": "spc-rs-ba-julian-v1"
+      },
+      "synthetic_setup": true,
+      "payload_mutations": [],
+      "context_mutations": [],
+      "expected": {
+        "eligible": true,
+        "reason": null,
+        "state": "uncovered",
+        "occurrence_ids": []
+      }
+    },
+    {
+      "id": "year-boundary-unavailable",
+      "operation": "day",
+      "input": {
+        "date": "2027-01-01",
+        "calendar_profile_id": "spc-rs-ba-julian-v1"
+      },
+      "synthetic_setup": true,
+      "payload_mutations": [],
+      "context_mutations": [],
+      "expected": {
+        "eligible": true,
+        "reason": null,
+        "state": "year_unavailable",
+        "occurrence_ids": []
+      }
+    },
+    {
+      "id": "not-authenticated",
+      "operation": "evaluate",
+      "input": {},
+      "synthetic_setup": true,
+      "payload_mutations": [],
+      "context_mutations": [
+        {
+          "path": [
+            "contentAuthenticated"
+          ],
+          "value": false
+        }
+      ],
+      "expected": {
+        "eligible": false,
+        "reason": "content_not_authenticated"
+      }
+    },
+    {
+      "id": "calendar-not-authenticated",
+      "operation": "evaluate",
+      "input": {},
+      "synthetic_setup": true,
+      "payload_mutations": [],
+      "context_mutations": [
+        {
+          "path": [
+            "calendarContexts",
+            0,
+            "authenticated"
+          ],
+          "value": false
+        }
+      ],
+      "expected": {
+        "eligible": false,
+        "reason": "calendar_not_authenticated"
+      }
+    },
+    {
+      "id": "catalog-generation-mismatch",
+      "operation": "evaluate",
+      "input": {},
+      "synthetic_setup": true,
+      "payload_mutations": [],
+      "context_mutations": [
+        {
+          "path": [
+            "moduleContext",
+            "generation",
+            "id"
+          ],
+          "value": "older-generation"
+        }
+      ],
+      "expected": {
+        "eligible": false,
+        "reason": "generation_mismatch"
+      }
+    },
+    {
+      "id": "calendar-generation-mismatch",
+      "operation": "evaluate",
+      "input": {},
+      "synthetic_setup": true,
+      "payload_mutations": [],
+      "context_mutations": [
+        {
+          "path": [
+            "calendarContexts",
+            0,
+            "generation",
+            "id"
+          ],
+          "value": "older-generation"
+        }
+      ],
+      "expected": {
+        "eligible": false,
+        "reason": "generation_mismatch"
+      }
+    },
+    {
+      "id": "article-generation-mismatch",
+      "operation": "evaluate",
+      "input": {},
+      "synthetic_setup": true,
+      "payload_mutations": [],
+      "context_mutations": [
+        {
+          "path": [
+            "articleContexts",
+            0,
+            "generation",
+            "id"
+          ],
+          "value": "older-generation"
+        }
+      ],
+      "expected": {
+        "eligible": false,
+        "reason": "generation_mismatch"
+      }
+    },
+    {
+      "id": "same-id-different-sequence-moduleContext",
+      "operation": "evaluate",
+      "input": {},
+      "synthetic_setup": true,
+      "payload_mutations": [],
+      "context_mutations": [
+        {
+          "path": [
+            "moduleContext",
+            "generation",
+            "sequence"
+          ],
+          "value": 2
+        }
+      ],
+      "expected": {
+        "eligible": false,
+        "reason": "generation_mismatch"
+      }
+    },
+    {
+      "id": "same-id-different-digest-moduleContext",
+      "operation": "evaluate",
+      "input": {},
+      "synthetic_setup": true,
+      "payload_mutations": [],
+      "context_mutations": [
+        {
+          "path": [
+            "moduleContext",
+            "generation",
+            "decision_sha256"
+          ],
+          "value": "ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+        }
+      ],
+      "expected": {
+        "eligible": false,
+        "reason": "generation_mismatch"
+      }
+    },
+    {
+      "id": "same-id-different-sequence-calendarContexts",
+      "operation": "evaluate",
+      "input": {},
+      "synthetic_setup": true,
+      "payload_mutations": [],
+      "context_mutations": [
+        {
+          "path": [
+            "calendarContexts",
+            0,
+            "generation",
+            "sequence"
+          ],
+          "value": 2
+        }
+      ],
+      "expected": {
+        "eligible": false,
+        "reason": "generation_mismatch"
+      }
+    },
+    {
+      "id": "same-id-different-digest-calendarContexts",
+      "operation": "evaluate",
+      "input": {},
+      "synthetic_setup": true,
+      "payload_mutations": [],
+      "context_mutations": [
+        {
+          "path": [
+            "calendarContexts",
+            0,
+            "generation",
+            "decision_sha256"
+          ],
+          "value": "ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+        }
+      ],
+      "expected": {
+        "eligible": false,
+        "reason": "generation_mismatch"
+      }
+    },
+    {
+      "id": "same-id-different-sequence-articleContexts",
+      "operation": "evaluate",
+      "input": {},
+      "synthetic_setup": true,
+      "payload_mutations": [],
+      "context_mutations": [
+        {
+          "path": [
+            "articleContexts",
+            0,
+            "generation",
+            "sequence"
+          ],
+          "value": 2
+        }
+      ],
+      "expected": {
+        "eligible": false,
+        "reason": "generation_mismatch"
+      }
+    },
+    {
+      "id": "same-id-different-digest-articleContexts",
+      "operation": "evaluate",
+      "input": {},
+      "synthetic_setup": true,
+      "payload_mutations": [],
+      "context_mutations": [
+        {
+          "path": [
+            "articleContexts",
+            0,
+            "generation",
+            "decision_sha256"
+          ],
+          "value": "ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+        }
+      ],
+      "expected": {
+        "eligible": false,
+        "reason": "generation_mismatch"
+      }
+    },
+    {
+      "id": "calendar-version-mismatch",
+      "operation": "evaluate",
+      "input": {},
+      "synthetic_setup": true,
+      "payload_mutations": [],
+      "context_mutations": [
+        {
+          "path": [
+            "calendarContexts",
+            0,
+            "version"
+          ],
+          "value": "other-version"
+        }
+      ],
+      "expected": {
+        "eligible": false,
+        "reason": "calendar_mismatch"
+      }
+    },
+    {
+      "id": "calendar-revision-mismatch",
+      "operation": "evaluate",
+      "input": {},
+      "synthetic_setup": true,
+      "payload_mutations": [],
+      "context_mutations": [
+        {
+          "path": [
+            "calendarContexts",
+            0,
+            "revision"
+          ],
+          "value": 99
+        }
+      ],
+      "expected": {
+        "eligible": false,
+        "reason": "calendar_mismatch"
+      }
+    },
+    {
+      "id": "calendar-sha256-mismatch",
+      "operation": "evaluate",
+      "input": {},
+      "synthetic_setup": true,
+      "payload_mutations": [],
+      "context_mutations": [
+        {
+          "path": [
+            "calendarContexts",
+            0,
+            "sha256"
+          ],
+          "value": "0000000000000000000000000000000000000000000000000000000000000000"
+        }
+      ],
+      "expected": {
+        "eligible": false,
+        "reason": "calendar_mismatch"
+      }
+    },
+    {
+      "id": "calendar-title-mismatch",
+      "operation": "evaluate",
+      "input": {},
+      "synthetic_setup": true,
+      "payload_mutations": [],
+      "context_mutations": [
+        {
+          "path": [
+            "calendarContexts",
+            0,
+            "days",
+            0,
+            "commemoration",
+            "title_cyrl"
+          ],
+          "value": "Други назив"
+        }
+      ],
+      "expected": {
+        "eligible": false,
+        "reason": "calendar_day_mismatch"
+      }
+    },
+    {
+      "id": "calendar-julian-mismatch",
+      "operation": "evaluate",
+      "input": {},
+      "synthetic_setup": true,
+      "payload_mutations": [],
+      "context_mutations": [
+        {
+          "path": [
+            "calendarContexts",
+            0,
+            "days",
+            0,
+            "julian_date"
+          ],
+          "value": "2026-01-08"
+        }
+      ],
+      "expected": {
+        "eligible": false,
+        "reason": "calendar_day_mismatch"
+      }
+    },
+    {
+      "id": "calendar-sources-mismatch",
+      "operation": "evaluate",
+      "input": {},
+      "synthetic_setup": true,
+      "payload_mutations": [],
+      "context_mutations": [
+        {
+          "path": [
+            "calendarContexts",
+            0,
+            "days",
+            0,
+            "commemoration",
+            "source_ids"
+          ],
+          "value": [
+            "other-source"
+          ]
+        }
+      ],
+      "expected": {
+        "eligible": false,
+        "reason": "calendar_day_mismatch"
+      }
+    },
+    {
+      "id": "unknown-module-capability",
+      "operation": "evaluate",
+      "input": {},
+      "synthetic_setup": true,
+      "payload_mutations": [],
+      "context_mutations": [
+        {
+          "path": [
+            "moduleContext",
+            "capabilities"
+          ],
+          "value": [
+            "unknown"
+          ]
+        }
+      ],
+      "expected": {
+        "eligible": false,
+        "reason": "module_mismatch"
+      }
+    },
+    {
+      "id": "declared-required-module",
+      "operation": "evaluate",
+      "input": {},
+      "synthetic_setup": true,
+      "payload_mutations": [],
+      "context_mutations": [
+        {
+          "path": [
+            "moduleContext",
+            "required"
+          ],
+          "value": true
+        }
+      ],
+      "expected": {
+        "eligible": false,
+        "reason": "module_mismatch"
+      }
+    },
+    {
+      "id": "missing-manifest-dependency",
+      "operation": "evaluate",
+      "input": {},
+      "synthetic_setup": true,
+      "payload_mutations": [],
+      "context_mutations": [
+        {
+          "path": [
+            "moduleContext",
+            "dependencies"
+          ],
+          "value": []
+        }
+      ],
+      "expected": {
+        "eligible": false,
+        "reason": "module_mismatch"
+      }
+    },
+    {
+      "id": "unknown-root-field",
+      "operation": "evaluate",
+      "input": {},
+      "synthetic_setup": true,
+      "payload_mutations": [
+        {
+          "path": [
+            "new_field"
+          ],
+          "value": true
+        }
+      ],
+      "context_mutations": [],
+      "expected": {
+        "eligible": false,
+        "reason": "malformed"
+      }
+    },
+    {
+      "id": "duplicate-observance",
+      "operation": "evaluate",
+      "input": {},
+      "synthetic_setup": true,
+      "payload_mutations": [
+        {
+          "path": [
+            "observances",
+            1,
+            "id"
+          ],
+          "value": "obs-paraskeva"
+        }
+      ],
+      "context_mutations": [],
+      "expected": {
+        "eligible": false,
+        "reason": "malformed"
+      }
+    },
+    {
+      "id": "unknown-subject",
+      "operation": "evaluate",
+      "input": {},
+      "synthetic_setup": true,
+      "payload_mutations": [
+        {
+          "path": [
+            "observances",
+            0,
+            "subject_ids"
+          ],
+          "value": [
+            "unknown"
+          ]
+        }
+      ],
+      "context_mutations": [],
+      "expected": {
+        "eligible": false,
+        "reason": "malformed"
+      }
+    },
+    {
+      "id": "wrong-latin-name",
+      "operation": "evaluate",
+      "input": {},
+      "synthetic_setup": true,
+      "payload_mutations": [
+        {
+          "path": [
+            "observances",
+            0,
+            "name",
+            "sr-Latn"
+          ],
+          "value": "Wrong name"
+        }
+      ],
+      "context_mutations": [],
+      "expected": {
+        "eligible": false,
+        "reason": "malformed"
+      }
+    },
+    {
+      "id": "false-full-coverage",
+      "operation": "evaluate",
+      "input": {},
+      "synthetic_setup": true,
+      "payload_mutations": [
+        {
+          "path": [
+            "coverage",
+            0,
+            "complete_saint_list"
+          ],
+          "value": true
+        }
+      ],
+      "context_mutations": [],
+      "expected": {
+        "eligible": false,
+        "reason": "malformed"
+      }
+    },
+    {
+      "id": "copied-2027-count",
+      "operation": "evaluate",
+      "input": {},
+      "synthetic_setup": true,
+      "payload_mutations": [
+        {
+          "path": [
+            "coverage",
+            1,
+            "mapped_dates"
+          ],
+          "value": 13
+        }
+      ],
+      "context_mutations": [],
+      "expected": {
+        "eligible": false,
+        "reason": "malformed"
+      }
+    },
+    {
+      "id": "invalid-civil-date",
+      "operation": "evaluate",
+      "input": {},
+      "synthetic_setup": true,
+      "payload_mutations": [
+        {
+          "path": [
+            "occurrences",
+            0,
+            "date"
+          ],
+          "value": "2026-02-30"
+        }
+      ],
+      "context_mutations": [],
+      "expected": {
+        "eligible": false,
+        "reason": "malformed"
+      }
+    },
+    {
+      "id": "pending-observance-hidden",
+      "operation": "search",
+      "input": {
+        "query": "Miholjdan",
+        "locale": "sr-Latn",
+        "year": 2026,
+        "calendar_profile_id": "spc-rs-ba-julian-v1"
+      },
+      "synthetic_setup": true,
+      "payload_mutations": [
+        {
+          "path": [
+            "observances",
+            10,
+            "review_status"
+          ],
+          "value": "pending"
+        }
+      ],
+      "context_mutations": [],
+      "expected": {
+        "eligible": true,
+        "reason": null,
+        "state": "no_match",
+        "truncated": false,
+        "results": []
+      }
+    },
+    {
+      "id": "pending-subject-hidden",
+      "operation": "search",
+      "input": {
+        "query": "Miholjdan",
+        "locale": "sr-Latn",
+        "year": 2026,
+        "calendar_profile_id": "spc-rs-ba-julian-v1"
+      },
+      "synthetic_setup": true,
+      "payload_mutations": [
+        {
+          "path": [
+            "subjects",
+            10,
+            "review_status"
+          ],
+          "value": "pending"
+        }
+      ],
+      "context_mutations": [],
+      "expected": {
+        "eligible": true,
+        "reason": null,
+        "state": "no_match",
+        "truncated": false,
+        "results": []
+      }
+    },
+    {
+      "id": "pending-occurrence-does-not-show-date",
+      "operation": "search",
+      "input": {
+        "query": "Miholjdan",
+        "locale": "sr-Latn",
+        "year": 2026,
+        "calendar_profile_id": "spc-rs-ba-julian-v1"
+      },
+      "synthetic_setup": true,
+      "payload_mutations": [
+        {
+          "path": [
+            "occurrences",
+            8,
+            "review_status"
+          ],
+          "value": "pending"
+        }
+      ],
+      "context_mutations": [],
+      "expected": {
+        "eligible": true,
+        "reason": null,
+        "state": "matches",
+        "truncated": false,
+        "results": [
+          {
+            "observance_id": "obs-cyriacus-miholjdan",
+            "kind": "saint_commemoration",
+            "name": "Prepodobni Kirijak Otšelnik – Miholjdan",
+            "description": "Spomen svetitelja",
+            "subject_ids": [
+              "saint-cyriacus-hermit"
+            ],
+            "date_state": "unavailable",
+            "dates": [],
+            "occurrence_ids": [],
+            "article_ids": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "pending-occurrence-day-uncovered",
+      "operation": "day",
+      "input": {
+        "date": "2026-10-12",
+        "calendar_profile_id": "spc-rs-ba-julian-v1"
+      },
+      "synthetic_setup": true,
+      "payload_mutations": [
+        {
+          "path": [
+            "occurrences",
+            8,
+            "review_status"
+          ],
+          "value": "pending"
+        }
+      ],
+      "context_mutations": [],
+      "expected": {
+        "eligible": true,
+        "reason": null,
+        "state": "uncovered",
+        "occurrence_ids": []
+      }
+    },
+    {
+      "id": "missing-article-keeps-search-metadata",
+      "operation": "search",
+      "input": {
+        "query": "Mala Gospojina",
+        "locale": "sr-Latn",
+        "year": 2026,
+        "calendar_profile_id": "spc-rs-ba-julian-v1"
+      },
+      "synthetic_setup": true,
+      "payload_mutations": [],
+      "context_mutations": [
+        {
+          "path": [
+            "articleContexts"
+          ],
+          "value": []
+        }
+      ],
+      "expected": {
+        "eligible": true,
+        "reason": null,
+        "state": "matches",
+        "truncated": false,
+        "results": [
+          {
+            "observance_id": "obs-nativity-theotokos",
+            "kind": "feast",
+            "name": "Rođenje Presvete Bogorodice – Mala Gospojina",
+            "description": "Rođenje Presvete Bogorodice",
+            "subject_ids": [],
+            "date_state": "source_recorded",
+            "dates": [
+              "2026-09-21"
+            ],
+            "occurrence_ids": [
+              "occ-obs-nativity-theotokos-2026"
+            ],
+            "article_ids": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "unapproved-article-keeps-search-metadata",
+      "operation": "search",
+      "input": {
+        "query": "Mala Gospojina",
+        "locale": "sr-Latn",
+        "year": 2026,
+        "calendar_profile_id": "spc-rs-ba-julian-v1"
+      },
+      "synthetic_setup": true,
+      "payload_mutations": [],
+      "context_mutations": [
+        {
+          "path": [
+            "articleContexts",
+            0,
+            "review_status"
+          ],
+          "value": "draft"
+        }
+      ],
+      "expected": {
+        "eligible": true,
+        "reason": null,
+        "state": "matches",
+        "truncated": false,
+        "results": [
+          {
+            "observance_id": "obs-nativity-theotokos",
+            "kind": "feast",
+            "name": "Rođenje Presvete Bogorodice – Mala Gospojina",
+            "description": "Rođenje Presvete Bogorodice",
+            "subject_ids": [],
+            "date_state": "source_recorded",
+            "dates": [
+              "2026-09-21"
+            ],
+            "occurrence_ids": [
+              "occ-obs-nativity-theotokos-2026"
+            ],
+            "article_ids": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "article-authentication-false",
+      "operation": "search",
+      "input": {
+        "query": "Mala Gospojina",
+        "locale": "sr-Latn",
+        "year": 2026,
+        "calendar_profile_id": "spc-rs-ba-julian-v1"
+      },
+      "synthetic_setup": true,
+      "payload_mutations": [],
+      "context_mutations": [
+        {
+          "path": [
+            "articleContexts",
+            0,
+            "authenticated"
+          ],
+          "value": false
+        }
+      ],
+      "expected": {
+        "eligible": true,
+        "reason": null,
+        "state": "matches",
+        "truncated": false,
+        "results": [
+          {
+            "observance_id": "obs-nativity-theotokos",
+            "kind": "feast",
+            "name": "Rođenje Presvete Bogorodice – Mala Gospojina",
+            "description": "Rođenje Presvete Bogorodice",
+            "subject_ids": [],
+            "date_state": "source_recorded",
+            "dates": [
+              "2026-09-21"
+            ],
+            "occurrence_ids": [
+              "occ-obs-nativity-theotokos-2026"
+            ],
+            "article_ids": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "article-authentication-truthy-string",
+      "operation": "search",
+      "input": {
+        "query": "Mala Gospojina",
+        "locale": "sr-Latn",
+        "year": 2026,
+        "calendar_profile_id": "spc-rs-ba-julian-v1"
+      },
+      "synthetic_setup": true,
+      "payload_mutations": [],
+      "context_mutations": [
+        {
+          "path": [
+            "articleContexts",
+            0,
+            "authenticated"
+          ],
+          "value": "true"
+        }
+      ],
+      "expected": {
+        "eligible": true,
+        "reason": null,
+        "state": "matches",
+        "truncated": false,
+        "results": [
+          {
+            "observance_id": "obs-nativity-theotokos",
+            "kind": "feast",
+            "name": "Rođenje Presvete Bogorodice – Mala Gospojina",
+            "description": "Rođenje Presvete Bogorodice",
+            "subject_ids": [],
+            "date_state": "source_recorded",
+            "dates": [
+              "2026-09-21"
+            ],
+            "occurrence_ids": [
+              "occ-obs-nativity-theotokos-2026"
+            ],
+            "article_ids": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "2027-identity-and-article-without-2027-date",
+      "operation": "search",
+      "input": {
+        "query": "Mala Gospojina",
+        "locale": "sr-Latn",
+        "year": 2027,
+        "calendar_profile_id": "spc-rs-ba-julian-v1"
+      },
+      "synthetic_setup": true,
+      "payload_mutations": [],
+      "context_mutations": [],
+      "expected": {
+        "eligible": true,
+        "reason": null,
+        "state": "matches",
+        "truncated": false,
+        "results": [
+          {
+            "observance_id": "obs-nativity-theotokos",
+            "kind": "feast",
+            "name": "Rođenje Presvete Bogorodice – Mala Gospojina",
+            "description": "Rođenje Presvete Bogorodice",
+            "subject_ids": [],
+            "date_state": "unavailable",
+            "dates": [],
+            "occurrence_ids": [],
+            "article_ids": [
+              "nativity-theotokos"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "wrong-article-hash-unavailable",
+      "operation": "search",
+      "input": {
+        "query": "Mala Gospojina",
+        "locale": "sr-Latn",
+        "year": 2026,
+        "calendar_profile_id": "spc-rs-ba-julian-v1"
+      },
+      "synthetic_setup": true,
+      "payload_mutations": [],
+      "context_mutations": [
+        {
+          "path": [
+            "articleContexts",
+            0,
+            "sha256"
+          ],
+          "value": "0000000000000000000000000000000000000000000000000000000000000000"
+        }
+      ],
+      "expected": {
+        "eligible": true,
+        "reason": null,
+        "state": "matches",
+        "truncated": false,
+        "results": [
+          {
+            "observance_id": "obs-nativity-theotokos",
+            "kind": "feast",
+            "name": "Rođenje Presvete Bogorodice – Mala Gospojina",
+            "description": "Rođenje Presvete Bogorodice",
+            "subject_ids": [],
+            "date_state": "source_recorded",
+            "dates": [
+              "2026-09-21"
+            ],
+            "occurrence_ids": [
+              "occ-obs-nativity-theotokos-2026"
+            ],
+            "article_ids": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "wrong-article-calendar-hash-unavailable",
+      "operation": "search",
+      "input": {
+        "query": "Mala Gospojina",
+        "locale": "sr-Latn",
+        "year": 2026,
+        "calendar_profile_id": "spc-rs-ba-julian-v1"
+      },
+      "synthetic_setup": true,
+      "payload_mutations": [],
+      "context_mutations": [
+        {
+          "path": [
+            "articleContexts",
+            0,
+            "calendar_binding",
+            "sha256"
+          ],
+          "value": "0000000000000000000000000000000000000000000000000000000000000000"
+        }
+      ],
+      "expected": {
+        "eligible": true,
+        "reason": null,
+        "state": "matches",
+        "truncated": false,
+        "results": [
+          {
+            "observance_id": "obs-nativity-theotokos",
+            "kind": "feast",
+            "name": "Rođenje Presvete Bogorodice – Mala Gospojina",
+            "description": "Rođenje Presvete Bogorodice",
+            "subject_ids": [],
+            "date_state": "source_recorded",
+            "dates": [
+              "2026-09-21"
+            ],
+            "occurrence_ids": [
+              "occ-obs-nativity-theotokos-2026"
+            ],
+            "article_ids": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "pending-article-link-unavailable",
+      "operation": "search",
+      "input": {
+        "query": "Mala Gospojina",
+        "locale": "sr-Latn",
+        "year": 2026,
+        "calendar_profile_id": "spc-rs-ba-julian-v1"
+      },
+      "synthetic_setup": true,
+      "payload_mutations": [
+        {
+          "path": [
+            "article_links",
+            1,
+            "review_status"
+          ],
+          "value": "pending"
+        }
+      ],
+      "context_mutations": [],
+      "expected": {
+        "eligible": true,
+        "reason": null,
+        "state": "matches",
+        "truncated": false,
+        "results": [
+          {
+            "observance_id": "obs-nativity-theotokos",
+            "kind": "feast",
+            "name": "Rođenje Presvete Bogorodice – Mala Gospojina",
+            "description": "Rođenje Presvete Bogorodice",
+            "subject_ids": [],
+            "date_state": "source_recorded",
+            "dates": [
+              "2026-09-21"
+            ],
+            "occurrence_ids": [
+              "occ-obs-nativity-theotokos-2026"
+            ],
+            "article_ids": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "missing-article-id-unavailable",
+      "operation": "search",
+      "input": {
+        "query": "Mala Gospojina",
+        "locale": "sr-Latn",
+        "year": 2026,
+        "calendar_profile_id": "spc-rs-ba-julian-v1"
+      },
+      "synthetic_setup": true,
+      "payload_mutations": [],
+      "context_mutations": [
+        {
+          "path": [
+            "articleContexts",
+            0,
+            "articles"
+          ],
+          "value": []
+        }
+      ],
+      "expected": {
+        "eligible": true,
+        "reason": null,
+        "state": "matches",
+        "truncated": false,
+        "results": [
+          {
+            "observance_id": "obs-nativity-theotokos",
+            "kind": "feast",
+            "name": "Rođenje Presvete Bogorodice – Mala Gospojina",
+            "description": "Rođenje Presvete Bogorodice",
+            "subject_ids": [],
+            "date_state": "source_recorded",
+            "dates": [
+              "2026-09-21"
+            ],
+            "occurrence_ids": [
+              "occ-obs-nativity-theotokos-2026"
+            ],
+            "article_ids": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "article-id-does-not-become-subject",
+      "operation": "evaluate",
+      "input": {},
+      "synthetic_setup": true,
+      "payload_mutations": [
+        {
+          "path": [
+            "observances",
+            10,
+            "subject_ids"
+          ],
+          "value": [
+            "nativity-theotokos"
+          ]
+        }
+      ],
+      "context_mutations": [],
+      "expected": {
+        "eligible": false,
+        "reason": "malformed"
+      }
+    },
+    {
+      "id": "synthetic-explicit-confirmed_none",
+      "operation": "day",
+      "input": {
+        "date": "2026-12-31",
+        "calendar_profile_id": "spc-rs-ba-julian-v1"
+      },
+      "synthetic_setup": true,
+      "payload_mutations": [
+        {
+          "path": [
+            "day_reviews"
+          ],
+          "value": [
+            {
+              "calendar_binding_id": "calendar-spc-2026",
+              "date": "2026-12-31",
+              "julian_date": "2026-12-18",
+              "calendar_title": {
+                "sr-Cyrl": "Свети мученик Севастијан",
+                "sr-Latn": "Sveti mučenik Sevastijan"
+              },
+              "calendar_source_ids": [
+                "eparhija-month-12"
+              ],
+              "status": "confirmed_none",
+              "source_ids": [
+                "eparhija-month-12"
+              ],
+              "review_status": "reviewed"
+            }
+          ]
+        },
+        {
+          "path": [
+            "coverage",
+            0,
+            "mapped_dates"
+          ],
+          "value": 14
+        }
+      ],
+      "context_mutations": [],
+      "expected": {
+        "eligible": true,
+        "reason": null,
+        "state": "confirmed_none",
+        "occurrence_ids": []
+      }
+    },
+    {
+      "id": "synthetic-explicit-unresolved",
+      "operation": "day",
+      "input": {
+        "date": "2026-12-31",
+        "calendar_profile_id": "spc-rs-ba-julian-v1"
+      },
+      "synthetic_setup": true,
+      "payload_mutations": [
+        {
+          "path": [
+            "day_reviews"
+          ],
+          "value": [
+            {
+              "calendar_binding_id": "calendar-spc-2026",
+              "date": "2026-12-31",
+              "julian_date": "2026-12-18",
+              "calendar_title": {
+                "sr-Cyrl": "Свети мученик Севастијан",
+                "sr-Latn": "Sveti mučenik Sevastijan"
+              },
+              "calendar_source_ids": [
+                "eparhija-month-12"
+              ],
+              "status": "unresolved",
+              "source_ids": [
+                "eparhija-month-12"
+              ],
+              "review_status": "reviewed"
+            }
+          ]
+        },
+        {
+          "path": [
+            "coverage",
+            0,
+            "mapped_dates"
+          ],
+          "value": 14
+        }
+      ],
+      "context_mutations": [],
+      "expected": {
+        "eligible": true,
+        "reason": null,
+        "state": "unresolved",
+        "occurrence_ids": []
+      }
+    }
+  ],
+  "source_bindings": [
+    {
+      "repository_path": "releases/v2/production/releases/shared-annual-2026-r1-m0v2-s2/modules/calendar-2026-r1-2026.1.1-r2/data/calendar.2026.json",
+      "sha256": "a1b6a5d5911ae03f77802bd466227f0c1ea4fe97708b1b6f92cd4b08847c7c9c",
+      "bytes": 1665524
+    },
+    {
+      "repository_path": "fixtures/saints-v1/saints-v1.json",
+      "sha256": "ab4ced9bbbec3f0765e9c6d45c866c13e76b0adc20d6eb75693be778c7cab000",
+      "bytes": 30924
+    },
+    {
+      "repository_path": "docs/I2-CALENDAR-SOURCE-REVIEW.md",
+      "sha256": "05e3c1452ed3491cc6d2e74bfbb2d145e9e8107cda0ae238bbbc490308815351",
+      "bytes": 20339
+    }
+  ],
+  "compatibility": [
+    {
+      "id": "old-client-unknown-optional-capability",
+      "expected": "skip_catalog_before_payload_and_its_dependency_assertions_keep_independent_modules"
+    },
+    {
+      "id": "new-client-six-modules",
+      "expected": "catalog_and_annual_and_saints_are_distinct_projectors"
+    },
+    {
+      "id": "native-optional-download-failure",
+      "expected": "preserve_existing_platform_policy_resolver_rejects_retained_mismatched_binding"
+    },
+    {
+      "id": "supported-downloaded-module-missing-dependency",
+      "expected": "existing_dependency_gate_rejects_candidate_keep_previous_generation"
+    }
+  ]
+}
