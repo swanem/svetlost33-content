@@ -1,6 +1,6 @@
 # S8 — signed package and publication verification
 
-Status: **signed staging and both native gates verified; public activation authorized by coordinator**.
+Status: **PUBLISHED; ordinary public channel and all signed payloads verified**.
 Recorded 2026-09-20. This is a shared content update, not a new app binary.
 
 ## Authorization and source review
@@ -75,5 +75,34 @@ minimum client versions and discovery expiry remain unchanged.
 Both native gates and the clean post-install regression are now PASS. The
 coordinator authorizes the separate S7 compare-and-swap installation and
 normal scoped publication using the owner's recorded authorization.
-Public-channel byte/signature verification is still pending; signing and
-local installation alone must not be reported as public availability.
+
+## Public activation completed
+
+The S7 compare-and-swap installation passed all eight signed checks. Scoped
+publication commit **`9e2369a`** was pushed normally to the existing `main`
+branch, advancing remote `0a8c98d` without a force push. Unrelated dirty charity
+files were not staged or included. Site, APK and phone installations were not
+changed by this content publication.
+
+At **2026-09-20T20:50:02.668Z**, the read-only
+`scripts/verify-saints-expansion-public-v2.mjs` returned **PASS** against the
+ordinary public channel, without cache-busting or a commit-specific URL:
+
+- [Production index](https://raw.githubusercontent.com/swanem/svetlost33-content/main/releases/v2/production/index.json): sequence 8 and exact index hash recorded above.
+- [Release set](https://raw.githubusercontent.com/swanem/svetlost33-content/main/releases/v2/production/releases/shared-saints-expansion-2026-09-21-m0v2-s8/release-set.json): exact release hash recorded above.
+- All **8 RSA-PSS signatures** verified under the unchanged pinned public key.
+- All **22 manifest payload files** matched their declared sizes/hashes and
+  local reviewed bytes; **38 total public files / 5,447,184 bytes** fetched.
+- Both new manifests/payloads and the four unchanged modules were verified.
+- Ordinary index response: `X-Cache: MISS`, no Age value,
+  `Cache-Control: max-age=300`, Date `Sun, 20 Sep 2026 20:49:54 GMT`.
+
+The verification script itself received a separate read-only review before
+execution. It performs only bounded GETs, rejects redirects, verifies the
+existing public key hash and does not write files or access the private key.
+
+This proves public availability and tested native compatibility, not that every
+offline device has already refreshed. The seven additions appear on their
+mapped dates, 26 September–2 October. The library now has **14 articles total**;
+the 21 September–20 October planning window has **12 covered days and 18 still
+without new manuscripts**, not a completed 30-day or full-year collection.
