@@ -2,6 +2,7 @@
 import { constants, createHash, createPublicKey, sign, verify } from 'node:crypto';
 import { lstat, mkdir, readFile, rm, writeFile } from 'node:fs/promises';
 import { dirname, resolve } from 'node:path';
+import { assertBibleCandidate } from './validate-bible-reference-v1.mjs';
 
 const root = resolve(import.meta.dirname, '..');
 const valueAfter = flag => {
@@ -94,6 +95,11 @@ async function loadApprovedSource(publicKey) {
   }
 
   for (const locale of ['sr-Cyrl', 'sr-Latn']) {
+    assertBibleCandidate({ locale, generationId: releaseSetId,
+      psalms: JSON.parse(payload.get(`psalms.${locale}.json`)),
+      gospels: JSON.parse(payload.get(`gospels.${locale}.json`)),
+      cycle: JSON.parse(payload.get(`legacy-cycle.${locale}.json`)),
+      calendar: JSON.parse(payload.get('calendar.2026.json')) });
     requireEqual(JSON.parse(payload.get(`psalms.${locale}.json`)).psalms.length, 150, `${locale} psalms`);
     requireEqual(JSON.parse(payload.get(`prayers.${locale}.json`)).prayers.length, 18, `${locale} prayers`);
     requireEqual(JSON.parse(payload.get(`gospels.${locale}.json`)).books.length, 4, `${locale} Gospel books`);

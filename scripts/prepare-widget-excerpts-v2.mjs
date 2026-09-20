@@ -5,6 +5,7 @@ import { fileURLToPath } from 'node:url';
 import { ROOT, BASE, KEY_ID, PUBLIC_KEY_SHA256, CAPABILITIES, json, sha256, readTree, writeNewTree } from './prepare-charity-release-v2.mjs';
 import { validateRelease } from './validate-m0-v2.mjs';
 import { evaluateWidgetExcerpt } from './validate-widget-excerpt-v1.mjs';
+import { assertBibleCandidate } from './validate-bible-reference-v1.mjs';
 
 export const EXCERPT_RELEASE_ID = 'shared-widget-excerpts-2026-09-18-m0v2-s4';
 export const S3_RELEASE_ID = 'shared-charity-2026-09-18-m0v2-s3';
@@ -52,6 +53,7 @@ export async function createWidgetExcerptPlan({ now = new Date().toISOString(), 
   const oldSet = JSON.parse(source.files.get(oldIndex.channels.production.path));
   const oldCycles = oldSet.modules.find(module => module.module_id === 'daily-cycles-r1');
   const library = oldSet.modules.find(module => module.module_id === 'library-annual-2026-r1');
+  const calendar = oldSet.modules.find(module => module.module_id === 'calendar-2026-r1');
   const oldManifest = JSON.parse(source.files.get(oldCycles.manifest_path));
   const approvalBytes = await readFile(resolve(ROOT, EXCERPT_APPROVAL_PATH));
   same(sha256(approvalBytes), EXCERPT_APPROVAL_SHA256, 'Exact five-pair approval');
@@ -66,6 +68,9 @@ export async function createWidgetExcerptPlan({ now = new Date().toISOString(), 
     const filename = `data/legacy-cycle.${entry.locale}.json`;
     const oldBytes = source.files.get(`${dirname(oldCycles.manifest_path)}/${filename}`);
     const psalms = JSON.parse(source.files.get(`${dirname(library.manifest_path)}/data/psalms.${entry.locale}.json`));
+    assertBibleCandidate({ locale: entry.locale, generationId: EXCERPT_RELEASE_ID, psalms, cycle,
+      gospels: JSON.parse(source.files.get(`${dirname(library.manifest_path)}/data/gospels.${entry.locale}.json`)),
+      calendar: JSON.parse(source.files.get(`${dirname(calendar.manifest_path)}/data/calendar.2026.json`)) });
     const stripped = structuredClone(cycle);
     let count = 0;
     for (const slot of stripped.days.flatMap(day => day.slots)) {
