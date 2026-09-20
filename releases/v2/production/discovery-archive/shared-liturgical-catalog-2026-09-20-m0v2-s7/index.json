@@ -1,0 +1,16 @@
+{
+  "schema_version": "svetlost33-m0-index-2",
+  "sequence": 7,
+  "issued_at": "2026-09-20T17:45:07Z",
+  "expires_at": "2027-02-01T00:00:00Z",
+  "key_id": "svetlost33-content-2026-key-1",
+  "channels": {
+    "production": {
+      "release_set_id": "shared-liturgical-catalog-2026-09-20-m0v2-s7",
+      "path": "releases/shared-liturgical-catalog-2026-09-20-m0v2-s7/release-set.json",
+      "bytes": 3382,
+      "sha256": "07adbbb4fe394f79d526bc1d5635d296d6e669a62c8545c81495f68164127d80",
+      "signature_path": "releases/shared-liturgical-catalog-2026-09-20-m0v2-s7/release-set.sig"
+    }
+  }
+}

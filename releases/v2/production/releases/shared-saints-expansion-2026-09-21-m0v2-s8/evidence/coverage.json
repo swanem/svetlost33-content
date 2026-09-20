@@ -1,0 +1,721 @@
+{
+  "document_kind": "editorial_30_day_plan_not_runtime_payload",
+  "revision": 1,
+  "prepared_on": "2026-09-20",
+  "window": {
+    "from": "2026-09-21",
+    "to": "2026-10-20",
+    "civil_dates": 30,
+    "calendar_profile_id": "spc-rs-ba-julian-v1"
+  },
+  "review_status": "pending_human_review",
+  "owner_approval": null,
+  "baseline": {
+    "content_head": "0a8c98dade3e46b90f6725601f89e8dc6e7e084c",
+    "production_index_path": "releases/v2/production/index.json",
+    "production_index_sha256": "955b4a8ccf3345ce8821dd2187583ae3e8604f66fc6480ecf9a410556248d144",
+    "release_set_id": "shared-liturgical-catalog-2026-09-20-m0v2-s7",
+    "sequence": 7,
+    "release_set_sha256": "07adbbb4fe394f79d526bc1d5635d296d6e669a62c8545c81495f68164127d80",
+    "scope": "Read-only provenance snapshot, not synthetic runtime authentication."
+  },
+  "calendar_binding": {
+    "module_id": "calendar-2026-r1",
+    "version": "2026.1.1",
+    "revision": 2,
+    "path": "data/calendar.2026.json",
+    "sha256": "a1b6a5d5911ae03f77802bd466227f0c1ea4fe97708b1b6f92cd4b08847c7c9c",
+    "repository_path": "releases/v2/production/releases/shared-annual-2026-r1-m0v2-s2/modules/calendar-2026-r1-2026.1.1-r2/data/calendar.2026.json",
+    "bytes": 1665524
+  },
+  "saints_binding": {
+    "module_id": "saints-v1",
+    "version": "2026.9.19",
+    "revision": 1,
+    "path": "data/saints-v1.json",
+    "sha256": "ab4ced9bbbec3f0765e9c6d45c866c13e76b0adc20d6eb75693be778c7cab000",
+    "repository_path": "releases/v2/production/releases/shared-saints-2026-09-19-m0v2-s6/modules/saints-v1-2026.9.19-r1/data/saints-v1.json",
+    "bytes": 30924
+  },
+  "catalog_binding": {
+    "module_id": "liturgical-catalog-v1",
+    "version": "2026.9.20",
+    "revision": 2,
+    "path": "data/liturgical-catalog-v1.json",
+    "sha256": "18a581b5bb1a3c881d48a9af3fc3e05596d3528c82ba29bfe53cedd54ec7f910",
+    "repository_path": "modules/liturgical-catalog-v1/2026.9.20-r2/data/liturgical-catalog-v1.json",
+    "bytes": 39774
+  },
+  "inherited_calendar_scope": {
+    "payload_review_state": "DRAFT",
+    "payload_activation_status": "NOT_ACTIVE",
+    "payload_production_ready": false,
+    "explanation": "The authenticated M0 artifact contains legacy draft provenance fields. This plan uses the exact SOURCE_RECORDED commemoration title/date only; it does not promote fasting, Gospel-service assignment, the full calendar or complete saint lists."
+  },
+  "counts": {
+    "published_existing_window_days": 5,
+    "published_existing_articles_total": 7,
+    "pending_new_draft_window_days": 7,
+    "not_drafted_window_days": 18,
+    "window_days_without_published_article": 25,
+    "editorial_window_days_with_existing_or_draft_text": 12,
+    "existing_catalog_window_occurrences": 2,
+    "potential_articles_total_after_separate_approval": 14
+  },
+  "calendar_complete_saint_list": false,
+  "coverage_2027": "not_part_of_this_plan_or_mapped_catalog_expansion",
+  "days": [
+    {
+      "date": "2026-09-21",
+      "julian_date": "2026-09-08",
+      "calendar_title_cyrl": "Рођење Пресвете Богородице – Мала Госпојина",
+      "calendar_status": "SOURCE_RECORDED",
+      "calendar_source_ids": [
+        "eparhija-month-09"
+      ],
+      "complete_saint_list_verified": false,
+      "title_review": "publisher_page_titles_differ_not_resolved",
+      "existing_article_ids": [
+        "nativity-theotokos"
+      ],
+      "existing_calendar_notes": [],
+      "existing_catalog_occurrence_ids": [
+        "occ-obs-nativity-theotokos-2026"
+      ],
+      "existing_catalog_observance_ids": [
+        "obs-nativity-theotokos"
+      ],
+      "draft_article_ids": [],
+      "editorial_state": "published_existing",
+      "next_action": "Preserve exact existing article and notes.",
+      "priority_note": null
+    },
+    {
+      "date": "2026-09-22",
+      "julian_date": "2026-09-09",
+      "calendar_title_cyrl": "Свети праведни богородитељи Јоаким и Ана",
+      "calendar_status": "SOURCE_RECORDED",
+      "calendar_source_ids": [
+        "eparhija-month-09"
+      ],
+      "complete_saint_list_verified": false,
+      "title_review": "publisher_page_titles_differ_not_resolved",
+      "existing_article_ids": [
+        "joachim-and-anna"
+      ],
+      "existing_calendar_notes": [],
+      "existing_catalog_occurrence_ids": [],
+      "existing_catalog_observance_ids": [],
+      "draft_article_ids": [],
+      "editorial_state": "published_existing",
+      "next_action": "Preserve exact existing article and notes.",
+      "priority_note": null
+    },
+    {
+      "date": "2026-09-23",
+      "julian_date": "2026-09-10",
+      "calendar_title_cyrl": "Свете мученице Минодора, Митродора и Нимфодора",
+      "calendar_status": "SOURCE_RECORDED",
+      "calendar_source_ids": [
+        "eparhija-month-09"
+      ],
+      "complete_saint_list_verified": false,
+      "title_review": "publisher_page_titles_differ_not_resolved",
+      "existing_article_ids": [
+        "minodora-mitrodora-nimfodora"
+      ],
+      "existing_calendar_notes": [],
+      "existing_catalog_occurrence_ids": [],
+      "existing_catalog_observance_ids": [],
+      "draft_article_ids": [],
+      "editorial_state": "published_existing",
+      "next_action": "Preserve exact existing article and notes.",
+      "priority_note": null
+    },
+    {
+      "date": "2026-09-24",
+      "julian_date": "2026-09-11",
+      "calendar_title_cyrl": "Преподобна Теодора Александријска",
+      "calendar_status": "SOURCE_RECORDED",
+      "calendar_source_ids": [
+        "eparhija-month-09"
+      ],
+      "complete_saint_list_verified": false,
+      "title_review": "publisher_page_titles_differ_not_resolved",
+      "existing_article_ids": [
+        "theodora-alexandria"
+      ],
+      "existing_calendar_notes": [],
+      "existing_catalog_occurrence_ids": [],
+      "existing_catalog_observance_ids": [],
+      "draft_article_ids": [],
+      "editorial_state": "published_existing",
+      "next_action": "Preserve exact existing article and notes.",
+      "priority_note": null
+    },
+    {
+      "date": "2026-09-25",
+      "julian_date": "2026-09-12",
+      "calendar_title_cyrl": "Свети свештеномученик Автоном (Оданије Рођења Пресвете Богородице)",
+      "calendar_status": "SOURCE_RECORDED",
+      "calendar_source_ids": [
+        "eparhija-month-09"
+      ],
+      "complete_saint_list_verified": false,
+      "title_review": "publisher_page_titles_differ_not_resolved",
+      "existing_article_ids": [
+        "hieromartyr-autonomus"
+      ],
+      "existing_calendar_notes": [
+        {
+          "kind": "leavetaking",
+          "label": {
+            "sr-Cyrl": "Оданије Рођења Пресвете Богородице",
+            "sr-Latn": "Odanije Rođenja Presvete Bogorodice"
+          },
+          "related_article_id": "nativity-theotokos",
+          "source_ids": [
+            "eparhija-month-09"
+          ]
+        }
+      ],
+      "existing_catalog_occurrence_ids": [],
+      "existing_catalog_observance_ids": [],
+      "draft_article_ids": [],
+      "editorial_state": "published_existing",
+      "next_action": "Preserve exact existing article and notes.",
+      "priority_note": null
+    },
+    {
+      "date": "2026-09-26",
+      "julian_date": "2026-09-13",
+      "calendar_title_cyrl": "Спомен освећења храма Васкрсења Господњег",
+      "calendar_status": "SOURCE_RECORDED",
+      "calendar_source_ids": [
+        "eparhija-month-09"
+      ],
+      "complete_saint_list_verified": false,
+      "title_review": "publisher_page_titles_differ_not_resolved",
+      "existing_article_ids": [],
+      "existing_calendar_notes": [],
+      "existing_catalog_occurrence_ids": [],
+      "existing_catalog_observance_ids": [],
+      "draft_article_ids": [
+        "dedication-resurrection-jerusalem"
+      ],
+      "editorial_state": "draft_pending",
+      "next_action": "Human source, identity, rights and exact-text review; catalog relation remains pending.",
+      "priority_note": null
+    },
+    {
+      "date": "2026-09-27",
+      "julian_date": "2026-09-14",
+      "calendar_title_cyrl": "Воздвижење часног Крста – Крстовдан",
+      "calendar_status": "SOURCE_RECORDED",
+      "calendar_source_ids": [
+        "eparhija-month-09"
+      ],
+      "complete_saint_list_verified": false,
+      "title_review": "publisher_page_titles_differ_not_resolved",
+      "existing_article_ids": [],
+      "existing_calendar_notes": [],
+      "existing_catalog_occurrence_ids": [],
+      "existing_catalog_observance_ids": [],
+      "draft_article_ids": [
+        "exaltation-cross"
+      ],
+      "editorial_state": "draft_pending",
+      "next_action": "Human source, identity, rights and exact-text review; catalog relation remains pending.",
+      "priority_note": null
+    },
+    {
+      "date": "2026-09-28",
+      "julian_date": "2026-09-15",
+      "calendar_title_cyrl": "Свети великомученик Никита",
+      "calendar_status": "SOURCE_RECORDED",
+      "calendar_source_ids": [
+        "eparhija-month-09"
+      ],
+      "complete_saint_list_verified": false,
+      "title_review": "publisher_page_titles_differ_not_resolved",
+      "existing_article_ids": [],
+      "existing_calendar_notes": [],
+      "existing_catalog_occurrence_ids": [],
+      "existing_catalog_observance_ids": [],
+      "draft_article_ids": [
+        "greatmartyr-niketas-goth"
+      ],
+      "editorial_state": "draft_pending",
+      "next_action": "Human source, identity, rights and exact-text review; catalog relation remains pending.",
+      "priority_note": null
+    },
+    {
+      "date": "2026-09-29",
+      "julian_date": "2026-09-16",
+      "calendar_title_cyrl": "Преподобни Доротеј",
+      "calendar_status": "SOURCE_RECORDED",
+      "calendar_source_ids": [
+        "eparhija-month-09"
+      ],
+      "complete_saint_list_verified": false,
+      "title_review": "publisher_page_titles_differ_not_resolved",
+      "existing_article_ids": [],
+      "existing_calendar_notes": [],
+      "existing_catalog_occurrence_ids": [],
+      "existing_catalog_observance_ids": [],
+      "draft_article_ids": [
+        "dorotheus-egypt"
+      ],
+      "editorial_state": "draft_pending",
+      "next_action": "Human source, identity, rights and exact-text review; catalog relation remains pending.",
+      "priority_note": null
+    },
+    {
+      "date": "2026-09-30",
+      "julian_date": "2026-09-17",
+      "calendar_title_cyrl": "Свете мученице Вера, Нада и Љубав и мајка им Софија",
+      "calendar_status": "SOURCE_RECORDED",
+      "calendar_source_ids": [
+        "eparhija-month-09"
+      ],
+      "complete_saint_list_verified": false,
+      "title_review": "publisher_page_titles_differ_not_resolved",
+      "existing_article_ids": [],
+      "existing_calendar_notes": [],
+      "existing_catalog_occurrence_ids": [],
+      "existing_catalog_observance_ids": [],
+      "draft_article_ids": [
+        "faith-hope-love-sophia"
+      ],
+      "editorial_state": "draft_pending",
+      "next_action": "Human source, identity, rights and exact-text review; catalog relation remains pending.",
+      "priority_note": null
+    },
+    {
+      "date": "2026-10-01",
+      "julian_date": "2026-09-18",
+      "calendar_title_cyrl": "Свети Евменије Гортински",
+      "calendar_status": "SOURCE_RECORDED",
+      "calendar_source_ids": [
+        "eparhija-month-10"
+      ],
+      "complete_saint_list_verified": false,
+      "title_review": "publisher_page_titles_differ_not_resolved",
+      "existing_article_ids": [],
+      "existing_calendar_notes": [],
+      "existing_catalog_occurrence_ids": [],
+      "existing_catalog_observance_ids": [],
+      "draft_article_ids": [
+        "eumenius-gortyna"
+      ],
+      "editorial_state": "draft_pending",
+      "next_action": "Human source, identity, rights and exact-text review; catalog relation remains pending.",
+      "priority_note": null
+    },
+    {
+      "date": "2026-10-02",
+      "julian_date": "2026-09-19",
+      "calendar_title_cyrl": "Свети мученици Трофим, Саватије и Доримедонт",
+      "calendar_status": "SOURCE_RECORDED",
+      "calendar_source_ids": [
+        "eparhija-month-10"
+      ],
+      "complete_saint_list_verified": false,
+      "title_review": "publisher_page_titles_differ_not_resolved",
+      "existing_article_ids": [],
+      "existing_calendar_notes": [],
+      "existing_catalog_occurrence_ids": [],
+      "existing_catalog_observance_ids": [],
+      "draft_article_ids": [
+        "trophimus-sabbatius-dorymedon"
+      ],
+      "editorial_state": "draft_pending",
+      "next_action": "Human source, identity, rights and exact-text review; catalog relation remains pending.",
+      "priority_note": null
+    },
+    {
+      "date": "2026-10-03",
+      "julian_date": "2026-09-20",
+      "calendar_title_cyrl": "Свети великомученик Јевстатије",
+      "calendar_status": "SOURCE_RECORDED",
+      "calendar_source_ids": [
+        "eparhija-month-10"
+      ],
+      "complete_saint_list_verified": false,
+      "title_review": "publisher_page_titles_differ_not_resolved",
+      "existing_article_ids": [],
+      "existing_calendar_notes": [],
+      "existing_catalog_occurrence_ids": [],
+      "existing_catalog_observance_ids": [],
+      "draft_article_ids": [],
+      "editorial_state": "not_drafted",
+      "next_action": "Prepare a separately sourced draft; current absence stays explicit.",
+      "priority_note": null
+    },
+    {
+      "date": "2026-10-04",
+      "julian_date": "2026-09-21",
+      "calendar_title_cyrl": "Свети апостол Кодрат (Оданије Воздвижења)",
+      "calendar_status": "SOURCE_RECORDED",
+      "calendar_source_ids": [
+        "eparhija-month-10"
+      ],
+      "complete_saint_list_verified": false,
+      "title_review": "publisher_page_titles_differ_not_resolved",
+      "existing_article_ids": [],
+      "existing_calendar_notes": [],
+      "existing_catalog_occurrence_ids": [],
+      "existing_catalog_observance_ids": [],
+      "draft_article_ids": [],
+      "editorial_state": "not_drafted",
+      "next_action": "Prepare a separately sourced draft; current absence stays explicit.",
+      "priority_note": "Calendar title includes leavetaking. Keep it as date-specific calendar context, not a biography or new article identity."
+    },
+    {
+      "date": "2026-10-05",
+      "julian_date": "2026-09-22",
+      "calendar_title_cyrl": "Свети свештеномученик Фока",
+      "calendar_status": "SOURCE_RECORDED",
+      "calendar_source_ids": [
+        "eparhija-month-10"
+      ],
+      "complete_saint_list_verified": false,
+      "title_review": "publisher_page_titles_differ_not_resolved",
+      "existing_article_ids": [],
+      "existing_calendar_notes": [],
+      "existing_catalog_occurrence_ids": [],
+      "existing_catalog_observance_ids": [],
+      "draft_article_ids": [],
+      "editorial_state": "not_drafted",
+      "next_action": "Prepare a separately sourced draft; current absence stays explicit.",
+      "priority_note": null
+    },
+    {
+      "date": "2026-10-06",
+      "julian_date": "2026-09-23",
+      "calendar_title_cyrl": "Зачеће Светог Јована Претече и Крститеља",
+      "calendar_status": "SOURCE_RECORDED",
+      "calendar_source_ids": [
+        "eparhija-month-10"
+      ],
+      "complete_saint_list_verified": false,
+      "title_review": "publisher_page_titles_differ_not_resolved",
+      "existing_article_ids": [],
+      "existing_calendar_notes": [],
+      "existing_catalog_occurrence_ids": [],
+      "existing_catalog_observance_ids": [],
+      "draft_article_ids": [],
+      "editorial_state": "not_drafted",
+      "next_action": "Prepare a separately sourced draft; current absence stays explicit.",
+      "priority_note": null
+    },
+    {
+      "date": "2026-10-07",
+      "julian_date": "2026-09-24",
+      "calendar_title_cyrl": "Света првомученица Текла",
+      "calendar_status": "SOURCE_RECORDED",
+      "calendar_source_ids": [
+        "eparhija-month-10"
+      ],
+      "complete_saint_list_verified": false,
+      "title_review": "publisher_page_titles_differ_not_resolved",
+      "existing_article_ids": [],
+      "existing_calendar_notes": [],
+      "existing_catalog_occurrence_ids": [],
+      "existing_catalog_observance_ids": [],
+      "draft_article_ids": [],
+      "editorial_state": "not_drafted",
+      "next_action": "Prepare a separately sourced draft; current absence stays explicit.",
+      "priority_note": null
+    },
+    {
+      "date": "2026-10-08",
+      "julian_date": "2026-09-25",
+      "calendar_title_cyrl": "Преподобна Ефросинија",
+      "calendar_status": "SOURCE_RECORDED",
+      "calendar_source_ids": [
+        "eparhija-month-10"
+      ],
+      "complete_saint_list_verified": false,
+      "title_review": "publisher_page_titles_differ_not_resolved",
+      "existing_article_ids": [],
+      "existing_calendar_notes": [],
+      "existing_catalog_occurrence_ids": [],
+      "existing_catalog_observance_ids": [],
+      "draft_article_ids": [],
+      "editorial_state": "not_drafted",
+      "next_action": "Prepare a separately sourced draft; current absence stays explicit.",
+      "priority_note": null
+    },
+    {
+      "date": "2026-10-09",
+      "julian_date": "2026-09-26",
+      "calendar_title_cyrl": "Свети апостол и јеванђелист Јован Богослов",
+      "calendar_status": "SOURCE_RECORDED",
+      "calendar_source_ids": [
+        "eparhija-month-10"
+      ],
+      "complete_saint_list_verified": false,
+      "title_review": "publisher_page_titles_differ_not_resolved",
+      "existing_article_ids": [],
+      "existing_calendar_notes": [],
+      "existing_catalog_occurrence_ids": [],
+      "existing_catalog_observance_ids": [],
+      "draft_article_ids": [],
+      "editorial_state": "not_drafted",
+      "next_action": "Prepare a separately sourced draft; current absence stays explicit.",
+      "priority_note": null
+    },
+    {
+      "date": "2026-10-10",
+      "julian_date": "2026-09-27",
+      "calendar_title_cyrl": "Свети мученик Калистрат и остали",
+      "calendar_status": "SOURCE_RECORDED",
+      "calendar_source_ids": [
+        "eparhija-month-10"
+      ],
+      "complete_saint_list_verified": false,
+      "title_review": "publisher_page_titles_differ_not_resolved",
+      "existing_article_ids": [],
+      "existing_calendar_notes": [],
+      "existing_catalog_occurrence_ids": [],
+      "existing_catalog_observance_ids": [],
+      "draft_article_ids": [],
+      "editorial_state": "not_drafted",
+      "next_action": "Prepare a separately sourced draft; current absence stays explicit.",
+      "priority_note": null
+    },
+    {
+      "date": "2026-10-11",
+      "julian_date": "2026-09-28",
+      "calendar_title_cyrl": "Преподобни Харитон Исповедник",
+      "calendar_status": "SOURCE_RECORDED",
+      "calendar_source_ids": [
+        "eparhija-month-10"
+      ],
+      "complete_saint_list_verified": false,
+      "title_review": "publisher_page_titles_differ_not_resolved",
+      "existing_article_ids": [],
+      "existing_calendar_notes": [],
+      "existing_catalog_occurrence_ids": [],
+      "existing_catalog_observance_ids": [],
+      "draft_article_ids": [],
+      "editorial_state": "not_drafted",
+      "next_action": "Prepare a separately sourced draft; current absence stays explicit.",
+      "priority_note": null
+    },
+    {
+      "date": "2026-10-12",
+      "julian_date": "2026-09-29",
+      "calendar_title_cyrl": "Преподобни Киријак Отшелник – Михољдан",
+      "calendar_status": "SOURCE_RECORDED",
+      "calendar_source_ids": [
+        "eparhija-month-10"
+      ],
+      "complete_saint_list_verified": false,
+      "title_review": "publisher_page_titles_differ_not_resolved",
+      "existing_article_ids": [],
+      "existing_calendar_notes": [],
+      "existing_catalog_occurrence_ids": [
+        "occ-obs-cyriacus-miholjdan-2026"
+      ],
+      "existing_catalog_observance_ids": [
+        "obs-cyriacus-miholjdan"
+      ],
+      "draft_article_ids": [],
+      "editorial_state": "not_drafted",
+      "next_action": "Prepare a separately sourced draft; current absence stays explicit.",
+      "priority_note": "I2 Miholjdan observance already exists, but has no article; prioritize a later draft."
+    },
+    {
+      "date": "2026-10-13",
+      "julian_date": "2026-09-30",
+      "calendar_title_cyrl": "Свети свештеномученик Григорије",
+      "calendar_status": "SOURCE_RECORDED",
+      "calendar_source_ids": [
+        "eparhija-month-10"
+      ],
+      "complete_saint_list_verified": false,
+      "title_review": "publisher_page_titles_differ_not_resolved",
+      "existing_article_ids": [],
+      "existing_calendar_notes": [],
+      "existing_catalog_occurrence_ids": [],
+      "existing_catalog_observance_ids": [],
+      "draft_article_ids": [],
+      "editorial_state": "not_drafted",
+      "next_action": "Prepare a separately sourced draft; current absence stays explicit.",
+      "priority_note": null
+    },
+    {
+      "date": "2026-10-14",
+      "julian_date": "2026-10-01",
+      "calendar_title_cyrl": "Покров Пресвете Богородице",
+      "calendar_status": "SOURCE_RECORDED",
+      "calendar_source_ids": [
+        "eparhija-month-10"
+      ],
+      "complete_saint_list_verified": false,
+      "title_review": "publisher_page_titles_differ_not_resolved",
+      "existing_article_ids": [],
+      "existing_calendar_notes": [],
+      "existing_catalog_occurrence_ids": [],
+      "existing_catalog_observance_ids": [],
+      "draft_article_ids": [],
+      "editorial_state": "not_drafted",
+      "next_action": "Prepare a separately sourced draft; current absence stays explicit.",
+      "priority_note": null
+    },
+    {
+      "date": "2026-10-15",
+      "julian_date": "2026-10-02",
+      "calendar_title_cyrl": "Св. свештеномуч. Кипријан и Св. муч. Јустина девица",
+      "calendar_status": "SOURCE_RECORDED",
+      "calendar_source_ids": [
+        "eparhija-month-10"
+      ],
+      "complete_saint_list_verified": false,
+      "title_review": "publisher_page_titles_differ_not_resolved",
+      "existing_article_ids": [],
+      "existing_calendar_notes": [],
+      "existing_catalog_occurrence_ids": [],
+      "existing_catalog_observance_ids": [],
+      "draft_article_ids": [],
+      "editorial_state": "not_drafted",
+      "next_action": "Prepare a separately sourced draft; current absence stays explicit.",
+      "priority_note": null
+    },
+    {
+      "date": "2026-10-16",
+      "julian_date": "2026-10-03",
+      "calendar_title_cyrl": "Свети свештеномученик Дионисије Ареопагит",
+      "calendar_status": "SOURCE_RECORDED",
+      "calendar_source_ids": [
+        "eparhija-month-10"
+      ],
+      "complete_saint_list_verified": false,
+      "title_review": "publisher_page_titles_differ_not_resolved",
+      "existing_article_ids": [],
+      "existing_calendar_notes": [],
+      "existing_catalog_occurrence_ids": [],
+      "existing_catalog_observance_ids": [],
+      "draft_article_ids": [],
+      "editorial_state": "not_drafted",
+      "next_action": "Prepare a separately sourced draft; current absence stays explicit.",
+      "priority_note": null
+    },
+    {
+      "date": "2026-10-17",
+      "julian_date": "2026-10-04",
+      "calendar_title_cyrl": "Свети Јеротеј Атински",
+      "calendar_status": "SOURCE_RECORDED",
+      "calendar_source_ids": [
+        "eparhija-month-10"
+      ],
+      "complete_saint_list_verified": false,
+      "title_review": "publisher_page_titles_differ_not_resolved",
+      "existing_article_ids": [],
+      "existing_calendar_notes": [],
+      "existing_catalog_occurrence_ids": [],
+      "existing_catalog_observance_ids": [],
+      "draft_article_ids": [],
+      "editorial_state": "not_drafted",
+      "next_action": "Prepare a separately sourced draft; current absence stays explicit.",
+      "priority_note": null
+    },
+    {
+      "date": "2026-10-18",
+      "julian_date": "2026-10-05",
+      "calendar_title_cyrl": "Света мученица Харитина",
+      "calendar_status": "SOURCE_RECORDED",
+      "calendar_source_ids": [
+        "eparhija-month-10"
+      ],
+      "complete_saint_list_verified": false,
+      "title_review": "publisher_page_titles_differ_not_resolved",
+      "existing_article_ids": [],
+      "existing_calendar_notes": [],
+      "existing_catalog_occurrence_ids": [],
+      "existing_catalog_observance_ids": [],
+      "draft_article_ids": [],
+      "editorial_state": "not_drafted",
+      "next_action": "Prepare a separately sourced draft; current absence stays explicit.",
+      "priority_note": null
+    },
+    {
+      "date": "2026-10-19",
+      "julian_date": "2026-10-06",
+      "calendar_title_cyrl": "Свети апостол Тома – Томиндан",
+      "calendar_status": "SOURCE_RECORDED",
+      "calendar_source_ids": [
+        "eparhija-month-10"
+      ],
+      "complete_saint_list_verified": false,
+      "title_review": "publisher_page_titles_differ_not_resolved",
+      "existing_article_ids": [],
+      "existing_calendar_notes": [],
+      "existing_catalog_occurrence_ids": [],
+      "existing_catalog_observance_ids": [],
+      "draft_article_ids": [],
+      "editorial_state": "not_drafted",
+      "next_action": "Prepare a separately sourced draft; current absence stays explicit.",
+      "priority_note": null
+    },
+    {
+      "date": "2026-10-20",
+      "julian_date": "2026-10-07",
+      "calendar_title_cyrl": "Свети мученици Сергије и Вакхо – Срђевдан",
+      "calendar_status": "SOURCE_RECORDED",
+      "calendar_source_ids": [
+        "eparhija-month-10"
+      ],
+      "complete_saint_list_verified": false,
+      "title_review": "publisher_page_titles_differ_not_resolved",
+      "existing_article_ids": [],
+      "existing_calendar_notes": [],
+      "existing_catalog_occurrence_ids": [],
+      "existing_catalog_observance_ids": [],
+      "draft_article_ids": [],
+      "editorial_state": "not_drafted",
+      "next_action": "Prepare a separately sourced draft; current absence stays explicit.",
+      "priority_note": null
+    }
+  ],
+  "preserved_outside_window": [
+    {
+      "date": "2026-09-19",
+      "article_ids": [
+        "michael-miracle-chonae"
+      ],
+      "calendar_notes": []
+    },
+    {
+      "date": "2026-09-20",
+      "article_ids": [
+        "martyr-sozont"
+      ],
+      "calendar_notes": [
+        {
+          "kind": "forefeast",
+          "label": {
+            "sr-Cyrl": "Претпразништво Рођења Пресвете Богородице",
+            "sr-Latn": "Pretprazništvo Rođenja Presvete Bogorodice"
+          },
+          "related_article_id": "nativity-theotokos",
+          "source_ids": [
+            "eparhija-month-09"
+          ]
+        }
+      ]
+    }
+  ],
+  "limits": {
+    "saints_v1_bytes": 262144,
+    "saints_v1_articles": 64,
+    "saints_v1_sources": 512,
+    "saints_v1_days": 366,
+    "article_words_min": 100,
+    "article_words_max": 200,
+    "word_scope": "intro + body + takeaway; excludes title, source notes and metadata",
+    "note": "This is an editorial draft, not a ready module or new production wire shape. No release-size validation or owner approval is implied."
+  }
+}
