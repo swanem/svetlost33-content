@@ -2,7 +2,21 @@
 
 Kanonski sadržajni repozitorijum za Android i iOS aplikaciju Svetlost33.
 
-Trenutna predaja završava iteracije **I0–I2** i produkcioni sadržajni deo **I5** plana v0.15:
+## Aktuelna zajednička objava — 21.09.2026.
+
+Produkcioni kanal koristi **S9**, `shared-saints-completion-2026-09-21-m0v2-s9`,
+sa jednim sadržajnim odobrenjem za oba OS. Dopuna dodaje 18 kratkih tekstova
+za 03–20.10: ukupno 32 članka/dana, oba pisma, uz neizmenjeni postojeći sadržaj.
+Prozor 21.09–20.10. pokriven je svih 30 dana; ovo nije cela godina niti potpun
+spisak svetitelja svakog dana. Nema novih datuma za 2027. ili novih Save veza.
+
+[Dokazi objave, granice i javna provera](approvals/saints-completion-2026-09-21/RELEASE-VERIFICATION.md)
+beleže potpisani S8→S9 prolaz na oba OS, 510/510 content testova i uspešno
+preuzimanje sa javnog kanala. Ažuriranje sadržaja ne zahteva novu aplikaciju.
+
+## Istorijska osnova v0.15 i razvojni alati
+
+Početna predaja završava iteracije **I0–I2** i produkcioni sadržajni deo **I5** plana v0.15:
 
 - javni inventar, allowlist i migraciona mapa;
 - bajt-po-bajt veran mirror odobrenog `annual-2026-r1` paketa;
@@ -101,7 +115,7 @@ M0 v2 pozitivni primer i očekivano odbija svaki negativni primer.
 - `releases/v2/annual-2026-r1/` — potpisani produkcioni Android M0 v2 izvoz:
   biblioteka, dnevni ciklus i kalendar.
 - `releases/v2/production/` — stabilni discovery koren i nepromenljivi
-  zajednički Android/iOS release-set sekvence 2.
+  zajednički Android/iOS release-set paketi; aktuelnu sekvencu određuje `index.json`.
 - `schemas/v2/` — mašinski čitljive M0 v2 šeme.
 - `modules/` — mesto kanonskih modularnih izvora; trenutno sadrži uputstvo za
   sledeći, odobreni izvoz iz legacy paketa.

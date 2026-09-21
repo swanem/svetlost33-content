@@ -118,3 +118,33 @@ rehearsal and authorized guarded S8 compare-and-swap installation plus normal
 scoped Git publication under the owner's recorded approval. This does not
 authorize native application release/installation or new content beyond the
 frozen eighteen texts. Public readback remains the final verification step.
+
+## Public activation completed
+
+Guarded installation passed all eight checks. Scoped content publication
+commit **`236cd99`** was pushed normally to the existing `main`, advancing
+remote `b06969d` without a force push. No unrelated dirty files were included.
+
+At **2026-09-21T05:58:32.052Z**, the read-only public verifier returned **PASS**
+against the ordinary production channel (no cache-busting or commit-specific URL):
+
+- Exact S9 index and release-set hashes listed above.
+- All **8 RSA-PSS signatures**, **22 payload files**, **38 downloaded files**
+  and **5,525,696 transferred bytes** verified against the approved local bytes.
+- Saints r3 and catalog r4 are active together; the four other modules are unchanged.
+- Full machine-readable receipt: [public-verification.json](public-verification.json).
+
+Reproduce the read-only public check from this content checkout:
+
+```sh
+node scripts/verify-saints-completion-public-v2.mjs
+```
+
+Current compatible Android and iOS apps can acquire S9 through their existing
+content updater. Manual entry is Settings / Sadržaj i ažuriranja, followed by
+Android **Proveri novi sadržaj** or iOS **Proveri ažuriranje**. Device-specific
+successful download is not claimed by this public-channel verification.
+No new APK, website download, iPhone installation or native version was made.
+
+The pending native I3 accessibility/physical-upgrade/app-release gates remain
+separate. Published readable texts do not invent extra canonical Save links.
