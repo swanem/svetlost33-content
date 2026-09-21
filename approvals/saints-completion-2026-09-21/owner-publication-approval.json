@@ -1,0 +1,180 @@
+{
+  "approval_id": "saints-completion-2026-09-21-owner-r3",
+  "status": "APPROVED_FOR_SHARED_PUBLICATION",
+  "recorded_at": "2026-09-21T05:37:09Z",
+  "approver_role": "project_owner",
+  "statement": "odobravam dopunu za zajedničku objavu na iOS-u i Androidu",
+  "context": "Explicit approval of the previously handed-off exact eighteen drafts. The intervening pravoslavnidom.rs URL was source assessment only and did not alter this manuscript or approve importing that site's books.",
+  "platforms": [
+    "android",
+    "ios"
+  ],
+  "source_commit": "8371d5f3c5c0bff4a9caa962b560ba9c5bd3dcab",
+  "manuscript": {
+    "path": "drafts/saints-completion-2026-09-21/TEKSTOVI.md",
+    "sha256": "c7d7e8ea931ae9f88fed2e7c3678a6f895028c08dff72110dc55b08ddbb06609"
+  },
+  "source_inputs": {
+    "manuscript": {
+      "path": "drafts/saints-completion-2026-09-21/TEKSTOVI.md",
+      "sha256": "c7d7e8ea931ae9f88fed2e7c3678a6f895028c08dff72110dc55b08ddbb06609"
+    },
+    "metadata": {
+      "path": "drafts/saints-completion-2026-09-21/articles.json",
+      "sha256": "c058cf62ee3c40061a7a0906c417a5efcdc1b173f0ca86c39655c5532f2c0ae8"
+    },
+    "sources": {
+      "path": "drafts/saints-completion-2026-09-21/sources.json",
+      "sha256": "6a5705620d8c95ff6fb5c9feac83ccfb610af3f1fad6df59320d66209bfa27aa"
+    },
+    "coverage": {
+      "path": "drafts/saints-completion-2026-09-21/coverage.json",
+      "sha256": "a1c42a8aa67ab0243b9b75144482d05f5827792b28645b890d6595907bed0d6b"
+    },
+    "draft": {
+      "path": "drafts/saints-completion-2026-09-21/saints-v1.draft.json",
+      "sha256": "c8df176dc5e5355f8eb355b94b1da59dd4ae215ba95ab7ef0bf24a29826fd21c"
+    },
+    "previous": {
+      "path": "releases/v2/production/releases/shared-saints-expansion-2026-09-21-m0v2-s8/modules/saints-v1-2026.9.21-r2/data/saints-v1.json",
+      "sha256": "e85c725d109a322c109e8455bf94c6ddd28c113e67cd77dde9f34642d3559a21"
+    },
+    "calendar": {
+      "path": "releases/v2/production/releases/shared-annual-2026-r1-m0v2-s2/modules/calendar-2026-r1-2026.1.1-r2/data/calendar.2026.json",
+      "sha256": "a1b6a5d5911ae03f77802bd466227f0c1ea4fe97708b1b6f92cd4b08847c7c9c"
+    },
+    "catalog": {
+      "path": "releases/v2/production/releases/shared-saints-expansion-2026-09-21-m0v2-s8/modules/liturgical-catalog-v1-2026.9.20-r3/data/liturgical-catalog-v1.json",
+      "sha256": "f202bff8a92f4d4f84a6c025ea67144bf61c2df3fe38030fc446de2116d82e8c"
+    }
+  },
+  "new_article_ids": [
+    "greatmartyr-eustathius",
+    "apostle-quadratus",
+    "hieromartyr-phocas-sinope",
+    "conception-john-forerunner",
+    "protomartyr-thecla",
+    "euphrosyne-alexandria",
+    "john-theologian-repose",
+    "callistratus-companions",
+    "chariton-confessor",
+    "cyriacus-anchorite-miholjdan",
+    "gregory-enlightener-armenia",
+    "protection-theotokos",
+    "cyprian-antioch-justina",
+    "dionysius-areopagite",
+    "hierotheus-athens",
+    "martyr-charitina-amisos",
+    "apostle-thomas",
+    "sergius-bacchus"
+  ],
+  "scope": {
+    "new_articles": 18,
+    "previous_articles_preserved": 14,
+    "total_articles": 32,
+    "total_days": 32,
+    "new_dates": {
+      "from": "2026-10-03",
+      "through": "2026-10-20"
+    },
+    "complete_window": {
+      "from": "2026-09-21",
+      "through": "2026-10-20",
+      "days": 30
+    },
+    "new_catalog_subjects": 0,
+    "new_catalog_observances": 0,
+    "new_catalog_occurrences": 0,
+    "new_catalog_article_links": 0,
+    "existing_catalog_article_links_preserved": 2,
+    "occurrences_2027": 0,
+    "complete_saint_list": false
+  },
+  "payloads": {
+    "saints": {
+      "version": "2026.9.21",
+      "revision": 3,
+      "bytes": 138927,
+      "sha256": "5551b12abc73777ee02bc3c150f52a3375a1101c548be11de50e78196e0e0000"
+    },
+    "catalog": {
+      "version": "2026.9.20",
+      "revision": 4,
+      "bytes": 39773,
+      "sha256": "13113be5f9bd3aeebc349cb5a89fee88439f7da57e9db9f6d9f1877e3da89774"
+    }
+  },
+  "catalog_continuation": {
+    "previous_approval": "approvals/saints-expansion-2026-09-21/owner-publication-approval.json",
+    "previous_payload_sha256": "f202bff8a92f4d4f84a6c025ea67144bf61c2df3fe38030fc446de2116d82e8c",
+    "allowed_changed_fields": [
+      "revision",
+      "approval_id",
+      "article_bindings/0/version",
+      "article_bindings/0/revision",
+      "article_bindings/0/sha256"
+    ],
+    "all_other_catalog_fields_unchanged": true
+  },
+  "rights_basis": {
+    "kind": "USER_ATTESTATION",
+    "original_record": "drafts/saints-pilot-2026-09-19/pilot.json#rights",
+    "original_statement": "može prava racunaj da imamo",
+    "recorded_on": "2026-09-19",
+    "application_to_this_package": "Continue the project owner's prior text-rights assertion for the exact eighteen original editorial summaries approved above; not copying full source works.",
+    "independently_verified": false,
+    "public_license_assigned": false,
+    "source_permissions_independently_verified": false,
+    "scope_excludes": [
+      "icons",
+      "photographs",
+      "charity_logos",
+      "audio",
+      "pravoslavnidom.rs books"
+    ],
+    "note": "Owner assertion only, no fabricated legal or clerical clearance. Historical pending draft/source metadata stays unchanged."
+  },
+  "publication": {
+    "release_set_id": "shared-saints-completion-2026-09-21-m0v2-s9",
+    "sequence": 9,
+    "base_release_set_id": "shared-saints-expansion-2026-09-21-m0v2-s8",
+    "base_sequence": 8,
+    "base_index_sha256": "33309c9f1a8474a04971c01734cfaa647ffe3589ecb15b936adf41de21fc7674",
+    "base_release_sha256": "32a819ed12cb883bc4d7ba6213c1be5f379c7bf8107d3faece7330113f2601bd",
+    "key_id": "svetlost33-content-2026-key-1",
+    "existing_public_key_pem_sha256": "9671cc745a71f3b35ac2281bfd4e8da9335db9c6a44beda0ae5cf380b292c1f6",
+    "minimum_clients": {
+      "android": 35,
+      "ios": "0.1.0"
+    },
+    "discovery_expires_at": "2027-02-01T00:00:00Z",
+    "production_channel": "https://raw.githubusercontent.com/swanem/svetlost33-content/main/releases/v2/production",
+    "gates": [
+      "Independent exact draft/source/identity audit",
+      "Root coordinator GO before signing",
+      "Both native signed S8-to-S9 integration checks and separate root GO before installation and Git push"
+    ],
+    "pending_charity_candidate_excluded": true
+  },
+  "authorized": [
+    "prepare_exact_eighteen_texts_and_deterministic_latin",
+    "retain_previous_fourteen_articles_and_day_notes",
+    "catalog_existing_article_binding_only_update",
+    "publish_shared_content_after_coordination_gates"
+  ],
+  "not_authorized": [
+    "new_or_rewritten_reader_texts",
+    "new_canonical_subjects_or_observances",
+    "new_catalog_dates_or_article_links",
+    "2027_date_mapping",
+    "prayers_troparia_kontakia",
+    "pending_charity_activation",
+    "new_trust_anchor",
+    "new_distribution_channel",
+    "pravoslavnidom_import",
+    "native_app_release_or_device_installation"
+  ],
+  "clerical_review": null,
+  "independent_legal_verification": false,
+  "complete_saint_list_verified": false
+}
