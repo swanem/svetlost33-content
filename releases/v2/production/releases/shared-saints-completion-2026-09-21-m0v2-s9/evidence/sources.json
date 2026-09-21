@@ -1,0 +1,310 @@
+{
+  "document_kind": "source_registry_not_publication_permission",
+  "checked_on": "2026-09-21",
+  "calendar_proof": {
+    "path": "releases/v2/production/releases/shared-annual-2026-r1-m0v2-s2/modules/calendar-2026-r1-2026.1.1-r2/data/calendar.2026.json",
+    "sha256": "a1b6a5d5911ae03f77802bd466227f0c1ea4fe97708b1b6f92cd4b08847c7c9c",
+    "url": "https://www.eparhija.at/kalendar?m=2026-10",
+    "recheck": "2026-09-21 web_search_index_text corroborates all 18 title/day pairs; direct web_open cache miss. Bound local calendar remains unchanged.",
+    "scope": "SPC date/title only; not verification of all saints, fasting details or Gospel service assignments."
+  },
+  "sources": [
+    {
+      "id": "comp-oca-eustathius",
+      "url": "https://www.oca.org/saints/lives/2026/09/20/102674-greatmartyr-eustthios-placidas-with-his-wife-and-children-of-rom",
+      "title_original": "Greatmartyr Eustáthios Placidas, with his wife and children, of Rome",
+      "publisher_original": "Orthodox Church in America",
+      "original_author": null,
+      "published_on": null,
+      "checked_on": "2026-09-21",
+      "check_method": "web_open_text",
+      "notes": "Full hagiographical prose read; individual author and publication date not stated."
+    },
+    {
+      "id": "comp-oca-quadratus",
+      "url": "https://www.oca.org/saints/lives/2026/09/21/102683-apostle-quadratus-of-the-seventy",
+      "title_original": "Apostle Quadratus of the Seventy",
+      "publisher_original": "Orthodox Church in America",
+      "original_author": null,
+      "published_on": null,
+      "checked_on": "2026-09-21",
+      "check_method": "web_open_text",
+      "notes": "Full prose read; Apologia attribution reported with qualification."
+    },
+    {
+      "id": "comp-spc-quadratus",
+      "url": "https://spc.rs/sr/news/10103.sveti-apostol-kodrat.html",
+      "title_original": "Свети апостол Кодрат",
+      "publisher_original": "Српска православна црква",
+      "original_author": null,
+      "published_on": "2025-10-04",
+      "checked_on": "2026-09-21",
+      "check_method": "web_search_index_text",
+      "notes": "Substantive indexed article read. Direct open returned Cache miss. Publication date displayed in index; no individual author identified."
+    },
+    {
+      "id": "comp-oca-phocas",
+      "url": "https://www.oca.org/saints/lives/2026/09/22/102695-hieromartyr-phocas-bishop-of-sinope",
+      "title_original": "Hieromartyr Phocas, Bishop of Sinope",
+      "publisher_original": "Orthodox Church in America",
+      "original_author": null,
+      "published_on": null,
+      "checked_on": "2026-09-21",
+      "check_method": "web_open_text",
+      "notes": "Full episcopal life read. Separate gardener result inspected only for disambiguation, not summarized."
+    },
+    {
+      "id": "comp-mcp-phocas",
+      "url": "https://mitropolija.com/2025/10/04/sveti-svestenomucenik-foka-episkop-sinopski/",
+      "title_original": "Свети свештеномученик Фока епископ Синопски",
+      "publisher_original": "Православна Митрополија црногорско-приморска",
+      "original_author": "Свети Владика Николај",
+      "published_on": "2025-10-04",
+      "checked_on": "2026-09-21",
+      "check_method": "web_open_text",
+      "notes": "Full prose read; source footer explicitly attributes Prolog to Sveti Vladika Nikolaj. Publication timestamp is 19:37."
+    },
+    {
+      "id": "comp-oca-conception-john",
+      "url": "https://www.oca.org/saints/lives/2026/09/23/102703-conception-of-the-honorable-glorious-prophet-forerunner-and-bapt",
+      "title_original": "Conception of the Honorable Glorious Prophet, Forerunner and Baptist John",
+      "publisher_original": "Orthodox Church in America",
+      "original_author": null,
+      "published_on": null,
+      "checked_on": "2026-09-21",
+      "check_method": "web_open_text",
+      "notes": "Full church narrative read. No prayer or Bible translation copied."
+    },
+    {
+      "id": "comp-oca-thecla",
+      "url": "https://www.oca.org/saints/lives/2026/09/24/102715-protomartyr-and-equal-of-the-apostles-thekla",
+      "title_original": "Protomartyr and Equal of the Apostles Thekla",
+      "publisher_original": "Orthodox Church in America",
+      "original_author": null,
+      "published_on": null,
+      "checked_on": "2026-09-21",
+      "check_method": "web_open_text",
+      "notes": "Full life opened through calendar link and read; miracle narratives not treated as independently verified history."
+    },
+    {
+      "id": "comp-oca-euphrosyne",
+      "url": "https://www.oca.org/saints/lives/2026/09/25/102726-venerable-euphrosyne-of-alexandria",
+      "title_original": "Venerable Euphrosyne of Alexandria",
+      "publisher_original": "Orthodox Church in America",
+      "original_author": null,
+      "published_on": null,
+      "checked_on": "2026-09-21",
+      "check_method": "web_open_text",
+      "notes": "Full Alexandrian life read; same-date Suzdal listing checked for disambiguation only."
+    },
+    {
+      "id": "comp-mcp-euphrosyne",
+      "url": "https://mitropolija.com/2024/10/08/prepodobna-efrosinija-3/",
+      "title_original": "Преподобна Ефросинија",
+      "publisher_original": "Православна Митрополија црногорско-приморска",
+      "original_author": null,
+      "published_on": "2024-10-08",
+      "checked_on": "2026-09-21",
+      "check_method": "web_search_index_text",
+      "notes": "Substantive indexed life corroborates Alexandrian identity and Serbian monastic name. Direct open returned Cache miss; publication date is index evidence."
+    },
+    {
+      "id": "comp-oca-john-theologian",
+      "url": "https://www.oca.org/saints/lives/2026/09/26/102731-repose-of-the-holy-apostle-and-evangelist-john-the-theologian",
+      "title_original": "Repose of the Holy Apostle and Evangelist John the Theologian",
+      "publisher_original": "Orthodox Church in America",
+      "original_author": null,
+      "published_on": null,
+      "checked_on": "2026-09-21",
+      "check_method": "web_open_text",
+      "notes": "Complete life narrative read, including introductory and concluding paragraphs. No original author or publication date established; URL year is not a publication date. Narrative consulted for an original short summary, not copied prayers or text-license confirmation."
+    },
+    {
+      "id": "comp-oca-callistratus",
+      "url": "https://www.oca.org/saints/lives/2026/09/27/102736-martyr-callistratus-and-49-companions",
+      "title_original": "Martyr Callistratus and 49 companions",
+      "publisher_original": "Orthodox Church in America",
+      "original_author": null,
+      "published_on": null,
+      "checked_on": "2026-09-21",
+      "check_method": "web_open_text",
+      "notes": "Complete life narrative read. Group and narrative motifs are church-tradition claims; graphic details omitted. No prayer, hymn, image or whole translated life copied; rights not independently verified."
+    },
+    {
+      "id": "comp-oca-chariton",
+      "url": "https://www.oca.org/saints/lives/2024/09/28/102742-venerable-chariton-the-confessor-abbot-of-palestine",
+      "title_original": "Venerable Chariton the Confessor, Abbot of Palestine",
+      "publisher_original": "Orthodox Church in America",
+      "original_author": null,
+      "published_on": null,
+      "checked_on": "2026-09-21",
+      "check_method": "web_open_text",
+      "notes": "Complete narrative read after opening the article near its heading. Attempts at 2026 and 2046 URLs failed; this accessible 2024 URL was actually consulted. The year is not used for civil-date binding or publication metadata. Exact chronology and liturgical-authorship claims omitted; rights not independently verified."
+    },
+    {
+      "id": "comp-oca-kyriakos",
+      "url": "https://www.oca.org/saints/lives/1950/09/29/102813-venerable-kyriakos-the-anchorite",
+      "title_original": "Venerable Kyriakos the Anchorite",
+      "publisher_original": "Orthodox Church in America",
+      "original_author": null,
+      "published_on": null,
+      "checked_on": "2026-09-21",
+      "check_method": "web_open_text",
+      "notes": "Complete narrative and explanatory footnotes read. Requested 2026 URL was inaccessible; this dated route serves as narrative source only. Psalter reading and monastic setting used; strict dietary instructions, healing details and hymn translations omitted. Rights not independently verified."
+    },
+    {
+      "id": "comp-mitropolija-miholjdan",
+      "url": "https://mitropolija.com/2022/10/11/prepodobni-kirijak-otselnik-miholjdan-2/",
+      "title_original": "Преподобни Киријак Отшелник – Михољдан",
+      "publisher_original": "Православна Митрополија црногорско-приморска",
+      "original_author": null,
+      "published_on": "2022-10-11",
+      "checked_on": "2026-09-21",
+      "check_method": "web_open_text",
+      "notes": "Read title and complete short biography, before the troparion. Crosschecks identity, name Miholjdan and explanation of anchorite title. Publication timestamp is not the calendar observance date. Troparion not reused; original authorship and reuse permission not independently established."
+    },
+    {
+      "id": "comp-oca-gregory-armenia",
+      "url": "https://www.oca.org/saints/lives/2026/09/30/102818-hieromartyr-gregory-bishop-of-greater-armenia-equal-of-the-apost",
+      "title_original": "Hieromartyr Gregory, Bishop of Greater Armenia, Equal of the Apostles, Enlightener of Armenia",
+      "publisher_original": "Orthodox Church in America",
+      "original_author": null,
+      "published_on": null,
+      "checked_on": "2026-09-21",
+      "check_method": "web_open_text",
+      "notes": "Complete narrative read. Distinguishes Armenian enlightener from other saints Gregory. Main biography source; no exact chronology, medical inference, violent detail or hymn reused. Rights not independently verified."
+    },
+    {
+      "id": "comp-kinonija-gregory-armenia",
+      "url": "https://kinonija.rs/praznici/kalendar-za-30-septembar-13-oktobar/",
+      "title_original": "Календар за 30. септембар / 13. октобар",
+      "publisher_original": "Кинонија — портал при Мисионарском одељењу Архиепископије београдско-карловачке",
+      "original_author": null,
+      "published_on": "2024-10-12",
+      "checked_on": "2026-09-21",
+      "check_method": "web_open_text",
+      "notes": "Checked publisher identification, dated heading, named Armenian bishop/enlightener and opening biographical section through service to Tiridates. Not presented as a complete read of the long article. Primary Serbian church crosscheck of abbreviated calendar identity; no copied prose or rights clearance."
+    },
+    {
+      "id": "comp-oca-protection",
+      "url": "https://www.oca.org/saints/lives/2026/10/01/102824-the-protection-of-our-most-holy-lady-the-mother-of-god-and-ever",
+      "title_original": "The Protection of our Most Holy Lady the Mother of God and Ever-Virgin Mary",
+      "publisher_original": "Orthodox Church in America",
+      "original_author": null,
+      "published_on": null,
+      "checked_on": "2026-09-21",
+      "check_method": "web_open_text",
+      "notes": "Complete narrative read, including its explicit historical complications. Used for feast meaning and attributed vision only; avoids selecting one disputed chronological account. No prayer, hymn or image reused; rights not independently verified."
+    },
+    {
+      "id": "comp-sumadija-protection",
+      "url": "https://www.eparhija-sumadijska.org.rs/index.php/%D0%B1%D0%B8%D0%B1%D0%BB%D0%B8%D0%BE%D1%82%D0%B5%D0%BA%D0%B0/7131-pokrov-presvete-bogorodice",
+      "title_original": "ПОКРОВ ПРЕСВЕТЕ БОГОРОДИЦЕ",
+      "publisher_original": "Епархија шумадијска",
+      "original_author": null,
+      "published_on": null,
+      "checked_on": "2026-09-21",
+      "check_method": "web_open_text",
+      "notes": "Read title and short introductory feast account before the longer homiletic exposition. This opening identifies Blachernae, Andrew, Epiphanius and year911. Year omitted because OCA narrative presents historical complications. No publication date or original-author attribution established in reviewed heading; no copied homily or rights clearance."
+    },
+    {
+      "id": "comp-oca-cyprian-justina",
+      "url": "https://www.oca.org/saints/lives/2026/10/02/102835-hieromartyr-cyprian-virgin-martyr-justina-and-martyr-theoctistus",
+      "title_original": "Hieromartyr Cyprian, Virgin Martyr Justina, and Martyr Theoctistus, of Nicomedia",
+      "publisher_original": "Orthodox Church in America",
+      "original_author": null,
+      "published_on": null,
+      "checked_on": "2026-09-21",
+      "check_method": "web_open_text",
+      "notes": "Complete life text opened. Source for an original short summary, not a copied translation. Displayed commemoration date is not the SPC civil date. Publication date and individual author are not stated; all-rights-reserved footer is not a reuse license. Birthplace differs from the SPC account and is omitted."
+    },
+    {
+      "id": "comp-spc-cyprian-justina",
+      "url": "https://spc.rs/sr/news/11871.sveti-svestenomucenik-kiprijan-i-justina-devica.html",
+      "title_original": "Свети свештеномученик Кипријан и Јустина Девица",
+      "publisher_original": "Српска Православна Црква",
+      "original_author": null,
+      "published_on": "2024-10-15",
+      "checked_on": "2026-09-21",
+      "check_method": "web_open_text",
+      "notes": "Opened published article text for identity and Antioch/Justina corroboration; no claim that every line of the long life was independently audited. The page labels publication 15.10.2024. It describes birth in Carthage, unlike OCA, but the saint is the figure connected with Justina in Antioch; no identification with bishop Cyprian of Carthage is made."
+    },
+    {
+      "id": "comp-oca-dionysius-areopagite",
+      "url": "https://www.oca.org/saints/lives/2026/10/03/102843-hieromartyr-dionysius-the-areopagite-bishop-of-athens",
+      "title_original": "Hieromartyr Dionysius the Areopagite, Bishop of Athens",
+      "publisher_original": "Orthodox Church in America",
+      "original_author": null,
+      "published_on": null,
+      "checked_on": "2026-09-21",
+      "check_method": "web_open_text",
+      "notes": "Complete text including translator's authorship caveat and final caveat about Paris/Athens was read. Narrative and scholarly qualifications coexist on the page. This draft does not repeat contested authorship or Paris identification as certain. Publication date and individual author are not stated."
+    },
+    {
+      "id": "comp-bezanija-dionysius-areopagite",
+      "url": "https://crkva-bezanijska.rs/dionisije-areopagit/",
+      "title_original": "ДИОНИСИЈЕ АРЕОПАГИТ",
+      "publisher_original": "Црква Светог Ђорђа у Бежанији",
+      "original_author": "И. В. Попов; А. И. Покровски — потписани одељци пренетог текста",
+      "published_on": null,
+      "checked_on": "2026-09-21",
+      "check_method": "web_open_text",
+      "notes": "Full article opened; identifies its source as Христианство, volume 1, Moscow 1993, pages 480–483, with several signed sections. Used only for the distinction from Dionysius of Paris and the authorship caveat. The Serbian translator and webpage publication date are not stated; no independent scholarly or rights review is asserted."
+    },
+    {
+      "id": "comp-eparhijazt-dionysius-mention",
+      "url": "https://www.eparhijazt.com/sr/news/vijesti-iz-eparhije/pesme-episkopa/5305.mitropolit-fotije-danasnji-sveti.html",
+      "title_original": "Митрополит Фотије: ДАНАШЊИ СВЕТИ",
+      "publisher_original": "Епархија зворничко-тузланска",
+      "original_author": "Митрополит Фотије",
+      "published_on": "2024-10-16",
+      "checked_on": "2026-09-21",
+      "check_method": "web_open_text",
+      "notes": "Opened eparchy page, visibly dated 16.10.2024 and signed by Metropolitan Fotije. Used only as a corroborating church mention of Dionysius Areopagite. No poem text is quoted or adapted. It is not evidence resolving disputed authorship, a substitute for biography, a reuse license or the bound 2026 calendar."
+    },
+    {
+      "id": "comp-oca-hierotheus-athens",
+      "url": "https://www.oca.org/saints/lives/2026/10/04/102849-hieromartyr-hierotheus-bishop-of-athens",
+      "title_original": "Hieromartyr Hierotheus, Bishop of Athens",
+      "publisher_original": "Orthodox Church in America",
+      "original_author": null,
+      "published_on": null,
+      "checked_on": "2026-09-21",
+      "check_method": "web_open_text",
+      "notes": "Complete short life opened. Provides a small set of traditional biographical points; no details were invented to fill its gaps. Publication date and individual author are not stated. This source does not establish a complete succession list for Athens."
+    },
+    {
+      "id": "comp-oca-charitina-amisos",
+      "url": "https://www.oca.org/saints/lives/2025/10/05/102870-martyr-charitina-of-amisos",
+      "title_original": "Martyr Charitina of Amisos",
+      "publisher_original": "Orthodox Church in America",
+      "original_author": null,
+      "published_on": null,
+      "checked_on": "2026-09-21",
+      "check_method": "web_open_text",
+      "notes": "Complete 2025-addressed life opened after the same 2026-addressed article failed. URL year is not publication date or the SPC calendar date. The name denotes the Amisos martyr, not the Lithuanian princess. Graphic violence and threatened rape in the source are not reproduced."
+    },
+    {
+      "id": "comp-oca-apostle-thomas",
+      "url": "https://www.oca.org/saints/lives/2026/10/06/102885-holy-glorious-apostle-thomas",
+      "title_original": "Holy, Glorious Apostle Thomas",
+      "publisher_original": "Orthodox Church in America",
+      "original_author": null,
+      "published_on": null,
+      "checked_on": "2026-09-21",
+      "check_method": "web_open_text",
+      "notes": "Complete life opened. Biblical episode is described in original Serbian prose without borrowing the site's quoted Bible translation or attributed patristic quotation. Mission and martyrdom remain Church Tradition. Individual author and publication date are not stated."
+    },
+    {
+      "id": "comp-oca-sergius-bacchus",
+      "url": "https://www.oca.org/saints/lives/2026/10/07/102888-martyrs-sergius-and-bacchus-in-syria",
+      "title_original": "Martyrs Sergius and Bacchus in Syria",
+      "publisher_original": "Orthodox Church in America",
+      "original_author": null,
+      "published_on": null,
+      "checked_on": "2026-09-21",
+      "check_method": "web_open_text",
+      "notes": "Complete life opened. The concise account omits graphic violence and does not copy reported dialogue. The Serbian commemoration name Srdjevdan comes from the bound local calendar record, not this English biography. Individual author and publication date are not stated."
+    }
+  ]
+}

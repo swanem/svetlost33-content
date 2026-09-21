@@ -1,0 +1,16 @@
+{
+  "schema_version": "svetlost33-m0-index-2",
+  "sequence": 8,
+  "issued_at": "2026-09-20T20:24:08Z",
+  "expires_at": "2027-02-01T00:00:00Z",
+  "key_id": "svetlost33-content-2026-key-1",
+  "channels": {
+    "production": {
+      "release_set_id": "shared-saints-expansion-2026-09-21-m0v2-s8",
+      "path": "releases/shared-saints-expansion-2026-09-21-m0v2-s8/release-set.json",
+      "bytes": 3396,
+      "sha256": "32a819ed12cb883bc4d7ba6213c1be5f379c7bf8107d3faece7330113f2601bd",
+      "signature_path": "releases/shared-saints-expansion-2026-09-21-m0v2-s8/release-set.sig"
+    }
+  }
+}

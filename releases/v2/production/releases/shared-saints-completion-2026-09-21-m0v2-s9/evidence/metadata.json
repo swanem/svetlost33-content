@@ -1,0 +1,967 @@
+{
+  "document_kind": "editorial_working_metadata_not_approval",
+  "prepared_on": "2026-09-21",
+  "review_status": "pending_human_review",
+  "owner_approval": null,
+  "clerical_review": null,
+  "master": "TEKSTOVI.md",
+  "master_locale": "sr-Cyrl",
+  "latin_policy": "Deterministic toLatin; no separately edited Latin master.",
+  "rights_basis": "Prior project-owner assertion of rights; no independently verified new license or legal clearance.",
+  "authorship": "Original editorial summaries with AI assistance; source publishers are not authors of these summaries.",
+  "articles": [
+    {
+      "id": "greatmartyr-eustathius",
+      "date": "2026-10-03",
+      "julian_date": "2026-09-20",
+      "type": "saint",
+      "subtype": null,
+      "source_ids": [
+        "comp-oca-eustathius"
+      ],
+      "claims": [
+        {
+          "location": "intro; body[0]",
+          "label": "Плакида; војсковођа; крштење породице; виђење.",
+          "kind": "church_tradition",
+          "source_ids": [
+            "comp-oca-eustathius"
+          ]
+        },
+        {
+          "location": "body[1]; body[2]",
+          "label": "Раздвајање, сусрет, Адријан, мучеништво.",
+          "kind": "church_tradition",
+          "source_ids": [
+            "comp-oca-eustathius"
+          ]
+        },
+        {
+          "location": "takeaway",
+          "label": "Уреднички осврт.",
+          "kind": "editorial_interpretation",
+          "source_ids": []
+        }
+      ],
+      "limitations": [
+        "Vision and family narrative are presented as hagiographical tradition, not independently established historical facts.",
+        "Single-saint article follows the bound calendar title; relatives are biographical context and do not create a complete family observance registry.",
+        "No borrowed prayer, troparion, exact death year or graphic violence."
+      ],
+      "review_status": "pending_human_review",
+      "owner_approval": null,
+      "clerical_review": null,
+      "takeaway_status": "editorial_interpretation_not_saint_quotation",
+      "date_proof": "coverage.json#2026-10-03"
+    },
+    {
+      "id": "apostle-quadratus",
+      "date": "2026-10-04",
+      "julian_date": "2026-09-21",
+      "type": "saint",
+      "subtype": null,
+      "source_ids": [
+        "comp-oca-quadratus",
+        "comp-spc-quadratus"
+      ],
+      "claims": [
+        {
+          "location": "intro; body[0]; body[1]",
+          "label": "Седамдесеторица; Атина, Магнезија; заточење.",
+          "kind": "church_tradition",
+          "source_ids": [
+            "comp-oca-quadratus",
+            "comp-spc-quadratus"
+          ]
+        },
+        {
+          "location": "body[2]",
+          "label": "Приписивање одбране хришћанства.",
+          "kind": "church_source_attribution_not_resolved_historical_identity",
+          "source_ids": [
+            "comp-oca-quadratus"
+          ]
+        },
+        {
+          "location": "body[2], second sentence; takeaway",
+          "label": "Уредничко тумачење.",
+          "kind": "editorial_interpretation",
+          "source_ids": []
+        }
+      ],
+      "calendar_note": {
+        "kind": "leavetaking",
+        "label_cyrl": "Оданије Воздвижења",
+        "related_article_id": "exaltation-cross",
+        "source_ids": [
+          "eparhija-month-10"
+        ],
+        "date_proof": "drafts/saints-expansion-2026-09-21/coverage.json#2026-10-04",
+        "status": "proposal_for_parent_assembly_not_runtime_note"
+      },
+      "limitations": [
+        "OCA describes him as Bishop of Athens; the SPC indexed account places the episcopate at Magnesia. Specific episcopal seat is omitted.",
+        "The identification of the apostolic figure with the apologist is not independently resolved; wording reports the church source's attribution. Exact year and alleged decree effect are omitted.",
+        "SPC was consulted through its substantive indexed text; direct web open returned Cache miss.",
+        "Leavetaking remains separate date context; no new feast article or person identity was created."
+      ],
+      "review_status": "pending_human_review",
+      "owner_approval": null,
+      "clerical_review": null,
+      "takeaway_status": "editorial_interpretation_not_saint_quotation",
+      "date_proof": "coverage.json#2026-10-04"
+    },
+    {
+      "id": "hieromartyr-phocas-sinope",
+      "date": "2026-10-05",
+      "julian_date": "2026-09-22",
+      "type": "saint",
+      "subtype": null,
+      "source_ids": [
+        "comp-oca-phocas",
+        "comp-mcp-phocas"
+      ],
+      "claims": [
+        {
+          "location": "intro; body[0]",
+          "label": "Синопски епископ; пастирска служба.",
+          "kind": "church_tradition",
+          "source_ids": [
+            "comp-oca-phocas",
+            "comp-mcp-phocas"
+          ]
+        },
+        {
+          "location": "body[1]",
+          "label": "Трајан; верност; мучеништво.",
+          "kind": "church_tradition",
+          "source_ids": [
+            "comp-oca-phocas",
+            "comp-mcp-phocas"
+          ]
+        },
+        {
+          "location": "body[2]; takeaway",
+          "label": "Уреднички осврт.",
+          "kind": "editorial_interpretation",
+          "source_ids": []
+        }
+      ],
+      "limitations": [
+        "Identity is Phocas, Bishop of Sinope, not the separate gardener also commemorated on September 22 in OCA listings.",
+        "Exact martyrdom year omitted; no transfer date, miracle promise or graphic account included.",
+        "MCP publication date is the eve of the civil commemoration and is not calendar date evidence."
+      ],
+      "review_status": "pending_human_review",
+      "owner_approval": null,
+      "clerical_review": null,
+      "takeaway_status": "editorial_interpretation_not_saint_quotation",
+      "date_proof": "coverage.json#2026-10-05"
+    },
+    {
+      "id": "conception-john-forerunner",
+      "date": "2026-10-06",
+      "julian_date": "2026-09-23",
+      "type": "feast",
+      "subtype": "feast",
+      "source_ids": [
+        "comp-oca-conception-john"
+      ],
+      "claims": [
+        {
+          "location": "intro; body[0]; body[1]",
+          "label": "Захарија, Јелисавета, Гаврило; благовест.",
+          "kind": "scriptural_narrative_via_church_summary",
+          "source_ids": [
+            "comp-oca-conception-john"
+          ]
+        },
+        {
+          "location": "body[2]",
+          "label": "Јованова служба Претече.",
+          "kind": "church_theological_interpretation",
+          "source_ids": [
+            "comp-oca-conception-john"
+          ]
+        },
+        {
+          "location": "takeaway",
+          "label": "Уреднички осврт.",
+          "kind": "editorial_interpretation",
+          "source_ids": []
+        }
+      ],
+      "limitations": [
+        "A feast article, not a general biography or a birthday observance.",
+        "Church summary of the Gospel narrative was consulted; no licensed Bible translation was copied.",
+        "No health advice or fertility guarantee."
+      ],
+      "review_status": "pending_human_review",
+      "owner_approval": null,
+      "clerical_review": null,
+      "takeaway_status": "editorial_interpretation_not_saint_quotation",
+      "date_proof": "coverage.json#2026-10-06"
+    },
+    {
+      "id": "protomartyr-thecla",
+      "date": "2026-10-07",
+      "julian_date": "2026-09-24",
+      "type": "saint",
+      "subtype": null,
+      "source_ids": [
+        "comp-oca-thecla"
+      ],
+      "claims": [
+        {
+          "location": "intro; body[0]",
+          "label": "Иконија; Павлова проповед; одлука.",
+          "kind": "church_tradition",
+          "source_ids": [
+            "comp-oca-thecla"
+          ]
+        },
+        {
+          "location": "body[1]; body[2]",
+          "label": "Првомученица; равноапостолна; Селевкија.",
+          "kind": "church_tradition_and_titles",
+          "source_ids": [
+            "comp-oca-thecla"
+          ]
+        },
+        {
+          "location": "takeaway",
+          "label": "Уреднички осврт.",
+          "kind": "editorial_interpretation",
+          "source_ids": []
+        }
+      ],
+      "limitations": [
+        "Protomartyr title is not paraphrased as a claim that she died during her first persecution; the source narrates a later life.",
+        "Miraculous deliverances are marked as tradition; detailed violence, sexual assault and healing claims are omitted.",
+        "Hagiographical narrative is not an independent historical reconstruction."
+      ],
+      "review_status": "pending_human_review",
+      "owner_approval": null,
+      "clerical_review": null,
+      "takeaway_status": "editorial_interpretation_not_saint_quotation",
+      "date_proof": "coverage.json#2026-10-07"
+    },
+    {
+      "id": "euphrosyne-alexandria",
+      "date": "2026-10-08",
+      "julian_date": "2026-09-25",
+      "type": "saint",
+      "subtype": null,
+      "source_ids": [
+        "comp-oca-euphrosyne",
+        "comp-mcp-euphrosyne"
+      ],
+      "claims": [
+        {
+          "location": "intro; body[0]",
+          "label": "Александрија; Пафнутије; Измарагд.",
+          "kind": "church_tradition",
+          "source_ids": [
+            "comp-oca-euphrosyne",
+            "comp-mcp-euphrosyne"
+          ]
+        },
+        {
+          "location": "body[1]; body[2]",
+          "label": "Монаштво; служење; очева утеха.",
+          "kind": "church_tradition",
+          "source_ids": [
+            "comp-oca-euphrosyne",
+            "comp-mcp-euphrosyne"
+          ]
+        },
+        {
+          "location": "takeaway",
+          "label": "Уреднички осврт.",
+          "kind": "editorial_interpretation",
+          "source_ids": []
+        }
+      ],
+      "limitations": [
+        "Identity is the Alexandrian ascetic, not Euphrosyne of Suzdal or the Serbian princess Milica.",
+        "MCP text was consulted through substantive indexed text; direct opens of 2024 and 2022 versions returned Cache miss.",
+        "The unusual monastic and family narrative is presented as tradition, not a general recommendation to conceal identity or leave family."
+      ],
+      "review_status": "pending_human_review",
+      "owner_approval": null,
+      "clerical_review": null,
+      "takeaway_status": "editorial_interpretation_not_saint_quotation",
+      "date_proof": "coverage.json#2026-10-08"
+    },
+    {
+      "id": "john-theologian-repose",
+      "date": "2026-10-09",
+      "julian_date": "2026-09-26",
+      "type": "saint",
+      "subtype": null,
+      "source_ids": [
+        "comp-oca-john-theologian"
+      ],
+      "claims": [
+        {
+          "location": "intro",
+          "label": "Апостол и сведочење љубави",
+          "kind": "church_tradition",
+          "source_ids": [
+            "comp-oca-john-theologian"
+          ]
+        },
+        {
+          "location": "body.1",
+          "label": "Позив, Преображење и брига о Богородици",
+          "kind": "church_tradition",
+          "source_ids": [
+            "comp-oca-john-theologian"
+          ]
+        },
+        {
+          "location": "body.2",
+          "label": "Ефес, Патмос и поучавање",
+          "kind": "church_tradition",
+          "source_ids": [
+            "comp-oca-john-theologian"
+          ]
+        },
+        {
+          "location": "body.3",
+          "label": "Повратак младића",
+          "kind": "church_tradition",
+          "source_ids": [
+            "comp-oca-john-theologian"
+          ]
+        },
+        {
+          "location": "takeaway",
+          "label": "Уреднички осврт, не цитат",
+          "kind": "editorial_reflection",
+          "source_ids": []
+        }
+      ],
+      "limitations": [
+        "Exact-text owner review pending; no publication approval.",
+        "Civil date is inherited from the bound SPC calendar, not the OCA civil schedule.",
+        "Precise authorship chronology, miracles and burial details omitted; no independent historical verification.",
+        "Prior owner rights attestation is not an independent rights verification for this draft."
+      ],
+      "review_status": "pending_human_review",
+      "owner_approval": null,
+      "clerical_review": null,
+      "takeaway_status": "editorial_interpretation_not_saint_quotation",
+      "date_proof": "coverage.json#2026-10-09"
+    },
+    {
+      "id": "callistratus-companions",
+      "date": "2026-10-10",
+      "julian_date": "2026-09-27",
+      "type": "group",
+      "subtype": null,
+      "source_ids": [
+        "comp-oca-callistratus"
+      ],
+      "claims": [
+        {
+          "location": "intro",
+          "label": "Војник и 49 сабораца",
+          "kind": "church_tradition",
+          "source_ids": [
+            "comp-oca-callistratus"
+          ]
+        },
+        {
+          "location": "body.1",
+          "label": "Картагина, молитва и испитивање",
+          "kind": "church_tradition",
+          "source_ids": [
+            "comp-oca-callistratus"
+          ]
+        },
+        {
+          "location": "body.2",
+          "label": "Избављење, обраћење и тамница",
+          "kind": "church_tradition",
+          "source_ids": [
+            "comp-oca-callistratus"
+          ]
+        },
+        {
+          "location": "body.3",
+          "label": "Заједничко страдање",
+          "kind": "church_tradition",
+          "source_ids": [
+            "comp-oca-callistratus"
+          ]
+        },
+        {
+          "location": "takeaway",
+          "label": "Уреднички осврт, не цитат",
+          "kind": "editorial_reflection",
+          "source_ids": []
+        }
+      ],
+      "limitations": [
+        "Exact-text owner review pending; no publication approval.",
+        "Civil date is inherited from the bound SPC calendar.",
+        "Group count belongs to the consulted tradition; not an independently established historical census or complete named registry.",
+        "Graphic violence, speeches and prayers omitted. Prior owner rights attestation only; no independent rights verification."
+      ],
+      "review_status": "pending_human_review",
+      "owner_approval": null,
+      "clerical_review": null,
+      "takeaway_status": "editorial_interpretation_not_saint_quotation",
+      "date_proof": "coverage.json#2026-10-10"
+    },
+    {
+      "id": "chariton-confessor",
+      "date": "2026-10-11",
+      "julian_date": "2026-09-28",
+      "type": "saint",
+      "subtype": null,
+      "source_ids": [
+        "comp-oca-chariton"
+      ],
+      "claims": [
+        {
+          "location": "intro",
+          "label": "Исповедник и монашки учитељ",
+          "kind": "church_tradition",
+          "source_ids": [
+            "comp-oca-chariton"
+          ]
+        },
+        {
+          "location": "body.1",
+          "label": "Иконија, прогон и ослобођење",
+          "kind": "church_tradition",
+          "source_ids": [
+            "comp-oca-chariton"
+          ]
+        },
+        {
+          "location": "body.2",
+          "label": "Путовање и Фаранска лавра",
+          "kind": "church_tradition",
+          "source_ids": [
+            "comp-oca-chariton"
+          ]
+        },
+        {
+          "location": "body.3",
+          "label": "Самоћа и три заједнице",
+          "kind": "church_tradition",
+          "source_ids": [
+            "comp-oca-chariton"
+          ]
+        },
+        {
+          "location": "takeaway",
+          "label": "Уреднички осврт, не цитат",
+          "kind": "editorial_reflection",
+          "source_ids": []
+        }
+      ],
+      "limitations": [
+        "Exact-text owner review pending; no publication approval.",
+        "The accessible OCA narrative URL contains 2024; it supplies no 2026 civil-date binding. The bound SPC calendar supplies the date.",
+        "Deaths of robbers, exact chronology and attribution of liturgical authorship omitted.",
+        "Prior owner rights attestation only; no independent rights verification."
+      ],
+      "review_status": "pending_human_review",
+      "owner_approval": null,
+      "clerical_review": null,
+      "takeaway_status": "editorial_interpretation_not_saint_quotation",
+      "date_proof": "coverage.json#2026-10-11"
+    },
+    {
+      "id": "cyriacus-anchorite-miholjdan",
+      "date": "2026-10-12",
+      "julian_date": "2026-09-29",
+      "type": "saint",
+      "subtype": null,
+      "source_ids": [
+        "comp-oca-kyriakos",
+        "comp-mitropolija-miholjdan"
+      ],
+      "claims": [
+        {
+          "location": "title, intro",
+          "label": "Киријак Отшелник и Михољдан",
+          "kind": "identity_crosscheck",
+          "source_ids": [
+            "comp-oca-kyriakos",
+            "comp-mitropolija-miholjdan"
+          ]
+        },
+        {
+          "location": "body.1",
+          "label": "Коринт и монашко образовање",
+          "kind": "church_tradition",
+          "source_ids": [
+            "comp-oca-kyriakos",
+            "comp-mitropolija-miholjdan"
+          ]
+        },
+        {
+          "location": "body.2",
+          "label": "Послушања, Псалтир и самоћа",
+          "kind": "church_tradition",
+          "source_ids": [
+            "comp-oca-kyriakos",
+            "comp-mitropolija-miholjdan"
+          ]
+        },
+        {
+          "location": "body.3",
+          "label": "Духовна помоћ посетиоцима",
+          "kind": "church_tradition",
+          "source_ids": [
+            "comp-oca-kyriakos",
+            "comp-mitropolija-miholjdan"
+          ]
+        },
+        {
+          "location": "takeaway",
+          "label": "Уреднички осврт, не цитат",
+          "kind": "editorial_reflection",
+          "source_ids": []
+        }
+      ],
+      "limitations": [
+        "Exact-text owner review pending; no publication approval or catalog mutation.",
+        "The accessible OCA URL contains 1950; Mitropolija article publication is 2022-10-11. Neither supplies the app civil date; the bound SPC calendar does.",
+        "No claim about the folk name's etymology, Archangel Michael or local food/work customs.",
+        "Extreme asceticism and healing accounts are not reader instructions or health promises.",
+        "Prior owner rights attestation only; no independent rights verification."
+      ],
+      "review_status": "pending_human_review",
+      "owner_approval": null,
+      "clerical_review": null,
+      "takeaway_status": "editorial_interpretation_not_saint_quotation",
+      "date_proof": "coverage.json#2026-10-12"
+    },
+    {
+      "id": "gregory-enlightener-armenia",
+      "date": "2026-10-13",
+      "julian_date": "2026-09-30",
+      "type": "saint",
+      "subtype": null,
+      "source_ids": [
+        "comp-oca-gregory-armenia",
+        "comp-kinonija-gregory-armenia"
+      ],
+      "claims": [
+        {
+          "location": "title, intro",
+          "label": "Григорије, јерменски просветитељ",
+          "kind": "identity_crosscheck",
+          "source_ids": [
+            "comp-oca-gregory-armenia",
+            "comp-kinonija-gregory-armenia"
+          ]
+        },
+        {
+          "location": "body.1",
+          "label": "Кесарија, Тиридат и исповедање",
+          "kind": "church_tradition",
+          "source_ids": [
+            "comp-oca-gregory-armenia",
+            "comp-kinonija-gregory-armenia"
+          ]
+        },
+        {
+          "location": "body.2",
+          "label": "Заточеништво и касније проповедање",
+          "kind": "church_tradition",
+          "source_ids": [
+            "comp-oca-gregory-armenia"
+          ]
+        },
+        {
+          "location": "body.3",
+          "label": "Устројавање црквеног живота",
+          "kind": "church_tradition",
+          "source_ids": [
+            "comp-oca-gregory-armenia"
+          ]
+        },
+        {
+          "location": "takeaway",
+          "label": "Уреднички осврт, не цитат",
+          "kind": "editorial_reflection",
+          "source_ids": []
+        }
+      ],
+      "limitations": [
+        "Exact-text owner review pending. Expansion of the inherited short calendar title is a proposed identity binding, not a silently approved registry change.",
+        "The bound SPC calendar supplies the 2026 civil date; Kinonija crosschecks the named commemoration for 30 September / 13 October.",
+        "Retains the inherited hieromartyr title without claiming a violent death; consulted OCA narrative ends in retirement to the wilderness.",
+        "No precise royal genealogy, imprisonment duration, healing promise or universal conversion census.",
+        "Prior owner rights attestation only; no independent rights verification."
+      ],
+      "review_status": "pending_human_review",
+      "owner_approval": null,
+      "clerical_review": null,
+      "takeaway_status": "editorial_interpretation_not_saint_quotation",
+      "date_proof": "coverage.json#2026-10-13"
+    },
+    {
+      "id": "protection-theotokos",
+      "date": "2026-10-14",
+      "julian_date": "2026-10-01",
+      "type": "feast",
+      "subtype": "feast",
+      "source_ids": [
+        "comp-oca-protection",
+        "comp-sumadija-protection"
+      ],
+      "claims": [
+        {
+          "location": "intro",
+          "label": "Богородичино заступништво",
+          "kind": "church_tradition",
+          "source_ids": [
+            "comp-oca-protection",
+            "comp-sumadija-protection"
+          ]
+        },
+        {
+          "location": "body.1",
+          "label": "Влахерна, Андреј и Епифаније",
+          "kind": "church_tradition",
+          "source_ids": [
+            "comp-oca-protection",
+            "comp-sumadija-protection"
+          ]
+        },
+        {
+          "location": "body.2",
+          "label": "Покров и молитва за народ",
+          "kind": "church_tradition",
+          "source_ids": [
+            "comp-oca-protection",
+            "comp-sumadija-protection"
+          ]
+        },
+        {
+          "location": "source_notes",
+          "label": "Ограничење хронологије",
+          "kind": "source_limit",
+          "source_ids": [
+            "comp-oca-protection",
+            "comp-sumadija-protection"
+          ]
+        },
+        {
+          "location": "takeaway",
+          "label": "Уреднички осврт, не цитат",
+          "kind": "editorial_reflection",
+          "source_ids": []
+        }
+      ],
+      "limitations": [
+        "Exact-text owner review pending; no publication approval.",
+        "The bound SPC calendar supplies 2026-10-14, not OCA's 1 October civil schedule.",
+        "OCA mentions mid-tenth century and competing raid chronologies; Sumadija gives 911. Draft omits a precise year, raid and founder-date claim.",
+        "Feast, not a biography; no claim it is one of the Twelve Great Feasts.",
+        "No invented or copied prayer, promise of immunity from suffering, or modern icon reuse.",
+        "Prior owner rights attestation only; no independent rights verification."
+      ],
+      "review_status": "pending_human_review",
+      "owner_approval": null,
+      "clerical_review": null,
+      "takeaway_status": "editorial_interpretation_not_saint_quotation",
+      "date_proof": "coverage.json#2026-10-14"
+    },
+    {
+      "id": "cyprian-antioch-justina",
+      "date": "2026-10-15",
+      "julian_date": "2026-10-02",
+      "type": "group",
+      "subtype": null,
+      "source_ids": [
+        "comp-oca-cyprian-justina",
+        "comp-spc-cyprian-justina"
+      ],
+      "claims": [
+        {
+          "location": "intro, body.0",
+          "label": "Антиохија, Јустина и Кипријан",
+          "kind": "church_tradition",
+          "source_ids": [
+            "comp-oca-cyprian-justina",
+            "comp-spc-cyprian-justina"
+          ]
+        },
+        {
+          "location": "body.1, body.2",
+          "label": "Обраћење, служење и заједничко страдање",
+          "kind": "church_tradition",
+          "source_ids": [
+            "comp-oca-cyprian-justina"
+          ]
+        },
+        {
+          "location": "takeaway",
+          "label": "Уреднички осврт на покајање",
+          "kind": "editorial_reflection",
+          "source_ids": []
+        }
+      ],
+      "limitations": [
+        "PENDING_EXACT_TEXT_OWNER_REVIEW; no publication authority or independent rights clearance.",
+        "The subject is Cyprian associated with Antioch and Justina, not the bishop Cyprian of Carthage. Birthplace is omitted because OCA says Antioch and SPC says Carthage.",
+        "SPC text was opened for identity corroboration; the complete OCA article supplied the concise life outline. Hagiography is attributed as tradition, not independently verified biography.",
+        "Civil and Julian dates inherit the matching coverage.json record and its pinned calendar, not OCA's civil schedule. The full daily commemoration list remains unverified.",
+        "No magical instruction, guarantee of protection, new prayer, exact death year or graphic violence is included."
+      ],
+      "review_status": "pending_human_review",
+      "owner_approval": null,
+      "clerical_review": null,
+      "takeaway_status": "editorial_interpretation_not_saint_quotation",
+      "date_proof": "coverage.json#2026-10-15"
+    },
+    {
+      "id": "dionysius-areopagite",
+      "date": "2026-10-16",
+      "julian_date": "2026-10-03",
+      "type": "saint",
+      "subtype": null,
+      "source_ids": [
+        "comp-oca-dionysius-areopagite",
+        "comp-bezanija-dionysius-areopagite",
+        "comp-eparhijazt-dionysius-mention"
+      ],
+      "claims": [
+        {
+          "location": "intro, body.0, body.1",
+          "label": "Павлов ученик и атински епископ",
+          "kind": "church_tradition",
+          "source_ids": [
+            "comp-oca-dionysius-areopagite",
+            "comp-bezanija-dionysius-areopagite"
+          ]
+        },
+        {
+          "location": "body.2",
+          "label": "Ограда о идентификацији и ауторству",
+          "kind": "source_qualification",
+          "source_ids": [
+            "comp-oca-dionysius-areopagite",
+            "comp-bezanija-dionysius-areopagite"
+          ]
+        },
+        {
+          "location": "sources",
+          "label": "Додатни црквени помен имена",
+          "kind": "identity_corroboration",
+          "source_ids": [
+            "comp-eparhijazt-dionysius-mention"
+          ]
+        },
+        {
+          "location": "takeaway",
+          "label": "Уреднички осврт на слушање",
+          "kind": "editorial_reflection",
+          "source_ids": []
+        }
+      ],
+      "limitations": [
+        "PENDING_EXACT_TEXT_OWNER_REVIEW; no publication authority or independent rights clearance.",
+        "The Areopagitic corpus is not attributed to the apostolic figure as certain authorship. OCA itself includes a scholarly caveat; the Bezanija church article distinguishes later authorship.",
+        "The Paris identification, precise place/year of death, eclipse account and Marian letter are excluded. Sources differ and this draft does not adjudicate all hagiographic details.",
+        "The eparchy poem was opened only to corroborate a church commemoration of this name; no poem text is copied or adapted, and its authorship attribution is not used as evidence of the saint's authorship.",
+        "Civil and Julian dates inherit the matching coverage.json record and its pinned calendar, not OCA's civil schedule. The full daily commemoration list remains unverified."
+      ],
+      "review_status": "pending_human_review",
+      "owner_approval": null,
+      "clerical_review": null,
+      "takeaway_status": "editorial_interpretation_not_saint_quotation",
+      "date_proof": "coverage.json#2026-10-16"
+    },
+    {
+      "id": "hierotheus-athens",
+      "date": "2026-10-17",
+      "julian_date": "2026-10-04",
+      "type": "saint",
+      "subtype": null,
+      "source_ids": [
+        "comp-oca-hierotheus-athens"
+      ],
+      "claims": [
+        {
+          "location": "intro, body.0",
+          "label": "Предање о обраћењу и епископству",
+          "kind": "church_tradition",
+          "source_ids": [
+            "comp-oca-hierotheus-athens"
+          ]
+        },
+        {
+          "location": "body.1",
+          "label": "Богородичин погреб и мучеништво",
+          "kind": "church_tradition",
+          "source_ids": [
+            "comp-oca-hierotheus-athens"
+          ]
+        },
+        {
+          "location": "takeaway",
+          "label": "Уреднички осврт на поштовање",
+          "kind": "editorial_reflection",
+          "source_ids": []
+        }
+      ],
+      "limitations": [
+        "PENDING_EXACT_TEXT_OWNER_REVIEW; no publication authority or independent rights clearance.",
+        "The source is a very short hagiographic article. No unrecorded incidents, speeches, exact death year or episcopal succession order are invented.",
+        "The account of the Theotokos's funeral is explicitly tradition, not an independently verified eyewitness record.",
+        "Civil and Julian dates inherit the matching coverage.json record and its pinned calendar, not OCA's civil schedule. The full daily commemoration list remains unverified."
+      ],
+      "review_status": "pending_human_review",
+      "owner_approval": null,
+      "clerical_review": null,
+      "takeaway_status": "editorial_interpretation_not_saint_quotation",
+      "date_proof": "coverage.json#2026-10-17"
+    },
+    {
+      "id": "martyr-charitina-amisos",
+      "date": "2026-10-18",
+      "julian_date": "2026-10-05",
+      "type": "saint",
+      "subtype": null,
+      "source_ids": [
+        "comp-oca-charitina-amisos"
+      ],
+      "claims": [
+        {
+          "location": "intro, body.0",
+          "label": "Харитина и Клаудије",
+          "kind": "church_tradition",
+          "source_ids": [
+            "comp-oca-charitina-amisos"
+          ]
+        },
+        {
+          "location": "body.1, body.2",
+          "label": "Исповедање вере и Клаудијева брига",
+          "kind": "church_tradition",
+          "source_ids": [
+            "comp-oca-charitina-amisos"
+          ]
+        },
+        {
+          "location": "takeaway",
+          "label": "Уреднички осврт на благост и бригу",
+          "kind": "editorial_reflection",
+          "source_ids": []
+        }
+      ],
+      "limitations": [
+        "PENDING_EXACT_TEXT_OWNER_REVIEW; no publication authority or independent rights clearance.",
+        "Identity is the martyr Charitina of Amisos in Pontus, not Charitina the Lithuanian princess also listed by OCA on October 5.",
+        "The 2026 OCA article failed to load; the complete corresponding 2025 article was actually opened. The 2025 URL is a life source only and is not a 2026 calendar source.",
+        "Graphic torture and threatened sexual violence are omitted; the draft does not associate abuse with loss of a victim's worth or holiness.",
+        "Civil and Julian dates inherit the matching coverage.json record and its pinned calendar, not OCA's civil schedule. The full daily commemoration list remains unverified."
+      ],
+      "review_status": "pending_human_review",
+      "owner_approval": null,
+      "clerical_review": null,
+      "takeaway_status": "editorial_interpretation_not_saint_quotation",
+      "date_proof": "coverage.json#2026-10-18"
+    },
+    {
+      "id": "apostle-thomas",
+      "date": "2026-10-19",
+      "julian_date": "2026-10-06",
+      "type": "saint",
+      "subtype": null,
+      "source_ids": [
+        "comp-oca-apostle-thomas"
+      ],
+      "claims": [
+        {
+          "location": "intro, body.0",
+          "label": "Апостол и сусрет са васкрслим Христом",
+          "kind": "biblical_summary_via_church_source",
+          "source_ids": [
+            "comp-oca-apostle-thomas"
+          ]
+        },
+        {
+          "location": "body.1",
+          "label": "Предање о проповеди и мучеништву",
+          "kind": "church_tradition",
+          "source_ids": [
+            "comp-oca-apostle-thomas"
+          ]
+        },
+        {
+          "location": "body.2, takeaway",
+          "label": "Уреднички осврт на Томину веру",
+          "kind": "editorial_reflection",
+          "source_ids": []
+        }
+      ],
+      "limitations": [
+        "PENDING_EXACT_TEXT_OWNER_REVIEW; no publication authority or independent rights clearance.",
+        "The Gospel episode is summarized without a verbatim biblical quotation; the source points to John 20. This is not an assigned daily Gospel reading.",
+        "The Indian mission and martyrdom are expressly Church Tradition, not an independently reconstructed itinerary.",
+        "The name Tomindan and both dates inherit the matching coverage.json record and its pinned calendar, not OCA's civil schedule. The full daily commemoration list remains unverified."
+      ],
+      "review_status": "pending_human_review",
+      "owner_approval": null,
+      "clerical_review": null,
+      "takeaway_status": "editorial_interpretation_not_saint_quotation",
+      "date_proof": "coverage.json#2026-10-19"
+    },
+    {
+      "id": "sergius-bacchus",
+      "date": "2026-10-20",
+      "julian_date": "2026-10-07",
+      "type": "group",
+      "subtype": null,
+      "source_ids": [
+        "comp-oca-sergius-bacchus"
+      ],
+      "claims": [
+        {
+          "location": "intro, body.0",
+          "label": "Војни положај и исповедање вере",
+          "kind": "church_tradition",
+          "source_ids": [
+            "comp-oca-sergius-bacchus"
+          ]
+        },
+        {
+          "location": "body.1, body.2",
+          "label": "Антиох и страдање у Сирији",
+          "kind": "church_tradition",
+          "source_ids": [
+            "comp-oca-sergius-bacchus"
+          ]
+        },
+        {
+          "location": "takeaway",
+          "label": "Уреднички осврт на верност",
+          "kind": "editorial_reflection",
+          "source_ids": []
+        }
+      ],
+      "limitations": [
+        "PENDING_EXACT_TEXT_OWNER_REVIEW; no publication authority or independent rights clearance.",
+        "Narrative follows an attributed hagiographic source; military rank details, precise death dates and graphic violence are not included.",
+        "The name Srdjevdan and both dates inherit the matching coverage.json record and its pinned calendar, not OCA's civil schedule. The full daily commemoration list remains unverified.",
+        "No folk health claims, feast meal rules, modern relationship theories or political analogy are added."
+      ],
+      "review_status": "pending_human_review",
+      "owner_approval": null,
+      "clerical_review": null,
+      "takeaway_status": "editorial_interpretation_not_saint_quotation",
+      "date_proof": "coverage.json#2026-10-20"
+    }
+  ]
+}
