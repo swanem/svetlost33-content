@@ -1,0 +1,223 @@
+{
+  "articles": [
+    {
+      "id": "cyprian-antioch-justina",
+      "date": "2026-10-15",
+      "julian_date": "2026-10-02",
+      "type": "group",
+      "subtype": null,
+      "source_ids": ["comp-oca-cyprian-justina", "comp-spc-cyprian-justina"],
+      "claims": [
+        {"location": "intro, body.0", "label": "Антиохија, Јустина и Кипријан", "kind": "church_tradition", "source_ids": ["comp-oca-cyprian-justina", "comp-spc-cyprian-justina"]},
+        {"location": "body.1, body.2", "label": "Обраћење, служење и заједничко страдање", "kind": "church_tradition", "source_ids": ["comp-oca-cyprian-justina"]},
+        {"location": "takeaway", "label": "Уреднички осврт на покајање", "kind": "editorial_reflection", "source_ids": []}
+      ],
+      "limitations": [
+        "PENDING_EXACT_TEXT_OWNER_REVIEW; no publication authority or independent rights clearance.",
+        "The subject is Cyprian associated with Antioch and Justina, not the bishop Cyprian of Carthage. Birthplace is omitted because OCA says Antioch and SPC says Carthage.",
+        "SPC text was opened for identity corroboration; the complete OCA article supplied the concise life outline. Hagiography is attributed as tradition, not independently verified biography.",
+        "Civil and Julian dates inherit the matching coverage.json record and its pinned calendar, not OCA's civil schedule. The full daily commemoration list remains unverified.",
+        "No magical instruction, guarantee of protection, new prayer, exact death year or graphic violence is included."
+      ]
+    },
+    {
+      "id": "dionysius-areopagite",
+      "date": "2026-10-16",
+      "julian_date": "2026-10-03",
+      "type": "saint",
+      "subtype": null,
+      "source_ids": ["comp-oca-dionysius-areopagite", "comp-bezanija-dionysius-areopagite", "comp-eparhijazt-dionysius-mention"],
+      "claims": [
+        {"location": "intro, body.0, body.1", "label": "Павлов ученик и атински епископ", "kind": "church_tradition", "source_ids": ["comp-oca-dionysius-areopagite", "comp-bezanija-dionysius-areopagite"]},
+        {"location": "body.2", "label": "Ограда о идентификацији и ауторству", "kind": "source_qualification", "source_ids": ["comp-oca-dionysius-areopagite", "comp-bezanija-dionysius-areopagite"]},
+        {"location": "sources", "label": "Додатни црквени помен имена", "kind": "identity_corroboration", "source_ids": ["comp-eparhijazt-dionysius-mention"]},
+        {"location": "takeaway", "label": "Уреднички осврт на слушање", "kind": "editorial_reflection", "source_ids": []}
+      ],
+      "limitations": [
+        "PENDING_EXACT_TEXT_OWNER_REVIEW; no publication authority or independent rights clearance.",
+        "The Areopagitic corpus is not attributed to the apostolic figure as certain authorship. OCA itself includes a scholarly caveat; the Bezanija church article distinguishes later authorship.",
+        "The Paris identification, precise place/year of death, eclipse account and Marian letter are excluded. Sources differ and this draft does not adjudicate all hagiographic details.",
+        "The eparchy poem was opened only to corroborate a church commemoration of this name; no poem text is copied or adapted, and its authorship attribution is not used as evidence of the saint's authorship.",
+        "Civil and Julian dates inherit the matching coverage.json record and its pinned calendar, not OCA's civil schedule. The full daily commemoration list remains unverified."
+      ]
+    },
+    {
+      "id": "hierotheus-athens",
+      "date": "2026-10-17",
+      "julian_date": "2026-10-04",
+      "type": "saint",
+      "subtype": null,
+      "source_ids": ["comp-oca-hierotheus-athens"],
+      "claims": [
+        {"location": "intro, body.0", "label": "Предање о обраћењу и епископству", "kind": "church_tradition", "source_ids": ["comp-oca-hierotheus-athens"]},
+        {"location": "body.1", "label": "Богородичин погреб и мучеништво", "kind": "church_tradition", "source_ids": ["comp-oca-hierotheus-athens"]},
+        {"location": "takeaway", "label": "Уреднички осврт на поштовање", "kind": "editorial_reflection", "source_ids": []}
+      ],
+      "limitations": [
+        "PENDING_EXACT_TEXT_OWNER_REVIEW; no publication authority or independent rights clearance.",
+        "The source is a very short hagiographic article. No unrecorded incidents, speeches, exact death year or episcopal succession order are invented.",
+        "The account of the Theotokos's funeral is explicitly tradition, not an independently verified eyewitness record.",
+        "Civil and Julian dates inherit the matching coverage.json record and its pinned calendar, not OCA's civil schedule. The full daily commemoration list remains unverified."
+      ]
+    },
+    {
+      "id": "martyr-charitina-amisos",
+      "date": "2026-10-18",
+      "julian_date": "2026-10-05",
+      "type": "saint",
+      "subtype": null,
+      "source_ids": ["comp-oca-charitina-amisos"],
+      "claims": [
+        {"location": "intro, body.0", "label": "Харитина и Клаудије", "kind": "church_tradition", "source_ids": ["comp-oca-charitina-amisos"]},
+        {"location": "body.1, body.2", "label": "Исповедање вере и Клаудијева брига", "kind": "church_tradition", "source_ids": ["comp-oca-charitina-amisos"]},
+        {"location": "takeaway", "label": "Уреднички осврт на благост и бригу", "kind": "editorial_reflection", "source_ids": []}
+      ],
+      "limitations": [
+        "PENDING_EXACT_TEXT_OWNER_REVIEW; no publication authority or independent rights clearance.",
+        "Identity is the martyr Charitina of Amisos in Pontus, not Charitina the Lithuanian princess also listed by OCA on October 5.",
+        "The 2026 OCA article failed to load; the complete corresponding 2025 article was actually opened. The 2025 URL is a life source only and is not a 2026 calendar source.",
+        "Graphic torture and threatened sexual violence are omitted; the draft does not associate abuse with loss of a victim's worth or holiness.",
+        "Civil and Julian dates inherit the matching coverage.json record and its pinned calendar, not OCA's civil schedule. The full daily commemoration list remains unverified."
+      ]
+    },
+    {
+      "id": "apostle-thomas",
+      "date": "2026-10-19",
+      "julian_date": "2026-10-06",
+      "type": "saint",
+      "subtype": null,
+      "source_ids": ["comp-oca-apostle-thomas"],
+      "claims": [
+        {"location": "intro, body.0", "label": "Апостол и сусрет са васкрслим Христом", "kind": "biblical_summary_via_church_source", "source_ids": ["comp-oca-apostle-thomas"]},
+        {"location": "body.1", "label": "Предање о проповеди и мучеништву", "kind": "church_tradition", "source_ids": ["comp-oca-apostle-thomas"]},
+        {"location": "body.2, takeaway", "label": "Уреднички осврт на Томину веру", "kind": "editorial_reflection", "source_ids": []}
+      ],
+      "limitations": [
+        "PENDING_EXACT_TEXT_OWNER_REVIEW; no publication authority or independent rights clearance.",
+        "The Gospel episode is summarized without a verbatim biblical quotation; the source points to John 20. This is not an assigned daily Gospel reading.",
+        "The Indian mission and martyrdom are expressly Church Tradition, not an independently reconstructed itinerary.",
+        "The name Tomindan and both dates inherit the matching coverage.json record and its pinned calendar, not OCA's civil schedule. The full daily commemoration list remains unverified."
+      ]
+    },
+    {
+      "id": "sergius-bacchus",
+      "date": "2026-10-20",
+      "julian_date": "2026-10-07",
+      "type": "group",
+      "subtype": null,
+      "source_ids": ["comp-oca-sergius-bacchus"],
+      "claims": [
+        {"location": "intro, body.0", "label": "Војни положај и исповедање вере", "kind": "church_tradition", "source_ids": ["comp-oca-sergius-bacchus"]},
+        {"location": "body.1, body.2", "label": "Антиох и страдање у Сирији", "kind": "church_tradition", "source_ids": ["comp-oca-sergius-bacchus"]},
+        {"location": "takeaway", "label": "Уреднички осврт на верност", "kind": "editorial_reflection", "source_ids": []}
+      ],
+      "limitations": [
+        "PENDING_EXACT_TEXT_OWNER_REVIEW; no publication authority or independent rights clearance.",
+        "Narrative follows an attributed hagiographic source; military rank details, precise death dates and graphic violence are not included.",
+        "The name Srdjevdan and both dates inherit the matching coverage.json record and its pinned calendar, not OCA's civil schedule. The full daily commemoration list remains unverified.",
+        "No folk health claims, feast meal rules, modern relationship theories or political analogy are added."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "comp-oca-cyprian-justina",
+      "url": "https://www.oca.org/saints/lives/2026/10/02/102835-hieromartyr-cyprian-virgin-martyr-justina-and-martyr-theoctistus",
+      "title_original": "Hieromartyr Cyprian, Virgin Martyr Justina, and Martyr Theoctistus, of Nicomedia",
+      "publisher_original": "Orthodox Church in America",
+      "original_author": null,
+      "published_on": null,
+      "checked_on": "2026-09-21",
+      "check_method": "web_open_text",
+      "notes": "Complete life text opened. Source for an original short summary, not a copied translation. Displayed commemoration date is not the SPC civil date. Publication date and individual author are not stated; all-rights-reserved footer is not a reuse license. Birthplace differs from the SPC account and is omitted."
+    },
+    {
+      "id": "comp-spc-cyprian-justina",
+      "url": "https://spc.rs/sr/news/11871.sveti-svestenomucenik-kiprijan-i-justina-devica.html",
+      "title_original": "Свети свештеномученик Кипријан и Јустина Девица",
+      "publisher_original": "Српска Православна Црква",
+      "original_author": null,
+      "published_on": "2024-10-15",
+      "checked_on": "2026-09-21",
+      "check_method": "web_open_text",
+      "notes": "Opened published article text for identity and Antioch/Justina corroboration; no claim that every line of the long life was independently audited. The page labels publication 15.10.2024. It describes birth in Carthage, unlike OCA, but the saint is the figure connected with Justina in Antioch; no identification with bishop Cyprian of Carthage is made."
+    },
+    {
+      "id": "comp-oca-dionysius-areopagite",
+      "url": "https://www.oca.org/saints/lives/2026/10/03/102843-hieromartyr-dionysius-the-areopagite-bishop-of-athens",
+      "title_original": "Hieromartyr Dionysius the Areopagite, Bishop of Athens",
+      "publisher_original": "Orthodox Church in America",
+      "original_author": null,
+      "published_on": null,
+      "checked_on": "2026-09-21",
+      "check_method": "web_open_text",
+      "notes": "Complete text including translator's authorship caveat and final caveat about Paris/Athens was read. Narrative and scholarly qualifications coexist on the page. This draft does not repeat contested authorship or Paris identification as certain. Publication date and individual author are not stated."
+    },
+    {
+      "id": "comp-bezanija-dionysius-areopagite",
+      "url": "https://crkva-bezanijska.rs/dionisije-areopagit/",
+      "title_original": "ДИОНИСИЈЕ АРЕОПАГИТ",
+      "publisher_original": "Црква Светог Ђорђа у Бежанији",
+      "original_author": "И. В. Попов; А. И. Покровски — потписани одељци пренетог текста",
+      "published_on": null,
+      "checked_on": "2026-09-21",
+      "check_method": "web_open_text",
+      "notes": "Full article opened; identifies its source as Христианство, volume 1, Moscow 1993, pages 480–483, with several signed sections. Used only for the distinction from Dionysius of Paris and the authorship caveat. The Serbian translator and webpage publication date are not stated; no independent scholarly or rights review is asserted."
+    },
+    {
+      "id": "comp-eparhijazt-dionysius-mention",
+      "url": "https://www.eparhijazt.com/sr/news/vijesti-iz-eparhije/pesme-episkopa/5305.mitropolit-fotije-danasnji-sveti.html",
+      "title_original": "Митрополит Фотије: ДАНАШЊИ СВЕТИ",
+      "publisher_original": "Епархија зворничко-тузланска",
+      "original_author": "Митрополит Фотије",
+      "published_on": "2024-10-16",
+      "checked_on": "2026-09-21",
+      "check_method": "web_open_text",
+      "notes": "Opened eparchy page, visibly dated 16.10.2024 and signed by Metropolitan Fotije. Used only as a corroborating church mention of Dionysius Areopagite. No poem text is quoted or adapted. It is not evidence resolving disputed authorship, a substitute for biography, a reuse license or the bound 2026 calendar."
+    },
+    {
+      "id": "comp-oca-hierotheus-athens",
+      "url": "https://www.oca.org/saints/lives/2026/10/04/102849-hieromartyr-hierotheus-bishop-of-athens",
+      "title_original": "Hieromartyr Hierotheus, Bishop of Athens",
+      "publisher_original": "Orthodox Church in America",
+      "original_author": null,
+      "published_on": null,
+      "checked_on": "2026-09-21",
+      "check_method": "web_open_text",
+      "notes": "Complete short life opened. Provides a small set of traditional biographical points; no details were invented to fill its gaps. Publication date and individual author are not stated. This source does not establish a complete succession list for Athens."
+    },
+    {
+      "id": "comp-oca-charitina-amisos",
+      "url": "https://www.oca.org/saints/lives/2025/10/05/102870-martyr-charitina-of-amisos",
+      "title_original": "Martyr Charitina of Amisos",
+      "publisher_original": "Orthodox Church in America",
+      "original_author": null,
+      "published_on": null,
+      "checked_on": "2026-09-21",
+      "check_method": "web_open_text",
+      "notes": "Complete 2025-addressed life opened after the same 2026-addressed article failed. URL year is not publication date or the SPC calendar date. The name denotes the Amisos martyr, not the Lithuanian princess. Graphic violence and threatened rape in the source are not reproduced."
+    },
+    {
+      "id": "comp-oca-apostle-thomas",
+      "url": "https://www.oca.org/saints/lives/2026/10/06/102885-holy-glorious-apostle-thomas",
+      "title_original": "Holy, Glorious Apostle Thomas",
+      "publisher_original": "Orthodox Church in America",
+      "original_author": null,
+      "published_on": null,
+      "checked_on": "2026-09-21",
+      "check_method": "web_open_text",
+      "notes": "Complete life opened. Biblical episode is described in original Serbian prose without borrowing the site's quoted Bible translation or attributed patristic quotation. Mission and martyrdom remain Church Tradition. Individual author and publication date are not stated."
+    },
+    {
+      "id": "comp-oca-sergius-bacchus",
+      "url": "https://www.oca.org/saints/lives/2026/10/07/102888-martyrs-sergius-and-bacchus-in-syria",
+      "title_original": "Martyrs Sergius and Bacchus in Syria",
+      "publisher_original": "Orthodox Church in America",
+      "original_author": null,
+      "published_on": null,
+      "checked_on": "2026-09-21",
+      "check_method": "web_open_text",
+      "notes": "Complete life opened. The concise account omits graphic violence and does not copy reported dialogue. The Serbian commemoration name Srdjevdan comes from the bound local calendar record, not this English biography. Individual author and publication date are not stated."
+    }
+  ]
+}

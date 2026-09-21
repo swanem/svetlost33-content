@@ -1,0 +1,111 @@
+{
+  "articles": [
+    {
+      "id": "john-theologian-repose",
+      "date": "2026-10-09",
+      "julian_date": "2026-09-26",
+      "type": "saint",
+      "subtype": null,
+      "source_ids": ["comp-oca-john-theologian"],
+      "claims": [
+        {"location":"intro","label":"Апостол и сведочење љубави","kind":"church_tradition","source_ids":["comp-oca-john-theologian"]},
+        {"location":"body.1","label":"Позив, Преображење и брига о Богородици","kind":"church_tradition","source_ids":["comp-oca-john-theologian"]},
+        {"location":"body.2","label":"Ефес, Патмос и поучавање","kind":"church_tradition","source_ids":["comp-oca-john-theologian"]},
+        {"location":"body.3","label":"Повратак младића","kind":"church_tradition","source_ids":["comp-oca-john-theologian"]},
+        {"location":"takeaway","label":"Уреднички осврт, не цитат","kind":"editorial_reflection","source_ids":[]}
+      ],
+      "limitations": ["Exact-text owner review pending; no publication approval.","Civil date is inherited from the bound SPC calendar, not the OCA civil schedule.","Precise authorship chronology, miracles and burial details omitted; no independent historical verification.","Prior owner rights attestation is not an independent rights verification for this draft."]
+    },
+    {
+      "id": "callistratus-companions",
+      "date": "2026-10-10",
+      "julian_date": "2026-09-27",
+      "type": "group",
+      "subtype": null,
+      "source_ids": ["comp-oca-callistratus"],
+      "claims": [
+        {"location":"intro","label":"Војник и 49 сабораца","kind":"church_tradition","source_ids":["comp-oca-callistratus"]},
+        {"location":"body.1","label":"Картагина, молитва и испитивање","kind":"church_tradition","source_ids":["comp-oca-callistratus"]},
+        {"location":"body.2","label":"Избављење, обраћење и тамница","kind":"church_tradition","source_ids":["comp-oca-callistratus"]},
+        {"location":"body.3","label":"Заједничко страдање","kind":"church_tradition","source_ids":["comp-oca-callistratus"]},
+        {"location":"takeaway","label":"Уреднички осврт, не цитат","kind":"editorial_reflection","source_ids":[]}
+      ],
+      "limitations": ["Exact-text owner review pending; no publication approval.","Civil date is inherited from the bound SPC calendar.","Group count belongs to the consulted tradition; not an independently established historical census or complete named registry.","Graphic violence, speeches and prayers omitted. Prior owner rights attestation only; no independent rights verification."]
+    },
+    {
+      "id": "chariton-confessor",
+      "date": "2026-10-11",
+      "julian_date": "2026-09-28",
+      "type": "saint",
+      "subtype": null,
+      "source_ids": ["comp-oca-chariton"],
+      "claims": [
+        {"location":"intro","label":"Исповедник и монашки учитељ","kind":"church_tradition","source_ids":["comp-oca-chariton"]},
+        {"location":"body.1","label":"Иконија, прогон и ослобођење","kind":"church_tradition","source_ids":["comp-oca-chariton"]},
+        {"location":"body.2","label":"Путовање и Фаранска лавра","kind":"church_tradition","source_ids":["comp-oca-chariton"]},
+        {"location":"body.3","label":"Самоћа и три заједнице","kind":"church_tradition","source_ids":["comp-oca-chariton"]},
+        {"location":"takeaway","label":"Уреднички осврт, не цитат","kind":"editorial_reflection","source_ids":[]}
+      ],
+      "limitations": ["Exact-text owner review pending; no publication approval.","The accessible OCA narrative URL contains 2024; it supplies no 2026 civil-date binding. The bound SPC calendar supplies the date.","Deaths of robbers, exact chronology and attribution of liturgical authorship omitted.","Prior owner rights attestation only; no independent rights verification."]
+    },
+    {
+      "id": "cyriacus-anchorite-miholjdan",
+      "date": "2026-10-12",
+      "julian_date": "2026-09-29",
+      "type": "saint",
+      "subtype": null,
+      "source_ids": ["comp-oca-kyriakos","comp-mitropolija-miholjdan"],
+      "claims": [
+        {"location":"title, intro","label":"Киријак Отшелник и Михољдан","kind":"identity_crosscheck","source_ids":["comp-oca-kyriakos","comp-mitropolija-miholjdan"]},
+        {"location":"body.1","label":"Коринт и монашко образовање","kind":"church_tradition","source_ids":["comp-oca-kyriakos","comp-mitropolija-miholjdan"]},
+        {"location":"body.2","label":"Послушања, Псалтир и самоћа","kind":"church_tradition","source_ids":["comp-oca-kyriakos","comp-mitropolija-miholjdan"]},
+        {"location":"body.3","label":"Духовна помоћ посетиоцима","kind":"church_tradition","source_ids":["comp-oca-kyriakos","comp-mitropolija-miholjdan"]},
+        {"location":"takeaway","label":"Уреднички осврт, не цитат","kind":"editorial_reflection","source_ids":[]}
+      ],
+      "limitations": ["Exact-text owner review pending; no publication approval or catalog mutation.","The accessible OCA URL contains 1950; Mitropolija article publication is 2022-10-11. Neither supplies the app civil date; the bound SPC calendar does.","No claim about the folk name's etymology, Archangel Michael or local food/work customs.","Extreme asceticism and healing accounts are not reader instructions or health promises.","Prior owner rights attestation only; no independent rights verification."]
+    },
+    {
+      "id": "gregory-enlightener-armenia",
+      "date": "2026-10-13",
+      "julian_date": "2026-09-30",
+      "type": "saint",
+      "subtype": null,
+      "source_ids": ["comp-oca-gregory-armenia","comp-kinonija-gregory-armenia"],
+      "claims": [
+        {"location":"title, intro","label":"Григорије, јерменски просветитељ","kind":"identity_crosscheck","source_ids":["comp-oca-gregory-armenia","comp-kinonija-gregory-armenia"]},
+        {"location":"body.1","label":"Кесарија, Тиридат и исповедање","kind":"church_tradition","source_ids":["comp-oca-gregory-armenia","comp-kinonija-gregory-armenia"]},
+        {"location":"body.2","label":"Заточеништво и касније проповедање","kind":"church_tradition","source_ids":["comp-oca-gregory-armenia"]},
+        {"location":"body.3","label":"Устројавање црквеног живота","kind":"church_tradition","source_ids":["comp-oca-gregory-armenia"]},
+        {"location":"takeaway","label":"Уреднички осврт, не цитат","kind":"editorial_reflection","source_ids":[]}
+      ],
+      "limitations": ["Exact-text owner review pending. Expansion of the inherited short calendar title is a proposed identity binding, not a silently approved registry change.","The bound SPC calendar supplies the 2026 civil date; Kinonija crosschecks the named commemoration for 30 September / 13 October.","Retains the inherited hieromartyr title without claiming a violent death; consulted OCA narrative ends in retirement to the wilderness.","No precise royal genealogy, imprisonment duration, healing promise or universal conversion census.","Prior owner rights attestation only; no independent rights verification."]
+    },
+    {
+      "id": "protection-theotokos",
+      "date": "2026-10-14",
+      "julian_date": "2026-10-01",
+      "type": "feast",
+      "subtype": "feast",
+      "source_ids": ["comp-oca-protection","comp-sumadija-protection"],
+      "claims": [
+        {"location":"intro","label":"Богородичино заступништво","kind":"church_tradition","source_ids":["comp-oca-protection","comp-sumadija-protection"]},
+        {"location":"body.1","label":"Влахерна, Андреј и Епифаније","kind":"church_tradition","source_ids":["comp-oca-protection","comp-sumadija-protection"]},
+        {"location":"body.2","label":"Покров и молитва за народ","kind":"church_tradition","source_ids":["comp-oca-protection","comp-sumadija-protection"]},
+        {"location":"source_notes","label":"Ограничење хронологије","kind":"source_limit","source_ids":["comp-oca-protection","comp-sumadija-protection"]},
+        {"location":"takeaway","label":"Уреднички осврт, не цитат","kind":"editorial_reflection","source_ids":[]}
+      ],
+      "limitations": ["Exact-text owner review pending; no publication approval.","The bound SPC calendar supplies 2026-10-14, not OCA's 1 October civil schedule.","OCA mentions mid-tenth century and competing raid chronologies; Sumadija gives 911. Draft omits a precise year, raid and founder-date claim.","Feast, not a biography; no claim it is one of the Twelve Great Feasts.","No invented or copied prayer, promise of immunity from suffering, or modern icon reuse.","Prior owner rights attestation only; no independent rights verification."]
+    }
+  ],
+  "sources": [
+    {"id":"comp-oca-john-theologian","url":"https://www.oca.org/saints/lives/2026/09/26/102731-repose-of-the-holy-apostle-and-evangelist-john-the-theologian","title_original":"Repose of the Holy Apostle and Evangelist John the Theologian","publisher_original":"Orthodox Church in America","original_author":null,"published_on":null,"checked_on":"2026-09-21","check_method":"web_open_text","notes":"Complete life narrative read, including introductory and concluding paragraphs. No original author or publication date established; URL year is not a publication date. Narrative consulted for an original short summary, not copied prayers or text-license confirmation."},
+    {"id":"comp-oca-callistratus","url":"https://www.oca.org/saints/lives/2026/09/27/102736-martyr-callistratus-and-49-companions","title_original":"Martyr Callistratus and 49 companions","publisher_original":"Orthodox Church in America","original_author":null,"published_on":null,"checked_on":"2026-09-21","check_method":"web_open_text","notes":"Complete life narrative read. Group and narrative motifs are church-tradition claims; graphic details omitted. No prayer, hymn, image or whole translated life copied; rights not independently verified."},
+    {"id":"comp-oca-chariton","url":"https://www.oca.org/saints/lives/2024/09/28/102742-venerable-chariton-the-confessor-abbot-of-palestine","title_original":"Venerable Chariton the Confessor, Abbot of Palestine","publisher_original":"Orthodox Church in America","original_author":null,"published_on":null,"checked_on":"2026-09-21","check_method":"web_open_text","notes":"Complete narrative read after opening the article near its heading. Attempts at 2026 and 2046 URLs failed; this accessible 2024 URL was actually consulted. The year is not used for civil-date binding or publication metadata. Exact chronology and liturgical-authorship claims omitted; rights not independently verified."},
+    {"id":"comp-oca-kyriakos","url":"https://www.oca.org/saints/lives/1950/09/29/102813-venerable-kyriakos-the-anchorite","title_original":"Venerable Kyriakos the Anchorite","publisher_original":"Orthodox Church in America","original_author":null,"published_on":null,"checked_on":"2026-09-21","check_method":"web_open_text","notes":"Complete narrative and explanatory footnotes read. Requested 2026 URL was inaccessible; this dated route serves as narrative source only. Psalter reading and monastic setting used; strict dietary instructions, healing details and hymn translations omitted. Rights not independently verified."},
+    {"id":"comp-mitropolija-miholjdan","url":"https://mitropolija.com/2022/10/11/prepodobni-kirijak-otselnik-miholjdan-2/","title_original":"Преподобни Киријак Отшелник – Михољдан","publisher_original":"Православна Митрополија црногорско-приморска","original_author":null,"published_on":"2022-10-11","checked_on":"2026-09-21","check_method":"web_open_text","notes":"Read title and complete short biography, before the troparion. Crosschecks identity, name Miholjdan and explanation of anchorite title. Publication timestamp is not the calendar observance date. Troparion not reused; original authorship and reuse permission not independently established."},
+    {"id":"comp-oca-gregory-armenia","url":"https://www.oca.org/saints/lives/2026/09/30/102818-hieromartyr-gregory-bishop-of-greater-armenia-equal-of-the-apost","title_original":"Hieromartyr Gregory, Bishop of Greater Armenia, Equal of the Apostles, Enlightener of Armenia","publisher_original":"Orthodox Church in America","original_author":null,"published_on":null,"checked_on":"2026-09-21","check_method":"web_open_text","notes":"Complete narrative read. Distinguishes Armenian enlightener from other saints Gregory. Main biography source; no exact chronology, medical inference, violent detail or hymn reused. Rights not independently verified."},
+    {"id":"comp-kinonija-gregory-armenia","url":"https://kinonija.rs/praznici/kalendar-za-30-septembar-13-oktobar/","title_original":"Календар за 30. септембар / 13. октобар","publisher_original":"Кинонија — портал при Мисионарском одељењу Архиепископије београдско-карловачке","original_author":null,"published_on":"2024-10-12","checked_on":"2026-09-21","check_method":"web_open_text","notes":"Checked publisher identification, dated heading, named Armenian bishop/enlightener and opening biographical section through service to Tiridates. Not presented as a complete read of the long article. Primary Serbian church crosscheck of abbreviated calendar identity; no copied prose or rights clearance."},
+    {"id":"comp-oca-protection","url":"https://www.oca.org/saints/lives/2026/10/01/102824-the-protection-of-our-most-holy-lady-the-mother-of-god-and-ever","title_original":"The Protection of our Most Holy Lady the Mother of God and Ever-Virgin Mary","publisher_original":"Orthodox Church in America","original_author":null,"published_on":null,"checked_on":"2026-09-21","check_method":"web_open_text","notes":"Complete narrative read, including its explicit historical complications. Used for feast meaning and attributed vision only; avoids selecting one disputed chronological account. No prayer, hymn or image reused; rights not independently verified."},
+    {"id":"comp-sumadija-protection","url":"https://www.eparhija-sumadijska.org.rs/index.php/%D0%B1%D0%B8%D0%B1%D0%BB%D0%B8%D0%BE%D1%82%D0%B5%D0%BA%D0%B0/7131-pokrov-presvete-bogorodice","title_original":"ПОКРОВ ПРЕСВЕТЕ БОГОРОДИЦЕ","publisher_original":"Епархија шумадијска","original_author":null,"published_on":null,"checked_on":"2026-09-21","check_method":"web_open_text","notes":"Read title and short introductory feast account before the longer homiletic exposition. This opening identifies Blachernae, Andrew, Epiphanius and year911. Year omitted because OCA narrative presents historical complications. No publication date or original-author attribution established in reviewed heading; no copied homily or rights clearance."}
+  ]
+}

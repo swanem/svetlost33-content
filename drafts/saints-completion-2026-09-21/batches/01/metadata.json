@@ -1,0 +1,234 @@
+{
+  "document_kind": "editorial_batch_metadata_not_runtime_payload",
+  "prepared_on": "2026-09-21",
+  "review_status": "pending_human_exact_text_review",
+  "owner_approval": null,
+  "clerical_review": null,
+  "rights_context": "Prior user rights-owner assertion is preserved by the parent task; it is not exact-text approval of these new drafts.",
+  "date_proof": "drafts/saints-expansion-2026-09-21/coverage.json and its exact bound calendar payload; OCA URL dates and article publication dates do not establish the SPC civil dates.",
+  "authorship": {
+    "kind": "original_editorial_summary",
+    "assistance": "ai",
+    "takeaway": "Editorial interpretation, not source quotation or prayer."
+  },
+  "articles": [
+    {
+      "id": "greatmartyr-eustathius",
+      "date": "2026-10-03",
+      "julian_date": "2026-09-20",
+      "type": "saint",
+      "subtype": null,
+      "source_ids": ["comp-oca-eustathius"],
+      "claims": [
+        {"location": "intro; body[0]", "label": "Плакида; војсковођа; крштење породице; виђење.", "kind": "church_tradition", "source_ids": ["comp-oca-eustathius"]},
+        {"location": "body[1]; body[2]", "label": "Раздвајање, сусрет, Адријан, мучеништво.", "kind": "church_tradition", "source_ids": ["comp-oca-eustathius"]},
+        {"location": "takeaway", "label": "Уреднички осврт.", "kind": "editorial_interpretation", "source_ids": []}
+      ],
+      "limitations": [
+        "Vision and family narrative are presented as hagiographical tradition, not independently established historical facts.",
+        "Single-saint article follows the bound calendar title; relatives are biographical context and do not create a complete family observance registry.",
+        "No borrowed prayer, troparion, exact death year or graphic violence."
+      ]
+    },
+    {
+      "id": "apostle-quadratus",
+      "date": "2026-10-04",
+      "julian_date": "2026-09-21",
+      "type": "saint",
+      "subtype": null,
+      "source_ids": ["comp-oca-quadratus", "comp-spc-quadratus"],
+      "claims": [
+        {"location": "intro; body[0]; body[1]", "label": "Седамдесеторица; Атина, Магнезија; заточење.", "kind": "church_tradition", "source_ids": ["comp-oca-quadratus", "comp-spc-quadratus"]},
+        {"location": "body[2]", "label": "Приписивање одбране хришћанства.", "kind": "church_source_attribution_not_resolved_historical_identity", "source_ids": ["comp-oca-quadratus"]},
+        {"location": "body[2], second sentence; takeaway", "label": "Уредничко тумачење.", "kind": "editorial_interpretation", "source_ids": []}
+      ],
+      "calendar_note": {
+        "kind": "leavetaking",
+        "label_cyrl": "Оданије Воздвижења",
+        "related_article_id": "exaltation-cross",
+        "source_ids": ["eparhija-month-10"],
+        "date_proof": "drafts/saints-expansion-2026-09-21/coverage.json#2026-10-04",
+        "status": "proposal_for_parent_assembly_not_runtime_note"
+      },
+      "limitations": [
+        "OCA describes him as Bishop of Athens; the SPC indexed account places the episcopate at Magnesia. Specific episcopal seat is omitted.",
+        "The identification of the apostolic figure with the apologist is not independently resolved; wording reports the church source's attribution. Exact year and alleged decree effect are omitted.",
+        "SPC was consulted through its substantive indexed text; direct web open returned Cache miss.",
+        "Leavetaking remains separate date context; no new feast article or person identity was created."
+      ]
+    },
+    {
+      "id": "hieromartyr-phocas-sinope",
+      "date": "2026-10-05",
+      "julian_date": "2026-09-22",
+      "type": "saint",
+      "subtype": null,
+      "source_ids": ["comp-oca-phocas", "comp-mcp-phocas"],
+      "claims": [
+        {"location": "intro; body[0]", "label": "Синопски епископ; пастирска служба.", "kind": "church_tradition", "source_ids": ["comp-oca-phocas", "comp-mcp-phocas"]},
+        {"location": "body[1]", "label": "Трајан; верност; мучеништво.", "kind": "church_tradition", "source_ids": ["comp-oca-phocas", "comp-mcp-phocas"]},
+        {"location": "body[2]; takeaway", "label": "Уреднички осврт.", "kind": "editorial_interpretation", "source_ids": []}
+      ],
+      "limitations": [
+        "Identity is Phocas, Bishop of Sinope, not the separate gardener also commemorated on September 22 in OCA listings.",
+        "Exact martyrdom year omitted; no transfer date, miracle promise or graphic account included.",
+        "MCP publication date is the eve of the civil commemoration and is not calendar date evidence."
+      ]
+    },
+    {
+      "id": "conception-john-forerunner",
+      "date": "2026-10-06",
+      "julian_date": "2026-09-23",
+      "type": "feast",
+      "subtype": "feast",
+      "source_ids": ["comp-oca-conception-john"],
+      "claims": [
+        {"location": "intro; body[0]; body[1]", "label": "Захарија, Јелисавета, Гаврило; благовест.", "kind": "scriptural_narrative_via_church_summary", "source_ids": ["comp-oca-conception-john"]},
+        {"location": "body[2]", "label": "Јованова служба Претече.", "kind": "church_theological_interpretation", "source_ids": ["comp-oca-conception-john"]},
+        {"location": "takeaway", "label": "Уреднички осврт.", "kind": "editorial_interpretation", "source_ids": []}
+      ],
+      "limitations": [
+        "A feast article, not a general biography or a birthday observance.",
+        "Church summary of the Gospel narrative was consulted; no licensed Bible translation was copied.",
+        "No health advice or fertility guarantee."
+      ]
+    },
+    {
+      "id": "protomartyr-thecla",
+      "date": "2026-10-07",
+      "julian_date": "2026-09-24",
+      "type": "saint",
+      "subtype": null,
+      "source_ids": ["comp-oca-thecla"],
+      "claims": [
+        {"location": "intro; body[0]", "label": "Иконија; Павлова проповед; одлука.", "kind": "church_tradition", "source_ids": ["comp-oca-thecla"]},
+        {"location": "body[1]; body[2]", "label": "Првомученица; равноапостолна; Селевкија.", "kind": "church_tradition_and_titles", "source_ids": ["comp-oca-thecla"]},
+        {"location": "takeaway", "label": "Уреднички осврт.", "kind": "editorial_interpretation", "source_ids": []}
+      ],
+      "limitations": [
+        "Protomartyr title is not paraphrased as a claim that she died during her first persecution; the source narrates a later life.",
+        "Miraculous deliverances are marked as tradition; detailed violence, sexual assault and healing claims are omitted.",
+        "Hagiographical narrative is not an independent historical reconstruction."
+      ]
+    },
+    {
+      "id": "euphrosyne-alexandria",
+      "date": "2026-10-08",
+      "julian_date": "2026-09-25",
+      "type": "saint",
+      "subtype": null,
+      "source_ids": ["comp-oca-euphrosyne", "comp-mcp-euphrosyne"],
+      "claims": [
+        {"location": "intro; body[0]", "label": "Александрија; Пафнутије; Измарагд.", "kind": "church_tradition", "source_ids": ["comp-oca-euphrosyne", "comp-mcp-euphrosyne"]},
+        {"location": "body[1]; body[2]", "label": "Монаштво; служење; очева утеха.", "kind": "church_tradition", "source_ids": ["comp-oca-euphrosyne", "comp-mcp-euphrosyne"]},
+        {"location": "takeaway", "label": "Уреднички осврт.", "kind": "editorial_interpretation", "source_ids": []}
+      ],
+      "limitations": [
+        "Identity is the Alexandrian ascetic, not Euphrosyne of Suzdal or the Serbian princess Milica.",
+        "MCP text was consulted through substantive indexed text; direct opens of 2024 and 2022 versions returned Cache miss.",
+        "The unusual monastic and family narrative is presented as tradition, not a general recommendation to conceal identity or leave family."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "comp-oca-eustathius",
+      "url": "https://www.oca.org/saints/lives/2026/09/20/102674-greatmartyr-eustthios-placidas-with-his-wife-and-children-of-rom",
+      "title_original": "Greatmartyr Eustáthios Placidas, with his wife and children, of Rome",
+      "publisher_original": "Orthodox Church in America",
+      "original_author": null,
+      "published_on": null,
+      "checked_on": "2026-09-21",
+      "check_method": "web_open_text",
+      "notes": "Full hagiographical prose read; individual author and publication date not stated."
+    },
+    {
+      "id": "comp-oca-quadratus",
+      "url": "https://www.oca.org/saints/lives/2026/09/21/102683-apostle-quadratus-of-the-seventy",
+      "title_original": "Apostle Quadratus of the Seventy",
+      "publisher_original": "Orthodox Church in America",
+      "original_author": null,
+      "published_on": null,
+      "checked_on": "2026-09-21",
+      "check_method": "web_open_text",
+      "notes": "Full prose read; Apologia attribution reported with qualification."
+    },
+    {
+      "id": "comp-spc-quadratus",
+      "url": "https://spc.rs/sr/news/10103.sveti-apostol-kodrat.html",
+      "title_original": "Свети апостол Кодрат",
+      "publisher_original": "Српска православна црква",
+      "original_author": null,
+      "published_on": "2025-10-04",
+      "checked_on": "2026-09-21",
+      "check_method": "web_search_index_text",
+      "notes": "Substantive indexed article read. Direct open returned Cache miss. Publication date displayed in index; no individual author identified."
+    },
+    {
+      "id": "comp-oca-phocas",
+      "url": "https://www.oca.org/saints/lives/2026/09/22/102695-hieromartyr-phocas-bishop-of-sinope",
+      "title_original": "Hieromartyr Phocas, Bishop of Sinope",
+      "publisher_original": "Orthodox Church in America",
+      "original_author": null,
+      "published_on": null,
+      "checked_on": "2026-09-21",
+      "check_method": "web_open_text",
+      "notes": "Full episcopal life read. Separate gardener result inspected only for disambiguation, not summarized."
+    },
+    {
+      "id": "comp-mcp-phocas",
+      "url": "https://mitropolija.com/2025/10/04/sveti-svestenomucenik-foka-episkop-sinopski/",
+      "title_original": "Свети свештеномученик Фока епископ Синопски",
+      "publisher_original": "Православна Митрополија црногорско-приморска",
+      "original_author": "Свети Владика Николај",
+      "published_on": "2025-10-04",
+      "checked_on": "2026-09-21",
+      "check_method": "web_open_text",
+      "notes": "Full prose read; source footer explicitly attributes Prolog to Sveti Vladika Nikolaj. Publication timestamp is 19:37."
+    },
+    {
+      "id": "comp-oca-conception-john",
+      "url": "https://www.oca.org/saints/lives/2026/09/23/102703-conception-of-the-honorable-glorious-prophet-forerunner-and-bapt",
+      "title_original": "Conception of the Honorable Glorious Prophet, Forerunner and Baptist John",
+      "publisher_original": "Orthodox Church in America",
+      "original_author": null,
+      "published_on": null,
+      "checked_on": "2026-09-21",
+      "check_method": "web_open_text",
+      "notes": "Full church narrative read. No prayer or Bible translation copied."
+    },
+    {
+      "id": "comp-oca-thecla",
+      "url": "https://www.oca.org/saints/lives/2026/09/24/102715-protomartyr-and-equal-of-the-apostles-thekla",
+      "title_original": "Protomartyr and Equal of the Apostles Thekla",
+      "publisher_original": "Orthodox Church in America",
+      "original_author": null,
+      "published_on": null,
+      "checked_on": "2026-09-21",
+      "check_method": "web_open_text",
+      "notes": "Full life opened through calendar link and read; miracle narratives not treated as independently verified history."
+    },
+    {
+      "id": "comp-oca-euphrosyne",
+      "url": "https://www.oca.org/saints/lives/2026/09/25/102726-venerable-euphrosyne-of-alexandria",
+      "title_original": "Venerable Euphrosyne of Alexandria",
+      "publisher_original": "Orthodox Church in America",
+      "original_author": null,
+      "published_on": null,
+      "checked_on": "2026-09-21",
+      "check_method": "web_open_text",
+      "notes": "Full Alexandrian life read; same-date Suzdal listing checked for disambiguation only."
+    },
+    {
+      "id": "comp-mcp-euphrosyne",
+      "url": "https://mitropolija.com/2024/10/08/prepodobna-efrosinija-3/",
+      "title_original": "Преподобна Ефросинија",
+      "publisher_original": "Православна Митрополија црногорско-приморска",
+      "original_author": null,
+      "published_on": "2024-10-08",
+      "checked_on": "2026-09-21",
+      "check_method": "web_search_index_text",
+      "notes": "Substantive indexed life corroborates Alexandrian identity and Serbian monastic name. Direct open returned Cache miss; publication date is index evidence."
+    }
+  ]
+}

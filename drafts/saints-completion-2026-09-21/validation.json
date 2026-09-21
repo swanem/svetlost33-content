@@ -1,0 +1,193 @@
+{
+  "status": "STRUCTURAL_PASS_PENDING_EDITORIAL_APPROVAL",
+  "generated_on": "2026-09-21",
+  "owner_approval": null,
+  "signed": false,
+  "published": false,
+  "runtime_eligible": false,
+  "baseline": {
+    "saints": {
+      "path": "releases/v2/production/releases/shared-saints-expansion-2026-09-21-m0v2-s8/modules/saints-v1-2026.9.21-r2/data/saints-v1.json",
+      "sha256": "e85c725d109a322c109e8455bf94c6ddd28c113e67cd77dde9f34642d3559a21"
+    },
+    "calendar": {
+      "path": "releases/v2/production/releases/shared-annual-2026-r1-m0v2-s2/modules/calendar-2026-r1-2026.1.1-r2/data/calendar.2026.json",
+      "sha256": "a1b6a5d5911ae03f77802bd466227f0c1ea4fe97708b1b6f92cd4b08847c7c9c"
+    },
+    "catalog": {
+      "path": "releases/v2/production/releases/shared-saints-expansion-2026-09-21-m0v2-s8/modules/liturgical-catalog-v1-2026.9.20-r3/data/liturgical-catalog-v1.json",
+      "sha256": "f202bff8a92f4d4f84a6c025ea67144bf61c2df3fe38030fc446de2116d82e8c"
+    }
+  },
+  "inputs": [
+    {
+      "path": "drafts/saints-completion-2026-09-21/batches/01/TEKSTOVI.md",
+      "sha256": "42c429a3f4bab99c4176b0c27a7b431d31f17373d7fb71f2533f9e1f10c4e6ec"
+    },
+    {
+      "path": "drafts/saints-completion-2026-09-21/batches/01/metadata.json",
+      "sha256": "914709f92770d101a08b84365e4e50866f884f544d7762dc88026b8cab6f2049"
+    },
+    {
+      "path": "drafts/saints-completion-2026-09-21/batches/02/TEKSTOVI.md",
+      "sha256": "4b611b574d270855f322bc5cbc2a81e79c6605a159dff6b08fe927bafb5c638f"
+    },
+    {
+      "path": "drafts/saints-completion-2026-09-21/batches/02/metadata.json",
+      "sha256": "f32c2fcc2d2e34c476d83d01a854010d03a816f228e159c49d138781f5fff91b"
+    },
+    {
+      "path": "drafts/saints-completion-2026-09-21/batches/03/TEKSTOVI.md",
+      "sha256": "5e76d873a0fe43961c6e3f945805c5ed0eebf16eba64e1c6a82cf7d063a568a3"
+    },
+    {
+      "path": "drafts/saints-completion-2026-09-21/batches/03/metadata.json",
+      "sha256": "0a7726647798fb17b4865edc3a1bb59d420d45d1bcac42dc3a528284f5c8af1a"
+    }
+  ],
+  "manuscript_sha256": "c7d7e8ea931ae9f88fed2e7c3678a6f895028c08dff72110dc55b08ddbb06609",
+  "payload": {
+    "path": "saints-v1.draft.json",
+    "bytes": 138924,
+    "sha256": "c8df176dc5e5355f8eb355b94b1da59dd4ae215ba95ab7ef0bf24a29826fd21c",
+    "articles": 32,
+    "days": 32,
+    "review_status": "draft"
+  },
+  "window": {
+    "from": "2026-09-21",
+    "to": "2026-10-20",
+    "days": 30,
+    "calendar_profile_id": "spc-rs-ba-julian-v1"
+  },
+  "counts": {
+    "published_days_in_window": 12,
+    "draft_days_in_window": 18,
+    "unwritten_days_in_window": 0,
+    "published_articles_total": 14,
+    "candidate_articles_total": 32
+  },
+  "word_counts": [
+    {
+      "id": "greatmartyr-eustathius",
+      "date": "2026-10-03",
+      "cyrl": 148,
+      "latn": 148
+    },
+    {
+      "id": "apostle-quadratus",
+      "date": "2026-10-04",
+      "cyrl": 138,
+      "latn": 138
+    },
+    {
+      "id": "hieromartyr-phocas-sinope",
+      "date": "2026-10-05",
+      "cyrl": 138,
+      "latn": 138
+    },
+    {
+      "id": "conception-john-forerunner",
+      "date": "2026-10-06",
+      "cyrl": 155,
+      "latn": 155
+    },
+    {
+      "id": "protomartyr-thecla",
+      "date": "2026-10-07",
+      "cyrl": 152,
+      "latn": 152
+    },
+    {
+      "id": "euphrosyne-alexandria",
+      "date": "2026-10-08",
+      "cyrl": 153,
+      "latn": 153
+    },
+    {
+      "id": "john-theologian-repose",
+      "date": "2026-10-09",
+      "cyrl": 144,
+      "latn": 144
+    },
+    {
+      "id": "callistratus-companions",
+      "date": "2026-10-10",
+      "cyrl": 141,
+      "latn": 141
+    },
+    {
+      "id": "chariton-confessor",
+      "date": "2026-10-11",
+      "cyrl": 150,
+      "latn": 150
+    },
+    {
+      "id": "cyriacus-anchorite-miholjdan",
+      "date": "2026-10-12",
+      "cyrl": 147,
+      "latn": 147
+    },
+    {
+      "id": "gregory-enlightener-armenia",
+      "date": "2026-10-13",
+      "cyrl": 133,
+      "latn": 133
+    },
+    {
+      "id": "protection-theotokos",
+      "date": "2026-10-14",
+      "cyrl": 118,
+      "latn": 118
+    },
+    {
+      "id": "cyprian-antioch-justina",
+      "date": "2026-10-15",
+      "cyrl": 146,
+      "latn": 146
+    },
+    {
+      "id": "dionysius-areopagite",
+      "date": "2026-10-16",
+      "cyrl": 138,
+      "latn": 138
+    },
+    {
+      "id": "hierotheus-athens",
+      "date": "2026-10-17",
+      "cyrl": 125,
+      "latn": 125
+    },
+    {
+      "id": "martyr-charitina-amisos",
+      "date": "2026-10-18",
+      "cyrl": 146,
+      "latn": 146
+    },
+    {
+      "id": "apostle-thomas",
+      "date": "2026-10-19",
+      "cyrl": 141,
+      "latn": 141
+    },
+    {
+      "id": "sergius-bacchus",
+      "date": "2026-10-20",
+      "cyrl": 144,
+      "latn": 144
+    }
+  ],
+  "preserved": {
+    "previous_14_articles": true,
+    "previous_14_days": true,
+    "previous_sources": true,
+    "calendar_binding": true,
+    "production_files_untouched": true
+  },
+  "limitations": [
+    "No native UI/upgrade testing of this draft.",
+    "No new canonically reviewed Save links.",
+    "Existing catalog article binding must be updated only during an approved shared release.",
+    "Human exact-text approval and independent clerical review are not supplied."
+  ]
+}
