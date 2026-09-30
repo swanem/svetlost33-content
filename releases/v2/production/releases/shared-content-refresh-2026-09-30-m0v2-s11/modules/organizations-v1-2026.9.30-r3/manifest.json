@@ -1,0 +1,21 @@
+{
+  "schema_version": "svetlost33-module-manifest-2",
+  "module_id": "organizations-v1",
+  "module_type": "organizations",
+  "version": "2026.9.30",
+  "revision": 3,
+  "key_id": "svetlost33-content-2026-key-1",
+  "capabilities": [
+    "organizations-v1"
+  ],
+  "dependencies": [],
+  "files": [
+    {
+      "path": "data/organizations-v1.json",
+      "bytes": 11073,
+      "sha256": "9f3a9c178fed8beec842f2612f64fe6aa4e620fbbba92db02ba472bf288a0428",
+      "content_type": "application/json",
+      "encoding": "utf-8"
+    }
+  ]
+}
