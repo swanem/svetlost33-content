@@ -1,0 +1,26 @@
+{
+  "schema_version": "svetlost33-module-manifest-2",
+  "module_id": "saints-v1",
+  "module_type": "library",
+  "version": "2026.10.6",
+  "revision": 6,
+  "key_id": "svetlost33-content-2026-key-1",
+  "capabilities": [
+    "saints-v1"
+  ],
+  "dependencies": [
+    {
+      "module_id": "calendar-2026-r1",
+      "version": "2026.10.6"
+    }
+  ],
+  "files": [
+    {
+      "path": "data/saints-v1.json",
+      "bytes": 399124,
+      "sha256": "4c418f4f8f3eb09f3613218b2c65cc444049ccdd886fb17f3e4426bfa03abafa",
+      "content_type": "application/json",
+      "encoding": "utf-8"
+    }
+  ]
+}
