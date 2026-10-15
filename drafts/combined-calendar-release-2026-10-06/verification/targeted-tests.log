@@ -1,0 +1,52 @@
+TAP version 13
+# Subtest: Exact unsigned approved-copy reproducibility, six absent signatures, bounded18-path allowlist; development blocked
+ok 1 - Exact unsigned approved-copy reproducibility, six absent signatures, bounded18-path allowlist; development blocked
+  ---
+  duration_ms: 38.958167
+  type: 'test'
+  ...
+# Subtest: Only four module identities changed; all old signed history and library/cycles/charities preserved
+ok 2 - Only four module identities changed; all old signed history and library/cycles/charities preserved
+  ---
+  duration_ms: 4.86625
+  type: 'test'
+  ...
+# Subtest: All104 article objects/days/sources identical; only authorized A+B rows promoted with actual approval ID
+ok 3 - All104 article objects/days/sources identical; only authorized A+B rows promoted with actual approval ID
+  ---
+  duration_ms: 1.279291
+  type: 'test'
+  ...
+# Subtest: Only31 pinned Gospel operations, exact publisher registration, true display eligibility; all other annual fields untouched
+ok 4 - Only31 pinned Gospel operations, exact publisher registration, true display eligibility; all other annual fields untouched
+  ---
+  duration_ms: 3.216042
+  type: 'test'
+  ...
+# Subtest: Calendar→saints→catalog→browser exact raw bindings/dependencies and full semantic checks
+ok 5 - Calendar→saints→catalog→browser exact raw bindings/dependencies and full semantic checks
+  ---
+  duration_ms: 743.926542
+  type: 'test'
+  ...
+# Subtest: Wrong dependency, payload bytes, stale binding, forged zachalo and missing corpus verse fail closed
+ok 6 - Wrong dependency, payload bytes, stale binding, forged zachalo and missing corpus verse fail closed
+  ---
+  duration_ms: 43.653958
+  type: 'test'
+  ...
+# Subtest: Old review/service gates preserved, no native/signature/publication acceptance claimed, immutable inputs unchanged
+ok 7 - Old review/service gates preserved, no native/signature/publication acceptance claimed, immutable inputs unchanged
+  ---
+  duration_ms: 75.023791
+  type: 'test'
+  ...
+1..7
+# tests 7
+# suites 0
+# pass 7
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 2047.775791

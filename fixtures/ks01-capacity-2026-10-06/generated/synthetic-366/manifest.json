@@ -1,0 +1,65 @@
+{
+  "schema_version": "svetlost33-test-fixture-files-1",
+  "warning": "TEST_ONLY_SYNTHETIC_TRUST_AND_REVIEW_NEVER_PUBLISH_NOT_OWNER_APPROVAL",
+  "publishable": false,
+  "files": [
+    {
+      "path": "synthetic-366/saints-v1.json",
+      "bytes": 1273172,
+      "sha256": "6e2b2fcb66984b48c1972ecda98bd63169b6c98bf721150466d4011395abb5f9"
+    },
+    {
+      "path": "synthetic-366/liturgical-catalog-v1.json",
+      "bytes": 904396,
+      "sha256": "01c2a4faebf5a6d6abaa6e265c0e3535e5e052ce5570ff10bb152c2a8bcae561"
+    },
+    {
+      "path": "synthetic-366/calendar-browser-v1.json",
+      "bytes": 97941,
+      "sha256": "269f85ab89437489ed2e29466e3f2f73fc5a6a6c29485a35a5139e9381dc2e00"
+    },
+    {
+      "path": "synthetic-366/contexts.json",
+      "bytes": 1661653,
+      "sha256": "84d8345fd7a18789cbe28c2e53a03863a738e51ab0546ecbf210330b741aad43"
+    },
+    {
+      "path": "synthetic-366/TEST-ONLY.json",
+      "bytes": 487,
+      "sha256": "2ba4c4ed20047d937900d880ce396945be9401d615aecea4882e1197cafb75c9"
+    }
+  ],
+  "measurements": {
+    "name": "synthetic-366",
+    "purpose": "TEST_ONLY_SYNTHETIC_TRUST_AND_REVIEW_NEVER_PUBLISH_NOT_OWNER_APPROVAL",
+    "synthetic_articles": 304,
+    "raw_bytes": {
+      "saints": 1273172,
+      "catalog": 904396,
+      "browser": 97941,
+      "calendar": 1665524
+    },
+    "saints_counts": {
+      "articles": 366,
+      "sources": 384,
+      "days": 62,
+      "max_articles_per_day": 6
+    },
+    "catalog_counts": {
+      "sources": 386,
+      "subjects": 384,
+      "observances": 400,
+      "occurrences": 398,
+      "article_links": 377,
+      "calendar_bindings": 1,
+      "article_bindings": 1
+    },
+    "distinct_test_identity_links": 366,
+    "browser_counts": {
+      "memberships": 21,
+      "archive_days": 94
+    },
+    "preserved_original_article_objects": 62,
+    "note": "All 62 original article objects retained unchanged; copied test articles and 366-way identity/source/link load are never real content or publication permission."
+  }
+}

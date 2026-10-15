@@ -1,0 +1,415 @@
+{
+  "schema_version": "svetlost33-charity-refresh-review-1",
+  "reviewed_at": "2026-09-30T10:55:30Z",
+  "status": "technical_source_review_only_unsigned_unapproved",
+  "method": "Official primary pages read with web browsing, followed by live HTTPS GET; raw page bodies were hashed in memory and discarded. HTTP200 verifies retrieval only, not a donation transaction or independent legal registry audit.",
+  "http_checks": [
+    {
+      "url": "https://www.nurdor.org/identifikacioni-podaci",
+      "checked_at": "2026-09-30T10:53:37.994Z",
+      "final_url": "https://www.nurdor.org/identifikacioni-podaci",
+      "status": 200,
+      "bytes": 23600,
+      "sha256": "c7e7c56d0c674947098ce8c4a88fc17ff94fe67bbc62adc541902dbb0e562fdd",
+      "title": "Nurdor | Identifikacioni podaci",
+      "social_hrefs": [
+        "https://www.facebook.com/nurdor/",
+        "https://www.instagram.com/nurdor_srbija/",
+        "https://rs.linkedin.com/in/nurdor-serbia",
+        "https://twitter.com/NURDOR/"
+      ]
+    },
+    {
+      "url": "https://www.nurdor.org/doniraj",
+      "checked_at": "2026-09-30T10:53:38.020Z",
+      "final_url": "https://www.nurdor.org/doniraj",
+      "status": 200,
+      "bytes": 27330,
+      "sha256": "5f03f840b84eeedc8de037343d0056d92eb6f9b8f72f141205b883c4146bd6fb",
+      "title": "Nurdor | Izaberite donaciju",
+      "social_hrefs": [
+        "https://www.facebook.com/nurdor/",
+        "https://www.instagram.com/nurdor_srbija/",
+        "https://rs.linkedin.com/in/nurdor-serbia",
+        "https://twitter.com/NURDOR/"
+      ]
+    },
+    {
+      "url": "https://www.nurdor.org/nase-price",
+      "checked_at": "2026-09-30T10:53:38.021Z",
+      "final_url": "https://www.nurdor.org/nase-price",
+      "status": 200,
+      "bytes": 39013,
+      "sha256": "4c48f98089f547d48a06a218f9ae138c007ae73b07ba2b2de2f07fee1bee6b18",
+      "title": "Nurdor | Naše priče",
+      "social_hrefs": [
+        "https://www.facebook.com/nurdor/",
+        "https://www.instagram.com/nurdor_srbija/",
+        "https://rs.linkedin.com/in/nurdor-serbia",
+        "https://twitter.com/NURDOR/"
+      ]
+    },
+    {
+      "url": "https://www.nurdor.org/medijski-kutak",
+      "checked_at": "2026-09-30T10:53:38.022Z",
+      "final_url": "https://www.nurdor.org/medijski-kutak",
+      "status": 200,
+      "bytes": 27176,
+      "sha256": "96464a087fa4224b4d2a6c6aaababc1b46e83dcc7355eb0024bf342030bf8464",
+      "title": "Nurdor | Medijski kutak",
+      "social_hrefs": [
+        "https://www.facebook.com/nurdor/",
+        "https://www.instagram.com/nurdor_srbija/",
+        "https://rs.linkedin.com/in/nurdor-serbia",
+        "https://twitter.com/NURDOR/"
+      ]
+    },
+    {
+      "url": "https://norbs.rs/fondacija-norbs-plus/",
+      "checked_at": "2026-09-30T10:53:38.022Z",
+      "final_url": "https://norbs.rs/fondacija-norbs-plus/",
+      "status": 200,
+      "bytes": 70431,
+      "sha256": "0289e743569de8926c7edc5427f3520cc8f946f76c239d6d1aeffc7f6ca748ce",
+      "title": "Fondacija NORBS+ - NORBS",
+      "social_hrefs": [
+        "https://www.facebook.com/NORBSPlus",
+        "https://twitter.com/NorbsPlus",
+        "https://www.instagram.com/norbsplus/",
+        "https://rs.linkedin.com/company/fondacija-norbs-plus",
+        "https://www.facebook.com/retkebolesti",
+        "https://www.instagram.com/retkebolesti",
+        "https://www.linkedin.com/company/norbs/"
+      ]
+    },
+    {
+      "url": "https://1jeposeban.rs/",
+      "checked_at": "2026-09-30T10:53:38.023Z",
+      "final_url": "https://1jeposeban.rs/",
+      "status": 200,
+      "bytes": 13732,
+      "sha256": "5ba52ca4862c19fa44b74ef32be809e0fecc9d1d2e9ddce574021bebf1e8ac00",
+      "title": "Budi i ti 1jeposeban",
+      "social_hrefs": [
+        "https://twitter.com/norbsplus",
+        "https://www.facebook.com/NORBSPlus/",
+        "https://www.instagram.com/NORBSPlus/",
+        "https://www.linkedin.com/company/fondacija-norbs-plus/"
+      ]
+    },
+    {
+      "url": "https://norbs.rs/uslovi-koriscenja/",
+      "checked_at": "2026-09-30T10:53:38.023Z",
+      "final_url": "https://norbs.rs/uslovi-koriscenja/",
+      "status": 200,
+      "bytes": 67948,
+      "sha256": "0439c7d6dc1b5df4c02dbaf759a967ca9a682bc68833b1dc4e5f9463a34dc9fe",
+      "title": "Uslovi korišćenja - NORBS",
+      "social_hrefs": [
+        "https://www.facebook.com/retkebolesti",
+        "https://www.instagram.com/retkebolesti",
+        "https://www.linkedin.com/company/norbs/"
+      ]
+    },
+    {
+      "url": "https://www.srbizasrbe.org/",
+      "checked_at": "2026-09-30T10:53:38.023Z",
+      "final_url": "https://www.srbizasrbe.org/",
+      "status": 200,
+      "bytes": 252765,
+      "sha256": "2a269d926806e5a3f369671b82ba5c63cf90fe4b07243fddf2c88c47a038a9e6",
+      "title": "Хуманитарна организација Срби за Србе",
+      "social_hrefs": [
+        "https://www.facebook.com/srbizasrbe",
+        "https://www.instagram.com/srbizasrbe",
+        "https://www.linkedin.com/company/srbizasrbe"
+      ]
+    },
+    {
+      "url": "https://www.srbizasrbe.org/srbija/",
+      "checked_at": "2026-09-30T10:53:38.023Z",
+      "final_url": "https://www.srbizasrbe.org/srbija/",
+      "status": 200,
+      "bytes": 116462,
+      "sha256": "4273084902a2fc0608a0dd18feff246fb58604770d753bf2e5ffd64edf9d4366",
+      "title": "Србија - Хуманитарна организација Срби за Србе",
+      "social_hrefs": [
+        "http://facebook.com/srbizasrbe",
+        "http://instagram.com/srbizasrbe",
+        "http://www.twitter.com/srbizasrbe",
+        "https://www.linkedin.com/company/srbizasrbe/",
+        "https://www.facebook.com/srbizasrbe",
+        "https://www.instagram.com/srbizasrbe",
+        "https://www.linkedin.com/company/srbizasrbe"
+      ]
+    },
+    {
+      "url": "https://www.srbizasrbe.org/o-nama/",
+      "checked_at": "2026-09-30T10:53:38.024Z",
+      "final_url": "https://www.srbizasrbe.org/o-nama/",
+      "status": 200,
+      "bytes": 153747,
+      "sha256": "462effab1fd639d4070be70dbcd8dc79296557256a9f24896bc656a33f9b4cc8",
+      "title": "О нама - Хуманитарна организација Срби за Србе",
+      "social_hrefs": [
+        "https://www.facebook.com/srbizasrbe",
+        "https://www.instagram.com/srbizasrbe",
+        "https://www.linkedin.com/company/srbizasrbe"
+      ]
+    },
+    {
+      "url": "https://www.srbizasrbe.org/pomogli-smo/",
+      "checked_at": "2026-09-30T10:53:38.024Z",
+      "final_url": "https://www.srbizasrbe.org/pomogli-smo/",
+      "status": 200,
+      "bytes": 144489,
+      "sha256": "cd5f34a3b99677f3a38b5a6238bad653d121d9ce5ef9e748727465e9336ef167",
+      "title": "Помогли смо - Хуманитарна организација Срби за Србе",
+      "social_hrefs": [
+        "https://www.facebook.com/srbizasrbe",
+        "https://www.instagram.com/srbizasrbe",
+        "https://www.linkedin.com/company/srbizasrbe"
+      ]
+    },
+    {
+      "url": "https://donacije.srbizasrbe.org/",
+      "checked_at": "2026-09-30T10:53:38.024Z",
+      "final_url": "https://donacije.srbizasrbe.org/",
+      "status": 200,
+      "bytes": 352059,
+      "sha256": "120871a86981394665832b3159d1656aa585279959af32290a1d41dcd67f926d",
+      "title": "Донације",
+      "social_hrefs": []
+    },
+    {
+      "url": "https://www.srbizasrbe.org/saradnja/",
+      "checked_at": "2026-09-30T10:53:38.025Z",
+      "final_url": "https://www.srbizasrbe.org/saradnja/",
+      "status": 200,
+      "bytes": 149849,
+      "sha256": "57b8520a83eada0eccd3f988a3828730cef0c54d83d1f0ca8fa24d539db85144",
+      "title": "Сарадња - Хуманитарна организација Срби за Србе",
+      "social_hrefs": [
+        "https://www.facebook.com/Radosti-moja-%D0%A0%D0%B0%D0%B4%D0%BE%D1%81%D1%82%D0%B8-%D0%BC%D0%BE%D1%98%D0%B0-1398215360412670/",
+        "https://www.facebook.com/AgiPastaAway",
+        "https://www.facebook.com/srbizasrbe",
+        "https://www.instagram.com/srbizasrbe",
+        "https://www.linkedin.com/company/srbizasrbe"
+      ]
+    },
+    {
+      "url": "https://raw.githubusercontent.com/swanem/svetlost33-content/main/releases/v2/production/releases/shared-calendar-browser-2026-09-27-m0v2-s10/release-set.json",
+      "checked_at": "2026-09-30T10:53:38.025Z",
+      "final_url": "https://raw.githubusercontent.com/swanem/svetlost33-content/main/releases/v2/production/releases/shared-calendar-browser-2026-09-27-m0v2-s10/release-set.json",
+      "status": 200,
+      "bytes": 3933,
+      "sha256": "ccc354a8c9e2af4e45b08ec8ffc1d73dfeb4d8154dcf923efb5324d50debe879",
+      "social_hrefs": []
+    },
+    {
+      "url": "https://raw.githubusercontent.com/swanem/svetlost33-content/main/releases/v2/production/index.json",
+      "checked_at": "2026-09-30T10:55:27.889Z",
+      "status": 200,
+      "final_url": "https://raw.githubusercontent.com/swanem/svetlost33-content/main/releases/v2/production/index.json",
+      "bytes": 595,
+      "sha256": "cbb21ce4fcd50dbc7c97c95f56d5b5aea96da5c1ace65a1a49e68099cbd8ec23"
+    },
+    {
+      "url": "https://www.nurdor.org/",
+      "checked_at": "2026-09-30T10:55:27.911Z",
+      "status": 200,
+      "final_url": "https://www.nurdor.org/",
+      "bytes": 31887,
+      "sha256": "4d33baca48cc868efccf79f3311cc055c139132e4ee777b3ab4cad4004920d3e",
+      "title": "Početna | Nurdor"
+    },
+    {
+      "url": "https://www.facebook.com/nurdor/",
+      "checked_at": "2026-09-30T10:55:27.911Z",
+      "status": 200,
+      "final_url": "https://www.facebook.com/nurdor/",
+      "bytes": 530738,
+      "sha256": "f8666a6afbae06d36bc52a050764ae7deb3e40878bfbd5a928aecf16c039bdb9",
+      "title": "Nurdor Srbija | Belgrade"
+    },
+    {
+      "url": "https://www.instagram.com/nurdor_srbija/",
+      "checked_at": "2026-09-30T10:55:27.912Z",
+      "status": 200,
+      "final_url": "https://www.instagram.com/nurdor_srbija/",
+      "bytes": 740350,
+      "sha256": "8f4cbb70e0531ad6aa0df942ac9c7879519e07b1799413cdfa94e8aeef193265",
+      "title": "NURDOR (&#064;nurdor_srbija) • Instagram photos and videos"
+    },
+    {
+      "url": "https://www.facebook.com/NORBSPlus",
+      "checked_at": "2026-09-30T10:55:27.912Z",
+      "status": 200,
+      "final_url": "https://www.facebook.com/NORBSPlus",
+      "bytes": 530823,
+      "sha256": "2aafceaea5d0889f6a29585ead94198b32f4d6c5e788d0c2f11aeb17fefdb701",
+      "title": "Fondacija NORBS Plus | Belgrade"
+    },
+    {
+      "url": "https://www.instagram.com/norbsplus/",
+      "checked_at": "2026-09-30T10:55:27.912Z",
+      "status": 200,
+      "final_url": "https://www.instagram.com/norbsplus/",
+      "bytes": 740030,
+      "sha256": "0aacbde8e48489a1c787b3cf2a50cd29c282d5facc0359fe8c98a6c530cd02ef",
+      "title": "Fondacija NORBS+ (&#064;norbsplus) • Instagram photos and videos"
+    },
+    {
+      "url": "https://www.facebook.com/srbizasrbe",
+      "checked_at": "2026-09-30T10:55:27.913Z",
+      "status": 200,
+      "final_url": "https://www.facebook.com/srbizasrbe",
+      "bytes": 531193,
+      "sha256": "53b8edbe040d65ca839a25dab42a4a17f8b60992601174e5460b036f4a950a94",
+      "title": "Srbi Za Srbe | Belgrade"
+    },
+    {
+      "url": "https://www.instagram.com/srbizasrbe",
+      "checked_at": "2026-09-30T10:55:27.913Z",
+      "status": 200,
+      "final_url": "https://www.instagram.com/srbizasrbe",
+      "bytes": 712101,
+      "sha256": "38e07bd19d2d751c287da7c1a80a89634cf698dbd532dd063c261f6f20f2d2bc",
+      "title": "ХО Срби за Србе (&#064;srbizasrbe) • Instagram photos and videos"
+    }
+  ],
+  "identity_findings": [
+    {
+      "organization_id": "nurdor-rs",
+      "source_url": "https://www.nurdor.org/identifikacioni-podaci",
+      "legal_name_unchanged": true,
+      "official_registration_number": "17521705",
+      "official_tax_number": "103199731",
+      "finding": "Official identity page matches the retained name. Donation form and stories are present; homepage links both proposed social profiles."
+    },
+    {
+      "organization_id": "norbs-plus-rs",
+      "source_url": "https://norbs.rs/fondacija-norbs-plus/",
+      "legal_name_unchanged": true,
+      "official_registration_number": "28830637",
+      "official_tax_number": "110529254",
+      "finding": "Foundation page distinguishes NORBS Plus from parent NORBS, identifies 1jeposeban as its platform, and links NORBSPlus/norbsplus social profiles. Parent retkebolesti profiles are excluded. Existing story URL remains the foundation overview with links to donations/results."
+    },
+    {
+      "organization_id": "srbi-za-srbe-rs",
+      "source_url": "https://www.srbizasrbe.org/srbija/",
+      "legal_name_unchanged": true,
+      "official_registration_number": "17697013",
+      "official_tax_number": "105117328",
+      "finding": "Serbia page retains the legal name and points to the donation platform. Homepage/footer links the proposed HTTPS social profiles; Pomogli smo remains the results entry."
+    }
+  ],
+  "logo_findings": [
+    {
+      "organization_id": "nurdor-rs",
+      "official_page": "https://www.nurdor.org/identifikacioni-podaci",
+      "observed_asset_url": "https://www.nurdor.org/img/nurdor-logo.png",
+      "rights_review_url": "https://www.nurdor.org/medijski-kutak",
+      "rights_status": "not_confirmed_for_app_redistribution",
+      "finding": "Official logo reference identified. Reviewed media page and copyright notice do not document a reusable asset licence for this app.",
+      "asset_downloaded": false,
+      "asset_hash": null,
+      "reusable_asset_approved": false,
+      "candidate_logo": null
+    },
+    {
+      "organization_id": "norbs-plus-rs",
+      "official_page": "https://norbs.rs/fondacija-norbs-plus/",
+      "observed_asset_url": null,
+      "rejected_substitutes": [
+        "https://norbs.rs/wp-content/uploads/2024/03/norbs-crni-srp-4.png",
+        "https://1jeposeban.rs/assets/img/logo.svg"
+      ],
+      "rights_review_url": "https://norbs.rs/uslovi-koriscenja/",
+      "rights_status": "not_confirmed_for_app_redistribution",
+      "finding": "Parent NORBS and campaign marks are not substitutes for the foundation mark. Published terms cover logos and require prior written permission for reproduction; permitted linking does not establish asset redistribution permission. Exact foundation PNG/JPEG and documented use basis remain open.",
+      "asset_downloaded": false,
+      "asset_hash": null,
+      "reusable_asset_approved": false,
+      "candidate_logo": null
+    },
+    {
+      "organization_id": "srbi-za-srbe-rs",
+      "official_page": "https://www.srbizasrbe.org/",
+      "observed_asset_url": "https://www.srbizasrbe.org/wp-content/uploads/2023/02/szs-logo-1.png",
+      "rights_review_url": "https://www.srbizasrbe.org/saradnja/",
+      "rights_status": "not_confirmed_for_app_redistribution",
+      "finding": "Official logo reference identified. Reviewed cooperation page and copyright notice do not document a reusable asset licence for this app.",
+      "asset_downloaded": false,
+      "asset_hash": null,
+      "reusable_asset_approved": false,
+      "candidate_logo": null
+    }
+  ],
+  "limits": {
+    "organizations_contacted": false,
+    "payment_transactions": false,
+    "legal_advice": false,
+    "independent_registry_audit": false,
+    "logo_files_downloaded": false,
+    "public_signing": false,
+    "production_activation": false,
+    "old_september_candidate_activated": false
+  },
+  "new_links": [
+    {
+      "organization_id": "nurdor-rs",
+      "id": "nurdor-website",
+      "url": "https://www.nurdor.org/",
+      "official_source": "https://www.nurdor.org/"
+    },
+    {
+      "organization_id": "nurdor-rs",
+      "id": "nurdor-instagram",
+      "url": "https://www.instagram.com/nurdor_srbija/",
+      "official_source": "https://www.nurdor.org/"
+    },
+    {
+      "organization_id": "nurdor-rs",
+      "id": "nurdor-facebook",
+      "url": "https://www.facebook.com/nurdor/",
+      "official_source": "https://www.nurdor.org/"
+    },
+    {
+      "organization_id": "norbs-plus-rs",
+      "id": "norbs-plus-website",
+      "url": "https://norbs.rs/fondacija-norbs-plus/",
+      "official_source": "https://norbs.rs/fondacija-norbs-plus/"
+    },
+    {
+      "organization_id": "norbs-plus-rs",
+      "id": "norbs-plus-instagram",
+      "url": "https://www.instagram.com/norbsplus/",
+      "official_source": "https://norbs.rs/fondacija-norbs-plus/"
+    },
+    {
+      "organization_id": "norbs-plus-rs",
+      "id": "norbs-plus-facebook",
+      "url": "https://www.facebook.com/NORBSPlus",
+      "official_source": "https://norbs.rs/fondacija-norbs-plus/"
+    },
+    {
+      "organization_id": "srbi-za-srbe-rs",
+      "id": "srbi-za-srbe-website",
+      "url": "https://www.srbizasrbe.org/",
+      "official_source": "https://www.srbizasrbe.org/"
+    },
+    {
+      "organization_id": "srbi-za-srbe-rs",
+      "id": "srbi-za-srbe-instagram",
+      "url": "https://www.instagram.com/srbizasrbe",
+      "official_source": "https://www.srbizasrbe.org/"
+    },
+    {
+      "organization_id": "srbi-za-srbe-rs",
+      "id": "srbi-za-srbe-facebook",
+      "url": "https://www.facebook.com/srbizasrbe",
+      "official_source": "https://www.srbizasrbe.org/"
+    }
+  ]
+}

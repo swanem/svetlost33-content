@@ -1,0 +1,40 @@
+{
+  "schema_version": "svetlost33-root-s13-publication-go-1",
+  "recorded_at_utc": "2026-10-06T16:30:08Z",
+  "status": "GO_EXACT_S13_CONTENT_PUBLICATION_ONLY",
+  "release_set_id": "shared-saints104-2026-10-06-m0v2-s13",
+  "index_sha256": "6250554d597daa19025cdcd3bc1d0c7c1763c3763ff4bc4fe1b85fb03f69441b",
+  "release_sha256": "76054fb851221ad1de64922a1167741646e2dd9f199588404b9a6a7745d4b7ff",
+  "root_review": {
+    "shared_tests": "9/9 PASS, actual root run; 24 production RSA profiles validated after local signing",
+    "android": {
+      "source_test_handoff_commit": "ba910ffc7e6be8ca1b384f3c4723da38e7e38c10",
+      "test_sha256": "3e0f8976de83f960ee2532e6cfe4358806054d0f2b0a25fda5b585f66b143c28",
+      "owner_receipt_sha256": "c7e9c1e3e89d205848b4716b820064932570b004774635fddbf571756d23b57b",
+      "xml_sha256": "105e11c1d06956d0ed15e0b81d3e16aaf98b4af994ce0c0ed95e90a0f6c28a4a",
+      "log_sha256": "927f0efa668873a0db0e86b0f6abf287ce9600a9a11cc791409cd21b9b3751be",
+      "root_observed": "1/1 JVM PASS, zero fail/error/skip; XML2026-10-06T16:28:01; 2.777s; Gradle22s/25tasks executed; input pre/post identical. Initial compile error and expected replay exception adapter correction are historical, not production regressions.",
+      "runtime_source_diff_from_accepted_1e57ccb": "empty"
+    },
+    "ios": {
+      "source_test_commit": "3e10f6faedfbc8958e7d0ec0815ac210e9a0e044",
+      "freeze_commit": "c3fde82153bbc71f6d1c152c8b2ed014649a2ffc",
+      "owner_evidence_commit": "cac0733",
+      "test_sha256": "7532f5e363d6c5537c2c1d0505f6dc5c4e04581e8fa71c84682047f8b71469db",
+      "owner_receipt_sha256": "9e0411321429df6673a32c51ed032ac6c3da7b5e22b423e6a087ab8df55099b1",
+      "log_sha256": "6ac8f257a8be6e542322ab50f1ec24a502d9c5f18773e89a1360a5749494933e",
+      "root_observed": "1/1 portable native Swift PASS, zero skip,24.763s,EXIT0; exact62+42/both scripts, Settings/Saved/Slava byte retention, restart/bindings/min-client/replay. Test/source pins unchanged. First incomplete sandbox attempt is not PASS.",
+      "runtime_source_and_harness_diff_from_delivered_452e4bc": "empty"
+    },
+    "memory_reuse_receipt_sha256": "586f78244fc0f55f5efd7d9b5954abacbef548ee3425b418c98c9a78303b88d3",
+    "memory_reuse_condition_met": "Signed three payload hashes equal the independently reviewed metadata-only final candidate. Historical incremental memory evidence reused; not a fresh physical/release S13 memory measurement.",
+    "isolated_public_checkout": "/private/tmp/svetlost33-s13-public.GMrHOJ/checkout",
+    "staged_exact_allowlist_paths": 15,
+    "all_signed_graph_files_match": 63,
+    "public_base_commit": "16f1fe741aaad2450fe66a0832c28c1b3e891502",
+    "both_native_slots_released": true
+  },
+  "authorization": "Publish exact reviewed S13 through one non-force commit from unchanged public base, then ordinary HTTPS readback of63files with actual signature validation. No pending/private/test material or unrelated dirty-repository commits.",
+  "limitations": ["No physical S13 activation verified", "No new speed measurement; prior cold-start finding remains deferred", "A/B packages excluded", "No new app release or reinstall", "Public readback still required"],
+  "published": false
+}

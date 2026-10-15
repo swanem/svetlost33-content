@@ -1,0 +1,136 @@
+{
+  "status": "STABLE_PENDING_COMBINED_CONTENT_REVIEW_NOT_RELEASE_GO",
+  "path": "drafts/ks01-combined-calendar-2026-10-06",
+  "combined_manifest": {
+    "path": "ab-component/combined-operation-manifest.json",
+    "bytes": 139865,
+    "sha256": "6a6381ab117069e91d3ab63050da9b42607cb084345a70255ca1ec386c3e6561"
+  },
+  "catalog": {
+    "path": "ab-component/catalog.pending.json",
+    "bytes": 255076,
+    "sha256": "255d2e902d91a596252e2426e70cd530f3c2517194fc35ec48b6e638a4a30c21"
+  },
+  "browser": {
+    "path": "ab-component/browser.pending.json",
+    "bytes": 97906,
+    "sha256": "11a1af5d008047556ac18e27dea72950ea0daf6f1cb42259bee90a236585bf24"
+  },
+  "scope": {
+    "A_dates": 23,
+    "B_dates": 19,
+    "new_article_links": 40,
+    "already_linked": 2,
+    "article_bodies_unchanged": 104,
+    "existing_year_end_links_unchanged": true,
+    "gospel_dates": 31,
+    "gospel_readings": 33,
+    "gospel_last_date": "2026-11-05"
+  },
+  "catalog_counts": {
+    "sources": 112,
+    "subjects": 93,
+    "observances": 112,
+    "occurrences": 110,
+    "article_links": 93
+  },
+  "additions": {
+    "sources": 47,
+    "subjects": 37,
+    "observances": 39,
+    "occurrences": 39,
+    "article_links": 40
+  },
+  "shared_source_pins": [
+    {
+      "path": "scripts/pravoslavno-calendar-reference.mjs",
+      "bytes": 2855,
+      "sha256": "5a8da65aab0b8e339a902a4a85bc973f4b2404327ffd1c371e76318e9203e2e8"
+    },
+    {
+      "path": "scripts/validate-bible-reference-v1.mjs",
+      "bytes": 17582,
+      "sha256": "b6ae4c9eb29ba41ac838443a150e24d2d1496cf4fdbb2a1ea10fe43c57f73e0d"
+    }
+  ],
+  "tests": "10/10 PASS",
+  "limitations": [
+    "Pending catalog/browser component is still bound to S13 annual/saints; final combined annual application and all changed bindings/manifests remain release assembly, not silently performed here",
+    "No exact combined editorial approval exists in this handoff; new metadata and Gospel operations remain pending/noneligible",
+    "Gospel source attributed to Pravoslavno.rs; no copied website translation, complete service schedule, official SPC endorsement or licensing guarantee",
+    "06November–31December Gospel state remains exactly as S13; no2027 facts or full saints-list claims",
+    "Shared adapter is semantic verification, not proof of native acceptance/authentication/publication",
+    "Source registries and public S13 readback were reused with pins; no new source/public fetch this step"
+  ],
+  "gates": [
+    "Exact combined editorial review/approval of new metadata and source observations",
+    "Assemble and rebind changed calendar/saints/catalog/browser in one combined release; preserve all104 article objects",
+    "Native exact generation acceptance; separately authorized signing/publication and fresh public baseline CAS"
+  ],
+  "production_mutated": false,
+  "signed": false,
+  "published": false,
+  "native_run": false,
+  "artifacts": [
+    {
+      "path": "ab-component/browser.pending.json",
+      "bytes": 97906,
+      "sha256": "11a1af5d008047556ac18e27dea72950ea0daf6f1cb42259bee90a236585bf24"
+    },
+    {
+      "path": "ab-component/catalog.pending.json",
+      "bytes": 255076,
+      "sha256": "255d2e902d91a596252e2426e70cd530f3c2517194fc35ec48b6e638a4a30c21"
+    },
+    {
+      "path": "ab-component/combined-operation-manifest.json",
+      "bytes": 139865,
+      "sha256": "6a6381ab117069e91d3ab63050da9b42607cb084345a70255ca1ec386c3e6561"
+    },
+    {
+      "path": "ab-component/delta.json",
+      "bytes": 104066,
+      "sha256": "a0a445f82f3b2b71e6df2ce936dd119e747b9d17d94bfff15830746ee412d391"
+    },
+    {
+      "path": "ab-component/inventory.json",
+      "bytes": 165388,
+      "sha256": "c486bb855d74c04fdc26c6f6793bed57bf5ccda4025676dfc3539840c4929908"
+    },
+    {
+      "path": "ab-component/source-provenance.json",
+      "bytes": 22237,
+      "sha256": "43c3a9e56d99d9f69ca610c11bfc3759141f592508d8f736aa59c5a5c5acfbdf"
+    },
+    {
+      "path": "ab-component/unchanged-modules.json",
+      "bytes": 3935,
+      "sha256": "370ec2db607fd1e8b22036b0bf20e04eb5c37bf5558f99c4273bf74316950c9f"
+    },
+    {
+      "path": "prepare.mjs",
+      "bytes": 19631,
+      "sha256": "afe53310c05d2286cb13d40d8db37bba0775498a8c007be2b098d77bbd20eef4"
+    },
+    {
+      "path": "verification/receipt.json",
+      "bytes": 44642,
+      "sha256": "a1a955ae4456dab83c29b0d5d54c91857ac00b37babf3d505735aff5b1296762"
+    },
+    {
+      "path": "verification/targeted-tests.log",
+      "bytes": 2791,
+      "sha256": "d0119d84a496f93f5cadeebb2b4a268a78cbafff0b29ae58322400daef5b16ec"
+    },
+    {
+      "path": "verify.mjs",
+      "bytes": 4553,
+      "sha256": "615651594e18dc648c38ca44fd0d00a83a2f20fe11be609c9720aacad12a3ea1"
+    },
+    {
+      "path": "verify.test.mjs",
+      "bytes": 13833,
+      "sha256": "30bb9bd41bb3fe1f0d954fd3c2a2fa396951223bbdf4d4c4bf414da59ede0e3c"
+    }
+  ]
+}

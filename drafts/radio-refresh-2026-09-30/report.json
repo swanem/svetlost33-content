@@ -1,0 +1,1011 @@
+{
+  "status": "radio_only_not_liturgical_assignment",
+  "publication_authorized": false,
+  "owner_approval": null,
+  "source_checked_at": "2026-09-30T11:41:11.133Z",
+  "source_response_sha256": "0f2cd640a2273771a7f0871070e4b51a4a84c3e67ba5c606864c81c0b870b71f",
+  "counts": {
+    "previous_radio_rows": 273,
+    "observed_radio_rows": 304,
+    "unchanged_radio_rows": 273,
+    "added_rows": 31,
+    "valid_added_rows": 30,
+    "errored_added_rows": 1,
+    "changed_rows": 0,
+    "valid_changed_rows": 0,
+    "errored_changed_rows": 0,
+    "removed_rows": 0,
+    "valid_observed_rows": 302,
+    "no_reference_rows": 0,
+    "errored_observed_rows": 2,
+    "validation_errors": 2,
+    "supplemental_blessing_rows": 42,
+    "existing_identity_review_dates": 8,
+    "prior_gospel_unresolved": 192,
+    "resolved_calendar_gaps": 0,
+    "calendar_dates_changed": 0
+  },
+  "observed_window": {
+    "first": "2026-01-01",
+    "last": "2026-10-31"
+  },
+  "pinned_annual_gospel_projection": {
+    "days": 365,
+    "status_counts": {
+      "SOURCE_RECORDED": 173,
+      "UNRESOLVED": 192
+    },
+    "reason_counts": {
+      "date_reference_sources_agree_service_unassigned": 14,
+      "dated_sources_disagree": 58,
+      "radio_date_references_recorded_service_unassigned": 159,
+      "source_heading_and_link_identity_disagree": 1,
+      "radio_supplemental_blessing_not_a_service_assignment": 40,
+      "invalid_verse_endpoint": 1,
+      "source_content_not_entered_or_missing": 92
+    },
+    "note": "SOURCE_RECORDED means a radio/source proposal, not a confirmed liturgical service assignment. The published 173/192 projection is unchanged.",
+    "original_radio_rows": 273,
+    "original_radio_rows_unresolved": 100,
+    "supplemental_flag_rows": 42,
+    "supplemental_primary_reason_rows": 40,
+    "note_on_overlap": "42 supplemental flags are not an additive unresolved-reason bucket: 40 have that primary reason, while 2 are in dated_sources_disagree. The 8 identity-review dates are overlapping review signals, not 8 additional unresolved days."
+  },
+  "new_or_changed_date_reviews": [
+    {
+      "date": "2026-10-01",
+      "change": "ADDED_RADIO_ROW",
+      "source_references": [
+        "Јеванђеље по Луки, зачало 13. 4,16-22"
+      ],
+      "validation_errors": [],
+      "source_reference_status": "VERSE_RANGES_VALID_NOT_LITURGICAL_APPROVAL",
+      "pinned_annual_status": "UNRESOLVED",
+      "pinned_annual_reason": "source_content_not_entered_or_missing",
+      "pinned_annual_service_assignment_status": "UNRESOLVED",
+      "pinned_annual_reading_count": 0,
+      "proposed_runtime_change": false
+    },
+    {
+      "date": "2026-10-02",
+      "change": "ADDED_RADIO_ROW",
+      "source_references": [
+        "Јеванђеље по Луки, зачало 14. 4,22-30"
+      ],
+      "validation_errors": [],
+      "source_reference_status": "VERSE_RANGES_VALID_NOT_LITURGICAL_APPROVAL",
+      "pinned_annual_status": "UNRESOLVED",
+      "pinned_annual_reason": "source_content_not_entered_or_missing",
+      "pinned_annual_service_assignment_status": "UNRESOLVED",
+      "pinned_annual_reading_count": 0,
+      "proposed_runtime_change": false
+    },
+    {
+      "date": "2026-10-03",
+      "change": "ADDED_RADIO_ROW",
+      "source_references": [
+        "Јеванђеље по Јовану, зачало 30. 8,21-30",
+        "Јеванђеље по Луки, зачало 106. 21,12-27"
+      ],
+      "validation_errors": [],
+      "source_reference_status": "VERSE_RANGES_VALID_NOT_LITURGICAL_APPROVAL",
+      "pinned_annual_status": "UNRESOLVED",
+      "pinned_annual_reason": "source_content_not_entered_or_missing",
+      "pinned_annual_service_assignment_status": "UNRESOLVED",
+      "pinned_annual_reading_count": 0,
+      "proposed_runtime_change": false
+    },
+    {
+      "date": "2026-10-04",
+      "change": "ADDED_RADIO_ROW",
+      "source_references": [
+        "Јеванђеље по Марку, зачало 37. 8,34-9,1",
+        "Јеванђеље по Луки, зачало 17. 5,1-11"
+      ],
+      "validation_errors": [],
+      "source_reference_status": "VERSE_RANGES_VALID_NOT_LITURGICAL_APPROVAL",
+      "pinned_annual_status": "UNRESOLVED",
+      "pinned_annual_reason": "source_content_not_entered_or_missing",
+      "pinned_annual_service_assignment_status": "UNRESOLVED",
+      "pinned_annual_reading_count": 0,
+      "proposed_runtime_change": false
+    },
+    {
+      "date": "2026-10-05",
+      "change": "ADDED_RADIO_ROW",
+      "source_references": [
+        "Јеванђеље по Луки, зачало 16. 4,37-44",
+        "Јеванђеље по Јовану, зачало 36. 10,9-16"
+      ],
+      "validation_errors": [],
+      "source_reference_status": "VERSE_RANGES_VALID_NOT_LITURGICAL_APPROVAL",
+      "pinned_annual_status": "UNRESOLVED",
+      "pinned_annual_reason": "source_content_not_entered_or_missing",
+      "pinned_annual_service_assignment_status": "UNRESOLVED",
+      "pinned_annual_reading_count": 0,
+      "proposed_runtime_change": false
+    },
+    {
+      "date": "2026-10-06",
+      "change": "ADDED_RADIO_ROW",
+      "source_references": [
+        "Јеванђеље по Луки, зачало 18. 5,12-16",
+        "Јеванђеље по Луки, зачало 2. 1,5-23"
+      ],
+      "validation_errors": [],
+      "source_reference_status": "VERSE_RANGES_VALID_NOT_LITURGICAL_APPROVAL",
+      "pinned_annual_status": "UNRESOLVED",
+      "pinned_annual_reason": "source_content_not_entered_or_missing",
+      "pinned_annual_service_assignment_status": "UNRESOLVED",
+      "pinned_annual_reading_count": 0,
+      "proposed_runtime_change": false
+    },
+    {
+      "date": "2026-10-07",
+      "change": "ADDED_RADIO_ROW",
+      "source_references": [
+        "Јеванђеље по Луки, зачало 21. 5,33-39",
+        "Јеванђеље по Матеју, зачало 104. 25,1-13"
+      ],
+      "validation_errors": [],
+      "source_reference_status": "VERSE_RANGES_VALID_NOT_LITURGICAL_APPROVAL",
+      "pinned_annual_status": "UNRESOLVED",
+      "pinned_annual_reason": "source_content_not_entered_or_missing",
+      "pinned_annual_service_assignment_status": "UNRESOLVED",
+      "pinned_annual_reading_count": 0,
+      "proposed_runtime_change": false
+    },
+    {
+      "date": "2026-10-08",
+      "change": "ADDED_RADIO_ROW",
+      "source_references": [
+        "Јеванђеље по Луки, зачало 23. 6,12-16",
+        "Јеванђеље по Луки, зачало 24. 6,17-23"
+      ],
+      "validation_errors": [],
+      "source_reference_status": "VERSE_RANGES_VALID_NOT_LITURGICAL_APPROVAL",
+      "pinned_annual_status": "UNRESOLVED",
+      "pinned_annual_reason": "source_content_not_entered_or_missing",
+      "pinned_annual_service_assignment_status": "UNRESOLVED",
+      "pinned_annual_reading_count": 0,
+      "proposed_runtime_change": false
+    },
+    {
+      "date": "2026-10-09",
+      "change": "ADDED_RADIO_ROW",
+      "source_references": [
+        "Јеванђеље по Јовану, зачало 61. 19,25-37"
+      ],
+      "validation_errors": [],
+      "source_reference_status": "VERSE_RANGES_VALID_NOT_LITURGICAL_APPROVAL",
+      "pinned_annual_status": "UNRESOLVED",
+      "pinned_annual_reason": "source_content_not_entered_or_missing",
+      "pinned_annual_service_assignment_status": "UNRESOLVED",
+      "pinned_annual_reading_count": 0,
+      "proposed_runtime_change": false
+    },
+    {
+      "date": "2026-10-10",
+      "change": "ADDED_RADIO_ROW",
+      "source_references": [
+        "Јеванђеље по Луки, зачало 19. 5,17-26"
+      ],
+      "validation_errors": [],
+      "source_reference_status": "VERSE_RANGES_VALID_NOT_LITURGICAL_APPROVAL",
+      "pinned_annual_status": "UNRESOLVED",
+      "pinned_annual_reason": "source_content_not_entered_or_missing",
+      "pinned_annual_service_assignment_status": "UNRESOLVED",
+      "pinned_annual_reading_count": 0,
+      "proposed_runtime_change": false
+    },
+    {
+      "date": "2026-10-11",
+      "change": "ADDED_RADIO_ROW",
+      "source_references": [
+        "Јеванђеље по Луки, зачало 26. 6,31-36",
+        "Јеванђеље по Луки, зачало 24. 6,17-23"
+      ],
+      "validation_errors": [],
+      "source_reference_status": "VERSE_RANGES_VALID_NOT_LITURGICAL_APPROVAL",
+      "pinned_annual_status": "UNRESOLVED",
+      "pinned_annual_reason": "source_content_not_entered_or_missing",
+      "pinned_annual_service_assignment_status": "UNRESOLVED",
+      "pinned_annual_reading_count": 0,
+      "proposed_runtime_change": false
+    },
+    {
+      "date": "2026-10-12",
+      "change": "ADDED_RADIO_ROW",
+      "source_references": [
+        "Јеванђеље по Луки, зачало 25. 6,24-30",
+        "Јеванђеље по Луки, зачало 24. 6,17-23"
+      ],
+      "validation_errors": [],
+      "source_reference_status": "VERSE_RANGES_VALID_NOT_LITURGICAL_APPROVAL",
+      "pinned_annual_status": "UNRESOLVED",
+      "pinned_annual_reason": "source_content_not_entered_or_missing",
+      "pinned_annual_service_assignment_status": "UNRESOLVED",
+      "pinned_annual_reading_count": 0,
+      "proposed_runtime_change": false
+    },
+    {
+      "date": "2026-10-13",
+      "change": "ADDED_RADIO_ROW",
+      "source_references": [
+        "Јеванђеље по Луки, зачало 27. 6,37-45",
+        "Јеванђеље по Матеју, зачало 103. 24,42-51"
+      ],
+      "validation_errors": [],
+      "source_reference_status": "VERSE_RANGES_VALID_NOT_LITURGICAL_APPROVAL",
+      "pinned_annual_status": "UNRESOLVED",
+      "pinned_annual_reason": "source_content_not_entered_or_missing",
+      "pinned_annual_service_assignment_status": "UNRESOLVED",
+      "pinned_annual_reading_count": 0,
+      "proposed_runtime_change": false
+    },
+    {
+      "date": "2026-10-14",
+      "change": "ADDED_RADIO_ROW",
+      "source_references": [
+        "Јеванђеље по Луки, зачало 54. 10,38-42",
+        "Јеванђеље по Луки, зачало 51. 10,16-21"
+      ],
+      "validation_errors": [],
+      "source_reference_status": "VERSE_RANGES_VALID_NOT_LITURGICAL_APPROVAL",
+      "pinned_annual_status": "UNRESOLVED",
+      "pinned_annual_reason": "source_content_not_entered_or_missing",
+      "pinned_annual_service_assignment_status": "UNRESOLVED",
+      "pinned_annual_reading_count": 0,
+      "proposed_runtime_change": false
+    },
+    {
+      "date": "2026-10-15",
+      "change": "ADDED_RADIO_ROW",
+      "source_references": [
+        "Јеванђеље по Луки, зачало 28. 6,46-49",
+        "Јеванђеље по Луки, зачало 31. 7,17-30",
+        "Јеванђеље по Јовану, зачало 36. 10,9-16"
+      ],
+      "validation_errors": [],
+      "source_reference_status": "VERSE_RANGES_VALID_NOT_LITURGICAL_APPROVAL",
+      "pinned_annual_status": "UNRESOLVED",
+      "pinned_annual_reason": "source_content_not_entered_or_missing",
+      "pinned_annual_service_assignment_status": "UNRESOLVED",
+      "pinned_annual_reading_count": 0,
+      "proposed_runtime_change": false
+    },
+    {
+      "date": "2026-10-16",
+      "change": "ADDED_RADIO_ROW",
+      "source_references": [
+        "Јеванђеље по Луки, зачало 32. 7,31-25",
+        "Јеванђеље по Матеју, зачало 55. 13,44-52"
+      ],
+      "validation_errors": [
+        {
+          "reference": 0,
+          "code": "invalid_or_reversed_range",
+          "segment": 0
+        }
+      ],
+      "source_reference_status": "ERROR_NOT_CORRECTED",
+      "pinned_annual_status": "UNRESOLVED",
+      "pinned_annual_reason": "source_content_not_entered_or_missing",
+      "pinned_annual_service_assignment_status": "UNRESOLVED",
+      "pinned_annual_reading_count": 0,
+      "proposed_runtime_change": false
+    },
+    {
+      "date": "2026-10-17",
+      "change": "ADDED_RADIO_ROW",
+      "source_references": [
+        "Јеванђеље по Луки, зачало 20. 5,27-32"
+      ],
+      "validation_errors": [],
+      "source_reference_status": "VERSE_RANGES_VALID_NOT_LITURGICAL_APPROVAL",
+      "pinned_annual_status": "UNRESOLVED",
+      "pinned_annual_reason": "source_content_not_entered_or_missing",
+      "pinned_annual_service_assignment_status": "UNRESOLVED",
+      "pinned_annual_reading_count": 0,
+      "proposed_runtime_change": false
+    },
+    {
+      "date": "2026-10-18",
+      "change": "ADDED_RADIO_ROW",
+      "source_references": [
+        "Јеванђеље по Луки, зачало 30. 7,11-16"
+      ],
+      "validation_errors": [],
+      "source_reference_status": "VERSE_RANGES_VALID_NOT_LITURGICAL_APPROVAL",
+      "pinned_annual_status": "UNRESOLVED",
+      "pinned_annual_reason": "source_content_not_entered_or_missing",
+      "pinned_annual_service_assignment_status": "UNRESOLVED",
+      "pinned_annual_reading_count": 0,
+      "proposed_runtime_change": false
+    },
+    {
+      "date": "2026-10-19",
+      "change": "ADDED_RADIO_ROW",
+      "source_references": [
+        "Јеванђеље по Луки, зачало 33. 7,36-50",
+        "Јеванђеље по Јовану, зачало 67. 21,15-25"
+      ],
+      "validation_errors": [],
+      "source_reference_status": "VERSE_RANGES_VALID_NOT_LITURGICAL_APPROVAL",
+      "pinned_annual_status": "UNRESOLVED",
+      "pinned_annual_reason": "source_content_not_entered_or_missing",
+      "pinned_annual_service_assignment_status": "UNRESOLVED",
+      "pinned_annual_reading_count": 0,
+      "proposed_runtime_change": false
+    },
+    {
+      "date": "2026-10-20",
+      "change": "ADDED_RADIO_ROW",
+      "source_references": [
+        "Јеванђеље по Луки, зачало 34. 8,1-4",
+        "Јеванђеље по Луки, зачало 106. 21,12-27"
+      ],
+      "validation_errors": [],
+      "source_reference_status": "VERSE_RANGES_VALID_NOT_LITURGICAL_APPROVAL",
+      "pinned_annual_status": "UNRESOLVED",
+      "pinned_annual_reason": "source_content_not_entered_or_missing",
+      "pinned_annual_service_assignment_status": "UNRESOLVED",
+      "pinned_annual_reading_count": 0,
+      "proposed_runtime_change": false
+    },
+    {
+      "date": "2026-10-21",
+      "change": "ADDED_RADIO_ROW",
+      "source_references": [
+        "Јеванђеље по Луки, зачало 37. 8,22-25"
+      ],
+      "validation_errors": [],
+      "source_reference_status": "VERSE_RANGES_VALID_NOT_LITURGICAL_APPROVAL",
+      "pinned_annual_status": "UNRESOLVED",
+      "pinned_annual_reason": "source_content_not_entered_or_missing",
+      "pinned_annual_service_assignment_status": "UNRESOLVED",
+      "pinned_annual_reading_count": 0,
+      "proposed_runtime_change": false
+    },
+    {
+      "date": "2026-10-22",
+      "change": "ADDED_RADIO_ROW",
+      "source_references": [
+        "Јеванђеље по Луки, зачало 41. 9,7-12",
+        "Јеванђеље по Луки, зачало 51. 10,16-21"
+      ],
+      "validation_errors": [],
+      "source_reference_status": "VERSE_RANGES_VALID_NOT_LITURGICAL_APPROVAL",
+      "pinned_annual_status": "UNRESOLVED",
+      "pinned_annual_reason": "source_content_not_entered_or_missing",
+      "pinned_annual_service_assignment_status": "UNRESOLVED",
+      "pinned_annual_reading_count": 0,
+      "proposed_runtime_change": false
+    },
+    {
+      "date": "2026-10-23",
+      "change": "ADDED_RADIO_ROW",
+      "source_references": [
+        "Јеванђеље по Луки, зачало 42. 9,12-17"
+      ],
+      "validation_errors": [],
+      "source_reference_status": "VERSE_RANGES_VALID_NOT_LITURGICAL_APPROVAL",
+      "pinned_annual_status": "UNRESOLVED",
+      "pinned_annual_reason": "source_content_not_entered_or_missing",
+      "pinned_annual_service_assignment_status": "UNRESOLVED",
+      "pinned_annual_reading_count": 0,
+      "proposed_runtime_change": false
+    },
+    {
+      "date": "2026-10-24",
+      "change": "ADDED_RADIO_ROW",
+      "source_references": [
+        "Јеванђеље по Луки, зачало 50. 10,1-15",
+        "Јеванђеље по Луки, зачало 22. 6,1-11"
+      ],
+      "validation_errors": [],
+      "source_reference_status": "VERSE_RANGES_VALID_NOT_LITURGICAL_APPROVAL",
+      "pinned_annual_status": "UNRESOLVED",
+      "pinned_annual_reason": "source_content_not_entered_or_missing",
+      "pinned_annual_service_assignment_status": "UNRESOLVED",
+      "pinned_annual_reading_count": 0,
+      "proposed_runtime_change": false
+    },
+    {
+      "date": "2026-10-25",
+      "change": "ADDED_RADIO_ROW",
+      "source_references": [
+        "Јеванђеље по Луки, зачало 35. 8,5-15",
+        "Јеванђеље по Јовану, зачало 56. 17,1-13"
+      ],
+      "validation_errors": [],
+      "source_reference_status": "VERSE_RANGES_VALID_NOT_LITURGICAL_APPROVAL",
+      "pinned_annual_status": "UNRESOLVED",
+      "pinned_annual_reason": "source_content_not_entered_or_missing",
+      "pinned_annual_service_assignment_status": "UNRESOLVED",
+      "pinned_annual_reading_count": 0,
+      "proposed_runtime_change": false
+    },
+    {
+      "date": "2026-10-26",
+      "change": "ADDED_RADIO_ROW",
+      "source_references": [
+        "Јеванђеље по Луки, зачало 43. 9,18-22"
+      ],
+      "validation_errors": [],
+      "source_reference_status": "VERSE_RANGES_VALID_NOT_LITURGICAL_APPROVAL",
+      "pinned_annual_status": "UNRESOLVED",
+      "pinned_annual_reason": "source_content_not_entered_or_missing",
+      "pinned_annual_service_assignment_status": "UNRESOLVED",
+      "pinned_annual_reading_count": 0,
+      "proposed_runtime_change": false
+    },
+    {
+      "date": "2026-10-27",
+      "change": "ADDED_RADIO_ROW",
+      "source_references": [
+        "Јеванђеље по Луки, зачало 44. 9,23-27",
+        "Јеванђеље по Матеју, зачало 104. 25,1-13"
+      ],
+      "validation_errors": [],
+      "source_reference_status": "VERSE_RANGES_VALID_NOT_LITURGICAL_APPROVAL",
+      "pinned_annual_status": "UNRESOLVED",
+      "pinned_annual_reason": "source_content_not_entered_or_missing",
+      "pinned_annual_service_assignment_status": "UNRESOLVED",
+      "pinned_annual_reading_count": 0,
+      "proposed_runtime_change": false
+    },
+    {
+      "date": "2026-10-28",
+      "change": "ADDED_RADIO_ROW",
+      "source_references": [
+        "Јеванђеље по Луки, зачало 47. 9,43-48"
+      ],
+      "validation_errors": [],
+      "source_reference_status": "VERSE_RANGES_VALID_NOT_LITURGICAL_APPROVAL",
+      "pinned_annual_status": "UNRESOLVED",
+      "pinned_annual_reason": "source_content_not_entered_or_missing",
+      "pinned_annual_service_assignment_status": "UNRESOLVED",
+      "pinned_annual_reading_count": 0,
+      "proposed_runtime_change": false
+    },
+    {
+      "date": "2026-10-29",
+      "change": "ADDED_RADIO_ROW",
+      "source_references": [
+        "Јеванђеље по Луки, зачало 48. 9,49-56",
+        "Јеванђеље по Матеју, зачало 113. 27,33-61"
+      ],
+      "validation_errors": [],
+      "source_reference_status": "VERSE_RANGES_VALID_NOT_LITURGICAL_APPROVAL",
+      "pinned_annual_status": "UNRESOLVED",
+      "pinned_annual_reason": "source_content_not_entered_or_missing",
+      "pinned_annual_service_assignment_status": "UNRESOLVED",
+      "pinned_annual_reading_count": 0,
+      "proposed_runtime_change": false
+    },
+    {
+      "date": "2026-10-30",
+      "change": "ADDED_RADIO_ROW",
+      "source_references": [
+        "Јеванђеље по Луки, зачало 50. 10,1-15",
+        "Јеванђеље по Луки, зачало 29. 7,1-10"
+      ],
+      "validation_errors": [],
+      "source_reference_status": "VERSE_RANGES_VALID_NOT_LITURGICAL_APPROVAL",
+      "pinned_annual_status": "UNRESOLVED",
+      "pinned_annual_reason": "source_content_not_entered_or_missing",
+      "pinned_annual_service_assignment_status": "UNRESOLVED",
+      "pinned_annual_reading_count": 0,
+      "proposed_runtime_change": false
+    },
+    {
+      "date": "2026-10-31",
+      "change": "ADDED_RADIO_ROW",
+      "source_references": [
+        "Јеванђеље по Луки, зачало 51. 10,16-21",
+        "Јеванђеље по Јовану, зачало 35. 9,39-10,9"
+      ],
+      "validation_errors": [],
+      "source_reference_status": "VERSE_RANGES_VALID_NOT_LITURGICAL_APPROVAL",
+      "pinned_annual_status": "UNRESOLVED",
+      "pinned_annual_reason": "source_content_not_entered_or_missing",
+      "pinned_annual_service_assignment_status": "UNRESOLVED",
+      "pinned_annual_reading_count": 0,
+      "proposed_runtime_change": false
+    }
+  ],
+  "new_valid_dates": [
+    "2026-10-01",
+    "2026-10-02",
+    "2026-10-03",
+    "2026-10-04",
+    "2026-10-05",
+    "2026-10-06",
+    "2026-10-07",
+    "2026-10-08",
+    "2026-10-09",
+    "2026-10-10",
+    "2026-10-11",
+    "2026-10-12",
+    "2026-10-13",
+    "2026-10-14",
+    "2026-10-15",
+    "2026-10-17",
+    "2026-10-18",
+    "2026-10-19",
+    "2026-10-20",
+    "2026-10-21",
+    "2026-10-22",
+    "2026-10-23",
+    "2026-10-24",
+    "2026-10-25",
+    "2026-10-26",
+    "2026-10-27",
+    "2026-10-28",
+    "2026-10-29",
+    "2026-10-30",
+    "2026-10-31"
+  ],
+  "errors": [
+    {
+      "date": "2026-04-09",
+      "reference": 1,
+      "code": "invalid_verse_endpoint",
+      "segment": 0,
+      "raw_reference": "Јеванђеље по Луки, зачало 109. 19,39-71"
+    },
+    {
+      "date": "2026-10-16",
+      "reference": 0,
+      "code": "invalid_or_reversed_range",
+      "segment": 0,
+      "raw_reference": "Јеванђеље по Луки, зачало 32. 7,31-25"
+    }
+  ],
+  "radio_rows_still_missing": [
+    "2026-11-01",
+    "2026-11-02",
+    "2026-11-03",
+    "2026-11-04",
+    "2026-11-05",
+    "2026-11-06",
+    "2026-11-07",
+    "2026-11-08",
+    "2026-11-09",
+    "2026-11-10",
+    "2026-11-11",
+    "2026-11-12",
+    "2026-11-13",
+    "2026-11-14",
+    "2026-11-15",
+    "2026-11-16",
+    "2026-11-17",
+    "2026-11-18",
+    "2026-11-19",
+    "2026-11-20",
+    "2026-11-21",
+    "2026-11-22",
+    "2026-11-23",
+    "2026-11-24",
+    "2026-11-25",
+    "2026-11-26",
+    "2026-11-27",
+    "2026-11-28",
+    "2026-11-29",
+    "2026-11-30",
+    "2026-12-01",
+    "2026-12-02",
+    "2026-12-03",
+    "2026-12-04",
+    "2026-12-05",
+    "2026-12-06",
+    "2026-12-07",
+    "2026-12-08",
+    "2026-12-09",
+    "2026-12-10",
+    "2026-12-11",
+    "2026-12-12",
+    "2026-12-13",
+    "2026-12-14",
+    "2026-12-15",
+    "2026-12-16",
+    "2026-12-17",
+    "2026-12-18",
+    "2026-12-19",
+    "2026-12-20",
+    "2026-12-21",
+    "2026-12-22",
+    "2026-12-23",
+    "2026-12-24",
+    "2026-12-25",
+    "2026-12-26",
+    "2026-12-27",
+    "2026-12-28",
+    "2026-12-29",
+    "2026-12-30",
+    "2026-12-31"
+  ],
+  "prior_identity_reviews_preserved_not_resolved": [
+    {
+      "date": "2026-01-23",
+      "signals": [
+        {
+          "code": "same_radio_zachalo_has_different_ranges",
+          "identity": "Mark:58",
+          "interpretation": "Review signal; not a determination of error or permission to correct the source.",
+          "occurrences": [
+            {
+              "date": "2026-01-23",
+              "source_reference": "Јеванђеље по Марку, зачало 58. 13,1-8",
+              "segments": [
+                {
+                  "start": {
+                    "chapter": 13,
+                    "verse": 1
+                  },
+                  "end": {
+                    "chapter": 13,
+                    "verse": 8
+                  }
+                }
+              ]
+            },
+            {
+              "date": "2026-01-30",
+              "source_reference": "Јеванђеље по Марку, зачало 58. 12,1-8",
+              "segments": [
+                {
+                  "start": {
+                    "chapter": 12,
+                    "verse": 1
+                  },
+                  "end": {
+                    "chapter": 12,
+                    "verse": 8
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-01-30",
+      "signals": [
+        {
+          "code": "same_radio_zachalo_has_different_ranges",
+          "identity": "Mark:58",
+          "interpretation": "Review signal; not a determination of error or permission to correct the source.",
+          "occurrences": [
+            {
+              "date": "2026-01-23",
+              "source_reference": "Јеванђеље по Марку, зачало 58. 13,1-8",
+              "segments": [
+                {
+                  "start": {
+                    "chapter": 13,
+                    "verse": 1
+                  },
+                  "end": {
+                    "chapter": 13,
+                    "verse": 8
+                  }
+                }
+              ]
+            },
+            {
+              "date": "2026-01-30",
+              "source_reference": "Јеванђеље по Марку, зачало 58. 12,1-8",
+              "segments": [
+                {
+                  "start": {
+                    "chapter": 12,
+                    "verse": 1
+                  },
+                  "end": {
+                    "chapter": 12,
+                    "verse": 8
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-02-02",
+      "signals": [
+        {
+          "code": "radio_heading_and_linked_filename_book_disagree",
+          "source_id": "radio-identity-2026-02-02",
+          "heading": "Јеванђеље по Марку, зачало 59. 11,29-33",
+          "linked_filenames": [
+            "059 - LUK 11,29-33 zac59.mp3"
+          ],
+          "interpretation": "Source-internal book identity conflict; filename does not authorize silently correcting the displayed reference."
+        }
+      ]
+    },
+    {
+      "date": "2026-02-20",
+      "signals": [
+        {
+          "code": "same_radio_zachalo_has_different_ranges",
+          "identity": "John:2",
+          "interpretation": "Review signal; not a determination of error or permission to correct the source.",
+          "occurrences": [
+            {
+              "date": "2026-02-20",
+              "source_reference": "Јеванђеље по Јовану, зачало 2. 1,18-28",
+              "segments": [
+                {
+                  "start": {
+                    "chapter": 1,
+                    "verse": 18
+                  },
+                  "end": {
+                    "chapter": 1,
+                    "verse": 28
+                  }
+                }
+              ]
+            },
+            {
+              "date": "2026-04-13",
+              "source_reference": "Јеванђеље по Јовану, зачало 2. 1,18-26",
+              "segments": [
+                {
+                  "start": {
+                    "chapter": 1,
+                    "verse": 18
+                  },
+                  "end": {
+                    "chapter": 1,
+                    "verse": 26
+                  }
+                }
+              ]
+            },
+            {
+              "date": "2026-06-10",
+              "source_reference": "Јеванђеље по Јовану, зачало 2. 1,18-28",
+              "segments": [
+                {
+                  "start": {
+                    "chapter": 1,
+                    "verse": 18
+                  },
+                  "end": {
+                    "chapter": 1,
+                    "verse": 28
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-04-08",
+      "signals": [
+        {
+          "code": "same_radio_zachalo_has_different_ranges",
+          "identity": "Matthew:108",
+          "interpretation": "Review signal; not a determination of error or permission to correct the source.",
+          "occurrences": [
+            {
+              "date": "2026-04-08",
+              "source_reference": "Јеванђеље по Матеју, зачало 108. 26,6-39",
+              "segments": [
+                {
+                  "start": {
+                    "chapter": 26,
+                    "verse": 6
+                  },
+                  "end": {
+                    "chapter": 26,
+                    "verse": 39
+                  }
+                }
+              ]
+            },
+            {
+              "date": "2026-04-09",
+              "source_reference": "Јеванђеље по Матеју, зачало 108. 26,40-56",
+              "segments": [
+                {
+                  "start": {
+                    "chapter": 26,
+                    "verse": 40
+                  },
+                  "end": {
+                    "chapter": 26,
+                    "verse": 56
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-04-09",
+      "signals": [
+        {
+          "code": "same_radio_zachalo_has_different_ranges",
+          "identity": "Matthew:108",
+          "interpretation": "Review signal; not a determination of error or permission to correct the source.",
+          "occurrences": [
+            {
+              "date": "2026-04-08",
+              "source_reference": "Јеванђеље по Матеју, зачало 108. 26,6-39",
+              "segments": [
+                {
+                  "start": {
+                    "chapter": 26,
+                    "verse": 6
+                  },
+                  "end": {
+                    "chapter": 26,
+                    "verse": 39
+                  }
+                }
+              ]
+            },
+            {
+              "date": "2026-04-09",
+              "source_reference": "Јеванђеље по Матеју, зачало 108. 26,40-56",
+              "segments": [
+                {
+                  "start": {
+                    "chapter": 26,
+                    "verse": 40
+                  },
+                  "end": {
+                    "chapter": 26,
+                    "verse": 56
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-04-13",
+      "signals": [
+        {
+          "code": "same_radio_zachalo_has_different_ranges",
+          "identity": "John:2",
+          "interpretation": "Review signal; not a determination of error or permission to correct the source.",
+          "occurrences": [
+            {
+              "date": "2026-02-20",
+              "source_reference": "Јеванђеље по Јовану, зачало 2. 1,18-28",
+              "segments": [
+                {
+                  "start": {
+                    "chapter": 1,
+                    "verse": 18
+                  },
+                  "end": {
+                    "chapter": 1,
+                    "verse": 28
+                  }
+                }
+              ]
+            },
+            {
+              "date": "2026-04-13",
+              "source_reference": "Јеванђеље по Јовану, зачало 2. 1,18-26",
+              "segments": [
+                {
+                  "start": {
+                    "chapter": 1,
+                    "verse": 18
+                  },
+                  "end": {
+                    "chapter": 1,
+                    "verse": 26
+                  }
+                }
+              ]
+            },
+            {
+              "date": "2026-06-10",
+              "source_reference": "Јеванђеље по Јовану, зачало 2. 1,18-28",
+              "segments": [
+                {
+                  "start": {
+                    "chapter": 1,
+                    "verse": 18
+                  },
+                  "end": {
+                    "chapter": 1,
+                    "verse": 28
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-06-10",
+      "signals": [
+        {
+          "code": "same_radio_zachalo_has_different_ranges",
+          "identity": "John:2",
+          "interpretation": "Review signal; not a determination of error or permission to correct the source.",
+          "occurrences": [
+            {
+              "date": "2026-02-20",
+              "source_reference": "Јеванђеље по Јовану, зачало 2. 1,18-28",
+              "segments": [
+                {
+                  "start": {
+                    "chapter": 1,
+                    "verse": 18
+                  },
+                  "end": {
+                    "chapter": 1,
+                    "verse": 28
+                  }
+                }
+              ]
+            },
+            {
+              "date": "2026-04-13",
+              "source_reference": "Јеванђеље по Јовану, зачало 2. 1,18-26",
+              "segments": [
+                {
+                  "start": {
+                    "chapter": 1,
+                    "verse": 18
+                  },
+                  "end": {
+                    "chapter": 1,
+                    "verse": 26
+                  }
+                }
+              ]
+            },
+            {
+              "date": "2026-06-10",
+              "source_reference": "Јеванђеље по Јовану, зачало 2. 1,18-28",
+              "segments": [
+                {
+                  "start": {
+                    "chapter": 1,
+                    "verse": 18
+                  },
+                  "end": {
+                    "chapter": 1,
+                    "verse": 28
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "monitor_last_good_state_advanced": false,
+  "monitor_validation_failed": true,
+  "production_activation_allowed": false,
+  "remaining_gates": [
+    "human_source_fact_review",
+    "separate_liturgical_assignment_review_if_requested",
+    "explicit_content_approval",
+    "new_exact_release_and_native_validation",
+    "separate_production_authorization"
+  ]
+}

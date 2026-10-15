@@ -1,0 +1,24 @@
+{
+  "date": "2026-10-15",
+  "purpose": "Archive existing local source, drafts and evidence at the user's request to send all changes to Git",
+  "branch": "archive/local-content-2026-10-15",
+  "baseRemoteCommit": "3fb47de22d7830c5c488c9ef4785047a666ddaa0",
+  "localSourceBase": "e6e09c6",
+  "copiedExistingFiles": 1181,
+  "copiedFilesByteComparison": "MATCH",
+  "releaseDirectory": "Kept exactly as remote S14. Stale local S12 discovery/index and all local release-directory overlays were excluded.",
+  "sourceState": "Historical local source snapshot, not a new release candidate or reviewed editorial approval",
+  "draftApprovals": "Existing draft and pending statuses are preserved. No new content or rights approval is inferred.",
+  "tests": "No functional suites or benchmarks run for this archive. File inventory, byte comparison and common private-key/token pattern checks only. Existing raw source HTML CRLF/trailing whitespace and historical EOF whitespace are preserved byte-for-byte rather than rewriting evidence.",
+  "privateSigningMaterial": "Not copied; no private key or common GitHub/OpenAI token patterns found in the selected source files",
+  "ignoredCachesAndArchives": "Not copied",
+  "historicalOTARemovals": [
+    "scripts/generate-development-backgrounds-v1.mjs",
+    "scripts/generate-development-combined.mjs",
+    "tests/backgrounds-combined.test.mjs",
+    "tests/backgrounds-development.test.mjs"
+  ],
+  "productionBranchChanged": false,
+  "contentPublicationPerformed": false,
+  "historyRewritten": false
+}

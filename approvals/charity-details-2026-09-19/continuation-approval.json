@@ -1,0 +1,42 @@
+{
+  "schema_version": "svetlost33-shared-content-approval-1",
+  "approval_id": "shared-charity-details-2026-09-19-r2",
+  "recorded_at": "2026-09-19T13:12:15Z",
+  "decision": "approved_for_local_signed_candidate_and_native_validation",
+  "consumer_platforms": ["android", "ios"],
+  "decision_evidence": {
+    "user_confirmation": "potvrdjujem nastavi",
+    "scope": "Continuation of v0.24.8 charity organization details with official website/social links and removal of self-reported payments; iOS Today return correction. This is not permission from any third-party logo rights holder.",
+    "canonical_spec_commit": "c67d96c8a4ca97d9b86c27108e2282d7ed27fa8a",
+    "canonical_spec_sha256": "7976e9e567278cabe3045125db77e8446fa9215b3a8d7faefa5ccfa9ce703fb4"
+  },
+  "payload_binding": {
+    "path": "modules/organizations-v1/2026.9.19-r2/data/organizations-v1.json",
+    "version": "2026.9.19",
+    "revision": 2,
+    "bytes": 11073,
+    "sha256": "ad1fa507b83da7186a4bf66fdb3eb2695cbb0703e45e21d42ddfadbdcd4709a0"
+  },
+  "source_review_binding": {
+    "path": "approvals/charity-details-2026-09-19/source-review.json",
+    "sha256": "0ad94b28ee47d6b4de8db9a5e293928854545c1b83d2aba88de6b80259aa700c"
+  },
+  "authorized_content": {
+    "organization_ids": ["nurdor-rs", "norbs-plus-rs", "srbi-za-srbe-rs"],
+    "added_website_links": 3,
+    "added_social_links": 6,
+    "unchanged_donation_story_links": 6,
+    "payment_rails": 0,
+    "packaged_logos": 0,
+    "valid_until_exclusive": "2026-10-18T10:35:15Z"
+  },
+  "limits": {
+    "no_extended_original_review_expiry": true,
+    "third_party_logo_permission_asserted": false,
+    "new_bank_instructions_authorized": false,
+    "public_pointer_or_website_publication_authorized_by_this_record": false,
+    "physical_device_installation_authorized_by_this_record": false,
+    "contacting_organizations_authorized": false
+  },
+  "next_gate": "Validate the new immutable signed local candidate with both native consumers before a separate activation/distribution decision. Keep the current production s4 pointer unchanged. Logos require their own exact assets and documented reuse basis; no substitute or invented license."
+}

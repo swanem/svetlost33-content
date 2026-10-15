@@ -2,6 +2,7 @@
 import { readFile } from 'node:fs/promises';
 import { dirname, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { PRAVOSLAVNO_SOURCE_ID, pravoslavnoCalendarLabelMatches } from './pravoslavno-calendar-reference.mjs';
 
 export const PSALM_TRANSLATION = 'danicic-ebible-srp1868';
 export const PSALM_VERSIFICATION = 'DANICIC_EBIBLE_SRP1868';
@@ -182,7 +183,11 @@ export function validateBibleCandidate({ psalms, gospels, cycle, calendar, local
     counts.quotes++;
   }
   if (calendar) for (const day of calendar.days) for (const [index, reading] of (day.gospel?.readings ?? []).entries()) {
-    if (!legacyCalendarLabelMatches(reading)) errors.push({ id: `${day.date}:${index}`, reason: 'legacy_calendar_label_mismatch' });
+    // Only the registered, explicitly authorized publisher gets its own grammar.
+    // All other sources retain the exact historical matcher and error behavior.
+    const sourceSpecific = Array.isArray(reading.source_ids) && reading.source_ids.includes(PRAVOSLAVNO_SOURCE_ID);
+    const labelMatches = sourceSpecific ? pravoslavnoCalendarLabelMatches(reading, calendar.sources) : legacyCalendarLabelMatches(reading);
+    if (!labelMatches) errors.push({ id: `${day.date}:${index}`, reason: sourceSpecific ? 'source_calendar_label_mismatch' : 'legacy_calendar_label_mismatch' });
     check(`${day.date}:${index}`, { reference: adaptCalendarReading(reading), locale });
     counts.calendar_readings++;
   }

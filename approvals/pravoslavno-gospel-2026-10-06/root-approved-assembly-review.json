@@ -1,0 +1,62 @@
+{
+  "schema_version": 1,
+  "status": "SHARED_UNSIGNED_ASSEMBLY_PASS_PUBLICATION_HOLD_IOS_COMPATIBILITY",
+  "date": "2026-10-06",
+  "approval_path": "approvals/pravoslavno-gospel-2026-10-06/owner-combined-publication-approval.json",
+  "approval_sha256": "5f6caab4281e3a31a1b0c9b6d69c1aca89bed418a81e1d8822ccf0c846db3912",
+  "handoff_path": "drafts/combined-calendar-release-2026-10-06/handoff.json",
+  "handoff_sha256_before_and_after": "1179ff7461e93d454ba43ecf2aae49e23fcc935efc51ebf82a5d73cfe2e318e0",
+  "artifact_length_and_sha256_pins_checked_before_and_after": 82,
+  "root_source_review": ["prepare.mjs", "verify.mjs", "verify.test.mjs"],
+  "root_execution": {
+    "command": "node drafts/combined-calendar-release-2026-10-06/verify.mjs --check",
+    "exit_code": 0,
+    "tests": 7,
+    "passed": 7,
+    "failed": 0,
+    "skipped": 0,
+    "cancelled": 0,
+    "tap_duration_ms": 2089.276375,
+    "log_path": "approvals/pravoslavno-gospel-2026-10-06/root-approved-assembly-check.log",
+    "log_sha256": "8a734ef26c84cf0a32d935bf9449f38bf215bcdc4aceb6eddaeb6d833f06ee37",
+    "protected_inputs_and_unsigned_graph_unchanged_before_after": true,
+    "owner_tests_overlap_root_tests": true
+  },
+  "verified_scope": {
+    "unchanged_article_objects": 104,
+    "added_A_B_article_links": 40,
+    "existing_year_end_links_preserved": true,
+    "new_gospel_dates": 31,
+    "new_gospel_readings": 33,
+    "gospel_window": ["2026-10-06", "2026-11-05"],
+    "later_unknown_dates_unchanged": 56,
+    "old_annual_gates_and_radio_approval_preserved": true,
+    "library_cycles_organizations_and_retained_signed_history_preserved": true,
+    "changed_modules": 4,
+    "unsigned_documents": 6,
+    "publication_allowlist_paths": 18
+  },
+  "authentication_limit": "Existing S13 signatures checked using actual RSA. S14 is unsigned; shared preflight and structural tests are not native acceptance or production-signature evidence.",
+  "index_sha256": "51cbc3824d371ac647950644bad8dbdea6945f7c75360c667975fc909265430c",
+  "release_sha256": "4e82e44fb0ef84fec3789ee009f4526cb57ac5e3d76162ca84b8ce5d378de097",
+  "publication_blocker": {
+    "path": "approvals/pravoslavno-gospel-2026-10-06/root-ios41-compatibility-blocker.json",
+    "sha256": "8cfcef81c0409614a5006ba35763629eaf7a90dfdfa1145e0d385eadcf2254be",
+    "minimum_ios_0_1_14_is_known_incompatible": true,
+    "new_native_release_authorization_pending": true,
+    "user_question_already_sent_once": true,
+    "ios_owner_evidence_correction_commit": "bfb795d"
+  },
+  "native_run": false,
+  "new_signature": false,
+  "publication": false,
+  "device_or_site_changes": false,
+  "independent_assembly_review": {
+    "reviewer": "/root/ui02_readonly_review",
+    "status": "NO_NEW_BLOCKER_FOR_APPROVED_UNSIGNED_ASSEMBLY_ONLY",
+    "confirmed": "104 articles and prior links preserved; exactly40 new A+B links; only31 Gospel fields/33 readings promoted;56 future dates unchanged; historical gates and four-module bindings preserved.",
+    "tests_repeated": false,
+    "files_modified": false,
+    "signing_or_native_go": false
+  }
+}

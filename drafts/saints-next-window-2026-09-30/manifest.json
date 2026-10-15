@@ -1,0 +1,66 @@
+{
+  "schema_version": "svetlost33-saints-next-window-manifest-1",
+  "candidate_id": "saints-next-window-2026-09-30-r1",
+  "status": "LOCAL_DRAFT_PENDING_HUMAN_REVIEW",
+  "created_on": "2026-09-30",
+  "window": {
+    "start": "2026-10-21",
+    "end": "2026-11-19",
+    "days": 30
+  },
+  "owner_approval": null,
+  "clerical_review": null,
+  "publication_authorized": false,
+  "prepared_articles": 30,
+  "preserved_articles": 32,
+  "total_articles": 62,
+  "preview_sha256": "5e5fcf1af234767934bbe91b492a4927419bd5d8560eda50dc8a0e51b4d71b48",
+  "preview_bytes": 211961,
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 5839,
+      "sha256": "e711d1df0635b31ad9b5b566018cb22ab1cf95090927b257146b426d679ba513"
+    },
+    {
+      "path": "inventory.json",
+      "bytes": 24266,
+      "sha256": "82856657c1a86a2679aad9b95d437e327171af686dd4c476d6eab163a7da59ab"
+    },
+    {
+      "path": "manuscript.json",
+      "bytes": 79865,
+      "sha256": "04ffd610dde2c10f95bc552061ae5628b404dda06792a9a19a871dcf4c4ea922"
+    },
+    {
+      "path": "sources.json",
+      "bytes": 30502,
+      "sha256": "c6bba1b829d595620ef3adfb28d1fcc1b8915dcf4a4f0abbf3e5c2d3431635a2"
+    },
+    {
+      "path": "inspect.mjs",
+      "bytes": 10055,
+      "sha256": "cb3bf782730b7997e26d9afa1f459625a7a511313ab07fd0095f936365380f98"
+    },
+    {
+      "path": "inspect.test.mjs",
+      "bytes": 4953,
+      "sha256": "058f6193f1f63323995dbabff040ed244a6520906d6c946668327a4fc8267956"
+    },
+    {
+      "path": "validation.json",
+      "bytes": 4181,
+      "sha256": "4fc1aa35fb9182010d3b97e8aff235f0485d2f696f487fd6773bfef6a3a5075a"
+    },
+    {
+      "path": "export-review.mjs",
+      "bytes": 4204,
+      "sha256": "043e259dd221d12ced90a09cdd589b064560e417a0e6fca47f1ba45c50fd58fc"
+    },
+    {
+      "path": "PREGLED.md",
+      "bytes": 83662,
+      "sha256": "d1b8c2c1efe24bdeb072490b0a54c63210f785fdda08767ae2c48a1a3e5af474"
+    }
+  ]
+}

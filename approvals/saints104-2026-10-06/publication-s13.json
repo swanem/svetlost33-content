@@ -1,0 +1,152 @@
+{
+  "schema_version": "svetlost33-s13-publication-receipt-1",
+  "recorded_at_utc": "2026-10-06 16:41:09 UTC",
+  "status": "PUBLISHED_AND_PUBLIC_READBACK_PASS",
+  "release_set_id": "shared-saints104-2026-10-06-m0v2-s13",
+  "sequence": 13,
+  "scope": {
+    "existing_texts_unchanged": 62,
+    "new_reviewed_original_texts": 42,
+    "total_texts": 104,
+    "scripts": [
+      "sr-Cyrl",
+      "sr-Latn"
+    ],
+    "new_text_dates": "2026-11-20/2026-12-31",
+    "calendar_packages_A_B_included": false
+  },
+  "authorization": {
+    "user_request": "posle objavi novu zbirku tekstova",
+    "owner_approval_sha256": "3cd32c026190cbf30054f52d0ff742cf2d1bc53b7013348cbe662e1325902629"
+  },
+  "publication": {
+    "repository": "swanem/svetlost33-content",
+    "branch": "main",
+    "parent_commit": "16f1fe741aaad2450fe66a0832c28c1b3e891502",
+    "commit": "0cbc5e31100c3a66830f1fd6e3d0a08a489dcb8b",
+    "tree": "1500f6432f08538e4c358accd8fb530d73cb9619",
+    "url": "https://github.com/swanem/svetlost33-content/commit/0cbc5e31100c3a66830f1fd6e3d0a08a489dcb8b",
+    "mechanism": "Connected GitHub Git-object API; exact local tree equality; main updated with force:false and expected parent SHA",
+    "files_changed": 15,
+    "uploaded_blobs": [
+      {
+        "path": "releases/v2/production/discovery-archive/shared-calendar-saints-2026-10-02-m0v2-s12/index.json",
+        "length": 592,
+        "sha": "b7d718ffa5a1c935c56541200dc42097cc564df6"
+      },
+      {
+        "path": "releases/v2/production/index.sig",
+        "length": 513,
+        "sha": "2ff346a2f1727049c0b654fb72bb6bc356df4669"
+      },
+      {
+        "path": "releases/v2/production/discovery-archive/shared-calendar-saints-2026-10-02-m0v2-s12/index.sig",
+        "length": 513,
+        "sha": "cecfe485d88457c35b51e80b757c5ca6f0332880"
+      },
+      {
+        "path": "releases/v2/production/index.json",
+        "length": 574,
+        "sha": "e9d74477fc05e90b73d09d6b69e3f7a85cc1b00a"
+      },
+      {
+        "path": "releases/v2/production/releases/shared-saints104-2026-10-06-m0v2-s13/modules/calendar-browser-v1-2026.10.6-r4/manifest.sig",
+        "length": 513,
+        "sha": "700c2289a9470ae026c25f9af001fdeafccaa00f"
+      },
+      {
+        "path": "releases/v2/production/releases/shared-saints104-2026-10-06-m0v2-s13/modules/calendar-browser-v1-2026.10.6-r4/manifest.json",
+        "length": 533,
+        "sha": "8fbd489789cece2ca46758d6824bcb2768244bef"
+      },
+      {
+        "path": "releases/v2/production/releases/shared-saints104-2026-10-06-m0v2-s13/modules/calendar-browser-v1-2026.10.6-r4/data/calendar-browser-v1.json",
+        "length": 97934,
+        "sha": "50b7f51456aeb3d724ef4666a0fd59caec6d0332"
+      },
+      {
+        "path": "releases/v2/production/releases/shared-saints104-2026-10-06-m0v2-s13/modules/liturgical-catalog-v1-2026.10.6-r8/manifest.json",
+        "length": 696,
+        "sha": "b47cacce0b6f219e3ab717ce5abb875512b2e2ec"
+      },
+      {
+        "path": "releases/v2/production/releases/shared-saints104-2026-10-06-m0v2-s13/modules/liturgical-catalog-v1-2026.10.6-r8/manifest.sig",
+        "length": 513,
+        "sha": "ad608fccd773e63ea4ced9f242e3b18a75f16d0b"
+      },
+      {
+        "path": "releases/v2/production/releases/shared-saints104-2026-10-06-m0v2-s13/modules/liturgical-catalog-v1-2026.10.6-r8/data/liturgical-catalog-v1.json",
+        "length": 159835,
+        "sha": "721c02e9f081f06bade08eea0a559dcff7e4f268"
+      },
+      {
+        "path": "releases/v2/production/releases/shared-saints104-2026-10-06-m0v2-s13/modules/saints-v1-2026.10.6-r5/manifest.json",
+        "length": 586,
+        "sha": "2e2a3d08696d976a8b5c1c134472452c3c6bfae1"
+      },
+      {
+        "path": "releases/v2/production/releases/shared-saints104-2026-10-06-m0v2-s13/modules/saints-v1-2026.10.6-r5/manifest.sig",
+        "length": 513,
+        "sha": "887b60b61ede7bf2df39172ad78f65d4926c0e4d"
+      },
+      {
+        "path": "releases/v2/production/releases/shared-saints104-2026-10-06-m0v2-s13/modules/saints-v1-2026.10.6-r5/data/saints-v1.json",
+        "length": 399111,
+        "sha": "8250b8298ed830837cc52f4dc7953fe9f46089eb"
+      },
+      {
+        "path": "releases/v2/production/releases/shared-saints104-2026-10-06-m0v2-s13/release-set.json",
+        "length": 3903,
+        "sha": "737017d9c5f961b5581dac46b6346d25a6dfcdff"
+      },
+      {
+        "path": "releases/v2/production/releases/shared-saints104-2026-10-06-m0v2-s13/release-set.sig",
+        "length": 513,
+        "sha": "5a60e4d4539ddc0967164c862c524753a67ebdb2"
+      }
+    ],
+    "isolated_local_commit": "a836b0d513e959f71c3fe4bf47b26b2aa107f1e7",
+    "isolated_local_checkout": "/private/tmp/svetlost33-s13-public.GMrHOJ/checkout",
+    "note": "CLI HTTPS push could not authenticate and made no remote mutation. Connected GitHub API published the same exact tree; no credentials, ACLs or keys were changed. Local isolated commit has different metadata/SHA, but identical tree. Dirty main content workspace and historical pending inputs were preserved."
+  },
+  "verification": {
+    "index_sha256": "6250554d597daa19025cdcd3bc1d0c7c1763c3763ff4bc4fe1b85fb03f69441b",
+    "release_sha256": "76054fb851221ad1de64922a1167741646e2dd9f199588404b9a6a7745d4b7ff",
+    "native_and_shared_go_receipt_sha256": "063aff11c931c47a094469a95e3980d633a797cbe1f812007b58bb23bd4acca6",
+    "public_readback_receipt": "public-readback-s13.json",
+    "public_readback_receipt_sha256": "e6bce373760da88996bf2df0a789ff853eef483e12a9d393608106d149f9c700",
+    "completed_at": "2026-10-06T16:40:10.314Z",
+    "fetched_files": 63,
+    "http_gets": 65,
+    "graph_bytes": 6496489,
+    "actual_production_signature_profiles_pass": 24,
+    "discovery_pair_checked_before_and_after": true,
+    "remote_main_head_rechecked": true,
+    "native_exact_s12_s13_tests": {
+      "android": "1/1 PASS; runtime source unchanged",
+      "ios": "1/1 PASS; runtime source unchanged"
+    },
+    "shared_root_focused_tests": "9/9 PASS",
+    "speed_optimization_or_new_benchmark_performed": false
+  },
+  "delivery": {
+    "minimum_android_version_code": 66,
+    "minimum_ios_version": "0.1.14",
+    "apps_already_delivered": "Android 0.22.3 (66), iOS 0.1.14 (41); no new app build/install",
+    "device_s13_activation_verified": false,
+    "manual_content_refresh_required": true
+  },
+  "remaining_outside_scope": [
+    "Separate calendar A/B content approval and linkage",
+    "Deferred speed optimization and 366 reserve",
+    "Physical device S13 activation/retention not verified"
+  ],
+  "safeguards": [
+    "No OTA backgrounds",
+    "No new images or 2027 facts",
+    "No signing key/ACL changes",
+    "No pending/private/test files published",
+    "Historical content and dirty workspaces preserved",
+    "Existing follow-up remains paused"
+  ]
+}

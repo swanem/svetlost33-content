@@ -1,0 +1,19 @@
+{
+  "status": "QUESTION_SENT_AWAITING_EXPLICIT_USER_ANSWER",
+  "requested_at_utc_approx": "2026-10-06T07:37:00Z",
+  "scope": "42 new original summaries and their proposed canonical observance/source links for 2026-11-20 through 2026-12-31, both scripts. Existing 62 approved articles remain unchanged.",
+  "question": "Da li odobravaš pripremljena 42 nova teksta o svetiteljima i praznicima za 20. novembar–31. decembar 2026, u oba pisma, sa povezanim spomenima i izvorima iz otvorenog pregleda? Postojeća 62 teksta ostaju ista; objava sledi tek posle tehničkog prihvata obe aplikacije.",
+  "pins": {
+    "block1_handoff": "13e19c3406397d5bf30ab0e03c8e060d4ae8fafd1be38583b76dc18615777ca1",
+    "block1_independent_review": "fca2e8103967821944300eb2da9718407cda2dd706541e5832b384238725ee84",
+    "block2_handoff": "54bb0a1475199c0aa0884c7a32409ca0aef9033967d4055c14717751b5f1cc8d",
+    "block2_independent_review": "15c0fe1a6326357472bd4adc91070dd64e9429b0071a056a211995ad40da36d5",
+    "PREGLED-CIRILICA.md": "5648b6bdfe3a886c80ff19ffe25b96604b4675a1aa6aabd2628921d6e6ef890b",
+    "PREGLED-LATINICA.md": "92c600ccc4c0a8db41ccf78a02b6ce8f3ac34925a62754ad89da2127c7b44a6e"
+  },
+  "answer": null,
+  "preselection_is_approval": false,
+  "package_A": "Separate earlier pending question, not repeated or subsumed here.",
+  "boundaries": "User editorial approval does not assert clergy review, grant a third-party public-domain license, resolve omitted uncertain biography details or bypass native/release acceptance.",
+  "published": false
+}

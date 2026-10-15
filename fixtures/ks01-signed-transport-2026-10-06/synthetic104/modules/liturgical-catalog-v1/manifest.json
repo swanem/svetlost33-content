@@ -1,0 +1,30 @@
+{
+  "schema_version": "svetlost33-module-manifest-2",
+  "module_id": "liturgical-catalog-v1",
+  "module_type": "library",
+  "version": "test.ks01.104",
+  "revision": 1,
+  "key_id": "ks01-test-transport-key-1",
+  "capabilities": [
+    "liturgical-catalog-v1"
+  ],
+  "dependencies": [
+    {
+      "module_id": "calendar-2026-r1",
+      "version": "2026.1.1"
+    },
+    {
+      "module_id": "saints-v1",
+      "version": "test.ks01.104"
+    }
+  ],
+  "files": [
+    {
+      "path": "data/liturgical-catalog-v1.json",
+      "bytes": 304765,
+      "sha256": "29a947a80da56e02e66921938e74bb8479508ba77fb6380f3967ecb6b64637c1",
+      "content_type": "application/json",
+      "encoding": "utf-8"
+    }
+  ]
+}

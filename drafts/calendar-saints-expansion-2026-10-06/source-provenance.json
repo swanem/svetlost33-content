@@ -1,0 +1,645 @@
+{
+  "schema_version": "svetlost33-ks01-provenance-1",
+  "inputs": [
+    {
+      "path": "releases/v2/production/index.json",
+      "bytes": 592,
+      "sha256": "a0d50c23036db203035419f4ba169ddb6005223799ed3ac4e89e03dd9f7733e9"
+    },
+    {
+      "path": "releases/v2/production/releases/shared-calendar-saints-2026-10-02-m0v2-s12/release-set.json",
+      "bytes": 3944,
+      "sha256": "78142e24f74812be9859b88163203de23517a9ed40a16c0f5ee085e25354255d"
+    },
+    {
+      "path": "releases/v2/production/releases/shared-annual-2026-r1-m0v2-s2/modules/calendar-2026-r1-2026.1.1-r2/manifest.json",
+      "bytes": 630,
+      "sha256": "11e5d8b92ebbacd40ae6d0bad861c85a2df8220cd0b1091a2b7522754d538905"
+    },
+    {
+      "path": "releases/v2/production/releases/shared-annual-2026-r1-m0v2-s2/modules/calendar-2026-r1-2026.1.1-r2/data/calendar.2026.json",
+      "bytes": 1665524,
+      "sha256": "a1b6a5d5911ae03f77802bd466227f0c1ea4fe97708b1b6f92cd4b08847c7c9c"
+    },
+    {
+      "path": "releases/v2/production/releases/shared-content-refresh-2026-09-30-m0v2-s11/modules/saints-v1-2026.9.30-r4/manifest.json",
+      "bytes": 586,
+      "sha256": "ae73dcd04221e44e57c07af7daf669a27a73005f054d1d99b2333011e77c3292"
+    },
+    {
+      "path": "releases/v2/production/releases/shared-content-refresh-2026-09-30-m0v2-s11/modules/saints-v1-2026.9.30-r4/data/saints-v1.json",
+      "bytes": 211965,
+      "sha256": "ca3e4fd02ca79e97d53e0e456b2ccaaeb81ebc3b740a71b3eb72049bf01331b5"
+    },
+    {
+      "path": "releases/v2/production/releases/shared-calendar-saints-2026-10-02-m0v2-s12/modules/liturgical-catalog-v1-2026.10.1-r7/manifest.json",
+      "bytes": 695,
+      "sha256": "1bb3d4b5ac6a5b4f4946ea7438cfe465f6121a7877dbb35976965ff28a13943e"
+    },
+    {
+      "path": "releases/v2/production/releases/shared-calendar-saints-2026-10-02-m0v2-s12/modules/liturgical-catalog-v1-2026.10.1-r7/data/liturgical-catalog-v1.json",
+      "bytes": 66656,
+      "sha256": "d973f659da3a1e084739afe70a6a31daea390c32f5508ecdaa56a3fc3e7b4af3"
+    },
+    {
+      "path": "releases/v2/production/releases/shared-calendar-saints-2026-10-02-m0v2-s12/modules/calendar-browser-v1-2026.10.2-r3/manifest.json",
+      "bytes": 533,
+      "sha256": "6a61a1593a890f4a8c9ac6fbd54feb6ee0b349c92020dd5f56f4c6c25492a805"
+    },
+    {
+      "path": "releases/v2/production/releases/shared-calendar-saints-2026-10-02-m0v2-s12/modules/calendar-browser-v1-2026.10.2-r3/data/calendar-browser-v1.json",
+      "bytes": 97947,
+      "sha256": "20d3d0ad3d9a352c87d05425e8673460c62c9a0cf4043988c48e4c0da3d61fae"
+    },
+    {
+      "path": "drafts/saints-completion-2026-09-21/sources.json",
+      "bytes": 19540,
+      "sha256": "6a5705620d8c95ff6fb5c9feac83ccfb610af3f1fad6df59320d66209bfa27aa"
+    },
+    {
+      "path": "drafts/saints-next-window-2026-09-30/sources.json",
+      "bytes": 30502,
+      "sha256": "c6bba1b829d595620ef3adfb28d1fcc1b8915dcf4a4f0abbf3e5c2d3431635a2"
+    },
+    {
+      "path": "approvals/saints-completion-2026-09-21/owner-publication-approval.json",
+      "bytes": 7021,
+      "sha256": "8a103bf8ba8508360d377236517660320708cf1221caf8c279fe91fefb78df06"
+    },
+    {
+      "path": "approvals/new-content-2026-09-30/owner-approval.json",
+      "bytes": 7829,
+      "sha256": "549e767f5734030b8c36d7b05c1b7eefc02583a4b6b14f4313e8721594002290"
+    },
+    {
+      "path": "approvals/calendar-saints-window-2026-10-02/owner-approval.json",
+      "bytes": 3074,
+      "sha256": "15a5c33a13cfb572c2861e20463b49fd073164118375d86c97216472c2d1ae71"
+    }
+  ],
+  "source_date_policy": "Historical reviewed_on copied exactly; no fresh web check, source snapshot, independent rights or clerical claim.",
+  "new_source_records": [
+    {
+      "catalog_source_id": "comp-oca-john-theologian",
+      "catalog_checked_on": "2026-09-21",
+      "original_approved_source": {
+        "id": "comp-oca-john-theologian",
+        "kind": "article",
+        "title": "Repose of the Holy Apostle and Evangelist John the Theologian",
+        "url": "https://www.oca.org/saints/lives/2026/09/26/102731-repose-of-the-holy-apostle-and-evangelist-john-the-theologian",
+        "publisher": "Orthodox Church in America",
+        "original_author": null,
+        "published_on": null,
+        "reviewed_on": "2026-09-21"
+      },
+      "source_payload": {
+        "path": "releases/v2/production/releases/shared-content-refresh-2026-09-30-m0v2-s11/modules/saints-v1-2026.9.30-r4/data/saints-v1.json",
+        "bytes": 211965,
+        "sha256": "ca3e4fd02ca79e97d53e0e456b2ccaaeb81ebc3b740a71b3eb72049bf01331b5"
+      },
+      "prior_source_registry": "drafts/saints-completion-2026-09-21/sources.json"
+    },
+    {
+      "catalog_source_id": "comp-oca-callistratus",
+      "catalog_checked_on": "2026-09-21",
+      "original_approved_source": {
+        "id": "comp-oca-callistratus",
+        "kind": "article",
+        "title": "Martyr Callistratus and 49 companions",
+        "url": "https://www.oca.org/saints/lives/2026/09/27/102736-martyr-callistratus-and-49-companions",
+        "publisher": "Orthodox Church in America",
+        "original_author": null,
+        "published_on": null,
+        "reviewed_on": "2026-09-21"
+      },
+      "source_payload": {
+        "path": "releases/v2/production/releases/shared-content-refresh-2026-09-30-m0v2-s11/modules/saints-v1-2026.9.30-r4/data/saints-v1.json",
+        "bytes": 211965,
+        "sha256": "ca3e4fd02ca79e97d53e0e456b2ccaaeb81ebc3b740a71b3eb72049bf01331b5"
+      },
+      "prior_source_registry": "drafts/saints-completion-2026-09-21/sources.json"
+    },
+    {
+      "catalog_source_id": "comp-oca-chariton",
+      "catalog_checked_on": "2026-09-21",
+      "original_approved_source": {
+        "id": "comp-oca-chariton",
+        "kind": "article",
+        "title": "Venerable Chariton the Confessor, Abbot of Palestine",
+        "url": "https://www.oca.org/saints/lives/2024/09/28/102742-venerable-chariton-the-confessor-abbot-of-palestine",
+        "publisher": "Orthodox Church in America",
+        "original_author": null,
+        "published_on": null,
+        "reviewed_on": "2026-09-21"
+      },
+      "source_payload": {
+        "path": "releases/v2/production/releases/shared-content-refresh-2026-09-30-m0v2-s11/modules/saints-v1-2026.9.30-r4/data/saints-v1.json",
+        "bytes": 211965,
+        "sha256": "ca3e4fd02ca79e97d53e0e456b2ccaaeb81ebc3b740a71b3eb72049bf01331b5"
+      },
+      "prior_source_registry": "drafts/saints-completion-2026-09-21/sources.json"
+    },
+    {
+      "catalog_source_id": "comp-oca-kyriakos",
+      "catalog_checked_on": "2026-09-21",
+      "original_approved_source": {
+        "id": "comp-oca-kyriakos",
+        "kind": "article",
+        "title": "Venerable Kyriakos the Anchorite",
+        "url": "https://www.oca.org/saints/lives/1950/09/29/102813-venerable-kyriakos-the-anchorite",
+        "publisher": "Orthodox Church in America",
+        "original_author": null,
+        "published_on": null,
+        "reviewed_on": "2026-09-21"
+      },
+      "source_payload": {
+        "path": "releases/v2/production/releases/shared-content-refresh-2026-09-30-m0v2-s11/modules/saints-v1-2026.9.30-r4/data/saints-v1.json",
+        "bytes": 211965,
+        "sha256": "ca3e4fd02ca79e97d53e0e456b2ccaaeb81ebc3b740a71b3eb72049bf01331b5"
+      },
+      "prior_source_registry": "drafts/saints-completion-2026-09-21/sources.json"
+    },
+    {
+      "catalog_source_id": "comp-mitropolija-miholjdan",
+      "catalog_checked_on": "2026-09-21",
+      "original_approved_source": {
+        "id": "comp-mitropolija-miholjdan",
+        "kind": "article",
+        "title": "Преподобни Киријак Отшелник – Михољдан",
+        "url": "https://mitropolija.com/2022/10/11/prepodobni-kirijak-otselnik-miholjdan-2/",
+        "publisher": "Православна Митрополија црногорско-приморска",
+        "original_author": null,
+        "published_on": "2022-10-11",
+        "reviewed_on": "2026-09-21"
+      },
+      "source_payload": {
+        "path": "releases/v2/production/releases/shared-content-refresh-2026-09-30-m0v2-s11/modules/saints-v1-2026.9.30-r4/data/saints-v1.json",
+        "bytes": 211965,
+        "sha256": "ca3e4fd02ca79e97d53e0e456b2ccaaeb81ebc3b740a71b3eb72049bf01331b5"
+      },
+      "prior_source_registry": "drafts/saints-completion-2026-09-21/sources.json"
+    },
+    {
+      "catalog_source_id": "comp-oca-gregory-armenia",
+      "catalog_checked_on": "2026-09-21",
+      "original_approved_source": {
+        "id": "comp-oca-gregory-armenia",
+        "kind": "article",
+        "title": "Hieromartyr Gregory, Bishop of Greater Armenia, Equal of the Apostles, Enlightener of Armenia",
+        "url": "https://www.oca.org/saints/lives/2026/09/30/102818-hieromartyr-gregory-bishop-of-greater-armenia-equal-of-the-apost",
+        "publisher": "Orthodox Church in America",
+        "original_author": null,
+        "published_on": null,
+        "reviewed_on": "2026-09-21"
+      },
+      "source_payload": {
+        "path": "releases/v2/production/releases/shared-content-refresh-2026-09-30-m0v2-s11/modules/saints-v1-2026.9.30-r4/data/saints-v1.json",
+        "bytes": 211965,
+        "sha256": "ca3e4fd02ca79e97d53e0e456b2ccaaeb81ebc3b740a71b3eb72049bf01331b5"
+      },
+      "prior_source_registry": "drafts/saints-completion-2026-09-21/sources.json"
+    },
+    {
+      "catalog_source_id": "comp-kinonija-gregory-armenia",
+      "catalog_checked_on": "2026-09-21",
+      "original_approved_source": {
+        "id": "comp-kinonija-gregory-armenia",
+        "kind": "article",
+        "title": "Календар за 30. септембар / 13. октобар",
+        "url": "https://kinonija.rs/praznici/kalendar-za-30-septembar-13-oktobar/",
+        "publisher": "Кинонија — портал при Мисионарском одељењу Архиепископије београдско-карловачке",
+        "original_author": null,
+        "published_on": "2024-10-12",
+        "reviewed_on": "2026-09-21"
+      },
+      "source_payload": {
+        "path": "releases/v2/production/releases/shared-content-refresh-2026-09-30-m0v2-s11/modules/saints-v1-2026.9.30-r4/data/saints-v1.json",
+        "bytes": 211965,
+        "sha256": "ca3e4fd02ca79e97d53e0e456b2ccaaeb81ebc3b740a71b3eb72049bf01331b5"
+      },
+      "prior_source_registry": "drafts/saints-completion-2026-09-21/sources.json"
+    },
+    {
+      "catalog_source_id": "comp-oca-protection",
+      "catalog_checked_on": "2026-09-21",
+      "original_approved_source": {
+        "id": "comp-oca-protection",
+        "kind": "article",
+        "title": "The Protection of our Most Holy Lady the Mother of God and Ever-Virgin Mary",
+        "url": "https://www.oca.org/saints/lives/2026/10/01/102824-the-protection-of-our-most-holy-lady-the-mother-of-god-and-ever",
+        "publisher": "Orthodox Church in America",
+        "original_author": null,
+        "published_on": null,
+        "reviewed_on": "2026-09-21"
+      },
+      "source_payload": {
+        "path": "releases/v2/production/releases/shared-content-refresh-2026-09-30-m0v2-s11/modules/saints-v1-2026.9.30-r4/data/saints-v1.json",
+        "bytes": 211965,
+        "sha256": "ca3e4fd02ca79e97d53e0e456b2ccaaeb81ebc3b740a71b3eb72049bf01331b5"
+      },
+      "prior_source_registry": "drafts/saints-completion-2026-09-21/sources.json"
+    },
+    {
+      "catalog_source_id": "comp-sumadija-protection",
+      "catalog_checked_on": "2026-09-21",
+      "original_approved_source": {
+        "id": "comp-sumadija-protection",
+        "kind": "article",
+        "title": "ПОКРОВ ПРЕСВЕТЕ БОГОРОДИЦЕ",
+        "url": "https://www.eparhija-sumadijska.org.rs/index.php/%D0%B1%D0%B8%D0%B1%D0%BB%D0%B8%D0%BE%D1%82%D0%B5%D0%BA%D0%B0/7131-pokrov-presvete-bogorodice",
+        "publisher": "Епархија шумадијска",
+        "original_author": null,
+        "published_on": null,
+        "reviewed_on": "2026-09-21"
+      },
+      "source_payload": {
+        "path": "releases/v2/production/releases/shared-content-refresh-2026-09-30-m0v2-s11/modules/saints-v1-2026.9.30-r4/data/saints-v1.json",
+        "bytes": 211965,
+        "sha256": "ca3e4fd02ca79e97d53e0e456b2ccaaeb81ebc3b740a71b3eb72049bf01331b5"
+      },
+      "prior_source_registry": "drafts/saints-completion-2026-09-21/sources.json"
+    },
+    {
+      "catalog_source_id": "comp-oca-cyprian-justina",
+      "catalog_checked_on": "2026-09-21",
+      "original_approved_source": {
+        "id": "comp-oca-cyprian-justina",
+        "kind": "article",
+        "title": "Hieromartyr Cyprian, Virgin Martyr Justina, and Martyr Theoctistus, of Nicomedia",
+        "url": "https://www.oca.org/saints/lives/2026/10/02/102835-hieromartyr-cyprian-virgin-martyr-justina-and-martyr-theoctistus",
+        "publisher": "Orthodox Church in America",
+        "original_author": null,
+        "published_on": null,
+        "reviewed_on": "2026-09-21"
+      },
+      "source_payload": {
+        "path": "releases/v2/production/releases/shared-content-refresh-2026-09-30-m0v2-s11/modules/saints-v1-2026.9.30-r4/data/saints-v1.json",
+        "bytes": 211965,
+        "sha256": "ca3e4fd02ca79e97d53e0e456b2ccaaeb81ebc3b740a71b3eb72049bf01331b5"
+      },
+      "prior_source_registry": "drafts/saints-completion-2026-09-21/sources.json"
+    },
+    {
+      "catalog_source_id": "comp-spc-cyprian-justina",
+      "catalog_checked_on": "2026-09-21",
+      "original_approved_source": {
+        "id": "comp-spc-cyprian-justina",
+        "kind": "article",
+        "title": "Свети свештеномученик Кипријан и Јустина Девица",
+        "url": "https://spc.rs/sr/news/11871.sveti-svestenomucenik-kiprijan-i-justina-devica.html",
+        "publisher": "Српска Православна Црква",
+        "original_author": null,
+        "published_on": "2024-10-15",
+        "reviewed_on": "2026-09-21"
+      },
+      "source_payload": {
+        "path": "releases/v2/production/releases/shared-content-refresh-2026-09-30-m0v2-s11/modules/saints-v1-2026.9.30-r4/data/saints-v1.json",
+        "bytes": 211965,
+        "sha256": "ca3e4fd02ca79e97d53e0e456b2ccaaeb81ebc3b740a71b3eb72049bf01331b5"
+      },
+      "prior_source_registry": "drafts/saints-completion-2026-09-21/sources.json"
+    },
+    {
+      "catalog_source_id": "comp-oca-dionysius-areopagite",
+      "catalog_checked_on": "2026-09-21",
+      "original_approved_source": {
+        "id": "comp-oca-dionysius-areopagite",
+        "kind": "article",
+        "title": "Hieromartyr Dionysius the Areopagite, Bishop of Athens",
+        "url": "https://www.oca.org/saints/lives/2026/10/03/102843-hieromartyr-dionysius-the-areopagite-bishop-of-athens",
+        "publisher": "Orthodox Church in America",
+        "original_author": null,
+        "published_on": null,
+        "reviewed_on": "2026-09-21"
+      },
+      "source_payload": {
+        "path": "releases/v2/production/releases/shared-content-refresh-2026-09-30-m0v2-s11/modules/saints-v1-2026.9.30-r4/data/saints-v1.json",
+        "bytes": 211965,
+        "sha256": "ca3e4fd02ca79e97d53e0e456b2ccaaeb81ebc3b740a71b3eb72049bf01331b5"
+      },
+      "prior_source_registry": "drafts/saints-completion-2026-09-21/sources.json"
+    },
+    {
+      "catalog_source_id": "comp-bezanija-dionysius-areopagite",
+      "catalog_checked_on": "2026-09-21",
+      "original_approved_source": {
+        "id": "comp-bezanija-dionysius-areopagite",
+        "kind": "article",
+        "title": "ДИОНИСИЈЕ АРЕОПАГИТ",
+        "url": "https://crkva-bezanijska.rs/dionisije-areopagit/",
+        "publisher": "Црква Светог Ђорђа у Бежанији",
+        "original_author": "И. В. Попов; А. И. Покровски — потписани одељци пренетог текста",
+        "published_on": null,
+        "reviewed_on": "2026-09-21"
+      },
+      "source_payload": {
+        "path": "releases/v2/production/releases/shared-content-refresh-2026-09-30-m0v2-s11/modules/saints-v1-2026.9.30-r4/data/saints-v1.json",
+        "bytes": 211965,
+        "sha256": "ca3e4fd02ca79e97d53e0e456b2ccaaeb81ebc3b740a71b3eb72049bf01331b5"
+      },
+      "prior_source_registry": "drafts/saints-completion-2026-09-21/sources.json"
+    },
+    {
+      "catalog_source_id": "comp-eparhijazt-dionysius-mention",
+      "catalog_checked_on": "2026-09-21",
+      "original_approved_source": {
+        "id": "comp-eparhijazt-dionysius-mention",
+        "kind": "article",
+        "title": "Митрополит Фотије: ДАНАШЊИ СВЕТИ",
+        "url": "https://www.eparhijazt.com/sr/news/vijesti-iz-eparhije/pesme-episkopa/5305.mitropolit-fotije-danasnji-sveti.html",
+        "publisher": "Епархија зворничко-тузланска",
+        "original_author": "Митрополит Фотије",
+        "published_on": "2024-10-16",
+        "reviewed_on": "2026-09-21"
+      },
+      "source_payload": {
+        "path": "releases/v2/production/releases/shared-content-refresh-2026-09-30-m0v2-s11/modules/saints-v1-2026.9.30-r4/data/saints-v1.json",
+        "bytes": 211965,
+        "sha256": "ca3e4fd02ca79e97d53e0e456b2ccaaeb81ebc3b740a71b3eb72049bf01331b5"
+      },
+      "prior_source_registry": "drafts/saints-completion-2026-09-21/sources.json"
+    },
+    {
+      "catalog_source_id": "comp-oca-hierotheus-athens",
+      "catalog_checked_on": "2026-09-21",
+      "original_approved_source": {
+        "id": "comp-oca-hierotheus-athens",
+        "kind": "article",
+        "title": "Hieromartyr Hierotheus, Bishop of Athens",
+        "url": "https://www.oca.org/saints/lives/2026/10/04/102849-hieromartyr-hierotheus-bishop-of-athens",
+        "publisher": "Orthodox Church in America",
+        "original_author": null,
+        "published_on": null,
+        "reviewed_on": "2026-09-21"
+      },
+      "source_payload": {
+        "path": "releases/v2/production/releases/shared-content-refresh-2026-09-30-m0v2-s11/modules/saints-v1-2026.9.30-r4/data/saints-v1.json",
+        "bytes": 211965,
+        "sha256": "ca3e4fd02ca79e97d53e0e456b2ccaaeb81ebc3b740a71b3eb72049bf01331b5"
+      },
+      "prior_source_registry": "drafts/saints-completion-2026-09-21/sources.json"
+    },
+    {
+      "catalog_source_id": "comp-oca-charitina-amisos",
+      "catalog_checked_on": "2026-09-21",
+      "original_approved_source": {
+        "id": "comp-oca-charitina-amisos",
+        "kind": "article",
+        "title": "Martyr Charitina of Amisos",
+        "url": "https://www.oca.org/saints/lives/2025/10/05/102870-martyr-charitina-of-amisos",
+        "publisher": "Orthodox Church in America",
+        "original_author": null,
+        "published_on": null,
+        "reviewed_on": "2026-09-21"
+      },
+      "source_payload": {
+        "path": "releases/v2/production/releases/shared-content-refresh-2026-09-30-m0v2-s11/modules/saints-v1-2026.9.30-r4/data/saints-v1.json",
+        "bytes": 211965,
+        "sha256": "ca3e4fd02ca79e97d53e0e456b2ccaaeb81ebc3b740a71b3eb72049bf01331b5"
+      },
+      "prior_source_registry": "drafts/saints-completion-2026-09-21/sources.json"
+    },
+    {
+      "catalog_source_id": "comp-oca-apostle-thomas",
+      "catalog_checked_on": "2026-09-21",
+      "original_approved_source": {
+        "id": "comp-oca-apostle-thomas",
+        "kind": "article",
+        "title": "Holy, Glorious Apostle Thomas",
+        "url": "https://www.oca.org/saints/lives/2026/10/06/102885-holy-glorious-apostle-thomas",
+        "publisher": "Orthodox Church in America",
+        "original_author": null,
+        "published_on": null,
+        "reviewed_on": "2026-09-21"
+      },
+      "source_payload": {
+        "path": "releases/v2/production/releases/shared-content-refresh-2026-09-30-m0v2-s11/modules/saints-v1-2026.9.30-r4/data/saints-v1.json",
+        "bytes": 211965,
+        "sha256": "ca3e4fd02ca79e97d53e0e456b2ccaaeb81ebc3b740a71b3eb72049bf01331b5"
+      },
+      "prior_source_registry": "drafts/saints-completion-2026-09-21/sources.json"
+    },
+    {
+      "catalog_source_id": "comp-oca-sergius-bacchus",
+      "catalog_checked_on": "2026-09-21",
+      "original_approved_source": {
+        "id": "comp-oca-sergius-bacchus",
+        "kind": "article",
+        "title": "Martyrs Sergius and Bacchus in Syria",
+        "url": "https://www.oca.org/saints/lives/2026/10/07/102888-martyrs-sergius-and-bacchus-in-syria",
+        "publisher": "Orthodox Church in America",
+        "original_author": null,
+        "published_on": null,
+        "reviewed_on": "2026-09-21"
+      },
+      "source_payload": {
+        "path": "releases/v2/production/releases/shared-content-refresh-2026-09-30-m0v2-s11/modules/saints-v1-2026.9.30-r4/data/saints-v1.json",
+        "bytes": 211965,
+        "sha256": "ca3e4fd02ca79e97d53e0e456b2ccaaeb81ebc3b740a71b3eb72049bf01331b5"
+      },
+      "prior_source_registry": "drafts/saints-completion-2026-09-21/sources.json"
+    },
+    {
+      "catalog_source_id": "next-oca-pelagia",
+      "catalog_checked_on": "2026-09-30",
+      "original_approved_source": {
+        "id": "next-oca-pelagia",
+        "kind": "article",
+        "title": "Venerable Pelagia the Penitent",
+        "url": "https://www.oca.org/saints/lives/2026/10/08/102899-venerable-pelagia-the-penitent",
+        "publisher": "Orthodox Church in America",
+        "original_author": null,
+        "published_on": null,
+        "reviewed_on": "2026-09-30"
+      },
+      "source_payload": {
+        "path": "releases/v2/production/releases/shared-content-refresh-2026-09-30-m0v2-s11/modules/saints-v1-2026.9.30-r4/data/saints-v1.json",
+        "bytes": 211965,
+        "sha256": "ca3e4fd02ca79e97d53e0e456b2ccaaeb81ebc3b740a71b3eb72049bf01331b5"
+      },
+      "prior_source_registry": "drafts/saints-next-window-2026-09-30/sources.json"
+    },
+    {
+      "catalog_source_id": "next-oca-james-alphaeus",
+      "catalog_checked_on": "2026-09-30",
+      "original_approved_source": {
+        "id": "next-oca-james-alphaeus",
+        "kind": "article",
+        "title": "Apostle James, son of Alphaeus",
+        "url": "https://www.oca.org/saints/lives/2026/10/09/102916-apostle-james-son-of-alphaeus",
+        "publisher": "Orthodox Church in America",
+        "original_author": null,
+        "published_on": null,
+        "reviewed_on": "2026-09-30"
+      },
+      "source_payload": {
+        "path": "releases/v2/production/releases/shared-content-refresh-2026-09-30-m0v2-s11/modules/saints-v1-2026.9.30-r4/data/saints-v1.json",
+        "bytes": 211965,
+        "sha256": "ca3e4fd02ca79e97d53e0e456b2ccaaeb81ebc3b740a71b3eb72049bf01331b5"
+      },
+      "prior_source_registry": "drafts/saints-next-window-2026-09-30/sources.json"
+    },
+    {
+      "catalog_source_id": "next-oca-eulampius-eulampia",
+      "catalog_checked_on": "2026-09-30",
+      "original_approved_source": {
+        "id": "next-oca-eulampius-eulampia",
+        "kind": "article",
+        "title": "Martyrs Eulampius and Eulampia, at Nicomedia, and 200 Martyrs with them",
+        "url": "https://www.oca.org/saints/lives/2026/10/10/102919-martyrs-eulampius-and-eulampia-at-nicomedia-and-200-martyrs-with",
+        "publisher": "Orthodox Church in America",
+        "original_author": null,
+        "published_on": null,
+        "reviewed_on": "2026-09-30"
+      },
+      "source_payload": {
+        "path": "releases/v2/production/releases/shared-content-refresh-2026-09-30-m0v2-s11/modules/saints-v1-2026.9.30-r4/data/saints-v1.json",
+        "bytes": 211965,
+        "sha256": "ca3e4fd02ca79e97d53e0e456b2ccaaeb81ebc3b740a71b3eb72049bf01331b5"
+      },
+      "prior_source_registry": "drafts/saints-next-window-2026-09-30/sources.json"
+    },
+    {
+      "catalog_source_id": "next-oca-philip-deacon",
+      "catalog_checked_on": "2026-09-30",
+      "original_approved_source": {
+        "id": "next-oca-philip-deacon",
+        "kind": "article",
+        "title": "Apostle Philip of the Seventy, One of the Seven Deacons",
+        "url": "https://www.oca.org/saints/lives/2026/10/11/102936-apostle-philip-of-the-seventy-one-of-the-seven-deacons",
+        "publisher": "Orthodox Church in America",
+        "original_author": null,
+        "published_on": null,
+        "reviewed_on": "2026-09-30"
+      },
+      "source_payload": {
+        "path": "releases/v2/production/releases/shared-content-refresh-2026-09-30-m0v2-s11/modules/saints-v1-2026.9.30-r4/data/saints-v1.json",
+        "bytes": 211965,
+        "sha256": "ca3e4fd02ca79e97d53e0e456b2ccaaeb81ebc3b740a71b3eb72049bf01331b5"
+      },
+      "prior_source_registry": "drafts/saints-next-window-2026-09-30/sources.json"
+    },
+    {
+      "catalog_source_id": "next-oca-tarachus-group",
+      "catalog_checked_on": "2026-09-30",
+      "original_approved_source": {
+        "id": "next-oca-tarachus-group",
+        "kind": "article",
+        "title": "Martyrs Probus, Tarachus, and Andronicus, at Tarsus in Cilicia",
+        "url": "https://www.oca.org/saints/lives/2020/10/12/102941-martyrs-probus-tarachus-and-andronicus-at-tarsus-in-cilicia",
+        "publisher": "Orthodox Church in America",
+        "original_author": null,
+        "published_on": null,
+        "reviewed_on": "2026-09-30"
+      },
+      "source_payload": {
+        "path": "releases/v2/production/releases/shared-content-refresh-2026-09-30-m0v2-s11/modules/saints-v1-2026.9.30-r4/data/saints-v1.json",
+        "bytes": 211965,
+        "sha256": "ca3e4fd02ca79e97d53e0e456b2ccaaeb81ebc3b740a71b3eb72049bf01331b5"
+      },
+      "prior_source_registry": "drafts/saints-next-window-2026-09-30/sources.json"
+    },
+    {
+      "catalog_source_id": "next-oca-carpus-group",
+      "catalog_checked_on": "2026-09-30",
+      "original_approved_source": {
+        "id": "next-oca-carpus-group",
+        "kind": "article",
+        "title": "Martyrs Carpus, Papylus, Agathadorus, and Agathonica, at Pergamum",
+        "url": "https://www.oca.org/saints/lives/2026/10/13/102953-martyrs-carpus-papylus-agathadorus-and-agathonica-at-pergamum",
+        "publisher": "Orthodox Church in America",
+        "original_author": null,
+        "published_on": null,
+        "reviewed_on": "2026-09-30"
+      },
+      "source_payload": {
+        "path": "releases/v2/production/releases/shared-content-refresh-2026-09-30-m0v2-s11/modules/saints-v1-2026.9.30-r4/data/saints-v1.json",
+        "bytes": 211965,
+        "sha256": "ca3e4fd02ca79e97d53e0e456b2ccaaeb81ebc3b740a71b3eb72049bf01331b5"
+      },
+      "prior_source_registry": "drafts/saints-next-window-2026-09-30/sources.json"
+    },
+    {
+      "catalog_source_id": "next-oca-lucian",
+      "catalog_checked_on": "2026-09-30",
+      "original_approved_source": {
+        "id": "next-oca-lucian",
+        "kind": "article",
+        "title": "Martyr Lucian the Presbyter of Antioch",
+        "url": "https://www.oca.org/saints/lives/2015/10/15/102973-martyr-lucian-the-presbyter-of-antioch",
+        "publisher": "Orthodox Church in America",
+        "original_author": null,
+        "published_on": null,
+        "reviewed_on": "2026-09-30"
+      },
+      "source_payload": {
+        "path": "releases/v2/production/releases/shared-content-refresh-2026-09-30-m0v2-s11/modules/saints-v1-2026.9.30-r4/data/saints-v1.json",
+        "bytes": 211965,
+        "sha256": "ca3e4fd02ca79e97d53e0e456b2ccaaeb81ebc3b740a71b3eb72049bf01331b5"
+      },
+      "prior_source_registry": "drafts/saints-next-window-2026-09-30/sources.json"
+    },
+    {
+      "catalog_source_id": "next-oca-longinus",
+      "catalog_checked_on": "2026-09-30",
+      "original_approved_source": {
+        "id": "next-oca-longinus",
+        "kind": "article",
+        "title": "Martyr Longinus the Centurion, who stood at the Cross of the Lord",
+        "url": "https://www.oca.org/saints/lives/2026/10/16/102980-martyr-longinus-the-centurion-who-stood-at-the-cross-of-the-lord",
+        "publisher": "Orthodox Church in America",
+        "original_author": null,
+        "published_on": null,
+        "reviewed_on": "2026-09-30"
+      },
+      "source_payload": {
+        "path": "releases/v2/production/releases/shared-content-refresh-2026-09-30-m0v2-s11/modules/saints-v1-2026.9.30-r4/data/saints-v1.json",
+        "bytes": 211965,
+        "sha256": "ca3e4fd02ca79e97d53e0e456b2ccaaeb81ebc3b740a71b3eb72049bf01331b5"
+      },
+      "prior_source_registry": "drafts/saints-next-window-2026-09-30/sources.json"
+    },
+    {
+      "catalog_source_id": "next-oca-hosea",
+      "catalog_checked_on": "2026-09-30",
+      "original_approved_source": {
+        "id": "next-oca-hosea",
+        "kind": "article",
+        "title": "Prophet Hosea",
+        "url": "https://www.oca.org/saints/lives/2013/10/17/102983-prophet-hosea",
+        "publisher": "Orthodox Church in America",
+        "original_author": null,
+        "published_on": null,
+        "reviewed_on": "2026-09-30"
+      },
+      "source_payload": {
+        "path": "releases/v2/production/releases/shared-content-refresh-2026-09-30-m0v2-s11/modules/saints-v1-2026.9.30-r4/data/saints-v1.json",
+        "bytes": 211965,
+        "sha256": "ca3e4fd02ca79e97d53e0e456b2ccaaeb81ebc3b740a71b3eb72049bf01331b5"
+      },
+      "prior_source_registry": "drafts/saints-next-window-2026-09-30/sources.json"
+    },
+    {
+      "catalog_source_id": "next-mcp-peter-cetinje",
+      "catalog_checked_on": "2026-09-30",
+      "original_approved_source": {
+        "id": "next-mcp-peter-cetinje",
+        "kind": "article",
+        "title": "Житије Светог Петра Цетињског",
+        "url": "https://mitropolija.com/2023/10/30/zitije-svetog-petra-cetinjskog-2/",
+        "publisher": "Митрополија црногорско-приморска",
+        "original_author": "Преподобни Јустин Ћелијски",
+        "published_on": "2023-10-30",
+        "reviewed_on": "2026-09-30"
+      },
+      "source_payload": {
+        "path": "releases/v2/production/releases/shared-content-refresh-2026-09-30-m0v2-s11/modules/saints-v1-2026.9.30-r4/data/saints-v1.json",
+        "bytes": 211965,
+        "sha256": "ca3e4fd02ca79e97d53e0e456b2ccaaeb81ebc3b740a71b3eb72049bf01331b5"
+      },
+      "prior_source_registry": "drafts/saints-next-window-2026-09-30/sources.json"
+    }
+  ],
+  "public_baseline_confirmation": "public-baseline-reference.json",
+  "new_web_review_performed": false
+}

@@ -1,0 +1,4559 @@
+{
+  "schema_version": "svetlost33-calendar-browser-test-cases-1",
+  "purpose": "TEST_ONLY_SYNTHETIC_NOT_PUBLICATION_OR_OWNER_APPROVAL",
+  "payload": {
+    "schema_version": "svetlost33-calendar-browser-1",
+    "version": "2030.1.0",
+    "revision": 1,
+    "review_status": "pending",
+    "approval_id": null,
+    "calendar_profile_id": "test-only-profile-v1",
+    "catalog_binding": {
+      "module_id": "liturgical-catalog-v1",
+      "version": "2030.1.0",
+      "revision": 1,
+      "path": "data/liturgical-catalog-v1.json",
+      "sha256": "cef8e22da04e7dc35a674cff4f0265a1af01cb3e7aebdd6dc426fba650c026b7"
+    },
+    "feast_memberships": [
+      {
+        "observance_id": "test-observance-1",
+        "occurrence_ids": [
+          "test-occurrence-1"
+        ],
+        "review_status": "reviewed",
+        "source_ids": [
+          "test-source"
+        ]
+      },
+      {
+        "observance_id": "test-observance-2",
+        "occurrence_ids": [
+          "test-occurrence-2"
+        ],
+        "review_status": "reviewed",
+        "source_ids": [
+          "test-source"
+        ]
+      }
+    ],
+    "archive_start_date": "2030-01-07",
+    "archive_bindings": [
+      {
+        "id": "test-archive-binding",
+        "policy_id": "calendar-week-v1",
+        "policy_version": 1,
+        "library_binding": {
+          "module_id": "test-reading-library",
+          "version": "2030.1.0",
+          "revision": 1,
+          "manifest_sha256": "cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc"
+        },
+        "cycles_binding": {
+          "module_id": "test-reading-cycles",
+          "version": "2030.1.0",
+          "revision": 2,
+          "manifest_sha256": "dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd"
+        }
+      }
+    ],
+    "archive_days": [
+      {
+        "date": "2030-01-07",
+        "binding_id": "test-archive-binding",
+        "status": "available",
+        "correction_id": null,
+        "phases": [
+          {
+            "phase": "morning",
+            "cycle_day_id": "test-cycle-day-1",
+            "slot_id": "test-slot-morning",
+            "psalm_id": "psalm-1",
+            "verse_numbers": [
+              1,
+              2
+            ],
+            "prayer_id": "test-prayer-1"
+          },
+          {
+            "phase": "noon",
+            "cycle_day_id": "test-cycle-day-1",
+            "slot_id": "test-slot-noon",
+            "psalm_id": "psalm-2",
+            "verse_numbers": [
+              1,
+              2
+            ],
+            "prayer_id": "test-prayer-2"
+          },
+          {
+            "phase": "evening",
+            "cycle_day_id": "test-cycle-day-1",
+            "slot_id": "test-slot-evening",
+            "psalm_id": "psalm-3",
+            "verse_numbers": [
+              1,
+              2
+            ],
+            "prayer_id": "test-prayer-3"
+          }
+        ]
+      },
+      {
+        "date": "2030-01-08",
+        "binding_id": "test-archive-binding",
+        "status": "available",
+        "correction_id": null,
+        "phases": [
+          {
+            "phase": "noon",
+            "cycle_day_id": "test-cycle-day-2",
+            "slot_id": "test-slot-tuesday-noon",
+            "psalm_id": "psalm-2",
+            "verse_numbers": [
+              1,
+              2
+            ],
+            "prayer_id": "test-prayer-2"
+          }
+        ]
+      },
+      {
+        "date": "2030-01-09",
+        "binding_id": "test-archive-binding",
+        "status": "withdrawn",
+        "correction_id": null,
+        "phases": []
+      }
+    ]
+  },
+  "context": {
+    "generation": {
+      "id": "test-only-browser-generation",
+      "sequence": 10,
+      "decision_sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+    },
+    "contentAuthenticated": true,
+    "moduleContext": {
+      "module_id": "calendar-browser-v1",
+      "module_type": "library",
+      "required": false,
+      "capabilities": [
+        "calendar-browser-v1"
+      ],
+      "payload_path": "data/calendar-browser-v1.json",
+      "version": "2030.1.0",
+      "revision": 1,
+      "generation": {
+        "id": "test-only-browser-generation",
+        "sequence": 10,
+        "decision_sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+      },
+      "dependencies": []
+    },
+    "catalogContext": {
+      "module_id": "liturgical-catalog-v1",
+      "version": "2030.1.0",
+      "revision": 1,
+      "path": "data/liturgical-catalog-v1.json",
+      "sha256": "cef8e22da04e7dc35a674cff4f0265a1af01cb3e7aebdd6dc426fba650c026b7",
+      "generation": {
+        "id": "test-only-browser-generation",
+        "sequence": 10,
+        "decision_sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+      },
+      "authenticated": true,
+      "payload": {
+        "schema_version": "svetlost33-liturgical-catalog-1",
+        "version": "2030.1.0",
+        "revision": 1,
+        "review_status": "approved",
+        "approval_id": "test-only-no-owner-approval",
+        "calendar_profiles": [
+          {
+            "id": "test-only-profile-v1",
+            "name": {
+              "sr-Cyrl": "Пробни профил",
+              "sr-Latn": "Probni profil"
+            }
+          }
+        ],
+        "sources": [
+          {
+            "id": "test-source",
+            "title": "TEST ONLY",
+            "url": "https://example.test/test-only",
+            "publisher": "TEST ONLY",
+            "original_author": null,
+            "checked_on": "2030-01-01",
+            "review_status": "reviewed",
+            "rights_status": "recorded_elsewhere"
+          }
+        ],
+        "subjects": [],
+        "observances": [
+          {
+            "id": "test-observance-1",
+            "kind": "event",
+            "name": {
+              "sr-Cyrl": "Пробни празник 1",
+              "sr-Latn": "Probni praznik 1"
+            },
+            "description": {
+              "sr-Cyrl": "Искључиво тест",
+              "sr-Latn": "Isključivo test"
+            },
+            "subject_ids": [],
+            "aliases": [],
+            "source_ids": [
+              "test-source"
+            ],
+            "review_status": "reviewed"
+          },
+          {
+            "id": "test-observance-2",
+            "kind": "feast",
+            "name": {
+              "sr-Cyrl": "Пробни празник 2",
+              "sr-Latn": "Probni praznik 2"
+            },
+            "description": {
+              "sr-Cyrl": "Искључиво тест",
+              "sr-Latn": "Isključivo test"
+            },
+            "subject_ids": [],
+            "aliases": [],
+            "source_ids": [
+              "test-source"
+            ],
+            "review_status": "reviewed"
+          }
+        ],
+        "calendar_bindings": [
+          {
+            "id": "test-calendar-binding",
+            "calendar_profile_id": "test-only-profile-v1",
+            "year": 2030,
+            "module_id": "test-calendar-2030",
+            "version": "2030.1.0",
+            "revision": 1,
+            "path": "data/calendar.2030.json",
+            "sha256": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb"
+          }
+        ],
+        "occurrences": [
+          {
+            "id": "test-occurrence-1",
+            "observance_id": "test-observance-1",
+            "calendar_binding_id": "test-calendar-binding",
+            "date": "2030-01-07",
+            "julian_date": "2029-12-25",
+            "calendar_title": {
+              "sr-Cyrl": "Пробни празник 1",
+              "sr-Latn": "Probni praznik 1"
+            },
+            "calendar_source_ids": [
+              "test-source"
+            ],
+            "source_ids": [
+              "test-source"
+            ],
+            "review_status": "reviewed"
+          },
+          {
+            "id": "test-occurrence-2",
+            "observance_id": "test-observance-2",
+            "calendar_binding_id": "test-calendar-binding",
+            "date": "2030-01-14",
+            "julian_date": "2030-01-01",
+            "calendar_title": {
+              "sr-Cyrl": "Пробни празник 2",
+              "sr-Latn": "Probni praznik 2"
+            },
+            "calendar_source_ids": [
+              "test-source"
+            ],
+            "source_ids": [
+              "test-source"
+            ],
+            "review_status": "reviewed"
+          }
+        ],
+        "day_reviews": [],
+        "article_bindings": [],
+        "article_links": [],
+        "legacy_slava_links": [],
+        "coverage": [
+          {
+            "calendar_profile_id": "test-only-profile-v1",
+            "year": 2030,
+            "calendar_binding_id": "test-calendar-binding",
+            "status": "limited_catalog",
+            "mapped_dates": 2,
+            "occurrences": 2,
+            "complete_saint_list": false
+          },
+          {
+            "calendar_profile_id": "test-only-profile-v1",
+            "year": 2031,
+            "calendar_binding_id": null,
+            "status": "unavailable",
+            "mapped_dates": 0,
+            "occurrences": 0,
+            "complete_saint_list": false
+          }
+        ]
+      },
+      "context": {
+        "generation": {
+          "id": "test-only-browser-generation",
+          "sequence": 10,
+          "decision_sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+        },
+        "contentAuthenticated": true,
+        "moduleContext": {
+          "module_id": "liturgical-catalog-v1",
+          "module_type": "library",
+          "required": false,
+          "capabilities": [
+            "liturgical-catalog-v1"
+          ],
+          "payload_path": "data/liturgical-catalog-v1.json",
+          "version": "2030.1.0",
+          "revision": 1,
+          "generation": {
+            "id": "test-only-browser-generation",
+            "sequence": 10,
+            "decision_sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+          },
+          "dependencies": [
+            {
+              "module_id": "test-calendar-2030",
+              "version": "2030.1.0"
+            }
+          ]
+        },
+        "calendarContexts": [
+          {
+            "id": "test-calendar-binding",
+            "calendar_profile_id": "test-only-profile-v1",
+            "year": 2030,
+            "module_id": "test-calendar-2030",
+            "version": "2030.1.0",
+            "revision": 1,
+            "path": "data/calendar.2030.json",
+            "sha256": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+            "authenticated": true,
+            "generation": {
+              "id": "test-only-browser-generation",
+              "sequence": 10,
+              "decision_sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+            },
+            "days": [
+              {
+                "date": "2030-01-07",
+                "julian_date": "2029-12-25",
+                "commemoration": {
+                  "status": "SOURCE_RECORDED",
+                  "title_cyrl": "Пробни празник 1",
+                  "source_ids": [
+                    "test-source"
+                  ],
+                  "complete_saint_list_verified": false
+                }
+              },
+              {
+                "date": "2030-01-14",
+                "julian_date": "2030-01-01",
+                "commemoration": {
+                  "status": "SOURCE_RECORDED",
+                  "title_cyrl": "Пробни празник 2",
+                  "source_ids": [
+                    "test-source"
+                  ],
+                  "complete_saint_list_verified": false
+                }
+              }
+            ]
+          }
+        ],
+        "articleContexts": []
+      }
+    },
+    "archiveContexts": [
+      {
+        "binding_id": "test-archive-binding",
+        "generation": {
+          "id": "test-only-browser-generation",
+          "sequence": 10,
+          "decision_sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+        },
+        "authenticated": true,
+        "review_status": "approved",
+        "library": {
+          "module_id": "test-reading-library",
+          "version": "2030.1.0",
+          "revision": 1,
+          "manifest_sha256": "cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc",
+          "psalms": [
+            {
+              "id": "psalm-1",
+              "verse_numbers": [
+                1,
+                2,
+                3
+              ]
+            },
+            {
+              "id": "psalm-2",
+              "verse_numbers": [
+                1,
+                2,
+                3
+              ]
+            },
+            {
+              "id": "psalm-3",
+              "verse_numbers": [
+                1,
+                2,
+                3
+              ]
+            }
+          ],
+          "prayer_ids": [
+            "test-prayer-1",
+            "test-prayer-2",
+            "test-prayer-3"
+          ]
+        },
+        "cycles": {
+          "module_id": "test-reading-cycles",
+          "version": "2030.1.0",
+          "revision": 2,
+          "manifest_sha256": "dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd",
+          "days": [
+            {
+              "id": "test-cycle-day-1",
+              "cycle_day": 1,
+              "slots": [
+                {
+                  "id": "test-slot-morning",
+                  "phase": "morning",
+                  "psalm_id": "psalm-1",
+                  "verse_numbers": [
+                    1,
+                    2
+                  ],
+                  "prayer_id": "test-prayer-1"
+                },
+                {
+                  "id": "test-slot-noon",
+                  "phase": "noon",
+                  "psalm_id": "psalm-2",
+                  "verse_numbers": [
+                    1,
+                    2
+                  ],
+                  "prayer_id": "test-prayer-2"
+                },
+                {
+                  "id": "test-slot-evening",
+                  "phase": "evening",
+                  "psalm_id": "psalm-3",
+                  "verse_numbers": [
+                    1,
+                    2
+                  ],
+                  "prayer_id": "test-prayer-3"
+                }
+              ]
+            },
+            {
+              "id": "test-cycle-day-2",
+              "cycle_day": 2,
+              "slots": [
+                {
+                  "id": "test-slot-tuesday-noon",
+                  "phase": "noon",
+                  "psalm_id": "psalm-2",
+                  "verse_numbers": [
+                    1,
+                    2
+                  ],
+                  "prayer_id": "test-prayer-2"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "synthetic_test_setup_mutations": [
+    {
+      "path": [
+        "review_status"
+      ],
+      "value": "approved"
+    },
+    {
+      "path": [
+        "approval_id"
+      ],
+      "value": "test-only-no-owner-approval"
+    }
+  ],
+  "cases": [
+    {
+      "id": "pending-is-not-approved",
+      "operation": "evaluate",
+      "input": {},
+      "synthetic_setup": false,
+      "payload_mutations": [],
+      "context_mutations": [],
+      "expected": {
+        "eligible": false,
+        "reason": "unapproved"
+      }
+    },
+    {
+      "id": "approved-test-module",
+      "operation": "evaluate",
+      "input": {},
+      "synthetic_setup": true,
+      "payload_mutations": [],
+      "context_mutations": [],
+      "expected": {
+        "eligible": true,
+        "reason": null
+      }
+    },
+    {
+      "id": "missing-optional-module",
+      "operation": "evaluate",
+      "input": {},
+      "synthetic_setup": true,
+      "payload_mutations": [
+        {
+          "path": [],
+          "value": null
+        }
+      ],
+      "context_mutations": [],
+      "expected": {
+        "eligible": false,
+        "reason": "absent"
+      }
+    },
+    {
+      "id": "unsupported-schema",
+      "operation": "evaluate",
+      "input": {},
+      "synthetic_setup": true,
+      "payload_mutations": [
+        {
+          "path": [
+            "schema_version"
+          ],
+          "value": "svetlost33-calendar-browser-2"
+        }
+      ],
+      "context_mutations": [],
+      "expected": {
+        "eligible": false,
+        "reason": "unsupported_schema"
+      }
+    },
+    {
+      "id": "unknown-closed-field",
+      "operation": "evaluate",
+      "input": {},
+      "synthetic_setup": true,
+      "payload_mutations": [
+        {
+          "path": [
+            "unsupported"
+          ],
+          "value": true
+        }
+      ],
+      "context_mutations": [],
+      "expected": {
+        "eligible": false,
+        "reason": "malformed"
+      }
+    },
+    {
+      "id": "revision-boolean",
+      "operation": "evaluate",
+      "input": {},
+      "synthetic_setup": true,
+      "payload_mutations": [
+        {
+          "path": [
+            "revision"
+          ],
+          "value": true
+        }
+      ],
+      "context_mutations": [],
+      "expected": {
+        "eligible": false,
+        "reason": "malformed"
+      }
+    },
+    {
+      "id": "revision-not-safe",
+      "operation": "evaluate",
+      "input": {},
+      "synthetic_setup": true,
+      "payload_mutations": [
+        {
+          "path": [
+            "revision"
+          ],
+          "value": 9007199254740992
+        }
+      ],
+      "context_mutations": [],
+      "expected": {
+        "eligible": false,
+        "reason": "malformed"
+      }
+    },
+    {
+      "id": "unauthenticated-corrupted-payload",
+      "operation": "evaluate",
+      "input": {},
+      "synthetic_setup": true,
+      "payload_mutations": [],
+      "context_mutations": [
+        {
+          "path": [
+            "contentAuthenticated"
+          ],
+          "value": false
+        }
+      ],
+      "expected": {
+        "eligible": false,
+        "reason": "content_not_authenticated"
+      }
+    },
+    {
+      "id": "truthy-authentication-is-rejected",
+      "operation": "evaluate",
+      "input": {},
+      "synthetic_setup": true,
+      "payload_mutations": [],
+      "context_mutations": [
+        {
+          "path": [
+            "contentAuthenticated"
+          ],
+          "value": "true"
+        }
+      ],
+      "expected": {
+        "eligible": false,
+        "reason": "content_not_authenticated"
+      }
+    },
+    {
+      "id": "module-module_id-mismatch",
+      "operation": "evaluate",
+      "input": {},
+      "synthetic_setup": true,
+      "payload_mutations": [],
+      "context_mutations": [
+        {
+          "path": [
+            "moduleContext",
+            "module_id"
+          ],
+          "value": "wrong-module"
+        }
+      ],
+      "expected": {
+        "eligible": false,
+        "reason": "module_mismatch"
+      }
+    },
+    {
+      "id": "module-version-mismatch",
+      "operation": "evaluate",
+      "input": {},
+      "synthetic_setup": true,
+      "payload_mutations": [],
+      "context_mutations": [
+        {
+          "path": [
+            "moduleContext",
+            "version"
+          ],
+          "value": "wrong-version"
+        }
+      ],
+      "expected": {
+        "eligible": false,
+        "reason": "module_mismatch"
+      }
+    },
+    {
+      "id": "module-revision-mismatch",
+      "operation": "evaluate",
+      "input": {},
+      "synthetic_setup": true,
+      "payload_mutations": [],
+      "context_mutations": [
+        {
+          "path": [
+            "moduleContext",
+            "revision"
+          ],
+          "value": 99
+        }
+      ],
+      "expected": {
+        "eligible": false,
+        "reason": "module_mismatch"
+      }
+    },
+    {
+      "id": "module-required-mismatch",
+      "operation": "evaluate",
+      "input": {},
+      "synthetic_setup": true,
+      "payload_mutations": [],
+      "context_mutations": [
+        {
+          "path": [
+            "moduleContext",
+            "required"
+          ],
+          "value": true
+        }
+      ],
+      "expected": {
+        "eligible": false,
+        "reason": "module_mismatch"
+      }
+    },
+    {
+      "id": "module-capabilities-mismatch",
+      "operation": "evaluate",
+      "input": {},
+      "synthetic_setup": true,
+      "payload_mutations": [],
+      "context_mutations": [
+        {
+          "path": [
+            "moduleContext",
+            "capabilities"
+          ],
+          "value": [
+            "unknown-capability"
+          ]
+        }
+      ],
+      "expected": {
+        "eligible": false,
+        "reason": "module_mismatch"
+      }
+    },
+    {
+      "id": "module-dependencies-mismatch",
+      "operation": "evaluate",
+      "input": {},
+      "synthetic_setup": true,
+      "payload_mutations": [],
+      "context_mutations": [
+        {
+          "path": [
+            "moduleContext",
+            "dependencies"
+          ],
+          "value": [
+            {
+              "module_id": "test-reading-library",
+              "version": "2030.1.0"
+            }
+          ]
+        }
+      ],
+      "expected": {
+        "eligible": false,
+        "reason": "module_mismatch"
+      }
+    },
+    {
+      "id": "browser-generation-id-mismatch",
+      "operation": "evaluate",
+      "input": {},
+      "synthetic_setup": true,
+      "payload_mutations": [],
+      "context_mutations": [
+        {
+          "path": [
+            "moduleContext",
+            "generation",
+            "id"
+          ],
+          "value": "old-generation"
+        }
+      ],
+      "expected": {
+        "eligible": false,
+        "reason": "generation_mismatch"
+      }
+    },
+    {
+      "id": "browser-generation-sequence-mismatch",
+      "operation": "evaluate",
+      "input": {},
+      "synthetic_setup": true,
+      "payload_mutations": [],
+      "context_mutations": [
+        {
+          "path": [
+            "moduleContext",
+            "generation",
+            "sequence"
+          ],
+          "value": 9
+        }
+      ],
+      "expected": {
+        "eligible": false,
+        "reason": "generation_mismatch"
+      }
+    },
+    {
+      "id": "browser-generation-decision_sha256-mismatch",
+      "operation": "evaluate",
+      "input": {},
+      "synthetic_setup": true,
+      "payload_mutations": [],
+      "context_mutations": [
+        {
+          "path": [
+            "moduleContext",
+            "generation",
+            "decision_sha256"
+          ],
+          "value": "0000000000000000000000000000000000000000000000000000000000000000"
+        }
+      ],
+      "expected": {
+        "eligible": false,
+        "reason": "generation_mismatch"
+      }
+    },
+    {
+      "id": "missing-archive-context-array",
+      "operation": "evaluate",
+      "input": {},
+      "synthetic_setup": true,
+      "payload_mutations": [],
+      "context_mutations": [
+        {
+          "path": [
+            "archiveContexts"
+          ],
+          "value": null
+        }
+      ],
+      "expected": {
+        "eligible": false,
+        "reason": "invalid_context"
+      }
+    },
+    {
+      "id": "null-host-context",
+      "operation": "evaluate",
+      "input": {},
+      "synthetic_setup": true,
+      "payload_mutations": [],
+      "context_mutations": [
+        {
+          "path": [],
+          "value": null
+        }
+      ],
+      "expected": {
+        "eligible": false,
+        "reason": "invalid_context"
+      }
+    },
+    {
+      "id": "two-feasts-ordered",
+      "operation": "upcoming",
+      "input": {
+        "from_date": "2030-01-06",
+        "locale": "sr-Latn"
+      },
+      "synthetic_setup": true,
+      "payload_mutations": [],
+      "context_mutations": [],
+      "expected": {
+        "eligible": true,
+        "reason": null,
+        "state": "matches",
+        "coverage": "limited_catalog",
+        "coverage_years": [
+          2030
+        ],
+        "truncated": false,
+        "items": [
+          {
+            "date": "2030-01-07",
+            "days_away": 1,
+            "observance_id": "test-observance-1",
+            "occurrence_id": "test-occurrence-1",
+            "name": "Probni praznik 1"
+          },
+          {
+            "date": "2030-01-14",
+            "days_away": 8,
+            "observance_id": "test-observance-2",
+            "occurrence_id": "test-occurrence-2",
+            "name": "Probni praznik 2"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cyrillic-feasts",
+      "operation": "upcoming",
+      "input": {
+        "from_date": "2030-01-06",
+        "locale": "sr-Cyrl"
+      },
+      "synthetic_setup": true,
+      "payload_mutations": [],
+      "context_mutations": [],
+      "expected": {
+        "eligible": true,
+        "reason": null,
+        "state": "matches",
+        "coverage": "limited_catalog",
+        "coverage_years": [
+          2030
+        ],
+        "truncated": false,
+        "items": [
+          {
+            "date": "2030-01-07",
+            "days_away": 1,
+            "observance_id": "test-observance-1",
+            "occurrence_id": "test-occurrence-1",
+            "name": "Пробни празник 1"
+          },
+          {
+            "date": "2030-01-14",
+            "days_away": 8,
+            "observance_id": "test-observance-2",
+            "occurrence_id": "test-occurrence-2",
+            "name": "Пробни празник 2"
+          }
+        ]
+      }
+    },
+    {
+      "id": "today-not-repeated-in-upcoming",
+      "operation": "upcoming",
+      "input": {
+        "from_date": "2030-01-07",
+        "locale": "sr-Latn"
+      },
+      "synthetic_setup": true,
+      "payload_mutations": [],
+      "context_mutations": [],
+      "expected": {
+        "eligible": true,
+        "reason": null,
+        "state": "matches",
+        "coverage": "limited_catalog",
+        "coverage_years": [
+          2030
+        ],
+        "truncated": false,
+        "items": [
+          {
+            "date": "2030-01-14",
+            "days_away": 7,
+            "observance_id": "test-observance-2",
+            "occurrence_id": "test-occurrence-2",
+            "name": "Probni praznik 2"
+          }
+        ]
+      }
+    },
+    {
+      "id": "d-plus-seven-in-announcement",
+      "operation": "upcoming",
+      "input": {
+        "from_date": "2030-01-07",
+        "locale": "sr-Latn"
+      },
+      "synthetic_setup": true,
+      "payload_mutations": [],
+      "context_mutations": [],
+      "expected": {
+        "eligible": true,
+        "reason": null,
+        "state": "matches",
+        "coverage": "limited_catalog",
+        "coverage_years": [
+          2030
+        ],
+        "truncated": false,
+        "items": [
+          {
+            "date": "2030-01-14",
+            "days_away": 7,
+            "observance_id": "test-observance-2",
+            "occurrence_id": "test-occurrence-2",
+            "name": "Probni praznik 2"
+          }
+        ]
+      }
+    },
+    {
+      "id": "d-plus-eight-outside-announcement",
+      "operation": "upcoming",
+      "input": {
+        "from_date": "2030-01-06",
+        "locale": "sr-Latn"
+      },
+      "synthetic_setup": true,
+      "payload_mutations": [],
+      "context_mutations": [],
+      "expected": {
+        "eligible": true,
+        "reason": null,
+        "state": "matches",
+        "coverage": "limited_catalog",
+        "coverage_years": [
+          2030
+        ],
+        "truncated": false,
+        "items": [
+          {
+            "date": "2030-01-07",
+            "days_away": 1,
+            "observance_id": "test-observance-1",
+            "occurrence_id": "test-occurrence-1",
+            "name": "Probni praznik 1"
+          },
+          {
+            "date": "2030-01-14",
+            "days_away": 8,
+            "observance_id": "test-observance-2",
+            "occurrence_id": "test-occurrence-2",
+            "name": "Probni praznik 2"
+          }
+        ]
+      }
+    },
+    {
+      "id": "same-date-editorial-order",
+      "operation": "upcoming",
+      "input": {
+        "from_date": "2030-01-06",
+        "locale": "sr-Latn"
+      },
+      "synthetic_setup": true,
+      "payload_mutations": [
+        {
+          "path": [
+            "feast_memberships"
+          ],
+          "value": [
+            {
+              "observance_id": "test-observance-2",
+              "occurrence_ids": [
+                "test-occurrence-2"
+              ],
+              "review_status": "reviewed",
+              "source_ids": [
+                "test-source"
+              ]
+            },
+            {
+              "observance_id": "test-observance-1",
+              "occurrence_ids": [
+                "test-occurrence-1"
+              ],
+              "review_status": "reviewed",
+              "source_ids": [
+                "test-source"
+              ]
+            }
+          ]
+        }
+      ],
+      "context_mutations": [
+        {
+          "path": [
+            "catalogContext",
+            "payload",
+            "occurrences",
+            1,
+            "date"
+          ],
+          "value": "2030-01-07"
+        },
+        {
+          "path": [
+            "catalogContext",
+            "payload",
+            "occurrences",
+            1,
+            "julian_date"
+          ],
+          "value": "2029-12-25"
+        },
+        {
+          "path": [
+            "catalogContext",
+            "payload",
+            "occurrences",
+            1,
+            "calendar_title"
+          ],
+          "value": {
+            "sr-Cyrl": "Пробни празник 1",
+            "sr-Latn": "Probni praznik 1"
+          }
+        },
+        {
+          "path": [
+            "catalogContext",
+            "payload",
+            "coverage",
+            0,
+            "mapped_dates"
+          ],
+          "value": 1
+        }
+      ],
+      "expected": {
+        "eligible": true,
+        "reason": null,
+        "state": "matches",
+        "coverage": "limited_catalog",
+        "coverage_years": [
+          2030
+        ],
+        "truncated": false,
+        "items": [
+          {
+            "date": "2030-01-07",
+            "days_away": 1,
+            "observance_id": "test-observance-2",
+            "occurrence_id": "test-occurrence-2",
+            "name": "Probni praznik 2"
+          },
+          {
+            "date": "2030-01-07",
+            "days_away": 1,
+            "observance_id": "test-observance-1",
+            "occurrence_id": "test-occurrence-1",
+            "name": "Probni praznik 1"
+          }
+        ]
+      }
+    },
+    {
+      "id": "no-known-not-no-feasts",
+      "operation": "upcoming",
+      "input": {
+        "from_date": "2030-12-31",
+        "locale": "sr-Latn"
+      },
+      "synthetic_setup": true,
+      "payload_mutations": [],
+      "context_mutations": [],
+      "expected": {
+        "eligible": true,
+        "reason": null,
+        "state": "no_known_occurrence",
+        "coverage": "limited_catalog",
+        "coverage_years": [
+          2030
+        ],
+        "truncated": false,
+        "items": []
+      }
+    },
+    {
+      "id": "future-year-not-inferred",
+      "operation": "upcoming",
+      "input": {
+        "from_date": "2031-01-01",
+        "locale": "sr-Latn"
+      },
+      "synthetic_setup": true,
+      "payload_mutations": [],
+      "context_mutations": [],
+      "expected": {
+        "eligible": true,
+        "reason": null,
+        "state": "unavailable",
+        "coverage": "limited_catalog",
+        "coverage_years": [
+          2030
+        ],
+        "truncated": false,
+        "items": []
+      }
+    },
+    {
+      "id": "invalid-feast-date",
+      "operation": "upcoming",
+      "input": {
+        "from_date": "2030-02-29",
+        "locale": "sr-Latn"
+      },
+      "synthetic_setup": true,
+      "payload_mutations": [],
+      "context_mutations": [],
+      "expected": {
+        "eligible": false,
+        "reason": "invalid_date"
+      }
+    },
+    {
+      "id": "unsupported-feast-locale",
+      "operation": "upcoming",
+      "input": {
+        "from_date": "2030-01-06",
+        "locale": "en"
+      },
+      "synthetic_setup": true,
+      "payload_mutations": [],
+      "context_mutations": [],
+      "expected": {
+        "eligible": false,
+        "reason": "unsupported_locale"
+      }
+    },
+    {
+      "id": "catalog-missing-feasts-unavailable",
+      "operation": "upcoming",
+      "input": {
+        "from_date": "2030-01-06",
+        "locale": "sr-Latn"
+      },
+      "synthetic_setup": true,
+      "payload_mutations": [],
+      "context_mutations": [
+        {
+          "path": [
+            "catalogContext"
+          ],
+          "value": null
+        }
+      ],
+      "expected": {
+        "eligible": true,
+        "reason": null,
+        "state": "unavailable",
+        "coverage": "limited_catalog",
+        "coverage_years": [],
+        "truncated": false,
+        "items": []
+      }
+    },
+    {
+      "id": "catalog-pending-feasts-unavailable",
+      "operation": "upcoming",
+      "input": {
+        "from_date": "2030-01-06",
+        "locale": "sr-Latn"
+      },
+      "synthetic_setup": true,
+      "payload_mutations": [],
+      "context_mutations": [
+        {
+          "path": [
+            "catalogContext",
+            "payload",
+            "review_status"
+          ],
+          "value": "pending"
+        }
+      ],
+      "expected": {
+        "eligible": true,
+        "reason": null,
+        "state": "unavailable",
+        "coverage": "limited_catalog",
+        "coverage_years": [],
+        "truncated": false,
+        "items": []
+      }
+    },
+    {
+      "id": "catalog-exact-hash-mismatch",
+      "operation": "upcoming",
+      "input": {
+        "from_date": "2030-01-06",
+        "locale": "sr-Latn"
+      },
+      "synthetic_setup": true,
+      "payload_mutations": [],
+      "context_mutations": [
+        {
+          "path": [
+            "catalogContext",
+            "sha256"
+          ],
+          "value": "0000000000000000000000000000000000000000000000000000000000000000"
+        }
+      ],
+      "expected": {
+        "eligible": true,
+        "reason": null,
+        "state": "unavailable",
+        "coverage": "limited_catalog",
+        "coverage_years": [],
+        "truncated": false,
+        "items": []
+      }
+    },
+    {
+      "id": "catalog-truthy-trust",
+      "operation": "upcoming",
+      "input": {
+        "from_date": "2030-01-06",
+        "locale": "sr-Latn"
+      },
+      "synthetic_setup": true,
+      "payload_mutations": [],
+      "context_mutations": [
+        {
+          "path": [
+            "catalogContext",
+            "authenticated"
+          ],
+          "value": "true"
+        }
+      ],
+      "expected": {
+        "eligible": true,
+        "reason": null,
+        "state": "unavailable",
+        "coverage": "limited_catalog",
+        "coverage_years": [],
+        "truncated": false,
+        "items": []
+      }
+    },
+    {
+      "id": "catalog-generation-id-mismatch",
+      "operation": "upcoming",
+      "input": {
+        "from_date": "2030-01-06",
+        "locale": "sr-Latn"
+      },
+      "synthetic_setup": true,
+      "payload_mutations": [],
+      "context_mutations": [
+        {
+          "path": [
+            "catalogContext",
+            "generation",
+            "id"
+          ],
+          "value": "old-generation"
+        }
+      ],
+      "expected": {
+        "eligible": true,
+        "reason": null,
+        "state": "unavailable",
+        "coverage": "limited_catalog",
+        "coverage_years": [],
+        "truncated": false,
+        "items": []
+      }
+    },
+    {
+      "id": "catalog-generation-sequence-mismatch",
+      "operation": "upcoming",
+      "input": {
+        "from_date": "2030-01-06",
+        "locale": "sr-Latn"
+      },
+      "synthetic_setup": true,
+      "payload_mutations": [],
+      "context_mutations": [
+        {
+          "path": [
+            "catalogContext",
+            "generation",
+            "sequence"
+          ],
+          "value": 9
+        }
+      ],
+      "expected": {
+        "eligible": true,
+        "reason": null,
+        "state": "unavailable",
+        "coverage": "limited_catalog",
+        "coverage_years": [],
+        "truncated": false,
+        "items": []
+      }
+    },
+    {
+      "id": "catalog-generation-decision_sha256-mismatch",
+      "operation": "upcoming",
+      "input": {
+        "from_date": "2030-01-06",
+        "locale": "sr-Latn"
+      },
+      "synthetic_setup": true,
+      "payload_mutations": [],
+      "context_mutations": [
+        {
+          "path": [
+            "catalogContext",
+            "generation",
+            "decision_sha256"
+          ],
+          "value": "0000000000000000000000000000000000000000000000000000000000000000"
+        }
+      ],
+      "expected": {
+        "eligible": true,
+        "reason": null,
+        "state": "unavailable",
+        "coverage": "limited_catalog",
+        "coverage_years": [],
+        "truncated": false,
+        "items": []
+      }
+    },
+    {
+      "id": "calendar-context-cross-generation",
+      "operation": "upcoming",
+      "input": {
+        "from_date": "2030-01-06",
+        "locale": "sr-Latn"
+      },
+      "synthetic_setup": true,
+      "payload_mutations": [],
+      "context_mutations": [
+        {
+          "path": [
+            "catalogContext",
+            "context",
+            "calendarContexts",
+            0,
+            "generation",
+            "sequence"
+          ],
+          "value": 9
+        }
+      ],
+      "expected": {
+        "eligible": true,
+        "reason": null,
+        "state": "unavailable",
+        "coverage": "limited_catalog",
+        "coverage_years": [],
+        "truncated": false,
+        "items": []
+      }
+    },
+    {
+      "id": "unknown-profile",
+      "operation": "upcoming",
+      "input": {
+        "from_date": "2030-01-06",
+        "locale": "sr-Latn"
+      },
+      "synthetic_setup": true,
+      "payload_mutations": [
+        {
+          "path": [
+            "calendar_profile_id"
+          ],
+          "value": "unknown-profile"
+        }
+      ],
+      "context_mutations": [],
+      "expected": {
+        "eligible": true,
+        "reason": null,
+        "state": "unavailable",
+        "coverage": "limited_catalog",
+        "coverage_years": [],
+        "truncated": false,
+        "items": []
+      }
+    },
+    {
+      "id": "unknown-observance",
+      "operation": "upcoming",
+      "input": {
+        "from_date": "2030-01-06",
+        "locale": "sr-Latn"
+      },
+      "synthetic_setup": true,
+      "payload_mutations": [
+        {
+          "path": [
+            "feast_memberships",
+            0,
+            "observance_id"
+          ],
+          "value": "unknown-observance"
+        }
+      ],
+      "context_mutations": [],
+      "expected": {
+        "eligible": true,
+        "reason": null,
+        "state": "unavailable",
+        "coverage": "limited_catalog",
+        "coverage_years": [],
+        "truncated": false,
+        "items": []
+      }
+    },
+    {
+      "id": "unknown-occurrence",
+      "operation": "upcoming",
+      "input": {
+        "from_date": "2030-01-06",
+        "locale": "sr-Latn"
+      },
+      "synthetic_setup": true,
+      "payload_mutations": [
+        {
+          "path": [
+            "feast_memberships",
+            0,
+            "occurrence_ids"
+          ],
+          "value": [
+            "unknown-occurrence"
+          ]
+        }
+      ],
+      "context_mutations": [],
+      "expected": {
+        "eligible": true,
+        "reason": null,
+        "state": "unavailable",
+        "coverage": "limited_catalog",
+        "coverage_years": [],
+        "truncated": false,
+        "items": []
+      }
+    },
+    {
+      "id": "wrong-observance-occurrence",
+      "operation": "upcoming",
+      "input": {
+        "from_date": "2030-01-06",
+        "locale": "sr-Latn"
+      },
+      "synthetic_setup": true,
+      "payload_mutations": [
+        {
+          "path": [
+            "feast_memberships",
+            0,
+            "occurrence_ids"
+          ],
+          "value": [
+            "test-occurrence-2"
+          ]
+        },
+        {
+          "path": [
+            "feast_memberships",
+            1,
+            "occurrence_ids"
+          ],
+          "value": [
+            "test-occurrence-1"
+          ]
+        }
+      ],
+      "context_mutations": [],
+      "expected": {
+        "eligible": true,
+        "reason": null,
+        "state": "unavailable",
+        "coverage": "limited_catalog",
+        "coverage_years": [],
+        "truncated": false,
+        "items": []
+      }
+    },
+    {
+      "id": "unknown-source-reference",
+      "operation": "upcoming",
+      "input": {
+        "from_date": "2030-01-06",
+        "locale": "sr-Latn"
+      },
+      "synthetic_setup": true,
+      "payload_mutations": [
+        {
+          "path": [
+            "feast_memberships",
+            0,
+            "source_ids"
+          ],
+          "value": [
+            "unknown-source"
+          ]
+        }
+      ],
+      "context_mutations": [],
+      "expected": {
+        "eligible": true,
+        "reason": null,
+        "state": "unavailable",
+        "coverage": "limited_catalog",
+        "coverage_years": [],
+        "truncated": false,
+        "items": []
+      }
+    },
+    {
+      "id": "pending-membership-hidden",
+      "operation": "upcoming",
+      "input": {
+        "from_date": "2030-01-06",
+        "locale": "sr-Latn"
+      },
+      "synthetic_setup": true,
+      "payload_mutations": [
+        {
+          "path": [
+            "feast_memberships",
+            0,
+            "review_status"
+          ],
+          "value": "pending"
+        }
+      ],
+      "context_mutations": [],
+      "expected": {
+        "eligible": true,
+        "reason": null,
+        "state": "matches",
+        "coverage": "limited_catalog",
+        "coverage_years": [
+          2030
+        ],
+        "truncated": false,
+        "items": [
+          {
+            "date": "2030-01-14",
+            "days_away": 8,
+            "observance_id": "test-observance-2",
+            "occurrence_id": "test-occurrence-2",
+            "name": "Probni praznik 2"
+          }
+        ]
+      }
+    },
+    {
+      "id": "pending-occurrence-hidden",
+      "operation": "upcoming",
+      "input": {
+        "from_date": "2030-01-06",
+        "locale": "sr-Latn"
+      },
+      "synthetic_setup": true,
+      "payload_mutations": [],
+      "context_mutations": [
+        {
+          "path": [
+            "catalogContext",
+            "payload",
+            "occurrences",
+            0,
+            "review_status"
+          ],
+          "value": "pending"
+        }
+      ],
+      "expected": {
+        "eligible": true,
+        "reason": null,
+        "state": "matches",
+        "coverage": "limited_catalog",
+        "coverage_years": [
+          2030
+        ],
+        "truncated": false,
+        "items": [
+          {
+            "date": "2030-01-14",
+            "days_away": 8,
+            "observance_id": "test-observance-2",
+            "occurrence_id": "test-occurrence-2",
+            "name": "Probni praznik 2"
+          }
+        ]
+      }
+    },
+    {
+      "id": "pending-source-hidden",
+      "operation": "upcoming",
+      "input": {
+        "from_date": "2030-01-06",
+        "locale": "sr-Latn"
+      },
+      "synthetic_setup": true,
+      "payload_mutations": [],
+      "context_mutations": [
+        {
+          "path": [
+            "catalogContext",
+            "payload",
+            "sources",
+            0,
+            "review_status"
+          ],
+          "value": "pending"
+        }
+      ],
+      "expected": {
+        "eligible": true,
+        "reason": null,
+        "state": "no_known_occurrence",
+        "coverage": "limited_catalog",
+        "coverage_years": [
+          2030
+        ],
+        "truncated": false,
+        "items": []
+      }
+    },
+    {
+      "id": "kind-alone-never-featured",
+      "operation": "upcoming",
+      "input": {
+        "from_date": "2030-01-06",
+        "locale": "sr-Latn"
+      },
+      "synthetic_setup": true,
+      "payload_mutations": [
+        {
+          "path": [
+            "feast_memberships"
+          ],
+          "value": [
+            {
+              "observance_id": "test-observance-1",
+              "occurrence_ids": [
+                "test-occurrence-1"
+              ],
+              "review_status": "reviewed",
+              "source_ids": [
+                "test-source"
+              ]
+            }
+          ]
+        }
+      ],
+      "context_mutations": [],
+      "expected": {
+        "eligible": true,
+        "reason": null,
+        "state": "matches",
+        "coverage": "limited_catalog",
+        "coverage_years": [
+          2030
+        ],
+        "truncated": false,
+        "items": [
+          {
+            "date": "2030-01-07",
+            "days_away": 1,
+            "observance_id": "test-observance-1",
+            "occurrence_id": "test-occurrence-1",
+            "name": "Probni praznik 1"
+          }
+        ]
+      }
+    },
+    {
+      "id": "archive-first-date-three-phases",
+      "operation": "archive",
+      "input": {
+        "date": "2030-01-07"
+      },
+      "synthetic_setup": true,
+      "payload_mutations": [],
+      "context_mutations": [],
+      "expected": {
+        "eligible": true,
+        "reason": null,
+        "date": "2030-01-07",
+        "state": "available",
+        "correction_id": null,
+        "phases": [
+          {
+            "phase": "morning",
+            "state": "available",
+            "selection": {
+              "cycle_day_id": "test-cycle-day-1",
+              "slot_id": "test-slot-morning",
+              "psalm_id": "psalm-1",
+              "verse_numbers": [
+                1,
+                2
+              ],
+              "prayer_id": "test-prayer-1",
+              "policy_id": "calendar-week-v1",
+              "policy_version": 1,
+              "library_binding": {
+                "module_id": "test-reading-library",
+                "version": "2030.1.0",
+                "revision": 1,
+                "manifest_sha256": "cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc"
+              },
+              "cycles_binding": {
+                "module_id": "test-reading-cycles",
+                "version": "2030.1.0",
+                "revision": 2,
+                "manifest_sha256": "dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd"
+              },
+              "generation": {
+                "id": "test-only-browser-generation",
+                "sequence": 10,
+                "decision_sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+              }
+            }
+          },
+          {
+            "phase": "noon",
+            "state": "available",
+            "selection": {
+              "cycle_day_id": "test-cycle-day-1",
+              "slot_id": "test-slot-noon",
+              "psalm_id": "psalm-2",
+              "verse_numbers": [
+                1,
+                2
+              ],
+              "prayer_id": "test-prayer-2",
+              "policy_id": "calendar-week-v1",
+              "policy_version": 1,
+              "library_binding": {
+                "module_id": "test-reading-library",
+                "version": "2030.1.0",
+                "revision": 1,
+                "manifest_sha256": "cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc"
+              },
+              "cycles_binding": {
+                "module_id": "test-reading-cycles",
+                "version": "2030.1.0",
+                "revision": 2,
+                "manifest_sha256": "dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd"
+              },
+              "generation": {
+                "id": "test-only-browser-generation",
+                "sequence": 10,
+                "decision_sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+              }
+            }
+          },
+          {
+            "phase": "evening",
+            "state": "available",
+            "selection": {
+              "cycle_day_id": "test-cycle-day-1",
+              "slot_id": "test-slot-evening",
+              "psalm_id": "psalm-3",
+              "verse_numbers": [
+                1,
+                2
+              ],
+              "prayer_id": "test-prayer-3",
+              "policy_id": "calendar-week-v1",
+              "policy_version": 1,
+              "library_binding": {
+                "module_id": "test-reading-library",
+                "version": "2030.1.0",
+                "revision": 1,
+                "manifest_sha256": "cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc"
+              },
+              "cycles_binding": {
+                "module_id": "test-reading-cycles",
+                "version": "2030.1.0",
+                "revision": 2,
+                "manifest_sha256": "dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd"
+              },
+              "generation": {
+                "id": "test-only-browser-generation",
+                "sequence": 10,
+                "decision_sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "before-archive-start-unknown",
+      "operation": "archive",
+      "input": {
+        "date": "2030-01-06"
+      },
+      "synthetic_setup": true,
+      "payload_mutations": [],
+      "context_mutations": [],
+      "expected": {
+        "eligible": true,
+        "reason": null,
+        "date": "2030-01-06",
+        "state": "archive_unavailable",
+        "correction_id": null,
+        "phases": []
+      }
+    },
+    {
+      "id": "archive-explicit-phase-gap",
+      "operation": "archive",
+      "input": {
+        "date": "2030-01-08"
+      },
+      "synthetic_setup": true,
+      "payload_mutations": [],
+      "context_mutations": [],
+      "expected": {
+        "eligible": true,
+        "reason": null,
+        "date": "2030-01-08",
+        "state": "available",
+        "correction_id": null,
+        "phases": [
+          {
+            "phase": "morning",
+            "state": "phase_unavailable",
+            "selection": null
+          },
+          {
+            "phase": "noon",
+            "state": "available",
+            "selection": {
+              "cycle_day_id": "test-cycle-day-2",
+              "slot_id": "test-slot-tuesday-noon",
+              "psalm_id": "psalm-2",
+              "verse_numbers": [
+                1,
+                2
+              ],
+              "prayer_id": "test-prayer-2",
+              "policy_id": "calendar-week-v1",
+              "policy_version": 1,
+              "library_binding": {
+                "module_id": "test-reading-library",
+                "version": "2030.1.0",
+                "revision": 1,
+                "manifest_sha256": "cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc"
+              },
+              "cycles_binding": {
+                "module_id": "test-reading-cycles",
+                "version": "2030.1.0",
+                "revision": 2,
+                "manifest_sha256": "dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd"
+              },
+              "generation": {
+                "id": "test-only-browser-generation",
+                "sequence": 10,
+                "decision_sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+              }
+            }
+          },
+          {
+            "phase": "evening",
+            "state": "phase_unavailable",
+            "selection": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "withdrawn-day-tombstone",
+      "operation": "archive",
+      "input": {
+        "date": "2030-01-09"
+      },
+      "synthetic_setup": true,
+      "payload_mutations": [],
+      "context_mutations": [],
+      "expected": {
+        "eligible": true,
+        "reason": null,
+        "date": "2030-01-09",
+        "state": "withdrawn",
+        "correction_id": null,
+        "phases": []
+      }
+    },
+    {
+      "id": "withdrawn-even-with-bodies-removed",
+      "operation": "archive",
+      "input": {
+        "date": "2030-01-09"
+      },
+      "synthetic_setup": true,
+      "payload_mutations": [],
+      "context_mutations": [
+        {
+          "path": [
+            "archiveContexts"
+          ],
+          "value": []
+        }
+      ],
+      "expected": {
+        "eligible": true,
+        "reason": null,
+        "date": "2030-01-09",
+        "state": "withdrawn",
+        "correction_id": null,
+        "phases": []
+      }
+    },
+    {
+      "id": "corrected-day-visibly-marked",
+      "operation": "archive",
+      "input": {
+        "date": "2030-01-07"
+      },
+      "synthetic_setup": true,
+      "payload_mutations": [
+        {
+          "path": [
+            "archive_days",
+            0,
+            "status"
+          ],
+          "value": "corrected"
+        },
+        {
+          "path": [
+            "archive_days",
+            0,
+            "correction_id"
+          ],
+          "value": "test-reviewed-correction-1"
+        }
+      ],
+      "context_mutations": [],
+      "expected": {
+        "eligible": true,
+        "reason": null,
+        "date": "2030-01-07",
+        "state": "corrected",
+        "correction_id": "test-reviewed-correction-1",
+        "phases": [
+          {
+            "phase": "morning",
+            "state": "available",
+            "selection": {
+              "cycle_day_id": "test-cycle-day-1",
+              "slot_id": "test-slot-morning",
+              "psalm_id": "psalm-1",
+              "verse_numbers": [
+                1,
+                2
+              ],
+              "prayer_id": "test-prayer-1",
+              "policy_id": "calendar-week-v1",
+              "policy_version": 1,
+              "library_binding": {
+                "module_id": "test-reading-library",
+                "version": "2030.1.0",
+                "revision": 1,
+                "manifest_sha256": "cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc"
+              },
+              "cycles_binding": {
+                "module_id": "test-reading-cycles",
+                "version": "2030.1.0",
+                "revision": 2,
+                "manifest_sha256": "dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd"
+              },
+              "generation": {
+                "id": "test-only-browser-generation",
+                "sequence": 10,
+                "decision_sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+              }
+            }
+          },
+          {
+            "phase": "noon",
+            "state": "available",
+            "selection": {
+              "cycle_day_id": "test-cycle-day-1",
+              "slot_id": "test-slot-noon",
+              "psalm_id": "psalm-2",
+              "verse_numbers": [
+                1,
+                2
+              ],
+              "prayer_id": "test-prayer-2",
+              "policy_id": "calendar-week-v1",
+              "policy_version": 1,
+              "library_binding": {
+                "module_id": "test-reading-library",
+                "version": "2030.1.0",
+                "revision": 1,
+                "manifest_sha256": "cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc"
+              },
+              "cycles_binding": {
+                "module_id": "test-reading-cycles",
+                "version": "2030.1.0",
+                "revision": 2,
+                "manifest_sha256": "dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd"
+              },
+              "generation": {
+                "id": "test-only-browser-generation",
+                "sequence": 10,
+                "decision_sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+              }
+            }
+          },
+          {
+            "phase": "evening",
+            "state": "available",
+            "selection": {
+              "cycle_day_id": "test-cycle-day-1",
+              "slot_id": "test-slot-evening",
+              "psalm_id": "psalm-3",
+              "verse_numbers": [
+                1,
+                2
+              ],
+              "prayer_id": "test-prayer-3",
+              "policy_id": "calendar-week-v1",
+              "policy_version": 1,
+              "library_binding": {
+                "module_id": "test-reading-library",
+                "version": "2030.1.0",
+                "revision": 1,
+                "manifest_sha256": "cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc"
+              },
+              "cycles_binding": {
+                "module_id": "test-reading-cycles",
+                "version": "2030.1.0",
+                "revision": 2,
+                "manifest_sha256": "dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd"
+              },
+              "generation": {
+                "id": "test-only-browser-generation",
+                "sequence": 10,
+                "decision_sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "corrected-with-missing-body-keeps-marker",
+      "operation": "archive",
+      "input": {
+        "date": "2030-01-07"
+      },
+      "synthetic_setup": true,
+      "payload_mutations": [
+        {
+          "path": [
+            "archive_days",
+            0,
+            "status"
+          ],
+          "value": "corrected"
+        },
+        {
+          "path": [
+            "archive_days",
+            0,
+            "correction_id"
+          ],
+          "value": "test-reviewed-correction-1"
+        }
+      ],
+      "context_mutations": [
+        {
+          "path": [
+            "archiveContexts"
+          ],
+          "value": []
+        }
+      ],
+      "expected": {
+        "eligible": true,
+        "reason": null,
+        "date": "2030-01-07",
+        "state": "content_unavailable",
+        "correction_id": "test-reviewed-correction-1",
+        "phases": [
+          {
+            "phase": "morning",
+            "state": "content_unavailable",
+            "selection": null
+          },
+          {
+            "phase": "noon",
+            "state": "content_unavailable",
+            "selection": null
+          },
+          {
+            "phase": "evening",
+            "state": "content_unavailable",
+            "selection": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "corrected-without-marker-invalid",
+      "operation": "evaluate",
+      "input": {},
+      "synthetic_setup": true,
+      "payload_mutations": [
+        {
+          "path": [
+            "archive_days",
+            0,
+            "status"
+          ],
+          "value": "corrected"
+        }
+      ],
+      "context_mutations": [],
+      "expected": {
+        "eligible": false,
+        "reason": "malformed"
+      }
+    },
+    {
+      "id": "uncorrected-with-marker-invalid",
+      "operation": "evaluate",
+      "input": {},
+      "synthetic_setup": true,
+      "payload_mutations": [
+        {
+          "path": [
+            "archive_days",
+            0,
+            "correction_id"
+          ],
+          "value": "test-correction"
+        }
+      ],
+      "context_mutations": [],
+      "expected": {
+        "eligible": false,
+        "reason": "malformed"
+      }
+    },
+    {
+      "id": "after-last-record-unknown",
+      "operation": "archive",
+      "input": {
+        "date": "2030-01-10"
+      },
+      "synthetic_setup": true,
+      "payload_mutations": [],
+      "context_mutations": [],
+      "expected": {
+        "eligible": true,
+        "reason": null,
+        "date": "2030-01-10",
+        "state": "uncovered",
+        "correction_id": null,
+        "phases": []
+      }
+    },
+    {
+      "id": "archive-future-year-not-reconstructed",
+      "operation": "archive",
+      "input": {
+        "date": "2031-01-07"
+      },
+      "synthetic_setup": true,
+      "payload_mutations": [],
+      "context_mutations": [],
+      "expected": {
+        "eligible": true,
+        "reason": null,
+        "date": "2031-01-07",
+        "state": "uncovered",
+        "correction_id": null,
+        "phases": []
+      }
+    },
+    {
+      "id": "archive-valid-leap-date-uncovered",
+      "operation": "archive",
+      "input": {
+        "date": "2032-02-29"
+      },
+      "synthetic_setup": true,
+      "payload_mutations": [],
+      "context_mutations": [],
+      "expected": {
+        "eligible": true,
+        "reason": null,
+        "date": "2032-02-29",
+        "state": "uncovered",
+        "correction_id": null,
+        "phases": []
+      }
+    },
+    {
+      "id": "invalid-archive-date",
+      "operation": "archive",
+      "input": {
+        "date": "2030-02-29"
+      },
+      "synthetic_setup": true,
+      "payload_mutations": [],
+      "context_mutations": [],
+      "expected": {
+        "eligible": false,
+        "reason": "invalid_date"
+      }
+    },
+    {
+      "id": "archive-independent-of-catalog",
+      "operation": "archive",
+      "input": {
+        "date": "2030-01-07"
+      },
+      "synthetic_setup": true,
+      "payload_mutations": [],
+      "context_mutations": [
+        {
+          "path": [
+            "catalogContext"
+          ],
+          "value": null
+        }
+      ],
+      "expected": {
+        "eligible": true,
+        "reason": null,
+        "date": "2030-01-07",
+        "state": "available",
+        "correction_id": null,
+        "phases": [
+          {
+            "phase": "morning",
+            "state": "available",
+            "selection": {
+              "cycle_day_id": "test-cycle-day-1",
+              "slot_id": "test-slot-morning",
+              "psalm_id": "psalm-1",
+              "verse_numbers": [
+                1,
+                2
+              ],
+              "prayer_id": "test-prayer-1",
+              "policy_id": "calendar-week-v1",
+              "policy_version": 1,
+              "library_binding": {
+                "module_id": "test-reading-library",
+                "version": "2030.1.0",
+                "revision": 1,
+                "manifest_sha256": "cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc"
+              },
+              "cycles_binding": {
+                "module_id": "test-reading-cycles",
+                "version": "2030.1.0",
+                "revision": 2,
+                "manifest_sha256": "dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd"
+              },
+              "generation": {
+                "id": "test-only-browser-generation",
+                "sequence": 10,
+                "decision_sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+              }
+            }
+          },
+          {
+            "phase": "noon",
+            "state": "available",
+            "selection": {
+              "cycle_day_id": "test-cycle-day-1",
+              "slot_id": "test-slot-noon",
+              "psalm_id": "psalm-2",
+              "verse_numbers": [
+                1,
+                2
+              ],
+              "prayer_id": "test-prayer-2",
+              "policy_id": "calendar-week-v1",
+              "policy_version": 1,
+              "library_binding": {
+                "module_id": "test-reading-library",
+                "version": "2030.1.0",
+                "revision": 1,
+                "manifest_sha256": "cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc"
+              },
+              "cycles_binding": {
+                "module_id": "test-reading-cycles",
+                "version": "2030.1.0",
+                "revision": 2,
+                "manifest_sha256": "dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd"
+              },
+              "generation": {
+                "id": "test-only-browser-generation",
+                "sequence": 10,
+                "decision_sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+              }
+            }
+          },
+          {
+            "phase": "evening",
+            "state": "available",
+            "selection": {
+              "cycle_day_id": "test-cycle-day-1",
+              "slot_id": "test-slot-evening",
+              "psalm_id": "psalm-3",
+              "verse_numbers": [
+                1,
+                2
+              ],
+              "prayer_id": "test-prayer-3",
+              "policy_id": "calendar-week-v1",
+              "policy_version": 1,
+              "library_binding": {
+                "module_id": "test-reading-library",
+                "version": "2030.1.0",
+                "revision": 1,
+                "manifest_sha256": "cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc"
+              },
+              "cycles_binding": {
+                "module_id": "test-reading-cycles",
+                "version": "2030.1.0",
+                "revision": 2,
+                "manifest_sha256": "dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd"
+              },
+              "generation": {
+                "id": "test-only-browser-generation",
+                "sequence": 10,
+                "decision_sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "archive-no-calendar-binding",
+      "operation": "archive",
+      "input": {
+        "date": "2030-01-07"
+      },
+      "synthetic_setup": true,
+      "payload_mutations": [
+        {
+          "path": [
+            "catalog_binding"
+          ],
+          "value": null
+        },
+        {
+          "path": [
+            "feast_memberships"
+          ],
+          "value": []
+        }
+      ],
+      "context_mutations": [
+        {
+          "path": [
+            "catalogContext"
+          ],
+          "value": null
+        }
+      ],
+      "expected": {
+        "eligible": true,
+        "reason": null,
+        "date": "2030-01-07",
+        "state": "available",
+        "correction_id": null,
+        "phases": [
+          {
+            "phase": "morning",
+            "state": "available",
+            "selection": {
+              "cycle_day_id": "test-cycle-day-1",
+              "slot_id": "test-slot-morning",
+              "psalm_id": "psalm-1",
+              "verse_numbers": [
+                1,
+                2
+              ],
+              "prayer_id": "test-prayer-1",
+              "policy_id": "calendar-week-v1",
+              "policy_version": 1,
+              "library_binding": {
+                "module_id": "test-reading-library",
+                "version": "2030.1.0",
+                "revision": 1,
+                "manifest_sha256": "cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc"
+              },
+              "cycles_binding": {
+                "module_id": "test-reading-cycles",
+                "version": "2030.1.0",
+                "revision": 2,
+                "manifest_sha256": "dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd"
+              },
+              "generation": {
+                "id": "test-only-browser-generation",
+                "sequence": 10,
+                "decision_sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+              }
+            }
+          },
+          {
+            "phase": "noon",
+            "state": "available",
+            "selection": {
+              "cycle_day_id": "test-cycle-day-1",
+              "slot_id": "test-slot-noon",
+              "psalm_id": "psalm-2",
+              "verse_numbers": [
+                1,
+                2
+              ],
+              "prayer_id": "test-prayer-2",
+              "policy_id": "calendar-week-v1",
+              "policy_version": 1,
+              "library_binding": {
+                "module_id": "test-reading-library",
+                "version": "2030.1.0",
+                "revision": 1,
+                "manifest_sha256": "cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc"
+              },
+              "cycles_binding": {
+                "module_id": "test-reading-cycles",
+                "version": "2030.1.0",
+                "revision": 2,
+                "manifest_sha256": "dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd"
+              },
+              "generation": {
+                "id": "test-only-browser-generation",
+                "sequence": 10,
+                "decision_sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+              }
+            }
+          },
+          {
+            "phase": "evening",
+            "state": "available",
+            "selection": {
+              "cycle_day_id": "test-cycle-day-1",
+              "slot_id": "test-slot-evening",
+              "psalm_id": "psalm-3",
+              "verse_numbers": [
+                1,
+                2
+              ],
+              "prayer_id": "test-prayer-3",
+              "policy_id": "calendar-week-v1",
+              "policy_version": 1,
+              "library_binding": {
+                "module_id": "test-reading-library",
+                "version": "2030.1.0",
+                "revision": 1,
+                "manifest_sha256": "cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc"
+              },
+              "cycles_binding": {
+                "module_id": "test-reading-cycles",
+                "version": "2030.1.0",
+                "revision": 2,
+                "manifest_sha256": "dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd"
+              },
+              "generation": {
+                "id": "test-only-browser-generation",
+                "sequence": 10,
+                "decision_sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "no-archive-start-is-unavailable",
+      "operation": "archive",
+      "input": {
+        "date": "2030-01-07"
+      },
+      "synthetic_setup": true,
+      "payload_mutations": [
+        {
+          "path": [
+            "archive_start_date"
+          ],
+          "value": null
+        },
+        {
+          "path": [
+            "archive_days"
+          ],
+          "value": []
+        },
+        {
+          "path": [
+            "archive_bindings"
+          ],
+          "value": []
+        }
+      ],
+      "context_mutations": [],
+      "expected": {
+        "eligible": true,
+        "reason": null,
+        "date": "2030-01-07",
+        "state": "archive_unavailable",
+        "correction_id": null,
+        "phases": []
+      }
+    },
+    {
+      "id": "missing-old-content-never-latest",
+      "operation": "archive",
+      "input": {
+        "date": "2030-01-07"
+      },
+      "synthetic_setup": true,
+      "payload_mutations": [],
+      "context_mutations": [
+        {
+          "path": [
+            "archiveContexts"
+          ],
+          "value": []
+        }
+      ],
+      "expected": {
+        "eligible": true,
+        "reason": null,
+        "date": "2030-01-07",
+        "state": "content_unavailable",
+        "correction_id": null,
+        "phases": [
+          {
+            "phase": "morning",
+            "state": "content_unavailable",
+            "selection": null
+          },
+          {
+            "phase": "noon",
+            "state": "content_unavailable",
+            "selection": null
+          },
+          {
+            "phase": "evening",
+            "state": "content_unavailable",
+            "selection": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "wrong-weekday-valid-slot-rejected",
+      "operation": "archive",
+      "input": {
+        "date": "2030-01-06"
+      },
+      "synthetic_setup": true,
+      "payload_mutations": [
+        {
+          "path": [
+            "archive_start_date"
+          ],
+          "value": "2030-01-06"
+        },
+        {
+          "path": [
+            "archive_days",
+            0,
+            "date"
+          ],
+          "value": "2030-01-06"
+        }
+      ],
+      "context_mutations": [],
+      "expected": {
+        "eligible": true,
+        "reason": null,
+        "date": "2030-01-06",
+        "state": "content_unavailable",
+        "correction_id": null,
+        "phases": [
+          {
+            "phase": "morning",
+            "state": "content_unavailable",
+            "selection": null
+          },
+          {
+            "phase": "noon",
+            "state": "content_unavailable",
+            "selection": null
+          },
+          {
+            "phase": "evening",
+            "state": "content_unavailable",
+            "selection": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "malformed-null-archive-context",
+      "operation": "archive",
+      "input": {
+        "date": "2030-01-07"
+      },
+      "synthetic_setup": true,
+      "payload_mutations": [],
+      "context_mutations": [
+        {
+          "path": [
+            "archiveContexts"
+          ],
+          "value": [
+            null
+          ]
+        }
+      ],
+      "expected": {
+        "eligible": true,
+        "reason": null,
+        "date": "2030-01-07",
+        "state": "content_unavailable",
+        "correction_id": null,
+        "phases": [
+          {
+            "phase": "morning",
+            "state": "content_unavailable",
+            "selection": null
+          },
+          {
+            "phase": "noon",
+            "state": "content_unavailable",
+            "selection": null
+          },
+          {
+            "phase": "evening",
+            "state": "content_unavailable",
+            "selection": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "malformed-cycle-day-array",
+      "operation": "archive",
+      "input": {
+        "date": "2030-01-07"
+      },
+      "synthetic_setup": true,
+      "payload_mutations": [],
+      "context_mutations": [
+        {
+          "path": [
+            "archiveContexts",
+            0,
+            "cycles",
+            "days"
+          ],
+          "value": {}
+        }
+      ],
+      "expected": {
+        "eligible": true,
+        "reason": null,
+        "date": "2030-01-07",
+        "state": "content_unavailable",
+        "correction_id": null,
+        "phases": [
+          {
+            "phase": "morning",
+            "state": "content_unavailable",
+            "selection": null
+          },
+          {
+            "phase": "noon",
+            "state": "content_unavailable",
+            "selection": null
+          },
+          {
+            "phase": "evening",
+            "state": "content_unavailable",
+            "selection": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "malformed-null-cycle-day",
+      "operation": "archive",
+      "input": {
+        "date": "2030-01-07"
+      },
+      "synthetic_setup": true,
+      "payload_mutations": [],
+      "context_mutations": [
+        {
+          "path": [
+            "archiveContexts",
+            0,
+            "cycles",
+            "days"
+          ],
+          "value": [
+            null
+          ]
+        }
+      ],
+      "expected": {
+        "eligible": true,
+        "reason": null,
+        "date": "2030-01-07",
+        "state": "content_unavailable",
+        "correction_id": null,
+        "phases": [
+          {
+            "phase": "morning",
+            "state": "content_unavailable",
+            "selection": null
+          },
+          {
+            "phase": "noon",
+            "state": "content_unavailable",
+            "selection": null
+          },
+          {
+            "phase": "evening",
+            "state": "content_unavailable",
+            "selection": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "malformed-null-library-psalm",
+      "operation": "archive",
+      "input": {
+        "date": "2030-01-07"
+      },
+      "synthetic_setup": true,
+      "payload_mutations": [],
+      "context_mutations": [
+        {
+          "path": [
+            "archiveContexts",
+            0,
+            "library",
+            "psalms"
+          ],
+          "value": [
+            null
+          ]
+        }
+      ],
+      "expected": {
+        "eligible": true,
+        "reason": null,
+        "date": "2030-01-07",
+        "state": "content_unavailable",
+        "correction_id": null,
+        "phases": [
+          {
+            "phase": "morning",
+            "state": "content_unavailable",
+            "selection": null
+          },
+          {
+            "phase": "noon",
+            "state": "content_unavailable",
+            "selection": null
+          },
+          {
+            "phase": "evening",
+            "state": "content_unavailable",
+            "selection": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "duplicate-archive-context-unavailable",
+      "operation": "archive",
+      "input": {
+        "date": "2030-01-07"
+      },
+      "synthetic_setup": true,
+      "payload_mutations": [],
+      "context_mutations": [
+        {
+          "path": [
+            "archiveContexts"
+          ],
+          "value": [
+            {
+              "binding_id": "test-archive-binding",
+              "generation": {
+                "id": "test-only-browser-generation",
+                "sequence": 10,
+                "decision_sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+              },
+              "authenticated": true,
+              "review_status": "approved",
+              "library": {
+                "module_id": "test-reading-library",
+                "version": "2030.1.0",
+                "revision": 1,
+                "manifest_sha256": "cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc",
+                "psalms": [
+                  {
+                    "id": "psalm-1",
+                    "verse_numbers": [
+                      1,
+                      2,
+                      3
+                    ]
+                  },
+                  {
+                    "id": "psalm-2",
+                    "verse_numbers": [
+                      1,
+                      2,
+                      3
+                    ]
+                  },
+                  {
+                    "id": "psalm-3",
+                    "verse_numbers": [
+                      1,
+                      2,
+                      3
+                    ]
+                  }
+                ],
+                "prayer_ids": [
+                  "test-prayer-1",
+                  "test-prayer-2",
+                  "test-prayer-3"
+                ]
+              },
+              "cycles": {
+                "module_id": "test-reading-cycles",
+                "version": "2030.1.0",
+                "revision": 2,
+                "manifest_sha256": "dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd",
+                "days": [
+                  {
+                    "id": "test-cycle-day-1",
+                    "cycle_day": 1,
+                    "slots": [
+                      {
+                        "id": "test-slot-morning",
+                        "phase": "morning",
+                        "psalm_id": "psalm-1",
+                        "verse_numbers": [
+                          1,
+                          2
+                        ],
+                        "prayer_id": "test-prayer-1"
+                      },
+                      {
+                        "id": "test-slot-noon",
+                        "phase": "noon",
+                        "psalm_id": "psalm-2",
+                        "verse_numbers": [
+                          1,
+                          2
+                        ],
+                        "prayer_id": "test-prayer-2"
+                      },
+                      {
+                        "id": "test-slot-evening",
+                        "phase": "evening",
+                        "psalm_id": "psalm-3",
+                        "verse_numbers": [
+                          1,
+                          2
+                        ],
+                        "prayer_id": "test-prayer-3"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "test-cycle-day-2",
+                    "cycle_day": 2,
+                    "slots": [
+                      {
+                        "id": "test-slot-tuesday-noon",
+                        "phase": "noon",
+                        "psalm_id": "psalm-2",
+                        "verse_numbers": [
+                          1,
+                          2
+                        ],
+                        "prayer_id": "test-prayer-2"
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            {
+              "binding_id": "test-archive-binding",
+              "generation": {
+                "id": "test-only-browser-generation",
+                "sequence": 10,
+                "decision_sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+              },
+              "authenticated": true,
+              "review_status": "approved",
+              "library": {
+                "module_id": "test-reading-library",
+                "version": "2030.1.0",
+                "revision": 1,
+                "manifest_sha256": "cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc",
+                "psalms": [
+                  {
+                    "id": "psalm-1",
+                    "verse_numbers": [
+                      1,
+                      2,
+                      3
+                    ]
+                  },
+                  {
+                    "id": "psalm-2",
+                    "verse_numbers": [
+                      1,
+                      2,
+                      3
+                    ]
+                  },
+                  {
+                    "id": "psalm-3",
+                    "verse_numbers": [
+                      1,
+                      2,
+                      3
+                    ]
+                  }
+                ],
+                "prayer_ids": [
+                  "test-prayer-1",
+                  "test-prayer-2",
+                  "test-prayer-3"
+                ]
+              },
+              "cycles": {
+                "module_id": "test-reading-cycles",
+                "version": "2030.1.0",
+                "revision": 2,
+                "manifest_sha256": "dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd",
+                "days": [
+                  {
+                    "id": "test-cycle-day-1",
+                    "cycle_day": 1,
+                    "slots": [
+                      {
+                        "id": "test-slot-morning",
+                        "phase": "morning",
+                        "psalm_id": "psalm-1",
+                        "verse_numbers": [
+                          1,
+                          2
+                        ],
+                        "prayer_id": "test-prayer-1"
+                      },
+                      {
+                        "id": "test-slot-noon",
+                        "phase": "noon",
+                        "psalm_id": "psalm-2",
+                        "verse_numbers": [
+                          1,
+                          2
+                        ],
+                        "prayer_id": "test-prayer-2"
+                      },
+                      {
+                        "id": "test-slot-evening",
+                        "phase": "evening",
+                        "psalm_id": "psalm-3",
+                        "verse_numbers": [
+                          1,
+                          2
+                        ],
+                        "prayer_id": "test-prayer-3"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "test-cycle-day-2",
+                    "cycle_day": 2,
+                    "slots": [
+                      {
+                        "id": "test-slot-tuesday-noon",
+                        "phase": "noon",
+                        "psalm_id": "psalm-2",
+                        "verse_numbers": [
+                          1,
+                          2
+                        ],
+                        "prayer_id": "test-prayer-2"
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "expected": {
+        "eligible": true,
+        "reason": null,
+        "date": "2030-01-07",
+        "state": "content_unavailable",
+        "correction_id": null,
+        "phases": [
+          {
+            "phase": "morning",
+            "state": "content_unavailable",
+            "selection": null
+          },
+          {
+            "phase": "noon",
+            "state": "content_unavailable",
+            "selection": null
+          },
+          {
+            "phase": "evening",
+            "state": "content_unavailable",
+            "selection": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "archive-truthy-trust",
+      "operation": "archive",
+      "input": {
+        "date": "2030-01-07"
+      },
+      "synthetic_setup": true,
+      "payload_mutations": [],
+      "context_mutations": [
+        {
+          "path": [
+            "archiveContexts",
+            0,
+            "authenticated"
+          ],
+          "value": "true"
+        }
+      ],
+      "expected": {
+        "eligible": true,
+        "reason": null,
+        "date": "2030-01-07",
+        "state": "content_unavailable",
+        "correction_id": null,
+        "phases": [
+          {
+            "phase": "morning",
+            "state": "content_unavailable",
+            "selection": null
+          },
+          {
+            "phase": "noon",
+            "state": "content_unavailable",
+            "selection": null
+          },
+          {
+            "phase": "evening",
+            "state": "content_unavailable",
+            "selection": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "archive-content-withdrawn",
+      "operation": "archive",
+      "input": {
+        "date": "2030-01-07"
+      },
+      "synthetic_setup": true,
+      "payload_mutations": [],
+      "context_mutations": [
+        {
+          "path": [
+            "archiveContexts",
+            0,
+            "review_status"
+          ],
+          "value": "withdrawn"
+        }
+      ],
+      "expected": {
+        "eligible": true,
+        "reason": null,
+        "date": "2030-01-07",
+        "state": "content_unavailable",
+        "correction_id": null,
+        "phases": [
+          {
+            "phase": "morning",
+            "state": "content_unavailable",
+            "selection": null
+          },
+          {
+            "phase": "noon",
+            "state": "content_unavailable",
+            "selection": null
+          },
+          {
+            "phase": "evening",
+            "state": "content_unavailable",
+            "selection": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "archive-generation-id-mismatch",
+      "operation": "archive",
+      "input": {
+        "date": "2030-01-07"
+      },
+      "synthetic_setup": true,
+      "payload_mutations": [],
+      "context_mutations": [
+        {
+          "path": [
+            "archiveContexts",
+            0,
+            "generation",
+            "id"
+          ],
+          "value": "old-generation"
+        }
+      ],
+      "expected": {
+        "eligible": true,
+        "reason": null,
+        "date": "2030-01-07",
+        "state": "content_unavailable",
+        "correction_id": null,
+        "phases": [
+          {
+            "phase": "morning",
+            "state": "content_unavailable",
+            "selection": null
+          },
+          {
+            "phase": "noon",
+            "state": "content_unavailable",
+            "selection": null
+          },
+          {
+            "phase": "evening",
+            "state": "content_unavailable",
+            "selection": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "archive-generation-sequence-mismatch",
+      "operation": "archive",
+      "input": {
+        "date": "2030-01-07"
+      },
+      "synthetic_setup": true,
+      "payload_mutations": [],
+      "context_mutations": [
+        {
+          "path": [
+            "archiveContexts",
+            0,
+            "generation",
+            "sequence"
+          ],
+          "value": 9
+        }
+      ],
+      "expected": {
+        "eligible": true,
+        "reason": null,
+        "date": "2030-01-07",
+        "state": "content_unavailable",
+        "correction_id": null,
+        "phases": [
+          {
+            "phase": "morning",
+            "state": "content_unavailable",
+            "selection": null
+          },
+          {
+            "phase": "noon",
+            "state": "content_unavailable",
+            "selection": null
+          },
+          {
+            "phase": "evening",
+            "state": "content_unavailable",
+            "selection": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "archive-generation-decision_sha256-mismatch",
+      "operation": "archive",
+      "input": {
+        "date": "2030-01-07"
+      },
+      "synthetic_setup": true,
+      "payload_mutations": [],
+      "context_mutations": [
+        {
+          "path": [
+            "archiveContexts",
+            0,
+            "generation",
+            "decision_sha256"
+          ],
+          "value": "0000000000000000000000000000000000000000000000000000000000000000"
+        }
+      ],
+      "expected": {
+        "eligible": true,
+        "reason": null,
+        "date": "2030-01-07",
+        "state": "content_unavailable",
+        "correction_id": null,
+        "phases": [
+          {
+            "phase": "morning",
+            "state": "content_unavailable",
+            "selection": null
+          },
+          {
+            "phase": "noon",
+            "state": "content_unavailable",
+            "selection": null
+          },
+          {
+            "phase": "evening",
+            "state": "content_unavailable",
+            "selection": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "library-version-mismatch",
+      "operation": "archive",
+      "input": {
+        "date": "2030-01-07"
+      },
+      "synthetic_setup": true,
+      "payload_mutations": [],
+      "context_mutations": [
+        {
+          "path": [
+            "archiveContexts",
+            0,
+            "library",
+            "version"
+          ],
+          "value": "latest-version"
+        }
+      ],
+      "expected": {
+        "eligible": true,
+        "reason": null,
+        "date": "2030-01-07",
+        "state": "content_unavailable",
+        "correction_id": null,
+        "phases": [
+          {
+            "phase": "morning",
+            "state": "content_unavailable",
+            "selection": null
+          },
+          {
+            "phase": "noon",
+            "state": "content_unavailable",
+            "selection": null
+          },
+          {
+            "phase": "evening",
+            "state": "content_unavailable",
+            "selection": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "library-revision-mismatch",
+      "operation": "archive",
+      "input": {
+        "date": "2030-01-07"
+      },
+      "synthetic_setup": true,
+      "payload_mutations": [],
+      "context_mutations": [
+        {
+          "path": [
+            "archiveContexts",
+            0,
+            "library",
+            "revision"
+          ],
+          "value": 99
+        }
+      ],
+      "expected": {
+        "eligible": true,
+        "reason": null,
+        "date": "2030-01-07",
+        "state": "content_unavailable",
+        "correction_id": null,
+        "phases": [
+          {
+            "phase": "morning",
+            "state": "content_unavailable",
+            "selection": null
+          },
+          {
+            "phase": "noon",
+            "state": "content_unavailable",
+            "selection": null
+          },
+          {
+            "phase": "evening",
+            "state": "content_unavailable",
+            "selection": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "library-manifest_sha256-mismatch",
+      "operation": "archive",
+      "input": {
+        "date": "2030-01-07"
+      },
+      "synthetic_setup": true,
+      "payload_mutations": [],
+      "context_mutations": [
+        {
+          "path": [
+            "archiveContexts",
+            0,
+            "library",
+            "manifest_sha256"
+          ],
+          "value": "0000000000000000000000000000000000000000000000000000000000000000"
+        }
+      ],
+      "expected": {
+        "eligible": true,
+        "reason": null,
+        "date": "2030-01-07",
+        "state": "content_unavailable",
+        "correction_id": null,
+        "phases": [
+          {
+            "phase": "morning",
+            "state": "content_unavailable",
+            "selection": null
+          },
+          {
+            "phase": "noon",
+            "state": "content_unavailable",
+            "selection": null
+          },
+          {
+            "phase": "evening",
+            "state": "content_unavailable",
+            "selection": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "cycles-version-mismatch",
+      "operation": "archive",
+      "input": {
+        "date": "2030-01-07"
+      },
+      "synthetic_setup": true,
+      "payload_mutations": [],
+      "context_mutations": [
+        {
+          "path": [
+            "archiveContexts",
+            0,
+            "cycles",
+            "version"
+          ],
+          "value": "latest-version"
+        }
+      ],
+      "expected": {
+        "eligible": true,
+        "reason": null,
+        "date": "2030-01-07",
+        "state": "content_unavailable",
+        "correction_id": null,
+        "phases": [
+          {
+            "phase": "morning",
+            "state": "content_unavailable",
+            "selection": null
+          },
+          {
+            "phase": "noon",
+            "state": "content_unavailable",
+            "selection": null
+          },
+          {
+            "phase": "evening",
+            "state": "content_unavailable",
+            "selection": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "cycles-revision-mismatch",
+      "operation": "archive",
+      "input": {
+        "date": "2030-01-07"
+      },
+      "synthetic_setup": true,
+      "payload_mutations": [],
+      "context_mutations": [
+        {
+          "path": [
+            "archiveContexts",
+            0,
+            "cycles",
+            "revision"
+          ],
+          "value": 99
+        }
+      ],
+      "expected": {
+        "eligible": true,
+        "reason": null,
+        "date": "2030-01-07",
+        "state": "content_unavailable",
+        "correction_id": null,
+        "phases": [
+          {
+            "phase": "morning",
+            "state": "content_unavailable",
+            "selection": null
+          },
+          {
+            "phase": "noon",
+            "state": "content_unavailable",
+            "selection": null
+          },
+          {
+            "phase": "evening",
+            "state": "content_unavailable",
+            "selection": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "cycles-manifest_sha256-mismatch",
+      "operation": "archive",
+      "input": {
+        "date": "2030-01-07"
+      },
+      "synthetic_setup": true,
+      "payload_mutations": [],
+      "context_mutations": [
+        {
+          "path": [
+            "archiveContexts",
+            0,
+            "cycles",
+            "manifest_sha256"
+          ],
+          "value": "0000000000000000000000000000000000000000000000000000000000000000"
+        }
+      ],
+      "expected": {
+        "eligible": true,
+        "reason": null,
+        "date": "2030-01-07",
+        "state": "content_unavailable",
+        "correction_id": null,
+        "phases": [
+          {
+            "phase": "morning",
+            "state": "content_unavailable",
+            "selection": null
+          },
+          {
+            "phase": "noon",
+            "state": "content_unavailable",
+            "selection": null
+          },
+          {
+            "phase": "evening",
+            "state": "content_unavailable",
+            "selection": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "unknown-policy-not-recomputed",
+      "operation": "archive",
+      "input": {
+        "date": "2030-01-07"
+      },
+      "synthetic_setup": true,
+      "payload_mutations": [
+        {
+          "path": [
+            "archive_bindings",
+            0,
+            "policy_id"
+          ],
+          "value": "future-policy"
+        }
+      ],
+      "context_mutations": [],
+      "expected": {
+        "eligible": true,
+        "reason": null,
+        "date": "2030-01-07",
+        "state": "content_unavailable",
+        "correction_id": null,
+        "phases": [
+          {
+            "phase": "morning",
+            "state": "content_unavailable",
+            "selection": null
+          },
+          {
+            "phase": "noon",
+            "state": "content_unavailable",
+            "selection": null
+          },
+          {
+            "phase": "evening",
+            "state": "content_unavailable",
+            "selection": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "unknown-policy-version",
+      "operation": "archive",
+      "input": {
+        "date": "2030-01-07"
+      },
+      "synthetic_setup": true,
+      "payload_mutations": [
+        {
+          "path": [
+            "archive_bindings",
+            0,
+            "policy_version"
+          ],
+          "value": 2
+        }
+      ],
+      "context_mutations": [],
+      "expected": {
+        "eligible": true,
+        "reason": null,
+        "date": "2030-01-07",
+        "state": "content_unavailable",
+        "correction_id": null,
+        "phases": [
+          {
+            "phase": "morning",
+            "state": "content_unavailable",
+            "selection": null
+          },
+          {
+            "phase": "noon",
+            "state": "content_unavailable",
+            "selection": null
+          },
+          {
+            "phase": "evening",
+            "state": "content_unavailable",
+            "selection": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "missing-cycle-day",
+      "operation": "archive",
+      "input": {
+        "date": "2030-01-07"
+      },
+      "synthetic_setup": true,
+      "payload_mutations": [],
+      "context_mutations": [
+        {
+          "path": [
+            "archiveContexts",
+            0,
+            "cycles",
+            "days"
+          ],
+          "value": []
+        }
+      ],
+      "expected": {
+        "eligible": true,
+        "reason": null,
+        "date": "2030-01-07",
+        "state": "content_unavailable",
+        "correction_id": null,
+        "phases": [
+          {
+            "phase": "morning",
+            "state": "content_unavailable",
+            "selection": null
+          },
+          {
+            "phase": "noon",
+            "state": "content_unavailable",
+            "selection": null
+          },
+          {
+            "phase": "evening",
+            "state": "content_unavailable",
+            "selection": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "missing-slot",
+      "operation": "archive",
+      "input": {
+        "date": "2030-01-07"
+      },
+      "synthetic_setup": true,
+      "payload_mutations": [],
+      "context_mutations": [
+        {
+          "path": [
+            "archiveContexts",
+            0,
+            "cycles",
+            "days",
+            0,
+            "slots"
+          ],
+          "value": []
+        }
+      ],
+      "expected": {
+        "eligible": true,
+        "reason": null,
+        "date": "2030-01-07",
+        "state": "content_unavailable",
+        "correction_id": null,
+        "phases": [
+          {
+            "phase": "morning",
+            "state": "content_unavailable",
+            "selection": null
+          },
+          {
+            "phase": "noon",
+            "state": "content_unavailable",
+            "selection": null
+          },
+          {
+            "phase": "evening",
+            "state": "content_unavailable",
+            "selection": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "forged-slot-reference",
+      "operation": "archive",
+      "input": {
+        "date": "2030-01-07"
+      },
+      "synthetic_setup": true,
+      "payload_mutations": [
+        {
+          "path": [
+            "archive_days",
+            0,
+            "phases",
+            0,
+            "slot_id"
+          ],
+          "value": "forged-slot"
+        }
+      ],
+      "context_mutations": [],
+      "expected": {
+        "eligible": true,
+        "reason": null,
+        "date": "2030-01-07",
+        "state": "available",
+        "correction_id": null,
+        "phases": [
+          {
+            "phase": "morning",
+            "state": "content_unavailable",
+            "selection": null
+          },
+          {
+            "phase": "noon",
+            "state": "available",
+            "selection": {
+              "cycle_day_id": "test-cycle-day-1",
+              "slot_id": "test-slot-noon",
+              "psalm_id": "psalm-2",
+              "verse_numbers": [
+                1,
+                2
+              ],
+              "prayer_id": "test-prayer-2",
+              "policy_id": "calendar-week-v1",
+              "policy_version": 1,
+              "library_binding": {
+                "module_id": "test-reading-library",
+                "version": "2030.1.0",
+                "revision": 1,
+                "manifest_sha256": "cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc"
+              },
+              "cycles_binding": {
+                "module_id": "test-reading-cycles",
+                "version": "2030.1.0",
+                "revision": 2,
+                "manifest_sha256": "dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd"
+              },
+              "generation": {
+                "id": "test-only-browser-generation",
+                "sequence": 10,
+                "decision_sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+              }
+            }
+          },
+          {
+            "phase": "evening",
+            "state": "available",
+            "selection": {
+              "cycle_day_id": "test-cycle-day-1",
+              "slot_id": "test-slot-evening",
+              "psalm_id": "psalm-3",
+              "verse_numbers": [
+                1,
+                2
+              ],
+              "prayer_id": "test-prayer-3",
+              "policy_id": "calendar-week-v1",
+              "policy_version": 1,
+              "library_binding": {
+                "module_id": "test-reading-library",
+                "version": "2030.1.0",
+                "revision": 1,
+                "manifest_sha256": "cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc"
+              },
+              "cycles_binding": {
+                "module_id": "test-reading-cycles",
+                "version": "2030.1.0",
+                "revision": 2,
+                "manifest_sha256": "dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd"
+              },
+              "generation": {
+                "id": "test-only-browser-generation",
+                "sequence": 10,
+                "decision_sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "forged-prayer-reference",
+      "operation": "archive",
+      "input": {
+        "date": "2030-01-07"
+      },
+      "synthetic_setup": true,
+      "payload_mutations": [
+        {
+          "path": [
+            "archive_days",
+            0,
+            "phases",
+            0,
+            "prayer_id"
+          ],
+          "value": "forged-prayer"
+        }
+      ],
+      "context_mutations": [],
+      "expected": {
+        "eligible": true,
+        "reason": null,
+        "date": "2030-01-07",
+        "state": "available",
+        "correction_id": null,
+        "phases": [
+          {
+            "phase": "morning",
+            "state": "content_unavailable",
+            "selection": null
+          },
+          {
+            "phase": "noon",
+            "state": "available",
+            "selection": {
+              "cycle_day_id": "test-cycle-day-1",
+              "slot_id": "test-slot-noon",
+              "psalm_id": "psalm-2",
+              "verse_numbers": [
+                1,
+                2
+              ],
+              "prayer_id": "test-prayer-2",
+              "policy_id": "calendar-week-v1",
+              "policy_version": 1,
+              "library_binding": {
+                "module_id": "test-reading-library",
+                "version": "2030.1.0",
+                "revision": 1,
+                "manifest_sha256": "cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc"
+              },
+              "cycles_binding": {
+                "module_id": "test-reading-cycles",
+                "version": "2030.1.0",
+                "revision": 2,
+                "manifest_sha256": "dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd"
+              },
+              "generation": {
+                "id": "test-only-browser-generation",
+                "sequence": 10,
+                "decision_sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+              }
+            }
+          },
+          {
+            "phase": "evening",
+            "state": "available",
+            "selection": {
+              "cycle_day_id": "test-cycle-day-1",
+              "slot_id": "test-slot-evening",
+              "psalm_id": "psalm-3",
+              "verse_numbers": [
+                1,
+                2
+              ],
+              "prayer_id": "test-prayer-3",
+              "policy_id": "calendar-week-v1",
+              "policy_version": 1,
+              "library_binding": {
+                "module_id": "test-reading-library",
+                "version": "2030.1.0",
+                "revision": 1,
+                "manifest_sha256": "cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc"
+              },
+              "cycles_binding": {
+                "module_id": "test-reading-cycles",
+                "version": "2030.1.0",
+                "revision": 2,
+                "manifest_sha256": "dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd"
+              },
+              "generation": {
+                "id": "test-only-browser-generation",
+                "sequence": 10,
+                "decision_sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "forged-verse-reference",
+      "operation": "archive",
+      "input": {
+        "date": "2030-01-07"
+      },
+      "synthetic_setup": true,
+      "payload_mutations": [
+        {
+          "path": [
+            "archive_days",
+            0,
+            "phases",
+            0,
+            "verse_numbers"
+          ],
+          "value": [
+            1,
+            3
+          ]
+        }
+      ],
+      "context_mutations": [],
+      "expected": {
+        "eligible": true,
+        "reason": null,
+        "date": "2030-01-07",
+        "state": "available",
+        "correction_id": null,
+        "phases": [
+          {
+            "phase": "morning",
+            "state": "content_unavailable",
+            "selection": null
+          },
+          {
+            "phase": "noon",
+            "state": "available",
+            "selection": {
+              "cycle_day_id": "test-cycle-day-1",
+              "slot_id": "test-slot-noon",
+              "psalm_id": "psalm-2",
+              "verse_numbers": [
+                1,
+                2
+              ],
+              "prayer_id": "test-prayer-2",
+              "policy_id": "calendar-week-v1",
+              "policy_version": 1,
+              "library_binding": {
+                "module_id": "test-reading-library",
+                "version": "2030.1.0",
+                "revision": 1,
+                "manifest_sha256": "cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc"
+              },
+              "cycles_binding": {
+                "module_id": "test-reading-cycles",
+                "version": "2030.1.0",
+                "revision": 2,
+                "manifest_sha256": "dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd"
+              },
+              "generation": {
+                "id": "test-only-browser-generation",
+                "sequence": 10,
+                "decision_sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+              }
+            }
+          },
+          {
+            "phase": "evening",
+            "state": "available",
+            "selection": {
+              "cycle_day_id": "test-cycle-day-1",
+              "slot_id": "test-slot-evening",
+              "psalm_id": "psalm-3",
+              "verse_numbers": [
+                1,
+                2
+              ],
+              "prayer_id": "test-prayer-3",
+              "policy_id": "calendar-week-v1",
+              "policy_version": 1,
+              "library_binding": {
+                "module_id": "test-reading-library",
+                "version": "2030.1.0",
+                "revision": 1,
+                "manifest_sha256": "cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc"
+              },
+              "cycles_binding": {
+                "module_id": "test-reading-cycles",
+                "version": "2030.1.0",
+                "revision": 2,
+                "manifest_sha256": "dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd"
+              },
+              "generation": {
+                "id": "test-only-browser-generation",
+                "sequence": 10,
+                "decision_sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "missing-library-psalm",
+      "operation": "archive",
+      "input": {
+        "date": "2030-01-07"
+      },
+      "synthetic_setup": true,
+      "payload_mutations": [],
+      "context_mutations": [
+        {
+          "path": [
+            "archiveContexts",
+            0,
+            "library",
+            "psalms"
+          ],
+          "value": []
+        }
+      ],
+      "expected": {
+        "eligible": true,
+        "reason": null,
+        "date": "2030-01-07",
+        "state": "content_unavailable",
+        "correction_id": null,
+        "phases": [
+          {
+            "phase": "morning",
+            "state": "content_unavailable",
+            "selection": null
+          },
+          {
+            "phase": "noon",
+            "state": "content_unavailable",
+            "selection": null
+          },
+          {
+            "phase": "evening",
+            "state": "content_unavailable",
+            "selection": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "missing-library-prayer",
+      "operation": "archive",
+      "input": {
+        "date": "2030-01-07"
+      },
+      "synthetic_setup": true,
+      "payload_mutations": [],
+      "context_mutations": [
+        {
+          "path": [
+            "archiveContexts",
+            0,
+            "library",
+            "prayer_ids"
+          ],
+          "value": []
+        }
+      ],
+      "expected": {
+        "eligible": true,
+        "reason": null,
+        "date": "2030-01-07",
+        "state": "content_unavailable",
+        "correction_id": null,
+        "phases": [
+          {
+            "phase": "morning",
+            "state": "content_unavailable",
+            "selection": null
+          },
+          {
+            "phase": "noon",
+            "state": "content_unavailable",
+            "selection": null
+          },
+          {
+            "phase": "evening",
+            "state": "content_unavailable",
+            "selection": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "missing-library-verse",
+      "operation": "archive",
+      "input": {
+        "date": "2030-01-07"
+      },
+      "synthetic_setup": true,
+      "payload_mutations": [],
+      "context_mutations": [
+        {
+          "path": [
+            "archiveContexts",
+            0,
+            "library",
+            "psalms",
+            0,
+            "verse_numbers"
+          ],
+          "value": [
+            1
+          ]
+        }
+      ],
+      "expected": {
+        "eligible": true,
+        "reason": null,
+        "date": "2030-01-07",
+        "state": "available",
+        "correction_id": null,
+        "phases": [
+          {
+            "phase": "morning",
+            "state": "content_unavailable",
+            "selection": null
+          },
+          {
+            "phase": "noon",
+            "state": "available",
+            "selection": {
+              "cycle_day_id": "test-cycle-day-1",
+              "slot_id": "test-slot-noon",
+              "psalm_id": "psalm-2",
+              "verse_numbers": [
+                1,
+                2
+              ],
+              "prayer_id": "test-prayer-2",
+              "policy_id": "calendar-week-v1",
+              "policy_version": 1,
+              "library_binding": {
+                "module_id": "test-reading-library",
+                "version": "2030.1.0",
+                "revision": 1,
+                "manifest_sha256": "cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc"
+              },
+              "cycles_binding": {
+                "module_id": "test-reading-cycles",
+                "version": "2030.1.0",
+                "revision": 2,
+                "manifest_sha256": "dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd"
+              },
+              "generation": {
+                "id": "test-only-browser-generation",
+                "sequence": 10,
+                "decision_sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+              }
+            }
+          },
+          {
+            "phase": "evening",
+            "state": "available",
+            "selection": {
+              "cycle_day_id": "test-cycle-day-1",
+              "slot_id": "test-slot-evening",
+              "psalm_id": "psalm-3",
+              "verse_numbers": [
+                1,
+                2
+              ],
+              "prayer_id": "test-prayer-3",
+              "policy_id": "calendar-week-v1",
+              "policy_version": 1,
+              "library_binding": {
+                "module_id": "test-reading-library",
+                "version": "2030.1.0",
+                "revision": 1,
+                "manifest_sha256": "cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc"
+              },
+              "cycles_binding": {
+                "module_id": "test-reading-cycles",
+                "version": "2030.1.0",
+                "revision": 2,
+                "manifest_sha256": "dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd"
+              },
+              "generation": {
+                "id": "test-only-browser-generation",
+                "sequence": 10,
+                "decision_sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "duplicate-verse-invalid",
+      "operation": "evaluate",
+      "input": {},
+      "synthetic_setup": true,
+      "payload_mutations": [
+        {
+          "path": [
+            "archive_days",
+            0,
+            "phases",
+            0,
+            "verse_numbers"
+          ],
+          "value": [
+            1,
+            1
+          ]
+        }
+      ],
+      "context_mutations": [],
+      "expected": {
+        "eligible": false,
+        "reason": "malformed"
+      }
+    },
+    {
+      "id": "reordered-verse-invalid",
+      "operation": "evaluate",
+      "input": {},
+      "synthetic_setup": true,
+      "payload_mutations": [
+        {
+          "path": [
+            "archive_days",
+            0,
+            "phases",
+            0,
+            "verse_numbers"
+          ],
+          "value": [
+            2,
+            1
+          ]
+        }
+      ],
+      "context_mutations": [],
+      "expected": {
+        "eligible": false,
+        "reason": "malformed"
+      }
+    },
+    {
+      "id": "invalid-psalm-number",
+      "operation": "evaluate",
+      "input": {},
+      "synthetic_setup": true,
+      "payload_mutations": [
+        {
+          "path": [
+            "archive_days",
+            0,
+            "phases",
+            0,
+            "psalm_id"
+          ],
+          "value": "psalm-151"
+        }
+      ],
+      "context_mutations": [],
+      "expected": {
+        "eligible": false,
+        "reason": "malformed"
+      }
+    },
+    {
+      "id": "invalid-stored-date",
+      "operation": "evaluate",
+      "input": {},
+      "synthetic_setup": true,
+      "payload_mutations": [
+        {
+          "path": [
+            "archive_days",
+            1,
+            "date"
+          ],
+          "value": "2030-02-29"
+        }
+      ],
+      "context_mutations": [],
+      "expected": {
+        "eligible": false,
+        "reason": "malformed"
+      }
+    },
+    {
+      "id": "duplicate-date-invalid",
+      "operation": "evaluate",
+      "input": {},
+      "synthetic_setup": true,
+      "payload_mutations": [
+        {
+          "path": [
+            "archive_days",
+            1,
+            "date"
+          ],
+          "value": "2030-01-07"
+        }
+      ],
+      "context_mutations": [],
+      "expected": {
+        "eligible": false,
+        "reason": "malformed"
+      }
+    },
+    {
+      "id": "duplicate-phase-invalid",
+      "operation": "evaluate",
+      "input": {},
+      "synthetic_setup": true,
+      "payload_mutations": [
+        {
+          "path": [
+            "archive_days",
+            0,
+            "phases",
+            1,
+            "phase"
+          ],
+          "value": "morning"
+        }
+      ],
+      "context_mutations": [],
+      "expected": {
+        "eligible": false,
+        "reason": "malformed"
+      }
+    },
+    {
+      "id": "unknown-archive-binding",
+      "operation": "evaluate",
+      "input": {},
+      "synthetic_setup": true,
+      "payload_mutations": [
+        {
+          "path": [
+            "archive_days",
+            0,
+            "binding_id"
+          ],
+          "value": "missing-binding"
+        }
+      ],
+      "context_mutations": [],
+      "expected": {
+        "eligible": false,
+        "reason": "malformed"
+      }
+    },
+    {
+      "id": "withdrawn-retaining-text-invalid",
+      "operation": "evaluate",
+      "input": {},
+      "synthetic_setup": true,
+      "payload_mutations": [
+        {
+          "path": [
+            "archive_days",
+            0,
+            "status"
+          ],
+          "value": "withdrawn"
+        }
+      ],
+      "context_mutations": [],
+      "expected": {
+        "eligible": false,
+        "reason": "malformed"
+      }
+    },
+    {
+      "id": "start-without-record-invalid",
+      "operation": "evaluate",
+      "input": {},
+      "synthetic_setup": true,
+      "payload_mutations": [
+        {
+          "path": [
+            "archive_start_date"
+          ],
+          "value": "2030-01-06"
+        }
+      ],
+      "context_mutations": [],
+      "expected": {
+        "eligible": false,
+        "reason": "malformed"
+      }
+    },
+    {
+      "id": "no-start-with-rows-invalid",
+      "operation": "evaluate",
+      "input": {},
+      "synthetic_setup": true,
+      "payload_mutations": [
+        {
+          "path": [
+            "archive_start_date"
+          ],
+          "value": null
+        }
+      ],
+      "context_mutations": [],
+      "expected": {
+        "eligible": false,
+        "reason": "malformed"
+      }
+    },
+    {
+      "id": "catalog-null-with-membership-invalid",
+      "operation": "evaluate",
+      "input": {},
+      "synthetic_setup": true,
+      "payload_mutations": [
+        {
+          "path": [
+            "catalog_binding"
+          ],
+          "value": null
+        }
+      ],
+      "context_mutations": [],
+      "expected": {
+        "eligible": false,
+        "reason": "malformed"
+      }
+    }
+  ]
+}

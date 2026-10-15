@@ -1,0 +1,112 @@
+[
+  {
+    "path": "approvals/saints104-2026-10-06/owner-publication-approval.json",
+    "bytes": 2410,
+    "sha256": "3cd32c026190cbf30054f52d0ff742cf2d1bc53b7013348cbe662e1325902629"
+  },
+  {
+    "path": "drafts/saints-year-end-block1-2026-10-06/delta.json",
+    "bytes": 67743,
+    "sha256": "f929151078bf1a99e392dcd786cbdde3142ddd34aa5929828c524d31a9b537e3"
+  },
+  {
+    "path": "drafts/saints-year-end-block1-2026-10-06/handoff.json",
+    "bytes": 2259,
+    "sha256": "13e19c3406397d5bf30ab0e03c8e060d4ae8fafd1be38583b76dc18615777ca1"
+  },
+  {
+    "path": "drafts/saints-year-end-block1-2026-10-06/manuscript.mjs",
+    "bytes": 40401,
+    "sha256": "402ea6e792b88630baa2dde31a40ef9d4eccd36afff68d6ef384cfc7f8ad9f33"
+  },
+  {
+    "path": "drafts/saints-year-end-block1-2026-10-06/master.json",
+    "bytes": 134635,
+    "sha256": "167eb762f87a3d1dbfd5623b32197d5af683e7ed01fbc8f2948499ceca7dae6b"
+  },
+  {
+    "path": "drafts/saints-year-end-block1-2026-10-06/prepare.mjs",
+    "bytes": 17489,
+    "sha256": "713a423c3b205bb616b4300d2c0e04a8bc80094b47f44b19643a0d89d728ec0c"
+  },
+  {
+    "path": "drafts/saints-year-end-block1-2026-10-06/root-content-review-r1.json",
+    "bytes": 12405,
+    "sha256": "fca2e8103967821944300eb2da9718407cda2dd706541e5832b384238725ee84"
+  },
+  {
+    "path": "drafts/saints-year-end-block1-2026-10-06/sources.json",
+    "bytes": 15683,
+    "sha256": "b1d2b2a701ba1adda3f9451785e108b10c98be69b12a03e67d91cca680b877d2"
+  },
+  {
+    "path": "drafts/saints-year-end-block1-2026-10-06/validation.json",
+    "bytes": 4495,
+    "sha256": "efa2bd87ec4724e128e0ee4630660d2d90e9e4dd7b98a127107d617c87d757e2"
+  },
+  {
+    "path": "drafts/saints-year-end-block1-2026-10-06/verify.mjs",
+    "bytes": 10196,
+    "sha256": "74db010322e12a14323699ce98c5f8c9099db3e3e8ef7085f6c7c37a39a0aed6"
+  },
+  {
+    "path": "drafts/saints-year-end-block2-2026-10-06/delta.json",
+    "bytes": 79173,
+    "sha256": "c4f563433a916885f6c730d873f32cc76730a18226649bb612dff1865480b4e4"
+  },
+  {
+    "path": "drafts/saints-year-end-block2-2026-10-06/handoff.json",
+    "bytes": 2603,
+    "sha256": "54bb0a1475199c0aa0884c7a32409ca0aef9033967d4055c14717751b5f1cc8d"
+  },
+  {
+    "path": "drafts/saints-year-end-block2-2026-10-06/manuscript.mjs",
+    "bytes": 41703,
+    "sha256": "098ce6a584e45c0bb9ea2e6ee7c9445839be141f85d054bdf4deb4c72a62769e"
+  },
+  {
+    "path": "drafts/saints-year-end-block2-2026-10-06/master.json",
+    "bytes": 130925,
+    "sha256": "4f0373511527c47876cb50fd390b47f9159842cad2776a1436ab13b528aa495e"
+  },
+  {
+    "path": "drafts/saints-year-end-block2-2026-10-06/prepare.mjs",
+    "bytes": 17691,
+    "sha256": "25a72a03e7f8e84b70a73ddd62a6e3594e1b71e4f4605f385eecb3e7254bd2c4"
+  },
+  {
+    "path": "drafts/saints-year-end-block2-2026-10-06/root-content-review-r1.json",
+    "bytes": 11844,
+    "sha256": "15c0fe1a6326357472bd4adc91070dd64e9429b0071a056a211995ad40da36d5"
+  },
+  {
+    "path": "drafts/saints-year-end-block2-2026-10-06/sources.json",
+    "bytes": 13417,
+    "sha256": "e13a6e416bd6701aab3eff13a2f927c3f39eea0e4a27cc287ae3964d20f29a47"
+  },
+  {
+    "path": "drafts/saints-year-end-block2-2026-10-06/validation.json",
+    "bytes": 5586,
+    "sha256": "33f649afdfae34bc2b15d9223fc4d403bce18686aa26648bd1f55056dd6b0a61"
+  },
+  {
+    "path": "drafts/saints-year-end-block2-2026-10-06/verify.mjs",
+    "bytes": 11003,
+    "sha256": "bd8ea5ccb9bffc28dc546253368068707241cd7d14f6c50e6968ea71448f43ea"
+  },
+  {
+    "path": "drafts/saints-year-end-review-2026-10-06/approval-request.json",
+    "bytes": 1542,
+    "sha256": "43fa632cb4b679b2ed8d6202899cdb5e401218ebe332ec9882474365bf42ee87"
+  },
+  {
+    "path": "drafts/saints-year-end-review-2026-10-06/PREGLED-CIRILICA.md",
+    "bytes": 71236,
+    "sha256": "5648b6bdfe3a886c80ff19ffe25b96604b4675a1aa6aabd2628921d6e6ef890b"
+  },
+  {
+    "path": "drafts/saints-year-end-review-2026-10-06/PREGLED-LATINICA.md",
+    "bytes": 43588,
+    "sha256": "92c600ccc4c0a8db41ccf78a02b6ce8f3ac34925a62754ad89da2127c7b44a6e"
+  }
+]

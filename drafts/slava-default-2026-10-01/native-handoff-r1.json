@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "assetId": "slava-default",
+  "scope": "Local bundled integration and native preview QA only; no release or public distribution",
+  "approval": "owner-approval-r1.json",
+  "original": {
+    "path": "slava-default-candidate-r1.png",
+    "sha256": "87ce4958b5cc3e3157f02d8be930272979b64cae76b33aa3fd55db370438b9c7",
+    "bytes": 2200011,
+    "width": 941,
+    "height": 1672
+  },
+  "renditionManifest": "native-renditions/manifest.json",
+  "renditionManifestSha256": "11c5b8af1b085524d2d5d7deeef95a954ada05b16cdb4dfd9f75c355fb7aa023",
+  "gallerySmallSha256": "8fc65811578c7ea27b1755fb8a31d6fac41467c78d194d7210a3842db6a3205a",
+  "previewLargeSha256": "48d62ecbdf8c1ec46e3de23b1eb917ad7098b7f1006fb2007e01ea99b8e87f1f",
+  "validation": {
+    "existingMechanicalPipelineBuild": "PASS",
+    "existingMechanicalPipelineCheck": "PASS",
+    "originalAndHistoricalRecordHashesPreserved": true,
+    "rootPreviewLargeVisualInspection": "PASS: complete composition, no distortion or rendered text; not native UI QA",
+    "nativeUiQa": "PENDING"
+  },
+  "constraints": [
+    "Import identical original and rendition bytes on Android and iOS; do not independently re-encode",
+    "Not an eighth daily rotation item; no saint identity, date, or new automatic membership",
+    "Use existing exact canonical Slava resolver and preserve today/fixed priority",
+    "Gallery uses small rendition; large/native surfaces use appropriate bounded image; export uses original",
+    "Preserve user preferences, legacy round-trip fields and paused OTA work",
+    "No OS wallpaper/Shortcuts application, capability switch, version bump, signing, site/content publication or physical installation"
+  ],
+  "distributionGate": {
+    "readyForPublicDistribution": false,
+    "reason": "Separate account-holder/service-basis factual question remains unanswered; pipeline candidate group is not a publication permission"
+  }
+}

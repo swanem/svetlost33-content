@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "status": "draft-awaiting-exact-image-review",
+  "assetId": "slava-default",
+  "productRequirement": "SPECIFIKACIJA.md BG-03 / SL-01 v0.30",
+  "createdAt": "2026-10-01T12:33:00Z",
+  "title": {
+    "sr-Latn": "Krsna slava",
+    "sr-Cyrl": "Крсна слава"
+  },
+  "file": "slava-default-candidate-r1.png",
+  "sha256": "87ce4958b5cc3e3157f02d8be930272979b64cae76b33aa3fd55db370438b9c7",
+  "byteLength": 2200011,
+  "mimeType": "image/png",
+  "width": 941,
+  "height": 1672,
+  "provenance": {
+    "method": "built-in image_gen, text-only generation",
+    "prompt": "Use case: photorealistic-natural. Asset type: one vertical smartphone background candidate for the Serbian Orthodox daily-content app Svetlost33. Primary request: a restrained, dignified universal Serbian family Krsna Slava motif usable for any patron saint. Scene: a simple linen-covered wooden table in a quiet warm home. Subject: one traditional round slavski kolac ceremonial bread with modest braided dough decoration, a small bowl of finely prepared wheat koljivo/zito with walnuts, and one tall lit beeswax candle in a plain holder. No people, no saint-specific portrait, no Christmas badnjak, no flags, no logos, no lettering, no watermark. Natural photographic textures, gentle window light and soft candlelight, subtle warm cream and earthy wood colors, peaceful not festive-commercial. Portrait near 9:16 framing, composition centered and safe for modest widget crops: bread and wheat bowl in lower half, candle visible toward the middle-right, calm subdued uncluttered background in upper half leaving readable negative space for app text. No text is to be rendered into the artwork. Do not create a UI mockup or frame; return only the full-bleed photographic artwork.",
+    "referenceImages": [],
+    "generatedFile": "/Users/nemanjaveselic/.codex/generated_images/01a06b7f-775f-7d03-82b5-c2b416ade556/exec-919428c9-2e3a-43e3-b8d3-e776b15a27ef.png",
+    "licenseAssertion": null,
+    "notes": "No CC0/public-domain assertion or independent legal guarantee. Separate from earlier seven draft images. Account/service-basis review remains separate from image approval."
+  },
+  "visualReview": {
+    "inspectedBy": "root",
+    "result": "candidate-for-user-review",
+    "observations": [
+      "Slava bread, wheat bowl, lit candle; vertical warm photographic-style scene.",
+      "No rendered label or watermark; background includes a blurred partial religious icon, not assigned to a patron saint.",
+      "No real app/widget contrast or crop QA performed; screenshot of standalone image is not app QA."
+    ]
+  },
+  "editorialApproval": null,
+  "distributionApproval": null,
+  "readyForDistribution": false,
+  "defaultRotationMembership": false,
+  "saintId": null,
+  "observanceId": null,
+  "calendarDates": [],
+  "previewRenditions": [],
+  "specSha256": "8d6be3f011fcb7381d7cda7096bfd94359a496cab46d510ac229abd5b7b3cc20"
+}

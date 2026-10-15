@@ -1,0 +1,52 @@
+{
+  "schema_version": 1,
+  "status": "PUBLIC_CONTENT_S14_VERIFIED",
+  "recorded_at_utc": "2026-10-07 05:41:59 UTC",
+  "repository": "swanem/svetlost33-content",
+  "branch": "main",
+  "parent": "0cbc5e31100c3a66830f1fd6e3d0a08a489dcb8b",
+  "commit": "3fb47de22d7830c5c488c9ef4785047a666ddaa0",
+  "tree": "2cbe956f2f6babf4a7d76a0958f12ea270dda9e8",
+  "expected_head_lease": true,
+  "force": false,
+  "allowed_paths": [
+    "releases/v2/production/discovery-archive/shared-saints104-2026-10-06-m0v2-s13/index.json",
+    "releases/v2/production/discovery-archive/shared-saints104-2026-10-06-m0v2-s13/index.sig",
+    "releases/v2/production/index.json",
+    "releases/v2/production/index.sig",
+    "releases/v2/production/releases/shared-calendar-gospel-2026-10-06-m0v2-s14/modules/calendar-2026-r1-2026.10.6-r3/data/calendar.2026.json",
+    "releases/v2/production/releases/shared-calendar-gospel-2026-10-06-m0v2-s14/modules/calendar-2026-r1-2026.10.6-r3/manifest.json",
+    "releases/v2/production/releases/shared-calendar-gospel-2026-10-06-m0v2-s14/modules/calendar-2026-r1-2026.10.6-r3/manifest.sig",
+    "releases/v2/production/releases/shared-calendar-gospel-2026-10-06-m0v2-s14/modules/calendar-browser-v1-2026.10.6-r5/data/calendar-browser-v1.json",
+    "releases/v2/production/releases/shared-calendar-gospel-2026-10-06-m0v2-s14/modules/calendar-browser-v1-2026.10.6-r5/manifest.json",
+    "releases/v2/production/releases/shared-calendar-gospel-2026-10-06-m0v2-s14/modules/calendar-browser-v1-2026.10.6-r5/manifest.sig",
+    "releases/v2/production/releases/shared-calendar-gospel-2026-10-06-m0v2-s14/modules/liturgical-catalog-v1-2026.10.6-r9/data/liturgical-catalog-v1.json",
+    "releases/v2/production/releases/shared-calendar-gospel-2026-10-06-m0v2-s14/modules/liturgical-catalog-v1-2026.10.6-r9/manifest.json",
+    "releases/v2/production/releases/shared-calendar-gospel-2026-10-06-m0v2-s14/modules/liturgical-catalog-v1-2026.10.6-r9/manifest.sig",
+    "releases/v2/production/releases/shared-calendar-gospel-2026-10-06-m0v2-s14/modules/saints-v1-2026.10.6-r6/data/saints-v1.json",
+    "releases/v2/production/releases/shared-calendar-gospel-2026-10-06-m0v2-s14/modules/saints-v1-2026.10.6-r6/manifest.json",
+    "releases/v2/production/releases/shared-calendar-gospel-2026-10-06-m0v2-s14/modules/saints-v1-2026.10.6-r6/manifest.sig",
+    "releases/v2/production/releases/shared-calendar-gospel-2026-10-06-m0v2-s14/release-set.json",
+    "releases/v2/production/releases/shared-calendar-gospel-2026-10-06-m0v2-s14/release-set.sig"
+  ],
+  "publication_go_sha256": "512361642537c1c79ff99bc782ecfe5ec0c5316a179fb357b99b027c0e1d8d36",
+  "public_readback": {
+    "receipt": "public-readback-s14.json",
+    "sha256": "b475632dce533016f87c18a44d66ab8649b5c3e94836700c47974c31237d303f",
+    "status": "PASS",
+    "files": 79,
+    "shared_rsa_profiles": 24,
+    "ordinary_https_gets": 81
+  },
+  "index_sha256": "3dfef0768a2862e4709276114dec8f5817189bd4b833192b33aa6b0e889d4f1b",
+  "release_sha256": "86f105fbb95e4188565415b3184e3f160fa36b8cbd4a2dcc5b891df6ad0c6025",
+  "native_activation_on_physical_devices_confirmed": false,
+  "android_artifact_unchanged": "0.22.3(66)",
+  "ios42_signed_ready_not_installed": true,
+  "minimum_clients": {
+    "android": 66,
+    "ios": "0.1.15"
+  },
+  "git_history_rewritten": false,
+  "no_private_or_test_files_published": true
+}

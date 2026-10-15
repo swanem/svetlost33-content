@@ -1,0 +1,45 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://svetlost33.rs/schemas/calendar-browser-v1.schema.json",
+  "title": "Optional reviewed calendar browser and public reading archive v1",
+  "type": "object", "additionalProperties": false,
+  "required": ["schema_version", "version", "revision", "review_status", "approval_id", "calendar_profile_id", "catalog_binding", "feast_memberships", "archive_start_date", "archive_bindings", "archive_days"],
+  "properties": {
+    "schema_version": {"const": "svetlost33-calendar-browser-1"},
+    "version": {"$ref": "#/$defs/id"}, "revision": {"$ref": "#/$defs/revision"},
+    "review_status": {"enum": ["pending", "approved", "rejected"]},
+    "approval_id": {"anyOf": [{"$ref": "#/$defs/id"}, {"type": "null"}]},
+    "calendar_profile_id": {"$ref": "#/$defs/id"},
+    "catalog_binding": {"anyOf": [{"$ref": "#/$defs/catalogBinding"}, {"type": "null"}]},
+    "feast_memberships": {"type": "array", "maxItems": 128, "items": {"$ref": "#/$defs/membership"}},
+    "archive_start_date": {"anyOf": [{"$ref": "#/$defs/date"}, {"type": "null"}]},
+    "archive_bindings": {"type": "array", "maxItems": 8, "items": {"$ref": "#/$defs/archiveBinding"}},
+    "archive_days": {"type": "array", "maxItems": 1464, "items": {"$ref": "#/$defs/archiveDay"}}
+  },
+  "$defs": {
+    "id": {"type": "string", "pattern": "^[a-z0-9][a-z0-9._-]{2,63}$"},
+    "revision": {"type": "integer", "minimum": 1, "maximum": 9007199254740991},
+    "date": {"type": "string", "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$"},
+    "hash": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+    "catalogBinding": {"type": "object", "additionalProperties": false, "required": ["module_id", "version", "revision", "path", "sha256"], "properties": {
+      "module_id": {"const": "liturgical-catalog-v1"}, "version": {"$ref": "#/$defs/id"}, "revision": {"$ref": "#/$defs/revision"}, "path": {"const": "data/liturgical-catalog-v1.json"}, "sha256": {"$ref": "#/$defs/hash"}
+    }},
+    "membership": {"type": "object", "additionalProperties": false, "required": ["observance_id", "occurrence_ids", "review_status", "source_ids"], "properties": {
+      "observance_id": {"$ref": "#/$defs/id"}, "occurrence_ids": {"type": "array", "minItems": 1, "maxItems": 16, "uniqueItems": true, "items": {"$ref": "#/$defs/id"}},
+      "review_status": {"enum": ["pending", "reviewed"]}, "source_ids": {"type": "array", "minItems": 1, "maxItems": 8, "uniqueItems": true, "items": {"$ref": "#/$defs/id"}}
+    }},
+    "manifestBinding": {"type": "object", "additionalProperties": false, "required": ["module_id", "version", "revision", "manifest_sha256"], "properties": {
+      "module_id": {"$ref": "#/$defs/id"}, "version": {"$ref": "#/$defs/id"}, "revision": {"$ref": "#/$defs/revision"}, "manifest_sha256": {"$ref": "#/$defs/hash"}
+    }},
+    "archiveBinding": {"type": "object", "additionalProperties": false, "required": ["id", "policy_id", "policy_version", "library_binding", "cycles_binding"], "properties": {
+      "id": {"$ref": "#/$defs/id"}, "policy_id": {"$ref": "#/$defs/id"}, "policy_version": {"$ref": "#/$defs/revision"}, "library_binding": {"$ref": "#/$defs/manifestBinding"}, "cycles_binding": {"$ref": "#/$defs/manifestBinding"}
+    }},
+    "phase": {"type": "object", "additionalProperties": false, "required": ["phase", "cycle_day_id", "slot_id", "psalm_id", "verse_numbers", "prayer_id"], "properties": {
+      "phase": {"enum": ["morning", "noon", "evening"]}, "cycle_day_id": {"$ref": "#/$defs/id"}, "slot_id": {"$ref": "#/$defs/id"}, "psalm_id": {"type": "string", "pattern": "^psalm-[1-9][0-9]{0,2}$"},
+      "verse_numbers": {"type": "array", "minItems": 1, "maxItems": 176, "uniqueItems": true, "items": {"type": "integer", "minimum": 1, "maximum": 176}}, "prayer_id": {"$ref": "#/$defs/id"}
+    }},
+    "archiveDay": {"type": "object", "additionalProperties": false, "required": ["date", "binding_id", "status", "correction_id", "phases"], "properties": {
+      "date": {"$ref": "#/$defs/date"}, "binding_id": {"$ref": "#/$defs/id"}, "status": {"enum": ["available", "corrected", "withdrawn"]}, "correction_id": {"anyOf": [{"$ref": "#/$defs/id"}, {"type": "null"}]}, "phases": {"type": "array", "maxItems": 3, "items": {"$ref": "#/$defs/phase"}}
+    }}
+  }
+}

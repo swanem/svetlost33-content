@@ -1,0 +1,124 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://svetlost33.invalid/drafts/initial19-export-input.schema.json",
+  "title": "Local M4 exact19 exporter input, not a wire/native schema",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "mode",
+    "source_inventory",
+    "expected_original_count",
+    "expected_original_bytes",
+    "local_wire_values",
+    "production_sequence",
+    "production_min_clients",
+    "production_capability_enabled",
+    "dependencies"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": "svetlost33-initial19-export-input-1"
+    },
+    "mode": {
+      "const": "LOCAL_UNSIGNED_ONLY"
+    },
+    "source_inventory": {
+      "const": {
+        "path": "svetlost33-content/drafts/ota-initial-19-2026-10-04/inventory.json",
+        "bytes": 82445,
+        "sha256": "fbe5e0c7a50124b79711cf7b7639928e31f7e4fdcafdacb6fc29bbe13b53ecd1"
+      }
+    },
+    "expected_original_count": {
+      "const": 19
+    },
+    "expected_original_bytes": {
+      "const": 48081295
+    },
+    "local_wire_values": {
+      "const": {
+        "catalog_media_version": "local-media19-m4-r1",
+        "policy_version": "local-policy19-m4-r1",
+        "revision": 1,
+        "synthetic_sequence": 1,
+        "key_id": "local-unsigned-review-key",
+        "approval_join_id": "local-approved19-evidence-join"
+      }
+    },
+    "production_sequence": {
+      "const": null
+    },
+    "production_min_clients": {
+      "const": null
+    },
+    "production_capability_enabled": {
+      "const": false
+    },
+    "dependencies": {
+      "const": [
+        {
+          "path": "svetlost33-github/docs/contracts/media-ota-v1-2026-09-30/wire/review-r2/reference-validator.mjs",
+          "bytes": 16141,
+          "sha256": "6a2409872efac830aea67df709c4ed3b535d9dcd8dca72fa56d601b086b41ca9"
+        },
+        {
+          "path": "svetlost33-github/docs/contracts/media-ota-v1-2026-09-30/wire/review-r2/image-structure.mjs",
+          "bytes": 3685,
+          "sha256": "4557d148da9e56d952ae0f9ed20a0982e692565e26c887fb3e7fe4b0542ad409"
+        },
+        {
+          "path": "svetlost33-github/docs/contracts/media-ota-v1-2026-09-30/wire/review-r2/schemas/catalog.schema.json",
+          "bytes": 6363,
+          "sha256": "d559bd2bffad4eb3049aa73d18247711fa1105f42abe71685f008cdc519f2f17"
+        },
+        {
+          "path": "svetlost33-github/docs/contracts/media-ota-v1-2026-09-30/wire/review-r2/schemas/policy.schema.json",
+          "bytes": 6699,
+          "sha256": "d6665bf82fd6094e0b3bc8d7a403113d01a8e2d5f0b4dc04dbf6f03eb974ea9b"
+        },
+        {
+          "path": "svetlost33-github/docs/contracts/media-ota-v1-2026-09-30/wire/review-r2/schemas/context.schema.json",
+          "bytes": 3669,
+          "sha256": "b61dc2f13f9ba44ed53ef6c48651f2c9c880749bccfaa25c7a32bd0f01e33398"
+        },
+        {
+          "path": "svetlost33-github/docs/contracts/media-ota-v1-2026-09-30/wire/review-r3/exporter.mjs",
+          "bytes": 18443,
+          "sha256": "5548051ca8428dba059411d5742b00a65aa742af6678bc2a5318300acf84e860"
+        },
+        {
+          "path": "svetlost33-github/docs/contracts/media-ota-v1-2026-09-30/wire/review-r3/source-lock.json",
+          "bytes": 1731,
+          "sha256": "9fa4686f6a3babffbfde2160c359444227216d3bf723e90b1ac6df86cd00aec6"
+        },
+        {
+          "path": "svetlost33-github/docs/contracts/media-ota-v1-2026-09-30/wire/review-r3/retention.mjs",
+          "bytes": 2494,
+          "sha256": "1d78090cb37425e6289cf036faf406b18dc9f5094e87445521fc0223f10279be"
+        },
+        {
+          "path": "svetlost33-github/docs/contracts/media-ota-v1-2026-09-30/shared-freeze-r4.json",
+          "bytes": 6128,
+          "sha256": "d8bf15e6727b9286a9af177d8ebe2925254e59c4e3959985bd45465de0f8a9e9"
+        },
+        {
+          "path": "svetlost33-github/docs/contracts/media-ota-v1-2026-09-30/shared-freeze-r4-clarification-01.json",
+          "bytes": 1697,
+          "sha256": "8f37a607e3ddeb314bee01c8ee8a8d6ec4ec1fefbe90c0f9eddc18680909abc4"
+        },
+        {
+          "path": "svetlost33-content/schemas/v2/module-manifest.schema.json",
+          "bytes": 1832,
+          "sha256": "5eadf968be710e594be265e94a92efb9662a12a3cad493bd9d0137de64b31069"
+        },
+        {
+          "path": "svetlost33-android-release-0.21.1/shared/background-catalog.json",
+          "commit": "cd27680a56325be346a5657ef12cf7187458e1e1",
+          "bytes": 5203,
+          "sha256": "5cd92cb97bba7d4a69adc1b9fb176813bb71df31b448fa9cad64a18cfc8af7ce"
+        }
+      ]
+    }
+  }
+}

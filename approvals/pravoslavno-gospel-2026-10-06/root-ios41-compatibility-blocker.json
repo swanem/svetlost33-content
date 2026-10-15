@@ -1,0 +1,34 @@
+{
+  "schema_version": "svetlost33-root-content-compatibility-blocker-1",
+  "observed_at_utc": "2026-10-06T18:21:40Z",
+  "status": "S14_PUBLICATION_HOLD_IOS41_CANNOT_ACCEPT_NEW_GOSPEL_DATES",
+  "content_approval_remains_valid": {
+    "path": "approvals/pravoslavno-gospel-2026-10-06/owner-combined-publication-approval.json",
+    "sha256": "5f6caab4281e3a31a1b0c9b6d69c1aca89bed418a81e1d8822ccf0c846db3912"
+  },
+  "proof": {
+    "installed_ios_version": "0.1.14 (41)",
+    "exact_release_source_commit": "452e4bcda43f076f02abe5310016f4cb25d5e00d",
+    "root_verified_with_git_show_at_exact_release_commit": true,
+    "actual_M0_path": "ModularRuntimeProjector.swift:104 calls AnnualGospelCalendar.loadDevelopmentReview(directory:annual)",
+    "per_day_gate": "Development mode requires productionEligible == false on all SOURCE_RECORDED entries; the31 explicitly approved new dates need true for display",
+    "count_gate": "Development mode requires173 sourceRecorded /192 unresolved. Approved S14 changes those totals to204/161",
+    "ios_owner_independent_confirmation_commit": "8871db0",
+    "owner_receipt_time_note": "Its recordedAtUTC18:30 placeholder was in the future when read at18:20; not used as chronology evidence. An additive owner correction was requested. Code and root observation independently establish the blocker.",
+    "android_owner_readonly_checkpoint_commit": "954ccfc62f91381b9a7600990915dc4776325378",
+    "android_result": "No static gate conflict found; actual signed S14 native acceptance still required",
+    "native_test_or_build_run_for_this_review": false
+  },
+  "supersedes": "Previous static parseReleased-only compatibility assessment did not include the actual iOS M0 projection path. It is not evidence that iOS41 can accept this content-only update.",
+  "must_not_do": [
+    "Do not sign/publish S14 claiming iOS0.1.14 compatibility",
+    "Do not relabel Pravoslavno as radio or extend historical radio approval counters",
+    "Do not remove old valid dates to retain173 or falsify eligibility",
+    "Do not enable annual-v2 as a workaround; its production capability remainsOFF",
+    "Do not loosen unsigned historical development validation globally or merely hardcode204/161"
+  ],
+  "proposed_bounded_next_step": "Separate authenticated M0 calendar acceptance from historical development-fixture validation; preserve real signature/hash/generation authority, old radio scope, explicit new publisher eligibility,365 date integrity, unknown dates and restart/reader retention. Review all runtime load paths, test old/new/rejected generations, then release a compatible new iOS version and raise S14 min-client floor accordingly.",
+  "authorization_state": "One user question sent for narrow new iOS version; no answer yet at observation. Content approval is not revoked and will not be asked again.",
+  "safe_remaining_work": "Finish approved unsigned shared assembly and evidence only, marking current iOS floor blocked. No native code/test edits, signing, app build/device action or public writes until scope decision.",
+  "published": false
+}

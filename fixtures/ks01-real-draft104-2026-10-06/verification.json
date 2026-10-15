@@ -1,0 +1,104 @@
+{
+  "schema_version": "svetlost33-ks01-real-draft104-verification-1",
+  "status": "PASS_SHARED_REFERENCE_ONLY_NOT_NATIVE_ACCEPTANCE",
+  "warning": "TEST_ONLY_REAL_DRAFT_PROSE_PENDING_NOT_OWNER_OR_CHURCH_APPROVAL_NEVER_PUBLISH",
+  "handoff_sha256": "fc72570fc407f89a61362bc05a2aee5c660d2f2188296ec52d719b9d0abccea9",
+  "trusted_public_key_sha256": "285c775ba69aa69a4ea6a24353f5ba199f24c62dd1ffe2932f758f8ca32bd170",
+  "fixed_test_time": "2026-10-06T12:00:00Z",
+  "assertion_groups": 9,
+  "assertions": [
+    {
+      "name": "Frozen drafts, original handoffs, S12, old fixtures and source pins remain byte-identical",
+      "status": "PASS"
+    },
+    {
+      "name": "Every output is hash-pinned, regular and confined; common public test key only",
+      "status": "PASS"
+    },
+    {
+      "name": "Both complete six-module RSA graphs validate for Android/iOS, with a direct 200→201 chain and bounded old-client/replay/time failures",
+      "status": "PASS"
+    },
+    {
+      "name": "Actual RSA-PSS authenticates every signed envelope and rejects mutated bytes; native raw trees contain no reference flags or keys",
+      "status": "PASS"
+    },
+    {
+      "name": "Exact schemas, module dependencies, calendar/article/catalog/archive hashes and unchanged S12 core payloads form coherent generations",
+      "status": "PASS"
+    },
+    {
+      "name": "Copy-only test approval preserves all 104 real article objects, sources, rights, dates and archive assignments; A/B are omitted",
+      "status": "PASS"
+    },
+    {
+      "name": "Authenticated reference graph resolves every saints day, catalog occurrence/link and preserved archive day in both scripts; 2027 stays unavailable",
+      "status": "PASS"
+    },
+    {
+      "name": "Fresh generation, duplicate/missing canonical day and altered catalog/article bindings fail closed without changing payloads",
+      "status": "PASS"
+    },
+    {
+      "name": "Loopback HTTP serves exact pinned raw transport only; sidecars/writes unavailable and server closes",
+      "status": "PASS"
+    }
+  ],
+  "transport_profiles": [
+    {
+      "dataset": "baseline62",
+      "platform": "android",
+      "result": {
+        "releaseSetId": "test-ks01-real104-baseline62-200",
+        "sequence": 200,
+        "modules": 6,
+        "verifiedModules": 6,
+        "skippedOptionalModules": [],
+        "totalBytes": 5700209
+      }
+    },
+    {
+      "dataset": "baseline62",
+      "platform": "ios",
+      "result": {
+        "releaseSetId": "test-ks01-real104-baseline62-200",
+        "sequence": 200,
+        "modules": 6,
+        "verifiedModules": 6,
+        "skippedOptionalModules": [],
+        "totalBytes": 5700209
+      }
+    },
+    {
+      "dataset": "realDraft104",
+      "platform": "android",
+      "result": {
+        "releaseSetId": "test-ks01-real104-realdraft104-201",
+        "sequence": 201,
+        "modules": 6,
+        "verifiedModules": 6,
+        "skippedOptionalModules": [],
+        "totalBytes": 5980564
+      }
+    },
+    {
+      "dataset": "realDraft104",
+      "platform": "ios",
+      "result": {
+        "releaseSetId": "test-ks01-real104-realdraft104-201",
+        "sequence": 201,
+        "modules": 6,
+        "verifiedModules": 6,
+        "skippedOptionalModules": [],
+        "totalBytes": 5980564
+      }
+    }
+  ],
+  "protected_inputs": 76,
+  "graph_scope": "Exact original62 plus real pending42, complete six-module graph; test review copies only; Package A/B not merged.",
+  "authentication_basis": "Actual RSA-PSS verification of all envelopes plus exact raw length/hash before reference contexts are used.",
+  "native_acceptance": false,
+  "production_authorization": false,
+  "owner_content_approval": false,
+  "private_key_saved": false
+}

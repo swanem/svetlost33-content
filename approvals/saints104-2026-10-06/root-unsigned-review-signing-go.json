@@ -1,0 +1,44 @@
+{
+  "schema_version": "svetlost33-root-s13-signing-go-1",
+  "recorded_at_utc": "2026-10-06T16:16:30Z",
+  "status": "GO_LOCAL_EXISTING_KEY_SIGNING_ONLY_NATIVE_AND_PUBLICATION_GATES_REMAIN",
+  "user_instruction": "posle objavi novu zbirku tekstova",
+  "owner_approval_sha256": "3cd32c026190cbf30054f52d0ff742cf2d1bc53b7013348cbe662e1325902629",
+  "stable_handoff_sha256": "16e16efe524844a8dd47edf640fcdbe0637ea2b1b9478944455b936b0610be9d",
+  "reviewed_sources": {
+    "prepare.mjs": "2a38f9a0dac361925e9392e0c9a976b95d1c447c335f9b3356aa1d3568ddb4fb",
+    "sign.mjs": "f9f15f6aa69ae078dc7c72795c8eb0f16188c25509890bbfd5350f8ceefbd20e",
+    "verify.mjs": "b669dd0c2dcfe06f5faac4da5a2df7509bee9434294e2add67438f910b4adcf2",
+    "verify.test.mjs": "3eedcf242d3d6328481b88672d9c9dc188e37170f03c126f0e720c6bef8f8e9d"
+  },
+  "root_execution": {
+    "command": "node drafts/saints104-release-2026-10-06/verify.mjs --check",
+    "exit_code": 0,
+    "tests": 9,
+    "passed": 9,
+    "failed": 0,
+    "skipped": 0,
+    "duration_ms": 6262.434583,
+    "tool_session": 5152,
+    "scope": "Shared approved-copy and ephemeral RSA tests, not native PASS"
+  },
+  "candidate": {
+    "release_set_id": "shared-saints104-2026-10-06-m0v2-s13",
+    "sequence": 13,
+    "index_sha256": "6250554d597daa19025cdcd3bc1d0c7c1763c3763ff4bc4fe1b85fb03f69441b",
+    "release_sha256": "76054fb851221ad1de64922a1167741646e2dd9f199588404b9a6a7745d4b7ff",
+    "articles": 104,
+    "old_articles_unchanged": 62,
+    "new_original_articles": 42,
+    "min_clients": {"android": 66, "ios": "0.1.14"},
+    "unchanged_modules": 4,
+    "documents_to_sign": 5,
+    "publication_allowlist_paths": 15
+  },
+  "fresh_remote_main": "16f1fe741aaad2450fe66a0832c28c1b3e891502",
+  "root_review": "Exact pinned owner-approved manuscripts, no test fixture promotion, unchanged previous62 and four unrelated modules, regenerated dependency hashes, unchanged source-page rights, disjoint new output, production public-key parity, pre-key fresh discovery checks, immutable path and future non-force publication CAS guards.",
+  "authorized_now": "Sign only the five pinned documents locally using the existing external production key; preserve original S12 and pending masters. Native candidate tests and publication readback remain required.",
+  "excluded": ["new app build", "speed optimization or new benchmark", "A/B calendar packages", "key rotation", "public push before native acceptance"],
+  "native_pass": false,
+  "published": false
+}

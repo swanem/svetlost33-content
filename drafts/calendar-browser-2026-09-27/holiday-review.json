@@ -1,0 +1,1624 @@
+{
+  "schema_version": "svetlost33-holiday-review-draft-1",
+  "purpose": "PENDING_TECHNICAL_AND_SOURCE_REVIEW_CANDIDATE_NOT_PUBLICATION",
+  "review_status": "pending",
+  "approval_id": null,
+  "checked_on": "2026-09-27",
+  "calendar_profile_id": "spc-rs-ba-julian-v1",
+  "scope": {
+    "year": 2026,
+    "selection": "Pascha, the Twelve Great Feasts, and eight existing commemorations explicitly labelled major by the SPC calendar publisher.",
+    "feast_membership_count": 21,
+    "new_observance_count": 12,
+    "new_occurrence_count": 12,
+    "new_subject_count": 0,
+    "complete_all_spc_feasts": false,
+    "complete_saint_list": false,
+    "year_2027": "unavailable"
+  },
+  "approval_boundary": "The user's instruction authorizes preparing this draft. It is not proof of a church source, exact-payload review, rights clearance, signing, publication, or ecclesiastical endorsement.",
+  "base_catalog": {
+    "path": "releases/v2/production/releases/shared-saints-completion-2026-09-21-m0v2-s9/modules/liturgical-catalog-v1-2026.9.20-r4/data/liturgical-catalog-v1.json",
+    "sha256": "13113be5f9bd3aeebc349cb5a89fee88439f7da57e9db9f6d9f1877e3da89774",
+    "version": "2026.9.20",
+    "revision": 4
+  },
+  "annual_payload": {
+    "path": "releases/v2/production/releases/shared-annual-2026-r1-m0v2-s2/modules/calendar-2026-r1-2026.1.1-r2/data/calendar.2026.json",
+    "sha256": "a1b6a5d5911ae03f77802bd466227f0c1ea4fe97708b1b6f92cd4b08847c7c9c",
+    "unchanged": true
+  },
+  "calendar_binding": {
+    "id": "calendar-spc-2026",
+    "calendar_profile_id": "spc-rs-ba-julian-v1",
+    "year": 2026,
+    "module_id": "calendar-2026-r1",
+    "version": "2026.1.1",
+    "revision": 2,
+    "path": "data/calendar.2026.json",
+    "sha256": "a1b6a5d5911ae03f77802bd466227f0c1ea4fe97708b1b6f92cd4b08847c7c9c"
+  },
+  "catalog_additions": {
+    "sources": [
+      {
+        "id": "eparhija-month-04",
+        "title": "Епархија аустријска СПЦ — календар",
+        "url": "https://www.eparhija.at/kalendar?m=2026-4",
+        "publisher": "Епархија аустријска СПЦ",
+        "original_author": null,
+        "checked_on": "2026-09-27",
+        "review_status": "pending",
+        "rights_status": "pending"
+      },
+      {
+        "id": "eparhija-month-08",
+        "title": "Епархија аустријска СПЦ — календар",
+        "url": "https://www.eparhija.at/kalendar?m=2026-8",
+        "publisher": "Епархија аустријска СПЦ",
+        "original_author": null,
+        "checked_on": "2026-09-27",
+        "review_status": "pending",
+        "rights_status": "pending"
+      },
+      {
+        "id": "eparhija-zt-twelve-great-feasts",
+        "title": "Православни основац, број 12 — Дванаест великих празника",
+        "url": "https://www.eparhijazt.com/UcitaneSlike/pravoslavni-osnovac-broj-12_compressed.pdf",
+        "publisher": "Издавачка кућа Епархије зворничко-тузланске Синај",
+        "original_author": "Матеј Горановић",
+        "checked_on": "2026-09-27",
+        "review_status": "pending",
+        "rights_status": "pending"
+      }
+    ],
+    "subjects": [],
+    "observances": [
+      {
+        "id": "obs-nativity-christ",
+        "kind": "feast",
+        "name": {
+          "sr-Cyrl": "Рођење Христово — Божић",
+          "sr-Latn": "Rođenje Hristovo — Božić"
+        },
+        "description": {
+          "sr-Cyrl": "Празник Рођења Христовог",
+          "sr-Latn": "Praznik Rođenja Hristovog"
+        },
+        "subject_ids": [],
+        "aliases": [],
+        "source_ids": [
+          "eparhija-month-01",
+          "eparhija-zt-twelve-great-feasts"
+        ],
+        "review_status": "pending"
+      },
+      {
+        "id": "obs-theophany",
+        "kind": "feast",
+        "name": {
+          "sr-Cyrl": "Богојављење — Крштење Господње",
+          "sr-Latn": "Bogojavljenje — Krštenje Gospodnje"
+        },
+        "description": {
+          "sr-Cyrl": "Празник Крштења Господњег",
+          "sr-Latn": "Praznik Krštenja Gospodnjeg"
+        },
+        "subject_ids": [],
+        "aliases": [],
+        "source_ids": [
+          "eparhija-month-01",
+          "eparhija-zt-twelve-great-feasts"
+        ],
+        "review_status": "pending"
+      },
+      {
+        "id": "obs-presentation-lord",
+        "kind": "feast",
+        "name": {
+          "sr-Cyrl": "Сретење Господње",
+          "sr-Latn": "Sretenje Gospodnje"
+        },
+        "description": {
+          "sr-Cyrl": "Празник Сретења Господњег",
+          "sr-Latn": "Praznik Sretenja Gospodnjeg"
+        },
+        "subject_ids": [],
+        "aliases": [],
+        "source_ids": [
+          "eparhija-month-02",
+          "eparhija-zt-twelve-great-feasts"
+        ],
+        "review_status": "pending"
+      },
+      {
+        "id": "obs-entry-jerusalem",
+        "kind": "feast",
+        "name": {
+          "sr-Cyrl": "Цвети (Улазак Господњи у Јерусалим)",
+          "sr-Latn": "Cveti (Ulazak Gospodnji u Jerusalim)"
+        },
+        "description": {
+          "sr-Cyrl": "Празник Уласка Господњег у Јерусалим",
+          "sr-Latn": "Praznik Ulaska Gospodnjeg u Jerusalim"
+        },
+        "subject_ids": [],
+        "aliases": [],
+        "source_ids": [
+          "eparhija-month-04",
+          "eparhija-zt-twelve-great-feasts"
+        ],
+        "review_status": "pending"
+      },
+      {
+        "id": "obs-annunciation",
+        "kind": "feast",
+        "name": {
+          "sr-Cyrl": "Благовести",
+          "sr-Latn": "Blagovesti"
+        },
+        "description": {
+          "sr-Cyrl": "Празник Благовести",
+          "sr-Latn": "Praznik Blagovesti"
+        },
+        "subject_ids": [],
+        "aliases": [],
+        "source_ids": [
+          "eparhija-month-04",
+          "eparhija-zt-twelve-great-feasts"
+        ],
+        "review_status": "pending"
+      },
+      {
+        "id": "obs-resurrection-christ",
+        "kind": "feast",
+        "name": {
+          "sr-Cyrl": "Васкрс — Васкрсење Христово",
+          "sr-Latn": "Vaskrs — Vaskrsenje Hristovo"
+        },
+        "description": {
+          "sr-Cyrl": "Празник Васкрсења Христовог",
+          "sr-Latn": "Praznik Vaskrsenja Hristovog"
+        },
+        "subject_ids": [],
+        "aliases": [],
+        "source_ids": [
+          "eparhija-month-04",
+          "eparhija-zt-twelve-great-feasts"
+        ],
+        "review_status": "pending"
+      },
+      {
+        "id": "obs-ascension-lord",
+        "kind": "feast",
+        "name": {
+          "sr-Cyrl": "Спасовдан (Вазнесење Господње)",
+          "sr-Latn": "Spasovdan (Vaznesenje Gospodnje)"
+        },
+        "description": {
+          "sr-Cyrl": "Празник Вазнесења Господњег",
+          "sr-Latn": "Praznik Vaznesenja Gospodnjeg"
+        },
+        "subject_ids": [],
+        "aliases": [],
+        "source_ids": [
+          "eparhija-month-05",
+          "eparhija-zt-twelve-great-feasts"
+        ],
+        "review_status": "pending"
+      },
+      {
+        "id": "obs-pentecost",
+        "kind": "feast",
+        "name": {
+          "sr-Cyrl": "Духови (Педесетница — Св. Тројица)",
+          "sr-Latn": "Duhovi (Pedesetnica — Sv. Trojica)"
+        },
+        "description": {
+          "sr-Cyrl": "Празник Силаска Светог Духа на апостоле",
+          "sr-Latn": "Praznik Silaska Svetog Duha na apostole"
+        },
+        "subject_ids": [],
+        "aliases": [],
+        "source_ids": [
+          "eparhija-month-05",
+          "eparhija-zt-twelve-great-feasts"
+        ],
+        "review_status": "pending"
+      },
+      {
+        "id": "obs-transfiguration-lord",
+        "kind": "feast",
+        "name": {
+          "sr-Cyrl": "Преображење Господње",
+          "sr-Latn": "Preobraženje Gospodnje"
+        },
+        "description": {
+          "sr-Cyrl": "Празник Преображења Господњег",
+          "sr-Latn": "Praznik Preobraženja Gospodnjeg"
+        },
+        "subject_ids": [],
+        "aliases": [],
+        "source_ids": [
+          "eparhija-month-08",
+          "eparhija-zt-twelve-great-feasts"
+        ],
+        "review_status": "pending"
+      },
+      {
+        "id": "obs-dormition-theotokos",
+        "kind": "feast",
+        "name": {
+          "sr-Cyrl": "Успеније Пресвете Богородице – Велика Госпојина",
+          "sr-Latn": "Uspenije Presvete Bogorodice – Velika Gospojina"
+        },
+        "description": {
+          "sr-Cyrl": "Празник Успења Пресвете Богородице",
+          "sr-Latn": "Praznik Uspenja Presvete Bogorodice"
+        },
+        "subject_ids": [],
+        "aliases": [],
+        "source_ids": [
+          "eparhija-month-08",
+          "eparhija-zt-twelve-great-feasts"
+        ],
+        "review_status": "pending"
+      },
+      {
+        "id": "obs-exaltation-cross",
+        "kind": "feast",
+        "name": {
+          "sr-Cyrl": "Воздвижење часног Крста – Крстовдан",
+          "sr-Latn": "Vozdviženje časnog Krsta – Krstovdan"
+        },
+        "description": {
+          "sr-Cyrl": "Празник Воздвижења Часног Крста",
+          "sr-Latn": "Praznik Vozdviženja Časnog Krsta"
+        },
+        "subject_ids": [],
+        "aliases": [],
+        "source_ids": [
+          "eparhija-month-09",
+          "eparhija-zt-twelve-great-feasts"
+        ],
+        "review_status": "pending"
+      },
+      {
+        "id": "obs-entry-theotokos",
+        "kind": "feast",
+        "name": {
+          "sr-Cyrl": "Ваведење Пресвете Богородице",
+          "sr-Latn": "Vavedenje Presvete Bogorodice"
+        },
+        "description": {
+          "sr-Cyrl": "Празник Ваведења Пресвете Богородице",
+          "sr-Latn": "Praznik Vavedenja Presvete Bogorodice"
+        },
+        "subject_ids": [],
+        "aliases": [],
+        "source_ids": [
+          "eparhija-month-12",
+          "eparhija-zt-twelve-great-feasts"
+        ],
+        "review_status": "pending"
+      }
+    ],
+    "occurrences": [
+      {
+        "id": "occ-obs-nativity-christ-2026",
+        "observance_id": "obs-nativity-christ",
+        "calendar_binding_id": "calendar-spc-2026",
+        "date": "2026-01-07",
+        "julian_date": "2025-12-25",
+        "calendar_title": {
+          "sr-Cyrl": "Рођење Христово — Божић",
+          "sr-Latn": "Rođenje Hristovo — Božić"
+        },
+        "calendar_source_ids": [
+          "eparhija-month-01"
+        ],
+        "source_ids": [
+          "eparhija-month-01"
+        ],
+        "review_status": "pending"
+      },
+      {
+        "id": "occ-obs-theophany-2026",
+        "observance_id": "obs-theophany",
+        "calendar_binding_id": "calendar-spc-2026",
+        "date": "2026-01-19",
+        "julian_date": "2026-01-06",
+        "calendar_title": {
+          "sr-Cyrl": "Богојављење — Крштење Господње",
+          "sr-Latn": "Bogojavljenje — Krštenje Gospodnje"
+        },
+        "calendar_source_ids": [
+          "eparhija-month-01"
+        ],
+        "source_ids": [
+          "eparhija-month-01"
+        ],
+        "review_status": "pending"
+      },
+      {
+        "id": "occ-obs-presentation-lord-2026",
+        "observance_id": "obs-presentation-lord",
+        "calendar_binding_id": "calendar-spc-2026",
+        "date": "2026-02-15",
+        "julian_date": "2026-02-02",
+        "calendar_title": {
+          "sr-Cyrl": "Сретење Господње",
+          "sr-Latn": "Sretenje Gospodnje"
+        },
+        "calendar_source_ids": [
+          "eparhija-month-02"
+        ],
+        "source_ids": [
+          "eparhija-month-02"
+        ],
+        "review_status": "pending"
+      },
+      {
+        "id": "occ-obs-entry-jerusalem-2026",
+        "observance_id": "obs-entry-jerusalem",
+        "calendar_binding_id": "calendar-spc-2026",
+        "date": "2026-04-05",
+        "julian_date": "2026-03-23",
+        "calendar_title": {
+          "sr-Cyrl": "Цвети (Улазак Господњи у Јерусалим)",
+          "sr-Latn": "Cveti (Ulazak Gospodnji u Jerusalim)"
+        },
+        "calendar_source_ids": [
+          "eparhija-month-04"
+        ],
+        "source_ids": [
+          "eparhija-month-04"
+        ],
+        "review_status": "pending"
+      },
+      {
+        "id": "occ-obs-annunciation-2026",
+        "observance_id": "obs-annunciation",
+        "calendar_binding_id": "calendar-spc-2026",
+        "date": "2026-04-07",
+        "julian_date": "2026-03-25",
+        "calendar_title": {
+          "sr-Cyrl": "Благовести",
+          "sr-Latn": "Blagovesti"
+        },
+        "calendar_source_ids": [
+          "eparhija-month-04"
+        ],
+        "source_ids": [
+          "eparhija-month-04"
+        ],
+        "review_status": "pending"
+      },
+      {
+        "id": "occ-obs-resurrection-christ-2026",
+        "observance_id": "obs-resurrection-christ",
+        "calendar_binding_id": "calendar-spc-2026",
+        "date": "2026-04-12",
+        "julian_date": "2026-03-30",
+        "calendar_title": {
+          "sr-Cyrl": "Васкрс — Васкрсење Христово",
+          "sr-Latn": "Vaskrs — Vaskrsenje Hristovo"
+        },
+        "calendar_source_ids": [
+          "eparhija-month-04"
+        ],
+        "source_ids": [
+          "eparhija-month-04"
+        ],
+        "review_status": "pending"
+      },
+      {
+        "id": "occ-obs-ascension-lord-2026",
+        "observance_id": "obs-ascension-lord",
+        "calendar_binding_id": "calendar-spc-2026",
+        "date": "2026-05-21",
+        "julian_date": "2026-05-08",
+        "calendar_title": {
+          "sr-Cyrl": "Спасовдан (Вазнесење Господње)",
+          "sr-Latn": "Spasovdan (Vaznesenje Gospodnje)"
+        },
+        "calendar_source_ids": [
+          "eparhija-month-05"
+        ],
+        "source_ids": [
+          "eparhija-month-05"
+        ],
+        "review_status": "pending"
+      },
+      {
+        "id": "occ-obs-pentecost-2026",
+        "observance_id": "obs-pentecost",
+        "calendar_binding_id": "calendar-spc-2026",
+        "date": "2026-05-31",
+        "julian_date": "2026-05-18",
+        "calendar_title": {
+          "sr-Cyrl": "Духови (Педесетница — Св. Тројица)",
+          "sr-Latn": "Duhovi (Pedesetnica — Sv. Trojica)"
+        },
+        "calendar_source_ids": [
+          "eparhija-month-05"
+        ],
+        "source_ids": [
+          "eparhija-month-05"
+        ],
+        "review_status": "pending"
+      },
+      {
+        "id": "occ-obs-transfiguration-lord-2026",
+        "observance_id": "obs-transfiguration-lord",
+        "calendar_binding_id": "calendar-spc-2026",
+        "date": "2026-08-19",
+        "julian_date": "2026-08-06",
+        "calendar_title": {
+          "sr-Cyrl": "Преображење Господње",
+          "sr-Latn": "Preobraženje Gospodnje"
+        },
+        "calendar_source_ids": [
+          "eparhija-month-08"
+        ],
+        "source_ids": [
+          "eparhija-month-08"
+        ],
+        "review_status": "pending"
+      },
+      {
+        "id": "occ-obs-dormition-theotokos-2026",
+        "observance_id": "obs-dormition-theotokos",
+        "calendar_binding_id": "calendar-spc-2026",
+        "date": "2026-08-28",
+        "julian_date": "2026-08-15",
+        "calendar_title": {
+          "sr-Cyrl": "Успеније Пресвете Богородице – Велика Госпојина",
+          "sr-Latn": "Uspenije Presvete Bogorodice – Velika Gospojina"
+        },
+        "calendar_source_ids": [
+          "eparhija-month-08"
+        ],
+        "source_ids": [
+          "eparhija-month-08"
+        ],
+        "review_status": "pending"
+      },
+      {
+        "id": "occ-obs-exaltation-cross-2026",
+        "observance_id": "obs-exaltation-cross",
+        "calendar_binding_id": "calendar-spc-2026",
+        "date": "2026-09-27",
+        "julian_date": "2026-09-14",
+        "calendar_title": {
+          "sr-Cyrl": "Воздвижење часног Крста – Крстовдан",
+          "sr-Latn": "Vozdviženje časnog Krsta – Krstovdan"
+        },
+        "calendar_source_ids": [
+          "eparhija-month-09"
+        ],
+        "source_ids": [
+          "eparhija-month-09"
+        ],
+        "review_status": "pending"
+      },
+      {
+        "id": "occ-obs-entry-theotokos-2026",
+        "observance_id": "obs-entry-theotokos",
+        "calendar_binding_id": "calendar-spc-2026",
+        "date": "2026-12-04",
+        "julian_date": "2026-11-21",
+        "calendar_title": {
+          "sr-Cyrl": "Ваведење Пресвете Богородице",
+          "sr-Latn": "Vavedenje Presvete Bogorodice"
+        },
+        "calendar_source_ids": [
+          "eparhija-month-12"
+        ],
+        "source_ids": [
+          "eparhija-month-12"
+        ],
+        "review_status": "pending"
+      }
+    ]
+  },
+  "catalog_reuse": {
+    "source_ids": [
+      "eparhija-month-01",
+      "eparhija-month-02",
+      "eparhija-month-05",
+      "eparhija-month-07",
+      "eparhija-month-09",
+      "eparhija-month-10",
+      "eparhija-month-11",
+      "eparhija-month-12"
+    ],
+    "subject_ids": [
+      "saint-john-baptist",
+      "saint-sava-serbian",
+      "saint-george",
+      "group-apostles-peter-paul",
+      "saint-paraskeva",
+      "saint-demetrius",
+      "saint-archangel-michael",
+      "saint-nicholas-myra"
+    ],
+    "observance_ids": [
+      "obs-john-baptist-synaxis",
+      "obs-sava-serbian",
+      "obs-george",
+      "obs-apostles-peter-paul",
+      "obs-nativity-theotokos",
+      "obs-paraskeva",
+      "obs-demetrius",
+      "obs-michael-synaxis",
+      "obs-nicholas-december"
+    ],
+    "occurrence_ids": [
+      "occ-obs-john-baptist-synaxis-2026",
+      "occ-obs-sava-serbian-2026",
+      "occ-obs-george-2026",
+      "occ-obs-apostles-peter-paul-2026",
+      "occ-obs-nativity-theotokos-2026",
+      "occ-obs-paraskeva-2026",
+      "occ-obs-demetrius-2026",
+      "occ-obs-michael-synaxis-2026",
+      "occ-obs-nicholas-december-2026"
+    ],
+    "article_bindings": [
+      {
+        "id": "saints-pilot-2026",
+        "module_id": "saints-v1",
+        "version": "2026.9.21",
+        "revision": 3,
+        "path": "data/saints-v1.json",
+        "sha256": "5551b12abc73777ee02bc3c150f52a3375a1101c548be11de50e78196e0e0000"
+      }
+    ],
+    "article_links": [
+      {
+        "observance_id": "obs-michael-chonae",
+        "article_binding_id": "saints-pilot-2026",
+        "article_id": "michael-miracle-chonae",
+        "source_ids": [
+          "eparhija-michael-chonae"
+        ],
+        "review_status": "reviewed"
+      },
+      {
+        "observance_id": "obs-nativity-theotokos",
+        "article_binding_id": "saints-pilot-2026",
+        "article_id": "nativity-theotokos",
+        "source_ids": [
+          "eparhija-nativity"
+        ],
+        "review_status": "reviewed"
+      }
+    ],
+    "preserve_all_unselected_base_rows": true,
+    "preserve_existing_rows_byte_equivalent": true
+  },
+  "feast_memberships": [
+    {
+      "observance_id": "obs-nativity-christ",
+      "occurrence_ids": [
+        "occ-obs-nativity-christ-2026"
+      ],
+      "review_status": "pending",
+      "source_ids": [
+        "eparhija-month-01",
+        "eparhija-zt-twelve-great-feasts"
+      ]
+    },
+    {
+      "observance_id": "obs-theophany",
+      "occurrence_ids": [
+        "occ-obs-theophany-2026"
+      ],
+      "review_status": "pending",
+      "source_ids": [
+        "eparhija-month-01",
+        "eparhija-zt-twelve-great-feasts"
+      ]
+    },
+    {
+      "observance_id": "obs-john-baptist-synaxis",
+      "occurrence_ids": [
+        "occ-obs-john-baptist-synaxis-2026"
+      ],
+      "review_status": "pending",
+      "source_ids": [
+        "eparhija-month-01"
+      ]
+    },
+    {
+      "observance_id": "obs-sava-serbian",
+      "occurrence_ids": [
+        "occ-obs-sava-serbian-2026"
+      ],
+      "review_status": "pending",
+      "source_ids": [
+        "eparhija-month-01"
+      ]
+    },
+    {
+      "observance_id": "obs-presentation-lord",
+      "occurrence_ids": [
+        "occ-obs-presentation-lord-2026"
+      ],
+      "review_status": "pending",
+      "source_ids": [
+        "eparhija-month-02",
+        "eparhija-zt-twelve-great-feasts"
+      ]
+    },
+    {
+      "observance_id": "obs-entry-jerusalem",
+      "occurrence_ids": [
+        "occ-obs-entry-jerusalem-2026"
+      ],
+      "review_status": "pending",
+      "source_ids": [
+        "eparhija-month-04",
+        "eparhija-zt-twelve-great-feasts"
+      ]
+    },
+    {
+      "observance_id": "obs-annunciation",
+      "occurrence_ids": [
+        "occ-obs-annunciation-2026"
+      ],
+      "review_status": "pending",
+      "source_ids": [
+        "eparhija-month-04",
+        "eparhija-zt-twelve-great-feasts"
+      ]
+    },
+    {
+      "observance_id": "obs-resurrection-christ",
+      "occurrence_ids": [
+        "occ-obs-resurrection-christ-2026"
+      ],
+      "review_status": "pending",
+      "source_ids": [
+        "eparhija-month-04",
+        "eparhija-zt-twelve-great-feasts"
+      ]
+    },
+    {
+      "observance_id": "obs-george",
+      "occurrence_ids": [
+        "occ-obs-george-2026"
+      ],
+      "review_status": "pending",
+      "source_ids": [
+        "eparhija-month-05"
+      ]
+    },
+    {
+      "observance_id": "obs-ascension-lord",
+      "occurrence_ids": [
+        "occ-obs-ascension-lord-2026"
+      ],
+      "review_status": "pending",
+      "source_ids": [
+        "eparhija-month-05",
+        "eparhija-zt-twelve-great-feasts"
+      ]
+    },
+    {
+      "observance_id": "obs-pentecost",
+      "occurrence_ids": [
+        "occ-obs-pentecost-2026"
+      ],
+      "review_status": "pending",
+      "source_ids": [
+        "eparhija-month-05",
+        "eparhija-zt-twelve-great-feasts"
+      ]
+    },
+    {
+      "observance_id": "obs-apostles-peter-paul",
+      "occurrence_ids": [
+        "occ-obs-apostles-peter-paul-2026"
+      ],
+      "review_status": "pending",
+      "source_ids": [
+        "eparhija-month-07"
+      ]
+    },
+    {
+      "observance_id": "obs-transfiguration-lord",
+      "occurrence_ids": [
+        "occ-obs-transfiguration-lord-2026"
+      ],
+      "review_status": "pending",
+      "source_ids": [
+        "eparhija-month-08",
+        "eparhija-zt-twelve-great-feasts"
+      ]
+    },
+    {
+      "observance_id": "obs-dormition-theotokos",
+      "occurrence_ids": [
+        "occ-obs-dormition-theotokos-2026"
+      ],
+      "review_status": "pending",
+      "source_ids": [
+        "eparhija-month-08",
+        "eparhija-zt-twelve-great-feasts"
+      ]
+    },
+    {
+      "observance_id": "obs-nativity-theotokos",
+      "occurrence_ids": [
+        "occ-obs-nativity-theotokos-2026"
+      ],
+      "review_status": "pending",
+      "source_ids": [
+        "eparhija-month-09",
+        "eparhija-zt-twelve-great-feasts"
+      ]
+    },
+    {
+      "observance_id": "obs-exaltation-cross",
+      "occurrence_ids": [
+        "occ-obs-exaltation-cross-2026"
+      ],
+      "review_status": "pending",
+      "source_ids": [
+        "eparhija-month-09",
+        "eparhija-zt-twelve-great-feasts"
+      ]
+    },
+    {
+      "observance_id": "obs-paraskeva",
+      "occurrence_ids": [
+        "occ-obs-paraskeva-2026"
+      ],
+      "review_status": "pending",
+      "source_ids": [
+        "eparhija-month-10"
+      ]
+    },
+    {
+      "observance_id": "obs-demetrius",
+      "occurrence_ids": [
+        "occ-obs-demetrius-2026"
+      ],
+      "review_status": "pending",
+      "source_ids": [
+        "eparhija-month-11"
+      ]
+    },
+    {
+      "observance_id": "obs-michael-synaxis",
+      "occurrence_ids": [
+        "occ-obs-michael-synaxis-2026"
+      ],
+      "review_status": "pending",
+      "source_ids": [
+        "eparhija-month-11"
+      ]
+    },
+    {
+      "observance_id": "obs-entry-theotokos",
+      "occurrence_ids": [
+        "occ-obs-entry-theotokos-2026"
+      ],
+      "review_status": "pending",
+      "source_ids": [
+        "eparhija-month-12",
+        "eparhija-zt-twelve-great-feasts"
+      ]
+    },
+    {
+      "observance_id": "obs-nicholas-december",
+      "occurrence_ids": [
+        "occ-obs-nicholas-december-2026"
+      ],
+      "review_status": "pending",
+      "source_ids": [
+        "eparhija-month-12"
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "observance_id": "obs-nativity-christ",
+      "occurrence_id": "occ-obs-nativity-christ-2026",
+      "catalog_action": "add_pending_rows",
+      "date": "2026-01-07",
+      "subject_ids": [],
+      "proposed_membership_group": "twelve_great_feasts",
+      "exact_2026_date_supported": true,
+      "exact_2026_date_source_ids": [
+        "eparhija-month-01"
+      ],
+      "editorial_inclusion_supported": true,
+      "editorial_inclusion_source_ids": [
+        "eparhija-month-01",
+        "eparhija-zt-twelve-great-feasts"
+      ],
+      "publisher_label": "Велики празник",
+      "source_locator": "2026-01 monthly page, civil day 7; matching K2026.days[date=2026-01-07]",
+      "inclusion_note": "The monthly publisher explicitly marks this day as major; the Eparchy journal separately identifies this named observance within the Twelve Great Feasts or Pascha.",
+      "known_annual_title_review": null,
+      "review_status": "pending"
+    },
+    {
+      "observance_id": "obs-theophany",
+      "occurrence_id": "occ-obs-theophany-2026",
+      "catalog_action": "add_pending_rows",
+      "date": "2026-01-19",
+      "subject_ids": [],
+      "proposed_membership_group": "twelve_great_feasts",
+      "exact_2026_date_supported": true,
+      "exact_2026_date_source_ids": [
+        "eparhija-month-01"
+      ],
+      "editorial_inclusion_supported": true,
+      "editorial_inclusion_source_ids": [
+        "eparhija-month-01",
+        "eparhija-zt-twelve-great-feasts"
+      ],
+      "publisher_label": "Велики празник",
+      "source_locator": "2026-01 monthly page, civil day 19; matching K2026.days[date=2026-01-19]",
+      "inclusion_note": "The monthly publisher explicitly marks this day as major; the Eparchy journal separately identifies this named observance within the Twelve Great Feasts or Pascha.",
+      "known_annual_title_review": null,
+      "review_status": "pending"
+    },
+    {
+      "observance_id": "obs-john-baptist-synaxis",
+      "occurrence_id": "occ-obs-john-baptist-synaxis-2026",
+      "catalog_action": "reuse_exact_existing_rows",
+      "date": "2026-01-20",
+      "subject_ids": [
+        "saint-john-baptist"
+      ],
+      "proposed_membership_group": "bounded_additional_publisher_major_commemorations",
+      "exact_2026_date_supported": true,
+      "exact_2026_date_source_ids": [
+        "eparhija-month-01"
+      ],
+      "editorial_inclusion_supported": true,
+      "editorial_inclusion_source_ids": [
+        "eparhija-month-01"
+      ],
+      "publisher_label": "Велики празник",
+      "source_locator": "2026-01 monthly page, civil day 20; matching K2026.days[date=2026-01-20]",
+      "inclusion_note": "Selected as a bounded additional commemoration already present in S9; the monthly publisher explicitly marks this exact occurrence as major. No claim of popularity ranking.",
+      "known_annual_title_review": null,
+      "review_status": "pending"
+    },
+    {
+      "observance_id": "obs-sava-serbian",
+      "occurrence_id": "occ-obs-sava-serbian-2026",
+      "catalog_action": "reuse_exact_existing_rows",
+      "date": "2026-01-27",
+      "subject_ids": [
+        "saint-sava-serbian"
+      ],
+      "proposed_membership_group": "bounded_additional_publisher_major_commemorations",
+      "exact_2026_date_supported": true,
+      "exact_2026_date_source_ids": [
+        "eparhija-month-01"
+      ],
+      "editorial_inclusion_supported": true,
+      "editorial_inclusion_source_ids": [
+        "eparhija-month-01"
+      ],
+      "publisher_label": "Велики празник",
+      "source_locator": "2026-01 monthly page, civil day 27; matching K2026.days[date=2026-01-27]",
+      "inclusion_note": "Selected as a bounded additional commemoration already present in S9; the monthly publisher explicitly marks this exact occurrence as major. No claim of popularity ranking.",
+      "known_annual_title_review": null,
+      "review_status": "pending"
+    },
+    {
+      "observance_id": "obs-presentation-lord",
+      "occurrence_id": "occ-obs-presentation-lord-2026",
+      "catalog_action": "add_pending_rows",
+      "date": "2026-02-15",
+      "subject_ids": [],
+      "proposed_membership_group": "twelve_great_feasts",
+      "exact_2026_date_supported": true,
+      "exact_2026_date_source_ids": [
+        "eparhija-month-02"
+      ],
+      "editorial_inclusion_supported": true,
+      "editorial_inclusion_source_ids": [
+        "eparhija-month-02",
+        "eparhija-zt-twelve-great-feasts"
+      ],
+      "publisher_label": "Велики празник",
+      "source_locator": "2026-02 monthly page, civil day 15; matching K2026.days[date=2026-02-15]",
+      "inclusion_note": "The monthly publisher explicitly marks this day as major; the Eparchy journal separately identifies this named observance within the Twelve Great Feasts or Pascha.",
+      "known_annual_title_review": null,
+      "review_status": "pending"
+    },
+    {
+      "observance_id": "obs-entry-jerusalem",
+      "occurrence_id": "occ-obs-entry-jerusalem-2026",
+      "catalog_action": "add_pending_rows",
+      "date": "2026-04-05",
+      "subject_ids": [],
+      "proposed_membership_group": "twelve_great_feasts",
+      "exact_2026_date_supported": true,
+      "exact_2026_date_source_ids": [
+        "eparhija-month-04"
+      ],
+      "editorial_inclusion_supported": true,
+      "editorial_inclusion_source_ids": [
+        "eparhija-month-04",
+        "eparhija-zt-twelve-great-feasts"
+      ],
+      "publisher_label": "Велики празник",
+      "source_locator": "2026-04 monthly page, civil day 5; matching K2026.days[date=2026-04-05]",
+      "inclusion_note": "The monthly publisher explicitly marks this day as major; the Eparchy journal separately identifies this named observance within the Twelve Great Feasts or Pascha.",
+      "known_annual_title_review": null,
+      "review_status": "pending"
+    },
+    {
+      "observance_id": "obs-annunciation",
+      "occurrence_id": "occ-obs-annunciation-2026",
+      "catalog_action": "add_pending_rows",
+      "date": "2026-04-07",
+      "subject_ids": [],
+      "proposed_membership_group": "twelve_great_feasts",
+      "exact_2026_date_supported": true,
+      "exact_2026_date_source_ids": [
+        "eparhija-month-04"
+      ],
+      "editorial_inclusion_supported": true,
+      "editorial_inclusion_source_ids": [
+        "eparhija-month-04",
+        "eparhija-zt-twelve-great-feasts"
+      ],
+      "publisher_label": "Велики празник",
+      "source_locator": "2026-04 monthly page, civil day 7; matching K2026.days[date=2026-04-07]",
+      "inclusion_note": "The monthly publisher explicitly marks this day as major; the Eparchy journal separately identifies this named observance within the Twelve Great Feasts or Pascha.",
+      "known_annual_title_review": null,
+      "review_status": "pending"
+    },
+    {
+      "observance_id": "obs-resurrection-christ",
+      "occurrence_id": "occ-obs-resurrection-christ-2026",
+      "catalog_action": "add_pending_rows",
+      "date": "2026-04-12",
+      "subject_ids": [],
+      "proposed_membership_group": "pascha",
+      "exact_2026_date_supported": true,
+      "exact_2026_date_source_ids": [
+        "eparhija-month-04"
+      ],
+      "editorial_inclusion_supported": true,
+      "editorial_inclusion_source_ids": [
+        "eparhija-month-04",
+        "eparhija-zt-twelve-great-feasts"
+      ],
+      "publisher_label": "Велики празник",
+      "source_locator": "2026-04 monthly page, civil day 12; matching K2026.days[date=2026-04-12]",
+      "inclusion_note": "The monthly publisher explicitly marks this day as major; the Eparchy journal separately identifies this named observance within the Twelve Great Feasts or Pascha.",
+      "known_annual_title_review": null,
+      "review_status": "pending"
+    },
+    {
+      "observance_id": "obs-george",
+      "occurrence_id": "occ-obs-george-2026",
+      "catalog_action": "reuse_exact_existing_rows",
+      "date": "2026-05-06",
+      "subject_ids": [
+        "saint-george"
+      ],
+      "proposed_membership_group": "bounded_additional_publisher_major_commemorations",
+      "exact_2026_date_supported": true,
+      "exact_2026_date_source_ids": [
+        "eparhija-month-05"
+      ],
+      "editorial_inclusion_supported": true,
+      "editorial_inclusion_source_ids": [
+        "eparhija-month-05"
+      ],
+      "publisher_label": "Велики празник",
+      "source_locator": "2026-05 monthly page, civil day 6; matching K2026.days[date=2026-05-06]",
+      "inclusion_note": "Selected as a bounded additional commemoration already present in S9; the monthly publisher explicitly marks this exact occurrence as major. No claim of popularity ranking.",
+      "known_annual_title_review": "publisher_page_titles_differ_not_resolved",
+      "review_status": "pending"
+    },
+    {
+      "observance_id": "obs-ascension-lord",
+      "occurrence_id": "occ-obs-ascension-lord-2026",
+      "catalog_action": "add_pending_rows",
+      "date": "2026-05-21",
+      "subject_ids": [],
+      "proposed_membership_group": "twelve_great_feasts",
+      "exact_2026_date_supported": true,
+      "exact_2026_date_source_ids": [
+        "eparhija-month-05"
+      ],
+      "editorial_inclusion_supported": true,
+      "editorial_inclusion_source_ids": [
+        "eparhija-month-05",
+        "eparhija-zt-twelve-great-feasts"
+      ],
+      "publisher_label": "Велики празник",
+      "source_locator": "2026-05 monthly page, civil day 21; matching K2026.days[date=2026-05-21]",
+      "inclusion_note": "The monthly publisher explicitly marks this day as major; the Eparchy journal separately identifies this named observance within the Twelve Great Feasts or Pascha.",
+      "known_annual_title_review": "publisher_page_titles_differ_not_resolved",
+      "review_status": "pending"
+    },
+    {
+      "observance_id": "obs-pentecost",
+      "occurrence_id": "occ-obs-pentecost-2026",
+      "catalog_action": "add_pending_rows",
+      "date": "2026-05-31",
+      "subject_ids": [],
+      "proposed_membership_group": "twelve_great_feasts",
+      "exact_2026_date_supported": true,
+      "exact_2026_date_source_ids": [
+        "eparhija-month-05"
+      ],
+      "editorial_inclusion_supported": true,
+      "editorial_inclusion_source_ids": [
+        "eparhija-month-05",
+        "eparhija-zt-twelve-great-feasts"
+      ],
+      "publisher_label": "Велики празник",
+      "source_locator": "2026-05 monthly page, civil day 31; matching K2026.days[date=2026-05-31]",
+      "inclusion_note": "The monthly publisher explicitly marks this day as major; the Eparchy journal separately identifies this named observance within the Twelve Great Feasts or Pascha.",
+      "known_annual_title_review": "publisher_page_titles_differ_not_resolved",
+      "review_status": "pending"
+    },
+    {
+      "observance_id": "obs-apostles-peter-paul",
+      "occurrence_id": "occ-obs-apostles-peter-paul-2026",
+      "catalog_action": "reuse_exact_existing_rows",
+      "date": "2026-07-12",
+      "subject_ids": [
+        "group-apostles-peter-paul"
+      ],
+      "proposed_membership_group": "bounded_additional_publisher_major_commemorations",
+      "exact_2026_date_supported": true,
+      "exact_2026_date_source_ids": [
+        "eparhija-month-07"
+      ],
+      "editorial_inclusion_supported": true,
+      "editorial_inclusion_source_ids": [
+        "eparhija-month-07"
+      ],
+      "publisher_label": "Велики празник",
+      "source_locator": "2026-07 monthly page, civil day 12; matching K2026.days[date=2026-07-12]",
+      "inclusion_note": "Selected as a bounded additional commemoration already present in S9; the monthly publisher explicitly marks this exact occurrence as major. No claim of popularity ranking.",
+      "known_annual_title_review": "publisher_page_titles_differ_not_resolved",
+      "review_status": "pending"
+    },
+    {
+      "observance_id": "obs-transfiguration-lord",
+      "occurrence_id": "occ-obs-transfiguration-lord-2026",
+      "catalog_action": "add_pending_rows",
+      "date": "2026-08-19",
+      "subject_ids": [],
+      "proposed_membership_group": "twelve_great_feasts",
+      "exact_2026_date_supported": true,
+      "exact_2026_date_source_ids": [
+        "eparhija-month-08"
+      ],
+      "editorial_inclusion_supported": true,
+      "editorial_inclusion_source_ids": [
+        "eparhija-month-08",
+        "eparhija-zt-twelve-great-feasts"
+      ],
+      "publisher_label": "Велики празник",
+      "source_locator": "2026-08 monthly page, civil day 19; matching K2026.days[date=2026-08-19]",
+      "inclusion_note": "The monthly publisher explicitly marks this day as major; the Eparchy journal separately identifies this named observance within the Twelve Great Feasts or Pascha.",
+      "known_annual_title_review": "publisher_page_titles_differ_not_resolved",
+      "review_status": "pending"
+    },
+    {
+      "observance_id": "obs-dormition-theotokos",
+      "occurrence_id": "occ-obs-dormition-theotokos-2026",
+      "catalog_action": "add_pending_rows",
+      "date": "2026-08-28",
+      "subject_ids": [],
+      "proposed_membership_group": "twelve_great_feasts",
+      "exact_2026_date_supported": true,
+      "exact_2026_date_source_ids": [
+        "eparhija-month-08"
+      ],
+      "editorial_inclusion_supported": true,
+      "editorial_inclusion_source_ids": [
+        "eparhija-month-08",
+        "eparhija-zt-twelve-great-feasts"
+      ],
+      "publisher_label": "Велики празник",
+      "source_locator": "2026-08 monthly page, civil day 28; matching K2026.days[date=2026-08-28]",
+      "inclusion_note": "The monthly publisher explicitly marks this day as major; the Eparchy journal separately identifies this named observance within the Twelve Great Feasts or Pascha.",
+      "known_annual_title_review": "publisher_page_titles_differ_not_resolved",
+      "review_status": "pending"
+    },
+    {
+      "observance_id": "obs-nativity-theotokos",
+      "occurrence_id": "occ-obs-nativity-theotokos-2026",
+      "catalog_action": "reuse_exact_existing_rows",
+      "date": "2026-09-21",
+      "subject_ids": [],
+      "proposed_membership_group": "twelve_great_feasts",
+      "exact_2026_date_supported": true,
+      "exact_2026_date_source_ids": [
+        "eparhija-month-09"
+      ],
+      "editorial_inclusion_supported": true,
+      "editorial_inclusion_source_ids": [
+        "eparhija-month-09",
+        "eparhija-zt-twelve-great-feasts"
+      ],
+      "publisher_label": "Велики празник",
+      "source_locator": "2026-09 monthly page, civil day 21; matching K2026.days[date=2026-09-21]",
+      "inclusion_note": "The monthly publisher explicitly marks this day as major; the Eparchy journal separately identifies this named observance within the Twelve Great Feasts or Pascha.",
+      "known_annual_title_review": "publisher_page_titles_differ_not_resolved",
+      "review_status": "pending"
+    },
+    {
+      "observance_id": "obs-exaltation-cross",
+      "occurrence_id": "occ-obs-exaltation-cross-2026",
+      "catalog_action": "add_pending_rows",
+      "date": "2026-09-27",
+      "subject_ids": [],
+      "proposed_membership_group": "twelve_great_feasts",
+      "exact_2026_date_supported": true,
+      "exact_2026_date_source_ids": [
+        "eparhija-month-09"
+      ],
+      "editorial_inclusion_supported": true,
+      "editorial_inclusion_source_ids": [
+        "eparhija-month-09",
+        "eparhija-zt-twelve-great-feasts"
+      ],
+      "publisher_label": "Велики празник",
+      "source_locator": "2026-09 monthly page, civil day 27; matching K2026.days[date=2026-09-27]",
+      "inclusion_note": "The monthly publisher explicitly marks this day as major; the Eparchy journal separately identifies this named observance within the Twelve Great Feasts or Pascha.",
+      "known_annual_title_review": "publisher_page_titles_differ_not_resolved",
+      "review_status": "pending"
+    },
+    {
+      "observance_id": "obs-paraskeva",
+      "occurrence_id": "occ-obs-paraskeva-2026",
+      "catalog_action": "reuse_exact_existing_rows",
+      "date": "2026-10-27",
+      "subject_ids": [
+        "saint-paraskeva"
+      ],
+      "proposed_membership_group": "bounded_additional_publisher_major_commemorations",
+      "exact_2026_date_supported": true,
+      "exact_2026_date_source_ids": [
+        "eparhija-month-10"
+      ],
+      "editorial_inclusion_supported": true,
+      "editorial_inclusion_source_ids": [
+        "eparhija-month-10"
+      ],
+      "publisher_label": "Велики празник",
+      "source_locator": "2026-10 monthly page, civil day 27; matching K2026.days[date=2026-10-27]",
+      "inclusion_note": "Selected as a bounded additional commemoration already present in S9; the monthly publisher explicitly marks this exact occurrence as major. No claim of popularity ranking.",
+      "known_annual_title_review": "publisher_page_titles_differ_not_resolved",
+      "review_status": "pending"
+    },
+    {
+      "observance_id": "obs-demetrius",
+      "occurrence_id": "occ-obs-demetrius-2026",
+      "catalog_action": "reuse_exact_existing_rows",
+      "date": "2026-11-08",
+      "subject_ids": [
+        "saint-demetrius"
+      ],
+      "proposed_membership_group": "bounded_additional_publisher_major_commemorations",
+      "exact_2026_date_supported": true,
+      "exact_2026_date_source_ids": [
+        "eparhija-month-11"
+      ],
+      "editorial_inclusion_supported": true,
+      "editorial_inclusion_source_ids": [
+        "eparhija-month-11"
+      ],
+      "publisher_label": "Велики празник",
+      "source_locator": "2026-11 monthly page, civil day 8; matching K2026.days[date=2026-11-08]",
+      "inclusion_note": "Selected as a bounded additional commemoration already present in S9; the monthly publisher explicitly marks this exact occurrence as major. No claim of popularity ranking.",
+      "known_annual_title_review": "publisher_page_titles_differ_not_resolved",
+      "review_status": "pending"
+    },
+    {
+      "observance_id": "obs-michael-synaxis",
+      "occurrence_id": "occ-obs-michael-synaxis-2026",
+      "catalog_action": "reuse_exact_existing_rows",
+      "date": "2026-11-21",
+      "subject_ids": [
+        "saint-archangel-michael"
+      ],
+      "proposed_membership_group": "bounded_additional_publisher_major_commemorations",
+      "exact_2026_date_supported": true,
+      "exact_2026_date_source_ids": [
+        "eparhija-month-11"
+      ],
+      "editorial_inclusion_supported": true,
+      "editorial_inclusion_source_ids": [
+        "eparhija-month-11"
+      ],
+      "publisher_label": "Велики празник",
+      "source_locator": "2026-11 monthly page, civil day 21; matching K2026.days[date=2026-11-21]",
+      "inclusion_note": "Selected as a bounded additional commemoration already present in S9; the monthly publisher explicitly marks this exact occurrence as major. No claim of popularity ranking.",
+      "known_annual_title_review": "publisher_page_titles_differ_not_resolved",
+      "review_status": "pending"
+    },
+    {
+      "observance_id": "obs-entry-theotokos",
+      "occurrence_id": "occ-obs-entry-theotokos-2026",
+      "catalog_action": "add_pending_rows",
+      "date": "2026-12-04",
+      "subject_ids": [],
+      "proposed_membership_group": "twelve_great_feasts",
+      "exact_2026_date_supported": true,
+      "exact_2026_date_source_ids": [
+        "eparhija-month-12"
+      ],
+      "editorial_inclusion_supported": true,
+      "editorial_inclusion_source_ids": [
+        "eparhija-month-12",
+        "eparhija-zt-twelve-great-feasts"
+      ],
+      "publisher_label": "Велики празник",
+      "source_locator": "2026-12 monthly page, civil day 4; matching K2026.days[date=2026-12-04]",
+      "inclusion_note": "The monthly publisher explicitly marks this day as major; the Eparchy journal separately identifies this named observance within the Twelve Great Feasts or Pascha.",
+      "known_annual_title_review": null,
+      "review_status": "pending"
+    },
+    {
+      "observance_id": "obs-nicholas-december",
+      "occurrence_id": "occ-obs-nicholas-december-2026",
+      "catalog_action": "reuse_exact_existing_rows",
+      "date": "2026-12-19",
+      "subject_ids": [
+        "saint-nicholas-myra"
+      ],
+      "proposed_membership_group": "bounded_additional_publisher_major_commemorations",
+      "exact_2026_date_supported": true,
+      "exact_2026_date_source_ids": [
+        "eparhija-month-12"
+      ],
+      "editorial_inclusion_supported": true,
+      "editorial_inclusion_source_ids": [
+        "eparhija-month-12"
+      ],
+      "publisher_label": "Велики празник",
+      "source_locator": "2026-12 monthly page, civil day 19; matching K2026.days[date=2026-12-19]",
+      "inclusion_note": "Selected as a bounded additional commemoration already present in S9; the monthly publisher explicitly marks this exact occurrence as major. No claim of popularity ranking.",
+      "known_annual_title_review": "publisher_page_titles_differ_not_resolved",
+      "review_status": "pending"
+    }
+  ],
+  "source_checks": [
+    {
+      "source_id": "eparhija-month-01",
+      "url": "https://www.eparhija.at/kalendar?m=2026-1",
+      "title": "Епархија аустријска СПЦ — календар",
+      "checked_on": "2026-09-27",
+      "access": "direct_https_download",
+      "response_sha256": "7bf5141bb900fcb744bec98579773fbf1b6c30f858d8c0bc9817e27b8c192d50",
+      "response_bytes": 1050504,
+      "archived_evidence_path": "../svetlost33-github/docs/content-review/2026-09-15-calendar/evidence/eparhija-month-01.json",
+      "archived_evidence_sha256": "daa8a927542c5141a59c99730b7c752653281d887ee58612474edd351653b95b",
+      "archived_evidence_sha256_verified": true,
+      "live_heading": "ЈАНУАР 2026.",
+      "exact_2026_civil_dates_verified": true,
+      "publisher_major_label_verified": true,
+      "selected_dates": [
+        "2026-01-07",
+        "2026-01-19",
+        "2026-01-20",
+        "2026-01-27"
+      ],
+      "selected_names_match_immutable_annual": true,
+      "source_note": "The live page heading fixes month and 2026 year; each selected civil day contains the recorded name and explicit major-feast label. Julian dates are copied from the exact existing annual payload, not calculated."
+    },
+    {
+      "source_id": "eparhija-month-02",
+      "url": "https://www.eparhija.at/kalendar?m=2026-2",
+      "title": "Епархија аустријска СПЦ — календар",
+      "checked_on": "2026-09-27",
+      "access": "direct_https_download",
+      "response_sha256": "4197dfad27cf5569696994062612083b21c5e40f78558419e48ac81dd006513b",
+      "response_bytes": 1036452,
+      "archived_evidence_path": "../svetlost33-github/docs/content-review/2026-09-15-calendar/evidence/eparhija-month-02.json",
+      "archived_evidence_sha256": "30ce0619555b356e5727d476771d0b094595be510cdcc4c3cfe23936cb086e56",
+      "archived_evidence_sha256_verified": true,
+      "live_heading": "ФЕБРУАР 2026.",
+      "exact_2026_civil_dates_verified": true,
+      "publisher_major_label_verified": true,
+      "selected_dates": [
+        "2026-02-15"
+      ],
+      "selected_names_match_immutable_annual": true,
+      "source_note": "The live page heading fixes month and 2026 year; each selected civil day contains the recorded name and explicit major-feast label. Julian dates are copied from the exact existing annual payload, not calculated."
+    },
+    {
+      "source_id": "eparhija-month-04",
+      "url": "https://www.eparhija.at/kalendar?m=2026-4",
+      "title": "Епархија аустријска СПЦ — календар",
+      "checked_on": "2026-09-27",
+      "access": "direct_https_download",
+      "response_sha256": "ed440e5919f9f1afb1b83fbebe4d33af4c276725b993c0a41e0ab3a428ad66e2",
+      "response_bytes": 1040060,
+      "archived_evidence_path": "../svetlost33-github/docs/content-review/2026-09-15-calendar/evidence/eparhija-month-04.json",
+      "archived_evidence_sha256": "02cecade103b54f8c8d0999f3ec8a3e5ab28bc350c5f24d9fae99a242216c94b",
+      "archived_evidence_sha256_verified": true,
+      "live_heading": "АПРИЛ 2026.",
+      "exact_2026_civil_dates_verified": true,
+      "publisher_major_label_verified": true,
+      "selected_dates": [
+        "2026-04-05",
+        "2026-04-07",
+        "2026-04-12"
+      ],
+      "selected_names_match_immutable_annual": true,
+      "source_note": "The live page heading fixes month and 2026 year; each selected civil day contains the recorded name and explicit major-feast label. Julian dates are copied from the exact existing annual payload, not calculated."
+    },
+    {
+      "source_id": "eparhija-month-05",
+      "url": "https://www.eparhija.at/kalendar?m=2026-5",
+      "title": "Епархија аустријска СПЦ — календар",
+      "checked_on": "2026-09-27",
+      "access": "direct_https_download",
+      "response_sha256": "f1cea1575624075e07ec00e2115591b14e7a8839666df3b2ad15fea838fad885",
+      "response_bytes": 1042769,
+      "archived_evidence_path": "../svetlost33-github/docs/content-review/2026-09-15-calendar/evidence/eparhija-month-05.json",
+      "archived_evidence_sha256": "613e45f2d8ee91d2c0f28354df3537032d9fa749783b80a331233fc594d1c179",
+      "archived_evidence_sha256_verified": true,
+      "live_heading": "МАЈ 2026.",
+      "exact_2026_civil_dates_verified": true,
+      "publisher_major_label_verified": true,
+      "selected_dates": [
+        "2026-05-06",
+        "2026-05-21",
+        "2026-05-31"
+      ],
+      "selected_names_match_immutable_annual": true,
+      "source_note": "The live page heading fixes month and 2026 year; each selected civil day contains the recorded name and explicit major-feast label. Julian dates are copied from the exact existing annual payload, not calculated."
+    },
+    {
+      "source_id": "eparhija-month-07",
+      "url": "https://www.eparhija.at/kalendar?m=2026-7",
+      "title": "Епархија аустријска СПЦ — календар",
+      "checked_on": "2026-09-27",
+      "access": "direct_https_download",
+      "response_sha256": "13b5a6de9e174df889078c967af4bce3153eae810a6fc64f126cb8a3cf371c49",
+      "response_bytes": 1046060,
+      "archived_evidence_path": "../svetlost33-github/docs/content-review/2026-09-15-calendar/evidence/eparhija-month-07.json",
+      "archived_evidence_sha256": "4c1303e40d41de2c444cba011f23f0b90773e1a4f6af39ed490799a6dd5f2f6b",
+      "archived_evidence_sha256_verified": true,
+      "live_heading": "ЈУЛ 2026.",
+      "exact_2026_civil_dates_verified": true,
+      "publisher_major_label_verified": true,
+      "selected_dates": [
+        "2026-07-12"
+      ],
+      "selected_names_match_immutable_annual": true,
+      "source_note": "The live page heading fixes month and 2026 year; each selected civil day contains the recorded name and explicit major-feast label. Julian dates are copied from the exact existing annual payload, not calculated."
+    },
+    {
+      "source_id": "eparhija-month-08",
+      "url": "https://www.eparhija.at/kalendar?m=2026-8",
+      "title": "Епархија аустријска СПЦ — календар",
+      "checked_on": "2026-09-27",
+      "access": "direct_https_download",
+      "response_sha256": "2383d1fe3d911ec18a5022433e88252b0df45a19139b0aa5aba8b08b30f4095b",
+      "response_bytes": 1043046,
+      "archived_evidence_path": "../svetlost33-github/docs/content-review/2026-09-15-calendar/evidence/eparhija-month-08.json",
+      "archived_evidence_sha256": "ce73cc9938f08e94081dcd6da7ce7ea4346f3d4a117c69e57042ffb8864fdb39",
+      "archived_evidence_sha256_verified": true,
+      "live_heading": "АВГУСТ 2026.",
+      "exact_2026_civil_dates_verified": true,
+      "publisher_major_label_verified": true,
+      "selected_dates": [
+        "2026-08-19",
+        "2026-08-28"
+      ],
+      "selected_names_match_immutable_annual": true,
+      "source_note": "The live page heading fixes month and 2026 year; each selected civil day contains the recorded name and explicit major-feast label. Julian dates are copied from the exact existing annual payload, not calculated."
+    },
+    {
+      "source_id": "eparhija-month-09",
+      "url": "https://www.eparhija.at/kalendar?m=2026-9",
+      "title": "Епархија аустријска СПЦ — календар",
+      "checked_on": "2026-09-27",
+      "access": "direct_https_download",
+      "response_sha256": "77606509a3eb6de7063da4d2b71502ec97f8b113e595040a26c9b98987f5a4a3",
+      "response_bytes": 1040944,
+      "archived_evidence_path": "../svetlost33-github/docs/content-review/2026-09-15-calendar/evidence/eparhija-month-09.json",
+      "archived_evidence_sha256": "856c652b7bf6390739e439d57f161acf9916cc3e3a0492f8f58ef9f03b3d5004",
+      "archived_evidence_sha256_verified": true,
+      "live_heading": "СЕПТЕМБАР 2026.",
+      "exact_2026_civil_dates_verified": true,
+      "publisher_major_label_verified": true,
+      "selected_dates": [
+        "2026-09-21",
+        "2026-09-27"
+      ],
+      "selected_names_match_immutable_annual": true,
+      "source_note": "The live page heading fixes month and 2026 year; each selected civil day contains the recorded name and explicit major-feast label. Julian dates are copied from the exact existing annual payload, not calculated."
+    },
+    {
+      "source_id": "eparhija-month-10",
+      "url": "https://www.eparhija.at/kalendar?m=2026-10",
+      "title": "Епархија аустријска СПЦ — календар",
+      "checked_on": "2026-09-27",
+      "access": "direct_https_download",
+      "response_sha256": "7918cdb2db6b8c2087194c4a5221c2cedf75981df129f0bff0232b8480990436",
+      "response_bytes": 1043348,
+      "archived_evidence_path": "../svetlost33-github/docs/content-review/2026-09-15-calendar/evidence/eparhija-month-10.json",
+      "archived_evidence_sha256": "0dabf782b5f933bce9c7fbf4d402ca58b1c39e572b30171b97b8bbab36586f52",
+      "archived_evidence_sha256_verified": true,
+      "live_heading": "ОКТОБАР 2026.",
+      "exact_2026_civil_dates_verified": true,
+      "publisher_major_label_verified": true,
+      "selected_dates": [
+        "2026-10-27"
+      ],
+      "selected_names_match_immutable_annual": true,
+      "source_note": "The live page heading fixes month and 2026 year; each selected civil day contains the recorded name and explicit major-feast label. Julian dates are copied from the exact existing annual payload, not calculated."
+    },
+    {
+      "source_id": "eparhija-month-11",
+      "url": "https://www.eparhija.at/kalendar?m=2026-11",
+      "title": "Епархија аустријска СПЦ — календар",
+      "checked_on": "2026-09-27",
+      "access": "direct_https_download",
+      "response_sha256": "8ccc544410261c806a2f195100e30c47eaf87241dafc12949e30e88814aea0c7",
+      "response_bytes": 1040609,
+      "archived_evidence_path": "../svetlost33-github/docs/content-review/2026-09-15-calendar/evidence/eparhija-month-11.json",
+      "archived_evidence_sha256": "e2329ba348732e73242eb2dcf554c77aaf7013947aaf4035ff5dba284313721d",
+      "archived_evidence_sha256_verified": true,
+      "live_heading": "НОВЕМБАР 2026.",
+      "exact_2026_civil_dates_verified": true,
+      "publisher_major_label_verified": true,
+      "selected_dates": [
+        "2026-11-08",
+        "2026-11-21"
+      ],
+      "selected_names_match_immutable_annual": true,
+      "source_note": "The live page heading fixes month and 2026 year; each selected civil day contains the recorded name and explicit major-feast label. Julian dates are copied from the exact existing annual payload, not calculated."
+    },
+    {
+      "source_id": "eparhija-month-12",
+      "url": "https://www.eparhija.at/kalendar?m=2026-12",
+      "title": "Епархија аустријска СПЦ — календар",
+      "checked_on": "2026-09-27",
+      "access": "direct_https_download",
+      "response_sha256": "618b1ae6583d34063fec490d12835253395a779eae52db8d2e59ffb48b773a4e",
+      "response_bytes": 1042729,
+      "archived_evidence_path": "../svetlost33-github/docs/content-review/2026-09-15-calendar/evidence/eparhija-month-12.json",
+      "archived_evidence_sha256": "4e383773a5e3172aaecf6d84e8d714282a436ecb2dbc6eb13ecabc0ac1f46421",
+      "archived_evidence_sha256_verified": true,
+      "live_heading": "ДЕЦЕМБАР 2026.",
+      "exact_2026_civil_dates_verified": true,
+      "publisher_major_label_verified": true,
+      "selected_dates": [
+        "2026-12-04",
+        "2026-12-19"
+      ],
+      "selected_names_match_immutable_annual": true,
+      "source_note": "The live page heading fixes month and 2026 year; each selected civil day contains the recorded name and explicit major-feast label. Julian dates are copied from the exact existing annual payload, not calculated."
+    }
+  ],
+  "membership_source_check": {
+    "source_id": "eparhija-zt-twelve-great-feasts",
+    "url": "https://www.eparhijazt.com/UcitaneSlike/pravoslavni-osnovac-broj-12_compressed.pdf",
+    "title": "Православни основац, број 12 — Дванаест великих празника",
+    "checked_on": "2026-09-27",
+    "access": "direct_https_download_after_web_tool_size_limit",
+    "response_sha256": "53fc16fcb714c8521fa67cbeb098862baedad0ed7e5dead3310d474919a29daa",
+    "response_bytes": 13259125,
+    "pdf_page_number": 10,
+    "masthead_pdf_page_number": 3,
+    "visual_review": true,
+    "original_author": "Матеј Горановић",
+    "publisher": "Издавачка кућа Епархије зворничко-тузланске Синај",
+    "exact_2026_date_supported": false,
+    "editorial_inclusion_supported": true,
+    "note": "The article explicitly names the twelve observances and describes Pascha separately as the greatest feast. The masthead identifies the Eparchy publishing house; this general classification source is not an annual calendar."
+  },
+  "supplemental_web_checks": [
+    {
+      "url": "https://www.spc.rs/sr/news/patrijarh/-/16277.sve-sto-cinimo-i-jesmo-proveravajmo-hristom.html",
+      "title": "Све што чинимо и јесмо проверавајмо Христом",
+      "publisher": "Српска православна црква",
+      "checked_on": "2026-09-27",
+      "access": "indexed_primary_text",
+      "date": "2026-04-05",
+      "exact_2026_date_supported": true,
+      "editorial_inclusion_supported": false,
+      "note": "The introduction explicitly dates the Palm Sunday homily; it is corroboration, not a canonical source added by this draft."
+    },
+    {
+      "url": "https://spc.rs/sr/news/16430.vaskrs-u-banja-luci.html",
+      "title": "Васкрс у Бања Луци",
+      "publisher": "Српска православна црква",
+      "checked_on": "2026-09-27",
+      "access": "indexed_primary_text",
+      "date": "2026-04-12",
+      "exact_2026_date_supported": true,
+      "editorial_inclusion_supported": false,
+      "note": "The report explicitly dates the Resurrection celebration in Banja Luka; the publication date 20 April is not used as the feast date."
+    },
+    {
+      "url": "https://www.spc.rs/sr/news/16718.vladika-petar-beograd-je-sveti-grad.html",
+      "title": "Владика Петар: Београд је свети град",
+      "publisher": "Српска православна црква",
+      "checked_on": "2026-09-27",
+      "access": "indexed_primary_text",
+      "date": "2026-05-21",
+      "exact_2026_date_supported": true,
+      "editorial_inclusion_supported": false,
+      "note": "The report dates Spasovdan gifts and Belgrade's celebration to 21 May."
+    },
+    {
+      "url": "https://www.spc.rs/sr/news/iz-zivota-crkve/-/16832.vladika-andrej-pedesetnica-je-neprestana-stvarnost-crkve.html",
+      "title": "Владика Андреј: Педесетница је непрестана стварност Цркве",
+      "publisher": "Српска православна црква",
+      "checked_on": "2026-09-27",
+      "access": "indexed_primary_text",
+      "date": "2026-05-31",
+      "exact_2026_date_supported": true,
+      "editorial_inclusion_supported": true,
+      "note": "The body explicitly dates Pentecost to 31 May and describes it as a great feast."
+    }
+  ],
+  "proposed_coverage": [
+    {
+      "calendar_profile_id": "spc-rs-ba-julian-v1",
+      "year": 2026,
+      "calendar_binding_id": "calendar-spc-2026",
+      "status": "limited_catalog",
+      "mapped_dates": 25,
+      "occurrences": 25,
+      "complete_saint_list": false
+    },
+    {
+      "calendar_profile_id": "spc-rs-ba-julian-v1",
+      "year": 2027,
+      "calendar_binding_id": null,
+      "status": "unavailable",
+      "mapped_dates": 0,
+      "occurrences": 0,
+      "complete_saint_list": false
+    }
+  ],
+  "exclusions": [
+    {
+      "observance_ids": [
+        "obs-simeon-myrrh-streaming",
+        "obs-cyriacus-miholjdan",
+        "obs-nicholas-relics-transfer",
+        "obs-michael-chonae"
+      ],
+      "reason": "Keep their reviewed catalog occurrences unchanged; they are outside this bounded major-feast browser selection."
+    },
+    {
+      "observance_ids": [
+        "obs-stefan-decanski",
+        "obs-nektarios-aegina"
+      ],
+      "reason": "Keep existing identities and absent annual occurrence state unchanged; this draft does not resolve their annual binding."
+    },
+    {
+      "observance_ids": [],
+      "reason": "All other saints, feasts and fasts not named here remain outside the selected list. Omission is unknown coverage, not confirmed absence or a religious ranking."
+    }
+  ],
+  "limitations": [
+    "The draft is not a complete SPC calendar, complete saint list, full Typikon, rights approval, or clergy review.",
+    "All new sources, observances, occurrences and memberships are pending. Existing reviewed rows and the two article links are retained unchanged.",
+    "The official Austrian SPC monthly calendar is the same publisher already bound by K2026; the SPC BiH journal supplies separate classification evidence. No device-location rule is inferred.",
+    "Direct web-tool reads failed for several monthly/daily URLs; ten monthly pages were successfully downloaded directly and checked. The general PDF exceeded the web-tool size limit and was downloaded and visually inspected.",
+    "Existing calendar reading-page title discrepancies and unresolved readings/fasting are preserved; fresh selected feast-title agreement does not resolve those separate fields.",
+    "Only factual names, exact dates, source metadata and brief original review notes are proposed. No source prose, hymn, image or article body is copied.",
+    "Do not calculate 2027 dates, infer future recurrence, alter the immutable annual payload, or change signing/discovery indexes."
+  ]
+}

@@ -1,0 +1,3624 @@
+{
+  "schema_version": "svetlost33-combined-calendar-operation-manifest-1",
+  "status": "PENDING_UNSIGNED_ONE_RELEASE_REVIEW_MANIFEST_NOT_TRANSPORT",
+  "base": {
+    "release_set_id": "shared-saints104-2026-10-06-m0v2-s13",
+    "index_sha256": "6250554d597daa19025cdcd3bc1d0c7c1763c3763ff4bc4fe1b85fb03f69441b",
+    "public_readback_sha256": "e6bce373760da88996bf2df0a789ff853eef483e12a9d393608106d149f9c700"
+  },
+  "intent": "One combined calendar/saints A+B through19November + unchanged published year-end104 articles through31December + currently verified Pravoslavno Gospel references. No separate Gospel publication.",
+  "catalog_component": {
+    "path": "catalog.pending.json",
+    "bytes": 255076,
+    "sha256": "255d2e902d91a596252e2426e70cd530f3c2517194fc35ec48b6e638a4a30c21"
+  },
+  "browser_component": {
+    "path": "browser.pending.json",
+    "bytes": 97906,
+    "sha256": "11a1af5d008047556ac18e27dea72950ea0daf6f1cb42259bee90a236585bf24"
+  },
+  "saints": {
+    "articles": 104,
+    "changed_article_objects": 0,
+    "sha256": "35d9401dd895557de013e42ce71d8101a11b5e96e42212a3605951181c002047",
+    "article_objects_sha256": "50349320dda7428effd177316fdf3215ab71d0a617ba4dec4deebc530fd2498c"
+  },
+  "gospel": {
+    "source_to_register": {
+      "id": "pravoslavno-rs-daily-readings-2026-10-06",
+      "url": "https://www.pravoslavno.rs/index.php?q=citanja",
+      "title": "Pravoslavno.rs — дневна читања (према издавачу)",
+      "publisher": "Pravoslavno.rs / Pravoslavni podsetnik; © Mikro knjiga",
+      "evidence_path": "drafts/pravoslavno-gospel-2026-10-06/review/candidate.json",
+      "evidence_sha256": "fb4ed9f299fce8c8ee411815c5c2c68884c68e0c9468c4437c3c044f82a5ae1c",
+      "evidence_path_base": "canonical_repository",
+      "scope": "Dated publisher Gospel reference observations only; no translated prose, independent SPC endorsement, complete service schedule or licence claim."
+    },
+    "operations": [
+      {
+        "date": "2026-10-06",
+        "operation": "RECORD_PUBLISHER_REFERENCES_PENDING_REVIEW",
+        "before_sha256": "da9f843c9b35e5b0df190f01f61c18e3ee821785996a074360967beee6a778d7",
+        "after": {
+          "status": "SOURCE_RECORDED",
+          "readings": [
+            {
+              "book": "Luke",
+              "segments": [
+                {
+                  "start": {
+                    "chapter": 5,
+                    "verse": 12
+                  },
+                  "end": {
+                    "chapter": 5,
+                    "verse": 16
+                  }
+                }
+              ],
+              "zachalo": 18,
+              "zachalo_numbers": [
+                18
+              ],
+              "zachalo_qualifier": "",
+              "range_precision": "VERSE_RANGE_AS_PRINTED",
+              "service": "unspecified",
+              "role": "source_daily_reading",
+              "source_reference": "Јеванђеље Лука, зачало 18. (5,12-16)",
+              "source_ids": [
+                "pravoslavno-rs-daily-readings-2026-10-06"
+              ]
+            }
+          ],
+          "reason": "single_publisher_references_recorded_service_unassigned_pending_review",
+          "source_ids": [
+            "radio",
+            "eparhija-reading-2026-10-06",
+            "pravoslavno-rs-daily-readings-2026-10-06"
+          ],
+          "service_assignment_status": "UNRESOLVED",
+          "calendar_activation_status": "DRAFT",
+          "complete_service_schedule_verified": false,
+          "source_observations": [
+            {
+              "source_id": "radio",
+              "source_locator": "tr#Datum20261006 absent from 2026 table",
+              "source_row_present": false,
+              "references": [],
+              "source_notes": [],
+              "supplemental_blessing": false
+            },
+            {
+              "source_id": "eparhija-reading-2026-10-06",
+              "source_locator": ".sec: heading Јеванђеље > .beseda-sub",
+              "references": [],
+              "content_missing_label": "Садржај за овај дан још није унет."
+            },
+            {
+              "source_id": "pravoslavno-rs-daily-readings-2026-10-06",
+              "source_locator": "https://www.pravoslavno.rs/index.php?datum=2026-10-06&q=citanja #glavnitekst",
+              "references": [
+                "Јеванђеље Лука, зачало 18. (5,12-16)"
+              ],
+              "source_notes": [
+                "Prema Pravoslavno.rs; not Radio Slovo ljubve or independent SPC confirmation. Exact service headings are retained separately in the draft provenance."
+              ]
+            }
+          ],
+          "parse_errors": [],
+          "reference_validation_errors": [],
+          "reference_identity_review": [],
+          "observed_readings": [],
+          "production_eligible": false
+        },
+        "dated_source_evidence": {
+          "source_id": "pravoslavno-rs-daily-readings-2026-10-06",
+          "url": "https://www.pravoslavno.rs/index.php?datum=2026-10-06&q=citanja",
+          "displayed_date": "2026-10-06",
+          "fetched_at": "2026-10-06T17:37:53.253Z",
+          "raw_sha256": "7a562f8688ac1bb16a16e6d1b6d2b4871e4cc075d6f89a8cf2cee32338fb8b09",
+          "raw_evidence_path": "acquisition/raw/2026-10-06-attempt1.html",
+          "publisher_attribution": "Pravoslavno.rs / Pravoslavni podsetnik; © Mikro knjiga"
+        },
+        "reading_provenance": [
+          {
+            "reading_index": 0,
+            "source_heading": "Јеванђеље Лука, зачало 18. (5,12-16)",
+            "explicit_service": null,
+            "source_locator": {
+              "section_id": "glavnitekst",
+              "heading_tag": "span",
+              "gospel_heading_ordinal": 1
+            },
+            "runtime_service": "unspecified",
+            "note": "No service label printed for this reading."
+          }
+        ]
+      },
+      {
+        "date": "2026-10-07",
+        "operation": "RECORD_PUBLISHER_REFERENCES_PENDING_REVIEW",
+        "before_sha256": "5fd0794ab95b626ca9a0276f27a163f107b46b79694c4cb8aaa09be2a07ca9cf",
+        "after": {
+          "status": "SOURCE_RECORDED",
+          "readings": [
+            {
+              "book": "Luke",
+              "segments": [
+                {
+                  "start": {
+                    "chapter": 5,
+                    "verse": 33
+                  },
+                  "end": {
+                    "chapter": 5,
+                    "verse": 39
+                  }
+                }
+              ],
+              "zachalo": 21,
+              "zachalo_numbers": [
+                21
+              ],
+              "zachalo_qualifier": "",
+              "range_precision": "VERSE_RANGE_AS_PRINTED",
+              "service": "unspecified",
+              "role": "source_daily_reading",
+              "source_reference": "Јеванђеље Лука, зачало 21. (5,33-39)",
+              "source_ids": [
+                "pravoslavno-rs-daily-readings-2026-10-06"
+              ]
+            }
+          ],
+          "reason": "single_publisher_references_recorded_service_unassigned_pending_review",
+          "source_ids": [
+            "radio",
+            "eparhija-reading-2026-10-07",
+            "pravoslavno-rs-daily-readings-2026-10-06"
+          ],
+          "service_assignment_status": "UNRESOLVED",
+          "calendar_activation_status": "DRAFT",
+          "complete_service_schedule_verified": false,
+          "source_observations": [
+            {
+              "source_id": "radio",
+              "source_locator": "tr#Datum20261007 absent from 2026 table",
+              "source_row_present": false,
+              "references": [],
+              "source_notes": [],
+              "supplemental_blessing": false
+            },
+            {
+              "source_id": "eparhija-reading-2026-10-07",
+              "source_locator": ".sec: heading Јеванђеље > .beseda-sub",
+              "references": [],
+              "content_missing_label": "Садржај за овај дан још није унет."
+            },
+            {
+              "source_id": "pravoslavno-rs-daily-readings-2026-10-06",
+              "source_locator": "https://www.pravoslavno.rs/index.php?datum=2026-10-07&q=citanja #glavnitekst",
+              "references": [
+                "Јеванђеље Лука, зачало 21. (5,33-39)"
+              ],
+              "source_notes": [
+                "Prema Pravoslavno.rs; not Radio Slovo ljubve or independent SPC confirmation. Exact service headings are retained separately in the draft provenance."
+              ]
+            }
+          ],
+          "parse_errors": [],
+          "reference_validation_errors": [],
+          "reference_identity_review": [],
+          "observed_readings": [],
+          "production_eligible": false
+        },
+        "dated_source_evidence": {
+          "source_id": "pravoslavno-rs-daily-readings-2026-10-06",
+          "url": "https://www.pravoslavno.rs/index.php?datum=2026-10-07&q=citanja",
+          "displayed_date": "2026-10-07",
+          "fetched_at": "2026-10-06T17:37:54.354Z",
+          "raw_sha256": "d1f2bafce970853148b5e9e584ab9aef23be0f564cdb28ebc02f80abf2f0ab9a",
+          "raw_evidence_path": "acquisition/raw/2026-10-07-attempt1.html",
+          "publisher_attribution": "Pravoslavno.rs / Pravoslavni podsetnik; © Mikro knjiga"
+        },
+        "reading_provenance": [
+          {
+            "reading_index": 0,
+            "source_heading": "Јеванђеље Лука, зачало 21. (5,33-39)",
+            "explicit_service": null,
+            "source_locator": {
+              "section_id": "glavnitekst",
+              "heading_tag": "span",
+              "gospel_heading_ordinal": 1
+            },
+            "runtime_service": "unspecified",
+            "note": "No service label printed for this reading."
+          }
+        ]
+      },
+      {
+        "date": "2026-10-08",
+        "operation": "RECORD_PUBLISHER_REFERENCES_PENDING_REVIEW",
+        "before_sha256": "f9a6ef0ef09ef344a18a1c7c69221b261e3c0e881003759c1d9c36c58d0b0b17",
+        "after": {
+          "status": "SOURCE_RECORDED",
+          "readings": [
+            {
+              "book": "Luke",
+              "segments": [
+                {
+                  "start": {
+                    "chapter": 6,
+                    "verse": 12
+                  },
+                  "end": {
+                    "chapter": 6,
+                    "verse": 19
+                  }
+                }
+              ],
+              "zachalo": 23,
+              "zachalo_numbers": [
+                23
+              ],
+              "zachalo_qualifier": "",
+              "range_precision": "VERSE_RANGE_AS_PRINTED",
+              "service": "unspecified",
+              "role": "source_daily_reading",
+              "source_reference": "Јеванђеље Лука, зачало 23. (6,12-19)",
+              "source_ids": [
+                "pravoslavno-rs-daily-readings-2026-10-06"
+              ]
+            }
+          ],
+          "reason": "single_publisher_references_recorded_service_unassigned_pending_review",
+          "source_ids": [
+            "radio",
+            "eparhija-reading-2026-10-08",
+            "pravoslavno-rs-daily-readings-2026-10-06"
+          ],
+          "service_assignment_status": "UNRESOLVED",
+          "calendar_activation_status": "DRAFT",
+          "complete_service_schedule_verified": false,
+          "source_observations": [
+            {
+              "source_id": "radio",
+              "source_locator": "tr#Datum20261008 absent from 2026 table",
+              "source_row_present": false,
+              "references": [],
+              "source_notes": [],
+              "supplemental_blessing": false
+            },
+            {
+              "source_id": "eparhija-reading-2026-10-08",
+              "source_locator": ".sec: heading Јеванђеље > .beseda-sub",
+              "references": [],
+              "content_missing_label": "Садржај за овај дан још није унет."
+            },
+            {
+              "source_id": "pravoslavno-rs-daily-readings-2026-10-06",
+              "source_locator": "https://www.pravoslavno.rs/index.php?datum=2026-10-08&q=citanja #glavnitekst",
+              "references": [
+                "Јеванђеље Лука, зачало 23. (6,12-19)"
+              ],
+              "source_notes": [
+                "Prema Pravoslavno.rs; not Radio Slovo ljubve or independent SPC confirmation. Exact service headings are retained separately in the draft provenance."
+              ]
+            }
+          ],
+          "parse_errors": [],
+          "reference_validation_errors": [],
+          "reference_identity_review": [],
+          "observed_readings": [],
+          "production_eligible": false
+        },
+        "dated_source_evidence": {
+          "source_id": "pravoslavno-rs-daily-readings-2026-10-06",
+          "url": "https://www.pravoslavno.rs/index.php?datum=2026-10-08&q=citanja",
+          "displayed_date": "2026-10-08",
+          "fetched_at": "2026-10-06T17:37:55.456Z",
+          "raw_sha256": "e8d37e6cb97dbecf1b1bbdeecf43168d82fd0ecd3f97cdbf2d75c210bcca7d81",
+          "raw_evidence_path": "acquisition/raw/2026-10-08-attempt1.html",
+          "publisher_attribution": "Pravoslavno.rs / Pravoslavni podsetnik; © Mikro knjiga"
+        },
+        "reading_provenance": [
+          {
+            "reading_index": 0,
+            "source_heading": "Јеванђеље Лука, зачало 23. (6,12-19)",
+            "explicit_service": null,
+            "source_locator": {
+              "section_id": "glavnitekst",
+              "heading_tag": "span",
+              "gospel_heading_ordinal": 1
+            },
+            "runtime_service": "unspecified",
+            "note": "No service label printed for this reading."
+          }
+        ]
+      },
+      {
+        "date": "2026-10-09",
+        "operation": "RECORD_PUBLISHER_REFERENCES_PENDING_REVIEW",
+        "before_sha256": "97c33ceb78e95caaf471d480280596ed5fea29807d346d0cd5c382af13af91a6",
+        "after": {
+          "status": "SOURCE_RECORDED",
+          "readings": [
+            {
+              "book": "Luke",
+              "segments": [
+                {
+                  "start": {
+                    "chapter": 6,
+                    "verse": 17
+                  },
+                  "end": {
+                    "chapter": 6,
+                    "verse": 23
+                  }
+                }
+              ],
+              "zachalo": 24,
+              "zachalo_numbers": [
+                24
+              ],
+              "zachalo_qualifier": "",
+              "range_precision": "VERSE_RANGE_AS_PRINTED",
+              "service": "unspecified",
+              "role": "source_daily_reading",
+              "source_reference": "Јеванђеље Лука, зачало 24. (6,17-23)",
+              "source_ids": [
+                "pravoslavno-rs-daily-readings-2026-10-06"
+              ]
+            }
+          ],
+          "reason": "single_publisher_references_recorded_service_unassigned_pending_review",
+          "source_ids": [
+            "radio",
+            "eparhija-reading-2026-10-09",
+            "pravoslavno-rs-daily-readings-2026-10-06"
+          ],
+          "service_assignment_status": "UNRESOLVED",
+          "calendar_activation_status": "DRAFT",
+          "complete_service_schedule_verified": false,
+          "source_observations": [
+            {
+              "source_id": "radio",
+              "source_locator": "tr#Datum20261009 absent from 2026 table",
+              "source_row_present": false,
+              "references": [],
+              "source_notes": [],
+              "supplemental_blessing": false
+            },
+            {
+              "source_id": "eparhija-reading-2026-10-09",
+              "source_locator": ".sec: heading Јеванђеље > .beseda-sub",
+              "references": [],
+              "content_missing_label": "Садржај за овај дан још није унет."
+            },
+            {
+              "source_id": "pravoslavno-rs-daily-readings-2026-10-06",
+              "source_locator": "https://www.pravoslavno.rs/index.php?datum=2026-10-09&q=citanja #glavnitekst",
+              "references": [
+                "Јеванђеље Лука, зачало 24. (6,17-23)"
+              ],
+              "source_notes": [
+                "Prema Pravoslavno.rs; not Radio Slovo ljubve or independent SPC confirmation. Exact service headings are retained separately in the draft provenance."
+              ]
+            }
+          ],
+          "parse_errors": [],
+          "reference_validation_errors": [],
+          "reference_identity_review": [],
+          "observed_readings": [],
+          "production_eligible": false
+        },
+        "dated_source_evidence": {
+          "source_id": "pravoslavno-rs-daily-readings-2026-10-06",
+          "url": "https://www.pravoslavno.rs/index.php?datum=2026-10-09&q=citanja",
+          "displayed_date": "2026-10-09",
+          "fetched_at": "2026-10-06T17:37:56.559Z",
+          "raw_sha256": "6cc0b1b5d6638bbdded84702c9ec64aac58a2ca2f210d976cbcef795818b7be5",
+          "raw_evidence_path": "acquisition/raw/2026-10-09-attempt1.html",
+          "publisher_attribution": "Pravoslavno.rs / Pravoslavni podsetnik; © Mikro knjiga"
+        },
+        "reading_provenance": [
+          {
+            "reading_index": 0,
+            "source_heading": "Јеванђеље Лука, зачало 24. (6,17-23)",
+            "explicit_service": null,
+            "source_locator": {
+              "section_id": "glavnitekst",
+              "heading_tag": "span",
+              "gospel_heading_ordinal": 1
+            },
+            "runtime_service": "unspecified",
+            "note": "No service label printed for this reading."
+          }
+        ]
+      },
+      {
+        "date": "2026-10-10",
+        "operation": "RECORD_PUBLISHER_REFERENCES_PENDING_REVIEW",
+        "before_sha256": "e258d9793c936e2b060aa51705fde9fd65e17185bc6e2aa293f0db456b728f95",
+        "after": {
+          "status": "SOURCE_RECORDED",
+          "readings": [
+            {
+              "book": "Luke",
+              "segments": [
+                {
+                  "start": {
+                    "chapter": 5,
+                    "verse": 17
+                  },
+                  "end": {
+                    "chapter": 5,
+                    "verse": 26
+                  }
+                }
+              ],
+              "zachalo": 19,
+              "zachalo_numbers": [
+                19
+              ],
+              "zachalo_qualifier": "",
+              "range_precision": "VERSE_RANGE_AS_PRINTED",
+              "service": "unspecified",
+              "role": "source_daily_reading",
+              "source_reference": "Јеванђеље Лука, зачало 19. (5,17-26)",
+              "source_ids": [
+                "pravoslavno-rs-daily-readings-2026-10-06"
+              ]
+            }
+          ],
+          "reason": "single_publisher_references_recorded_service_unassigned_pending_review",
+          "source_ids": [
+            "radio",
+            "eparhija-reading-2026-10-10",
+            "pravoslavno-rs-daily-readings-2026-10-06"
+          ],
+          "service_assignment_status": "UNRESOLVED",
+          "calendar_activation_status": "DRAFT",
+          "complete_service_schedule_verified": false,
+          "source_observations": [
+            {
+              "source_id": "radio",
+              "source_locator": "tr#Datum20261010 absent from 2026 table",
+              "source_row_present": false,
+              "references": [],
+              "source_notes": [],
+              "supplemental_blessing": false
+            },
+            {
+              "source_id": "eparhija-reading-2026-10-10",
+              "source_locator": ".sec: heading Јеванђеље > .beseda-sub",
+              "references": [],
+              "content_missing_label": "Садржај за овај дан још није унет."
+            },
+            {
+              "source_id": "pravoslavno-rs-daily-readings-2026-10-06",
+              "source_locator": "https://www.pravoslavno.rs/index.php?datum=2026-10-10&q=citanja #glavnitekst",
+              "references": [
+                "Јеванђеље Лука, зачало 19. (5,17-26)"
+              ],
+              "source_notes": [
+                "Prema Pravoslavno.rs; not Radio Slovo ljubve or independent SPC confirmation. Exact service headings are retained separately in the draft provenance."
+              ]
+            }
+          ],
+          "parse_errors": [],
+          "reference_validation_errors": [],
+          "reference_identity_review": [],
+          "observed_readings": [],
+          "production_eligible": false
+        },
+        "dated_source_evidence": {
+          "source_id": "pravoslavno-rs-daily-readings-2026-10-06",
+          "url": "https://www.pravoslavno.rs/index.php?datum=2026-10-10&q=citanja",
+          "displayed_date": "2026-10-10",
+          "fetched_at": "2026-10-06T17:37:57.659Z",
+          "raw_sha256": "7d1998bdb5f2469f2aa60fea3821f60b96597139c0378e163dfe29441ff84799",
+          "raw_evidence_path": "acquisition/raw/2026-10-10-attempt1.html",
+          "publisher_attribution": "Pravoslavno.rs / Pravoslavni podsetnik; © Mikro knjiga"
+        },
+        "reading_provenance": [
+          {
+            "reading_index": 0,
+            "source_heading": "Јеванђеље Лука, зачало 19. (5,17-26)",
+            "explicit_service": null,
+            "source_locator": {
+              "section_id": "glavnitekst",
+              "heading_tag": "span",
+              "gospel_heading_ordinal": 1
+            },
+            "runtime_service": "unspecified",
+            "note": "No service label printed for this reading."
+          }
+        ]
+      },
+      {
+        "date": "2026-10-11",
+        "operation": "RECORD_PUBLISHER_REFERENCES_PENDING_REVIEW",
+        "before_sha256": "a5e33bda5975df0e6b9976015ded27f1ce2104419bbb7bce5b7e85bea7ba71cc",
+        "after": {
+          "status": "SOURCE_RECORDED",
+          "readings": [
+            {
+              "book": "Luke",
+              "segments": [
+                {
+                  "start": {
+                    "chapter": 6,
+                    "verse": 31
+                  },
+                  "end": {
+                    "chapter": 6,
+                    "verse": 36
+                  }
+                }
+              ],
+              "zachalo": 26,
+              "zachalo_numbers": [
+                26
+              ],
+              "zachalo_qualifier": "",
+              "range_precision": "VERSE_RANGE_AS_PRINTED",
+              "service": "unspecified",
+              "role": "source_daily_reading",
+              "source_reference": "Јеванђеље Лука, зачало 26. (6,31-36)",
+              "source_ids": [
+                "pravoslavno-rs-daily-readings-2026-10-06"
+              ]
+            }
+          ],
+          "reason": "single_publisher_references_recorded_service_unassigned_pending_review",
+          "source_ids": [
+            "radio",
+            "eparhija-reading-2026-10-11",
+            "pravoslavno-rs-daily-readings-2026-10-06"
+          ],
+          "service_assignment_status": "UNRESOLVED",
+          "calendar_activation_status": "DRAFT",
+          "complete_service_schedule_verified": false,
+          "source_observations": [
+            {
+              "source_id": "radio",
+              "source_locator": "tr#Datum20261011 absent from 2026 table",
+              "source_row_present": false,
+              "references": [],
+              "source_notes": [],
+              "supplemental_blessing": false
+            },
+            {
+              "source_id": "eparhija-reading-2026-10-11",
+              "source_locator": ".sec: heading Јеванђеље > .beseda-sub",
+              "references": [],
+              "content_missing_label": "Садржај за овај дан још није унет."
+            },
+            {
+              "source_id": "pravoslavno-rs-daily-readings-2026-10-06",
+              "source_locator": "https://www.pravoslavno.rs/index.php?datum=2026-10-11&q=citanja #glavnitekst",
+              "references": [
+                "Јеванђеље Лука, зачало 26. (6,31-36)"
+              ],
+              "source_notes": [
+                "Prema Pravoslavno.rs; not Radio Slovo ljubve or independent SPC confirmation. Exact service headings are retained separately in the draft provenance."
+              ]
+            }
+          ],
+          "parse_errors": [],
+          "reference_validation_errors": [],
+          "reference_identity_review": [],
+          "observed_readings": [],
+          "production_eligible": false
+        },
+        "dated_source_evidence": {
+          "source_id": "pravoslavno-rs-daily-readings-2026-10-06",
+          "url": "https://www.pravoslavno.rs/index.php?datum=2026-10-11&q=citanja",
+          "displayed_date": "2026-10-11",
+          "fetched_at": "2026-10-06T17:37:58.761Z",
+          "raw_sha256": "73a2a71408654b74d2770402a0054fa7b8117c4abcd45449685641e06d9d1e1b",
+          "raw_evidence_path": "acquisition/raw/2026-10-11-attempt1.html",
+          "publisher_attribution": "Pravoslavno.rs / Pravoslavni podsetnik; © Mikro knjiga"
+        },
+        "reading_provenance": [
+          {
+            "reading_index": 0,
+            "source_heading": "Јеванђеље Лука, зачало 26. (6,31-36)",
+            "explicit_service": null,
+            "source_locator": {
+              "section_id": "glavnitekst",
+              "heading_tag": "span",
+              "gospel_heading_ordinal": 1
+            },
+            "runtime_service": "unspecified",
+            "note": "No service label printed for this reading."
+          }
+        ]
+      },
+      {
+        "date": "2026-10-12",
+        "operation": "RECORD_PUBLISHER_REFERENCES_PENDING_REVIEW",
+        "before_sha256": "020e13c33d4d414098ae0bfd9df954878c141ca208071c749d621c6c4ebab162",
+        "after": {
+          "status": "SOURCE_RECORDED",
+          "readings": [
+            {
+              "book": "Luke",
+              "segments": [
+                {
+                  "start": {
+                    "chapter": 6,
+                    "verse": 24
+                  },
+                  "end": {
+                    "chapter": 6,
+                    "verse": 30
+                  }
+                }
+              ],
+              "zachalo": 25,
+              "zachalo_numbers": [
+                25
+              ],
+              "zachalo_qualifier": "",
+              "range_precision": "VERSE_RANGE_AS_PRINTED",
+              "service": "unspecified",
+              "role": "source_daily_reading",
+              "source_reference": "Јеванђеље Лука, зачало 25. (6,24-30)",
+              "source_ids": [
+                "pravoslavno-rs-daily-readings-2026-10-06"
+              ]
+            }
+          ],
+          "reason": "single_publisher_references_recorded_service_unassigned_pending_review",
+          "source_ids": [
+            "radio",
+            "eparhija-reading-2026-10-12",
+            "pravoslavno-rs-daily-readings-2026-10-06"
+          ],
+          "service_assignment_status": "UNRESOLVED",
+          "calendar_activation_status": "DRAFT",
+          "complete_service_schedule_verified": false,
+          "source_observations": [
+            {
+              "source_id": "radio",
+              "source_locator": "tr#Datum20261012 absent from 2026 table",
+              "source_row_present": false,
+              "references": [],
+              "source_notes": [],
+              "supplemental_blessing": false
+            },
+            {
+              "source_id": "eparhija-reading-2026-10-12",
+              "source_locator": ".sec: heading Јеванђеље > .beseda-sub",
+              "references": [],
+              "content_missing_label": "Садржај за овај дан још није унет."
+            },
+            {
+              "source_id": "pravoslavno-rs-daily-readings-2026-10-06",
+              "source_locator": "https://www.pravoslavno.rs/index.php?datum=2026-10-12&q=citanja #glavnitekst",
+              "references": [
+                "Јеванђеље Лука, зачало 25. (6,24-30)"
+              ],
+              "source_notes": [
+                "Prema Pravoslavno.rs; not Radio Slovo ljubve or independent SPC confirmation. Exact service headings are retained separately in the draft provenance."
+              ]
+            }
+          ],
+          "parse_errors": [],
+          "reference_validation_errors": [],
+          "reference_identity_review": [],
+          "observed_readings": [],
+          "production_eligible": false
+        },
+        "dated_source_evidence": {
+          "source_id": "pravoslavno-rs-daily-readings-2026-10-06",
+          "url": "https://www.pravoslavno.rs/index.php?datum=2026-10-12&q=citanja",
+          "displayed_date": "2026-10-12",
+          "fetched_at": "2026-10-06T17:37:59.863Z",
+          "raw_sha256": "8397113ee7828ee470b4d69a2e11fbeb9117327d58265a5ca9cd138210c7c4f5",
+          "raw_evidence_path": "acquisition/raw/2026-10-12-attempt1.html",
+          "publisher_attribution": "Pravoslavno.rs / Pravoslavni podsetnik; © Mikro knjiga"
+        },
+        "reading_provenance": [
+          {
+            "reading_index": 0,
+            "source_heading": "Јеванђеље Лука, зачало 25. (6,24-30)",
+            "explicit_service": null,
+            "source_locator": {
+              "section_id": "glavnitekst",
+              "heading_tag": "span",
+              "gospel_heading_ordinal": 1
+            },
+            "runtime_service": "unspecified",
+            "note": "No service label printed for this reading."
+          }
+        ]
+      },
+      {
+        "date": "2026-10-13",
+        "operation": "RECORD_PUBLISHER_REFERENCES_PENDING_REVIEW",
+        "before_sha256": "f026acdf27d43c8906ed726fc120f220ace14922fb893ea77ab94e14b547b869",
+        "after": {
+          "status": "SOURCE_RECORDED",
+          "readings": [
+            {
+              "book": "Luke",
+              "segments": [
+                {
+                  "start": {
+                    "chapter": 6,
+                    "verse": 37
+                  },
+                  "end": {
+                    "chapter": 6,
+                    "verse": 45
+                  }
+                }
+              ],
+              "zachalo": 27,
+              "zachalo_numbers": [
+                27
+              ],
+              "zachalo_qualifier": "",
+              "range_precision": "VERSE_RANGE_AS_PRINTED",
+              "service": "unspecified",
+              "role": "source_daily_reading",
+              "source_reference": "Јеванђеље Лука, зачало 27. (6,37-45)",
+              "source_ids": [
+                "pravoslavno-rs-daily-readings-2026-10-06"
+              ]
+            }
+          ],
+          "reason": "single_publisher_references_recorded_service_unassigned_pending_review",
+          "source_ids": [
+            "radio",
+            "eparhija-reading-2026-10-13",
+            "pravoslavno-rs-daily-readings-2026-10-06"
+          ],
+          "service_assignment_status": "UNRESOLVED",
+          "calendar_activation_status": "DRAFT",
+          "complete_service_schedule_verified": false,
+          "source_observations": [
+            {
+              "source_id": "radio",
+              "source_locator": "tr#Datum20261013 absent from 2026 table",
+              "source_row_present": false,
+              "references": [],
+              "source_notes": [],
+              "supplemental_blessing": false
+            },
+            {
+              "source_id": "eparhija-reading-2026-10-13",
+              "source_locator": ".sec: heading Јеванђеље > .beseda-sub",
+              "references": [],
+              "content_missing_label": "Садржај за овај дан још није унет."
+            },
+            {
+              "source_id": "pravoslavno-rs-daily-readings-2026-10-06",
+              "source_locator": "https://www.pravoslavno.rs/index.php?datum=2026-10-13&q=citanja #glavnitekst",
+              "references": [
+                "Јеванђеље Лука, зачало 27. (6,37-45)"
+              ],
+              "source_notes": [
+                "Prema Pravoslavno.rs; not Radio Slovo ljubve or independent SPC confirmation. Exact service headings are retained separately in the draft provenance."
+              ]
+            }
+          ],
+          "parse_errors": [],
+          "reference_validation_errors": [],
+          "reference_identity_review": [],
+          "observed_readings": [],
+          "production_eligible": false
+        },
+        "dated_source_evidence": {
+          "source_id": "pravoslavno-rs-daily-readings-2026-10-06",
+          "url": "https://www.pravoslavno.rs/index.php?datum=2026-10-13&q=citanja",
+          "displayed_date": "2026-10-13",
+          "fetched_at": "2026-10-06T17:38:00.965Z",
+          "raw_sha256": "f32ebbfd295767d920c7889139f701f24a5f73406a0788325a555f9e431d75b2",
+          "raw_evidence_path": "acquisition/raw/2026-10-13-attempt1.html",
+          "publisher_attribution": "Pravoslavno.rs / Pravoslavni podsetnik; © Mikro knjiga"
+        },
+        "reading_provenance": [
+          {
+            "reading_index": 0,
+            "source_heading": "Јеванђеље Лука, зачало 27. (6,37-45)",
+            "explicit_service": null,
+            "source_locator": {
+              "section_id": "glavnitekst",
+              "heading_tag": "span",
+              "gospel_heading_ordinal": 1
+            },
+            "runtime_service": "unspecified",
+            "note": "No service label printed for this reading."
+          }
+        ]
+      },
+      {
+        "date": "2026-10-14",
+        "operation": "RECORD_PUBLISHER_REFERENCES_PENDING_REVIEW",
+        "before_sha256": "b0c06a7ad1385ecf6311960a622f39b38e82b9a0d4b6c0008e382ac8aad6f0db",
+        "after": {
+          "status": "SOURCE_RECORDED",
+          "readings": [
+            {
+              "book": "Luke",
+              "segments": [
+                {
+                  "start": {
+                    "chapter": 1,
+                    "verse": 39
+                  },
+                  "end": {
+                    "chapter": 1,
+                    "verse": 49
+                  }
+                },
+                {
+                  "start": {
+                    "chapter": 1,
+                    "verse": 56
+                  },
+                  "end": {
+                    "chapter": 1,
+                    "verse": 56
+                  }
+                }
+              ],
+              "zachalo": 4,
+              "zachalo_numbers": [
+                4
+              ],
+              "zachalo_qualifier": "",
+              "range_precision": "VERSE_RANGE_AS_PRINTED",
+              "service": "unspecified",
+              "role": "source_daily_reading",
+              "source_reference": "Свето Јеванђеље од Луке, зачало 4 (1,39-49; 56)",
+              "source_ids": [
+                "pravoslavno-rs-daily-readings-2026-10-06"
+              ]
+            },
+            {
+              "book": "Luke",
+              "segments": [
+                {
+                  "start": {
+                    "chapter": 10,
+                    "verse": 38
+                  },
+                  "end": {
+                    "chapter": 10,
+                    "verse": 42
+                  }
+                },
+                {
+                  "start": {
+                    "chapter": 11,
+                    "verse": 27
+                  },
+                  "end": {
+                    "chapter": 11,
+                    "verse": 28
+                  }
+                }
+              ],
+              "zachalo": 54,
+              "zachalo_numbers": [
+                54,
+                58
+              ],
+              "zachalo_qualifier": "",
+              "range_precision": "VERSE_RANGE_AS_PRINTED",
+              "service": "unspecified",
+              "role": "source_daily_reading",
+              "source_reference": "Свето Јеванђеље од Луке, зачало 54, 58 (10,38-42; 11,27-28)",
+              "source_ids": [
+                "pravoslavno-rs-daily-readings-2026-10-06"
+              ]
+            }
+          ],
+          "reason": "single_publisher_references_recorded_service_unassigned_pending_review",
+          "source_ids": [
+            "radio",
+            "eparhija-reading-2026-10-14",
+            "pravoslavno-rs-daily-readings-2026-10-06"
+          ],
+          "service_assignment_status": "UNRESOLVED",
+          "calendar_activation_status": "DRAFT",
+          "complete_service_schedule_verified": false,
+          "source_observations": [
+            {
+              "source_id": "radio",
+              "source_locator": "tr#Datum20261014 absent from 2026 table",
+              "source_row_present": false,
+              "references": [],
+              "source_notes": [],
+              "supplemental_blessing": false
+            },
+            {
+              "source_id": "eparhija-reading-2026-10-14",
+              "source_locator": ".sec: heading Јеванђеље > .beseda-sub",
+              "references": [],
+              "content_missing_label": "Садржај за овај дан још није унет."
+            },
+            {
+              "source_id": "pravoslavno-rs-daily-readings-2026-10-06",
+              "source_locator": "https://www.pravoslavno.rs/index.php?datum=2026-10-14&q=citanja #glavnitekst",
+              "references": [
+                "Свето Јеванђеље од Луке, зачало 4 (1,39-49; 56)",
+                "Свето Јеванђеље од Луке, зачало 54, 58 (10,38-42; 11,27-28)"
+              ],
+              "source_notes": [
+                "Prema Pravoslavno.rs; not Radio Slovo ljubve or independent SPC confirmation. Exact service headings are retained separately in the draft provenance."
+              ]
+            }
+          ],
+          "parse_errors": [],
+          "reference_validation_errors": [],
+          "reference_identity_review": [],
+          "observed_readings": [],
+          "production_eligible": false
+        },
+        "dated_source_evidence": {
+          "source_id": "pravoslavno-rs-daily-readings-2026-10-06",
+          "url": "https://www.pravoslavno.rs/index.php?datum=2026-10-14&q=citanja",
+          "displayed_date": "2026-10-14",
+          "fetched_at": "2026-10-06T17:38:02.067Z",
+          "raw_sha256": "3e7ced696449e6669b4d3d8ff71210db41ea873e25f202468432b5e6bdff3919",
+          "raw_evidence_path": "acquisition/raw/2026-10-14-attempt1.html",
+          "publisher_attribution": "Pravoslavno.rs / Pravoslavni podsetnik; © Mikro knjiga"
+        },
+        "reading_provenance": [
+          {
+            "reading_index": 0,
+            "source_heading": "Свето Јеванђеље од Луке, зачало 4 (1,39-49; 56)",
+            "explicit_service": {
+              "source_label": "Јутрење",
+              "normalized_label": "matins"
+            },
+            "source_locator": {
+              "section_id": "glavnitekst",
+              "heading_tag": "b",
+              "gospel_heading_ordinal": 1
+            },
+            "runtime_service": "unspecified",
+            "note": "Printed service retained as publisher provenance; not promoted to independently confirmed SPC service assignment."
+          },
+          {
+            "reading_index": 1,
+            "source_heading": "Свето Јеванђеље од Луке, зачало 54, 58 (10,38-42; 11,27-28)",
+            "explicit_service": {
+              "source_label": "Литургија",
+              "normalized_label": "liturgy"
+            },
+            "source_locator": {
+              "section_id": "glavnitekst",
+              "heading_tag": "b",
+              "gospel_heading_ordinal": 2
+            },
+            "runtime_service": "unspecified",
+            "note": "Printed service retained as publisher provenance; not promoted to independently confirmed SPC service assignment."
+          }
+        ]
+      },
+      {
+        "date": "2026-10-15",
+        "operation": "RECORD_PUBLISHER_REFERENCES_PENDING_REVIEW",
+        "before_sha256": "62b00e0fd45bb0067800405575bfa425a13825993474c61b016af4493162b35e",
+        "after": {
+          "status": "SOURCE_RECORDED",
+          "readings": [
+            {
+              "book": "Luke",
+              "segments": [
+                {
+                  "start": {
+                    "chapter": 7,
+                    "verse": 17
+                  },
+                  "end": {
+                    "chapter": 7,
+                    "verse": 30
+                  }
+                }
+              ],
+              "zachalo": 31,
+              "zachalo_numbers": [
+                31
+              ],
+              "zachalo_qualifier": "",
+              "range_precision": "VERSE_RANGE_AS_PRINTED",
+              "service": "unspecified",
+              "role": "source_daily_reading",
+              "source_reference": "Јеванђеље Лука, зачало 31. (7,17-30)",
+              "source_ids": [
+                "pravoslavno-rs-daily-readings-2026-10-06"
+              ]
+            }
+          ],
+          "reason": "single_publisher_references_recorded_service_unassigned_pending_review",
+          "source_ids": [
+            "radio",
+            "eparhija-reading-2026-10-15",
+            "pravoslavno-rs-daily-readings-2026-10-06"
+          ],
+          "service_assignment_status": "UNRESOLVED",
+          "calendar_activation_status": "DRAFT",
+          "complete_service_schedule_verified": false,
+          "source_observations": [
+            {
+              "source_id": "radio",
+              "source_locator": "tr#Datum20261015 absent from 2026 table",
+              "source_row_present": false,
+              "references": [],
+              "source_notes": [],
+              "supplemental_blessing": false
+            },
+            {
+              "source_id": "eparhija-reading-2026-10-15",
+              "source_locator": ".sec: heading Јеванђеље > .beseda-sub",
+              "references": [],
+              "content_missing_label": "Садржај за овај дан још није унет."
+            },
+            {
+              "source_id": "pravoslavno-rs-daily-readings-2026-10-06",
+              "source_locator": "https://www.pravoslavno.rs/index.php?datum=2026-10-15&q=citanja #glavnitekst",
+              "references": [
+                "Јеванђеље Лука, зачало 31. (7,17-30)"
+              ],
+              "source_notes": [
+                "Prema Pravoslavno.rs; not Radio Slovo ljubve or independent SPC confirmation. Exact service headings are retained separately in the draft provenance."
+              ]
+            }
+          ],
+          "parse_errors": [],
+          "reference_validation_errors": [],
+          "reference_identity_review": [],
+          "observed_readings": [],
+          "production_eligible": false
+        },
+        "dated_source_evidence": {
+          "source_id": "pravoslavno-rs-daily-readings-2026-10-06",
+          "url": "https://www.pravoslavno.rs/index.php?datum=2026-10-15&q=citanja",
+          "displayed_date": "2026-10-15",
+          "fetched_at": "2026-10-06T17:38:03.168Z",
+          "raw_sha256": "1b558ca0af02a4936cb2b698953caaefda17dd49dbd6daa80aa31f7f7cd2e23d",
+          "raw_evidence_path": "acquisition/raw/2026-10-15-attempt1.html",
+          "publisher_attribution": "Pravoslavno.rs / Pravoslavni podsetnik; © Mikro knjiga"
+        },
+        "reading_provenance": [
+          {
+            "reading_index": 0,
+            "source_heading": "Јеванђеље Лука, зачало 31. (7,17-30)",
+            "explicit_service": null,
+            "source_locator": {
+              "section_id": "glavnitekst",
+              "heading_tag": "span",
+              "gospel_heading_ordinal": 1
+            },
+            "runtime_service": "unspecified",
+            "note": "No service label printed for this reading."
+          }
+        ]
+      },
+      {
+        "date": "2026-10-16",
+        "operation": "RECORD_PUBLISHER_REFERENCES_PENDING_REVIEW",
+        "before_sha256": "b240f84ffb92aa2b3dd79168bbf699df54cc8c8b38558613e9b7c118a3f6921b",
+        "after": {
+          "status": "SOURCE_RECORDED",
+          "readings": [
+            {
+              "book": "Luke",
+              "segments": [
+                {
+                  "start": {
+                    "chapter": 7,
+                    "verse": 31
+                  },
+                  "end": {
+                    "chapter": 7,
+                    "verse": 35
+                  }
+                }
+              ],
+              "zachalo": 32,
+              "zachalo_numbers": [
+                32
+              ],
+              "zachalo_qualifier": "",
+              "range_precision": "VERSE_RANGE_AS_PRINTED",
+              "service": "unspecified",
+              "role": "source_daily_reading",
+              "source_reference": "Јеванђеље Лука, зачало 32. (7,31-35)",
+              "source_ids": [
+                "pravoslavno-rs-daily-readings-2026-10-06"
+              ]
+            }
+          ],
+          "reason": "single_publisher_references_recorded_service_unassigned_pending_review",
+          "source_ids": [
+            "radio",
+            "eparhija-reading-2026-10-16",
+            "pravoslavno-rs-daily-readings-2026-10-06"
+          ],
+          "service_assignment_status": "UNRESOLVED",
+          "calendar_activation_status": "DRAFT",
+          "complete_service_schedule_verified": false,
+          "source_observations": [
+            {
+              "source_id": "radio",
+              "source_locator": "tr#Datum20261016 absent from 2026 table",
+              "source_row_present": false,
+              "references": [],
+              "source_notes": [],
+              "supplemental_blessing": false
+            },
+            {
+              "source_id": "eparhija-reading-2026-10-16",
+              "source_locator": ".sec: heading Јеванђеље > .beseda-sub",
+              "references": [],
+              "content_missing_label": "Садржај за овај дан још није унет."
+            },
+            {
+              "source_id": "pravoslavno-rs-daily-readings-2026-10-06",
+              "source_locator": "https://www.pravoslavno.rs/index.php?datum=2026-10-16&q=citanja #glavnitekst",
+              "references": [
+                "Јеванђеље Лука, зачало 32. (7,31-35)"
+              ],
+              "source_notes": [
+                "Prema Pravoslavno.rs; not Radio Slovo ljubve or independent SPC confirmation. Exact service headings are retained separately in the draft provenance."
+              ]
+            }
+          ],
+          "parse_errors": [],
+          "reference_validation_errors": [],
+          "reference_identity_review": [],
+          "observed_readings": [],
+          "production_eligible": false
+        },
+        "dated_source_evidence": {
+          "source_id": "pravoslavno-rs-daily-readings-2026-10-06",
+          "url": "https://www.pravoslavno.rs/index.php?datum=2026-10-16&q=citanja",
+          "displayed_date": "2026-10-16",
+          "fetched_at": "2026-10-06T17:38:04.269Z",
+          "raw_sha256": "3b744cddd422abaaa63f6f9e7197edb5e8e24f684a98501c4a952595c81d6e5a",
+          "raw_evidence_path": "acquisition/raw/2026-10-16-attempt1.html",
+          "publisher_attribution": "Pravoslavno.rs / Pravoslavni podsetnik; © Mikro knjiga"
+        },
+        "reading_provenance": [
+          {
+            "reading_index": 0,
+            "source_heading": "Јеванђеље Лука, зачало 32. (7,31-35)",
+            "explicit_service": null,
+            "source_locator": {
+              "section_id": "glavnitekst",
+              "heading_tag": "span",
+              "gospel_heading_ordinal": 1
+            },
+            "runtime_service": "unspecified",
+            "note": "No service label printed for this reading."
+          }
+        ]
+      },
+      {
+        "date": "2026-10-17",
+        "operation": "RECORD_PUBLISHER_REFERENCES_PENDING_REVIEW",
+        "before_sha256": "9441d03f3f94ad1995e559b5d66e48a0ee1013413eca4142ecd2ac8bb19551e3",
+        "after": {
+          "status": "SOURCE_RECORDED",
+          "readings": [
+            {
+              "book": "Luke",
+              "segments": [
+                {
+                  "start": {
+                    "chapter": 5,
+                    "verse": 27
+                  },
+                  "end": {
+                    "chapter": 5,
+                    "verse": 32
+                  }
+                }
+              ],
+              "zachalo": 20,
+              "zachalo_numbers": [
+                20
+              ],
+              "zachalo_qualifier": "",
+              "range_precision": "VERSE_RANGE_AS_PRINTED",
+              "service": "unspecified",
+              "role": "source_daily_reading",
+              "source_reference": "Јеванђеље Лука, зачало 20. (5,27-32)",
+              "source_ids": [
+                "pravoslavno-rs-daily-readings-2026-10-06"
+              ]
+            }
+          ],
+          "reason": "single_publisher_references_recorded_service_unassigned_pending_review",
+          "source_ids": [
+            "radio",
+            "eparhija-reading-2026-10-17",
+            "pravoslavno-rs-daily-readings-2026-10-06"
+          ],
+          "service_assignment_status": "UNRESOLVED",
+          "calendar_activation_status": "DRAFT",
+          "complete_service_schedule_verified": false,
+          "source_observations": [
+            {
+              "source_id": "radio",
+              "source_locator": "tr#Datum20261017 absent from 2026 table",
+              "source_row_present": false,
+              "references": [],
+              "source_notes": [],
+              "supplemental_blessing": false
+            },
+            {
+              "source_id": "eparhija-reading-2026-10-17",
+              "source_locator": ".sec: heading Јеванђеље > .beseda-sub",
+              "references": [],
+              "content_missing_label": "Садржај за овај дан још није унет."
+            },
+            {
+              "source_id": "pravoslavno-rs-daily-readings-2026-10-06",
+              "source_locator": "https://www.pravoslavno.rs/index.php?datum=2026-10-17&q=citanja #glavnitekst",
+              "references": [
+                "Јеванђеље Лука, зачало 20. (5,27-32)"
+              ],
+              "source_notes": [
+                "Prema Pravoslavno.rs; not Radio Slovo ljubve or independent SPC confirmation. Exact service headings are retained separately in the draft provenance."
+              ]
+            }
+          ],
+          "parse_errors": [],
+          "reference_validation_errors": [],
+          "reference_identity_review": [],
+          "observed_readings": [],
+          "production_eligible": false
+        },
+        "dated_source_evidence": {
+          "source_id": "pravoslavno-rs-daily-readings-2026-10-06",
+          "url": "https://www.pravoslavno.rs/index.php?datum=2026-10-17&q=citanja",
+          "displayed_date": "2026-10-17",
+          "fetched_at": "2026-10-06T17:38:05.370Z",
+          "raw_sha256": "c135bd395d752684e3a0ca68e851033b295ef19f52a310ff911284f6a25d4608",
+          "raw_evidence_path": "acquisition/raw/2026-10-17-attempt1.html",
+          "publisher_attribution": "Pravoslavno.rs / Pravoslavni podsetnik; © Mikro knjiga"
+        },
+        "reading_provenance": [
+          {
+            "reading_index": 0,
+            "source_heading": "Јеванђеље Лука, зачало 20. (5,27-32)",
+            "explicit_service": null,
+            "source_locator": {
+              "section_id": "glavnitekst",
+              "heading_tag": "span",
+              "gospel_heading_ordinal": 1
+            },
+            "runtime_service": "unspecified",
+            "note": "No service label printed for this reading."
+          }
+        ]
+      },
+      {
+        "date": "2026-10-18",
+        "operation": "RECORD_PUBLISHER_REFERENCES_PENDING_REVIEW",
+        "before_sha256": "1f3bfa129d158e3bdb795b92399104d6a5847565d685b59caf04d9c74a79e30a",
+        "after": {
+          "status": "SOURCE_RECORDED",
+          "readings": [
+            {
+              "book": "Luke",
+              "segments": [
+                {
+                  "start": {
+                    "chapter": 7,
+                    "verse": 11
+                  },
+                  "end": {
+                    "chapter": 7,
+                    "verse": 16
+                  }
+                }
+              ],
+              "zachalo": 30,
+              "zachalo_numbers": [
+                30
+              ],
+              "zachalo_qualifier": "",
+              "range_precision": "VERSE_RANGE_AS_PRINTED",
+              "service": "unspecified",
+              "role": "source_daily_reading",
+              "source_reference": "Јеванђеље Лука, зачало 30. (7,11-16)",
+              "source_ids": [
+                "pravoslavno-rs-daily-readings-2026-10-06"
+              ]
+            }
+          ],
+          "reason": "single_publisher_references_recorded_service_unassigned_pending_review",
+          "source_ids": [
+            "radio",
+            "eparhija-reading-2026-10-18",
+            "pravoslavno-rs-daily-readings-2026-10-06"
+          ],
+          "service_assignment_status": "UNRESOLVED",
+          "calendar_activation_status": "DRAFT",
+          "complete_service_schedule_verified": false,
+          "source_observations": [
+            {
+              "source_id": "radio",
+              "source_locator": "tr#Datum20261018 absent from 2026 table",
+              "source_row_present": false,
+              "references": [],
+              "source_notes": [],
+              "supplemental_blessing": false
+            },
+            {
+              "source_id": "eparhija-reading-2026-10-18",
+              "source_locator": ".sec: heading Јеванђеље > .beseda-sub",
+              "references": [],
+              "content_missing_label": "Садржај за овај дан још није унет."
+            },
+            {
+              "source_id": "pravoslavno-rs-daily-readings-2026-10-06",
+              "source_locator": "https://www.pravoslavno.rs/index.php?datum=2026-10-18&q=citanja #glavnitekst",
+              "references": [
+                "Јеванђеље Лука, зачало 30. (7,11-16)"
+              ],
+              "source_notes": [
+                "Prema Pravoslavno.rs; not Radio Slovo ljubve or independent SPC confirmation. Exact service headings are retained separately in the draft provenance."
+              ]
+            }
+          ],
+          "parse_errors": [],
+          "reference_validation_errors": [],
+          "reference_identity_review": [],
+          "observed_readings": [],
+          "production_eligible": false
+        },
+        "dated_source_evidence": {
+          "source_id": "pravoslavno-rs-daily-readings-2026-10-06",
+          "url": "https://www.pravoslavno.rs/index.php?datum=2026-10-18&q=citanja",
+          "displayed_date": "2026-10-18",
+          "fetched_at": "2026-10-06T17:38:06.473Z",
+          "raw_sha256": "31c8450a79152f68677b98c6109e26cd4375825e8a05a4bdf0685d2c44df3086",
+          "raw_evidence_path": "acquisition/raw/2026-10-18-attempt1.html",
+          "publisher_attribution": "Pravoslavno.rs / Pravoslavni podsetnik; © Mikro knjiga"
+        },
+        "reading_provenance": [
+          {
+            "reading_index": 0,
+            "source_heading": "Јеванђеље Лука, зачало 30. (7,11-16)",
+            "explicit_service": null,
+            "source_locator": {
+              "section_id": "glavnitekst",
+              "heading_tag": "span",
+              "gospel_heading_ordinal": 1
+            },
+            "runtime_service": "unspecified",
+            "note": "No service label printed for this reading."
+          }
+        ]
+      },
+      {
+        "date": "2026-10-19",
+        "operation": "RECORD_PUBLISHER_REFERENCES_PENDING_REVIEW",
+        "before_sha256": "ddf38368ce5be9beb1230d4540c8dab7f0238170229fa6038c050f818ccaf1bc",
+        "after": {
+          "status": "SOURCE_RECORDED",
+          "readings": [
+            {
+              "book": "Luke",
+              "segments": [
+                {
+                  "start": {
+                    "chapter": 7,
+                    "verse": 36
+                  },
+                  "end": {
+                    "chapter": 7,
+                    "verse": 50
+                  }
+                }
+              ],
+              "zachalo": 33,
+              "zachalo_numbers": [
+                33
+              ],
+              "zachalo_qualifier": "",
+              "range_precision": "VERSE_RANGE_AS_PRINTED",
+              "service": "unspecified",
+              "role": "source_daily_reading",
+              "source_reference": "Јеванђеље Лука, зачало 33. (7,36-50)",
+              "source_ids": [
+                "pravoslavno-rs-daily-readings-2026-10-06"
+              ]
+            }
+          ],
+          "reason": "single_publisher_references_recorded_service_unassigned_pending_review",
+          "source_ids": [
+            "radio",
+            "eparhija-reading-2026-10-19",
+            "pravoslavno-rs-daily-readings-2026-10-06"
+          ],
+          "service_assignment_status": "UNRESOLVED",
+          "calendar_activation_status": "DRAFT",
+          "complete_service_schedule_verified": false,
+          "source_observations": [
+            {
+              "source_id": "radio",
+              "source_locator": "tr#Datum20261019 absent from 2026 table",
+              "source_row_present": false,
+              "references": [],
+              "source_notes": [],
+              "supplemental_blessing": false
+            },
+            {
+              "source_id": "eparhija-reading-2026-10-19",
+              "source_locator": ".sec: heading Јеванђеље > .beseda-sub",
+              "references": [],
+              "content_missing_label": "Садржај за овај дан још није унет."
+            },
+            {
+              "source_id": "pravoslavno-rs-daily-readings-2026-10-06",
+              "source_locator": "https://www.pravoslavno.rs/index.php?datum=2026-10-19&q=citanja #glavnitekst",
+              "references": [
+                "Јеванђеље Лука, зачало 33. (7,36-50)"
+              ],
+              "source_notes": [
+                "Prema Pravoslavno.rs; not Radio Slovo ljubve or independent SPC confirmation. Exact service headings are retained separately in the draft provenance."
+              ]
+            }
+          ],
+          "parse_errors": [],
+          "reference_validation_errors": [],
+          "reference_identity_review": [],
+          "observed_readings": [],
+          "production_eligible": false
+        },
+        "dated_source_evidence": {
+          "source_id": "pravoslavno-rs-daily-readings-2026-10-06",
+          "url": "https://www.pravoslavno.rs/index.php?datum=2026-10-19&q=citanja",
+          "displayed_date": "2026-10-19",
+          "fetched_at": "2026-10-06T17:38:07.576Z",
+          "raw_sha256": "29e2e8119101c80081696b1f59645071c9f254fe9c681a8872721fb7f7af3d74",
+          "raw_evidence_path": "acquisition/raw/2026-10-19-attempt1.html",
+          "publisher_attribution": "Pravoslavno.rs / Pravoslavni podsetnik; © Mikro knjiga"
+        },
+        "reading_provenance": [
+          {
+            "reading_index": 0,
+            "source_heading": "Јеванђеље Лука, зачало 33. (7,36-50)",
+            "explicit_service": null,
+            "source_locator": {
+              "section_id": "glavnitekst",
+              "heading_tag": "span",
+              "gospel_heading_ordinal": 1
+            },
+            "runtime_service": "unspecified",
+            "note": "No service label printed for this reading."
+          }
+        ]
+      },
+      {
+        "date": "2026-10-20",
+        "operation": "RECORD_PUBLISHER_REFERENCES_PENDING_REVIEW",
+        "before_sha256": "87a5f3b758038f644b1e5d57fec4ca30bda234c1d4fbb61161d5674052e7f204",
+        "after": {
+          "status": "SOURCE_RECORDED",
+          "readings": [
+            {
+              "book": "Luke",
+              "segments": [
+                {
+                  "start": {
+                    "chapter": 8,
+                    "verse": 1
+                  },
+                  "end": {
+                    "chapter": 8,
+                    "verse": 3
+                  }
+                }
+              ],
+              "zachalo": 34,
+              "zachalo_numbers": [
+                34
+              ],
+              "zachalo_qualifier": "",
+              "range_precision": "VERSE_RANGE_AS_PRINTED",
+              "service": "unspecified",
+              "role": "source_daily_reading",
+              "source_reference": "Јеванђеље Лука, зачало 34. (8,1-3)",
+              "source_ids": [
+                "pravoslavno-rs-daily-readings-2026-10-06"
+              ]
+            }
+          ],
+          "reason": "single_publisher_references_recorded_service_unassigned_pending_review",
+          "source_ids": [
+            "radio",
+            "eparhija-reading-2026-10-20",
+            "pravoslavno-rs-daily-readings-2026-10-06"
+          ],
+          "service_assignment_status": "UNRESOLVED",
+          "calendar_activation_status": "DRAFT",
+          "complete_service_schedule_verified": false,
+          "source_observations": [
+            {
+              "source_id": "radio",
+              "source_locator": "tr#Datum20261020 absent from 2026 table",
+              "source_row_present": false,
+              "references": [],
+              "source_notes": [],
+              "supplemental_blessing": false
+            },
+            {
+              "source_id": "eparhija-reading-2026-10-20",
+              "source_locator": ".sec: heading Јеванђеље > .beseda-sub",
+              "references": [],
+              "content_missing_label": "Садржај за овај дан још није унет."
+            },
+            {
+              "source_id": "pravoslavno-rs-daily-readings-2026-10-06",
+              "source_locator": "https://www.pravoslavno.rs/index.php?datum=2026-10-20&q=citanja #glavnitekst",
+              "references": [
+                "Јеванђеље Лука, зачало 34. (8,1-3)"
+              ],
+              "source_notes": [
+                "Prema Pravoslavno.rs; not Radio Slovo ljubve or independent SPC confirmation. Exact service headings are retained separately in the draft provenance."
+              ]
+            }
+          ],
+          "parse_errors": [],
+          "reference_validation_errors": [],
+          "reference_identity_review": [],
+          "observed_readings": [],
+          "production_eligible": false
+        },
+        "dated_source_evidence": {
+          "source_id": "pravoslavno-rs-daily-readings-2026-10-06",
+          "url": "https://www.pravoslavno.rs/index.php?datum=2026-10-20&q=citanja",
+          "displayed_date": "2026-10-20",
+          "fetched_at": "2026-10-06T17:38:08.677Z",
+          "raw_sha256": "f21bbea2ed5a12c5a3e6de17a24dbb4370d3f44005fc592fa4ef4c44907b6c3b",
+          "raw_evidence_path": "acquisition/raw/2026-10-20-attempt1.html",
+          "publisher_attribution": "Pravoslavno.rs / Pravoslavni podsetnik; © Mikro knjiga"
+        },
+        "reading_provenance": [
+          {
+            "reading_index": 0,
+            "source_heading": "Јеванђеље Лука, зачало 34. (8,1-3)",
+            "explicit_service": null,
+            "source_locator": {
+              "section_id": "glavnitekst",
+              "heading_tag": "span",
+              "gospel_heading_ordinal": 1
+            },
+            "runtime_service": "unspecified",
+            "note": "No service label printed for this reading."
+          }
+        ]
+      },
+      {
+        "date": "2026-10-21",
+        "operation": "RECORD_PUBLISHER_REFERENCES_PENDING_REVIEW",
+        "before_sha256": "5f30b654d68e8bacd09029735be2d2037a37179e0b714b74d822c2a2e37e71a8",
+        "after": {
+          "status": "SOURCE_RECORDED",
+          "readings": [
+            {
+              "book": "Luke",
+              "segments": [
+                {
+                  "start": {
+                    "chapter": 8,
+                    "verse": 22
+                  },
+                  "end": {
+                    "chapter": 8,
+                    "verse": 25
+                  }
+                }
+              ],
+              "zachalo": 37,
+              "zachalo_numbers": [
+                37
+              ],
+              "zachalo_qualifier": "",
+              "range_precision": "VERSE_RANGE_AS_PRINTED",
+              "service": "unspecified",
+              "role": "source_daily_reading",
+              "source_reference": "Јеванђеље Лука, зачало 37. (8,22-25)",
+              "source_ids": [
+                "pravoslavno-rs-daily-readings-2026-10-06"
+              ]
+            }
+          ],
+          "reason": "single_publisher_references_recorded_service_unassigned_pending_review",
+          "source_ids": [
+            "radio",
+            "eparhija-reading-2026-10-21",
+            "pravoslavno-rs-daily-readings-2026-10-06"
+          ],
+          "service_assignment_status": "UNRESOLVED",
+          "calendar_activation_status": "DRAFT",
+          "complete_service_schedule_verified": false,
+          "source_observations": [
+            {
+              "source_id": "radio",
+              "source_locator": "tr#Datum20261021 absent from 2026 table",
+              "source_row_present": false,
+              "references": [],
+              "source_notes": [],
+              "supplemental_blessing": false
+            },
+            {
+              "source_id": "eparhija-reading-2026-10-21",
+              "source_locator": ".sec: heading Јеванђеље > .beseda-sub",
+              "references": [],
+              "content_missing_label": "Садржај за овај дан још није унет."
+            },
+            {
+              "source_id": "pravoslavno-rs-daily-readings-2026-10-06",
+              "source_locator": "https://www.pravoslavno.rs/index.php?datum=2026-10-21&q=citanja #glavnitekst",
+              "references": [
+                "Јеванђеље Лука, зачало 37. (8,22-25)"
+              ],
+              "source_notes": [
+                "Prema Pravoslavno.rs; not Radio Slovo ljubve or independent SPC confirmation. Exact service headings are retained separately in the draft provenance."
+              ]
+            }
+          ],
+          "parse_errors": [],
+          "reference_validation_errors": [],
+          "reference_identity_review": [],
+          "observed_readings": [],
+          "production_eligible": false
+        },
+        "dated_source_evidence": {
+          "source_id": "pravoslavno-rs-daily-readings-2026-10-06",
+          "url": "https://www.pravoslavno.rs/index.php?datum=2026-10-21&q=citanja",
+          "displayed_date": "2026-10-21",
+          "fetched_at": "2026-10-06T17:38:09.779Z",
+          "raw_sha256": "85e48c9bee4803d974bd1d332d7f91d0fa841065898e7d080cc9727ee709dc6b",
+          "raw_evidence_path": "acquisition/raw/2026-10-21-attempt1.html",
+          "publisher_attribution": "Pravoslavno.rs / Pravoslavni podsetnik; © Mikro knjiga"
+        },
+        "reading_provenance": [
+          {
+            "reading_index": 0,
+            "source_heading": "Јеванђеље Лука, зачало 37. (8,22-25)",
+            "explicit_service": null,
+            "source_locator": {
+              "section_id": "glavnitekst",
+              "heading_tag": "span",
+              "gospel_heading_ordinal": 1
+            },
+            "runtime_service": "unspecified",
+            "note": "No service label printed for this reading."
+          }
+        ]
+      },
+      {
+        "date": "2026-10-22",
+        "operation": "RECORD_PUBLISHER_REFERENCES_PENDING_REVIEW",
+        "before_sha256": "29a575eaca3d611f2034326806d1524a4a1724e1770e89f42970a2672d02cbf9",
+        "after": {
+          "status": "SOURCE_RECORDED",
+          "readings": [
+            {
+              "book": "Luke",
+              "segments": [
+                {
+                  "start": {
+                    "chapter": 9,
+                    "verse": 7
+                  },
+                  "end": {
+                    "chapter": 9,
+                    "verse": 11
+                  }
+                }
+              ],
+              "zachalo": 41,
+              "zachalo_numbers": [
+                41
+              ],
+              "zachalo_qualifier": "",
+              "range_precision": "VERSE_RANGE_AS_PRINTED",
+              "service": "unspecified",
+              "role": "source_daily_reading",
+              "source_reference": "Јеванђеље Лука, зачало 41. (9,7-11)",
+              "source_ids": [
+                "pravoslavno-rs-daily-readings-2026-10-06"
+              ]
+            }
+          ],
+          "reason": "single_publisher_references_recorded_service_unassigned_pending_review",
+          "source_ids": [
+            "radio",
+            "eparhija-reading-2026-10-22",
+            "pravoslavno-rs-daily-readings-2026-10-06"
+          ],
+          "service_assignment_status": "UNRESOLVED",
+          "calendar_activation_status": "DRAFT",
+          "complete_service_schedule_verified": false,
+          "source_observations": [
+            {
+              "source_id": "radio",
+              "source_locator": "tr#Datum20261022 absent from 2026 table",
+              "source_row_present": false,
+              "references": [],
+              "source_notes": [],
+              "supplemental_blessing": false
+            },
+            {
+              "source_id": "eparhija-reading-2026-10-22",
+              "source_locator": ".sec: heading Јеванђеље > .beseda-sub",
+              "references": [],
+              "content_missing_label": "Садржај за овај дан још није унет."
+            },
+            {
+              "source_id": "pravoslavno-rs-daily-readings-2026-10-06",
+              "source_locator": "https://www.pravoslavno.rs/index.php?datum=2026-10-22&q=citanja #glavnitekst",
+              "references": [
+                "Јеванђеље Лука, зачало 41. (9,7-11)"
+              ],
+              "source_notes": [
+                "Prema Pravoslavno.rs; not Radio Slovo ljubve or independent SPC confirmation. Exact service headings are retained separately in the draft provenance."
+              ]
+            }
+          ],
+          "parse_errors": [],
+          "reference_validation_errors": [],
+          "reference_identity_review": [],
+          "observed_readings": [],
+          "production_eligible": false
+        },
+        "dated_source_evidence": {
+          "source_id": "pravoslavno-rs-daily-readings-2026-10-06",
+          "url": "https://www.pravoslavno.rs/index.php?datum=2026-10-22&q=citanja",
+          "displayed_date": "2026-10-22",
+          "fetched_at": "2026-10-06T17:38:10.881Z",
+          "raw_sha256": "5dada750d680f8aa1d72e1b27428a288683db3190a10b59d27ce07178021f417",
+          "raw_evidence_path": "acquisition/raw/2026-10-22-attempt1.html",
+          "publisher_attribution": "Pravoslavno.rs / Pravoslavni podsetnik; © Mikro knjiga"
+        },
+        "reading_provenance": [
+          {
+            "reading_index": 0,
+            "source_heading": "Јеванђеље Лука, зачало 41. (9,7-11)",
+            "explicit_service": null,
+            "source_locator": {
+              "section_id": "glavnitekst",
+              "heading_tag": "span",
+              "gospel_heading_ordinal": 1
+            },
+            "runtime_service": "unspecified",
+            "note": "No service label printed for this reading."
+          }
+        ]
+      },
+      {
+        "date": "2026-10-23",
+        "operation": "RECORD_PUBLISHER_REFERENCES_PENDING_REVIEW",
+        "before_sha256": "e5a5ddd51380191f307d670d52834e72a40dae207125638a314b0294b06557ec",
+        "after": {
+          "status": "SOURCE_RECORDED",
+          "readings": [
+            {
+              "book": "Luke",
+              "segments": [
+                {
+                  "start": {
+                    "chapter": 9,
+                    "verse": 12
+                  },
+                  "end": {
+                    "chapter": 9,
+                    "verse": 18
+                  }
+                }
+              ],
+              "zachalo": 42,
+              "zachalo_numbers": [
+                42
+              ],
+              "zachalo_qualifier": "",
+              "range_precision": "VERSE_RANGE_AS_PRINTED",
+              "service": "unspecified",
+              "role": "source_daily_reading",
+              "source_reference": "Јеванђеље Лука, зачало 42. (9,12-18)",
+              "source_ids": [
+                "pravoslavno-rs-daily-readings-2026-10-06"
+              ]
+            }
+          ],
+          "reason": "single_publisher_references_recorded_service_unassigned_pending_review",
+          "source_ids": [
+            "radio",
+            "eparhija-reading-2026-10-23",
+            "pravoslavno-rs-daily-readings-2026-10-06"
+          ],
+          "service_assignment_status": "UNRESOLVED",
+          "calendar_activation_status": "DRAFT",
+          "complete_service_schedule_verified": false,
+          "source_observations": [
+            {
+              "source_id": "radio",
+              "source_locator": "tr#Datum20261023 absent from 2026 table",
+              "source_row_present": false,
+              "references": [],
+              "source_notes": [],
+              "supplemental_blessing": false
+            },
+            {
+              "source_id": "eparhija-reading-2026-10-23",
+              "source_locator": ".sec: heading Јеванђеље > .beseda-sub",
+              "references": [],
+              "content_missing_label": "Садржај за овај дан још није унет."
+            },
+            {
+              "source_id": "pravoslavno-rs-daily-readings-2026-10-06",
+              "source_locator": "https://www.pravoslavno.rs/index.php?datum=2026-10-23&q=citanja #glavnitekst",
+              "references": [
+                "Јеванђеље Лука, зачало 42. (9,12-18)"
+              ],
+              "source_notes": [
+                "Prema Pravoslavno.rs; not Radio Slovo ljubve or independent SPC confirmation. Exact service headings are retained separately in the draft provenance."
+              ]
+            }
+          ],
+          "parse_errors": [],
+          "reference_validation_errors": [],
+          "reference_identity_review": [],
+          "observed_readings": [],
+          "production_eligible": false
+        },
+        "dated_source_evidence": {
+          "source_id": "pravoslavno-rs-daily-readings-2026-10-06",
+          "url": "https://www.pravoslavno.rs/index.php?datum=2026-10-23&q=citanja",
+          "displayed_date": "2026-10-23",
+          "fetched_at": "2026-10-06T17:38:11.984Z",
+          "raw_sha256": "7310d5f15af792e0bfbc66adf414f09003db0469e45e32f99719dd836b2a0d57",
+          "raw_evidence_path": "acquisition/raw/2026-10-23-attempt1.html",
+          "publisher_attribution": "Pravoslavno.rs / Pravoslavni podsetnik; © Mikro knjiga"
+        },
+        "reading_provenance": [
+          {
+            "reading_index": 0,
+            "source_heading": "Јеванђеље Лука, зачало 42. (9,12-18)",
+            "explicit_service": null,
+            "source_locator": {
+              "section_id": "glavnitekst",
+              "heading_tag": "span",
+              "gospel_heading_ordinal": 1
+            },
+            "runtime_service": "unspecified",
+            "note": "No service label printed for this reading."
+          }
+        ]
+      },
+      {
+        "date": "2026-10-24",
+        "operation": "RECORD_PUBLISHER_REFERENCES_PENDING_REVIEW",
+        "before_sha256": "bd0f69c51ddb8bc5538a1f4ba3c3720d8c27825564c5008b7ed74a6859720b93",
+        "after": {
+          "status": "SOURCE_RECORDED",
+          "readings": [
+            {
+              "book": "Luke",
+              "segments": [
+                {
+                  "start": {
+                    "chapter": 6,
+                    "verse": 1
+                  },
+                  "end": {
+                    "chapter": 6,
+                    "verse": 10
+                  }
+                }
+              ],
+              "zachalo": 22,
+              "zachalo_numbers": [
+                22
+              ],
+              "zachalo_qualifier": "",
+              "range_precision": "VERSE_RANGE_AS_PRINTED",
+              "service": "unspecified",
+              "role": "source_daily_reading",
+              "source_reference": "Јеванђеље Лука, зачало 22. (6,1-10)",
+              "source_ids": [
+                "pravoslavno-rs-daily-readings-2026-10-06"
+              ]
+            }
+          ],
+          "reason": "single_publisher_references_recorded_service_unassigned_pending_review",
+          "source_ids": [
+            "radio",
+            "eparhija-reading-2026-10-24",
+            "pravoslavno-rs-daily-readings-2026-10-06"
+          ],
+          "service_assignment_status": "UNRESOLVED",
+          "calendar_activation_status": "DRAFT",
+          "complete_service_schedule_verified": false,
+          "source_observations": [
+            {
+              "source_id": "radio",
+              "source_locator": "tr#Datum20261024 absent from 2026 table",
+              "source_row_present": false,
+              "references": [],
+              "source_notes": [],
+              "supplemental_blessing": false
+            },
+            {
+              "source_id": "eparhija-reading-2026-10-24",
+              "source_locator": ".sec: heading Јеванђеље > .beseda-sub",
+              "references": [],
+              "content_missing_label": "Садржај за овај дан још није унет."
+            },
+            {
+              "source_id": "pravoslavno-rs-daily-readings-2026-10-06",
+              "source_locator": "https://www.pravoslavno.rs/index.php?datum=2026-10-24&q=citanja #glavnitekst",
+              "references": [
+                "Јеванђеље Лука, зачало 22. (6,1-10)"
+              ],
+              "source_notes": [
+                "Prema Pravoslavno.rs; not Radio Slovo ljubve or independent SPC confirmation. Exact service headings are retained separately in the draft provenance."
+              ]
+            }
+          ],
+          "parse_errors": [],
+          "reference_validation_errors": [],
+          "reference_identity_review": [],
+          "observed_readings": [],
+          "production_eligible": false
+        },
+        "dated_source_evidence": {
+          "source_id": "pravoslavno-rs-daily-readings-2026-10-06",
+          "url": "https://www.pravoslavno.rs/index.php?datum=2026-10-24&q=citanja",
+          "displayed_date": "2026-10-24",
+          "fetched_at": "2026-10-06T17:38:13.087Z",
+          "raw_sha256": "3feae3164ff6003eed5d8c9b4772f8e02839fa1b13766f13f3a29f19ba71e2d9",
+          "raw_evidence_path": "acquisition/raw/2026-10-24-attempt1.html",
+          "publisher_attribution": "Pravoslavno.rs / Pravoslavni podsetnik; © Mikro knjiga"
+        },
+        "reading_provenance": [
+          {
+            "reading_index": 0,
+            "source_heading": "Јеванђеље Лука, зачало 22. (6,1-10)",
+            "explicit_service": null,
+            "source_locator": {
+              "section_id": "glavnitekst",
+              "heading_tag": "span",
+              "gospel_heading_ordinal": 1
+            },
+            "runtime_service": "unspecified",
+            "note": "No service label printed for this reading."
+          }
+        ]
+      },
+      {
+        "date": "2026-10-25",
+        "operation": "RECORD_PUBLISHER_REFERENCES_PENDING_REVIEW",
+        "before_sha256": "1081e0ffe76a0a2b629b8ebdd8b5be9c43416d34090d2c34622da0dcd499202f",
+        "after": {
+          "status": "SOURCE_RECORDED",
+          "readings": [
+            {
+              "book": "Luke",
+              "segments": [
+                {
+                  "start": {
+                    "chapter": 8,
+                    "verse": 5
+                  },
+                  "end": {
+                    "chapter": 8,
+                    "verse": 15
+                  }
+                }
+              ],
+              "zachalo": 35,
+              "zachalo_numbers": [
+                35
+              ],
+              "zachalo_qualifier": "",
+              "range_precision": "VERSE_RANGE_AS_PRINTED",
+              "service": "unspecified",
+              "role": "source_daily_reading",
+              "source_reference": "Јеванђеље Лука, зачало 35. (8,5-15)",
+              "source_ids": [
+                "pravoslavno-rs-daily-readings-2026-10-06"
+              ]
+            }
+          ],
+          "reason": "single_publisher_references_recorded_service_unassigned_pending_review",
+          "source_ids": [
+            "radio",
+            "eparhija-reading-2026-10-25",
+            "pravoslavno-rs-daily-readings-2026-10-06"
+          ],
+          "service_assignment_status": "UNRESOLVED",
+          "calendar_activation_status": "DRAFT",
+          "complete_service_schedule_verified": false,
+          "source_observations": [
+            {
+              "source_id": "radio",
+              "source_locator": "tr#Datum20261025 absent from 2026 table",
+              "source_row_present": false,
+              "references": [],
+              "source_notes": [],
+              "supplemental_blessing": false
+            },
+            {
+              "source_id": "eparhija-reading-2026-10-25",
+              "source_locator": ".sec: heading Јеванђеље > .beseda-sub",
+              "references": [],
+              "content_missing_label": "Садржај за овај дан још није унет."
+            },
+            {
+              "source_id": "pravoslavno-rs-daily-readings-2026-10-06",
+              "source_locator": "https://www.pravoslavno.rs/index.php?datum=2026-10-25&q=citanja #glavnitekst",
+              "references": [
+                "Јеванђеље Лука, зачало 35. (8,5-15)"
+              ],
+              "source_notes": [
+                "Prema Pravoslavno.rs; not Radio Slovo ljubve or independent SPC confirmation. Exact service headings are retained separately in the draft provenance."
+              ]
+            }
+          ],
+          "parse_errors": [],
+          "reference_validation_errors": [],
+          "reference_identity_review": [],
+          "observed_readings": [],
+          "production_eligible": false
+        },
+        "dated_source_evidence": {
+          "source_id": "pravoslavno-rs-daily-readings-2026-10-06",
+          "url": "https://www.pravoslavno.rs/index.php?datum=2026-10-25&q=citanja",
+          "displayed_date": "2026-10-25",
+          "fetched_at": "2026-10-06T17:38:14.190Z",
+          "raw_sha256": "64674265addd4695c4d6fc970af699e7f605b11ed7a8a043b19297b526480608",
+          "raw_evidence_path": "acquisition/raw/2026-10-25-attempt1.html",
+          "publisher_attribution": "Pravoslavno.rs / Pravoslavni podsetnik; © Mikro knjiga"
+        },
+        "reading_provenance": [
+          {
+            "reading_index": 0,
+            "source_heading": "Јеванђеље Лука, зачало 35. (8,5-15)",
+            "explicit_service": null,
+            "source_locator": {
+              "section_id": "glavnitekst",
+              "heading_tag": "span",
+              "gospel_heading_ordinal": 1
+            },
+            "runtime_service": "unspecified",
+            "note": "No service label printed for this reading."
+          }
+        ]
+      },
+      {
+        "date": "2026-10-26",
+        "operation": "RECORD_PUBLISHER_REFERENCES_PENDING_REVIEW",
+        "before_sha256": "8573e0638a39bc786a8f7f82305789f50ee4792f290b91c59520ce22b94a5c7f",
+        "after": {
+          "status": "SOURCE_RECORDED",
+          "readings": [
+            {
+              "book": "Luke",
+              "segments": [
+                {
+                  "start": {
+                    "chapter": 9,
+                    "verse": 18
+                  },
+                  "end": {
+                    "chapter": 9,
+                    "verse": 22
+                  }
+                }
+              ],
+              "zachalo": 43,
+              "zachalo_numbers": [
+                43
+              ],
+              "zachalo_qualifier": "",
+              "range_precision": "VERSE_RANGE_AS_PRINTED",
+              "service": "unspecified",
+              "role": "source_daily_reading",
+              "source_reference": "Јеванђеље Лука, зачало 43. (9,18-22)",
+              "source_ids": [
+                "pravoslavno-rs-daily-readings-2026-10-06"
+              ]
+            }
+          ],
+          "reason": "single_publisher_references_recorded_service_unassigned_pending_review",
+          "source_ids": [
+            "radio",
+            "eparhija-reading-2026-10-26",
+            "pravoslavno-rs-daily-readings-2026-10-06"
+          ],
+          "service_assignment_status": "UNRESOLVED",
+          "calendar_activation_status": "DRAFT",
+          "complete_service_schedule_verified": false,
+          "source_observations": [
+            {
+              "source_id": "radio",
+              "source_locator": "tr#Datum20261026 absent from 2026 table",
+              "source_row_present": false,
+              "references": [],
+              "source_notes": [],
+              "supplemental_blessing": false
+            },
+            {
+              "source_id": "eparhija-reading-2026-10-26",
+              "source_locator": ".sec: heading Јеванђеље > .beseda-sub",
+              "references": [],
+              "content_missing_label": "Садржај за овај дан још није унет."
+            },
+            {
+              "source_id": "pravoslavno-rs-daily-readings-2026-10-06",
+              "source_locator": "https://www.pravoslavno.rs/index.php?datum=2026-10-26&q=citanja #glavnitekst",
+              "references": [
+                "Јеванђеље Лука, зачало 43. (9,18-22)"
+              ],
+              "source_notes": [
+                "Prema Pravoslavno.rs; not Radio Slovo ljubve or independent SPC confirmation. Exact service headings are retained separately in the draft provenance."
+              ]
+            }
+          ],
+          "parse_errors": [],
+          "reference_validation_errors": [],
+          "reference_identity_review": [],
+          "observed_readings": [],
+          "production_eligible": false
+        },
+        "dated_source_evidence": {
+          "source_id": "pravoslavno-rs-daily-readings-2026-10-06",
+          "url": "https://www.pravoslavno.rs/index.php?datum=2026-10-26&q=citanja",
+          "displayed_date": "2026-10-26",
+          "fetched_at": "2026-10-06T17:38:15.293Z",
+          "raw_sha256": "5033a2d76b84afa80f52de9a751bbbaa6ffc8dc92329d723b6d20cd7742495f3",
+          "raw_evidence_path": "acquisition/raw/2026-10-26-attempt1.html",
+          "publisher_attribution": "Pravoslavno.rs / Pravoslavni podsetnik; © Mikro knjiga"
+        },
+        "reading_provenance": [
+          {
+            "reading_index": 0,
+            "source_heading": "Јеванђеље Лука, зачало 43. (9,18-22)",
+            "explicit_service": null,
+            "source_locator": {
+              "section_id": "glavnitekst",
+              "heading_tag": "span",
+              "gospel_heading_ordinal": 1
+            },
+            "runtime_service": "unspecified",
+            "note": "No service label printed for this reading."
+          }
+        ]
+      },
+      {
+        "date": "2026-10-27",
+        "operation": "RECORD_PUBLISHER_REFERENCES_PENDING_REVIEW",
+        "before_sha256": "92f6ebabf687eff43d15cc8c7fafe0e4bf398e784bcc5fba0770262a6fc0e409",
+        "after": {
+          "status": "SOURCE_RECORDED",
+          "readings": [
+            {
+              "book": "Luke",
+              "segments": [
+                {
+                  "start": {
+                    "chapter": 7,
+                    "verse": 36
+                  },
+                  "end": {
+                    "chapter": 7,
+                    "verse": 50
+                  }
+                }
+              ],
+              "zachalo": 33,
+              "zachalo_numbers": [
+                33
+              ],
+              "zachalo_qualifier": "",
+              "range_precision": "VERSE_RANGE_AS_PRINTED",
+              "service": "unspecified",
+              "role": "source_daily_reading",
+              "source_reference": "Свето Јеванђеље од Луке, зачало 33 (7,36-50)",
+              "source_ids": [
+                "pravoslavno-rs-daily-readings-2026-10-06"
+              ]
+            },
+            {
+              "book": "Matthew",
+              "segments": [
+                {
+                  "start": {
+                    "chapter": 25,
+                    "verse": 1
+                  },
+                  "end": {
+                    "chapter": 25,
+                    "verse": 13
+                  }
+                }
+              ],
+              "zachalo": 104,
+              "zachalo_numbers": [
+                104
+              ],
+              "zachalo_qualifier": "",
+              "range_precision": "VERSE_RANGE_AS_PRINTED",
+              "service": "unspecified",
+              "role": "source_daily_reading",
+              "source_reference": "Свето Јеванђеље од Матеја, зачало 104 (25,1-13)",
+              "source_ids": [
+                "pravoslavno-rs-daily-readings-2026-10-06"
+              ]
+            }
+          ],
+          "reason": "single_publisher_references_recorded_service_unassigned_pending_review",
+          "source_ids": [
+            "radio",
+            "eparhija-reading-2026-10-27",
+            "pravoslavno-rs-daily-readings-2026-10-06"
+          ],
+          "service_assignment_status": "UNRESOLVED",
+          "calendar_activation_status": "DRAFT",
+          "complete_service_schedule_verified": false,
+          "source_observations": [
+            {
+              "source_id": "radio",
+              "source_locator": "tr#Datum20261027 absent from 2026 table",
+              "source_row_present": false,
+              "references": [],
+              "source_notes": [],
+              "supplemental_blessing": false
+            },
+            {
+              "source_id": "eparhija-reading-2026-10-27",
+              "source_locator": ".sec: heading Јеванђеље > .beseda-sub",
+              "references": [],
+              "content_missing_label": "Садржај за овај дан још није унет."
+            },
+            {
+              "source_id": "pravoslavno-rs-daily-readings-2026-10-06",
+              "source_locator": "https://www.pravoslavno.rs/index.php?datum=2026-10-27&q=citanja #glavnitekst",
+              "references": [
+                "Свето Јеванђеље од Луке, зачало 33 (7,36-50)",
+                "Свето Јеванђеље од Матеја, зачало 104 (25,1-13)"
+              ],
+              "source_notes": [
+                "Prema Pravoslavno.rs; not Radio Slovo ljubve or independent SPC confirmation. Exact service headings are retained separately in the draft provenance."
+              ]
+            }
+          ],
+          "parse_errors": [],
+          "reference_validation_errors": [],
+          "reference_identity_review": [],
+          "observed_readings": [],
+          "production_eligible": false
+        },
+        "dated_source_evidence": {
+          "source_id": "pravoslavno-rs-daily-readings-2026-10-06",
+          "url": "https://www.pravoslavno.rs/index.php?datum=2026-10-27&q=citanja",
+          "displayed_date": "2026-10-27",
+          "fetched_at": "2026-10-06T17:38:16.394Z",
+          "raw_sha256": "1cb9cb93caccd0e3b6795997eb7523250c3cd6def3e4be7c2c12c70574340c90",
+          "raw_evidence_path": "acquisition/raw/2026-10-27-attempt1.html",
+          "publisher_attribution": "Pravoslavno.rs / Pravoslavni podsetnik; © Mikro knjiga"
+        },
+        "reading_provenance": [
+          {
+            "reading_index": 0,
+            "source_heading": "Свето Јеванђеље од Луке, зачало 33 (7,36-50)",
+            "explicit_service": {
+              "source_label": "Јутрења",
+              "normalized_label": "matins"
+            },
+            "source_locator": {
+              "section_id": "glavnitekst",
+              "heading_tag": "b",
+              "gospel_heading_ordinal": 1
+            },
+            "runtime_service": "unspecified",
+            "note": "Printed service retained as publisher provenance; not promoted to independently confirmed SPC service assignment."
+          },
+          {
+            "reading_index": 1,
+            "source_heading": "Свето Јеванђеље од Матеја, зачало 104 (25,1-13)",
+            "explicit_service": {
+              "source_label": "Литургија",
+              "normalized_label": "liturgy"
+            },
+            "source_locator": {
+              "section_id": "glavnitekst",
+              "heading_tag": "b",
+              "gospel_heading_ordinal": 2
+            },
+            "runtime_service": "unspecified",
+            "note": "Printed service retained as publisher provenance; not promoted to independently confirmed SPC service assignment."
+          }
+        ]
+      },
+      {
+        "date": "2026-10-28",
+        "operation": "RECORD_PUBLISHER_REFERENCES_PENDING_REVIEW",
+        "before_sha256": "720f8f1b34a2ecac65efbf6ddd38f69d49f965ea9a0c4b4ef2b4cab788ed1abe",
+        "after": {
+          "status": "SOURCE_RECORDED",
+          "readings": [
+            {
+              "book": "Luke",
+              "segments": [
+                {
+                  "start": {
+                    "chapter": 9,
+                    "verse": 44
+                  },
+                  "end": {
+                    "chapter": 9,
+                    "verse": 50
+                  }
+                }
+              ],
+              "zachalo": 47,
+              "zachalo_numbers": [
+                47
+              ],
+              "zachalo_qualifier": "",
+              "range_precision": "VERSE_RANGE_AS_PRINTED",
+              "service": "unspecified",
+              "role": "source_daily_reading",
+              "source_reference": "Јеванђеље Лука, зачало 47. (9,44-50)",
+              "source_ids": [
+                "pravoslavno-rs-daily-readings-2026-10-06"
+              ]
+            }
+          ],
+          "reason": "single_publisher_references_recorded_service_unassigned_pending_review",
+          "source_ids": [
+            "radio",
+            "eparhija-reading-2026-10-28",
+            "pravoslavno-rs-daily-readings-2026-10-06"
+          ],
+          "service_assignment_status": "UNRESOLVED",
+          "calendar_activation_status": "DRAFT",
+          "complete_service_schedule_verified": false,
+          "source_observations": [
+            {
+              "source_id": "radio",
+              "source_locator": "tr#Datum20261028 absent from 2026 table",
+              "source_row_present": false,
+              "references": [],
+              "source_notes": [],
+              "supplemental_blessing": false
+            },
+            {
+              "source_id": "eparhija-reading-2026-10-28",
+              "source_locator": ".sec: heading Јеванђеље > .beseda-sub",
+              "references": [],
+              "content_missing_label": "Садржај за овај дан још није унет."
+            },
+            {
+              "source_id": "pravoslavno-rs-daily-readings-2026-10-06",
+              "source_locator": "https://www.pravoslavno.rs/index.php?datum=2026-10-28&q=citanja #glavnitekst",
+              "references": [
+                "Јеванђеље Лука, зачало 47. (9,44-50)"
+              ],
+              "source_notes": [
+                "Prema Pravoslavno.rs; not Radio Slovo ljubve or independent SPC confirmation. Exact service headings are retained separately in the draft provenance."
+              ]
+            }
+          ],
+          "parse_errors": [],
+          "reference_validation_errors": [],
+          "reference_identity_review": [],
+          "observed_readings": [],
+          "production_eligible": false
+        },
+        "dated_source_evidence": {
+          "source_id": "pravoslavno-rs-daily-readings-2026-10-06",
+          "url": "https://www.pravoslavno.rs/index.php?datum=2026-10-28&q=citanja",
+          "displayed_date": "2026-10-28",
+          "fetched_at": "2026-10-06T17:38:17.495Z",
+          "raw_sha256": "571e20e974820f656f358631b3459881aea5ec3def3db262d74463e4f5e25a6b",
+          "raw_evidence_path": "acquisition/raw/2026-10-28-attempt1.html",
+          "publisher_attribution": "Pravoslavno.rs / Pravoslavni podsetnik; © Mikro knjiga"
+        },
+        "reading_provenance": [
+          {
+            "reading_index": 0,
+            "source_heading": "Јеванђеље Лука, зачало 47. (9,44-50)",
+            "explicit_service": null,
+            "source_locator": {
+              "section_id": "glavnitekst",
+              "heading_tag": "span",
+              "gospel_heading_ordinal": 1
+            },
+            "runtime_service": "unspecified",
+            "note": "No service label printed for this reading."
+          }
+        ]
+      },
+      {
+        "date": "2026-10-29",
+        "operation": "RECORD_PUBLISHER_REFERENCES_PENDING_REVIEW",
+        "before_sha256": "e4bd54f0373552296be265553f21269b972fbc905ae3f2364e7c7875cda581ab",
+        "after": {
+          "status": "SOURCE_RECORDED",
+          "readings": [
+            {
+              "book": "Luke",
+              "segments": [
+                {
+                  "start": {
+                    "chapter": 9,
+                    "verse": 49
+                  },
+                  "end": {
+                    "chapter": 9,
+                    "verse": 56
+                  }
+                }
+              ],
+              "zachalo": 48,
+              "zachalo_numbers": [
+                48
+              ],
+              "zachalo_qualifier": "",
+              "range_precision": "VERSE_RANGE_AS_PRINTED",
+              "service": "unspecified",
+              "role": "source_daily_reading",
+              "source_reference": "Јеванђеље Лука, зачало 48. (9,49-56)",
+              "source_ids": [
+                "pravoslavno-rs-daily-readings-2026-10-06"
+              ]
+            }
+          ],
+          "reason": "single_publisher_references_recorded_service_unassigned_pending_review",
+          "source_ids": [
+            "radio",
+            "eparhija-reading-2026-10-29",
+            "pravoslavno-rs-daily-readings-2026-10-06"
+          ],
+          "service_assignment_status": "UNRESOLVED",
+          "calendar_activation_status": "DRAFT",
+          "complete_service_schedule_verified": false,
+          "source_observations": [
+            {
+              "source_id": "radio",
+              "source_locator": "tr#Datum20261029 absent from 2026 table",
+              "source_row_present": false,
+              "references": [],
+              "source_notes": [],
+              "supplemental_blessing": false
+            },
+            {
+              "source_id": "eparhija-reading-2026-10-29",
+              "source_locator": ".sec: heading Јеванђеље > .beseda-sub",
+              "references": [],
+              "content_missing_label": "Садржај за овај дан још није унет."
+            },
+            {
+              "source_id": "pravoslavno-rs-daily-readings-2026-10-06",
+              "source_locator": "https://www.pravoslavno.rs/index.php?datum=2026-10-29&q=citanja #glavnitekst",
+              "references": [
+                "Јеванђеље Лука, зачало 48. (9,49-56)"
+              ],
+              "source_notes": [
+                "Prema Pravoslavno.rs; not Radio Slovo ljubve or independent SPC confirmation. Exact service headings are retained separately in the draft provenance."
+              ]
+            }
+          ],
+          "parse_errors": [],
+          "reference_validation_errors": [],
+          "reference_identity_review": [],
+          "observed_readings": [],
+          "production_eligible": false
+        },
+        "dated_source_evidence": {
+          "source_id": "pravoslavno-rs-daily-readings-2026-10-06",
+          "url": "https://www.pravoslavno.rs/index.php?datum=2026-10-29&q=citanja",
+          "displayed_date": "2026-10-29",
+          "fetched_at": "2026-10-06T17:38:18.599Z",
+          "raw_sha256": "f624fea3414ae03ff3d043c159cb394e30aef65120bd5a5fc9716d581d07f790",
+          "raw_evidence_path": "acquisition/raw/2026-10-29-attempt1.html",
+          "publisher_attribution": "Pravoslavno.rs / Pravoslavni podsetnik; © Mikro knjiga"
+        },
+        "reading_provenance": [
+          {
+            "reading_index": 0,
+            "source_heading": "Јеванђеље Лука, зачало 48. (9,49-56)",
+            "explicit_service": null,
+            "source_locator": {
+              "section_id": "glavnitekst",
+              "heading_tag": "span",
+              "gospel_heading_ordinal": 1
+            },
+            "runtime_service": "unspecified",
+            "note": "No service label printed for this reading."
+          }
+        ]
+      },
+      {
+        "date": "2026-10-30",
+        "operation": "RECORD_PUBLISHER_REFERENCES_PENDING_REVIEW",
+        "before_sha256": "27836ff6c1d96620748d517b2c707c027bc13ea4734f274bbd564bc8d334ef9d",
+        "after": {
+          "status": "SOURCE_RECORDED",
+          "readings": [
+            {
+              "book": "Luke",
+              "segments": [
+                {
+                  "start": {
+                    "chapter": 10,
+                    "verse": 1
+                  },
+                  "end": {
+                    "chapter": 10,
+                    "verse": 15
+                  }
+                }
+              ],
+              "zachalo": 50,
+              "zachalo_numbers": [
+                50
+              ],
+              "zachalo_qualifier": "",
+              "range_precision": "VERSE_RANGE_AS_PRINTED",
+              "service": "unspecified",
+              "role": "source_daily_reading",
+              "source_reference": "Јеванђеље Лука, зачало 50. (10,1-15)",
+              "source_ids": [
+                "pravoslavno-rs-daily-readings-2026-10-06"
+              ]
+            }
+          ],
+          "reason": "single_publisher_references_recorded_service_unassigned_pending_review",
+          "source_ids": [
+            "radio",
+            "eparhija-reading-2026-10-30",
+            "pravoslavno-rs-daily-readings-2026-10-06"
+          ],
+          "service_assignment_status": "UNRESOLVED",
+          "calendar_activation_status": "DRAFT",
+          "complete_service_schedule_verified": false,
+          "source_observations": [
+            {
+              "source_id": "radio",
+              "source_locator": "tr#Datum20261030 absent from 2026 table",
+              "source_row_present": false,
+              "references": [],
+              "source_notes": [],
+              "supplemental_blessing": false
+            },
+            {
+              "source_id": "eparhija-reading-2026-10-30",
+              "source_locator": ".sec: heading Јеванђеље > .beseda-sub",
+              "references": [],
+              "content_missing_label": "Садржај за овај дан још није унет."
+            },
+            {
+              "source_id": "pravoslavno-rs-daily-readings-2026-10-06",
+              "source_locator": "https://www.pravoslavno.rs/index.php?datum=2026-10-30&q=citanja #glavnitekst",
+              "references": [
+                "Јеванђеље Лука, зачало 50. (10,1-15)"
+              ],
+              "source_notes": [
+                "Prema Pravoslavno.rs; not Radio Slovo ljubve or independent SPC confirmation. Exact service headings are retained separately in the draft provenance."
+              ]
+            }
+          ],
+          "parse_errors": [],
+          "reference_validation_errors": [],
+          "reference_identity_review": [],
+          "observed_readings": [],
+          "production_eligible": false
+        },
+        "dated_source_evidence": {
+          "source_id": "pravoslavno-rs-daily-readings-2026-10-06",
+          "url": "https://www.pravoslavno.rs/index.php?datum=2026-10-30&q=citanja",
+          "displayed_date": "2026-10-30",
+          "fetched_at": "2026-10-06T17:38:19.701Z",
+          "raw_sha256": "0eba7739cfd9687ba4e69a3430974861e08cfcf2d9efcc029cacee64aa679335",
+          "raw_evidence_path": "acquisition/raw/2026-10-30-attempt1.html",
+          "publisher_attribution": "Pravoslavno.rs / Pravoslavni podsetnik; © Mikro knjiga"
+        },
+        "reading_provenance": [
+          {
+            "reading_index": 0,
+            "source_heading": "Јеванђеље Лука, зачало 50. (10,1-15)",
+            "explicit_service": null,
+            "source_locator": {
+              "section_id": "glavnitekst",
+              "heading_tag": "span",
+              "gospel_heading_ordinal": 1
+            },
+            "runtime_service": "unspecified",
+            "note": "No service label printed for this reading."
+          }
+        ]
+      },
+      {
+        "date": "2026-10-31",
+        "operation": "RECORD_PUBLISHER_REFERENCES_PENDING_REVIEW",
+        "before_sha256": "acbe9f2676965dd8f5aaee63a90aa89170aecc4e23b6faf0b68a802de7cfb965",
+        "after": {
+          "status": "SOURCE_RECORDED",
+          "readings": [
+            {
+              "book": "Luke",
+              "segments": [
+                {
+                  "start": {
+                    "chapter": 7,
+                    "verse": 1
+                  },
+                  "end": {
+                    "chapter": 7,
+                    "verse": 10
+                  }
+                }
+              ],
+              "zachalo": 29,
+              "zachalo_numbers": [
+                29
+              ],
+              "zachalo_qualifier": "",
+              "range_precision": "VERSE_RANGE_AS_PRINTED",
+              "service": "unspecified",
+              "role": "source_daily_reading",
+              "source_reference": "Јеванђеље Лука, зачало 29. (7,1-10)",
+              "source_ids": [
+                "pravoslavno-rs-daily-readings-2026-10-06"
+              ]
+            }
+          ],
+          "reason": "single_publisher_references_recorded_service_unassigned_pending_review",
+          "source_ids": [
+            "radio",
+            "eparhija-reading-2026-10-31",
+            "pravoslavno-rs-daily-readings-2026-10-06"
+          ],
+          "service_assignment_status": "UNRESOLVED",
+          "calendar_activation_status": "DRAFT",
+          "complete_service_schedule_verified": false,
+          "source_observations": [
+            {
+              "source_id": "radio",
+              "source_locator": "tr#Datum20261031 absent from 2026 table",
+              "source_row_present": false,
+              "references": [],
+              "source_notes": [],
+              "supplemental_blessing": false
+            },
+            {
+              "source_id": "eparhija-reading-2026-10-31",
+              "source_locator": ".sec: heading Јеванђеље > .beseda-sub",
+              "references": [],
+              "content_missing_label": "Садржај за овај дан још није унет."
+            },
+            {
+              "source_id": "pravoslavno-rs-daily-readings-2026-10-06",
+              "source_locator": "https://www.pravoslavno.rs/index.php?datum=2026-10-31&q=citanja #glavnitekst",
+              "references": [
+                "Јеванђеље Лука, зачало 29. (7,1-10)"
+              ],
+              "source_notes": [
+                "Prema Pravoslavno.rs; not Radio Slovo ljubve or independent SPC confirmation. Exact service headings are retained separately in the draft provenance."
+              ]
+            }
+          ],
+          "parse_errors": [],
+          "reference_validation_errors": [],
+          "reference_identity_review": [],
+          "observed_readings": [],
+          "production_eligible": false
+        },
+        "dated_source_evidence": {
+          "source_id": "pravoslavno-rs-daily-readings-2026-10-06",
+          "url": "https://www.pravoslavno.rs/index.php?datum=2026-10-31&q=citanja",
+          "displayed_date": "2026-10-31",
+          "fetched_at": "2026-10-06T17:38:20.803Z",
+          "raw_sha256": "b1ac34a5228504381d9bee7bc0db7d0449caff8a2a356834f5b8d1512e38c65d",
+          "raw_evidence_path": "acquisition/raw/2026-10-31-attempt1.html",
+          "publisher_attribution": "Pravoslavno.rs / Pravoslavni podsetnik; © Mikro knjiga"
+        },
+        "reading_provenance": [
+          {
+            "reading_index": 0,
+            "source_heading": "Јеванђеље Лука, зачало 29. (7,1-10)",
+            "explicit_service": null,
+            "source_locator": {
+              "section_id": "glavnitekst",
+              "heading_tag": "span",
+              "gospel_heading_ordinal": 1
+            },
+            "runtime_service": "unspecified",
+            "note": "No service label printed for this reading."
+          }
+        ]
+      },
+      {
+        "date": "2026-11-01",
+        "operation": "RECORD_PUBLISHER_REFERENCES_PENDING_REVIEW",
+        "before_sha256": "1e5e096656eab41c2fedc41927fef89a4357cf9d415a0c71352900c011c9eff8",
+        "after": {
+          "status": "SOURCE_RECORDED",
+          "readings": [
+            {
+              "book": "Luke",
+              "segments": [
+                {
+                  "start": {
+                    "chapter": 16,
+                    "verse": 19
+                  },
+                  "end": {
+                    "chapter": 16,
+                    "verse": 31
+                  }
+                }
+              ],
+              "zachalo": 83,
+              "zachalo_numbers": [
+                83
+              ],
+              "zachalo_qualifier": "",
+              "range_precision": "VERSE_RANGE_AS_PRINTED",
+              "service": "unspecified",
+              "role": "source_daily_reading",
+              "source_reference": "Јеванђеље Лука, зачало 83 (16,19-31)",
+              "source_ids": [
+                "pravoslavno-rs-daily-readings-2026-10-06"
+              ]
+            }
+          ],
+          "reason": "single_publisher_references_recorded_service_unassigned_pending_review",
+          "source_ids": [
+            "radio",
+            "eparhija-reading-2026-11-01",
+            "pravoslavno-rs-daily-readings-2026-10-06"
+          ],
+          "service_assignment_status": "UNRESOLVED",
+          "calendar_activation_status": "DRAFT",
+          "complete_service_schedule_verified": false,
+          "source_observations": [
+            {
+              "source_id": "radio",
+              "source_locator": "tr#Datum20261101 absent from 2026 table",
+              "source_row_present": false,
+              "references": [],
+              "source_notes": [],
+              "supplemental_blessing": false
+            },
+            {
+              "source_id": "eparhija-reading-2026-11-01",
+              "source_locator": ".sec: heading Јеванђеље > .beseda-sub",
+              "references": [],
+              "content_missing_label": "Садржај за овај дан још није унет."
+            },
+            {
+              "source_id": "pravoslavno-rs-daily-readings-2026-10-06",
+              "source_locator": "https://www.pravoslavno.rs/index.php?datum=2026-11-01&q=citanja #glavnitekst",
+              "references": [
+                "Јеванђеље Лука, зачало 83 (16,19-31)"
+              ],
+              "source_notes": [
+                "Prema Pravoslavno.rs; not Radio Slovo ljubve or independent SPC confirmation. Exact service headings are retained separately in the draft provenance."
+              ]
+            }
+          ],
+          "parse_errors": [],
+          "reference_validation_errors": [],
+          "reference_identity_review": [],
+          "observed_readings": [],
+          "production_eligible": false
+        },
+        "dated_source_evidence": {
+          "source_id": "pravoslavno-rs-daily-readings-2026-10-06",
+          "url": "https://www.pravoslavno.rs/index.php?datum=2026-11-01&q=citanja",
+          "displayed_date": "2026-11-01",
+          "fetched_at": "2026-10-06T17:38:21.904Z",
+          "raw_sha256": "1a64d21abc533b3049309bd41c30ff85832368dfb6350fd20553fb0cb5026908",
+          "raw_evidence_path": "acquisition/raw/2026-11-01-attempt1.html",
+          "publisher_attribution": "Pravoslavno.rs / Pravoslavni podsetnik; © Mikro knjiga"
+        },
+        "reading_provenance": [
+          {
+            "reading_index": 0,
+            "source_heading": "Јеванђеље Лука, зачало 83 (16,19-31)",
+            "explicit_service": null,
+            "source_locator": {
+              "section_id": "glavnitekst",
+              "heading_tag": "span",
+              "gospel_heading_ordinal": 1
+            },
+            "runtime_service": "unspecified",
+            "note": "No service label printed for this reading."
+          }
+        ]
+      },
+      {
+        "date": "2026-11-02",
+        "operation": "RECORD_PUBLISHER_REFERENCES_PENDING_REVIEW",
+        "before_sha256": "d69b465c9530c2edf3a9706c7a4c04e798c6afea508af72c6385bd4aebaeea4f",
+        "after": {
+          "status": "SOURCE_RECORDED",
+          "readings": [
+            {
+              "book": "Luke",
+              "segments": [
+                {
+                  "start": {
+                    "chapter": 10,
+                    "verse": 22
+                  },
+                  "end": {
+                    "chapter": 10,
+                    "verse": 24
+                  }
+                }
+              ],
+              "zachalo": 52,
+              "zachalo_numbers": [
+                52
+              ],
+              "zachalo_qualifier": "",
+              "range_precision": "VERSE_RANGE_AS_PRINTED",
+              "service": "unspecified",
+              "role": "source_daily_reading",
+              "source_reference": "Свето Јеванђеље од Луке, зачало 52 (10,22-24)",
+              "source_ids": [
+                "pravoslavno-rs-daily-readings-2026-10-06"
+              ]
+            }
+          ],
+          "reason": "single_publisher_references_recorded_service_unassigned_pending_review",
+          "source_ids": [
+            "radio",
+            "eparhija-reading-2026-11-02",
+            "pravoslavno-rs-daily-readings-2026-10-06"
+          ],
+          "service_assignment_status": "UNRESOLVED",
+          "calendar_activation_status": "DRAFT",
+          "complete_service_schedule_verified": false,
+          "source_observations": [
+            {
+              "source_id": "radio",
+              "source_locator": "tr#Datum20261102 absent from 2026 table",
+              "source_row_present": false,
+              "references": [],
+              "source_notes": [],
+              "supplemental_blessing": false
+            },
+            {
+              "source_id": "eparhija-reading-2026-11-02",
+              "source_locator": ".sec: heading Јеванђеље > .beseda-sub",
+              "references": [],
+              "content_missing_label": "Садржај за овај дан још није унет."
+            },
+            {
+              "source_id": "pravoslavno-rs-daily-readings-2026-10-06",
+              "source_locator": "https://www.pravoslavno.rs/index.php?datum=2026-11-02&q=citanja #glavnitekst",
+              "references": [
+                "Свето Јеванђеље од Луке, зачало 52 (10,22-24)"
+              ],
+              "source_notes": [
+                "Prema Pravoslavno.rs; not Radio Slovo ljubve or independent SPC confirmation. Exact service headings are retained separately in the draft provenance."
+              ]
+            }
+          ],
+          "parse_errors": [],
+          "reference_validation_errors": [],
+          "reference_identity_review": [],
+          "observed_readings": [],
+          "production_eligible": false
+        },
+        "dated_source_evidence": {
+          "source_id": "pravoslavno-rs-daily-readings-2026-10-06",
+          "url": "https://www.pravoslavno.rs/index.php?datum=2026-11-02&q=citanja",
+          "displayed_date": "2026-11-02",
+          "fetched_at": "2026-10-06T17:38:23.006Z",
+          "raw_sha256": "8e37acb03e08ae85453df0070f14de2e5679c3562f9f44acc8505493f0e55f30",
+          "raw_evidence_path": "acquisition/raw/2026-11-02-attempt1.html",
+          "publisher_attribution": "Pravoslavno.rs / Pravoslavni podsetnik; © Mikro knjiga"
+        },
+        "reading_provenance": [
+          {
+            "reading_index": 0,
+            "source_heading": "Свето Јеванђеље од Луке, зачало 52 (10,22-24)",
+            "explicit_service": null,
+            "source_locator": {
+              "section_id": "glavnitekst",
+              "heading_tag": "b",
+              "gospel_heading_ordinal": 1
+            },
+            "runtime_service": "unspecified",
+            "note": "No service label printed for this reading."
+          }
+        ]
+      },
+      {
+        "date": "2026-11-03",
+        "operation": "RECORD_PUBLISHER_REFERENCES_PENDING_REVIEW",
+        "before_sha256": "eadf3f173c6e5d4809f92669b72ab0caecabd873fe266f349ad784b8c927bdc2",
+        "after": {
+          "status": "SOURCE_RECORDED",
+          "readings": [
+            {
+              "book": "Luke",
+              "segments": [
+                {
+                  "start": {
+                    "chapter": 11,
+                    "verse": 1
+                  },
+                  "end": {
+                    "chapter": 11,
+                    "verse": 10
+                  }
+                }
+              ],
+              "zachalo": 55,
+              "zachalo_numbers": [
+                55
+              ],
+              "zachalo_qualifier": "",
+              "range_precision": "VERSE_RANGE_AS_PRINTED",
+              "service": "unspecified",
+              "role": "source_daily_reading",
+              "source_reference": "Јеванђеље Лука, зачало 55. (11,1-10)",
+              "source_ids": [
+                "pravoslavno-rs-daily-readings-2026-10-06"
+              ]
+            }
+          ],
+          "reason": "single_publisher_references_recorded_service_unassigned_pending_review",
+          "source_ids": [
+            "radio",
+            "eparhija-reading-2026-11-03",
+            "pravoslavno-rs-daily-readings-2026-10-06"
+          ],
+          "service_assignment_status": "UNRESOLVED",
+          "calendar_activation_status": "DRAFT",
+          "complete_service_schedule_verified": false,
+          "source_observations": [
+            {
+              "source_id": "radio",
+              "source_locator": "tr#Datum20261103 absent from 2026 table",
+              "source_row_present": false,
+              "references": [],
+              "source_notes": [],
+              "supplemental_blessing": false
+            },
+            {
+              "source_id": "eparhija-reading-2026-11-03",
+              "source_locator": ".sec: heading Јеванђеље > .beseda-sub",
+              "references": [],
+              "content_missing_label": "Садржај за овај дан још није унет."
+            },
+            {
+              "source_id": "pravoslavno-rs-daily-readings-2026-10-06",
+              "source_locator": "https://www.pravoslavno.rs/index.php?datum=2026-11-03&q=citanja #glavnitekst",
+              "references": [
+                "Јеванђеље Лука, зачало 55. (11,1-10)"
+              ],
+              "source_notes": [
+                "Prema Pravoslavno.rs; not Radio Slovo ljubve or independent SPC confirmation. Exact service headings are retained separately in the draft provenance."
+              ]
+            }
+          ],
+          "parse_errors": [],
+          "reference_validation_errors": [],
+          "reference_identity_review": [],
+          "observed_readings": [],
+          "production_eligible": false
+        },
+        "dated_source_evidence": {
+          "source_id": "pravoslavno-rs-daily-readings-2026-10-06",
+          "url": "https://www.pravoslavno.rs/index.php?datum=2026-11-03&q=citanja",
+          "displayed_date": "2026-11-03",
+          "fetched_at": "2026-10-06T17:38:24.108Z",
+          "raw_sha256": "24d30a914abed628aae475af89a67649a3cf7c3e0c8b53ff4fbc856048dc7a13",
+          "raw_evidence_path": "acquisition/raw/2026-11-03-attempt1.html",
+          "publisher_attribution": "Pravoslavno.rs / Pravoslavni podsetnik; © Mikro knjiga"
+        },
+        "reading_provenance": [
+          {
+            "reading_index": 0,
+            "source_heading": "Јеванђеље Лука, зачало 55. (11,1-10)",
+            "explicit_service": null,
+            "source_locator": {
+              "section_id": "glavnitekst",
+              "heading_tag": "span",
+              "gospel_heading_ordinal": 1
+            },
+            "runtime_service": "unspecified",
+            "note": "No service label printed for this reading."
+          }
+        ]
+      },
+      {
+        "date": "2026-11-04",
+        "operation": "RECORD_PUBLISHER_REFERENCES_PENDING_REVIEW",
+        "before_sha256": "7f2d51b89927b352b7938be0207c2984d7f6716ba2c7ecaaaa3fd6b2e508f2a6",
+        "after": {
+          "status": "SOURCE_RECORDED",
+          "readings": [
+            {
+              "book": "Luke",
+              "segments": [
+                {
+                  "start": {
+                    "chapter": 11,
+                    "verse": 9
+                  },
+                  "end": {
+                    "chapter": 11,
+                    "verse": 13
+                  }
+                }
+              ],
+              "zachalo": 56,
+              "zachalo_numbers": [
+                56
+              ],
+              "zachalo_qualifier": "",
+              "range_precision": "VERSE_RANGE_AS_PRINTED",
+              "service": "unspecified",
+              "role": "source_daily_reading",
+              "source_reference": "Јеванђеље Лука, зачало 56. (11,9-13)",
+              "source_ids": [
+                "pravoslavno-rs-daily-readings-2026-10-06"
+              ]
+            }
+          ],
+          "reason": "single_publisher_references_recorded_service_unassigned_pending_review",
+          "source_ids": [
+            "radio",
+            "eparhija-reading-2026-11-04",
+            "pravoslavno-rs-daily-readings-2026-10-06"
+          ],
+          "service_assignment_status": "UNRESOLVED",
+          "calendar_activation_status": "DRAFT",
+          "complete_service_schedule_verified": false,
+          "source_observations": [
+            {
+              "source_id": "radio",
+              "source_locator": "tr#Datum20261104 absent from 2026 table",
+              "source_row_present": false,
+              "references": [],
+              "source_notes": [],
+              "supplemental_blessing": false
+            },
+            {
+              "source_id": "eparhija-reading-2026-11-04",
+              "source_locator": ".sec: heading Јеванђеље > .beseda-sub",
+              "references": [],
+              "content_missing_label": "Садржај за овај дан још није унет."
+            },
+            {
+              "source_id": "pravoslavno-rs-daily-readings-2026-10-06",
+              "source_locator": "https://www.pravoslavno.rs/index.php?datum=2026-11-04&q=citanja #glavnitekst",
+              "references": [
+                "Јеванђеље Лука, зачало 56. (11,9-13)"
+              ],
+              "source_notes": [
+                "Prema Pravoslavno.rs; not Radio Slovo ljubve or independent SPC confirmation. Exact service headings are retained separately in the draft provenance."
+              ]
+            }
+          ],
+          "parse_errors": [],
+          "reference_validation_errors": [],
+          "reference_identity_review": [],
+          "observed_readings": [],
+          "production_eligible": false
+        },
+        "dated_source_evidence": {
+          "source_id": "pravoslavno-rs-daily-readings-2026-10-06",
+          "url": "https://www.pravoslavno.rs/index.php?datum=2026-11-04&q=citanja",
+          "displayed_date": "2026-11-04",
+          "fetched_at": "2026-10-06T17:38:25.210Z",
+          "raw_sha256": "99f6329cb750878c8ce6c2608700edb5937ea91be5fa15c02925c394261ecaa2",
+          "raw_evidence_path": "acquisition/raw/2026-11-04-attempt1.html",
+          "publisher_attribution": "Pravoslavno.rs / Pravoslavni podsetnik; © Mikro knjiga"
+        },
+        "reading_provenance": [
+          {
+            "reading_index": 0,
+            "source_heading": "Јеванђеље Лука, зачало 56. (11,9-13)",
+            "explicit_service": null,
+            "source_locator": {
+              "section_id": "glavnitekst",
+              "heading_tag": "span",
+              "gospel_heading_ordinal": 1
+            },
+            "runtime_service": "unspecified",
+            "note": "No service label printed for this reading."
+          }
+        ]
+      },
+      {
+        "date": "2026-11-05",
+        "operation": "RECORD_PUBLISHER_REFERENCES_PENDING_REVIEW",
+        "before_sha256": "637e745e8911bb67378a7754b8b588e21a5e3f0c2feae340976d57a57f8539a7",
+        "after": {
+          "status": "SOURCE_RECORDED",
+          "readings": [
+            {
+              "book": "Luke",
+              "segments": [
+                {
+                  "start": {
+                    "chapter": 11,
+                    "verse": 14
+                  },
+                  "end": {
+                    "chapter": 11,
+                    "verse": 23
+                  }
+                }
+              ],
+              "zachalo": 57,
+              "zachalo_numbers": [
+                57
+              ],
+              "zachalo_qualifier": "",
+              "range_precision": "VERSE_RANGE_AS_PRINTED",
+              "service": "unspecified",
+              "role": "source_daily_reading",
+              "source_reference": "Јеванђеље Лука, зачало 57. (11,14-23)",
+              "source_ids": [
+                "pravoslavno-rs-daily-readings-2026-10-06"
+              ]
+            }
+          ],
+          "reason": "single_publisher_references_recorded_service_unassigned_pending_review",
+          "source_ids": [
+            "radio",
+            "eparhija-reading-2026-11-05",
+            "pravoslavno-rs-daily-readings-2026-10-06"
+          ],
+          "service_assignment_status": "UNRESOLVED",
+          "calendar_activation_status": "DRAFT",
+          "complete_service_schedule_verified": false,
+          "source_observations": [
+            {
+              "source_id": "radio",
+              "source_locator": "tr#Datum20261105 absent from 2026 table",
+              "source_row_present": false,
+              "references": [],
+              "source_notes": [],
+              "supplemental_blessing": false
+            },
+            {
+              "source_id": "eparhija-reading-2026-11-05",
+              "source_locator": ".sec: heading Јеванђеље > .beseda-sub",
+              "references": [],
+              "content_missing_label": "Садржај за овај дан још није унет."
+            },
+            {
+              "source_id": "pravoslavno-rs-daily-readings-2026-10-06",
+              "source_locator": "https://www.pravoslavno.rs/index.php?datum=2026-11-05&q=citanja #glavnitekst",
+              "references": [
+                "Јеванђеље Лука, зачало 57. (11,14-23)"
+              ],
+              "source_notes": [
+                "Prema Pravoslavno.rs; not Radio Slovo ljubve or independent SPC confirmation. Exact service headings are retained separately in the draft provenance."
+              ]
+            }
+          ],
+          "parse_errors": [],
+          "reference_validation_errors": [],
+          "reference_identity_review": [],
+          "observed_readings": [],
+          "production_eligible": false
+        },
+        "dated_source_evidence": {
+          "source_id": "pravoslavno-rs-daily-readings-2026-10-06",
+          "url": "https://www.pravoslavno.rs/index.php?datum=2026-11-05&q=citanja",
+          "displayed_date": "2026-11-05",
+          "fetched_at": "2026-10-06T17:38:26.313Z",
+          "raw_sha256": "472e7c6feddae378c6844c66ad7bae080ab595d6f6123aad8fcc003ac387f9c5",
+          "raw_evidence_path": "acquisition/raw/2026-11-05-attempt1.html",
+          "publisher_attribution": "Pravoslavno.rs / Pravoslavni podsetnik; © Mikro knjiga"
+        },
+        "reading_provenance": [
+          {
+            "reading_index": 0,
+            "source_heading": "Јеванђеље Лука, зачало 57. (11,14-23)",
+            "explicit_service": null,
+            "source_locator": {
+              "section_id": "glavnitekst",
+              "heading_tag": "span",
+              "gospel_heading_ordinal": 1
+            },
+            "runtime_service": "unspecified",
+            "note": "No service label printed for this reading."
+          }
+        ]
+      }
+    ],
+    "dates": 31,
+    "readings": 33,
+    "first_date": "2026-10-06",
+    "last_date": "2026-11-05",
+    "complete_service_schedule_verified": false,
+    "source_selection": "Prema Pravoslavno.rs; not radio or official SPC verification",
+    "source_translation_or_commentary_imported": false,
+    "unknown_after_last_date": [
+      {
+        "date": "2026-11-06",
+        "status": "UNRESOLVED",
+        "reading_count": 0,
+        "unchanged": true
+      },
+      {
+        "date": "2026-11-07",
+        "status": "UNRESOLVED",
+        "reading_count": 0,
+        "unchanged": true
+      },
+      {
+        "date": "2026-11-08",
+        "status": "UNRESOLVED",
+        "reading_count": 0,
+        "unchanged": true
+      },
+      {
+        "date": "2026-11-09",
+        "status": "UNRESOLVED",
+        "reading_count": 0,
+        "unchanged": true
+      },
+      {
+        "date": "2026-11-10",
+        "status": "UNRESOLVED",
+        "reading_count": 0,
+        "unchanged": true
+      },
+      {
+        "date": "2026-11-11",
+        "status": "UNRESOLVED",
+        "reading_count": 0,
+        "unchanged": true
+      },
+      {
+        "date": "2026-11-12",
+        "status": "UNRESOLVED",
+        "reading_count": 0,
+        "unchanged": true
+      },
+      {
+        "date": "2026-11-13",
+        "status": "UNRESOLVED",
+        "reading_count": 0,
+        "unchanged": true
+      },
+      {
+        "date": "2026-11-14",
+        "status": "UNRESOLVED",
+        "reading_count": 0,
+        "unchanged": true
+      },
+      {
+        "date": "2026-11-15",
+        "status": "UNRESOLVED",
+        "reading_count": 0,
+        "unchanged": true
+      },
+      {
+        "date": "2026-11-16",
+        "status": "UNRESOLVED",
+        "reading_count": 0,
+        "unchanged": true
+      },
+      {
+        "date": "2026-11-17",
+        "status": "UNRESOLVED",
+        "reading_count": 0,
+        "unchanged": true
+      },
+      {
+        "date": "2026-11-18",
+        "status": "UNRESOLVED",
+        "reading_count": 0,
+        "unchanged": true
+      },
+      {
+        "date": "2026-11-19",
+        "status": "UNRESOLVED",
+        "reading_count": 0,
+        "unchanged": true
+      },
+      {
+        "date": "2026-11-20",
+        "status": "UNRESOLVED",
+        "reading_count": 0,
+        "unchanged": true
+      },
+      {
+        "date": "2026-11-21",
+        "status": "UNRESOLVED",
+        "reading_count": 0,
+        "unchanged": true
+      },
+      {
+        "date": "2026-11-22",
+        "status": "UNRESOLVED",
+        "reading_count": 0,
+        "unchanged": true
+      },
+      {
+        "date": "2026-11-23",
+        "status": "UNRESOLVED",
+        "reading_count": 0,
+        "unchanged": true
+      },
+      {
+        "date": "2026-11-24",
+        "status": "UNRESOLVED",
+        "reading_count": 0,
+        "unchanged": true
+      },
+      {
+        "date": "2026-11-25",
+        "status": "UNRESOLVED",
+        "reading_count": 0,
+        "unchanged": true
+      },
+      {
+        "date": "2026-11-26",
+        "status": "UNRESOLVED",
+        "reading_count": 0,
+        "unchanged": true
+      },
+      {
+        "date": "2026-11-27",
+        "status": "UNRESOLVED",
+        "reading_count": 0,
+        "unchanged": true
+      },
+      {
+        "date": "2026-11-28",
+        "status": "UNRESOLVED",
+        "reading_count": 0,
+        "unchanged": true
+      },
+      {
+        "date": "2026-11-29",
+        "status": "UNRESOLVED",
+        "reading_count": 0,
+        "unchanged": true
+      },
+      {
+        "date": "2026-11-30",
+        "status": "UNRESOLVED",
+        "reading_count": 0,
+        "unchanged": true
+      },
+      {
+        "date": "2026-12-01",
+        "status": "UNRESOLVED",
+        "reading_count": 0,
+        "unchanged": true
+      },
+      {
+        "date": "2026-12-02",
+        "status": "UNRESOLVED",
+        "reading_count": 0,
+        "unchanged": true
+      },
+      {
+        "date": "2026-12-03",
+        "status": "UNRESOLVED",
+        "reading_count": 0,
+        "unchanged": true
+      },
+      {
+        "date": "2026-12-04",
+        "status": "UNRESOLVED",
+        "reading_count": 0,
+        "unchanged": true
+      },
+      {
+        "date": "2026-12-05",
+        "status": "UNRESOLVED",
+        "reading_count": 0,
+        "unchanged": true
+      },
+      {
+        "date": "2026-12-06",
+        "status": "UNRESOLVED",
+        "reading_count": 0,
+        "unchanged": true
+      },
+      {
+        "date": "2026-12-07",
+        "status": "UNRESOLVED",
+        "reading_count": 0,
+        "unchanged": true
+      },
+      {
+        "date": "2026-12-08",
+        "status": "UNRESOLVED",
+        "reading_count": 0,
+        "unchanged": true
+      },
+      {
+        "date": "2026-12-09",
+        "status": "UNRESOLVED",
+        "reading_count": 0,
+        "unchanged": true
+      },
+      {
+        "date": "2026-12-10",
+        "status": "UNRESOLVED",
+        "reading_count": 0,
+        "unchanged": true
+      },
+      {
+        "date": "2026-12-11",
+        "status": "UNRESOLVED",
+        "reading_count": 0,
+        "unchanged": true
+      },
+      {
+        "date": "2026-12-12",
+        "status": "UNRESOLVED",
+        "reading_count": 0,
+        "unchanged": true
+      },
+      {
+        "date": "2026-12-13",
+        "status": "UNRESOLVED",
+        "reading_count": 0,
+        "unchanged": true
+      },
+      {
+        "date": "2026-12-14",
+        "status": "UNRESOLVED",
+        "reading_count": 0,
+        "unchanged": true
+      },
+      {
+        "date": "2026-12-15",
+        "status": "UNRESOLVED",
+        "reading_count": 0,
+        "unchanged": true
+      },
+      {
+        "date": "2026-12-16",
+        "status": "UNRESOLVED",
+        "reading_count": 0,
+        "unchanged": true
+      },
+      {
+        "date": "2026-12-17",
+        "status": "UNRESOLVED",
+        "reading_count": 0,
+        "unchanged": true
+      },
+      {
+        "date": "2026-12-18",
+        "status": "UNRESOLVED",
+        "reading_count": 0,
+        "unchanged": true
+      },
+      {
+        "date": "2026-12-19",
+        "status": "UNRESOLVED",
+        "reading_count": 0,
+        "unchanged": true
+      },
+      {
+        "date": "2026-12-20",
+        "status": "UNRESOLVED",
+        "reading_count": 0,
+        "unchanged": true
+      },
+      {
+        "date": "2026-12-21",
+        "status": "UNRESOLVED",
+        "reading_count": 0,
+        "unchanged": true
+      },
+      {
+        "date": "2026-12-22",
+        "status": "UNRESOLVED",
+        "reading_count": 0,
+        "unchanged": true
+      },
+      {
+        "date": "2026-12-23",
+        "status": "UNRESOLVED",
+        "reading_count": 0,
+        "unchanged": true
+      },
+      {
+        "date": "2026-12-24",
+        "status": "UNRESOLVED",
+        "reading_count": 0,
+        "unchanged": true
+      },
+      {
+        "date": "2026-12-25",
+        "status": "UNRESOLVED",
+        "reading_count": 0,
+        "unchanged": true
+      },
+      {
+        "date": "2026-12-26",
+        "status": "UNRESOLVED",
+        "reading_count": 0,
+        "unchanged": true
+      },
+      {
+        "date": "2026-12-27",
+        "status": "UNRESOLVED",
+        "reading_count": 0,
+        "unchanged": true
+      },
+      {
+        "date": "2026-12-28",
+        "status": "UNRESOLVED",
+        "reading_count": 0,
+        "unchanged": true
+      },
+      {
+        "date": "2026-12-29",
+        "status": "UNRESOLVED",
+        "reading_count": 0,
+        "unchanged": true
+      },
+      {
+        "date": "2026-12-30",
+        "status": "UNRESOLVED",
+        "reading_count": 0,
+        "unchanged": true
+      },
+      {
+        "date": "2026-12-31",
+        "status": "UNRESOLVED",
+        "reading_count": 0,
+        "unchanged": true
+      }
+    ],
+    "followup": {
+      "date": "2026-10-26",
+      "time": "09:00",
+      "timezone": "Europe/Belgrade",
+      "automation_owned_by_root": true
+    }
+  },
+  "release_assembly_remaining": {
+    "production_eligible": false,
+    "exact_revision_approval": null,
+    "release_id": null,
+    "sequence": null,
+    "operations": [
+      "After exact editorial approval apply the31 pinned Gospel operations to a copy of S13 annual; retain all other day fields and unknowns",
+      "Allocate final version/revision only in separately authorized release assembly; update saints calendar_binding only, retain104 article objects",
+      "Rebind catalog calendar/saints and browser catalog to FINAL approved bytes; pending component hashes are NOT final release hashes",
+      "Regenerate changed manifests/dependencies; retain library, cycles, organizations unchanged; authenticate/native-test the exact whole generation before publication"
+    ],
+    "signing_performed": false,
+    "published": false,
+    "native_run": false
+  },
+  "gates": [
+    "Exact combined editorial review/approval of new metadata and source observations",
+    "Assemble and rebind changed calendar/saints/catalog/browser in one combined release; preserve all104 article objects",
+    "Native exact generation acceptance; separately authorized signing/publication and fresh public baseline CAS"
+  ]
+}

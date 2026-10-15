@@ -1,0 +1,85 @@
+{
+  "schema_version": 1,
+  "recorded_at_utc": "2026-10-06T20:33:37Z",
+  "status": "BOUNDED_IOS_S14_COMPATIBILITY_PREFLIGHT_ACCEPTED",
+  "minimum_ios": "0.1.15",
+  "build": 42,
+  "version_authority": "Original ios mvp confirmed planned0.1.15(42); not yet bumped, signed or installed. This receipt authorizes that exact floor for additive S14r2 assembly and local signing, not publication.",
+  "source_commit": "66e8fce66233682079d3e33c5f446c417435f358",
+  "owner_handoff": "39935955d747b0e0e8a22e35fd5010427ce843f5",
+  "freeze_commit": "48848b3f0b0c50fe83c3ff7b83f1d465d6988169",
+  "freeze_sha256": "c9441bfbfa82393dda3acaeee2a0e2bc8db9e4056b13d8b631d0357acf0bc368",
+  "root_validation": {
+    "tests": 4,
+    "suites": 2,
+    "failures": 0,
+    "skips": 0,
+    "seconds": 0.196,
+    "scope": [
+      "3 authenticated M0 parser regressions",
+      "1 exact frozen unsigned S14 calendar shape"
+    ],
+    "log": "../../../svetlost33-ios-release-0141/docs/evidence/v0.31-combined-calendar-gospel-s14/root-parser-shape-66e8fce.log",
+    "log_sha256": "75bafdc829a2b1fdf1ebb49a1574f485da060eb47c72d3a27e71ce0f82cccd1b",
+    "pre_post_hashes_equal": true,
+    "source_test_sha256": [
+      {
+        "sha256": "0f9d2fe330aa941fb99db039b48d154a5e696ff7cfb406f7e9ef2c003afaf180",
+        "path": "Sources/SvetlostCore/AnnualGospelCalendar.swift"
+      },
+      {
+        "sha256": "b68fa1dc62e87e8341a88f328e81664f665c6ef5175eece90aaa78f3aa585a05",
+        "path": "Sources/SvetlostCore/ContentGenerationRepository.swift"
+      },
+      {
+        "sha256": "aa5969c4b18b5514322c00a273f854e57aa4aa7127c2ba39fda6b233e478c2ca",
+        "path": "Sources/SvetlostCore/ModularRuntimeProjector.swift"
+      },
+      {
+        "sha256": "38d18c7d9fcb901c7e64387941b7a6cd0dd72edd385304d908a7d3f08d815d86",
+        "path": "Svetlost33App/AppModel.swift"
+      },
+      {
+        "sha256": "d01762d3be5e83f811231aa2adc58d817d99b7837ef238689ec1a7c4dfe49165",
+        "path": "Svetlost33Widget/Svetlost33Widget.swift"
+      },
+      {
+        "sha256": "c72982ed0db90e5c3f9037be2d7ea6d10bec58fcd6384dad10afdfed6deed52b",
+        "path": "Tests/SvetlostCoreTests/AuthenticatedM0AnnualCalendarTests.swift"
+      },
+      {
+        "sha256": "a82ef3aa1ef9a80b0a96f91cd502634cc4c8d841043667d4febc2b31309ed201",
+        "path": "Tests/SvetlostCoreTests/ModularRuntimeProjectorTests.swift"
+      },
+      {
+        "sha256": "b8848fe1259eeddd1bffb811036e1da0fbcfee8df972faf2d77ecab17834a7a8",
+        "path": "Tests/SvetlostCoreTests/ProductionCalendarSaintsS13StagingV031Tests.swift"
+      },
+      {
+        "sha256": "58a5afdd895202cfc5c65f461dbede9e38ff6af9e5f0c2cbb90f2e2d6938c723",
+        "path": "Tests/SvetlostCoreTests/UnsignedS14AnnualCalendarShapeTests.swift"
+      }
+    ],
+    "signed_s14_acceptance": false
+  },
+  "independent_review": {
+    "reviewer": "ui02_readonly_review",
+    "result": "Six baseline runtime paths reviewed; version-only blocker source-closed on66e8fce; no new concrete blocker. No reviewer native execution."
+  },
+  "owner_build": {
+    "result": "Unsigned Simulator app+widget BUILD SUCCEEDED; root checked full raw log hash and actual current binaries",
+    "raw_log_sha256": "7399163c3f64a15d405d9a80f5f2912e772742946f084f13cee3fdf8ef65f9ed",
+    "source_compilation": "Actual AnnualGospelCalendar.swift compile arm64 and x86_64, relink both debug dylibs",
+    "app_debug_dylib_sha256": "dcde5a7425eddd6126bdf804ef527aed6647c91c492123ce5d3e0beea8702056",
+    "widget_debug_dylib_sha256": "8d2073218368a18a64d091f37d00e7daa7670cb3f895b789bdf63a40b83d6672",
+    "note": "Small debug executable stubs have unchanged hashes; runtime code lives in relinked debug dylibs. Not a signed release/device proof."
+  },
+  "limits": [
+    "Development fixture remains173/192 legacy-only; authenticated M0 accepts structurally versioned approved reference additions with existing auth/hash/binding guards.",
+    "Unsigned frozen S14 shape verifies31eligible/33readings/Nov6unknown; not signature/install proof.",
+    "Actual signed S13→S14 install/reader/restart/rejected-candidate retention remains required on both native platforms.",
+    "No speed optimization, version change, device operation or public publication performed by this review."
+  ],
+  "next": "Root ACK releases native source freeze. Shared owner may pin this receipt and create additive r2 with0.1.15 floor. iOS owner may prepare version42 and signedS14 test harness; no build until slot explicitly assigned.",
+  "publication_authorized": false
+}

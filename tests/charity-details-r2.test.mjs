@@ -3,6 +3,7 @@ import { createHash } from 'node:crypto';
 import { readFile } from 'node:fs/promises';
 import test from 'node:test';
 import { validateOrganizationsRegistry } from '../scripts/validate-organizations-v1.mjs';
+import { loadS4Source } from '../scripts/prepare-charity-details-v2.mjs';
 
 const root = new URL('../', import.meta.url);
 const payloadPath = 'modules/organizations-v1/2026.9.19-r2/data/organizations-v1.json';
@@ -40,13 +41,13 @@ const editorialOptions = {
   }
 };
 
-test('profile r2 preserves pinned source, approvals and live or archived S4 discovery bytes', async () => {
+test('profile r2 preserves pinned source, approvals and exact live or archived S4 discovery bytes', async () => {
   assert.equal(sourceReview.preserved_files.length, 7);
+  const frozenS4 = await loadS4Source();
   for (const record of sourceReview.preserved_files) {
-    let preserved = await readFile(new URL(record.path, root));
-    if (sha256(preserved) !== record.sha256 && /^releases\/v2\/production\/index\.(json|sig)$/.test(record.path)) {
-      preserved = await readFile(new URL(`releases/v2/production/discovery-archive/shared-widget-excerpts-2026-09-18-m0v2-s4/${record.path.split('/').at(-1)}`, root));
-    }
+    const preserved = ['releases/v2/production/index.json', 'releases/v2/production/index.sig'].includes(record.path)
+      ? frozenS4.files.get(record.path.slice('releases/v2/production/'.length))
+      : await readFile(new URL(record.path, root));
     assert.equal(preserved.length, record.bytes, record.path);
     assert.equal(sha256(preserved), record.sha256, record.path);
   }

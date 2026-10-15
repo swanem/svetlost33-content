@@ -1,0 +1,159 @@
+{
+  "key_id": "svetlost33-content-2026-key-1",
+  "trusted_pem_sha256": "9671cc745a71f3b35ac2281bfd4e8da9335db9c6a44beda0ae5cf380b292c1f6",
+  "accepted_at": "2026-10-06T16:04:00Z",
+  "old": {
+    "release_set_id": "shared-calendar-saints-2026-10-02-m0v2-s12",
+    "sequence": 12,
+    "minimum_android_code": 35,
+    "index_sha256": "a0d50c23036db203035419f4ba169ddb6005223799ed3ac4e89e03dd9f7733e9",
+    "release_sha256": "78142e24f74812be9859b88163203de23517a9ed40a16c0f5ee085e25354255d",
+    "article_count": 62,
+    "article_links": 11,
+    "modules": [
+      {
+        "module_id": "library-annual-2026-r1",
+        "version": "2026.1.1",
+        "revision": 2,
+        "dependencies": []
+      },
+      {
+        "module_id": "daily-cycles-r1",
+        "version": "2026.1.2",
+        "revision": 3,
+        "dependencies": [
+          {
+            "module_id": "library-annual-2026-r1",
+            "version": "2026.1.1"
+          }
+        ]
+      },
+      {
+        "module_id": "calendar-2026-r1",
+        "version": "2026.1.1",
+        "revision": 2,
+        "dependencies": [
+          {
+            "module_id": "library-annual-2026-r1",
+            "version": "2026.1.1"
+          }
+        ]
+      },
+      {
+        "module_id": "organizations-v1",
+        "version": "2026.9.30",
+        "revision": 3,
+        "dependencies": []
+      },
+      {
+        "module_id": "saints-v1",
+        "version": "2026.9.30",
+        "revision": 4,
+        "dependencies": [
+          {
+            "module_id": "calendar-2026-r1",
+            "version": "2026.1.1"
+          }
+        ]
+      },
+      {
+        "module_id": "liturgical-catalog-v1",
+        "version": "2026.10.1",
+        "revision": 7,
+        "dependencies": [
+          {
+            "module_id": "calendar-2026-r1",
+            "version": "2026.1.1"
+          },
+          {
+            "module_id": "saints-v1",
+            "version": "2026.9.30"
+          }
+        ]
+      },
+      {
+        "module_id": "calendar-browser-v1",
+        "version": "2026.10.2",
+        "revision": 3,
+        "dependencies": []
+      }
+    ]
+  },
+  "candidate": {
+    "release_set_id": "shared-saints104-2026-10-06-m0v2-s13",
+    "sequence": 13,
+    "minimum_android_code": 66,
+    "index_sha256": "6250554d597daa19025cdcd3bc1d0c7c1763c3763ff4bc4fe1b85fb03f69441b",
+    "release_sha256": "76054fb851221ad1de64922a1167741646e2dd9f199588404b9a6a7745d4b7ff",
+    "article_count": 104,
+    "article_links": 53,
+    "modules": [
+      {
+        "module_id": "library-annual-2026-r1",
+        "version": "2026.1.1",
+        "revision": 2,
+        "dependencies": []
+      },
+      {
+        "module_id": "daily-cycles-r1",
+        "version": "2026.1.2",
+        "revision": 3,
+        "dependencies": [
+          {
+            "module_id": "library-annual-2026-r1",
+            "version": "2026.1.1"
+          }
+        ]
+      },
+      {
+        "module_id": "calendar-2026-r1",
+        "version": "2026.1.1",
+        "revision": 2,
+        "dependencies": [
+          {
+            "module_id": "library-annual-2026-r1",
+            "version": "2026.1.1"
+          }
+        ]
+      },
+      {
+        "module_id": "organizations-v1",
+        "version": "2026.9.30",
+        "revision": 3,
+        "dependencies": []
+      },
+      {
+        "module_id": "saints-v1",
+        "version": "2026.10.6",
+        "revision": 5,
+        "dependencies": [
+          {
+            "module_id": "calendar-2026-r1",
+            "version": "2026.1.1"
+          }
+        ]
+      },
+      {
+        "module_id": "liturgical-catalog-v1",
+        "version": "2026.10.6",
+        "revision": 8,
+        "dependencies": [
+          {
+            "module_id": "calendar-2026-r1",
+            "version": "2026.1.1"
+          },
+          {
+            "module_id": "saints-v1",
+            "version": "2026.10.6"
+          }
+        ]
+      },
+      {
+        "module_id": "calendar-browser-v1",
+        "version": "2026.10.6",
+        "revision": 4,
+        "dependencies": []
+      }
+    ]
+  }
+}

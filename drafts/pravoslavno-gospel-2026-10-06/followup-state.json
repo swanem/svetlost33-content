@@ -1,0 +1,26 @@
+{
+  "schema_version": "svetlost33-pravoslavno-followup-state-1",
+  "source_url": "https://www.pravoslavno.rs/index.php?q=citanja",
+  "collection_folder": "drafts/pravoslavno-gospel-2026-10-06",
+  "latest_candidate": "review/candidate.json",
+  "latest_delta": "review/delta.json",
+  "latest_handoff": "handoff.json",
+  "validated_window": [
+    "2026-10-06",
+    "2026-11-05"
+  ],
+  "validated_source_dates": 31,
+  "gospel_readings": 33,
+  "last_validated_source_date": "2026-11-05",
+  "last_contiguous_validated_source_date": "2026-11-05",
+  "next_search_local_date": "2026-10-26",
+  "next_search_local_time": "09:00",
+  "timezone": "Europe/Belgrade",
+  "lead_calendar_days": 10,
+  "automation_id": "svetlost33-dopuna-dnevnih-jevan-elja",
+  "publication_status": "NOT_PUBLISHED; planned combined calendar-saints-2026 release only",
+  "source_only_candidates_are_not_published_gates": true,
+  "scope_end": "2026-12-31",
+  "last_updated_utc": "2026-10-06T17:43:37Z",
+  "note": "Recompute next date from actual newly validated source endpoint after each successful intake. Preserve old successful snapshot and report gaps/failure. Missing future source dates are not confirmed absence."
+}

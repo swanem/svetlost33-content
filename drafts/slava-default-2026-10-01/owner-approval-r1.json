@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "recordedOn": "2026-10-01",
+  "decision": "EXACT_IMAGE_APPROVED_FOR_LOCAL_NATIVE_INTEGRATION_AND_PREVIEW_QA",
+  "userMessage": "ok odobravam 1, 2, Kalendar i svetitelji",
+  "context": "Items 1 and 2 were integration of the previously displayed common Serbian Slava motif and checking its appearance on both platforms. Item 3 (publication/device delivery) was not selected.",
+  "assetId": "slava-default",
+  "candidateRecord": "candidate-r1.json",
+  "candidateRecordSha256": "0c51d4f0510ab4e9199d566d0e0fbac1d4afb31bdc9589688a966d8a7cf4c277",
+  "original": "slava-default-candidate-r1.png",
+  "originalSha256": "87ce4958b5cc3e3157f02d8be930272979b64cae76b33aa3fd55db370438b9c7",
+  "editorialApproval": true,
+  "localNativeIntegrationAuthorized": true,
+  "mechanicalPreviewRenditionsAuthorized": true,
+  "productionPublicationAuthorized": false,
+  "readyForPublicDistribution": false,
+  "provenance": "First-party built-in ImageGen text-only generation, recorded in immutable candidate-r1.json. Not CC0 or public domain; no independent rights guarantee. The separate account-holder/service-basis question remains unanswered and is not inferred from this image selection.",
+  "excluded": ["previous seven draft images", "OTA resumption", "Liturgical text", "2027 data", "signing", "site or content publication", "physical device installation"],
+  "specSha256": "8d6be3f011fcb7381d7cda7096bfd94359a496cab46d510ac229abd5b7b3cc20"
+}

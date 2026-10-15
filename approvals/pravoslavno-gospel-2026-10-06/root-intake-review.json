@@ -1,0 +1,59 @@
+{
+  "schema_version": "svetlost33-root-reference-intake-review-1",
+  "reviewed_at_utc": "2026-10-06T17:49:00Z",
+  "status": "PASS_REFERENCE_INTAKE_ONLY_NOT_RELEASE_GO",
+  "handoff": {
+    "path": "drafts/pravoslavno-gospel-2026-10-06/handoff.json",
+    "sha256": "fbfb34c177017198bbc76761f0841c99f006cf931ba3b5c9d4675425a9661cc9"
+  },
+  "candidate_sha256": "fb4ed9f299fce8c8ee411815c5c2c68884c68e0c9468c4437c3c044f82a5ae1c",
+  "root_checks": {
+    "source_read": ["collect.mjs", "prepare.mjs", "verify.mjs", "verify.test.mjs"],
+    "command": "node drafts/pravoslavno-gospel-2026-10-06/verify.mjs --check",
+    "exit_code": 0,
+    "tests": 9,
+    "passed": 9,
+    "failed": 0,
+    "skipped": 0,
+    "test_duration_ms": 282.61775,
+    "all_handoff_artifact_hashes_rechecked": true,
+    "network_during_tests": false,
+    "evidence": "Complete TAP output returned by root exec_command at review time; owner saved targeted-tests.log remains separate evidence."
+  },
+  "coverage": {
+    "first_date": "2026-10-06",
+    "last_contiguous_date": "2026-11-05",
+    "dates": 31,
+    "readings": 33,
+    "gaps": [],
+    "conflicts_with_existing_S13_references": [],
+    "single_publisher_observations_not_complete_SPC_service_schedule": true
+  },
+  "publication_scope_direct_user_request": "spoji sa Kalendar i svetitelji do 31. decembra u jednu objavu",
+  "publication_scope": "One combined A+B+existing S13 year-end saints/calendar content release plus only currently validated Gospel references;104 article bodies preserved. This review does not itself authorize bypass of content/native/signing gates.",
+  "remaining_gates": [
+    "Explicit reviewed compatibility for33 exact Pravoslavno source headings; preserve source originals and multiple zachala",
+    "Materialize and review A+B canonical joins on published S13, preserving104 article bodies and all unrelated calendar facts",
+    "Regenerate exact calendar/saints/catalog/browser bindings and validate one combined graph",
+    "Stable native acceptance in original Android/iOS owner tasks with sequential free build slots",
+    "Sign and publish only accepted combined bytes; verify public readback"
+  ],
+  "scheduled_followup": {
+    "automation_id": "svetlost33-dopuna-dnevnih-jevan-elja",
+    "status": "ACTIVE_CONFIRMED_BY_TOOL",
+    "local_date": "2026-10-26",
+    "local_time": "09:00",
+    "timezone": "Europe/Belgrade",
+    "lead_calendar_days": 10,
+    "same_thread": "01a06b7f-775f-7d03-82b5-c2b416ade556",
+    "new_dated_additive_snapshot_required": true,
+    "automatic_signing_or_publication": false,
+    "local_runtime_requirement": "Mac and Codex app running with project available"
+  },
+  "raw_source_HTML_distribution": false,
+  "new_translation_or_commentary_distribution": false,
+  "native_code_changed_by_root": false,
+  "production_calendar_changed": false,
+  "signed": false,
+  "published": false
+}

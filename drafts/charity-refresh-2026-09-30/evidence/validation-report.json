@@ -1,0 +1,21 @@
+{
+  "checked_on": "2026-09-30",
+  "command": "node --test drafts/charity-refresh-2026-09-30/validate.test.mjs",
+  "exit_code": 0,
+  "tests": 8,
+  "passed": 8,
+  "failed": 0,
+  "skipped": 0,
+  "git_diff_check": "passed",
+  "native_android_tests": "not_run_here",
+  "native_ios_tests": "not_run_here",
+  "production_signature": "absent_by_design",
+  "exact_candidate_approval": "not_granted",
+  "manifest_sha256": "4604426502e49bb95bb70fa81e6e63dd955e92d5b58b206baaedebcfada8c7e3",
+  "payload_sha256": "1b1ddbcbdd19b02ca61b531a25f59b3cda2740dbbc57578f08fe1003d699938c",
+  "notes": [
+    "Validation includes in-memory hypothetical reviewed/active states only; saved files remain candidate/draft.",
+    "The 22 saved HTTP observations all returned 200. Native visual/interaction and signed OTA acceptance still need their own evidence.",
+    "Only drafts/charity-refresh-2026-09-30 files were created by this task."
+  ]
+}

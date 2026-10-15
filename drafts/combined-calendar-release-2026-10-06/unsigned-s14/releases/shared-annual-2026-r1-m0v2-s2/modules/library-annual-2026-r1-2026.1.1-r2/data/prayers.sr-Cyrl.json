@@ -1,0 +1,1337 @@
+{
+  "schema_version": "annual-library-1",
+  "package_id": "svetlost33-annual-2026-review-1",
+  "locale": "sr-Cyrl",
+  "production_ready": false,
+  "release_allowed": false,
+  "categories": [
+    {
+      "id": "morning",
+      "title": "Јутро"
+    },
+    {
+      "id": "during_day",
+      "title": "Током дана"
+    },
+    {
+      "id": "evening",
+      "title": "Вече"
+    },
+    {
+      "id": "by_need",
+      "title": "По потреби"
+    }
+  ],
+  "prayers": [
+    {
+      "id": "our-father",
+      "title": "Оче наш",
+      "subtitle": "Библијски текст молитве",
+      "text": "Оче наш који си на небесима, да се свети име Твоје; Да дође царство Твоје; да буде воља Твоја и на земљи као на небу; Хлеб наш потребни дај нам данас; И опрости нам дугове наше као и ми што опраштамо дужницима својим; И не наведи нас у напаст; но избави нас ода зла. Јер је Твоје царство, и сила, и слава ва век. Амин.",
+      "paragraphs": [
+        "Оче наш који си на небесима, да се свети име Твоје;",
+        "Да дође царство Твоје; да буде воља Твоја и на земљи као на небу;",
+        "Хлеб наш потребни дај нам данас;",
+        "И опрости нам дугове наше као и ми што опраштамо дужницима својим;",
+        "И не наведи нас у напаст; но избави нас ода зла. Јер је Твоје царство, и сила, и слава ва век. Амин."
+      ],
+      "source_page": "MAT06",
+      "source_verses": [
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "source_id": "EBIBLE-MAT06",
+      "source_url": "https://ebible.org/srp1868/MAT06.htm#V9",
+      "reference": "Мт 6,9–13",
+      "extraction": "Изостављена је уводна реченица о молитви у стиху 9; текст саме молитве сачуван је без препричавања.",
+      "translation": "Вук Караџић — текст дигиталног издања eBible srp1868",
+      "notice": "Ово је библијска формулација у наведеном преводу; разликује се од уобичајеног текста у савременом православном молитвенику.",
+      "offline": true,
+      "rights": {
+        "basis": "public_domain_as_declared_by_source",
+        "declaration_url": "https://ebible.org/srp1868/copyright.htm",
+        "license_id": "EBIBLE-PUBLIC-DOMAIN"
+      },
+      "review": {
+        "text_check": "matched_new_source_snapshot_2026_09_13",
+        "theological_review": "pending",
+        "approved_by": null,
+        "facsimile_check": "not_checked",
+        "legal_release": "pending"
+      },
+      "kind": "biblical_prayer",
+      "categories": [
+        "morning",
+        "during_day"
+      ],
+      "automatic_cycle_eligible": true,
+      "full_selected_prayer_included": true,
+      "modern_translation": false,
+      "edition_year": null,
+      "source_action": {
+        "type": "open_local_source",
+        "target_id": "EBIBLE-MAT06",
+        "label": "Извор и издање"
+      },
+      "license_action": {
+        "type": "open_local_license",
+        "target_id": "EBIBLE-PUBLIC-DOMAIN",
+        "label": "Права коришћења"
+      },
+      "content_version": "0.3.0",
+      "original_text_unchanged_from_v02": true,
+      "rights_group_id": "EBIBLE-SRP1868",
+      "source_snapshot_sha256": "8aec9a02e79592708262c8aea8a08fbbfd6ec673157345000076a33c54178dc6",
+      "release_allowed": false,
+      "annual_package_status": "SOURCE_MATCHED_REVIEW_PENDING",
+      "review_record_id": "our-father",
+      "review_file": "prayerbook-review.json"
+    },
+    {
+      "id": "publican-prayer",
+      "title": "Молитва цариника",
+      "subtitle": "Кратка молитва из Јеванђеља",
+      "text": "Боже! Милостив буди мени грешноме.",
+      "paragraphs": [
+        "Боже! Милостив буди мени грешноме."
+      ],
+      "source_page": "LUK18",
+      "source_verses": [
+        13
+      ],
+      "source_id": "EBIBLE-LUK18",
+      "source_url": "https://ebible.org/srp1868/LUK18.htm#V13",
+      "reference": "Лк 18,13 — речи молитве",
+      "extraction": "Узете су само речи молитве после „говорећи:“, не приповедни део стиха.",
+      "translation": "Вук Караџић — текст дигиталног издања eBible srp1868",
+      "notice": "Избор за лично читање и молитву; није прописано подневно богослужење.",
+      "offline": true,
+      "rights": {
+        "basis": "public_domain_as_declared_by_source",
+        "declaration_url": "https://ebible.org/srp1868/copyright.htm",
+        "license_id": "EBIBLE-PUBLIC-DOMAIN"
+      },
+      "review": {
+        "text_check": "matched_new_source_snapshot_2026_09_13",
+        "theological_review": "pending",
+        "approved_by": null,
+        "facsimile_check": "not_checked",
+        "legal_release": "pending"
+      },
+      "kind": "biblical_prayer",
+      "categories": [
+        "during_day"
+      ],
+      "automatic_cycle_eligible": true,
+      "full_selected_prayer_included": true,
+      "modern_translation": false,
+      "edition_year": null,
+      "source_action": {
+        "type": "open_local_source",
+        "target_id": "EBIBLE-LUK18",
+        "label": "Извор и издање"
+      },
+      "license_action": {
+        "type": "open_local_license",
+        "target_id": "EBIBLE-PUBLIC-DOMAIN",
+        "label": "Права коришћења"
+      },
+      "content_version": "0.3.0",
+      "original_text_unchanged_from_v02": true,
+      "rights_group_id": "EBIBLE-SRP1868",
+      "source_snapshot_sha256": "0434954466a4d105283112e2658acb4490653447cf466b72a0ab298012af42f4",
+      "release_allowed": false,
+      "annual_package_status": "SOURCE_MATCHED_REVIEW_PENDING",
+      "review_record_id": "publican-prayer",
+      "review_file": "prayerbook-review.json"
+    },
+    {
+      "id": "simeon-prayer",
+      "title": "Симеонова молитва",
+      "subtitle": "Молитвене речи из Јеванђеља",
+      "text": "Сад отпушташ с миром слугу свог, Господе, по речи својој; Јер видеше очи моје спасење Твоје, Које си уготовио пред лицем свих народа, Видело, да обасја незнабошце, и славу народа Твог Израиља.",
+      "paragraphs": [
+        "Сад отпушташ с миром слугу свог, Господе, по речи својој;",
+        "Јер видеше очи моје спасење Твоје,",
+        "Које си уготовио пред лицем свих народа,",
+        "Видело, да обасја незнабошце, и славу народа Твог Израиља."
+      ],
+      "source_page": "LUK02",
+      "source_verses": [
+        29,
+        30,
+        31,
+        32
+      ],
+      "source_id": "EBIBLE-LUK02",
+      "source_url": "https://ebible.org/srp1868/LUK02.htm#V29",
+      "reference": "Лк 2,29–32",
+      "extraction": "Преузете су молитвене речи у стиховима 29–32, без приповедног увода.",
+      "translation": "Вук Караџић — текст дигиталног издања eBible srp1868",
+      "notice": "Библијски текст у преводу Вука Караџића, не препис савременог богослужбеног молитвослова.",
+      "offline": true,
+      "rights": {
+        "basis": "public_domain_as_declared_by_source",
+        "declaration_url": "https://ebible.org/srp1868/copyright.htm",
+        "license_id": "EBIBLE-PUBLIC-DOMAIN"
+      },
+      "review": {
+        "text_check": "matched_new_source_snapshot_2026_09_13",
+        "theological_review": "pending",
+        "approved_by": null,
+        "facsimile_check": "not_checked",
+        "legal_release": "pending"
+      },
+      "kind": "biblical_prayer",
+      "categories": [
+        "evening"
+      ],
+      "automatic_cycle_eligible": true,
+      "full_selected_prayer_included": true,
+      "modern_translation": false,
+      "edition_year": null,
+      "source_action": {
+        "type": "open_local_source",
+        "target_id": "EBIBLE-LUK02",
+        "label": "Извор и издање"
+      },
+      "license_action": {
+        "type": "open_local_license",
+        "target_id": "EBIBLE-PUBLIC-DOMAIN",
+        "label": "Права коришћења"
+      },
+      "content_version": "0.3.0",
+      "original_text_unchanged_from_v02": true,
+      "rights_group_id": "EBIBLE-SRP1868",
+      "source_snapshot_sha256": "242988162f9dd78556c60ec88bc220dc7ba9468075c266c5a9705b2528ea7060",
+      "release_allowed": false,
+      "annual_package_status": "SOURCE_MATCHED_REVIEW_PENDING",
+      "review_record_id": "simeon-prayer",
+      "review_file": "prayerbook-review.json"
+    },
+    {
+      "id": "theotokos-greeting",
+      "title": "Богородице Дево",
+      "subtitle": "Молитвеник из 1929. · српски текст",
+      "kind": "historical_prayerbook_prayer",
+      "text": "Богородице Дево, радуј се (здраво да си!) благодатна Маријо, Господ је с Тобом. Благословена си ти међу женама и благословен је плод утробе твоје, јер си родила Спаситеља душа наших.",
+      "paragraphs": [
+        "Богородице Дево, радуј се (здраво да си!) благодатна Маријо, Господ је с Тобом. Благословена си ти међу женама и благословен је плод утробе твоје, јер си родила Спаситеља душа наших."
+      ],
+      "source_id": "MOL1929-THEOTOKOS-GREETING",
+      "source_excerpt_id": "theotokos-greeting",
+      "source_url": "https://sr.wikisource.org/w/index.php?title=%D0%9C%D0%B0%D0%BB%D0%B8_%D0%BC%D0%BE%D0%BB%D0%B8%D1%82%D0%B2%D0%B5%D0%BD%D0%B8%D0%BA_(1929)&oldid=73934",
+      "source_section": "Поздрав Мајци Божјој",
+      "source_table_index": 0,
+      "reference": "Мали молитвеник (1929), „Поздрав Мајци Божјој“",
+      "translation": "Српски текст у издању које је средио прота Јован Константиновић; према дигиталном препису Викизворника.",
+      "edition_year": 1929,
+      "modern_translation": false,
+      "full_selected_prayer_included": true,
+      "extraction": "Преузета цела српска (десна) колона означене молитвене целине. Нису преузети околни поучни текстови, црквенословенска колона ни нови превод тропара Светом Сави.",
+      "notice": "Поздрав Мајци Божјој; сачувана објашњења у заградама из издања.",
+      "categories": [
+        "morning",
+        "evening"
+      ],
+      "automatic_cycle_eligible": true,
+      "offline": true,
+      "content_version": "0.3.0",
+      "source_text_before_corrections": "Богородице Дево, радуј се (здраво да си!) благодатна Маријо, Господ је с Тобом. Благословена си ти међу женама и благословен је плод утробе твоје, јер си родила Спаситеља душа наших.",
+      "editorial_change_ids": [],
+      "rights": {
+        "basis": "open_licensed_digital_transcription_with_historical_public_domain_evidence",
+        "license_id": "CC-BY-SA-4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "attribution": "Јован Константиновић, „Мали молитвеник“, Загреб, 1929; дигитални препис: Викизворник, редакција 73934, сарадници странице (у заглављу наведен Smart). Дигитални уреднички доприноси: CC BY-SA 4.0. Избор, форматирање, две означене словне исправке и латиничка транслитерација у овом пакету.",
+        "history_url": "https://sr.wikisource.org/w/index.php?title=%D0%9C%D0%B0%D0%BB%D0%B8_%D0%BC%D0%BE%D0%BB%D0%B8%D1%82%D0%B2%D0%B5%D0%BD%D0%B8%D0%BA_(1929)&action=history",
+        "underlying_work_evidence_ids": [
+          "MATICA-JK-1935",
+          "ZIS-COPYRIGHT"
+        ],
+        "scope": "Лиценца је сачувана за дигитални препис и уредничке доприносе, не намеће нова права над изворним слободним молитвама. Не лиценцира се цела апликација."
+      },
+      "review": {
+        "text_check": "matched_digital_source",
+        "facsimile_check": "not_checked",
+        "theological_review": "pending",
+        "approved_by": null
+      },
+      "source_action": {
+        "type": "open_local_source",
+        "target_id": "MOL1929-THEOTOKOS-GREETING",
+        "label": "Извор и издање"
+      },
+      "license_action": {
+        "type": "open_local_license",
+        "target_id": "CC-BY-SA-4.0",
+        "label": "Права коришћења"
+      },
+      "release_allowed": false,
+      "annual_package_status": "HELD_SOURCE_AND_TRANSLATION_UNRESOLVED",
+      "review_record_id": "theotokos-greeting",
+      "review_file": "prayerbook-review.json"
+    },
+    {
+      "id": "trisagion",
+      "title": "Свети Боже",
+      "subtitle": "Молитвеник из 1929. · српски текст",
+      "kind": "historical_prayerbook_prayer",
+      "text": "Свети Боже, свети крепки (јаки), свети бесмртни - смилуј се на нас (3 пута). Слава (нека је) Оцу и Сину и Светом Духу; и сада и свагда и у веке векова. Амин.",
+      "paragraphs": [
+        "Свети Боже, свети крепки (јаки), свети бесмртни - смилуј се на нас (3 пута).",
+        "Слава (нека је) Оцу и Сину и Светом Духу; и сада и свагда и у веке векова. Амин."
+      ],
+      "source_id": "MOL1929-TRISAGION",
+      "source_excerpt_id": "trisagion",
+      "source_url": "https://sr.wikisource.org/w/index.php?title=%D0%9C%D0%B0%D0%BB%D0%B8_%D0%BC%D0%BE%D0%BB%D0%B8%D1%82%D0%B2%D0%B5%D0%BD%D0%B8%D0%BA_(1929)&oldid=73934",
+      "source_section": "Молитва Светој Тројици",
+      "source_table_index": 0,
+      "reference": "Мали молитвеник (1929), „Молитва Светој Тројици“",
+      "translation": "Српски текст у издању које је средио прота Јован Константиновић; према дигиталном препису Викизворника.",
+      "edition_year": 1929,
+      "modern_translation": false,
+      "full_selected_prayer_included": true,
+      "extraction": "Преузета цела српска (десна) колона означене молитвене целине. Нису преузети околни поучни текстови, црквенословенска колона ни нови превод тропара Светом Сави.",
+      "notice": "Прва молитвена целина у одељку „Молитва Светој Тројици“, са славословљем; није цео одељак нити цело Трисвето по молитвослову. Ознака „3 пута“ је упутство из извора.",
+      "categories": [
+        "morning",
+        "during_day"
+      ],
+      "automatic_cycle_eligible": true,
+      "offline": true,
+      "content_version": "0.3.0",
+      "source_text_before_corrections": "Свети Боже, свети крепки (јаки), свети бесмртни - смилуј се на нас (3 пута). Слава (нека је) Оцу и Сину и Светом Духу; и сада и свагда и у веке векова. Амин.",
+      "editorial_change_ids": [],
+      "rights": {
+        "basis": "open_licensed_digital_transcription_with_historical_public_domain_evidence",
+        "license_id": "CC-BY-SA-4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "attribution": "Јован Константиновић, „Мали молитвеник“, Загреб, 1929; дигитални препис: Викизворник, редакција 73934, сарадници странице (у заглављу наведен Smart). Дигитални уреднички доприноси: CC BY-SA 4.0. Избор, форматирање, две означене словне исправке и латиничка транслитерација у овом пакету.",
+        "history_url": "https://sr.wikisource.org/w/index.php?title=%D0%9C%D0%B0%D0%BB%D0%B8_%D0%BC%D0%BE%D0%BB%D0%B8%D1%82%D0%B2%D0%B5%D0%BD%D0%B8%D0%BA_(1929)&action=history",
+        "underlying_work_evidence_ids": [
+          "MATICA-JK-1935",
+          "ZIS-COPYRIGHT"
+        ],
+        "scope": "Лиценца је сачувана за дигитални препис и уредничке доприносе, не намеће нова права над изворним слободним молитвама. Не лиценцира се цела апликација."
+      },
+      "review": {
+        "text_check": "matched_digital_source",
+        "facsimile_check": "not_checked",
+        "theological_review": "pending",
+        "approved_by": null
+      },
+      "source_action": {
+        "type": "open_local_source",
+        "target_id": "MOL1929-TRISAGION",
+        "label": "Извор и издање"
+      },
+      "license_action": {
+        "type": "open_local_license",
+        "target_id": "CC-BY-SA-4.0",
+        "label": "Права коришћења"
+      },
+      "release_allowed": false,
+      "annual_package_status": "HELD_SOURCE_AND_TRANSLATION_UNRESOLVED",
+      "review_record_id": "trisagion",
+      "review_file": "prayerbook-review.json"
+    },
+    {
+      "id": "trinity-hope",
+      "title": "Надање је моје Отац",
+      "subtitle": "Молитвеник из 1929. · српски текст",
+      "kind": "historical_prayerbook_prayer",
+      "text": "Надање је моје Отац, уточиште моје Син, заштита моја Дух Свети; Тројице света слава теби!",
+      "paragraphs": [
+        "Надање је моје Отац, уточиште моје Син, заштита моја Дух Свети; Тројице света слава теби!"
+      ],
+      "source_id": "MOL1929-TRINITY-HOPE",
+      "source_excerpt_id": "trinity-hope",
+      "source_url": "https://sr.wikisource.org/w/index.php?title=%D0%9C%D0%B0%D0%BB%D0%B8_%D0%BC%D0%BE%D0%BB%D0%B8%D1%82%D0%B2%D0%B5%D0%BD%D0%B8%D0%BA_(1929)&oldid=73934",
+      "source_section": "Молитва Светој Тројици",
+      "source_table_index": 2,
+      "reference": "Мали молитвеник (1929), „Молитва Светој Тројици“ — молитва 3",
+      "translation": "Српски текст у издању које је средио прота Јован Константиновић; према дигиталном препису Викизворника.",
+      "edition_year": 1929,
+      "modern_translation": false,
+      "full_selected_prayer_included": true,
+      "extraction": "Преузета цела српска (десна) колона означене молитвене целине. Нису преузети околни поучни текстови, црквенословенска колона ни нови превод тропара Светом Сави.",
+      "notice": "Трећа, цела кратка молитва из одељка „Молитва Светој Тројици“.",
+      "categories": [
+        "during_day",
+        "evening"
+      ],
+      "automatic_cycle_eligible": true,
+      "offline": true,
+      "content_version": "0.3.0",
+      "source_text_before_corrections": "Надање је моје Отац, уточиште моје Син, заштита моја Дух Свети; Тројице света слава теби!",
+      "editorial_change_ids": [],
+      "rights": {
+        "basis": "open_licensed_digital_transcription_with_historical_public_domain_evidence",
+        "license_id": "CC-BY-SA-4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "attribution": "Јован Константиновић, „Мали молитвеник“, Загреб, 1929; дигитални препис: Викизворник, редакција 73934, сарадници странице (у заглављу наведен Smart). Дигитални уреднички доприноси: CC BY-SA 4.0. Избор, форматирање, две означене словне исправке и латиничка транслитерација у овом пакету.",
+        "history_url": "https://sr.wikisource.org/w/index.php?title=%D0%9C%D0%B0%D0%BB%D0%B8_%D0%BC%D0%BE%D0%BB%D0%B8%D1%82%D0%B2%D0%B5%D0%BD%D0%B8%D0%BA_(1929)&action=history",
+        "underlying_work_evidence_ids": [
+          "MATICA-JK-1935",
+          "ZIS-COPYRIGHT"
+        ],
+        "scope": "Лиценца је сачувана за дигитални препис и уредничке доприносе, не намеће нова права над изворним слободним молитвама. Не лиценцира се цела апликација."
+      },
+      "review": {
+        "text_check": "matched_digital_source",
+        "facsimile_check": "not_checked",
+        "theological_review": "pending",
+        "approved_by": null
+      },
+      "source_action": {
+        "type": "open_local_source",
+        "target_id": "MOL1929-TRINITY-HOPE",
+        "label": "Извор и издање"
+      },
+      "license_action": {
+        "type": "open_local_license",
+        "target_id": "CC-BY-SA-4.0",
+        "label": "Права коришћења"
+      },
+      "release_allowed": false,
+      "annual_package_status": "HELD_SOURCE_AND_TRANSLATION_UNRESOLVED",
+      "review_record_id": "trinity-hope",
+      "review_file": "prayerbook-review.json"
+    },
+    {
+      "id": "morning-prayer",
+      "title": "Јутарња молитва",
+      "subtitle": "Молитвеник из 1929. · српски текст",
+      "kind": "historical_prayerbook_prayer",
+      "text": "Од постеље и сна подигао си ме, Господе, ум мој просветли и срце, и усне моје отвори да ти појем света Тројице: свет, свет, свет јеси Боже, Богородицом (молитвама њезиним) смилуј се на нас.",
+      "paragraphs": [
+        "Од постеље и сна подигао си ме, Господе, ум мој просветли и срце, и усне моје отвори да ти појем света Тројице: свет, свет, свет јеси Боже, Богородицом (молитвама њезиним) смилуј се на нас."
+      ],
+      "source_id": "MOL1929-MORNING-PRAYER",
+      "source_excerpt_id": "morning-prayer",
+      "source_url": "https://sr.wikisource.org/w/index.php?title=%D0%9C%D0%B0%D0%BB%D0%B8_%D0%BC%D0%BE%D0%BB%D0%B8%D1%82%D0%B2%D0%B5%D0%BD%D0%B8%D0%BA_(1929)&oldid=73934",
+      "source_section": "Молитва јутарња",
+      "source_table_index": 0,
+      "reference": "Мали молитвеник (1929), „Молитва јутарња“",
+      "translation": "Српски текст у издању које је средио прота Јован Константиновић; према дигиталном препису Викизворника.",
+      "edition_year": 1929,
+      "modern_translation": false,
+      "full_selected_prayer_included": true,
+      "extraction": "Преузета цела српска (десна) колона означене молитвене целине. Нису преузети околни поучни текстови, црквенословенска колона ни нови превод тропара Светом Сави.",
+      "notice": "Историјска формулација; једна словна исправка забележена је у уредничком дневнику.",
+      "categories": [
+        "morning"
+      ],
+      "automatic_cycle_eligible": true,
+      "offline": true,
+      "content_version": "0.3.0",
+      "source_text_before_corrections": "Од постеље и сна подигао си ме, Господе, ум мој просветли и срце, и усне моје отвори да ти појем света Тројице: свет, свет, свет јеси Боже, Богородицом (молитвама њезиним) смилује се на нас.",
+      "editorial_change_ids": [
+        "TYPO-001"
+      ],
+      "rights": {
+        "basis": "open_licensed_digital_transcription_with_historical_public_domain_evidence",
+        "license_id": "CC-BY-SA-4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "attribution": "Јован Константиновић, „Мали молитвеник“, Загреб, 1929; дигитални препис: Викизворник, редакција 73934, сарадници странице (у заглављу наведен Smart). Дигитални уреднички доприноси: CC BY-SA 4.0. Избор, форматирање, две означене словне исправке и латиничка транслитерација у овом пакету.",
+        "history_url": "https://sr.wikisource.org/w/index.php?title=%D0%9C%D0%B0%D0%BB%D0%B8_%D0%BC%D0%BE%D0%BB%D0%B8%D1%82%D0%B2%D0%B5%D0%BD%D0%B8%D0%BA_(1929)&action=history",
+        "underlying_work_evidence_ids": [
+          "MATICA-JK-1935",
+          "ZIS-COPYRIGHT"
+        ],
+        "scope": "Лиценца је сачувана за дигитални препис и уредничке доприносе, не намеће нова права над изворним слободним молитвама. Не лиценцира се цела апликација."
+      },
+      "review": {
+        "text_check": "matched_digital_source_with_listed_corrections",
+        "facsimile_check": "not_checked",
+        "theological_review": "pending",
+        "approved_by": null
+      },
+      "source_action": {
+        "type": "open_local_source",
+        "target_id": "MOL1929-MORNING-PRAYER",
+        "label": "Извор и издање"
+      },
+      "license_action": {
+        "type": "open_local_license",
+        "target_id": "CC-BY-SA-4.0",
+        "label": "Права коришћења"
+      },
+      "release_allowed": false,
+      "annual_package_status": "HELD_SOURCE_AND_TRANSLATION_UNRESOLVED",
+      "review_record_id": "morning-prayer",
+      "review_file": "prayerbook-review.json"
+    },
+    {
+      "id": "before-lunch",
+      "title": "Молитва пре ручка",
+      "subtitle": "Молитвеник из 1929. · српски текст",
+      "kind": "historical_prayerbook_prayer",
+      "text": "Господе Исусе Христе Боже наш, благослови нам јело и пиће ово, молитвама пречисте Твоје Матере и свих светих Твојих.",
+      "paragraphs": [
+        "Господе Исусе Христе Боже наш, благослови нам јело и пиће ово, молитвама пречисте Твоје Матере и свих светих Твојих."
+      ],
+      "source_id": "MOL1929-BEFORE-LUNCH",
+      "source_excerpt_id": "before-lunch",
+      "source_url": "https://sr.wikisource.org/w/index.php?title=%D0%9C%D0%B0%D0%BB%D0%B8_%D0%BC%D0%BE%D0%BB%D0%B8%D1%82%D0%B2%D0%B5%D0%BD%D0%B8%D0%BA_(1929)&oldid=73934",
+      "source_section": "Молитва пре ручка",
+      "source_table_index": 0,
+      "reference": "Мали молитвеник (1929), „Молитва пре ручка“",
+      "translation": "Српски текст у издању које је средио прота Јован Константиновић; према дигиталном препису Викизворника.",
+      "edition_year": 1929,
+      "modern_translation": false,
+      "full_selected_prayer_included": true,
+      "extraction": "Преузета цела српска (десна) колона означене молитвене целине. Нису преузети околни поучни текстови, црквенословенска колона ни нови превод тропара Светом Сави.",
+      "notice": "Читање по избору пред оброком; апликација не претпоставља да корисник управо једе.",
+      "categories": [
+        "during_day",
+        "by_need"
+      ],
+      "automatic_cycle_eligible": false,
+      "offline": true,
+      "content_version": "0.3.0",
+      "source_text_before_corrections": "Господе Исусе Христе Боже наш, благослови нам јело и пиће ово, молитвама пречисте Твоје Матере и свих светих Твојих.",
+      "editorial_change_ids": [],
+      "rights": {
+        "basis": "open_licensed_digital_transcription_with_historical_public_domain_evidence",
+        "license_id": "CC-BY-SA-4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "attribution": "Јован Константиновић, „Мали молитвеник“, Загреб, 1929; дигитални препис: Викизворник, редакција 73934, сарадници странице (у заглављу наведен Smart). Дигитални уреднички доприноси: CC BY-SA 4.0. Избор, форматирање, две означене словне исправке и латиничка транслитерација у овом пакету.",
+        "history_url": "https://sr.wikisource.org/w/index.php?title=%D0%9C%D0%B0%D0%BB%D0%B8_%D0%BC%D0%BE%D0%BB%D0%B8%D1%82%D0%B2%D0%B5%D0%BD%D0%B8%D0%BA_(1929)&action=history",
+        "underlying_work_evidence_ids": [
+          "MATICA-JK-1935",
+          "ZIS-COPYRIGHT"
+        ],
+        "scope": "Лиценца је сачувана за дигитални препис и уредничке доприносе, не намеће нова права над изворним слободним молитвама. Не лиценцира се цела апликација."
+      },
+      "review": {
+        "text_check": "matched_digital_source",
+        "facsimile_check": "not_checked",
+        "theological_review": "pending",
+        "approved_by": null
+      },
+      "source_action": {
+        "type": "open_local_source",
+        "target_id": "MOL1929-BEFORE-LUNCH",
+        "label": "Извор и издање"
+      },
+      "license_action": {
+        "type": "open_local_license",
+        "target_id": "CC-BY-SA-4.0",
+        "label": "Права коришћења"
+      },
+      "release_allowed": false,
+      "annual_package_status": "HELD_SOURCE_AND_TRANSLATION_UNRESOLVED",
+      "review_record_id": "before-lunch",
+      "review_file": "prayerbook-review.json"
+    },
+    {
+      "id": "after-lunch",
+      "title": "Молитва после ручка",
+      "subtitle": "Молитвеник из 1929. · српски текст",
+      "kind": "historical_prayerbook_prayer",
+      "text": "Благодаримо ти, Христе Боже наш, што си нас наситио земаљских Твојих добара; не лиши нас (не ускрати нам) и небесног Твога царства, него као што си посред ученика својих дошао, Спаситељу, мир дајући им, дођи и к нама, и спаси нас.",
+      "paragraphs": [
+        "Благодаримо ти, Христе Боже наш, што си нас наситио земаљских Твојих добара; не лиши нас (не ускрати нам) и небесног Твога царства, него као што си посред ученика својих дошао, Спаситељу, мир дајући им, дођи и к нама, и спаси нас."
+      ],
+      "source_id": "MOL1929-AFTER-LUNCH",
+      "source_excerpt_id": "after-lunch",
+      "source_url": "https://sr.wikisource.org/w/index.php?title=%D0%9C%D0%B0%D0%BB%D0%B8_%D0%BC%D0%BE%D0%BB%D0%B8%D1%82%D0%B2%D0%B5%D0%BD%D0%B8%D0%BA_(1929)&oldid=73934",
+      "source_section": "Молитва после ручка",
+      "source_table_index": 0,
+      "reference": "Мали молитвеник (1929), „Молитва после ручка“",
+      "translation": "Српски текст у издању које је средио прота Јован Константиновић; према дигиталном препису Викизворника.",
+      "edition_year": 1929,
+      "modern_translation": false,
+      "full_selected_prayer_included": true,
+      "extraction": "Преузета цела српска (десна) колона означене молитвене целине. Нису преузети околни поучни текстови, црквенословенска колона ни нови превод тропара Светом Сави.",
+      "notice": "Читање по избору после оброка.",
+      "categories": [
+        "during_day",
+        "by_need"
+      ],
+      "automatic_cycle_eligible": false,
+      "offline": true,
+      "content_version": "0.3.0",
+      "source_text_before_corrections": "Благодаримо ти, Христе Боже наш, што си нас наситио земаљских Твојих добара; не лиши нас (не ускрати нам) и небесног Твога царства, него као што си посред ученика својих дошао, Спаситељу, мир дајући им, дођи и к нама, и спаси нас.",
+      "editorial_change_ids": [],
+      "rights": {
+        "basis": "open_licensed_digital_transcription_with_historical_public_domain_evidence",
+        "license_id": "CC-BY-SA-4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "attribution": "Јован Константиновић, „Мали молитвеник“, Загреб, 1929; дигитални препис: Викизворник, редакција 73934, сарадници странице (у заглављу наведен Smart). Дигитални уреднички доприноси: CC BY-SA 4.0. Избор, форматирање, две означене словне исправке и латиничка транслитерација у овом пакету.",
+        "history_url": "https://sr.wikisource.org/w/index.php?title=%D0%9C%D0%B0%D0%BB%D0%B8_%D0%BC%D0%BE%D0%BB%D0%B8%D1%82%D0%B2%D0%B5%D0%BD%D0%B8%D0%BA_(1929)&action=history",
+        "underlying_work_evidence_ids": [
+          "MATICA-JK-1935",
+          "ZIS-COPYRIGHT"
+        ],
+        "scope": "Лиценца је сачувана за дигитални препис и уредничке доприносе, не намеће нова права над изворним слободним молитвама. Не лиценцира се цела апликација."
+      },
+      "review": {
+        "text_check": "matched_digital_source",
+        "facsimile_check": "not_checked",
+        "theological_review": "pending",
+        "approved_by": null
+      },
+      "source_action": {
+        "type": "open_local_source",
+        "target_id": "MOL1929-AFTER-LUNCH",
+        "label": "Извор и издање"
+      },
+      "license_action": {
+        "type": "open_local_license",
+        "target_id": "CC-BY-SA-4.0",
+        "label": "Права коришћења"
+      },
+      "release_allowed": false,
+      "annual_package_status": "HELD_SOURCE_AND_TRANSLATION_UNRESOLVED",
+      "review_record_id": "after-lunch",
+      "review_file": "prayerbook-review.json"
+    },
+    {
+      "id": "before-dinner",
+      "title": "Молитва пре вечере",
+      "subtitle": "Молитвеник из 1929. · српски текст",
+      "kind": "historical_prayerbook_prayer",
+      "text": "Једу сиромаси и наситиће се, и хвалиће Господа сви који га траже, а срца њихова живеће у век века.",
+      "paragraphs": [
+        "Једу сиромаси и наситиће се, и хвалиће Господа сви који га траже, а срца њихова живеће у век века."
+      ],
+      "source_id": "MOL1929-BEFORE-DINNER",
+      "source_excerpt_id": "before-dinner",
+      "source_url": "https://sr.wikisource.org/w/index.php?title=%D0%9C%D0%B0%D0%BB%D0%B8_%D0%BC%D0%BE%D0%BB%D0%B8%D1%82%D0%B2%D0%B5%D0%BD%D0%B8%D0%BA_(1929)&oldid=73934",
+      "source_section": "Молитва пре вечере",
+      "source_table_index": 0,
+      "reference": "Мали молитвеник (1929), „Молитва пре вечере“",
+      "translation": "Српски текст у издању које је средио прота Јован Константиновић; према дигиталном препису Викизворника.",
+      "edition_year": 1929,
+      "modern_translation": false,
+      "full_selected_prayer_included": true,
+      "extraction": "Преузета цела српска (десна) колона означене молитвене целине. Нису преузети околни поучни текстови, црквенословенска колона ни нови превод тропара Светом Сави.",
+      "notice": "Псаламске речи у формулацији молитвеника из 1929; нису означене као цитат Даничићевог превода.",
+      "categories": [
+        "evening",
+        "by_need"
+      ],
+      "automatic_cycle_eligible": false,
+      "offline": true,
+      "content_version": "0.3.0",
+      "source_text_before_corrections": "Једу сиромаси и наситиће се, и хвалиће Господа сви који га траже, а срца њихова живеће у век века.",
+      "editorial_change_ids": [],
+      "rights": {
+        "basis": "open_licensed_digital_transcription_with_historical_public_domain_evidence",
+        "license_id": "CC-BY-SA-4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "attribution": "Јован Константиновић, „Мали молитвеник“, Загреб, 1929; дигитални препис: Викизворник, редакција 73934, сарадници странице (у заглављу наведен Smart). Дигитални уреднички доприноси: CC BY-SA 4.0. Избор, форматирање, две означене словне исправке и латиничка транслитерација у овом пакету.",
+        "history_url": "https://sr.wikisource.org/w/index.php?title=%D0%9C%D0%B0%D0%BB%D0%B8_%D0%BC%D0%BE%D0%BB%D0%B8%D1%82%D0%B2%D0%B5%D0%BD%D0%B8%D0%BA_(1929)&action=history",
+        "underlying_work_evidence_ids": [
+          "MATICA-JK-1935",
+          "ZIS-COPYRIGHT"
+        ],
+        "scope": "Лиценца је сачувана за дигитални препис и уредничке доприносе, не намеће нова права над изворним слободним молитвама. Не лиценцира се цела апликација."
+      },
+      "review": {
+        "text_check": "matched_digital_source",
+        "facsimile_check": "not_checked",
+        "theological_review": "pending",
+        "approved_by": null
+      },
+      "source_action": {
+        "type": "open_local_source",
+        "target_id": "MOL1929-BEFORE-DINNER",
+        "label": "Извор и издање"
+      },
+      "license_action": {
+        "type": "open_local_license",
+        "target_id": "CC-BY-SA-4.0",
+        "label": "Права коришћења"
+      },
+      "release_allowed": false,
+      "annual_package_status": "HELD_SOURCE_AND_TRANSLATION_UNRESOLVED",
+      "review_record_id": "before-dinner",
+      "review_file": "prayerbook-review.json"
+    },
+    {
+      "id": "bedtime-prayer",
+      "title": "Молитва пре спавања",
+      "subtitle": "Молитвеник из 1929. · српски текст",
+      "kind": "historical_prayerbook_prayer",
+      "text": "Господе Боже наш, што сагреших у дану овом: речју, делом и помишљу, као добар и човекољубац Бог опрости ми, миран сан и без узнемирења даруј ми, анђела Твога чувара пошаљи ми да ме заклони и сачува од сваког зла, јер си ти чувар душама и телима нашима, и теби славу одашиљемо: Оцу и Сину и Светому Духу; сада и свагда и у веке векова. Амин.",
+      "paragraphs": [
+        "Господе Боже наш, што сагреших у дану овом: речју, делом и помишљу, као добар и човекољубац Бог опрости ми, миран сан и без узнемирења даруј ми, анђела Твога чувара пошаљи ми да ме заклони и сачува од сваког зла, јер си ти чувар душама и телима нашима, и теби славу одашиљемо: Оцу и Сину и Светому Духу; сада и свагда и у веке векова. Амин."
+      ],
+      "source_id": "MOL1929-BEDTIME-PRAYER",
+      "source_excerpt_id": "bedtime-prayer",
+      "source_url": "https://sr.wikisource.org/w/index.php?title=%D0%9C%D0%B0%D0%BB%D0%B8_%D0%BC%D0%BE%D0%BB%D0%B8%D1%82%D0%B2%D0%B5%D0%BD%D0%B8%D0%BA_(1929)&oldid=73934",
+      "source_section": "Молитва пре спавања",
+      "source_table_index": 0,
+      "reference": "Мали молитвеник (1929), „Молитва пре спавања“",
+      "translation": "Српски текст у издању које је средио прота Јован Константиновић; према дигиталном препису Викизворника.",
+      "edition_year": 1929,
+      "modern_translation": false,
+      "full_selected_prayer_included": true,
+      "extraction": "Преузета цела српска (десна) колона означене молитвене целине. Нису преузети околни поучни текстови, црквенословенска колона ни нови превод тропара Светом Сави.",
+      "notice": "Читање по избору пред спавање; вече у апликацији не значи да корисник мора одмах на спавање.",
+      "categories": [
+        "evening"
+      ],
+      "automatic_cycle_eligible": true,
+      "offline": true,
+      "content_version": "0.3.0",
+      "source_text_before_corrections": "Господе Боже наш, што сагреших у дану овом: речју, делом и помишљу, као добар и човекољубац Бог опрости ми, миран сан и без узнемирења даруј ми, анђела Твога чувара пошаљи ми да ме заклони и сачува од сваког зла, јер си ти чувар душама и телима нашима, и теби славу одашиљемо: Оцу и Сину и Светому Духу; сада и свагда и у веке векова. Амин.",
+      "editorial_change_ids": [],
+      "rights": {
+        "basis": "open_licensed_digital_transcription_with_historical_public_domain_evidence",
+        "license_id": "CC-BY-SA-4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "attribution": "Јован Константиновић, „Мали молитвеник“, Загреб, 1929; дигитални препис: Викизворник, редакција 73934, сарадници странице (у заглављу наведен Smart). Дигитални уреднички доприноси: CC BY-SA 4.0. Избор, форматирање, две означене словне исправке и латиничка транслитерација у овом пакету.",
+        "history_url": "https://sr.wikisource.org/w/index.php?title=%D0%9C%D0%B0%D0%BB%D0%B8_%D0%BC%D0%BE%D0%BB%D0%B8%D1%82%D0%B2%D0%B5%D0%BD%D0%B8%D0%BA_(1929)&action=history",
+        "underlying_work_evidence_ids": [
+          "MATICA-JK-1935",
+          "ZIS-COPYRIGHT"
+        ],
+        "scope": "Лиценца је сачувана за дигитални препис и уредничке доприносе, не намеће нова права над изворним слободним молитвама. Не лиценцира се цела апликација."
+      },
+      "review": {
+        "text_check": "matched_digital_source",
+        "facsimile_check": "not_checked",
+        "theological_review": "pending",
+        "approved_by": null
+      },
+      "source_action": {
+        "type": "open_local_source",
+        "target_id": "MOL1929-BEDTIME-PRAYER",
+        "label": "Извор и издање"
+      },
+      "license_action": {
+        "type": "open_local_license",
+        "target_id": "CC-BY-SA-4.0",
+        "label": "Права коришћења"
+      },
+      "release_allowed": false,
+      "annual_package_status": "HELD_SOURCE_AND_TRANSLATION_UNRESOLVED",
+      "review_record_id": "bedtime-prayer",
+      "review_file": "prayerbook-review.json"
+    },
+    {
+      "id": "guardian-angel",
+      "title": "Молитва анђелу чувару",
+      "subtitle": "Молитвеник из 1929. · српски текст",
+      "kind": "historical_prayerbook_prayer",
+      "text": "Анђеле Божји, чувару мој свети, живот мој сачувај у страху према Богу. Ум мој утврди на истинитом путу и у љубави к Богу утврди душу моју, да тобом управљан(а) (твојим упутством) добијем од Христа Бога велику милост.",
+      "paragraphs": [
+        "Анђеле Божји, чувару мој свети, живот мој сачувај у страху према Богу. Ум мој утврди на истинитом путу и у љубави к Богу утврди душу моју, да тобом управљан(а) (твојим упутством) добијем од Христа Бога велику милост."
+      ],
+      "source_id": "MOL1929-GUARDIAN-ANGEL",
+      "source_excerpt_id": "guardian-angel",
+      "source_url": "https://sr.wikisource.org/w/index.php?title=%D0%9C%D0%B0%D0%BB%D0%B8_%D0%BC%D0%BE%D0%BB%D0%B8%D1%82%D0%B2%D0%B5%D0%BD%D0%B8%D0%BA_(1929)&oldid=73934",
+      "source_section": "Молитва анђелу чувару",
+      "source_table_index": 0,
+      "reference": "Мали молитвеник (1929), „Молитва анђелу чувару“",
+      "translation": "Српски текст у издању које је средио прота Јован Константиновић; према дигиталном препису Викизворника.",
+      "edition_year": 1929,
+      "modern_translation": false,
+      "full_selected_prayer_included": true,
+      "extraction": "Преузета цела српска (десна) колона означене молитвене целине. Нису преузети околни поучни текстови, црквенословенска колона ни нови превод тропара Светом Сави.",
+      "notice": "Заграде из извора су сачуване; једна словна исправка је забележена.",
+      "categories": [
+        "evening",
+        "by_need"
+      ],
+      "automatic_cycle_eligible": true,
+      "offline": true,
+      "content_version": "0.3.0",
+      "source_text_before_corrections": "Анђеле Божји, чувару мој свети, живот мој сачувај у страху према Богу. Ум мој утврди на истинитом путу и у љубави к Богу утврди душу моју, да тобом управљан(а) (твојим упутством) добијем од Христа Бога велико милост.",
+      "editorial_change_ids": [
+        "TYPO-002"
+      ],
+      "rights": {
+        "basis": "open_licensed_digital_transcription_with_historical_public_domain_evidence",
+        "license_id": "CC-BY-SA-4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "attribution": "Јован Константиновић, „Мали молитвеник“, Загреб, 1929; дигитални препис: Викизворник, редакција 73934, сарадници странице (у заглављу наведен Smart). Дигитални уреднички доприноси: CC BY-SA 4.0. Избор, форматирање, две означене словне исправке и латиничка транслитерација у овом пакету.",
+        "history_url": "https://sr.wikisource.org/w/index.php?title=%D0%9C%D0%B0%D0%BB%D0%B8_%D0%BC%D0%BE%D0%BB%D0%B8%D1%82%D0%B2%D0%B5%D0%BD%D0%B8%D0%BA_(1929)&action=history",
+        "underlying_work_evidence_ids": [
+          "MATICA-JK-1935",
+          "ZIS-COPYRIGHT"
+        ],
+        "scope": "Лиценца је сачувана за дигитални препис и уредничке доприносе, не намеће нова права над изворним слободним молитвама. Не лиценцира се цела апликација."
+      },
+      "review": {
+        "text_check": "matched_digital_source_with_listed_corrections",
+        "facsimile_check": "not_checked",
+        "theological_review": "pending",
+        "approved_by": null
+      },
+      "source_action": {
+        "type": "open_local_source",
+        "target_id": "MOL1929-GUARDIAN-ANGEL",
+        "label": "Извор и издање"
+      },
+      "license_action": {
+        "type": "open_local_license",
+        "target_id": "CC-BY-SA-4.0",
+        "label": "Права коришћења"
+      },
+      "release_allowed": false,
+      "annual_package_status": "HELD_SOURCE_AND_TRANSLATION_UNRESOLVED",
+      "review_record_id": "guardian-angel",
+      "review_file": "prayerbook-review.json"
+    },
+    {
+      "id": "heavenly-king",
+      "title": "Царе небесни",
+      "subtitle": "Молитвеник из 1929. · српски текст",
+      "kind": "historical_prayerbook_prayer",
+      "text": "Царе небесни, утешитељу, Душе истинити, који си свагде и све испуњаваш, ризницо блага (добара), и живота даваоче, дођи и усели се у нас и очисти нас од сваке нечистоће и спаси, добри душе наше.",
+      "paragraphs": [
+        "Царе небесни, утешитељу, Душе истинити, који си свагде и све испуњаваш, ризницо блага (добара), и живота даваоче, дођи и усели се у нас и очисти нас од сваке нечистоће и спаси, добри душе наше."
+      ],
+      "source_id": "MOL1929-HEAVENLY-KING",
+      "source_excerpt_id": "heavenly-king",
+      "source_url": "https://sr.wikisource.org/w/index.php?title=%D0%9C%D0%B0%D0%BB%D0%B8_%D0%BC%D0%BE%D0%BB%D0%B8%D1%82%D0%B2%D0%B5%D0%BD%D0%B8%D0%BA_(1929)&oldid=73934",
+      "source_section": "Молитва Светоме Духу",
+      "source_table_index": 0,
+      "reference": "Мали молитвеник (1929), „Молитва Светоме Духу“",
+      "translation": "Српски текст у издању које је средио прота Јован Константиновић; према дигиталном препису Викизворника.",
+      "edition_year": 1929,
+      "modern_translation": false,
+      "full_selected_prayer_included": true,
+      "extraction": "Преузета цела српска (десна) колона означене молитвене целине. Нису преузети околни поучни текстови, црквенословенска колона ни нови превод тропара Светом Сави.",
+      "notice": "Доступно у библиотеци по избору, без аутоматског уметања у целогодишњи циклус. Пакет нема проверена сезонска богослужбена правила.",
+      "categories": [
+        "by_need"
+      ],
+      "automatic_cycle_eligible": false,
+      "offline": true,
+      "content_version": "0.3.0",
+      "source_text_before_corrections": "Царе небесни, утешитељу, Душе истинити, који си свагде и све испуњаваш, ризницо блага (добара), и живота даваоче, дођи и усели се у нас и очисти нас од сваке нечистоће и спаси, добри душе наше.",
+      "editorial_change_ids": [],
+      "rights": {
+        "basis": "open_licensed_digital_transcription_with_historical_public_domain_evidence",
+        "license_id": "CC-BY-SA-4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "attribution": "Јован Константиновић, „Мали молитвеник“, Загреб, 1929; дигитални препис: Викизворник, редакција 73934, сарадници странице (у заглављу наведен Smart). Дигитални уреднички доприноси: CC BY-SA 4.0. Избор, форматирање, две означене словне исправке и латиничка транслитерација у овом пакету.",
+        "history_url": "https://sr.wikisource.org/w/index.php?title=%D0%9C%D0%B0%D0%BB%D0%B8_%D0%BC%D0%BE%D0%BB%D0%B8%D1%82%D0%B2%D0%B5%D0%BD%D0%B8%D0%BA_(1929)&action=history",
+        "underlying_work_evidence_ids": [
+          "MATICA-JK-1935",
+          "ZIS-COPYRIGHT"
+        ],
+        "scope": "Лиценца је сачувана за дигитални препис и уредничке доприносе, не намеће нова права над изворним слободним молитвама. Не лиценцира се цела апликација."
+      },
+      "review": {
+        "text_check": "matched_digital_source",
+        "facsimile_check": "not_checked",
+        "theological_review": "pending",
+        "approved_by": null
+      },
+      "source_action": {
+        "type": "open_local_source",
+        "target_id": "MOL1929-HEAVENLY-KING",
+        "label": "Извор и издање"
+      },
+      "license_action": {
+        "type": "open_local_license",
+        "target_id": "CC-BY-SA-4.0",
+        "label": "Права коришћења"
+      },
+      "release_allowed": false,
+      "annual_package_status": "HELD_SOURCE_AND_TRANSLATION_UNRESOLVED",
+      "review_record_id": "heavenly-king",
+      "review_file": "prayerbook-review.json"
+    },
+    {
+      "id": "before-study",
+      "title": "Молитва пре учења",
+      "subtitle": "Молитвеник из 1929. · српски текст",
+      "kind": "historical_prayerbook_prayer",
+      "text": "Преблаги Господе, пошаљи нам благодат најсветијега Твојега Духа, која обасјава и укрепљује душевне наше силе да би ми пазећи на предавану нам науку узрасли теби, Створитељу нашему на славу, родитељима нашим на радост, а отаџбини нашој на корист. Амин.",
+      "paragraphs": [
+        "Преблаги Господе, пошаљи нам благодат најсветијега Твојега Духа, која обасјава и укрепљује душевне наше силе да би ми пазећи на предавану нам науку узрасли теби, Створитељу нашему на славу, родитељима нашим на радост, а отаџбини нашој на корист. Амин."
+      ],
+      "source_id": "MOL1929-BEFORE-STUDY",
+      "source_excerpt_id": "before-study",
+      "source_url": "https://sr.wikisource.org/w/index.php?title=%D0%9C%D0%B0%D0%BB%D0%B8_%D0%BC%D0%BE%D0%BB%D0%B8%D1%82%D0%B2%D0%B5%D0%BD%D0%B8%D0%BA_(1929)&oldid=73934",
+      "source_section": "Молитва пре учења",
+      "source_table_index": 0,
+      "reference": "Мали молитвеник (1929), „Молитва пре учења“",
+      "translation": "Српски текст у издању које је средио прота Јован Константиновић; према дигиталном препису Викизворника.",
+      "edition_year": 1929,
+      "modern_translation": false,
+      "full_selected_prayer_included": true,
+      "extraction": "Преузета цела српска (десна) колона означене молитвене целине. Нису преузети околни поучни текстови, црквенословенска колона ни нови превод тропара Светом Сави.",
+      "notice": "Историјска молитва за ученике; није преписана у нову молитву за посао.",
+      "categories": [
+        "by_need"
+      ],
+      "automatic_cycle_eligible": false,
+      "offline": true,
+      "content_version": "0.3.0",
+      "source_text_before_corrections": "Преблаги Господе, пошаљи нам благодат најсветијега Твојега Духа, која обасјава и укрепљује душевне наше силе да би ми пазећи на предавану нам науку узрасли теби, Створитељу нашему на славу, родитељима нашим на радост, а отаџбини нашој на корист. Амин.",
+      "editorial_change_ids": [],
+      "rights": {
+        "basis": "open_licensed_digital_transcription_with_historical_public_domain_evidence",
+        "license_id": "CC-BY-SA-4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "attribution": "Јован Константиновић, „Мали молитвеник“, Загреб, 1929; дигитални препис: Викизворник, редакција 73934, сарадници странице (у заглављу наведен Smart). Дигитални уреднички доприноси: CC BY-SA 4.0. Избор, форматирање, две означене словне исправке и латиничка транслитерација у овом пакету.",
+        "history_url": "https://sr.wikisource.org/w/index.php?title=%D0%9C%D0%B0%D0%BB%D0%B8_%D0%BC%D0%BE%D0%BB%D0%B8%D1%82%D0%B2%D0%B5%D0%BD%D0%B8%D0%BA_(1929)&action=history",
+        "underlying_work_evidence_ids": [
+          "MATICA-JK-1935",
+          "ZIS-COPYRIGHT"
+        ],
+        "scope": "Лиценца је сачувана за дигитални препис и уредничке доприносе, не намеће нова права над изворним слободним молитвама. Не лиценцира се цела апликација."
+      },
+      "review": {
+        "text_check": "matched_digital_source",
+        "facsimile_check": "not_checked",
+        "theological_review": "pending",
+        "approved_by": null
+      },
+      "source_action": {
+        "type": "open_local_source",
+        "target_id": "MOL1929-BEFORE-STUDY",
+        "label": "Извор и издање"
+      },
+      "license_action": {
+        "type": "open_local_license",
+        "target_id": "CC-BY-SA-4.0",
+        "label": "Права коришћења"
+      },
+      "release_allowed": false,
+      "annual_package_status": "HELD_SOURCE_AND_TRANSLATION_UNRESOLVED",
+      "review_record_id": "before-study",
+      "review_file": "prayerbook-review.json"
+    },
+    {
+      "id": "traveller-prayer",
+      "title": "Молитва за путника",
+      "subtitle": "Молитвеник из 1929. · српски текст",
+      "kind": "historical_prayerbook_prayer",
+      "text": "Господе, који управљаш стопама човечјим, погледај милостиво на слугу свога (слушкињу своју) … (име) и опрости му (јој) сваки грех хотимични или нехотимични, па благослови добру намеру његове (њезине) одлуке и буди му (јој) у помоћи у путу на поласку и на повратку.",
+      "paragraphs": [
+        "Господе, који управљаш стопама човечјим, погледај милостиво на слугу свога (слушкињу своју) … (име) и опрости му (јој) сваки грех хотимични или нехотимични, па благослови добру намеру његове (њезине) одлуке и буди му (јој) у помоћи у путу на поласку и на повратку."
+      ],
+      "source_id": "MOL1929-TRAVELLER-PRAYER",
+      "source_excerpt_id": "traveller-prayer",
+      "source_url": "https://sr.wikisource.org/w/index.php?title=%D0%9C%D0%B0%D0%BB%D0%B8_%D0%BC%D0%BE%D0%BB%D0%B8%D1%82%D0%B2%D0%B5%D0%BD%D0%B8%D0%BA_(1929)&oldid=73934",
+      "source_section": "Молитве за путнике",
+      "source_table_index": 1,
+      "reference": "Мали молитвеник (1929), „Молитве за путнике“ — молитва 2",
+      "translation": "Српски текст у издању које је средио прота Јован Константиновић; према дигиталном препису Викизворника.",
+      "edition_year": 1929,
+      "modern_translation": false,
+      "full_selected_prayer_included": true,
+      "extraction": "Преузета цела српска (десна) колона означене молитвене целине. Нису преузети околни поучни текстови, црквенословенска колона ни нови превод тропара Светом Сави.",
+      "notice": "Друга цела кратка молитва у изворном одељку. Текст је за другог путника; ознака „… (име)“ и родне варијанте сачуване су из извора.",
+      "categories": [
+        "by_need"
+      ],
+      "automatic_cycle_eligible": false,
+      "offline": true,
+      "content_version": "0.3.0",
+      "source_text_before_corrections": "Господе, који управљаш стопама човечјим, погледај милостиво на слугу свога (слушкињу своју) … (име) и опрости му (јој) сваки грех хотимични или нехотимични, па благослови добру намеру његове (њезине) одлуке и буди му (јој) у помоћи у путу на поласку и на повратку.",
+      "editorial_change_ids": [],
+      "rights": {
+        "basis": "open_licensed_digital_transcription_with_historical_public_domain_evidence",
+        "license_id": "CC-BY-SA-4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "attribution": "Јован Константиновић, „Мали молитвеник“, Загреб, 1929; дигитални препис: Викизворник, редакција 73934, сарадници странице (у заглављу наведен Smart). Дигитални уреднички доприноси: CC BY-SA 4.0. Избор, форматирање, две означене словне исправке и латиничка транслитерација у овом пакету.",
+        "history_url": "https://sr.wikisource.org/w/index.php?title=%D0%9C%D0%B0%D0%BB%D0%B8_%D0%BC%D0%BE%D0%BB%D0%B8%D1%82%D0%B2%D0%B5%D0%BD%D0%B8%D0%BA_(1929)&action=history",
+        "underlying_work_evidence_ids": [
+          "MATICA-JK-1935",
+          "ZIS-COPYRIGHT"
+        ],
+        "scope": "Лиценца је сачувана за дигитални препис и уредничке доприносе, не намеће нова права над изворним слободним молитвама. Не лиценцира се цела апликација."
+      },
+      "review": {
+        "text_check": "matched_digital_source",
+        "facsimile_check": "not_checked",
+        "theological_review": "pending",
+        "approved_by": null
+      },
+      "source_action": {
+        "type": "open_local_source",
+        "target_id": "MOL1929-TRAVELLER-PRAYER",
+        "label": "Извор и издање"
+      },
+      "license_action": {
+        "type": "open_local_license",
+        "target_id": "CC-BY-SA-4.0",
+        "label": "Права коришћења"
+      },
+      "release_allowed": false,
+      "annual_package_status": "HELD_SOURCE_AND_TRANSLATION_UNRESOLVED",
+      "review_record_id": "traveller-prayer",
+      "review_file": "prayerbook-review.json"
+    },
+    {
+      "id": "magnificat",
+      "title": "Маријин хвалоспев",
+      "aliases": [
+        "Велича душа моја Господа",
+        "Magnificat"
+      ],
+      "subtitle": "Библијски текст — предлог за библиотеку",
+      "kind": "biblical_prayer",
+      "prayer_form": "biblical_canticle",
+      "text": "Велича душа моја Господа; И обрадова се дух мој Богу Спасу мом, Што погледа на понижење слушкиње своје; јер гле, одсад ће ме звати блаженом сви нараштаји; Што ми учини величину силни, и свето име Његово; И милост је Његова од колена на колено онима који Га се боје. Показа силу руком својом; разасу поносите у мислима срца њихових. Збаци силне с престола, и подиже понижене. Гладне напуни блага, и богате отпусти празне. Прими Израиља, слугу свог, да се опомене милости. Као што говори оцима нашим, Аврааму и семену његовом довека.",
+      "paragraphs": [
+        "Велича душа моја Господа;",
+        "И обрадова се дух мој Богу Спасу мом,",
+        "Што погледа на понижење слушкиње своје; јер гле, одсад ће ме звати блаженом сви нараштаји;",
+        "Што ми учини величину силни, и свето име Његово;",
+        "И милост је Његова од колена на колено онима који Га се боје.",
+        "Показа силу руком својом; разасу поносите у мислима срца њихових.",
+        "Збаци силне с престола, и подиже понижене.",
+        "Гладне напуни блага, и богате отпусти празне.",
+        "Прими Израиља, слугу свог, да се опомене милости.",
+        "Као што говори оцима нашим, Аврааму и семену његовом довека."
+      ],
+      "source_page": "LUK01",
+      "source_verses": [
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55
+      ],
+      "original_source_verses": [
+        {
+          "number": 46,
+          "text": "И рече Марија: Велича душа моја Господа;"
+        },
+        {
+          "number": 47,
+          "text": "И обрадова се дух мој Богу Спасу мом,"
+        },
+        {
+          "number": 48,
+          "text": "Што погледа на понижење слушкиње своје; јер гле, одсад ће ме звати блаженом сви нараштаји;"
+        },
+        {
+          "number": 49,
+          "text": "Што ми учини величину силни, и свето име Његово;"
+        },
+        {
+          "number": 50,
+          "text": "И милост је Његова од колена на колено онима који Га се боје."
+        },
+        {
+          "number": 51,
+          "text": "Показа силу руком својом; разасу поносите у мислима срца њихових."
+        },
+        {
+          "number": 52,
+          "text": "Збаци силне с престола, и подиже понижене."
+        },
+        {
+          "number": 53,
+          "text": "Гладне напуни блага, и богате отпусти празне."
+        },
+        {
+          "number": 54,
+          "text": "Прими Израиља, слугу свог, да се опомене милости."
+        },
+        {
+          "number": 55,
+          "text": "Као што говори оцима нашим, Аврааму и семену његовом довека."
+        }
+      ],
+      "source_id": "EBIBLE-LUK01-46-55",
+      "source_url": "https://ebible.org/srp1868/LUK01.htm#V46",
+      "source_snapshot_sha256": "42165a36fa26076543790eaaf0d509118dcf0d71f968e92d44f1817ff1eaebfa",
+      "source_snapshot_file": "docs/content-review/2026-09-13-prayer-supplement/evidence/ebible-snapshots.json",
+      "source_verse_count": 10,
+      "reference": "Лк 1,46–55",
+      "extraction": "У стиху 46 изостављен је само наративни увод „И рече Марија: “. Сачуване су све речи хвалоспева до краја стиха 55. Стих 56, повратак Марије кући, није део изабраног текста.",
+      "removed_narrative_prefix": "И рече Марија: ",
+      "title_origin": "editorial_label_not_scripture",
+      "translation": "Вук Караџић — текст дигиталног издања eBible srp1868",
+      "modern_translation": false,
+      "notice": "Библијски текст у наведеном преводу; није савремени званични молитвослов нити потпуно молитвено правило.",
+      "categories": [
+        "by_need"
+      ],
+      "library_only": true,
+      "automatic_cycle_eligible": false,
+      "automatic_cycle_suitability": "pending_not_assigned",
+      "editorial_suitability_note": "Библијски хвалоспев; не додаје се богослужбени припев „Часнију од херувима“. Облик за приказ у молитвеној библиотеци чека уреднички преглед.",
+      "full_selected_prayer_included": true,
+      "previously_in_runtime": false,
+      "offline": true,
+      "content_version": null,
+      "rights_group_id": "EBIBLE-SRP1868",
+      "rights": {
+        "basis": "public_domain_as_declared_by_source",
+        "license_id": "EBIBLE-PUBLIC-DOMAIN",
+        "declaration_url": "https://ebible.org/srp1868/copyright.htm",
+        "declaration_snapshot_sha256": "79c87f16f797d47f5c7243fb1aba68cce23ed8282f5bdf38c001377ddc2256b0",
+        "attribution": "Вук Стефановић Караџић, Лк 1,46–55; дигитално издање eBible srp1868. Издвајање молитвеног текста, форматирање и детерминистичка латиничка транслитерација: Светлост33.",
+        "license_status": "source_declaration_preserved_not_release_approval"
+      },
+      "review": {
+        "text_check": "machine_matched_to_archived_source",
+        "facsimile_check": "not_checked",
+        "theological_review": "pending",
+        "editorial": "pending",
+        "legal_release": "pending",
+        "approved_by": null
+      },
+      "release_allowed": false,
+      "annual_package_status": "SOURCE_MATCHED_REVIEW_PENDING",
+      "review_record_id": "magnificat",
+      "review_file": "prayerbook-review.json",
+      "source_snapshot_path_base": "canonical_repository"
+    },
+    {
+      "id": "zechariah-canticle",
+      "title": "Захаријин хвалоспев",
+      "aliases": [
+        "Заријин хвалоспев",
+        "Benedictus"
+      ],
+      "subtitle": "Библијски текст — предлог за библиотеку",
+      "kind": "biblical_prayer",
+      "prayer_form": "biblical_canticle",
+      "text": "Благословен Господ Бог Јаковљев што походи и избави народ свој, И подиже нам рог спасења у дому Давида слуге свог, Као што говори устима светих пророка својих од века Да ће нас избавити од наших непријатеља и из руку свих који мрзе на нас; Учинити милост оцима нашим, и опоменути се светог завета свог, Клетве којом се клео Аврааму оцу нашем да ће нам дати Да се избавимо из руку непријатеља својих, и да му служимо без страха, И у светости и у правди пред Њим док смо год живи. И ти, дете, назваћеш се пророк Највишега; јер ћеш ићи напред пред лицем Господњим да Му приправиш пут; Да даш разум спасења народу његовом за опроштење греха њихових, По дубокој милости Бога нашег, по којој нас је походио исток с висине; Да обасјаш оне који седе у тами и у сену смртном; да упутиш ноге наше на пут мира.",
+      "paragraphs": [
+        "Благословен Господ Бог Јаковљев што походи и избави народ свој,",
+        "И подиже нам рог спасења у дому Давида слуге свог,",
+        "Као што говори устима светих пророка својих од века",
+        "Да ће нас избавити од наших непријатеља и из руку свих који мрзе на нас;",
+        "Учинити милост оцима нашим, и опоменути се светог завета свог,",
+        "Клетве којом се клео Аврааму оцу нашем да ће нам дати",
+        "Да се избавимо из руку непријатеља својих, и да му служимо без страха,",
+        "И у светости и у правди пред Њим док смо год живи.",
+        "И ти, дете, назваћеш се пророк Највишега; јер ћеш ићи напред пред лицем Господњим да Му приправиш пут;",
+        "Да даш разум спасења народу његовом за опроштење греха њихових,",
+        "По дубокој милости Бога нашег, по којој нас је походио исток с висине;",
+        "Да обасјаш оне који седе у тами и у сену смртном; да упутиш ноге наше на пут мира."
+      ],
+      "source_page": "LUK01",
+      "source_verses": [
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79
+      ],
+      "original_source_verses": [
+        {
+          "number": 68,
+          "text": "Благословен Господ Бог Јаковљев што походи и избави народ свој,"
+        },
+        {
+          "number": 69,
+          "text": "И подиже нам рог спасења у дому Давида слуге свог,"
+        },
+        {
+          "number": 70,
+          "text": "Као што говори устима светих пророка својих од века"
+        },
+        {
+          "number": 71,
+          "text": "Да ће нас избавити од наших непријатеља и из руку свих који мрзе на нас;"
+        },
+        {
+          "number": 72,
+          "text": "Учинити милост оцима нашим, и опоменути се светог завета свог,"
+        },
+        {
+          "number": 73,
+          "text": "Клетве којом се клео Аврааму оцу нашем да ће нам дати"
+        },
+        {
+          "number": 74,
+          "text": "Да се избавимо из руку непријатеља својих, и да му служимо без страха,"
+        },
+        {
+          "number": 75,
+          "text": "И у светости и у правди пред Њим док смо год живи."
+        },
+        {
+          "number": 76,
+          "text": "И ти, дете, назваћеш се пророк Највишега; јер ћеш ићи напред пред лицем Господњим да Му приправиш пут;"
+        },
+        {
+          "number": 77,
+          "text": "Да даш разум спасења народу његовом за опроштење греха њихових,"
+        },
+        {
+          "number": 78,
+          "text": "По дубокој милости Бога нашег, по којој нас је походио исток с висине;"
+        },
+        {
+          "number": 79,
+          "text": "Да обасјаш оне који седе у тами и у сену смртном; да упутиш ноге наше на пут мира."
+        }
+      ],
+      "source_id": "EBIBLE-LUK01-68-79",
+      "source_url": "https://ebible.org/srp1868/LUK01.htm#V68",
+      "source_snapshot_sha256": "42165a36fa26076543790eaaf0d509118dcf0d71f968e92d44f1817ff1eaebfa",
+      "source_snapshot_file": "docs/content-review/2026-09-13-prayer-supplement/evidence/ebible-snapshots.json",
+      "source_verse_count": 12,
+      "reference": "Лк 1,68–79",
+      "extraction": "Укључени су цели стихови 68–79. Наративни увод о пророковању у стиху 67 и приповедање о детету у стиху 80 нису део изабраног текста.",
+      "removed_narrative_prefix": null,
+      "title_origin": "editorial_label_not_scripture",
+      "translation": "Вук Караџић — текст дигиталног издања eBible srp1868",
+      "modern_translation": false,
+      "notice": "Библијски текст у наведеном преводу; није савремени званични молитвослов нити потпуно молитвено правило.",
+      "categories": [
+        "by_need"
+      ],
+      "library_only": true,
+      "automatic_cycle_eligible": false,
+      "automatic_cycle_suitability": "pending_not_assigned",
+      "editorial_suitability_note": "Хвалоспев и пророчки говор укључују обраћање детету у стиховима 76–79. Наслов је уреднички; извор употребљава облик имена „Зарија“. Подобност за молитвену библиотеку чека преглед, без аутоматског додељивања јутру.",
+      "full_selected_prayer_included": true,
+      "previously_in_runtime": false,
+      "offline": true,
+      "content_version": null,
+      "rights_group_id": "EBIBLE-SRP1868",
+      "rights": {
+        "basis": "public_domain_as_declared_by_source",
+        "license_id": "EBIBLE-PUBLIC-DOMAIN",
+        "declaration_url": "https://ebible.org/srp1868/copyright.htm",
+        "declaration_snapshot_sha256": "79c87f16f797d47f5c7243fb1aba68cce23ed8282f5bdf38c001377ddc2256b0",
+        "attribution": "Вук Стефановић Караџић, Лк 1,68–79; дигитално издање eBible srp1868. Издвајање молитвеног текста, форматирање и детерминистичка латиничка транслитерација: Светлост33.",
+        "license_status": "source_declaration_preserved_not_release_approval"
+      },
+      "review": {
+        "text_check": "machine_matched_to_archived_source",
+        "facsimile_check": "not_checked",
+        "theological_review": "pending",
+        "editorial": "pending",
+        "legal_release": "pending",
+        "approved_by": null
+      },
+      "release_allowed": false,
+      "annual_package_status": "SOURCE_MATCHED_REVIEW_PENDING",
+      "review_record_id": "zechariah-canticle",
+      "review_file": "prayerbook-review.json",
+      "source_snapshot_path_base": "canonical_repository"
+    },
+    {
+      "id": "early-church-prayer",
+      "title": "Молитва првих хришћана",
+      "aliases": [
+        "Молитва за слободно проповедање"
+      ],
+      "subtitle": "Библијски текст — предлог за библиотеку",
+      "kind": "biblical_prayer",
+      "prayer_form": "biblical_prayer",
+      "text": "Господе Боже, Ти који си створио небо и земљу и море и све што је у њима; који устима Давида слуге свог рече: Зашто се буне незнабошци, и народи измишљају празне речи? Састаше се цареви земаљски, и кнезови се сабраше уједно на Господа и на Христа Његовог. Заиста се сабраше у овом граду на светог Сина Твог Исуса, ког си помазао, Ирод и понтијски Пилат с незнабошцима и с народом Израиљевим, да учине шта рука Твоја и савет Твој напред одреди да буде. И сад Господе! Погледај на њихове претње, и дај слугама својим да говоре са сваком слободом реч Твоју; и пружај руку своју на исцељивање и да знаци и чудеса буду именом светог Сина Твог Исуса.",
+      "paragraphs": [
+        "Господе Боже, Ти који си створио небо и земљу и море и све што је у њима;",
+        "који устима Давида слуге свог рече: Зашто се буне незнабошци, и народи измишљају празне речи?",
+        "Састаше се цареви земаљски, и кнезови се сабраше уједно на Господа и на Христа Његовог.",
+        "Заиста се сабраше у овом граду на светог Сина Твог Исуса, ког си помазао, Ирод и понтијски Пилат с незнабошцима и с народом Израиљевим,",
+        "да учине шта рука Твоја и савет Твој напред одреди да буде.",
+        "И сад Господе! Погледај на њихове претње, и дај слугама својим да говоре са сваком слободом реч Твоју;",
+        "и пружај руку своју на исцељивање и да знаци и чудеса буду именом светог Сина Твог Исуса."
+      ],
+      "source_page": "ACT04",
+      "source_verses": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30
+      ],
+      "original_source_verses": [
+        {
+          "number": 24,
+          "text": "А они кад чуше, једнодушно подигоше глас к Богу и рекоше: Господе Боже, Ти који си створио небо и земљу и море и све што је у њима;"
+        },
+        {
+          "number": 25,
+          "text": "који устима Давида слуге свог рече: Зашто се буне незнабошци, и народи измишљају празне речи?"
+        },
+        {
+          "number": 26,
+          "text": "Састаше се цареви земаљски, и кнезови се сабраше уједно на Господа и на Христа Његовог."
+        },
+        {
+          "number": 27,
+          "text": "Заиста се сабраше у овом граду на светог Сина Твог Исуса, ког си помазао, Ирод и понтијски Пилат с незнабошцима и с народом Израиљевим,"
+        },
+        {
+          "number": 28,
+          "text": "да учине шта рука Твоја и савет Твој напред одреди да буде."
+        },
+        {
+          "number": 29,
+          "text": "И сад Господе! Погледај на њихове претње, и дај слугама својим да говоре са сваком слободом реч Твоју;"
+        },
+        {
+          "number": 30,
+          "text": "и пружај руку своју на исцељивање и да знаци и чудеса буду именом светог Сина Твог Исуса."
+        }
+      ],
+      "source_id": "EBIBLE-ACT04-24-30",
+      "source_url": "https://ebible.org/srp1868/ACT04.htm#V24",
+      "source_snapshot_sha256": "7e5d8dd20267be731097fa74c7ef512e8f62d142734ffd05b9206a28becdd8b8",
+      "source_snapshot_file": "docs/content-review/2026-09-13-prayer-supplement/evidence/ebible-snapshots.json",
+      "source_verse_count": 7,
+      "reference": "Дап 4,24–30",
+      "extraction": "У стиху 24 изостављен је само наративни увод до речи „рекоше: “. Сачувана је цела молитва до краја стиха 30, укључујући библијски цитат у стиховима 25–26. Стих 31 описује догађај после молитве и није укључен.",
+      "removed_narrative_prefix": "А они кад чуше, једнодушно подигоше глас к Богу и рекоше: ",
+      "title_origin": "editorial_label_not_scripture",
+      "translation": "Вук Караџић — текст дигиталног издања eBible srp1868",
+      "modern_translation": false,
+      "notice": "Библијски текст у наведеном преводу; није савремени званични молитвослов нити потпуно молитвено правило.",
+      "categories": [
+        "by_need"
+      ],
+      "library_only": true,
+      "automatic_cycle_eligible": false,
+      "automatic_cycle_suitability": "pending_not_assigned",
+      "editorial_suitability_note": "Молитва за слободно проповедање у контексту претњи првој заједници. Контекст није претворен у општу молбу за здравље или савремене прилике. Подобност за библиотеку чека преглед.",
+      "full_selected_prayer_included": true,
+      "previously_in_runtime": false,
+      "offline": true,
+      "content_version": null,
+      "rights_group_id": "EBIBLE-SRP1868",
+      "rights": {
+        "basis": "public_domain_as_declared_by_source",
+        "license_id": "EBIBLE-PUBLIC-DOMAIN",
+        "declaration_url": "https://ebible.org/srp1868/copyright.htm",
+        "declaration_snapshot_sha256": "79c87f16f797d47f5c7243fb1aba68cce23ed8282f5bdf38c001377ddc2256b0",
+        "attribution": "Вук Стефановић Караџић, Дап 4,24–30; дигитално издање eBible srp1868. Издвајање молитвеног текста, форматирање и детерминистичка латиничка транслитерација: Светлост33.",
+        "license_status": "source_declaration_preserved_not_release_approval"
+      },
+      "review": {
+        "text_check": "machine_matched_to_archived_source",
+        "facsimile_check": "not_checked",
+        "theological_review": "pending",
+        "editorial": "pending",
+        "legal_release": "pending",
+        "approved_by": null
+      },
+      "release_allowed": false,
+      "annual_package_status": "SOURCE_MATCHED_REVIEW_PENDING",
+      "review_record_id": "early-church-prayer",
+      "review_file": "prayerbook-review.json",
+      "source_snapshot_path_base": "canonical_repository"
+    }
+  ]
+}

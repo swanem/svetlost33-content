@@ -1,0 +1,39 @@
+{
+  "schema_version": "svetlost33-prospective-archive-plan-1",
+  "status": "PLANNED_NOT_PUBLISHED",
+  "publication_receipt": null,
+  "archive_start_date": "2026-09-29",
+  "archive_end_date": "2026-12-31",
+  "publish_before_utc": "2026-09-28T10:00:00Z",
+  "deadline_basis": "Before the first assigned civil date in UTC+14; all supported device zones remain future",
+  "policy_id": "calendar-week-v1",
+  "policy_version": 1,
+  "archive_binding": {
+    "id": "calendar-week-2026-s9",
+    "policy_id": "calendar-week-v1",
+    "policy_version": 1,
+    "library_binding": {
+      "module_id": "library-annual-2026-r1",
+      "version": "2026.1.1",
+      "revision": 2,
+      "manifest_sha256": "5247bedb3d3deaf5f81601ff2f7a274417b0ce11ac1cebbb3f4b518cd26ee16d"
+    },
+    "cycles_binding": {
+      "module_id": "daily-cycles-r1",
+      "version": "2026.1.2",
+      "revision": 3,
+      "manifest_sha256": "b20e5ff4f29faf3b18b4e1e23d37dd5384a00b9cb54567fb838de71b095a630d"
+    }
+  },
+  "archive_days_sha256": "067ee1f086cd2336bcffb756eec9c11d71b7a98e949abfbed955cd225ab12839",
+  "expected_days": 94,
+  "before_start": "unavailable",
+  "future_reading": "forbidden_until_date_is_past_in_device_local_zone",
+  "if_deadline_missed": "Abort publication; review a later first date, regenerate, and repeat gates",
+  "source_generation": {
+    "id": "shared-saints-completion-2026-09-21-m0v2-s9",
+    "sequence": 9,
+    "decision_sha256": "3205118f271828771b5fef50d645fc3636e2cd4d7e92201844c7c20da2c1f01a"
+  },
+  "note": "Source S9 authenticated. New schedule is unsigned and not yet public; no retroactive history claim."
+}

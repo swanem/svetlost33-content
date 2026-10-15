@@ -1,0 +1,26 @@
+{
+  "schema_version": "svetlost33-source-label-adapter-decision-1",
+  "date": "2026-10-06",
+  "status": "BOUNDED_SHARED_IMPLEMENTATION_GO_NOT_RELEASE_GO",
+  "reason": "New publisher prints a different legitimate reference heading. Existing legacy matcher rejects33 valid observations; original headings must not be replaced with invented source quotations.",
+  "input_handoff_sha256": "fbfb34c177017198bbc76761f0841c99f006cf931ba3b5c9d4675425a9661cc9",
+  "review": {
+    "reviewer": "/root/ui02_readonly_review",
+    "kind": "STATIC_NATIVE_COMPATIBILITY_NO_NATIVE_TEST_EXECUTION",
+    "android": "app/src/main/java/app/svetlost33/data/AnnualContentParser.kt:162-184 reads structured book/segments/source_reference/source_ids without rejecting unrelated metadata keys",
+    "ios": "Sources/SvetlostCore/AnnualGospelCalendar.swift:9-16,101-113,207-216 Codable model ignores additional zachalo metadata; released parsing still requires production eligibility",
+    "native_does_not_validate_zachalo_numbers": true
+  },
+  "requirements": [
+    "Select new matcher only for exact authorized Pravoslavno source_id registered in the candidate calendar sources",
+    "Keep original source_reference and verify exact book, all ordered segments and entire zachalo_numbers list against the parsed heading",
+    "Legacy scalar zachalo equals first printed number only; it must not replace full list",
+    "14October heading with54,58 remains one reading with ranges10:38-42 and11:27-28; do not invent individual number-to-segment mappings",
+    "Other14October heading retains separate1:39-49 and1:56 ranges",
+    "All other publishers retain unchanged legacy matcher; BibleReference corpus and verse validation remains mandatory",
+    "Add focused positive, malformed-heading, book/range/list mismatch, wrong/unregistered publisher and legacy regression tests",
+    "Keep frozen intake, historical approval files and signed S13 unchanged"
+  ],
+  "allowed_scope": "Small reusable shared parser/matcher, focused tests and unsigned combined A+B+Gospel draft only",
+  "excluded": ["native code/tests", "UI", "new app release", "wide refactor", "performance", "signing", "publication", "fabricated approval flags"]
+}

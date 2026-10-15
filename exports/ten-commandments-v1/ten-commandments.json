@@ -1,0 +1,492 @@
+{
+  "id": "ten-commandments",
+  "revision": 1,
+  "title": {
+    "sr-Cyrl": "Десет Божијих заповести",
+    "sr-Latn": "Deset Božijih zapovesti"
+  },
+  "card_description": {
+    "sr-Cyrl": "Десет заповести у једној целини.",
+    "sr-Latn": "Deset zapovesti u jednoj celini."
+  },
+  "introduction": {
+    "sr-Cyrl": "Десет Божијих заповести налазе се у Старом завету. Овде су приказане у скраћеном облику, за прегледно читање. Цео библијски одломак доступан је одвојено.",
+    "sr-Latn": "Deset Božijih zapovesti nalaze se u Starom zavetu. Ovde su prikazane u skraćenom obliku, za pregledno čitanje. Ceo biblijski odlomak dostupan je odvojeno."
+  },
+  "summary_label": {
+    "sr-Cyrl": "Скраћени преглед",
+    "sr-Latn": "Skraćeni pregled"
+  },
+  "summary_attribution": {
+    "sr-Cyrl": "Сажето према Другој књизи Мојсијевој 20, 1–17. Уредничка обрада за Светлост33.",
+    "sr-Latn": "Sažeto prema Drugoj knjizi Mojsijevoj 20, 1–17. Urednička obrada za Svetlost33."
+  },
+  "explanation_label": {
+    "sr-Cyrl": "Кратко објашњење",
+    "sr-Latn": "Kratko objašnjenje"
+  },
+  "explanation_note": {
+    "sr-Cyrl": "Објашњења су уредничка помоћ за читање, нису део библијског текста.",
+    "sr-Latn": "Objašnjenja su urednička pomoć za čitanje, nisu deo biblijskog teksta."
+  },
+  "full_text_label": {
+    "sr-Cyrl": "Библијски текст",
+    "sr-Latn": "Biblijski tekst"
+  },
+  "sources_label": {
+    "sr-Cyrl": "Извори",
+    "sr-Latn": "Izvori"
+  },
+  "items": [
+    {
+      "id": "commandment-1",
+      "number": 1,
+      "text": {
+        "sr-Cyrl": "Ја сам Господ Бог твој; немој имати других богова осим мене.",
+        "sr-Latn": "Ja sam Gospod Bog tvoj; nemoj imati drugih bogova osim mene."
+      },
+      "explanation": {
+        "sr-Cyrl": "Веру и поверење усмеравај ка Богу.",
+        "sr-Latn": "Veru i poverenje usmeravaj ka Bogu."
+      },
+      "references": [
+        {
+          "source_id": "exodus-20-danicic",
+          "book_id": "EXO",
+          "chapter": 20,
+          "verse_from": 2,
+          "verse_to": 3
+        },
+        {
+          "source_id": "deuteronomy-5-danicic",
+          "book_id": "DEU",
+          "chapter": 5,
+          "verse_from": 6,
+          "verse_to": 7
+        }
+      ]
+    },
+    {
+      "id": "commandment-2",
+      "number": 2,
+      "text": {
+        "sr-Cyrl": "Не прави себи идоле; немој им се клањати нити им служити.",
+        "sr-Latn": "Ne pravi sebi idole; nemoj im se klanjati niti im služiti."
+      },
+      "explanation": {
+        "sr-Cyrl": "Не дај створеним стварима место које припада Богу.",
+        "sr-Latn": "Ne daj stvorenim stvarima mesto koje pripada Bogu."
+      },
+      "references": [
+        {
+          "source_id": "exodus-20-danicic",
+          "book_id": "EXO",
+          "chapter": 20,
+          "verse_from": 4,
+          "verse_to": 6
+        },
+        {
+          "source_id": "deuteronomy-5-danicic",
+          "book_id": "DEU",
+          "chapter": 5,
+          "verse_from": 8,
+          "verse_to": 10
+        }
+      ]
+    },
+    {
+      "id": "commandment-3",
+      "number": 3,
+      "text": {
+        "sr-Cyrl": "Не узимај узалуд име Господа Бога свога.",
+        "sr-Latn": "Ne uzimaj uzalud ime Gospoda Boga svoga."
+      },
+      "explanation": {
+        "sr-Cyrl": "О Божјем имену говори са поштовањем, без злоупотребе и лажног заклињања.",
+        "sr-Latn": "O Božjem imenu govori sa poštovanjem, bez zloupotrebe i lažnog zaklinjanja."
+      },
+      "references": [
+        {
+          "source_id": "exodus-20-danicic",
+          "book_id": "EXO",
+          "chapter": 20,
+          "verse_from": 7,
+          "verse_to": 7
+        },
+        {
+          "source_id": "deuteronomy-5-danicic",
+          "book_id": "DEU",
+          "chapter": 5,
+          "verse_from": 11,
+          "verse_to": 11
+        }
+      ]
+    },
+    {
+      "id": "commandment-4",
+      "number": 4,
+      "text": {
+        "sr-Cyrl": "Сећај се дана одмора да га светкујеш. Шест дана ради, а седми посвети Господу Богу своме.",
+        "sr-Latn": "Sećaj se dana odmora da ga svetkuješ. Šest dana radi, a sedmi posveti Gospodu Bogu svome."
+      },
+      "explanation": {
+        "sr-Cyrl": "Одвоји време за Бога и одмор, и омогући одмор другима.",
+        "sr-Latn": "Odvoji vreme za Boga i odmor, i omogući odmor drugima."
+      },
+      "references": [
+        {
+          "source_id": "exodus-20-danicic",
+          "book_id": "EXO",
+          "chapter": 20,
+          "verse_from": 8,
+          "verse_to": 11
+        },
+        {
+          "source_id": "deuteronomy-5-danicic",
+          "book_id": "DEU",
+          "chapter": 5,
+          "verse_from": 12,
+          "verse_to": 15
+        }
+      ]
+    },
+    {
+      "id": "commandment-5",
+      "number": 5,
+      "text": {
+        "sr-Cyrl": "Поштуј оца свога и мајку своју.",
+        "sr-Latn": "Poštuj oca svoga i majku svoju."
+      },
+      "explanation": {
+        "sr-Cyrl": "Негуј поштовање и бригу према родитељима.",
+        "sr-Latn": "Neguj poštovanje i brigu prema roditeljima."
+      },
+      "references": [
+        {
+          "source_id": "exodus-20-danicic",
+          "book_id": "EXO",
+          "chapter": 20,
+          "verse_from": 12,
+          "verse_to": 12
+        },
+        {
+          "source_id": "deuteronomy-5-danicic",
+          "book_id": "DEU",
+          "chapter": 5,
+          "verse_from": 16,
+          "verse_to": 16
+        }
+      ]
+    },
+    {
+      "id": "commandment-6",
+      "number": 6,
+      "text": {
+        "sr-Cyrl": "Не убиј.",
+        "sr-Latn": "Ne ubij."
+      },
+      "explanation": {
+        "sr-Cyrl": "Чувај људски живот и одбацуј насиље.",
+        "sr-Latn": "Čuvaj ljudski život i odbacuj nasilje."
+      },
+      "references": [
+        {
+          "source_id": "exodus-20-danicic",
+          "book_id": "EXO",
+          "chapter": 20,
+          "verse_from": 13,
+          "verse_to": 13
+        },
+        {
+          "source_id": "deuteronomy-5-danicic",
+          "book_id": "DEU",
+          "chapter": 5,
+          "verse_from": 17,
+          "verse_to": 17
+        }
+      ]
+    },
+    {
+      "id": "commandment-7",
+      "number": 7,
+      "text": {
+        "sr-Cyrl": "Не чини прељубу.",
+        "sr-Latn": "Ne čini preljubu."
+      },
+      "explanation": {
+        "sr-Cyrl": "Чувај брачну верност и поверење.",
+        "sr-Latn": "Čuvaj bračnu vernost i poverenje."
+      },
+      "references": [
+        {
+          "source_id": "exodus-20-danicic",
+          "book_id": "EXO",
+          "chapter": 20,
+          "verse_from": 14,
+          "verse_to": 14
+        },
+        {
+          "source_id": "deuteronomy-5-danicic",
+          "book_id": "DEU",
+          "chapter": 5,
+          "verse_from": 18,
+          "verse_to": 18
+        }
+      ]
+    },
+    {
+      "id": "commandment-8",
+      "number": 8,
+      "text": {
+        "sr-Cyrl": "Не кради.",
+        "sr-Latn": "Ne kradi."
+      },
+      "explanation": {
+        "sr-Cyrl": "Поштуј туђу имовину и туђи труд.",
+        "sr-Latn": "Poštuj tuđu imovinu i tuđi trud."
+      },
+      "references": [
+        {
+          "source_id": "exodus-20-danicic",
+          "book_id": "EXO",
+          "chapter": 20,
+          "verse_from": 15,
+          "verse_to": 15
+        },
+        {
+          "source_id": "deuteronomy-5-danicic",
+          "book_id": "DEU",
+          "chapter": 5,
+          "verse_from": 19,
+          "verse_to": 19
+        }
+      ]
+    },
+    {
+      "id": "commandment-9",
+      "number": 9,
+      "text": {
+        "sr-Cyrl": "Не сведочи лажно против ближњега свога.",
+        "sr-Latn": "Ne svedoči lažno protiv bližnjega svoga."
+      },
+      "explanation": {
+        "sr-Cyrl": "Не наноси другоме неправду лажним сведочењем.",
+        "sr-Latn": "Ne nanosi drugome nepravdu lažnim svedočenjem."
+      },
+      "references": [
+        {
+          "source_id": "exodus-20-danicic",
+          "book_id": "EXO",
+          "chapter": 20,
+          "verse_from": 16,
+          "verse_to": 16
+        },
+        {
+          "source_id": "deuteronomy-5-danicic",
+          "book_id": "DEU",
+          "chapter": 5,
+          "verse_from": 20,
+          "verse_to": 20
+        }
+      ]
+    },
+    {
+      "id": "commandment-10",
+      "number": 10,
+      "text": {
+        "sr-Cyrl": "Не пожели оно што припада ближњему твоме.",
+        "sr-Latn": "Ne poželi ono što pripada bližnjemu tvome."
+      },
+      "explanation": {
+        "sr-Cyrl": "Не храни завист нити жељу да присвојиш туђе.",
+        "sr-Latn": "Ne hrani zavist niti želju da prisvojiš tuđe."
+      },
+      "references": [
+        {
+          "source_id": "exodus-20-danicic",
+          "book_id": "EXO",
+          "chapter": 20,
+          "verse_from": 17,
+          "verse_to": 17
+        },
+        {
+          "source_id": "deuteronomy-5-danicic",
+          "book_id": "DEU",
+          "chapter": 5,
+          "verse_from": 21,
+          "verse_to": 21
+        }
+      ]
+    }
+  ],
+  "biblical_reading": {
+    "source_id": "exodus-20-danicic",
+    "book_id": "EXO",
+    "chapter": 20,
+    "verse_from": 1,
+    "verse_to": 17,
+    "label": {
+      "sr-Cyrl": "Друга књига Мојсијева 20, 1–17",
+      "sr-Latn": "Druga knjiga Mojsijeva 20, 1–17"
+    },
+    "attribution": {
+      "sr-Cyrl": "Превод: Ђура Даничић",
+      "sr-Latn": "Prevod: Đura Daničić"
+    },
+    "verses": [
+      {
+        "number": 1,
+        "text": {
+          "sr-Cyrl": "Тада рече Бог све ове речи говорећи:",
+          "sr-Latn": "Tada reče Bog sve ove reči govoreći:"
+        }
+      },
+      {
+        "number": 2,
+        "text": {
+          "sr-Cyrl": "Ја сам Господ Бог твој, који сам те извео из земље мисирске, из дома ропског.",
+          "sr-Latn": "Ja sam Gospod Bog tvoj, koji sam te izveo iz zemlje misirske, iz doma ropskog."
+        }
+      },
+      {
+        "number": 3,
+        "text": {
+          "sr-Cyrl": "Немој имати других богова уза ме.",
+          "sr-Latn": "Nemoj imati drugih bogova uza me."
+        }
+      },
+      {
+        "number": 4,
+        "text": {
+          "sr-Cyrl": "Не гради себи лик резани нити какву слику од оног што је горе на небу, или доле на земљи, или у води, испод земље.",
+          "sr-Latn": "Ne gradi sebi lik rezani niti kakvu sliku od onog što je gore na nebu, ili dole na zemlji, ili u vodi, ispod zemlje."
+        }
+      },
+      {
+        "number": 5,
+        "text": {
+          "sr-Cyrl": "Немој им се клањати нити им служити, јер сам ја Господ Бог твој, Бог ревнитељ, који походим грехе отачке на синовима до трећег и до четвртог колена, оних који мрзе на мене;",
+          "sr-Latn": "Nemoj im se klanjati niti im služiti, jer sam ja Gospod Bog tvoj, Bog revnitelj, koji pohodim grehe otačke na sinovima do trećeg i do četvrtog kolena, onih koji mrze na mene;"
+        }
+      },
+      {
+        "number": 6,
+        "text": {
+          "sr-Cyrl": "а чиним милост на хиљадама оних који ме љубе и чувају заповести моје.",
+          "sr-Latn": "a činim milost na hiljadama onih koji me ljube i čuvaju zapovesti moje."
+        }
+      },
+      {
+        "number": 7,
+        "text": {
+          "sr-Cyrl": "Не узимај узалуд име Господа Бога свог; јер неће пред Господом бити прав ко узме име Његово узалуд.",
+          "sr-Latn": "Ne uzimaj uzalud ime Gospoda Boga svog; jer neće pred Gospodom biti prav ko uzme ime Njegovo uzalud."
+        }
+      },
+      {
+        "number": 8,
+        "text": {
+          "sr-Cyrl": "Сећај се дана од одмора да га светкујеш.",
+          "sr-Latn": "Sećaj se dana od odmora da ga svetkuješ."
+        }
+      },
+      {
+        "number": 9,
+        "text": {
+          "sr-Cyrl": "Шест дана ради, и свршуј све послове своје.",
+          "sr-Latn": "Šest dana radi, i svršuj sve poslove svoje."
+        }
+      },
+      {
+        "number": 10,
+        "text": {
+          "sr-Cyrl": "А седми је дан одмор Господу Богу твом; тада немој радити ниједан посао, ни ти, ни син твој, ни кћи твоја, ни слуга твој, ни слушкиња твоја, ни живинче твоје, ни странац који је међу вратима твојим.",
+          "sr-Latn": "A sedmi je dan odmor Gospodu Bogu tvom; tada nemoj raditi nijedan posao, ni ti, ni sin tvoj, ni kći tvoja, ni sluga tvoj, ni sluškinja tvoja, ni živinče tvoje, ni stranac koji je među vratima tvojim."
+        }
+      },
+      {
+        "number": 11,
+        "text": {
+          "sr-Cyrl": "Јер је за шест дана створио Господ небо и земљу, море и шта је год у њима; а у седми дан почину; зато је благословио Господ дан од одмора и посветио га.",
+          "sr-Latn": "Jer je za šest dana stvorio Gospod nebo i zemlju, more i šta je god u njima; a u sedmi dan počinu; zato je blagoslovio Gospod dan od odmora i posvetio ga."
+        }
+      },
+      {
+        "number": 12,
+        "text": {
+          "sr-Cyrl": "Поштуј оца свог и матер своју, да ти се продуже дани на земљи, коју ти да Господ Бог твој.",
+          "sr-Latn": "Poštuj oca svog i mater svoju, da ti se produže dani na zemlji, koju ti da Gospod Bog tvoj."
+        }
+      },
+      {
+        "number": 13,
+        "text": {
+          "sr-Cyrl": "Не убиј.",
+          "sr-Latn": "Ne ubij."
+        }
+      },
+      {
+        "number": 14,
+        "text": {
+          "sr-Cyrl": "Не чини прељубе.",
+          "sr-Latn": "Ne čini preljube."
+        }
+      },
+      {
+        "number": 15,
+        "text": {
+          "sr-Cyrl": "Не кради.",
+          "sr-Latn": "Ne kradi."
+        }
+      },
+      {
+        "number": 16,
+        "text": {
+          "sr-Cyrl": "Не сведочи лажно на ближњег свог.",
+          "sr-Latn": "Ne svedoči lažno na bližnjeg svog."
+        }
+      },
+      {
+        "number": 17,
+        "text": {
+          "sr-Cyrl": "Не пожели кућу ближњег свог, не пожели жену ближњег свог, ни слугу његовог, ни слушкињу његову, ни вола његовог, ни магарца његовог, нити ишта што је ближњег твог.",
+          "sr-Latn": "Ne poželi kuću bližnjeg svog, ne poželi ženu bližnjeg svog, ni slugu njegovog, ni sluškinju njegovu, ni vola njegovog, ni magarca njegovog, niti išta što je bližnjeg tvog."
+        }
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "exodus-20-danicic",
+      "url": "https://ebible.org/srp1868/EXO20.htm#V1",
+      "title": {
+        "sr-Cyrl": "Друга књига Мојсијева 20",
+        "sr-Latn": "Druga knjiga Mojsijeva 20"
+      },
+      "translator": {
+        "sr-Cyrl": "Ђура Даничић",
+        "sr-Latn": "Đura Daničić"
+      }
+    },
+    {
+      "id": "deuteronomy-5-danicic",
+      "url": "https://ebible.org/srp1868/DEU05.htm#V6",
+      "title": {
+        "sr-Cyrl": "Пета књига Мојсијева 5",
+        "sr-Latn": "Peta knjiga Mojsijeva 5"
+      },
+      "translator": {
+        "sr-Cyrl": "Ђура Даничић",
+        "sr-Latn": "Đura Daničić"
+      }
+    },
+    {
+      "id": "ebible-rights",
+      "url": "https://ebible.org/srp1868/copyright.htm"
+    },
+    {
+      "id": "orthodox-numbering-cross-check",
+      "url": "https://svetosavlje.org/pravoslavni-pojmovnik-za-pocetnike/137/"
+    }
+  ]
+}

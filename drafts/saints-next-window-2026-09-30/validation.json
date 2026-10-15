@@ -1,0 +1,201 @@
+{
+  "status": "LOCAL_DRAFT_VALID_NOT_AUTHENTICATED_OR_APPROVED",
+  "production_authorized": false,
+  "owner_approval": null,
+  "wire_approval_id_is_pending_locator_only": true,
+  "calendar_binding_sha256": "a1b6a5d5911ae03f77802bd466227f0c1ea4fe97708b1b6f92cd4b08847c7c9c",
+  "preserved_articles": 32,
+  "new_articles": 30,
+  "total_articles": 62,
+  "article_limit": 64,
+  "prepared_window_days": 30,
+  "window_days": 30,
+  "remaining_gaps": [],
+  "complete_saint_list": false,
+  "compact_preview_bytes": 211961,
+  "byte_limit": 262144,
+  "preview_sha256": "5e5fcf1af234767934bbe91b492a4927419bd5d8560eda50dc8a0e51b4d71b48",
+  "canonical_link_proposals": [
+    {
+      "article_id": "paraskeva-epivates",
+      "observance_id": "obs-paraskeva",
+      "review_status": "pending",
+      "published": false
+    },
+    {
+      "article_id": "demetrius-thessalonica",
+      "observance_id": "obs-demetrius",
+      "review_status": "pending",
+      "published": false
+    }
+  ],
+  "word_counts": [
+    {
+      "id": "pelagia-penitent",
+      "cyrl": 106,
+      "latn": 106
+    },
+    {
+      "id": "james-alphaeus",
+      "cyrl": 108,
+      "latn": 108
+    },
+    {
+      "id": "eulampius-eulampia",
+      "cyrl": 111,
+      "latn": 111
+    },
+    {
+      "id": "philip-deacon-seventy",
+      "cyrl": 105,
+      "latn": 105
+    },
+    {
+      "id": "tarachus-probus-andronicus",
+      "cyrl": 106,
+      "latn": 106
+    },
+    {
+      "id": "carpus-papylus-companions",
+      "cyrl": 108,
+      "latn": 108
+    },
+    {
+      "id": "paraskeva-epivates",
+      "cyrl": 107,
+      "latn": 107
+    },
+    {
+      "id": "lucian-antioch",
+      "cyrl": 107,
+      "latn": 107
+    },
+    {
+      "id": "longinus-centurion",
+      "cyrl": 109,
+      "latn": 109
+    },
+    {
+      "id": "hosea-prophet",
+      "cyrl": 105,
+      "latn": 105
+    },
+    {
+      "id": "peter-cetinje",
+      "cyrl": 105,
+      "latn": 105
+    },
+    {
+      "id": "prohor-pcinja",
+      "cyrl": 108,
+      "latn": 108
+    },
+    {
+      "id": "artemius-antioch",
+      "cyrl": 108,
+      "latn": 108
+    },
+    {
+      "id": "hilarion-great",
+      "cyrl": 107,
+      "latn": 107
+    },
+    {
+      "id": "averky-hierapolis",
+      "cyrl": 105,
+      "latn": 105
+    },
+    {
+      "id": "james-brother-lord",
+      "cyrl": 107,
+      "latn": 107
+    },
+    {
+      "id": "arethas-companions-najran",
+      "cyrl": 108,
+      "latn": 108
+    },
+    {
+      "id": "marcian-martyrius",
+      "cyrl": 106,
+      "latn": 106
+    },
+    {
+      "id": "demetrius-thessalonica",
+      "cyrl": 106,
+      "latn": 106
+    },
+    {
+      "id": "nestor-thessalonica",
+      "cyrl": 105,
+      "latn": 105
+    },
+    {
+      "id": "terence-neonila-family",
+      "cyrl": 108,
+      "latn": 108
+    },
+    {
+      "id": "abramius-recluse",
+      "cyrl": 107,
+      "latn": 107
+    },
+    {
+      "id": "zenobius-zenobia",
+      "cyrl": 108,
+      "latn": 108
+    },
+    {
+      "id": "stachys-amplias-urban-companions",
+      "cyrl": 106,
+      "latn": 106
+    },
+    {
+      "id": "cosmas-damian-asia",
+      "cyrl": 106,
+      "latn": 106
+    },
+    {
+      "id": "acindynus-pegasius-companions",
+      "cyrl": 109,
+      "latn": 109
+    },
+    {
+      "id": "george-lydda-dedication",
+      "cyrl": 106,
+      "latn": 106
+    },
+    {
+      "id": "joannicius-great",
+      "cyrl": 108,
+      "latn": 108
+    },
+    {
+      "id": "galaction-epistima",
+      "cyrl": 109,
+      "latn": 109
+    },
+    {
+      "id": "paul-confessor-constantinople",
+      "cyrl": 109,
+      "latn": 109
+    }
+  ],
+  "source_refresh_limits": [
+    {
+      "source_id": "eparhija-month-11",
+      "url": "https://www.eparhija.at/kalendar?m=2026-11",
+      "checked_on": "2026-09-30",
+      "status": "REFRESH_FAILED_USING_PINNED_SOURCE_RECORD",
+      "original_fetch_at": "2026-09-15T09:42:14.667347+00:00",
+      "original_response_sha256": "abd5fecc3321025b200622f4e62b2125d1c42c0853de87d61f02dde64bd2aab8"
+    }
+  ],
+  "remaining_gates": [
+    "human_editorial_review",
+    "exact_manuscript_owner_approval",
+    "canonical_link_review_if_added",
+    "separate_release_and_native_compatibility",
+    "separate_production_authorization"
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "schema_version": "svetlost33-ks01-shared-profile-implementation-1",
+  "recorded_on": "2026-10-06",
+  "status": "IMPLEMENTED_FOCUSED_TESTS_PASS_NOT_RELEASE_ACCEPTANCE",
+  "authority": {
+    "decision_id": "ks01-capacity-366-r1",
+    "path": "../svetlost33-github/docs/contracts/calendar-saints-expansion-2026-10-06/capacity-decision-r1.json",
+    "sha256": "5452b8728adad35a1fc300ec04967a3b70d3cac3a175b06136c9aff39b0c781b"
+  },
+  "entry_point": "scripts/validate-ks01-capacity.mjs",
+  "named_export": "KS01_CAPACITY_PROFILE",
+  "implementation": {
+    "selection": "Explicit import by trusted caller; never payload-selected",
+    "runtime_source_rewriting": false,
+    "runtime_dynamic_evaluation": false,
+    "fixture_code_imported": false,
+    "historical_validators_changed": false,
+    "historical_schemas_changed": false,
+    "historical_defaults_changed": false,
+    "global_transport_changed": false,
+    "browser_catalog_evaluator": "Same explicit KS01 profile",
+    "browser_parser_and_archive": "Reused historical implementation"
+  },
+  "limits": {
+    "saints": {
+      "articles": 366,
+      "raw_utf8_bytes": 1572864,
+      "sources": 512,
+      "days": 366
+    },
+    "catalog": {
+      "sources": 512,
+      "subjects": 512,
+      "article_links": 512,
+      "raw_utf8_bytes": 1048576
+    },
+    "all_other_bounds": "UNCHANGED"
+  },
+  "verification": {
+    "command": "node --test tests/ks01-capacity-profile.test.mjs",
+    "exit_code": 0,
+    "tests": 9,
+    "passed": 9,
+    "failed": 0,
+    "duration_ms": 1076.998,
+    "log_path": "drafts/ks01-capacity-shared-implementation-2026-10-06/focused-tests.log",
+    "test_fixtures": "Existing hash-pinned real62, package-A TEST ONLY view, synthetic104 and synthetic366",
+    "is_native_acceptance": false,
+    "is_signature_verification": false
+  },
+  "preserved": {
+    "fixture_handoff_sha256": "1e47b55ff442628eb0445ecbb0456d48b511ec449912b55a154d4ab9a12e0c33",
+    "pending_a_catalog_sha256": "121387e5bb1d80ab76460e1aff92cdfa10d70590ba8e78db0c5717bc3e6674d4",
+    "pending_a_browser_sha256": "97a0dbbfa106e9c941f5fda076dd35f3aefd8e1c0bdb8df00e4800fc8717f763",
+    "historical_schema_validator_hashes": "Test checks exact pinned profile-proposal.unchanged_reference_inputs"
+  },
+  "source_artifacts": [
+    {
+      "path": "scripts/validate-ks01-capacity.mjs",
+      "bytes": 1768,
+      "sha256": "1ea52f6555ceadd57f28c62185701bc716b8d102b17d6684fdb82fb21e9f5596"
+    },
+    {
+      "path": "scripts/ks01-capacity/limits.mjs",
+      "bytes": 596,
+      "sha256": "0445d54b022bf27549677dfca56064773d789590fff897c6c4af67ea9c0b219e"
+    },
+    {
+      "path": "scripts/ks01-capacity/schemas.mjs",
+      "bytes": 1069,
+      "sha256": "8440b53d9fea8f93cee15824ad22af78a2a85ce3adce3493bc5606a99ef9c801"
+    },
+    {
+      "path": "scripts/ks01-capacity/saints.mjs",
+      "bytes": 6776,
+      "sha256": "786dfd8b11620e98989443891f3ea429dc8a11e89462e8a7fdaca7231e413ec0"
+    },
+    {
+      "path": "scripts/ks01-capacity/catalog.mjs",
+      "bytes": 17235,
+      "sha256": "c66fd288d59b1420741a88ba8e4305d096eb3082770bf930ea84151b9c8b82c5"
+    },
+    {
+      "path": "scripts/ks01-capacity/browser.mjs",
+      "bytes": 4799,
+      "sha256": "d201f3700146901aad825154f05e02af086bc576cfa30c2cb7784185380457fd"
+    },
+    {
+      "path": "tests/ks01-capacity-profile.test.mjs",
+      "bytes": 14503,
+      "sha256": "b57344bd8cda348b21dfd507047c427c1f17bc2436128df6198c5fd4e8ea6c05"
+    },
+    {
+      "path": "docs/KS01-CAPACITY-PROFILE-R1.md",
+      "bytes": 3589,
+      "sha256": "93bac7d7d60c5c48661bc0dd5b3828d70c4210abfbcfa8172fd1be4f2232c782"
+    },
+    {
+      "path": "drafts/ks01-capacity-shared-implementation-2026-10-06/focused-tests.log",
+      "bytes": 1183,
+      "sha256": "c1119d856abb926f3840c47d53a4bbc4b8aabfc1fd0def9056c8aa457a64467b"
+    }
+  ],
+  "remaining_release_gates": [
+    "Actual expanded content review and measurement",
+    "Native acceptance/performance/retention evidence",
+    "First compatible released minimum-client versions",
+    "Separate authorized signed release preparation/publication"
+  ],
+  "production_keys_used": false,
+  "release_created": false,
+  "pending_content_promoted": false,
+  "native_source_or_build": false,
+  "maintenance_note": "Static saints/catalog semantic code is additive to preserve historical source hashes. Future shared semantic corrections require explicit review of both profiles."
+}
+

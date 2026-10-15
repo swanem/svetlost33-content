@@ -1,0 +1,65 @@
+{
+  "schema_version": "svetlost33-test-fixture-files-1",
+  "warning": "TEST_ONLY_SYNTHETIC_TRUST_AND_REVIEW_NEVER_PUBLISH_NOT_OWNER_APPROVAL",
+  "publishable": false,
+  "files": [
+    {
+      "path": "synthetic-104/saints-v1.json",
+      "bytes": 391867,
+      "sha256": "65fba4897bbfae6df6382d964659f9b11e38bf6ecc93e3815dc01af06a5fd77b"
+    },
+    {
+      "path": "synthetic-104/liturgical-catalog-v1.json",
+      "bytes": 304765,
+      "sha256": "29a947a80da56e02e66921938e74bb8479508ba77fb6380f3967ecb6b64637c1"
+    },
+    {
+      "path": "synthetic-104/calendar-browser-v1.json",
+      "bytes": 97941,
+      "sha256": "11b14956a1f55e4aa95bc3908f03846c406e1292bcb75e779f08d0c07a92456b"
+    },
+    {
+      "path": "synthetic-104/contexts.json",
+      "bytes": 1637549,
+      "sha256": "9b1ee666a978bca71f04db0289e3e1e180c96a12ef320d34c6ab5dd587c6d6ff"
+    },
+    {
+      "path": "synthetic-104/TEST-ONLY.json",
+      "bytes": 487,
+      "sha256": "070b28c427968bbc3b5c11cd130d06c602c567a44348ecc822bb9b70cf375662"
+    }
+  ],
+  "measurements": {
+    "name": "synthetic-104",
+    "purpose": "TEST_ONLY_SYNTHETIC_TRUST_AND_REVIEW_NEVER_PUBLISH_NOT_OWNER_APPROVAL",
+    "synthetic_articles": 42,
+    "raw_bytes": {
+      "saints": 391867,
+      "catalog": 304765,
+      "browser": 97941,
+      "calendar": 1665524
+    },
+    "saints_counts": {
+      "articles": 104,
+      "sources": 122,
+      "days": 62,
+      "max_articles_per_day": 2
+    },
+    "catalog_counts": {
+      "sources": 124,
+      "subjects": 122,
+      "observances": 138,
+      "occurrences": 136,
+      "article_links": 115,
+      "calendar_bindings": 1,
+      "article_bindings": 1
+    },
+    "distinct_test_identity_links": 104,
+    "browser_counts": {
+      "memberships": 21,
+      "archive_days": 94
+    },
+    "preserved_original_article_objects": 62,
+    "note": "All 62 original article objects retained unchanged; copied test articles and 104-way identity/source/link load are never real content or publication permission."
+  }
+}

@@ -1,0 +1,169 @@
+{
+  "schema_version": "svetlost33-initial19-m4-export-handoff-1",
+  "recorded_on": "2026-10-05",
+  "status": "UNSIGNED_LOCAL_CANDIDATE_READY_FOR_BOUNDED_REVIEW_NOT_PUBLICATION",
+  "task_scope": "One additive exporter adapter for exactly existing18 plus approved slava-default. Frozen R2/R3/R4, old M4 input inventory, native repositories and production content were not edited.",
+  "artifact_directory": "drafts/ota-initial-19-export-2026-10-05",
+  "source_files": [
+    {
+      "path": "drafts/ota-initial-19-export-2026-10-05/input.json",
+      "bytes": 3501,
+      "sha256": "4134daa6b15266b6efe35c08c53cebcfd1d9c11be193b45329662297fee8748f"
+    },
+    {
+      "path": "drafts/ota-initial-19-export-2026-10-05/input.schema.json",
+      "bytes": 4611,
+      "sha256": "1c58fbee3ca336abbd6214d3d24dc09d66735ac4153bac084837221dd7087417"
+    },
+    {
+      "path": "drafts/ota-initial-19-export-2026-10-05/exporter.mjs",
+      "bytes": 23750,
+      "sha256": "95b15217e1a450c2ed26ba852ed3d26fefa710c8efcb35852e2aee04ade78f8d"
+    },
+    {
+      "path": "drafts/ota-initial-19-export-2026-10-05/exporter.test.mjs",
+      "bytes": 11441,
+      "sha256": "fdf02a7df81c7187b0725a40eab16f3e652bba0446988c86e39cb8bb59dda9cd"
+    },
+    {
+      "path": "drafts/ota-initial-19-export-2026-10-05/targeted-tests.log",
+      "bytes": 2006,
+      "sha256": "86899eb67aa7c18500b585937ddb3ea50c904e0d99bcb18bc662a4412082d294"
+    },
+    {
+      "path": "drafts/ota-initial-19-export-2026-10-05/output-inventory.json",
+      "bytes": 11345,
+      "sha256": "b94c69fa69bf6bd292043baa695e6aa24a1242c2da58a40607e6808926892f30"
+    }
+  ],
+  "source_inventory": {
+    "path": "drafts/ota-initial-19-2026-10-04/inventory.json",
+    "sha256": "fbe5e0c7a50124b79711cf7b7639928e31f7e4fdcafdacb6fc29bbe13b53ecd1"
+  },
+  "staging": {
+    "directory": "/var/folders/cf/rml65hmd6t771hjy4368hngc0000gn/T/svetlost33-media19-m4-dsU3D5",
+    "candidate_files": 47,
+    "local_report": "LOCAL-UNSIGNED-REPORT.json",
+    "candidate_bytes_including_two_unsigned_manifests": 49459824,
+    "output_inventory": "output-inventory.json",
+    "note": "Fresh private temporary folder; no existing stage or release bytes overwritten. All47 files were read back and hash/length checked after writes. LOCAL-UNSIGNED-REPORT.json is local-only, not a module payload."
+  },
+  "counts": {
+    "originals": 19,
+    "original_bytes": 48081295,
+    "ota_thumbnails": 19,
+    "ota_thumbnail_bytes": 1317090,
+    "media_records": 38,
+    "media_bytes": 49398385,
+    "policy_json_files": 7,
+    "policy_bytes": 50909,
+    "pair_payload_bytes": 49449294,
+    "unsigned_manifests": 2
+  },
+  "technical_checks": {
+    "targeted_test_result": "21/21 PASS",
+    "test_command": "node --test drafts/ota-initial-19-export-2026-10-05/exporter.test.mjs",
+    "input_schema": "Executed strict AJV local-input schema with exact pins and no type coercion. This is not a new wire/evidence schema.",
+    "wire_schema": "Reused frozen R2 catalog/policy/context and existing M0 module schema via exact pinned reference code.",
+    "joins": "Exact19 approval/source/native catalog/raw original joins; five public evidence projections rederived and byte-compared, beyond R2 generic evidence-object shape.",
+    "raw_integrity": "Originals from delivered source commits matched recorded SHA/length and opposite native source copies; complete PNG/JPEG structure and full Sharp pixel decode for38 media records.",
+    "derivatives": "Same frozen recipe, exact480x853 JPEG contain, no cropping/no new artwork. Mechanical output regenerated and compared to each output thumbnail; deterministic second candidate matched all47 output records.",
+    "budget": "All files/documents/side/pixels/thumbnail limits and100MiB pair budget checked. Actual whole-release and native storage cap remain unproven.",
+    "negative_coverage": [
+      "wrong count/hash/unknown override/type coercion",
+      "changed bytes",
+      "missing slava account evidence link",
+      "invented rights assertion",
+      "mixed-script title/new calendar binding",
+      "duplicate JSON key",
+      "extra/unlisted/path-escaping media",
+      "per-file and aggregate budget",
+      "truncated PNG after full hash rebind",
+      "complete CRC-valid but invalid compressed PNG",
+      "unrelated fully valid JPEG substituted as derivative",
+      "missing required policy JSON",
+      "production-looking key in local candidate"
+    ],
+    "reference_only": true,
+    "native_tests": false,
+    "crypto_verification": false
+  },
+  "projection_boundary": {
+    "public_safe": "Exact per-asset IDs, source/evidence hash+byte references and minimal factual approval/provenance statements. Raw private approval records, user messages, generation prompts, account details and machine paths are not in the seven policy/evidence files.",
+    "legal_assertions": "Existing18 RS/BA owner app scope remains unchanged. Slava is separately joined to exact editorial and04.10 account-holder continuation records; no additional territory license, CC0, public-domain or legal guarantee is inferred.",
+    "review_status": "Catalog approved means exact editorially approved items, not production OTA GO. rights ready_for_ota_publication is false.",
+    "unpublished_projection_review": "Coordinator still reviews this exact public-safe projection and deployment scope before any later publication."
+  },
+  "behavior_preservation": {
+    "stable_ids": "All19 unchanged",
+    "default_ids": [
+      "day1",
+      "day2",
+      "day3",
+      "day4",
+      "day5",
+      "day6",
+      "day7"
+    ],
+    "common_slava_motif": "slava-default retained; no invented saint/observance/date",
+    "runtime_calendar_binding": null,
+    "auto_rotation_on_new_assets": false,
+    "priority": "today > fixed > confirmed slava > day1-day7",
+    "personal_collection_restored": false,
+    "seven_drafts_included": false
+  },
+  "synthetic_vs_release_bound": {
+    "local_wire_values": {
+      "catalog_media_version": "local-media19-m4-r1",
+      "policy_version": "local-policy19-m4-r1",
+      "revision": 1,
+      "synthetic_sequence": 1,
+      "key_id": "local-unsigned-review-key",
+      "approval_join_id": "local-approved19-evidence-join"
+    },
+    "warning": "Local versions/revision1/sequence1/empty-ledger/null-history are synthetic reference values only, not an observation or reservation of production state. Do not sign these artifacts as-is.",
+    "production_sequence": null,
+    "production_min_clients": null,
+    "production_capabilities_enabled": false,
+    "publication_gate": {
+      "ready": false,
+      "reason": "LOCAL_UNSIGNED_ONLY_REQUIRES_NEW_RELEASE_BOUND_EXPORT"
+    },
+    "required_future_binding": "A separately reviewed release-bound export must derive actual live channel/high-water/prior P5 checkpoint/ledger, compatible native minima, retained list, signed manifests and full release graph. Never reset history from this synthetic fresh context."
+  },
+  "commands": {
+    "inspect": "Read output-inventory.json and verify the already-staged47 path/hash/byte records; no new49MB build/export needed.",
+    "build_in_memory": "node drafts/ota-initial-19-export-2026-10-05/exporter.mjs",
+    "fresh_local_stage": "node drafts/ota-initial-19-export-2026-10-05/exporter.mjs --stage",
+    "tests": "node --test drafts/ota-initial-19-export-2026-10-05/exporter.test.mjs"
+  },
+  "visual_samples": [
+    {
+      "path": "thumbnails/day1-754a24836b33027d8bcaf4cfaa7770c4b0bc24a8012010fd03c1c6bd43571a9e.jpg",
+      "bytes": 68141,
+      "sha256": "8dcf84f2e16aeceb67bc7a5af365dc0bcdd2415a8a3eae43ce4d6b28b7cc067d"
+    },
+    {
+      "path": "thumbnails/slava-default-87ce4958b5cc3e3157f02d8be930272979b64cae76b33aa3fd55db370438b9c7.jpg",
+      "bytes": 70258,
+      "sha256": "7539831371527614fd5ef8868954c717811333012537a7c7af116dfd9303c638"
+    }
+  ],
+  "visual_review": "New thumbnail structure/decode/recipe proven; actual thumbnail/native crop/contrast visual QA not asserted by this agent.",
+  "remaining_gates": [
+    "Exact OTA thumbnail/native/crop visual QA",
+    "Native M1-M5 vertical acceptance and compatible production versions",
+    "Additive release-bound export using the actual current channel/high-water/checkpoint/ledger; no synthetic values may be promoted unchanged",
+    "Full release-set/storage budget, signing, public readback and normal client uptake"
+  ],
+  "not_performed": [
+    "signature/key access",
+    "push/publication",
+    "capability enablement",
+    "native edit/build",
+    "2027 or calendar/liturgy changes",
+    "new assets or rights assumptions",
+    "production release reservation"
+  ],
+  "stop_after_handoff": true
+}

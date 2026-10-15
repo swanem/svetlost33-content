@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "checked_on": "2026-10-13",
+  "status": "PASS",
+  "scope": "Local pending content candidate validation only; no native build, authenticated activation, signing or publication",
+  "candidate_file": "liturgical-catalog-v1.pending-r1.json",
+  "candidate_sha256": "c61a1745749009e19134461740bf8e82e0f510ce253eccbff7c4c6b6d1acae68",
+  "candidate_bytes": 280720,
+  "baseline_catalog_sha256": "0659df40a030557f56a52d87ac79853d28aaaea62838ee52191be990a97cb669",
+  "baseline_calendar_sha256": "299842090189bd44974cb6aabfa8a6af5db4fccdc64e3c556ab4dc60aa1944b4",
+  "before": {
+    "subjects": 93,
+    "observances": 112,
+    "occurrences": 110,
+    "sources": 112
+  },
+  "after": {
+    "subjects": 105,
+    "observances": 124,
+    "occurrences": 124,
+    "sources": 121
+  },
+  "changed_existing_observances": [
+    "obs-stefan-decanski",
+    "obs-nektarios-aegina"
+  ],
+  "new_observances": [
+    "obs-ignatius-godbearer",
+    "obs-stephen-protomartyr",
+    "obs-tryphon-martyr",
+    "obs-forty-martyrs-sebaste",
+    "obs-mark-evangelist",
+    "obs-basil-ostrog",
+    "obs-vidovdan-lazar-serbian-martyrs",
+    "obs-cosmas-damian-rome",
+    "obs-elijah-prophet",
+    "obs-panteleimon-martyr",
+    "obs-joachim-anna",
+    "obs-luke-evangelist"
+  ],
+  "checks": {
+    "catalog_schema_and_structure": "PASS",
+    "cyrillic_latin_parity": "PASS",
+    "unique_ids_and_references": "PASS",
+    "existing_subjects_sources_occurrences_unchanged": "PASS",
+    "unaffected_existing_observances_unchanged": "PASS",
+    "existing_identity_names_and_subjects_preserved": "PASS",
+    "annual_date_title_and_source_bindings": "PASS",
+    "articles_and_legacy_links_unchanged": "PASS",
+    "coverage_2027_unchanged_unavailable": "PASS",
+    "runtime_rejects_pending_candidate": "PASS"
+  },
+  "runtime": {
+    "eligible": false,
+    "reason": "unapproved"
+  },
+  "editorial_approval": null,
+  "published": false
+}

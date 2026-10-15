@@ -1,0 +1,67 @@
+{
+  "schema_version": "svetlost33-combined-draft-root-review-1",
+  "reviewed_at_utc": "2026-10-06T18:00:38Z",
+  "status": "PASS_PENDING_COMBINED_DRAFT_NOT_PUBLICATION_GO",
+  "handoff": {
+    "path": "drafts/ks01-combined-calendar-2026-10-06/handoff.json",
+    "sha256": "a7d8aa97ce1af0710029c145c1d156a17976638db7473f645238b8f8aa48bb57"
+  },
+  "combined_operation_manifest_sha256": "6a6381ab117069e91d3ab63050da9b42607cb084345a70255ca1ec386c3e6561",
+  "root_run": {
+    "command": "node drafts/ks01-combined-calendar-2026-10-06/verify.mjs --check",
+    "exit_code": 0,
+    "passed": 10,
+    "failed": 0,
+    "skipped": 0,
+    "duration_ms": 744.6905,
+    "frozen_artifact_and_shared_source_hashes_checked": true,
+    "protected_input_hashes_before_after_equal": true,
+    "network": false,
+    "native_execution": false,
+    "evidence": "Complete root TAP tool output; owner verification/targeted-tests.log is separately pinned by handoff."
+  },
+  "independent_review": {
+    "reviewer": "/root/ui02_readonly_review",
+    "B_inventory_sha256": "a95ac333c9a1fd8c67c781bc62f23e6f9c8028be5c29503c5f6ec8bef8380d21",
+    "result": "NO_BLOCKER_FOR_REUSE_OF_APPROVED_FACTS_IN_19_B_ROWS",
+    "checks": [
+      "Unique identities/date joins match pinned signed S13 article/calendar/source records",
+      "James brother of the Lord remains distinct from James Alphaeus",
+      "8November Demetrius reuses existing subject/observance/occurrence/link",
+      "16November dedication adds distinct event for existing George, preserves earlier feast",
+      "Eight groups remain groups; Asian Cosmas/Damian identity preserved",
+      "Vraci/Djurdjic aliases match original calendar labels and source IDs"
+    ],
+    "limits": "Reuses historical sources; no new web, legal or clerical endorsement. Native source-format compatibility is static, not a native test."
+  },
+  "scope": {
+    "A_dates": 23,
+    "B_dates": 19,
+    "new_article_links": 40,
+    "existing_article_links_reused": 2,
+    "unchanged_article_objects": 104,
+    "existing_year_end_links_preserved": true,
+    "gospel_dates": 31,
+    "gospel_readings": 33,
+    "gospel_window": ["2026-10-06", "2026-11-05"],
+    "unresolved_gospel_dates_2026_11_06_through_12_31": 56,
+    "fasting_and_archive_unchanged": true
+  },
+  "shared_adapter": {
+    "parser_sha256": "5a8da65aab0b8e339a902a4a85bc973f4b2404327ffd1c371e76318e9203e2e8",
+    "bible_validator_sha256": "b6ae4c9eb29ba41ac838443a150e24d2d1496cf4fdbb2a1ea10fe43c57f73e0d",
+    "legacy_matcher_unchanged": true,
+    "new_source_requires_exact_id_title_url_and_complete_printed_reference_match": true,
+    "both_scripts_old_and_new_corpus_references_checked": true
+  },
+  "remaining": [
+    "Exact combined editorial approval remains explicit; pending flags are not an approved distribution",
+    "Apply reviewed Gospel changes and regenerate final annual/saints/catalog/browser bindings and transport manifests",
+    "Exact native generation acceptance through original owners, sequential builds only",
+    "Existing authorized signing/publication process followed by public readback"
+  ],
+  "no_new_article_prose_or_translation": true,
+  "signed": false,
+  "published": false,
+  "app_or_site_release_performed": false
+}

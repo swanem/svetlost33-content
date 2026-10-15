@@ -1,0 +1,1323 @@
+{
+  "warning": "TEST_ONLY_REAL_DRAFT_PROSE_PENDING_NOT_OWNER_OR_CHURCH_APPROVAL_NEVER_PUBLISH",
+  "publishable": false,
+  "source": "prepare().combined from the frozen year-end blocks",
+  "pending_input_payloads": {
+    "articles": 104,
+    "saints": {
+      "path": "IN_MEMORY_ONLY/saints-v1.json",
+      "bytes": 399113,
+      "sha256": "34aaa713f61e57990b0d3f85e62c69f5bda661f4db08f569cf6a9d6635006832"
+    },
+    "catalog": {
+      "path": "IN_MEMORY_ONLY/liturgical-catalog-v1.json",
+      "bytes": 159604,
+      "sha256": "cca6c025c025797f5e0bcc50b89903bbedaa9d10ad094eccfc1335b529d8d7e0"
+    },
+    "browser": {
+      "path": "IN_MEMORY_ONLY/calendar-browser-v1.json",
+      "bytes": 97906,
+      "sha256": "cf12a20df56122ec1130017841a7d6d2de90af934463e1054cc257c0c98dd8e7"
+    },
+    "counts": {
+      "sources": 65,
+      "subjects": 56,
+      "observances": 73,
+      "occurrences": 71,
+      "article_links": 53
+    },
+    "article_binding": {
+      "id": "saints-pilot-2026",
+      "module_id": "saints-v1",
+      "version": "2026.10.6",
+      "revision": 6,
+      "path": "data/saints-v1.json",
+      "sha256": "34aaa713f61e57990b0d3f85e62c69f5bda661f4db08f569cf6a9d6635006832"
+    },
+    "browser_catalog_binding": {
+      "module_id": "liturgical-catalog-v1",
+      "version": "2026.10.6",
+      "revision": 9,
+      "path": "data/liturgical-catalog-v1.json",
+      "sha256": "cca6c025c025797f5e0bcc50b89903bbedaa9d10ad094eccfc1335b529d8d7e0"
+    }
+  },
+  "content_approval": null,
+  "rights_clearance": null,
+  "clerical_approval": null,
+  "original_articles": 62,
+  "new_pending_articles": 42,
+  "test_only_changes": [
+    {
+      "payload": "saints",
+      "pointer": "/review_status",
+      "before": "draft",
+      "after": "approved"
+    },
+    {
+      "payload": "saints",
+      "pointer": "/approval_id",
+      "before": "ks01-both-blocks-draft-no-approval",
+      "after": "test-only-real-draft104-not-owner-approval"
+    },
+    {
+      "payload": "catalog",
+      "pointer": "/review_status",
+      "before": "pending",
+      "after": "approved"
+    },
+    {
+      "payload": "catalog",
+      "pointer": "/approval_id",
+      "before": null,
+      "after": "test-only-real-draft104-not-owner-approval"
+    },
+    {
+      "payload": "browser",
+      "pointer": "/review_status",
+      "before": "pending",
+      "after": "approved"
+    },
+    {
+      "payload": "browser",
+      "pointer": "/approval_id",
+      "before": null,
+      "after": "test-only-real-draft104-not-owner-approval"
+    },
+    {
+      "payload": "catalog",
+      "pointer": "/sources/20/review_status",
+      "before": "pending",
+      "after": "reviewed"
+    },
+    {
+      "payload": "catalog",
+      "pointer": "/sources/21/review_status",
+      "before": "pending",
+      "after": "reviewed"
+    },
+    {
+      "payload": "catalog",
+      "pointer": "/sources/22/review_status",
+      "before": "pending",
+      "after": "reviewed"
+    },
+    {
+      "payload": "catalog",
+      "pointer": "/sources/23/review_status",
+      "before": "pending",
+      "after": "reviewed"
+    },
+    {
+      "payload": "catalog",
+      "pointer": "/sources/24/review_status",
+      "before": "pending",
+      "after": "reviewed"
+    },
+    {
+      "payload": "catalog",
+      "pointer": "/sources/25/review_status",
+      "before": "pending",
+      "after": "reviewed"
+    },
+    {
+      "payload": "catalog",
+      "pointer": "/sources/26/review_status",
+      "before": "pending",
+      "after": "reviewed"
+    },
+    {
+      "payload": "catalog",
+      "pointer": "/sources/27/review_status",
+      "before": "pending",
+      "after": "reviewed"
+    },
+    {
+      "payload": "catalog",
+      "pointer": "/sources/28/review_status",
+      "before": "pending",
+      "after": "reviewed"
+    },
+    {
+      "payload": "catalog",
+      "pointer": "/sources/29/review_status",
+      "before": "pending",
+      "after": "reviewed"
+    },
+    {
+      "payload": "catalog",
+      "pointer": "/sources/30/review_status",
+      "before": "pending",
+      "after": "reviewed"
+    },
+    {
+      "payload": "catalog",
+      "pointer": "/sources/31/review_status",
+      "before": "pending",
+      "after": "reviewed"
+    },
+    {
+      "payload": "catalog",
+      "pointer": "/sources/32/review_status",
+      "before": "pending",
+      "after": "reviewed"
+    },
+    {
+      "payload": "catalog",
+      "pointer": "/sources/33/review_status",
+      "before": "pending",
+      "after": "reviewed"
+    },
+    {
+      "payload": "catalog",
+      "pointer": "/sources/34/review_status",
+      "before": "pending",
+      "after": "reviewed"
+    },
+    {
+      "payload": "catalog",
+      "pointer": "/sources/35/review_status",
+      "before": "pending",
+      "after": "reviewed"
+    },
+    {
+      "payload": "catalog",
+      "pointer": "/sources/36/review_status",
+      "before": "pending",
+      "after": "reviewed"
+    },
+    {
+      "payload": "catalog",
+      "pointer": "/sources/37/review_status",
+      "before": "pending",
+      "after": "reviewed"
+    },
+    {
+      "payload": "catalog",
+      "pointer": "/sources/38/review_status",
+      "before": "pending",
+      "after": "reviewed"
+    },
+    {
+      "payload": "catalog",
+      "pointer": "/sources/39/review_status",
+      "before": "pending",
+      "after": "reviewed"
+    },
+    {
+      "payload": "catalog",
+      "pointer": "/sources/40/review_status",
+      "before": "pending",
+      "after": "reviewed"
+    },
+    {
+      "payload": "catalog",
+      "pointer": "/sources/41/review_status",
+      "before": "pending",
+      "after": "reviewed"
+    },
+    {
+      "payload": "catalog",
+      "pointer": "/sources/42/review_status",
+      "before": "pending",
+      "after": "reviewed"
+    },
+    {
+      "payload": "catalog",
+      "pointer": "/sources/43/review_status",
+      "before": "pending",
+      "after": "reviewed"
+    },
+    {
+      "payload": "catalog",
+      "pointer": "/sources/44/review_status",
+      "before": "pending",
+      "after": "reviewed"
+    },
+    {
+      "payload": "catalog",
+      "pointer": "/sources/45/review_status",
+      "before": "pending",
+      "after": "reviewed"
+    },
+    {
+      "payload": "catalog",
+      "pointer": "/sources/46/review_status",
+      "before": "pending",
+      "after": "reviewed"
+    },
+    {
+      "payload": "catalog",
+      "pointer": "/sources/47/review_status",
+      "before": "pending",
+      "after": "reviewed"
+    },
+    {
+      "payload": "catalog",
+      "pointer": "/sources/48/review_status",
+      "before": "pending",
+      "after": "reviewed"
+    },
+    {
+      "payload": "catalog",
+      "pointer": "/sources/49/review_status",
+      "before": "pending",
+      "after": "reviewed"
+    },
+    {
+      "payload": "catalog",
+      "pointer": "/sources/50/review_status",
+      "before": "pending",
+      "after": "reviewed"
+    },
+    {
+      "payload": "catalog",
+      "pointer": "/sources/51/review_status",
+      "before": "pending",
+      "after": "reviewed"
+    },
+    {
+      "payload": "catalog",
+      "pointer": "/sources/52/review_status",
+      "before": "pending",
+      "after": "reviewed"
+    },
+    {
+      "payload": "catalog",
+      "pointer": "/sources/53/review_status",
+      "before": "pending",
+      "after": "reviewed"
+    },
+    {
+      "payload": "catalog",
+      "pointer": "/sources/54/review_status",
+      "before": "pending",
+      "after": "reviewed"
+    },
+    {
+      "payload": "catalog",
+      "pointer": "/sources/55/review_status",
+      "before": "pending",
+      "after": "reviewed"
+    },
+    {
+      "payload": "catalog",
+      "pointer": "/sources/56/review_status",
+      "before": "pending",
+      "after": "reviewed"
+    },
+    {
+      "payload": "catalog",
+      "pointer": "/sources/57/review_status",
+      "before": "pending",
+      "after": "reviewed"
+    },
+    {
+      "payload": "catalog",
+      "pointer": "/sources/58/review_status",
+      "before": "pending",
+      "after": "reviewed"
+    },
+    {
+      "payload": "catalog",
+      "pointer": "/sources/59/review_status",
+      "before": "pending",
+      "after": "reviewed"
+    },
+    {
+      "payload": "catalog",
+      "pointer": "/sources/60/review_status",
+      "before": "pending",
+      "after": "reviewed"
+    },
+    {
+      "payload": "catalog",
+      "pointer": "/sources/61/review_status",
+      "before": "pending",
+      "after": "reviewed"
+    },
+    {
+      "payload": "catalog",
+      "pointer": "/sources/62/review_status",
+      "before": "pending",
+      "after": "reviewed"
+    },
+    {
+      "payload": "catalog",
+      "pointer": "/sources/63/review_status",
+      "before": "pending",
+      "after": "reviewed"
+    },
+    {
+      "payload": "catalog",
+      "pointer": "/sources/64/review_status",
+      "before": "pending",
+      "after": "reviewed"
+    },
+    {
+      "payload": "catalog",
+      "pointer": "/subjects/18/review_status",
+      "before": "pending",
+      "after": "reviewed"
+    },
+    {
+      "payload": "catalog",
+      "pointer": "/subjects/19/review_status",
+      "before": "pending",
+      "after": "reviewed"
+    },
+    {
+      "payload": "catalog",
+      "pointer": "/subjects/20/review_status",
+      "before": "pending",
+      "after": "reviewed"
+    },
+    {
+      "payload": "catalog",
+      "pointer": "/subjects/21/review_status",
+      "before": "pending",
+      "after": "reviewed"
+    },
+    {
+      "payload": "catalog",
+      "pointer": "/subjects/22/review_status",
+      "before": "pending",
+      "after": "reviewed"
+    },
+    {
+      "payload": "catalog",
+      "pointer": "/subjects/23/review_status",
+      "before": "pending",
+      "after": "reviewed"
+    },
+    {
+      "payload": "catalog",
+      "pointer": "/subjects/24/review_status",
+      "before": "pending",
+      "after": "reviewed"
+    },
+    {
+      "payload": "catalog",
+      "pointer": "/subjects/25/review_status",
+      "before": "pending",
+      "after": "reviewed"
+    },
+    {
+      "payload": "catalog",
+      "pointer": "/subjects/26/review_status",
+      "before": "pending",
+      "after": "reviewed"
+    },
+    {
+      "payload": "catalog",
+      "pointer": "/subjects/27/review_status",
+      "before": "pending",
+      "after": "reviewed"
+    },
+    {
+      "payload": "catalog",
+      "pointer": "/subjects/28/review_status",
+      "before": "pending",
+      "after": "reviewed"
+    },
+    {
+      "payload": "catalog",
+      "pointer": "/subjects/29/review_status",
+      "before": "pending",
+      "after": "reviewed"
+    },
+    {
+      "payload": "catalog",
+      "pointer": "/subjects/30/review_status",
+      "before": "pending",
+      "after": "reviewed"
+    },
+    {
+      "payload": "catalog",
+      "pointer": "/subjects/31/review_status",
+      "before": "pending",
+      "after": "reviewed"
+    },
+    {
+      "payload": "catalog",
+      "pointer": "/subjects/32/review_status",
+      "before": "pending",
+      "after": "reviewed"
+    },
+    {
+      "payload": "catalog",
+      "pointer": "/subjects/33/review_status",
+      "before": "pending",
+      "after": "reviewed"
+    },
+    {
+      "payload": "catalog",
+      "pointer": "/subjects/34/review_status",
+      "before": "pending",
+      "after": "reviewed"
+    },
+    {
+      "payload": "catalog",
+      "pointer": "/subjects/35/review_status",
+      "before": "pending",
+      "after": "reviewed"
+    },
+    {
+      "payload": "catalog",
+      "pointer": "/subjects/36/review_status",
+      "before": "pending",
+      "after": "reviewed"
+    },
+    {
+      "payload": "catalog",
+      "pointer": "/subjects/37/review_status",
+      "before": "pending",
+      "after": "reviewed"
+    },
+    {
+      "payload": "catalog",
+      "pointer": "/subjects/38/review_status",
+      "before": "pending",
+      "after": "reviewed"
+    },
+    {
+      "payload": "catalog",
+      "pointer": "/subjects/39/review_status",
+      "before": "pending",
+      "after": "reviewed"
+    },
+    {
+      "payload": "catalog",
+      "pointer": "/subjects/40/review_status",
+      "before": "pending",
+      "after": "reviewed"
+    },
+    {
+      "payload": "catalog",
+      "pointer": "/subjects/41/review_status",
+      "before": "pending",
+      "after": "reviewed"
+    },
+    {
+      "payload": "catalog",
+      "pointer": "/subjects/42/review_status",
+      "before": "pending",
+      "after": "reviewed"
+    },
+    {
+      "payload": "catalog",
+      "pointer": "/subjects/43/review_status",
+      "before": "pending",
+      "after": "reviewed"
+    },
+    {
+      "payload": "catalog",
+      "pointer": "/subjects/44/review_status",
+      "before": "pending",
+      "after": "reviewed"
+    },
+    {
+      "payload": "catalog",
+      "pointer": "/subjects/45/review_status",
+      "before": "pending",
+      "after": "reviewed"
+    },
+    {
+      "payload": "catalog",
+      "pointer": "/subjects/46/review_status",
+      "before": "pending",
+      "after": "reviewed"
+    },
+    {
+      "payload": "catalog",
+      "pointer": "/subjects/47/review_status",
+      "before": "pending",
+      "after": "reviewed"
+    },
+    {
+      "payload": "catalog",
+      "pointer": "/subjects/48/review_status",
+      "before": "pending",
+      "after": "reviewed"
+    },
+    {
+      "payload": "catalog",
+      "pointer": "/subjects/49/review_status",
+      "before": "pending",
+      "after": "reviewed"
+    },
+    {
+      "payload": "catalog",
+      "pointer": "/subjects/50/review_status",
+      "before": "pending",
+      "after": "reviewed"
+    },
+    {
+      "payload": "catalog",
+      "pointer": "/subjects/51/review_status",
+      "before": "pending",
+      "after": "reviewed"
+    },
+    {
+      "payload": "catalog",
+      "pointer": "/subjects/52/review_status",
+      "before": "pending",
+      "after": "reviewed"
+    },
+    {
+      "payload": "catalog",
+      "pointer": "/subjects/53/review_status",
+      "before": "pending",
+      "after": "reviewed"
+    },
+    {
+      "payload": "catalog",
+      "pointer": "/subjects/54/review_status",
+      "before": "pending",
+      "after": "reviewed"
+    },
+    {
+      "payload": "catalog",
+      "pointer": "/subjects/55/review_status",
+      "before": "pending",
+      "after": "reviewed"
+    },
+    {
+      "payload": "catalog",
+      "pointer": "/observances/34/review_status",
+      "before": "pending",
+      "after": "reviewed"
+    },
+    {
+      "payload": "catalog",
+      "pointer": "/observances/35/review_status",
+      "before": "pending",
+      "after": "reviewed"
+    },
+    {
+      "payload": "catalog",
+      "pointer": "/observances/36/review_status",
+      "before": "pending",
+      "after": "reviewed"
+    },
+    {
+      "payload": "catalog",
+      "pointer": "/observances/37/review_status",
+      "before": "pending",
+      "after": "reviewed"
+    },
+    {
+      "payload": "catalog",
+      "pointer": "/observances/38/review_status",
+      "before": "pending",
+      "after": "reviewed"
+    },
+    {
+      "payload": "catalog",
+      "pointer": "/observances/39/review_status",
+      "before": "pending",
+      "after": "reviewed"
+    },
+    {
+      "payload": "catalog",
+      "pointer": "/observances/40/review_status",
+      "before": "pending",
+      "after": "reviewed"
+    },
+    {
+      "payload": "catalog",
+      "pointer": "/observances/41/review_status",
+      "before": "pending",
+      "after": "reviewed"
+    },
+    {
+      "payload": "catalog",
+      "pointer": "/observances/42/review_status",
+      "before": "pending",
+      "after": "reviewed"
+    },
+    {
+      "payload": "catalog",
+      "pointer": "/observances/43/review_status",
+      "before": "pending",
+      "after": "reviewed"
+    },
+    {
+      "payload": "catalog",
+      "pointer": "/observances/44/review_status",
+      "before": "pending",
+      "after": "reviewed"
+    },
+    {
+      "payload": "catalog",
+      "pointer": "/observances/45/review_status",
+      "before": "pending",
+      "after": "reviewed"
+    },
+    {
+      "payload": "catalog",
+      "pointer": "/observances/46/review_status",
+      "before": "pending",
+      "after": "reviewed"
+    },
+    {
+      "payload": "catalog",
+      "pointer": "/observances/47/review_status",
+      "before": "pending",
+      "after": "reviewed"
+    },
+    {
+      "payload": "catalog",
+      "pointer": "/observances/48/review_status",
+      "before": "pending",
+      "after": "reviewed"
+    },
+    {
+      "payload": "catalog",
+      "pointer": "/observances/49/review_status",
+      "before": "pending",
+      "after": "reviewed"
+    },
+    {
+      "payload": "catalog",
+      "pointer": "/observances/50/review_status",
+      "before": "pending",
+      "after": "reviewed"
+    },
+    {
+      "payload": "catalog",
+      "pointer": "/observances/51/review_status",
+      "before": "pending",
+      "after": "reviewed"
+    },
+    {
+      "payload": "catalog",
+      "pointer": "/observances/52/review_status",
+      "before": "pending",
+      "after": "reviewed"
+    },
+    {
+      "payload": "catalog",
+      "pointer": "/observances/53/review_status",
+      "before": "pending",
+      "after": "reviewed"
+    },
+    {
+      "payload": "catalog",
+      "pointer": "/observances/54/review_status",
+      "before": "pending",
+      "after": "reviewed"
+    },
+    {
+      "payload": "catalog",
+      "pointer": "/observances/55/review_status",
+      "before": "pending",
+      "after": "reviewed"
+    },
+    {
+      "payload": "catalog",
+      "pointer": "/observances/56/review_status",
+      "before": "pending",
+      "after": "reviewed"
+    },
+    {
+      "payload": "catalog",
+      "pointer": "/observances/57/review_status",
+      "before": "pending",
+      "after": "reviewed"
+    },
+    {
+      "payload": "catalog",
+      "pointer": "/observances/58/review_status",
+      "before": "pending",
+      "after": "reviewed"
+    },
+    {
+      "payload": "catalog",
+      "pointer": "/observances/59/review_status",
+      "before": "pending",
+      "after": "reviewed"
+    },
+    {
+      "payload": "catalog",
+      "pointer": "/observances/60/review_status",
+      "before": "pending",
+      "after": "reviewed"
+    },
+    {
+      "payload": "catalog",
+      "pointer": "/observances/61/review_status",
+      "before": "pending",
+      "after": "reviewed"
+    },
+    {
+      "payload": "catalog",
+      "pointer": "/observances/62/review_status",
+      "before": "pending",
+      "after": "reviewed"
+    },
+    {
+      "payload": "catalog",
+      "pointer": "/observances/63/review_status",
+      "before": "pending",
+      "after": "reviewed"
+    },
+    {
+      "payload": "catalog",
+      "pointer": "/observances/64/review_status",
+      "before": "pending",
+      "after": "reviewed"
+    },
+    {
+      "payload": "catalog",
+      "pointer": "/observances/65/review_status",
+      "before": "pending",
+      "after": "reviewed"
+    },
+    {
+      "payload": "catalog",
+      "pointer": "/observances/66/review_status",
+      "before": "pending",
+      "after": "reviewed"
+    },
+    {
+      "payload": "catalog",
+      "pointer": "/observances/67/review_status",
+      "before": "pending",
+      "after": "reviewed"
+    },
+    {
+      "payload": "catalog",
+      "pointer": "/observances/68/review_status",
+      "before": "pending",
+      "after": "reviewed"
+    },
+    {
+      "payload": "catalog",
+      "pointer": "/observances/69/review_status",
+      "before": "pending",
+      "after": "reviewed"
+    },
+    {
+      "payload": "catalog",
+      "pointer": "/observances/70/review_status",
+      "before": "pending",
+      "after": "reviewed"
+    },
+    {
+      "payload": "catalog",
+      "pointer": "/observances/71/review_status",
+      "before": "pending",
+      "after": "reviewed"
+    },
+    {
+      "payload": "catalog",
+      "pointer": "/observances/72/review_status",
+      "before": "pending",
+      "after": "reviewed"
+    },
+    {
+      "payload": "catalog",
+      "pointer": "/occurrences/32/review_status",
+      "before": "pending",
+      "after": "reviewed"
+    },
+    {
+      "payload": "catalog",
+      "pointer": "/occurrences/33/review_status",
+      "before": "pending",
+      "after": "reviewed"
+    },
+    {
+      "payload": "catalog",
+      "pointer": "/occurrences/34/review_status",
+      "before": "pending",
+      "after": "reviewed"
+    },
+    {
+      "payload": "catalog",
+      "pointer": "/occurrences/35/review_status",
+      "before": "pending",
+      "after": "reviewed"
+    },
+    {
+      "payload": "catalog",
+      "pointer": "/occurrences/36/review_status",
+      "before": "pending",
+      "after": "reviewed"
+    },
+    {
+      "payload": "catalog",
+      "pointer": "/occurrences/37/review_status",
+      "before": "pending",
+      "after": "reviewed"
+    },
+    {
+      "payload": "catalog",
+      "pointer": "/occurrences/38/review_status",
+      "before": "pending",
+      "after": "reviewed"
+    },
+    {
+      "payload": "catalog",
+      "pointer": "/occurrences/39/review_status",
+      "before": "pending",
+      "after": "reviewed"
+    },
+    {
+      "payload": "catalog",
+      "pointer": "/occurrences/40/review_status",
+      "before": "pending",
+      "after": "reviewed"
+    },
+    {
+      "payload": "catalog",
+      "pointer": "/occurrences/41/review_status",
+      "before": "pending",
+      "after": "reviewed"
+    },
+    {
+      "payload": "catalog",
+      "pointer": "/occurrences/42/review_status",
+      "before": "pending",
+      "after": "reviewed"
+    },
+    {
+      "payload": "catalog",
+      "pointer": "/occurrences/43/review_status",
+      "before": "pending",
+      "after": "reviewed"
+    },
+    {
+      "payload": "catalog",
+      "pointer": "/occurrences/44/review_status",
+      "before": "pending",
+      "after": "reviewed"
+    },
+    {
+      "payload": "catalog",
+      "pointer": "/occurrences/45/review_status",
+      "before": "pending",
+      "after": "reviewed"
+    },
+    {
+      "payload": "catalog",
+      "pointer": "/occurrences/46/review_status",
+      "before": "pending",
+      "after": "reviewed"
+    },
+    {
+      "payload": "catalog",
+      "pointer": "/occurrences/47/review_status",
+      "before": "pending",
+      "after": "reviewed"
+    },
+    {
+      "payload": "catalog",
+      "pointer": "/occurrences/48/review_status",
+      "before": "pending",
+      "after": "reviewed"
+    },
+    {
+      "payload": "catalog",
+      "pointer": "/occurrences/49/review_status",
+      "before": "pending",
+      "after": "reviewed"
+    },
+    {
+      "payload": "catalog",
+      "pointer": "/occurrences/50/review_status",
+      "before": "pending",
+      "after": "reviewed"
+    },
+    {
+      "payload": "catalog",
+      "pointer": "/occurrences/51/review_status",
+      "before": "pending",
+      "after": "reviewed"
+    },
+    {
+      "payload": "catalog",
+      "pointer": "/occurrences/52/review_status",
+      "before": "pending",
+      "after": "reviewed"
+    },
+    {
+      "payload": "catalog",
+      "pointer": "/occurrences/53/review_status",
+      "before": "pending",
+      "after": "reviewed"
+    },
+    {
+      "payload": "catalog",
+      "pointer": "/occurrences/54/review_status",
+      "before": "pending",
+      "after": "reviewed"
+    },
+    {
+      "payload": "catalog",
+      "pointer": "/occurrences/55/review_status",
+      "before": "pending",
+      "after": "reviewed"
+    },
+    {
+      "payload": "catalog",
+      "pointer": "/occurrences/56/review_status",
+      "before": "pending",
+      "after": "reviewed"
+    },
+    {
+      "payload": "catalog",
+      "pointer": "/occurrences/57/review_status",
+      "before": "pending",
+      "after": "reviewed"
+    },
+    {
+      "payload": "catalog",
+      "pointer": "/occurrences/58/review_status",
+      "before": "pending",
+      "after": "reviewed"
+    },
+    {
+      "payload": "catalog",
+      "pointer": "/occurrences/59/review_status",
+      "before": "pending",
+      "after": "reviewed"
+    },
+    {
+      "payload": "catalog",
+      "pointer": "/occurrences/60/review_status",
+      "before": "pending",
+      "after": "reviewed"
+    },
+    {
+      "payload": "catalog",
+      "pointer": "/occurrences/61/review_status",
+      "before": "pending",
+      "after": "reviewed"
+    },
+    {
+      "payload": "catalog",
+      "pointer": "/occurrences/62/review_status",
+      "before": "pending",
+      "after": "reviewed"
+    },
+    {
+      "payload": "catalog",
+      "pointer": "/occurrences/63/review_status",
+      "before": "pending",
+      "after": "reviewed"
+    },
+    {
+      "payload": "catalog",
+      "pointer": "/occurrences/64/review_status",
+      "before": "pending",
+      "after": "reviewed"
+    },
+    {
+      "payload": "catalog",
+      "pointer": "/occurrences/65/review_status",
+      "before": "pending",
+      "after": "reviewed"
+    },
+    {
+      "payload": "catalog",
+      "pointer": "/occurrences/66/review_status",
+      "before": "pending",
+      "after": "reviewed"
+    },
+    {
+      "payload": "catalog",
+      "pointer": "/occurrences/67/review_status",
+      "before": "pending",
+      "after": "reviewed"
+    },
+    {
+      "payload": "catalog",
+      "pointer": "/occurrences/68/review_status",
+      "before": "pending",
+      "after": "reviewed"
+    },
+    {
+      "payload": "catalog",
+      "pointer": "/occurrences/69/review_status",
+      "before": "pending",
+      "after": "reviewed"
+    },
+    {
+      "payload": "catalog",
+      "pointer": "/occurrences/70/review_status",
+      "before": "pending",
+      "after": "reviewed"
+    },
+    {
+      "payload": "catalog",
+      "pointer": "/article_links/11/review_status",
+      "before": "pending",
+      "after": "reviewed"
+    },
+    {
+      "payload": "catalog",
+      "pointer": "/article_links/12/review_status",
+      "before": "pending",
+      "after": "reviewed"
+    },
+    {
+      "payload": "catalog",
+      "pointer": "/article_links/13/review_status",
+      "before": "pending",
+      "after": "reviewed"
+    },
+    {
+      "payload": "catalog",
+      "pointer": "/article_links/14/review_status",
+      "before": "pending",
+      "after": "reviewed"
+    },
+    {
+      "payload": "catalog",
+      "pointer": "/article_links/15/review_status",
+      "before": "pending",
+      "after": "reviewed"
+    },
+    {
+      "payload": "catalog",
+      "pointer": "/article_links/16/review_status",
+      "before": "pending",
+      "after": "reviewed"
+    },
+    {
+      "payload": "catalog",
+      "pointer": "/article_links/17/review_status",
+      "before": "pending",
+      "after": "reviewed"
+    },
+    {
+      "payload": "catalog",
+      "pointer": "/article_links/18/review_status",
+      "before": "pending",
+      "after": "reviewed"
+    },
+    {
+      "payload": "catalog",
+      "pointer": "/article_links/19/review_status",
+      "before": "pending",
+      "after": "reviewed"
+    },
+    {
+      "payload": "catalog",
+      "pointer": "/article_links/20/review_status",
+      "before": "pending",
+      "after": "reviewed"
+    },
+    {
+      "payload": "catalog",
+      "pointer": "/article_links/21/review_status",
+      "before": "pending",
+      "after": "reviewed"
+    },
+    {
+      "payload": "catalog",
+      "pointer": "/article_links/22/review_status",
+      "before": "pending",
+      "after": "reviewed"
+    },
+    {
+      "payload": "catalog",
+      "pointer": "/article_links/23/review_status",
+      "before": "pending",
+      "after": "reviewed"
+    },
+    {
+      "payload": "catalog",
+      "pointer": "/article_links/24/review_status",
+      "before": "pending",
+      "after": "reviewed"
+    },
+    {
+      "payload": "catalog",
+      "pointer": "/article_links/25/review_status",
+      "before": "pending",
+      "after": "reviewed"
+    },
+    {
+      "payload": "catalog",
+      "pointer": "/article_links/26/review_status",
+      "before": "pending",
+      "after": "reviewed"
+    },
+    {
+      "payload": "catalog",
+      "pointer": "/article_links/27/review_status",
+      "before": "pending",
+      "after": "reviewed"
+    },
+    {
+      "payload": "catalog",
+      "pointer": "/article_links/28/review_status",
+      "before": "pending",
+      "after": "reviewed"
+    },
+    {
+      "payload": "catalog",
+      "pointer": "/article_links/29/review_status",
+      "before": "pending",
+      "after": "reviewed"
+    },
+    {
+      "payload": "catalog",
+      "pointer": "/article_links/30/review_status",
+      "before": "pending",
+      "after": "reviewed"
+    },
+    {
+      "payload": "catalog",
+      "pointer": "/article_links/31/review_status",
+      "before": "pending",
+      "after": "reviewed"
+    },
+    {
+      "payload": "catalog",
+      "pointer": "/article_links/32/review_status",
+      "before": "pending",
+      "after": "reviewed"
+    },
+    {
+      "payload": "catalog",
+      "pointer": "/article_links/33/review_status",
+      "before": "pending",
+      "after": "reviewed"
+    },
+    {
+      "payload": "catalog",
+      "pointer": "/article_links/34/review_status",
+      "before": "pending",
+      "after": "reviewed"
+    },
+    {
+      "payload": "catalog",
+      "pointer": "/article_links/35/review_status",
+      "before": "pending",
+      "after": "reviewed"
+    },
+    {
+      "payload": "catalog",
+      "pointer": "/article_links/36/review_status",
+      "before": "pending",
+      "after": "reviewed"
+    },
+    {
+      "payload": "catalog",
+      "pointer": "/article_links/37/review_status",
+      "before": "pending",
+      "after": "reviewed"
+    },
+    {
+      "payload": "catalog",
+      "pointer": "/article_links/38/review_status",
+      "before": "pending",
+      "after": "reviewed"
+    },
+    {
+      "payload": "catalog",
+      "pointer": "/article_links/39/review_status",
+      "before": "pending",
+      "after": "reviewed"
+    },
+    {
+      "payload": "catalog",
+      "pointer": "/article_links/40/review_status",
+      "before": "pending",
+      "after": "reviewed"
+    },
+    {
+      "payload": "catalog",
+      "pointer": "/article_links/41/review_status",
+      "before": "pending",
+      "after": "reviewed"
+    },
+    {
+      "payload": "catalog",
+      "pointer": "/article_links/42/review_status",
+      "before": "pending",
+      "after": "reviewed"
+    },
+    {
+      "payload": "catalog",
+      "pointer": "/article_links/43/review_status",
+      "before": "pending",
+      "after": "reviewed"
+    },
+    {
+      "payload": "catalog",
+      "pointer": "/article_links/44/review_status",
+      "before": "pending",
+      "after": "reviewed"
+    },
+    {
+      "payload": "catalog",
+      "pointer": "/article_links/45/review_status",
+      "before": "pending",
+      "after": "reviewed"
+    },
+    {
+      "payload": "catalog",
+      "pointer": "/article_links/46/review_status",
+      "before": "pending",
+      "after": "reviewed"
+    },
+    {
+      "payload": "catalog",
+      "pointer": "/article_links/47/review_status",
+      "before": "pending",
+      "after": "reviewed"
+    },
+    {
+      "payload": "catalog",
+      "pointer": "/article_links/48/review_status",
+      "before": "pending",
+      "after": "reviewed"
+    },
+    {
+      "payload": "catalog",
+      "pointer": "/article_links/49/review_status",
+      "before": "pending",
+      "after": "reviewed"
+    },
+    {
+      "payload": "catalog",
+      "pointer": "/article_links/50/review_status",
+      "before": "pending",
+      "after": "reviewed"
+    },
+    {
+      "payload": "catalog",
+      "pointer": "/article_links/51/review_status",
+      "before": "pending",
+      "after": "reviewed"
+    },
+    {
+      "payload": "catalog",
+      "pointer": "/article_links/52/review_status",
+      "before": "pending",
+      "after": "reviewed"
+    },
+    {
+      "payload": "catalog",
+      "pointer": "/article_bindings/0/sha256",
+      "before": "34aaa713f61e57990b0d3f85e62c69f5bda661f4db08f569cf6a9d6635006832",
+      "after": "84834f9950f5b32e5b3a6b49cfb21c60d7c1c1e1d597cfce01b1abfd2359df9f"
+    },
+    {
+      "payload": "browser",
+      "pointer": "/catalog_binding/sha256",
+      "before": "cca6c025c025797f5e0bcc50b89903bbedaa9d10ad094eccfc1335b529d8d7e0",
+      "after": "da9a9ec9e81b706f7470dd849ce09a4e62afcd5011ca3843961f8c239724ca73"
+    }
+  ],
+  "rights_and_bibliographic_dates_unchanged": true,
+  "prose_and_ids_unchanged": true,
+  "package_A": "Omitted from graph; earlier approval question remains pending.",
+  "package_B": "Not generated; depends on A acceptance.",
+  "final_graph_gate": "Final approved A/B/editorial merge changes this graph and must repeat relevant exact-graph validation/measurement before release."
+}

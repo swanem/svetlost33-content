@@ -1,0 +1,48 @@
+{
+  "approval_id": "shared-calendar-saints-2026-10-02-owner-r1",
+  "record_kind": "additive_owner_editorial_and_conditional_publication_approval",
+  "recorded_at": "2026-10-02T09:02:02Z",
+  "statement": "objavi zavrseno i nastavi sa Isporuka gotovih izmena, Dopuna kalendara and OTA",
+  "decision_context": "The owner explicitly authorized publication of completed work and continuation on 2026-10-02. The coordinator assigned this exact completed seven-day candidate only; application delivery and media/OTA remain separate work. This record is not a delivery receipt and does not rewrite the historical pending draft.",
+  "platforms": ["android", "ios"],
+  "territories": ["RS", "BA"],
+  "candidate": {
+    "id": "calendar-saints-window-2026-10-02-r1",
+    "path": "drafts/calendar-saints-window-2026-10-02/catalog.pending.json",
+    "bytes": 66615,
+    "sha256": "5bdbe2e1693f89bd5f65d62212798d60ea88bf7662133138292b2fd474948eae",
+    "delta_path": "drafts/calendar-saints-window-2026-10-02/candidate-delta.json",
+    "delta_sha256": "972543715c4da483e9d3d757be1c31131f98522e79c6455b69cc437c3bfafbee",
+    "handoff_path": "drafts/calendar-saints-window-2026-10-02/handoff.json",
+    "handoff_sha256": "0d20224ca4f04761811d99fafc7152869bbe3f2c667f08fd21459209f02a91f4",
+    "status": "APPROVED",
+    "window": ["2026-10-02", "2026-10-08"],
+    "new_subjects": 6,
+    "new_observances": 7,
+    "new_occurrences": 7,
+    "new_existing_article_links": 7,
+    "new_articles": 0,
+    "annual_calendar_day_changes": 0
+  },
+  "authorized_transformations": [
+    "Change only catalog review_status from pending to approved and approval_id from null to this approval_id in a new release copy; retain its reviewed version and revision.",
+    "Create a new calendar-browser module revision with exact new catalog hash/version/revision and this approval_id; preserve all feast memberships and archive facts.",
+    "Advance one shared release-set/discovery sequence after actual public S11 baseline verification; keep all other module bytes, signatures, minimum clients, capabilities and dependencies unchanged."
+  ],
+  "publication": {
+    "authorized_after_successful_checks": true,
+    "coordinator_exact_candidate_review_required": true,
+    "production_signing_requires_coordinator_go": true,
+    "both_native_exact_generation_acceptance_required_before_activation": true,
+    "public_baseline_recheck_required_at_signing_and_publication": true,
+    "public_readback_required": true,
+    "signed_here": false,
+    "published_here": false
+  },
+  "limits_preserved": [
+    "All 62 already-published articles and four existing canonical article links are preserved, not duplicated.",
+    "Seven UNRESOLVED Gospels and the UNKNOWN fasting rule for 2026-10-02 remain unchanged; radio evidence is not a service assignment.",
+    "No new annual/archive facts, 2027 dates, images, liturgical text, source-rights claim, source-review date or expiry extension.",
+    "No automatic approval of future candidates and no native or website modification by this content-preparation task."
+  ]
+}

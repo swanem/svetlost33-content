@@ -1,0 +1,22 @@
+{
+  "date": "2026-10-02",
+  "status": "EXACT_S12_ATOMIC_PUBLICATION_GO",
+  "release_set_id": "shared-calendar-saints-2026-10-02-m0v2-s12",
+  "parent_commit": "e59bfa36bed840e751f7dbe5e0b7fa1e86cbced0",
+  "public_base_tree": "998b0869498cead336aa043d7ab4f69e8d3af480",
+  "fresh_public_head": "Rechecked immediately after native acceptance review; unchanged exact S11.",
+  "production_validation": "signed-validation.json: 24/24 profiles with existing production RSA-PSS key, exact approved 12-path allowlist",
+  "ios": "root-ios-native-acceptance.json; real native verifier/installer S11 to S12, 1/1 PASS, no skip",
+  "android": {
+    "commit": "fc0753acac6b89dc49234f07b946d5d029fd686b",
+    "test_sha256": "d2d157623ac1e2d665d1d816b493ba2967c7ce9814e8f09dc0fb825eb22af250",
+    "xml_sha256": "a2035b532b137f679206c6687e0187421ab609d27f590962729f5a1643ffc322",
+    "receipt_sha256": "1ba1545e970aa4a0868c3d3fc8b7591830acda6e9403801daa93aaa518c08195",
+    "root_review": "Read full test/XML/receipt; hashes match; release runtime unchanged from cd27680. Exact production-key pinned RSA-PSS M0 source and installer accept archived S11 then S12. 1/1 PASS, zero skip. Correct catalog/browser, 7 links, retained modules/reader after restart and idempotence. Existing Slava selection is checked semantically in memory, not a physical or persistent full-settings upgrade audit. Initial skipped invocation and package-id expectation correction are historical, not final PASS.",
+    "no_root_native_rerun": true
+  },
+  "publication_boundary": "Only 12 reviewed runtime paths, one new commit on exact public S11 parent, non-force main update. No private approvals/drafts/trust-key replacement/old immutable changes.",
+  "not_authorized_by_this_record": ["app distribution or motif rights closure", "production media capability", "annual 2027 facts", "privacy/telemetry changes"],
+  "public_readback_required": true,
+  "publication_done": false
+}

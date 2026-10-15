@@ -1,0 +1,181 @@
+{
+  "warning": "TEST_ONLY_SYNTHETIC_TRUST_AND_REVIEW_NEVER_PUBLISH_NOT_OWNER_APPROVAL",
+  "datasets": [
+    {
+      "name": "baseline-62",
+      "purpose": "TEST_ONLY_SYNTHETIC_TRUST_AND_REVIEW_NEVER_PUBLISH_NOT_OWNER_APPROVAL",
+      "synthetic_articles": 0,
+      "raw_bytes": {
+        "saints": 211965,
+        "catalog": 66656,
+        "browser": 97947,
+        "calendar": 1665524
+      },
+      "saints_counts": {
+        "articles": 62,
+        "sources": 80,
+        "days": 62,
+        "max_articles_per_day": 1
+      },
+      "catalog_counts": {
+        "sources": 20,
+        "subjects": 18,
+        "observances": 34,
+        "occurrences": 32,
+        "article_links": 11,
+        "calendar_bindings": 1,
+        "article_bindings": 1
+      },
+      "distinct_test_identity_links": 0,
+      "browser_counts": {
+        "memberships": 21,
+        "archive_days": 94
+      },
+      "preserved_original_article_objects": 62,
+      "note": "Exact raw approved S12 payload bytes in an unauthenticated test harness."
+    },
+    {
+      "name": "synthetic-104",
+      "purpose": "TEST_ONLY_SYNTHETIC_TRUST_AND_REVIEW_NEVER_PUBLISH_NOT_OWNER_APPROVAL",
+      "synthetic_articles": 42,
+      "raw_bytes": {
+        "saints": 391867,
+        "catalog": 304765,
+        "browser": 97941,
+        "calendar": 1665524
+      },
+      "saints_counts": {
+        "articles": 104,
+        "sources": 122,
+        "days": 62,
+        "max_articles_per_day": 2
+      },
+      "catalog_counts": {
+        "sources": 124,
+        "subjects": 122,
+        "observances": 138,
+        "occurrences": 136,
+        "article_links": 115,
+        "calendar_bindings": 1,
+        "article_bindings": 1
+      },
+      "distinct_test_identity_links": 104,
+      "browser_counts": {
+        "memberships": 21,
+        "archive_days": 94
+      },
+      "preserved_original_article_objects": 62,
+      "note": "All 62 original article objects retained unchanged; copied test articles and 104-way identity/source/link load are never real content or publication permission."
+    },
+    {
+      "name": "synthetic-366",
+      "purpose": "TEST_ONLY_SYNTHETIC_TRUST_AND_REVIEW_NEVER_PUBLISH_NOT_OWNER_APPROVAL",
+      "synthetic_articles": 304,
+      "raw_bytes": {
+        "saints": 1273172,
+        "catalog": 904396,
+        "browser": 97941,
+        "calendar": 1665524
+      },
+      "saints_counts": {
+        "articles": 366,
+        "sources": 384,
+        "days": 62,
+        "max_articles_per_day": 6
+      },
+      "catalog_counts": {
+        "sources": 386,
+        "subjects": 384,
+        "observances": 400,
+        "occurrences": 398,
+        "article_links": 377,
+        "calendar_bindings": 1,
+        "article_bindings": 1
+      },
+      "distinct_test_identity_links": 366,
+      "browser_counts": {
+        "memberships": 21,
+        "archive_days": 94
+      },
+      "preserved_original_article_objects": 62,
+      "note": "All 62 original article objects retained unchanged; copied test articles and 366-way identity/source/link load are never real content or publication permission."
+    }
+  ],
+  "original_inputs": [
+    {
+      "path": "releases/v2/production/index.json",
+      "bytes": 592,
+      "sha256": "a0d50c23036db203035419f4ba169ddb6005223799ed3ac4e89e03dd9f7733e9"
+    },
+    {
+      "path": "releases/v2/production/releases/shared-calendar-saints-2026-10-02-m0v2-s12/release-set.json",
+      "bytes": 3944,
+      "sha256": "78142e24f74812be9859b88163203de23517a9ed40a16c0f5ee085e25354255d"
+    },
+    {
+      "path": "releases/v2/production/releases/shared-annual-2026-r1-m0v2-s2/modules/calendar-2026-r1-2026.1.1-r2/manifest.json",
+      "bytes": 630,
+      "sha256": "11e5d8b92ebbacd40ae6d0bad861c85a2df8220cd0b1091a2b7522754d538905"
+    },
+    {
+      "path": "releases/v2/production/releases/shared-annual-2026-r1-m0v2-s2/modules/calendar-2026-r1-2026.1.1-r2/data/calendar.2026.json",
+      "bytes": 1665524,
+      "sha256": "a1b6a5d5911ae03f77802bd466227f0c1ea4fe97708b1b6f92cd4b08847c7c9c"
+    },
+    {
+      "path": "releases/v2/production/releases/shared-content-refresh-2026-09-30-m0v2-s11/modules/saints-v1-2026.9.30-r4/manifest.json",
+      "bytes": 586,
+      "sha256": "ae73dcd04221e44e57c07af7daf669a27a73005f054d1d99b2333011e77c3292"
+    },
+    {
+      "path": "releases/v2/production/releases/shared-content-refresh-2026-09-30-m0v2-s11/modules/saints-v1-2026.9.30-r4/data/saints-v1.json",
+      "bytes": 211965,
+      "sha256": "ca3e4fd02ca79e97d53e0e456b2ccaaeb81ebc3b740a71b3eb72049bf01331b5"
+    },
+    {
+      "path": "releases/v2/production/releases/shared-calendar-saints-2026-10-02-m0v2-s12/modules/liturgical-catalog-v1-2026.10.1-r7/manifest.json",
+      "bytes": 695,
+      "sha256": "1bb3d4b5ac6a5b4f4946ea7438cfe465f6121a7877dbb35976965ff28a13943e"
+    },
+    {
+      "path": "releases/v2/production/releases/shared-calendar-saints-2026-10-02-m0v2-s12/modules/liturgical-catalog-v1-2026.10.1-r7/data/liturgical-catalog-v1.json",
+      "bytes": 66656,
+      "sha256": "d973f659da3a1e084739afe70a6a31daea390c32f5508ecdaa56a3fc3e7b4af3"
+    },
+    {
+      "path": "releases/v2/production/releases/shared-calendar-saints-2026-10-02-m0v2-s12/modules/calendar-browser-v1-2026.10.2-r3/manifest.json",
+      "bytes": 533,
+      "sha256": "6a61a1593a890f4a8c9ac6fbd54feb6ee0b349c92020dd5f56f4c6c25492a805"
+    },
+    {
+      "path": "releases/v2/production/releases/shared-calendar-saints-2026-10-02-m0v2-s12/modules/calendar-browser-v1-2026.10.2-r3/data/calendar-browser-v1.json",
+      "bytes": 97947,
+      "sha256": "20d3d0ad3d9a352c87d05425e8673460c62c9a0cf4043988c48e4c0da3d61fae"
+    },
+    {
+      "path": "drafts/saints-completion-2026-09-21/sources.json",
+      "bytes": 19540,
+      "sha256": "6a5705620d8c95ff6fb5c9feac83ccfb610af3f1fad6df59320d66209bfa27aa"
+    },
+    {
+      "path": "drafts/saints-next-window-2026-09-30/sources.json",
+      "bytes": 30502,
+      "sha256": "c6bba1b829d595620ef3adfb28d1fcc1b8915dcf4a4f0abbf3e5c2d3431635a2"
+    },
+    {
+      "path": "approvals/saints-completion-2026-09-21/owner-publication-approval.json",
+      "bytes": 7021,
+      "sha256": "8a103bf8ba8508360d377236517660320708cf1221caf8c279fe91fefb78df06"
+    },
+    {
+      "path": "approvals/new-content-2026-09-30/owner-approval.json",
+      "bytes": 7829,
+      "sha256": "549e767f5734030b8c36d7b05c1b7eefc02583a4b6b14f4313e8721594002290"
+    },
+    {
+      "path": "approvals/calendar-saints-window-2026-10-02/owner-approval.json",
+      "bytes": 3074,
+      "sha256": "15a5c33a13cfb572c2861e20463b49fd073164118375d86c97216472c2d1ae71"
+    }
+  ]
+}

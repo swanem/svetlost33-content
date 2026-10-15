@@ -1,0 +1,287 @@
+{
+  "staging_directory": "/var/folders/cf/rml65hmd6t771hjy4368hngc0000gn/T/svetlost33-media19-m4-dsU3D5",
+  "schema_version": "svetlost33-media19-local-export-report-1",
+  "status": "LOCAL_UNSIGNED_ONLY_NOT_RELEASE_BOUND",
+  "input_sha256": "4134daa6b15266b6efe35c08c53cebcfd1d9c11be193b45329662297fee8748f",
+  "source_inventory_sha256": "fbe5e0c7a50124b79711cf7b7639928e31f7e4fdcafdacb6fc29bbe13b53ecd1",
+  "image_count": 19,
+  "original_bytes": 48081295,
+  "thumbnail_count": 19,
+  "thumbnail_bytes": 1317090,
+  "media_bytes": 49398385,
+  "policy_bytes": 50909,
+  "pair_payload_bytes": 49449294,
+  "payload_files": 45,
+  "unsigned_manifests": 2,
+  "total_candidate_files": 47,
+  "pair_limit_bytes": 104857600,
+  "full_release_bytes": null,
+  "native_storage_cap_proven": false,
+  "local_wire_values": {
+    "catalog_media_version": "local-media19-m4-r1",
+    "policy_version": "local-policy19-m4-r1",
+    "revision": 1,
+    "synthetic_sequence": 1,
+    "key_id": "local-unsigned-review-key",
+    "approval_join_id": "local-approved19-evidence-join"
+  },
+  "production_sequence": null,
+  "production_min_clients": null,
+  "signature_check_performed": false,
+  "crypto_host": "SYNTHETIC_LOCAL_TEST_CONTEXT_ONLY",
+  "fresh_empty_ledger": "Synthetic test only. Not evidence that current production has no prior policy/checkpoint.",
+  "reference_schema_join_structure_full_decode": "PASS",
+  "recipe_sha256": "d53837bdc5716faa7ce48e5a3e0a4600abb4979201da02d9e1909539ee47c42d",
+  "render_priority_preserved_by_contract": "today > fixed > confirmed slava > day1-day7",
+  "original_bytes_changed": false,
+  "new_calendar_facts": false,
+  "seven_drafts_included": false,
+  "public_projection": "Only allowlisted evidence fields and immutable source-record hash/byte references; no raw private records.",
+  "publication_gate": {
+    "ready": false,
+    "reason": "LOCAL_UNSIGNED_ONLY_REQUIRES_NEW_RELEASE_BOUND_EXPORT"
+  },
+  "remaining_gates": [
+    "Exact OTA thumbnail/native/crop visual QA",
+    "Native M1-M5 vertical acceptance and compatible production versions",
+    "Additive release-bound export using the actual current channel/high-water/checkpoint/ledger; no synthetic values may be promoted unchanged",
+    "Full release-set/storage budget, signing, public readback and normal client uptake"
+  ],
+  "files": [
+    {
+      "path": "data/catalog-v2.json",
+      "bytes": 15982,
+      "sha256": "e9aae8ae11e5aa45885c4d51c08ac2eed92a6a2e3c3cd39236876e7c6b947d43"
+    },
+    {
+      "path": "data/media-policy-v1.json",
+      "bytes": 677,
+      "sha256": "10ad56ff314899aa607ae66a300d1d180a08cf54c6e755ed0b8b9f2bbfc6a0d8"
+    },
+    {
+      "path": "evidence/approved-catalog.json",
+      "bytes": 3877,
+      "sha256": "254a01a894550d9ba89a1128aa986a1ffcd8d30971d8b3b1e8693c3915b0c84a"
+    },
+    {
+      "path": "evidence/derivations.json",
+      "bytes": 10340,
+      "sha256": "9476eb2fa5c179d9b3c36659ef87568231b218296c042e6690c3855ffb10b434"
+    },
+    {
+      "path": "evidence/owner-approval.json",
+      "bytes": 3412,
+      "sha256": "9a34e3ca4c92cff6f8967117903a5abb5f84aa86f069961319a0489790fe7bc7"
+    },
+    {
+      "path": "evidence/rights.json",
+      "bytes": 8474,
+      "sha256": "42f851707c670083ad2112018f403d48d641b61b92e628c39259a11407a38c4f"
+    },
+    {
+      "path": "evidence/source-manifest.json",
+      "bytes": 8147,
+      "sha256": "1aecf4584ba884ecc45919d4a973be8440fa15b171ef25f4441cf9ca45d07f61"
+    },
+    {
+      "path": "media-module-manifest.json",
+      "bytes": 9010,
+      "sha256": "e48660d78b75871acea795430f9561b485ac7f0edd140d5e5c6220172ce91251"
+    },
+    {
+      "path": "media/backgrounds/day1.png",
+      "bytes": 2642832,
+      "sha256": "754a24836b33027d8bcaf4cfaa7770c4b0bc24a8012010fd03c1c6bd43571a9e"
+    },
+    {
+      "path": "media/backgrounds/day2.png",
+      "bytes": 2637222,
+      "sha256": "7bdafabaacae4f5f75a1a8522794fcfe6e2c41420d862593f32107af7b581e4c"
+    },
+    {
+      "path": "media/backgrounds/day3.png",
+      "bytes": 2836981,
+      "sha256": "30dc32de31ab7fd2a87edd7af683b399f448f10d457cdfa7412fbd75d1ae1ddf"
+    },
+    {
+      "path": "media/backgrounds/day4.png",
+      "bytes": 3020963,
+      "sha256": "6d14f488e97dfdc8380efda582858f3e3f01935bb2f94a35f0abc2c081937e22"
+    },
+    {
+      "path": "media/backgrounds/day5.png",
+      "bytes": 2557057,
+      "sha256": "109bcfd4dd5e1bc6534c9af5f78cb66f9bf063bfa19343c2613132bedda343d4"
+    },
+    {
+      "path": "media/backgrounds/day6.png",
+      "bytes": 2790818,
+      "sha256": "21dc5908abf336f9b31c4cd65dbae3df0509f677f6d7d6168ccc5d5cc3b044e7"
+    },
+    {
+      "path": "media/backgrounds/day7.png",
+      "bytes": 2364087,
+      "sha256": "d693391df7a6d7e9e50530c74f0a7c8f6ebe8f331eb3177775fb9d41bd7b61c5"
+    },
+    {
+      "path": "media/backgrounds/fast.png",
+      "bytes": 2432497,
+      "sha256": "32780fab2af739567da83caac2bc24ca2c57449af0e4a439cd986407af01d693"
+    },
+    {
+      "path": "media/backgrounds/saints/arhangel-mihailo.png",
+      "bytes": 2322153,
+      "sha256": "2f0a4d51d8bd679849ee54df6aec728d4d063c6d0fde240a530afe966223e6a1"
+    },
+    {
+      "path": "media/backgrounds/saints/sveta-petka.png",
+      "bytes": 2498804,
+      "sha256": "4e342036be4c8055803f789ae932571055928c366ceb90e3cebd4ba8ec905d68"
+    },
+    {
+      "path": "media/backgrounds/saints/sveti-dimitrije.png",
+      "bytes": 2483364,
+      "sha256": "69702a1f5062767d7a5ca9391999812dcc09db956bed2eb431ab6d8b8eb24710"
+    },
+    {
+      "path": "media/backgrounds/saints/sveti-georgije.png",
+      "bytes": 2685300,
+      "sha256": "9a0ba486840d69af4f76a0f08aaa1775bfec88e364018e7d5401cda79a7be2dc"
+    },
+    {
+      "path": "media/backgrounds/saints/sveti-jovan.png",
+      "bytes": 2671916,
+      "sha256": "6f58cd033ed42e07298173222bcf6a9297f0a30da94ecbc4717c942ea346e786"
+    },
+    {
+      "path": "media/backgrounds/saints/sveti-nektarije.png",
+      "bytes": 2630573,
+      "sha256": "d0b50f1f2b96e635403b21c9d9ad652b6911d2e98ce9b5a64c4bb1adc827f362"
+    },
+    {
+      "path": "media/backgrounds/saints/sveti-nikola.png",
+      "bytes": 2361255,
+      "sha256": "32c28f8f14e7074a86ec46a5b771b21beb07299cf787aca33a7fccba22070e22"
+    },
+    {
+      "path": "media/backgrounds/saints/sveti-sava.png",
+      "bytes": 2019325,
+      "sha256": "51c0f82e6203cadf3059dc40f61550ca6cb3a9aefe1fda3c72ceec40344a9943"
+    },
+    {
+      "path": "media/backgrounds/saints/sveti-simeon.png",
+      "bytes": 2277368,
+      "sha256": "06ca4416a8f50d83eafb5a3c74823a41e80cd525bbd148a04b04d72e9aab1ff6"
+    },
+    {
+      "path": "media/backgrounds/saints/sveti-stefan-decanski.png",
+      "bytes": 2648769,
+      "sha256": "9a319c2441d663d8a9f9b4288950d220243114807a3a6990f7541f5cfa15aa34"
+    },
+    {
+      "path": "media/backgrounds/slava-default.png",
+      "bytes": 2200011,
+      "sha256": "87ce4958b5cc3e3157f02d8be930272979b64cae76b33aa3fd55db370438b9c7"
+    },
+    {
+      "path": "policy-module-manifest.json",
+      "bytes": 1520,
+      "sha256": "f240870900aef725f3caa58b7fde16b80c42d6bda875ab0e25a5c2d7da74d4f4"
+    },
+    {
+      "path": "thumbnails/arhangel-mihailo-2f0a4d51d8bd679849ee54df6aec728d4d063c6d0fde240a530afe966223e6a1.jpg",
+      "bytes": 47727,
+      "sha256": "fbc98ab55ad5676cf3fb7ca3b8d55f203de35360098e6f52a9712c35eca4f794"
+    },
+    {
+      "path": "thumbnails/day1-754a24836b33027d8bcaf4cfaa7770c4b0bc24a8012010fd03c1c6bd43571a9e.jpg",
+      "bytes": 68141,
+      "sha256": "8dcf84f2e16aeceb67bc7a5af365dc0bcdd2415a8a3eae43ce4d6b28b7cc067d"
+    },
+    {
+      "path": "thumbnails/day2-7bdafabaacae4f5f75a1a8522794fcfe6e2c41420d862593f32107af7b581e4c.jpg",
+      "bytes": 68582,
+      "sha256": "fe575a85a005846871a8bf7f56b6630887b01739c9633f1b9c1f2322fdcafcc8"
+    },
+    {
+      "path": "thumbnails/day3-30dc32de31ab7fd2a87edd7af683b399f448f10d457cdfa7412fbd75d1ae1ddf.jpg",
+      "bytes": 84772,
+      "sha256": "13893192b49aecfe1b2ce9d6d6c468468d3f466730a317ad68ccab4acfb5d8a3"
+    },
+    {
+      "path": "thumbnails/day4-6d14f488e97dfdc8380efda582858f3e3f01935bb2f94a35f0abc2c081937e22.jpg",
+      "bytes": 93892,
+      "sha256": "15d3a5d722bd2126f2369fb2a44beff6732ecaeed0741b3df43b73366efd7acd"
+    },
+    {
+      "path": "thumbnails/day5-109bcfd4dd5e1bc6534c9af5f78cb66f9bf063bfa19343c2613132bedda343d4.jpg",
+      "bytes": 70251,
+      "sha256": "4b95880ede3877b4eb6f7dc53ff5561e1b5bd180db8daa4fc1bc05975a9558e1"
+    },
+    {
+      "path": "thumbnails/day6-21dc5908abf336f9b31c4cd65dbae3df0509f677f6d7d6168ccc5d5cc3b044e7.jpg",
+      "bytes": 71587,
+      "sha256": "486ac0f56197efbcdb435becbe25202261f7512bcb991eaf69568f1241f1fcf0"
+    },
+    {
+      "path": "thumbnails/day7-d693391df7a6d7e9e50530c74f0a7c8f6ebe8f331eb3177775fb9d41bd7b61c5.jpg",
+      "bytes": 55189,
+      "sha256": "745dd0dbd903963b6776b141c7b475c82b2856cb44a34920030923d0d6acd072"
+    },
+    {
+      "path": "thumbnails/fast-32780fab2af739567da83caac2bc24ca2c57449af0e4a439cd986407af01d693.jpg",
+      "bytes": 67267,
+      "sha256": "97335f4b7429806bda0522546dfffb4d303ad15547e3da20ec7e50e8161527c3"
+    },
+    {
+      "path": "thumbnails/slava-default-87ce4958b5cc3e3157f02d8be930272979b64cae76b33aa3fd55db370438b9c7.jpg",
+      "bytes": 70258,
+      "sha256": "7539831371527614fd5ef8868954c717811333012537a7c7af116dfd9303c638"
+    },
+    {
+      "path": "thumbnails/sveta-petka-4e342036be4c8055803f789ae932571055928c366ceb90e3cebd4ba8ec905d68.jpg",
+      "bytes": 69652,
+      "sha256": "0ed9cc1416cc1c9bd8e32507e4ec47e632b53aaf913d9d40f444e29de84a81ae"
+    },
+    {
+      "path": "thumbnails/sveti-dimitrije-69702a1f5062767d7a5ca9391999812dcc09db956bed2eb431ab6d8b8eb24710.jpg",
+      "bytes": 67470,
+      "sha256": "5e5fbbae671f2d73f07d1c4575f72da4f360fa5a867023c5895991c40374013e"
+    },
+    {
+      "path": "thumbnails/sveti-georgije-9a0ba486840d69af4f76a0f08aaa1775bfec88e364018e7d5401cda79a7be2dc.jpg",
+      "bytes": 84185,
+      "sha256": "2bc3cbb9365088adbb010074f6c578b541ad593e00f5f3af0dbeba81f382b970"
+    },
+    {
+      "path": "thumbnails/sveti-jovan-6f58cd033ed42e07298173222bcf6a9297f0a30da94ecbc4717c942ea346e786.jpg",
+      "bytes": 72395,
+      "sha256": "fb5b9d525114464a3ad74576eb0b296918e53198364c4d235466b2bcddf53e00"
+    },
+    {
+      "path": "thumbnails/sveti-nektarije-d0b50f1f2b96e635403b21c9d9ad652b6911d2e98ce9b5a64c4bb1adc827f362.jpg",
+      "bytes": 76953,
+      "sha256": "5bbb868b20f74de60d553350509f5b95b328bc8f74ab7357a67d1887ef82e256"
+    },
+    {
+      "path": "thumbnails/sveti-nikola-32c28f8f14e7074a86ec46a5b771b21beb07299cf787aca33a7fccba22070e22.jpg",
+      "bytes": 49931,
+      "sha256": "40aa058d812c16eb60573a7b40f958729b4cc0f24c60afa1c53df31c1026712c"
+    },
+    {
+      "path": "thumbnails/sveti-sava-51c0f82e6203cadf3059dc40f61550ca6cb3a9aefe1fda3c72ceec40344a9943.jpg",
+      "bytes": 54363,
+      "sha256": "30347e4238750366bdce95932ee5c525323e7e5585a8cc01112c969ae19dfa4f"
+    },
+    {
+      "path": "thumbnails/sveti-simeon-06ca4416a8f50d83eafb5a3c74823a41e80cd525bbd148a04b04d72e9aab1ff6.jpg",
+      "bytes": 58365,
+      "sha256": "eafaacd2c9f4b5a327fa481beb60bf2d4a662e2ab6a49744211a9fdaa26b16bc"
+    },
+    {
+      "path": "thumbnails/sveti-stefan-decanski-9a319c2441d663d8a9f9b4288950d220243114807a3a6990f7541f5cfa15aa34.jpg",
+      "bytes": 86110,
+      "sha256": "27e64da2341c0fe6c912dfb376b13ca08e82a778b7d41d9fb04c64ae7e77eb60"
+    }
+  ]
+}

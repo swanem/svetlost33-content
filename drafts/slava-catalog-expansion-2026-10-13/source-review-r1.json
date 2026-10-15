@@ -1,0 +1,68 @@
+{
+  "schema_version": 1,
+  "checked_on": "2026-10-13",
+  "status": "editorial_proposal_pending",
+  "runtime_payload": false,
+  "editorial_approval": null,
+  "published": false,
+  "basis": "request-and-gap-audit.json",
+  "prepared_candidate": "liturgical-catalog-v1.pending-r1.json",
+  "candidate_validation": "candidate-validation-r1.json",
+  "scope": {"new_observances_proposed": 12, "existing_observances_with_date_addition": 2, "year": 2026, "complete_saint_list": false},
+  "evidence_policy": {
+    "annual_record": "Name and date recorded in the hash-pinned 2026 annual input. Existing source status is not approval of the proposed new catalog record.",
+    "opened_primary_page": "Relevant full primary source page opened and inspected in this review. The stated fact is supported; new runtime content remains pending editorial acceptance.",
+    "search_extract_only": "Research lead only. Full-page identity review remains open.",
+    "parish_service": "A scheduled service is corroboration, not sufficient by itself to replace a canonical feast date.",
+    "future_year": "No 2027 occurrence is inferred or proposed."
+  },
+  "annual_evidence": [
+    {"id":"eparhija-month-01","url":"https://www.eparhija.at/kalendar?m=2026-1","evidence_path":"docs/content-review/2026-09-15-calendar/evidence/eparhija-month-01.json","sha256":"daa8a927542c5141a59c99730b7c752653281d887ee58612474edd351653b95b"},
+    {"id":"eparhija-month-02","url":"https://www.eparhija.at/kalendar?m=2026-2","evidence_path":"docs/content-review/2026-09-15-calendar/evidence/eparhija-month-02.json","sha256":"30ce0619555b356e5727d476771d0b094595be510cdcc4c3cfe23936cb086e56"},
+    {"id":"eparhija-month-03","url":"https://www.eparhija.at/kalendar?m=2026-3","evidence_path":"docs/content-review/2026-09-15-calendar/evidence/eparhija-month-03.json","sha256":"e5fca567bca512d2f7838623b5de2fffb6af9479915ef6c4d33c3fb23ab4b275"},
+    {"id":"eparhija-month-05","url":"https://www.eparhija.at/kalendar?m=2026-5","evidence_path":"docs/content-review/2026-09-15-calendar/evidence/eparhija-month-05.json","sha256":"613e45f2d8ee91d2c0f28354df3537032d9fa749783b80a331233fc594d1c179"},
+    {"id":"eparhija-month-06","url":"https://www.eparhija.at/kalendar?m=2026-6","evidence_path":"docs/content-review/2026-09-15-calendar/evidence/eparhija-month-06.json","sha256":"05ac0adbbc8237605027da448ff51e01ba59250f30f0a6fd38719c5c4e53480b"},
+    {"id":"eparhija-month-07","url":"https://www.eparhija.at/kalendar?m=2026-7","evidence_path":"docs/content-review/2026-09-15-calendar/evidence/eparhija-month-07.json","sha256":"4c1303e40d41de2c444cba011f23f0b90773e1a4f6af39ed490799a6dd5f2f6b"},
+    {"id":"eparhija-month-08","url":"https://www.eparhija.at/kalendar?m=2026-8","evidence_path":"docs/content-review/2026-09-15-calendar/evidence/eparhija-month-08.json","sha256":"ce73cc9938f08e94081dcd6da7ce7ea4346f3d4a117c69e57042ffb8864fdb39"},
+    {"id":"eparhija-month-09","url":"https://www.eparhija.at/kalendar?m=2026-9","evidence_path":"docs/content-review/2026-09-15-calendar/evidence/eparhija-month-09.json","sha256":"856c652b7bf6390739e439d57f161acf9916cc3e3a0492f8f58ef9f03b3d5004"}
+  ],
+  "primary_sources": [
+    {"id":"spc-stephen-2026-01-09","url":"https://www.spc.rs/sr/news/aktuelno/15490.krsna-slava-republike-srpske.html","status":"opened_primary_page","supports":"Protomartyr and archdeacon Stefan, feast on 2026-01-09."},
+    {"id":"nyc-luke-october-2026","url":"https://stsavanyc.org/the-schedule-of-upcoming-services-for-october-2/","status":"opened_primary_page","supports":"Explicit 2026-10-31 entry for apostle and evangelist Luke together with Peter of Cetinje."},
+    {"id":"nyc-stefan-decanski-2026","url":"https://stsavanyc.org/event/sveti-mucenik-mina-sveti-kralj-stefan-decanski-mratindan/","status":"opened_primary_page","supports":"Stefan Decanski and alias Mratindan; 11 November old calendar, 24 November new calendar; event date 2026-11-24."},
+    {"id":"nyc-nektarios-feast","url":"https://stsavanyc.org/event/sveti-mucenici-onisifor-i-porfirije-sveti-nektarije-eginski/","status":"opened_primary_page","supports":"Nektarije Eginski is named in the event heading for November 22; Prolog November 9 / new-calendar November 22. Rendered date metadata includes 2026-11-22."},
+    {"id":"zurich-nektarios-2026","url":"https://www.spczh.ch/bogosluzenja/sv-nektarije-eginski-liturgija/","status":"opened_primary_page","supports":"Parish service for Nektarije Eginski scheduled on 2026-11-22.","kind":"parish_service"},
+    {"id":"spc-cosmas-damian-rome-2026","url":"https://www.spc.rs/sr/news/aktuelno/17214.vladika-petarnbsppravog-isceljenja-nema-bez-zajednice-sa-bogom.html","status":"search_extract_only","supports":"Search extract identifies Roman brothers on 2026-07-14; complete-page check remains pending."},
+    {"id":"mitropolija-lucindan-2024","url":"https://mitropolija.com/2024/10/31/zupski-manastir-proslavio-manastirsku-slavu-svetog-luku/","status":"delegated_review_root_fetch_timeout","supports":"Supplementary lead for Lucindan alias; final alias evidence uses the opened eparhija.me report."},
+    {"id":"spc-cosmas-damian-roman-identity","url":"https://www.spc.rs/sr/news/14418.sveti-mucenici-i-besrebrenici-kozma-i-damjan.html","status":"opened_primary_page","supports":"The opened article identifies the brothers as born and active in Rome. Used for identity only; opened publication date 2025-07-14 differs from search extract 2026-07-14. The explicit 2026 occurrence comes from the pinned annual source."},
+    {"id":"eparhija-bn-lucindan-2015","url":"https://www.eparhija.me/arhiva/okt-2015-lucindan-u-zupskom-manastiru","status":"opened_primary_page","supports":"Report dated 2015-11-01 names the apostle and evangelist Luke as the monastery patron and calls the feast Lucindan. Used for alias only, not a 2026 occurrence."}
+  ],
+  "proposed_new_observances": [
+    {"proposed_id":"obs-ignatius-godbearer","name":{"sr-Cyrl":"Свети свештеномученик Игњатије Богоносац","sr-Latn":"Sveti sveštenomučenik Ignjatije Bogonosac"},"date_2026":"2026-01-02","source_ids":["eparhija-month-01"],"date_evidence":"annual_record","aliases":[]},
+    {"proposed_id":"obs-stephen-protomartyr","name":{"sr-Cyrl":"Свети првомученик и архиђакон Стефан","sr-Latn":"Sveti prvomučenik i arhiđakon Stefan"},"date_2026":"2026-01-09","source_ids":["eparhija-month-01","spc-stephen-2026-01-09"],"date_evidence":"annual_record_and_opened_primary_page","aliases":[],"identity_note":"Distinct from obs-stefan-decanski and obs-stephen-new-confessor."},
+    {"proposed_id":"obs-tryphon-martyr","name":{"sr-Cyrl":"Свети мученик Трифун","sr-Latn":"Sveti mučenik Trifun"},"date_2026":"2026-02-14","source_ids":["eparhija-month-02"],"date_evidence":"annual_record","aliases":[]},
+    {"proposed_id":"obs-forty-martyrs-sebaste","name":{"sr-Cyrl":"Светих 40 мученика Севастијских","sr-Latn":"Svetih 40 mučenika Sevastijskih"},"date_2026":"2026-03-22","source_ids":["eparhija-month-03"],"date_evidence":"annual_record","aliases":[{"sr-Cyrl":"Младенци","sr-Latn":"Mladenci","source_ids":["eparhija-month-03"]}],"identity_note":"One group commemoration; not Saint Sebastian of Rome."},
+    {"proposed_id":"obs-mark-evangelist","name":{"sr-Cyrl":"Свети апостол и јеванђелист Марко","sr-Latn":"Sveti apostol i jevanđelist Marko"},"date_2026":"2026-05-08","source_ids":["eparhija-month-05"],"date_evidence":"annual_record","aliases":[{"sr-Cyrl":"Марковдан","sr-Latn":"Markovdan","source_ids":["eparhija-month-05"]}]},
+    {"proposed_id":"obs-basil-ostrog","name":{"sr-Cyrl":"Свети Василије Острошки Чудотворац","sr-Latn":"Sveti Vasilije Ostroški Čudotvorac"},"date_2026":"2026-05-12","source_ids":["eparhija-month-05"],"date_evidence":"annual_record","aliases":[]},
+    {"proposed_id":"obs-vidovdan-lazar-serbian-martyrs","name":{"sr-Cyrl":"Свети кнез Лазар и сви свети мученици српски","sr-Latn":"Sveti knez Lazar i svi sveti mučenici srpski"},"date_2026":"2026-06-28","source_ids":["eparhija-month-06"],"date_evidence":"annual_record","aliases":[{"sr-Cyrl":"Видовдан","sr-Latn":"Vidovdan","source_ids":["eparhija-month-06"]}],"proposed_subject":{"id":"group-lazar-serbian-martyrs","type":"group"},"identity_note":"One group commemoration preserving the full annual title. Prophet Amos, separately mentioned in the day's subtitle, is not merged into this group."},
+    {"proposed_id":"obs-cosmas-damian-rome","name":{"sr-Cyrl":"Свети мученици и бесребреници Козма и Дамјан Римски","sr-Latn":"Sveti mučenici i besrebrenici Kozma i Damjan Rimski"},"date_2026":"2026-07-14","source_ids":["eparhija-month-07","spc-cosmas-damian-roman-identity"],"date_evidence":"annual_record_and_opened_identity_page","aliases":[],"identity_note":"Roman identity confirmed in the opened SPC article. Must not merge into existing obs-cosmas-damian-asia on November 14."},
+    {"proposed_id":"obs-elijah-prophet","name":{"sr-Cyrl":"Свети пророк Илија","sr-Latn":"Sveti prorok Ilija"},"date_2026":"2026-08-02","source_ids":["eparhija-month-08"],"date_evidence":"annual_record","aliases":[{"sr-Cyrl":"Илиндан","sr-Latn":"Ilindan","source_ids":["eparhija-month-08"]}]},
+    {"proposed_id":"obs-panteleimon-martyr","name":{"sr-Cyrl":"Свети великомученик Пантелејмон","sr-Latn":"Sveti velikomučenik Pantelejmon"},"date_2026":"2026-08-09","source_ids":["eparhija-month-08"],"date_evidence":"annual_record","aliases":[]},
+    {"proposed_id":"obs-joachim-anna","name":{"sr-Cyrl":"Свети праведни богородитељи Јоаким и Ана","sr-Latn":"Sveti pravedni bogoroditelji Joakim i Ana"},"date_2026":"2026-09-22","source_ids":["eparhija-month-09"],"date_evidence":"annual_record","aliases":[]},
+    {"proposed_id":"obs-luke-evangelist","name":{"sr-Cyrl":"Свети апостол и јеванђелист Лука","sr-Latn":"Sveti apostol i jevanđelist Luka"},"date_2026":"2026-10-31","source_ids":["nyc-luke-october-2026","eparhija-bn-lucindan-2015"],"date_evidence":"opened_primary_page","aliases":[{"sr-Cyrl":"Лучиндан","sr-Latn":"Lučindan","source_ids":["eparhija-bn-lucindan-2015"]}],"identity_note":"Add as another commemoration on the date of Peter of Cetinje. Preserve existing annual calendar title and bindings."}
+  ],
+  "proposed_existing_date_additions": [
+    {"observance_id":"obs-stefan-decanski","date_2026":"2026-11-24","source_ids":["nyc-stefan-decanski-2026"],"date_evidence":"opened_primary_page","aliases_to_propose":[{"sr-Cyrl":"Мратиндан","sr-Latn":"Mratindan","source_ids":["nyc-stefan-decanski-2026"]}],"preserve_existing_id":true},
+    {"observance_id":"obs-nektarios-aegina","date_2026":"2026-11-22","source_ids":["nyc-nektarios-feast","zurich-nektarios-2026"],"date_evidence":"opened_primary_feast_page_and_2026_service","aliases_to_propose":[],"preserve_existing_id":true}
+  ],
+  "open_items": [
+    {"id":"editorial_acceptance","action":"Record acceptance for exact final content bytes before publication."}
+  ],
+  "excluded_inferences": [
+    "A Zurich Stefan Decanski service on 2026-11-23 does not replace the feast date 2026-11-24; the local scheduling reason is not established.",
+    "No Luke relic-translation observance or civil date is added from inaccessible old-calendar footnotes.",
+    "No 2027 date is calculated from a 2026 date.",
+    "255 annual dates without a catalog occurrence do not establish 255 missing identities.",
+    "Existing annual reading-page placeholder/title differences are not resolved by this catalog inventory."
+  ]
+}

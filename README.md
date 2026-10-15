@@ -2,17 +2,33 @@
 
 Kanonski sadržajni repozitorijum za Android i iOS aplikaciju Svetlost33.
 
-## Aktuelna zajednička objava — 21.09.2026.
+## Aktuelna zajednička objava — S11, 01.10.2026. po lokalnom vremenu
 
-Produkcioni kanal koristi **S9**, `shared-saints-completion-2026-09-21-m0v2-s9`,
-sa jednim sadržajnim odobrenjem za oba OS. Dopuna dodaje 18 kratkih tekstova
-za 03–20.10: ukupno 32 članka/dana, oba pisma, uz neizmenjeni postojeći sadržaj.
-Prozor 21.09–20.10. pokriven je svih 30 dana; ovo nije cela godina niti potpun
-spisak svetitelja svakog dana. Nema novih datuma za 2027. ili novih Save veza.
+Produkcioni kanal koristi **S11**, `shared-content-refresh-2026-09-30-m0v2-s11`,
+sa jednim sadržajnim odobrenjem za oba OS. Objavljeno je 30 novih kratkih
+tekstova za **21.10–19.11.2026**, uz 32 sačuvana članka: ukupno 62 članka/dana.
+Tri organizacije imaju 15 sveže proverenih veza. Platni podaci i logotipi nisu dodavani.
+Četiri kanonske veze ka člancima sada koriste usklađen katalog i browser.
 
-[Dokazi objave, granice i javna provera](approvals/saints-completion-2026-09-21/RELEASE-VERIFICATION.md)
-beleže potpisani S8→S9 prolaz na oba OS, 510/510 content testova i uspešno
-preuzimanje sa javnog kanala. Ažuriranje sadržaja ne zahteva novu aplikaciju.
+Biblioteka, ciklusi, godišnji kalendar, 21 odabrani praznik i 94 prospektivna
+arhivska dana **29.09–31.12.2026** sačuvani su bez promene. Prošli dani se
+otvaraju kako vreme prolazi; nema izmišljene retroaktivne arhive. Ovo nije
+potpun spisak svih svetitelja niti odobren godišnji paket za 2027.
+
+[Rezultat zajedničke objave](approvals/new-content-2026-09-30/publication-result.json)
+i [javni HTTPS readback](approvals/new-content-2026-09-30/public-readback-s11.json)
+potvrđuju 58 tačnih datoteka i 24 provere potpisa, završeno 30.09. u 22:11 UTC
+(01.10. u 00:11 po lokalnom vremenu). Oba native toka prihvatila su tačan
+potpisani kandidat. Ovo nije potvrda nove APK/iOS instalacije niti aktivacije
+na fizičkom telefonu. [S10](approvals/calendar-browser-2026-09-27/PUBLICATION-STATUS.md)
+i [S9](approvals/saints-completion-2026-09-21/RELEASE-VERIFICATION.md) istorijski dokazi ostaju neizmenjeni.
+
+**Naknadno vlasničko odobrenje 30.09:** [tačan novi sadržaj za oba OS-a](approvals/new-content-2026-09-30/owner-approval.json)
+odobren je za pripremu zajedničkog izdanja: 30 novih tekstova o svetiteljima,
+sedam podloga, osvežene tri organizacije i 30 validnih radio-predloga uz njihove
+izvorne ograde. S11 objavljuje samo gore navedeni kompatibilni podskup.
+Sedam novih slika i radio-predlozi još nisu novi aktivni medijski/godišnji
+sadržaj. Istorijski draft hashovi i njihove tehničke/izvorne kapije ostaju sačuvani.
 
 ## Istorijska osnova v0.15 i razvojni alati
 
@@ -54,36 +70,15 @@ izostavljene iz ovog istorijskog generatora.
 **Podloge v1 — 16.09.2026:** katalog i svih 18 slika sada imaju zajedničko
 Android/iOS odobrenje, tačan SHA-256 inventar i registar prava po slici u
 `approvals/shared-backgrounds-v1-2026-09-16` i `licenses/backgrounds-v1.json`.
-Ovo još nije runtime objava: zasebni `backgrounds` modul ulazi u sledeću
-sekvencu tek kada kompatibilni klijenti i rollback testovi prođu QA.
+**Odluka 05.10.2026:** OTA podloga je otkazan. Originali, optimizovani
+pregledi i katalog isporučuju se samo kroz novu verziju aplikacije po
+zajedničkom SPEC-u BG-04. Tekstualni i kalendarski sadržaj zadržavaju
+postojeći potpisani kanal.
 
-Za lokalni QA postoje dva nova razvojna generatora. Podrazumevano čitaju originalne
-slike iz susednog `svetlost33-github` checkout-a; druga putanja se prosleđuje kroz
-`--source`. Izlaz mora biti nov direktorijum: postojeći se nikada ne prepisuje.
-
-```sh
-# Samostalni opcioni backgrounds-v1 modul za transportne provere:
-npm run development:backgrounds -- --out build/backgrounds-v1-qa
-# Biblioteka + ciklusi + kalendar + iste podloge za celokupni klijentski projektor:
-npm run development:combined -- --out build/combined-qa
-node scripts/validate-m0-v2.mjs build/combined-qa \
-  --platform ios --client-version 0.1.0 --channel development \
-  --key-id svetlost33-development-key-1
-```
-
-Samostalni modul koristi `svetlost33-development-backgrounds-key-1`; kombinovani
-skup koristi `svetlost33-development-key-1`. Svako pokretanje stvara novi privremeni
-par ključeva i zapisuje samo javni ključ. Za testiranje klijent dobija taj eksplicitni
-razvojni trust anchor; ključ iz paketa nije produkcioni autoritet.
-
-Modul sadrži 18 identičnih PNG originala, 18 izvedenih JPEG pregleda 480 × 853,
-native katalog i pet JSON dokaza. JPEG parametri prate postojeći iOS preview tok:
-kvalitet 80, progresivni JPEG, 4:2:0, optimizovano Huffman kodiranje i Lanczos
-umanjenje. Encoder je zaključani `sharp`; originalne slike se nikada ne menjaju.
-Četiri ulazna dokaza, odobreni katalog i svih 18 slika proveravaju se po tačnim
-odobrenim hash-evima pre izvoza. [Detalji fixture-a](fixtures/v2/backgrounds-v1/README.md)
-objašnjavaju putanje, semantiku i granice provere. Ovi generatori ne menjaju
-`releases/`, ne prihvataju produkcioni ključ i ništa ne objavljuju.
+Isključivi slikovni OTA generatori, izdavački adapteri, testovi i njihove
+npm komande uklonjeni su. [Zapis uklanjanja i oporavka](approvals/ota-removal-2026-10-05/removal-receipt.json)
+navodi tačne fajlove i provere. Istorijski fixture-i, odobrenja i izvori
+ostaju kao evidencija, ne kao uputstvo za ponovno pokretanje OTA.
 
 ## Provera
 

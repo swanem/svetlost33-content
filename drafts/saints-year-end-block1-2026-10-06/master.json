@@ -1,0 +1,2570 @@
+{
+  "schema_version": "svetlost33-ks01-year-end-block1-editorial-master-1",
+  "status": "PENDING_HUMAN_TEXT_IDENTITY_RIGHTS_AND_PUBLICATION_REVIEW",
+  "prepared_on": "2026-10-06",
+  "window": [
+    "2026-11-20",
+    "2026-12-10"
+  ],
+  "counts": {
+    "dates": 21,
+    "existing_articles_reused": 0,
+    "new_pending_articles": 21,
+    "unknown_identity_or_date": 0,
+    "content_approval_pending": 21,
+    "independent_rights_clearance": 0,
+    "real_articles_after_local_merge": 83,
+    "reused_observances": 2,
+    "reused_occurrences": 2,
+    "new_subjects": 19,
+    "new_observances": 19,
+    "new_occurrences": 19,
+    "new_article_links": 21
+  },
+  "owner_approval": null,
+  "clerical_review": null,
+  "rights_clearance": null,
+  "signed": false,
+  "published": false,
+  "warning": "PENDING ORIGINAL EDITORIAL DRAFT. Not church-approved, owner-approved, signed, released or automatically publishable. Synthetic capacity fixtures are not real content.",
+  "scope": "First later-content block only; no Package A/B promotion or 11–31 December preparation.",
+  "prose_policy": "Original Serbian summaries, 100–200 words including separate editorial takeaway; deterministic Latin, no copied source quotations.",
+  "review_labels": {
+    "intro": {
+      "sr-Cyrl": "Кратко",
+      "sr-Latn": "Kratko"
+    },
+    "body": {
+      "sr-Cyrl": "За читање",
+      "sr-Latn": "Za čitanje"
+    },
+    "takeaway": {
+      "sr-Cyrl": "Шта издвајамо",
+      "sr-Latn": "Šta izdvajamo"
+    }
+  },
+  "before_articles": [
+    {
+      "id": "michael-miracle-chonae",
+      "title": "Чудо Светог архангела Михаила у Хони",
+      "action": "preserve_unchanged"
+    },
+    {
+      "id": "martyr-sozont",
+      "title": "Свети мученик Созонт",
+      "action": "preserve_unchanged"
+    },
+    {
+      "id": "nativity-theotokos",
+      "title": "Рођење Пресвете Богородице – Мала Госпојина",
+      "action": "preserve_unchanged"
+    },
+    {
+      "id": "joachim-and-anna",
+      "title": "Свети праведни богородитељи Јоаким и Ана",
+      "action": "preserve_unchanged"
+    },
+    {
+      "id": "minodora-mitrodora-nimfodora",
+      "title": "Свете мученице Минодора, Митродора и Нимфодора",
+      "action": "preserve_unchanged"
+    },
+    {
+      "id": "theodora-alexandria",
+      "title": "Преподобна Теодора Александријска",
+      "action": "preserve_unchanged"
+    },
+    {
+      "id": "hieromartyr-autonomus",
+      "title": "Свети свештеномученик Автоном",
+      "action": "preserve_unchanged"
+    },
+    {
+      "id": "dedication-resurrection-jerusalem",
+      "title": "Освећење храма Васкрсења у Јерусалиму",
+      "action": "preserve_unchanged"
+    },
+    {
+      "id": "exaltation-cross",
+      "title": "Воздвижење Часног Крста — Крстовдан",
+      "action": "preserve_unchanged"
+    },
+    {
+      "id": "greatmartyr-niketas-goth",
+      "title": "Свети великомученик Никита",
+      "action": "preserve_unchanged"
+    },
+    {
+      "id": "dorotheus-egypt",
+      "title": "Преподобни Доротеј",
+      "action": "preserve_unchanged"
+    },
+    {
+      "id": "faith-hope-love-sophia",
+      "title": "Вера, Нада, Љубав и мајка им Софија",
+      "action": "preserve_unchanged"
+    },
+    {
+      "id": "eumenius-gortyna",
+      "title": "Свети Евменије Гортински",
+      "action": "preserve_unchanged"
+    },
+    {
+      "id": "trophimus-sabbatius-dorymedon",
+      "title": "Свети мученици Трофим, Саватије и Доримедонт",
+      "action": "preserve_unchanged"
+    },
+    {
+      "id": "greatmartyr-eustathius",
+      "title": "Свети великомученик Јевстатије",
+      "action": "preserve_unchanged"
+    },
+    {
+      "id": "apostle-quadratus",
+      "title": "Свети апостол Кодрат",
+      "action": "preserve_unchanged"
+    },
+    {
+      "id": "hieromartyr-phocas-sinope",
+      "title": "Свети свештеномученик Фока",
+      "action": "preserve_unchanged"
+    },
+    {
+      "id": "conception-john-forerunner",
+      "title": "Зачеће Светог Јована Претече и Крститеља",
+      "action": "preserve_unchanged"
+    },
+    {
+      "id": "protomartyr-thecla",
+      "title": "Света првомученица Текла",
+      "action": "preserve_unchanged"
+    },
+    {
+      "id": "euphrosyne-alexandria",
+      "title": "Преподобна Ефросинија",
+      "action": "preserve_unchanged"
+    },
+    {
+      "id": "john-theologian-repose",
+      "title": "Свети апостол и јеванђелист Јован Богослов",
+      "action": "preserve_unchanged"
+    },
+    {
+      "id": "callistratus-companions",
+      "title": "Свети мученик Калистрат и остали",
+      "action": "preserve_unchanged"
+    },
+    {
+      "id": "chariton-confessor",
+      "title": "Преподобни Харитон Исповедник",
+      "action": "preserve_unchanged"
+    },
+    {
+      "id": "cyriacus-anchorite-miholjdan",
+      "title": "Преподобни Киријак Отшелник — Михољдан",
+      "action": "preserve_unchanged"
+    },
+    {
+      "id": "gregory-enlightener-armenia",
+      "title": "Свети свештеномученик Григорије, просветитељ Јерменије",
+      "action": "preserve_unchanged"
+    },
+    {
+      "id": "protection-theotokos",
+      "title": "Покров Пресвете Богородице",
+      "action": "preserve_unchanged"
+    },
+    {
+      "id": "cyprian-antioch-justina",
+      "title": "Свети свештеномученик Кипријан и мученица Јустина",
+      "action": "preserve_unchanged"
+    },
+    {
+      "id": "dionysius-areopagite",
+      "title": "Свети свештеномученик Дионисије Ареопагит",
+      "action": "preserve_unchanged"
+    },
+    {
+      "id": "hierotheus-athens",
+      "title": "Свети Јеротеј Атински",
+      "action": "preserve_unchanged"
+    },
+    {
+      "id": "martyr-charitina-amisos",
+      "title": "Света мученица Харитина",
+      "action": "preserve_unchanged"
+    },
+    {
+      "id": "apostle-thomas",
+      "title": "Свети апостол Тома — Томиндан",
+      "action": "preserve_unchanged"
+    },
+    {
+      "id": "sergius-bacchus",
+      "title": "Свети мученици Сергије и Вакхо — Срђевдан",
+      "action": "preserve_unchanged"
+    },
+    {
+      "id": "pelagia-penitent",
+      "title": "Преподобна Пелагија Палестинска",
+      "action": "preserve_unchanged"
+    },
+    {
+      "id": "james-alphaeus",
+      "title": "Свети апостол Јаков Алфејев",
+      "action": "preserve_unchanged"
+    },
+    {
+      "id": "eulampius-eulampia",
+      "title": "Свети мученици Евлампије и Евлампија",
+      "action": "preserve_unchanged"
+    },
+    {
+      "id": "philip-deacon-seventy",
+      "title": "Свети апостол Филип, један од седморице ђакона",
+      "action": "preserve_unchanged"
+    },
+    {
+      "id": "tarachus-probus-andronicus",
+      "title": "Свети мученици Тарах, Пров и Андроник",
+      "action": "preserve_unchanged"
+    },
+    {
+      "id": "carpus-papylus-companions",
+      "title": "Свети мученици Карп, Папил и сапострадалници",
+      "action": "preserve_unchanged"
+    },
+    {
+      "id": "paraskeva-epivates",
+      "title": "Преподобна мати Параскева — Света Петка",
+      "action": "preserve_unchanged"
+    },
+    {
+      "id": "lucian-antioch",
+      "title": "Свети свештеномученик Лукијан Антиохијски",
+      "action": "preserve_unchanged"
+    },
+    {
+      "id": "longinus-centurion",
+      "title": "Свети мученик Лонгин Сотник",
+      "action": "preserve_unchanged"
+    },
+    {
+      "id": "hosea-prophet",
+      "title": "Свети пророк Осија",
+      "action": "preserve_unchanged"
+    },
+    {
+      "id": "peter-cetinje",
+      "title": "Свети Петар Цетињски",
+      "action": "preserve_unchanged"
+    },
+    {
+      "id": "prohor-pcinja",
+      "title": "Преподобни Прохор Пчињски",
+      "action": "preserve_unchanged"
+    },
+    {
+      "id": "artemius-antioch",
+      "title": "Свети великомученик Артемије",
+      "action": "preserve_unchanged"
+    },
+    {
+      "id": "hilarion-great",
+      "title": "Преподобни Иларион Велики",
+      "action": "preserve_unchanged"
+    },
+    {
+      "id": "averky-hierapolis",
+      "title": "Свети равноапостолни Аверкије Јерапољски",
+      "action": "preserve_unchanged"
+    },
+    {
+      "id": "james-brother-lord",
+      "title": "Свети апостол Јаков, први епископ Јерусалимски",
+      "action": "preserve_unchanged"
+    },
+    {
+      "id": "arethas-companions-najran",
+      "title": "Свети мученик Арета и сапострадалници",
+      "action": "preserve_unchanged"
+    },
+    {
+      "id": "marcian-martyrius",
+      "title": "Свети мученици Маркијан и Мартирије",
+      "action": "preserve_unchanged"
+    },
+    {
+      "id": "demetrius-thessalonica",
+      "title": "Свети великомученик Димитрије — Митровдан",
+      "action": "preserve_unchanged"
+    },
+    {
+      "id": "nestor-thessalonica",
+      "title": "Свети мученик Нестор Солунски",
+      "action": "preserve_unchanged"
+    },
+    {
+      "id": "terence-neonila-family",
+      "title": "Свети мученици Терентије, Неонила и њихова деца",
+      "action": "preserve_unchanged"
+    },
+    {
+      "id": "abramius-recluse",
+      "title": "Преподобни Аврамије Затворник",
+      "action": "preserve_unchanged"
+    },
+    {
+      "id": "zenobius-zenobia",
+      "title": "Свети мученици Зиновије и Зиновија",
+      "action": "preserve_unchanged"
+    },
+    {
+      "id": "stachys-amplias-urban-companions",
+      "title": "Свети апостоли Стахије, Амплије, Урван и други с њима",
+      "action": "preserve_unchanged"
+    },
+    {
+      "id": "cosmas-damian-asia",
+      "title": "Свети Козма и Дамјан — Врачи",
+      "action": "preserve_unchanged"
+    },
+    {
+      "id": "acindynus-pegasius-companions",
+      "title": "Свети мученици Акиндин, Пигасије и сапострадалници",
+      "action": "preserve_unchanged"
+    },
+    {
+      "id": "george-lydda-dedication",
+      "title": "Обновљење храма Светог Георгија — Ђурђиц",
+      "action": "preserve_unchanged"
+    },
+    {
+      "id": "joannicius-great",
+      "title": "Преподобни Јоаникије Велики",
+      "action": "preserve_unchanged"
+    },
+    {
+      "id": "galaction-epistima",
+      "title": "Свети преподобномученици Галактион и Епистима",
+      "action": "preserve_unchanged"
+    },
+    {
+      "id": "paul-confessor-constantinople",
+      "title": "Свети Павле Исповедник",
+      "action": "preserve_unchanged"
+    }
+  ],
+  "sources": "sources.json",
+  "rows": [
+    {
+      "date": "2026-11-20",
+      "julian_date": "2026-11-07",
+      "calendar_title": {
+        "sr-Cyrl": "Света 33 мученика у Мелитини",
+        "sr-Latn": "Sveta 33 mučenika u Melitini"
+      },
+      "calendar_source_ids": [
+        "eparhija-month-11"
+      ],
+      "article_id": "thirty-three-martyrs-melitene",
+      "subject_id": "group-thirty-three-martyrs-melitene",
+      "observance_id": "obs-thirty-three-martyrs-melitene",
+      "occurrence_id": "occ-obs-thirty-three-martyrs-melitene-2026",
+      "operation": {
+        "article": "new_pending",
+        "subject": "add_pending",
+        "observance": "add_pending",
+        "occurrence": "add_pending",
+        "article_link": "add_pending"
+      },
+      "source_ids": [
+        "ks01-b1-thirty-three-martyrs-melitene"
+      ],
+      "identity_note": "Једна група; не стварају се 33 појединачна субјекта.",
+      "canonical_source_commemoration_month_day": "11-07",
+      "date_evidence": {
+        "kind": "EXACT_APPROVED_ANNUAL_ROW_NOT_COMPUTED",
+        "calendar_payload_sha256": "a1b6a5d5911ae03f77802bd466227f0c1ea4fe97708b1b6f92cd4b08847c7c9c",
+        "source_records": [
+          {
+            "id": "eparhija-month-11",
+            "url": "https://www.eparhija.at/kalendar?m=2026-11",
+            "effective_url": "https://www.eparhija.at/kalendar?m=2026-11",
+            "fetched_at": "2026-09-15T09:42:14.667347+00:00",
+            "http_status": "200",
+            "response_sha256": "abd5fecc3321025b200622f4e62b2125d1c42c0853de87d61f02dde64bd2aab8",
+            "response_bytes": 1040525,
+            "evidence_path": "docs/content-review/2026-09-15-calendar/evidence/eparhija-month-11.json",
+            "evidence_sha256": "e2329ba348732e73242eb2dcf554c77aaf7013947aaf4035ff5dba284313721d",
+            "title": "Епархија аустријска СПЦ — календар",
+            "evidence_path_base": "canonical_repository"
+          }
+        ],
+        "fresh_calendar_web_fetch": false,
+        "source_recorded_2026": true,
+        "complete_saint_list": false
+      },
+      "owner_approval": null,
+      "clerical_review": null,
+      "rights_review": "pending",
+      "unresolved_identity_or_date": [],
+      "prose_status": "PENDING_HUMAN_TEXT_IDENTITY_RIGHTS_AND_PUBLICATION_REVIEW",
+      "takeaway_status": "ORIGINAL_EDITORIAL_REFLECTION_NOT_QUOTATION",
+      "claims": [
+        {
+          "locations": [
+            "intro",
+            "body"
+          ],
+          "kind": "source_based_summary_with_explicit_tradition_attribution",
+          "source_ids": [
+            "ks01-b1-thirty-three-martyrs-melitene"
+          ]
+        },
+        {
+          "locations": [
+            "takeaway"
+          ],
+          "kind": "editorial_reflection",
+          "source_ids": []
+        }
+      ],
+      "word_counts": {
+        "sr-Cyrl": 110,
+        "sr-Latn": 110
+      }
+    },
+    {
+      "date": "2026-11-21",
+      "julian_date": "2026-11-08",
+      "calendar_title": {
+        "sr-Cyrl": "Сабор Светог Архангела Михаила и осталих Небеских Сила Бестелесних – Аранђеловдан",
+        "sr-Latn": "Sabor Svetog Arhangela Mihaila i ostalih Nebeskih Sila Bestelesnih – Aranđelovdan"
+      },
+      "calendar_source_ids": [
+        "eparhija-month-11"
+      ],
+      "article_id": "michael-bodiless-powers-synaxis",
+      "subject_id": "saint-archangel-michael",
+      "observance_id": "obs-michael-synaxis",
+      "occurrence_id": "occ-obs-michael-synaxis-2026",
+      "operation": {
+        "article": "new_pending",
+        "subject": "reuse",
+        "observance": "reuse",
+        "occurrence": "reuse",
+        "article_link": "add_pending"
+      },
+      "source_ids": [
+        "ks01-b1-michael-bodiless-powers-synaxis"
+      ],
+      "identity_note": "Постојећи feast/subject/occurrence остају исти; нов је само чланак и pending article-link. Хронологија Лаодикијског сабора из извора није преузета.",
+      "canonical_source_commemoration_month_day": "11-08",
+      "date_evidence": {
+        "kind": "EXACT_APPROVED_ANNUAL_ROW_NOT_COMPUTED",
+        "calendar_payload_sha256": "a1b6a5d5911ae03f77802bd466227f0c1ea4fe97708b1b6f92cd4b08847c7c9c",
+        "source_records": [
+          {
+            "id": "eparhija-month-11",
+            "url": "https://www.eparhija.at/kalendar?m=2026-11",
+            "effective_url": "https://www.eparhija.at/kalendar?m=2026-11",
+            "fetched_at": "2026-09-15T09:42:14.667347+00:00",
+            "http_status": "200",
+            "response_sha256": "abd5fecc3321025b200622f4e62b2125d1c42c0853de87d61f02dde64bd2aab8",
+            "response_bytes": 1040525,
+            "evidence_path": "docs/content-review/2026-09-15-calendar/evidence/eparhija-month-11.json",
+            "evidence_sha256": "e2329ba348732e73242eb2dcf554c77aaf7013947aaf4035ff5dba284313721d",
+            "title": "Епархија аустријска СПЦ — календар",
+            "evidence_path_base": "canonical_repository"
+          }
+        ],
+        "fresh_calendar_web_fetch": false,
+        "source_recorded_2026": true,
+        "complete_saint_list": false
+      },
+      "owner_approval": null,
+      "clerical_review": null,
+      "rights_review": "pending",
+      "unresolved_identity_or_date": [],
+      "prose_status": "PENDING_HUMAN_TEXT_IDENTITY_RIGHTS_AND_PUBLICATION_REVIEW",
+      "takeaway_status": "ORIGINAL_EDITORIAL_REFLECTION_NOT_QUOTATION",
+      "claims": [
+        {
+          "locations": [
+            "intro",
+            "body"
+          ],
+          "kind": "source_based_summary_with_explicit_tradition_attribution",
+          "source_ids": [
+            "ks01-b1-michael-bodiless-powers-synaxis"
+          ]
+        },
+        {
+          "locations": [
+            "takeaway"
+          ],
+          "kind": "editorial_reflection",
+          "source_ids": []
+        }
+      ],
+      "word_counts": {
+        "sr-Cyrl": 110,
+        "sr-Latn": 110
+      }
+    },
+    {
+      "date": "2026-11-22",
+      "julian_date": "2026-11-09",
+      "calendar_title": {
+        "sr-Cyrl": "Свети мученици Онисифор и Порфирије",
+        "sr-Latn": "Sveti mučenici Onisifor i Porfirije"
+      },
+      "calendar_source_ids": [
+        "eparhija-month-11"
+      ],
+      "article_id": "onesiphorus-porphyrius-ephesus",
+      "subject_id": "group-onesiphorus-porphyrius-ephesus",
+      "observance_id": "obs-onesiphorus-porphyrius-ephesus",
+      "occurrence_id": "occ-obs-onesiphorus-porphyrius-ephesus-2026",
+      "operation": {
+        "article": "new_pending",
+        "subject": "add_pending",
+        "observance": "add_pending",
+        "occurrence": "add_pending",
+        "article_link": "add_pending"
+      },
+      "source_ids": [
+        "ks01-b1-onesiphorus-porphyrius-ephesus"
+      ],
+      "identity_note": "Кратак извор: нема дописаних породичних или хронолошких појединости.",
+      "canonical_source_commemoration_month_day": "11-09",
+      "date_evidence": {
+        "kind": "EXACT_APPROVED_ANNUAL_ROW_NOT_COMPUTED",
+        "calendar_payload_sha256": "a1b6a5d5911ae03f77802bd466227f0c1ea4fe97708b1b6f92cd4b08847c7c9c",
+        "source_records": [
+          {
+            "id": "eparhija-month-11",
+            "url": "https://www.eparhija.at/kalendar?m=2026-11",
+            "effective_url": "https://www.eparhija.at/kalendar?m=2026-11",
+            "fetched_at": "2026-09-15T09:42:14.667347+00:00",
+            "http_status": "200",
+            "response_sha256": "abd5fecc3321025b200622f4e62b2125d1c42c0853de87d61f02dde64bd2aab8",
+            "response_bytes": 1040525,
+            "evidence_path": "docs/content-review/2026-09-15-calendar/evidence/eparhija-month-11.json",
+            "evidence_sha256": "e2329ba348732e73242eb2dcf554c77aaf7013947aaf4035ff5dba284313721d",
+            "title": "Епархија аустријска СПЦ — календар",
+            "evidence_path_base": "canonical_repository"
+          }
+        ],
+        "fresh_calendar_web_fetch": false,
+        "source_recorded_2026": true,
+        "complete_saint_list": false
+      },
+      "owner_approval": null,
+      "clerical_review": null,
+      "rights_review": "pending",
+      "unresolved_identity_or_date": [],
+      "prose_status": "PENDING_HUMAN_TEXT_IDENTITY_RIGHTS_AND_PUBLICATION_REVIEW",
+      "takeaway_status": "ORIGINAL_EDITORIAL_REFLECTION_NOT_QUOTATION",
+      "claims": [
+        {
+          "locations": [
+            "intro",
+            "body"
+          ],
+          "kind": "source_based_summary_with_explicit_tradition_attribution",
+          "source_ids": [
+            "ks01-b1-onesiphorus-porphyrius-ephesus"
+          ]
+        },
+        {
+          "locations": [
+            "takeaway"
+          ],
+          "kind": "editorial_reflection",
+          "source_ids": []
+        }
+      ],
+      "word_counts": {
+        "sr-Cyrl": 106,
+        "sr-Latn": 106
+      }
+    },
+    {
+      "date": "2026-11-23",
+      "julian_date": "2026-11-10",
+      "calendar_title": {
+        "sr-Cyrl": "Свети апостоли Олимп, Ераст, Родион и други с њима",
+        "sr-Latn": "Sveti apostoli Olimp, Erast, Rodion i drugi s njima"
+      },
+      "calendar_source_ids": [
+        "eparhija-month-11"
+      ],
+      "article_id": "olympas-erastus-rodion-companions",
+      "subject_id": "group-olympas-erastus-rodion-companions",
+      "observance_id": "obs-olympas-erastus-rodion-companions",
+      "occurrence_id": "occ-obs-olympas-erastus-rodion-companions-2026",
+      "operation": {
+        "article": "new_pending",
+        "subject": "add_pending",
+        "observance": "add_pending",
+        "occurrence": "add_pending",
+        "article_link": "add_pending"
+      },
+      "source_ids": [
+        "ks01-b1-olympas-erastus-rodion-companions"
+      ],
+      "identity_note": "Групни календарски спомен није аутоматски подељен на појединачне субјекте; додатна имена су само у изворно поткрепљеном тексту.",
+      "canonical_source_commemoration_month_day": "11-10",
+      "date_evidence": {
+        "kind": "EXACT_APPROVED_ANNUAL_ROW_NOT_COMPUTED",
+        "calendar_payload_sha256": "a1b6a5d5911ae03f77802bd466227f0c1ea4fe97708b1b6f92cd4b08847c7c9c",
+        "source_records": [
+          {
+            "id": "eparhija-month-11",
+            "url": "https://www.eparhija.at/kalendar?m=2026-11",
+            "effective_url": "https://www.eparhija.at/kalendar?m=2026-11",
+            "fetched_at": "2026-09-15T09:42:14.667347+00:00",
+            "http_status": "200",
+            "response_sha256": "abd5fecc3321025b200622f4e62b2125d1c42c0853de87d61f02dde64bd2aab8",
+            "response_bytes": 1040525,
+            "evidence_path": "docs/content-review/2026-09-15-calendar/evidence/eparhija-month-11.json",
+            "evidence_sha256": "e2329ba348732e73242eb2dcf554c77aaf7013947aaf4035ff5dba284313721d",
+            "title": "Епархија аустријска СПЦ — календар",
+            "evidence_path_base": "canonical_repository"
+          }
+        ],
+        "fresh_calendar_web_fetch": false,
+        "source_recorded_2026": true,
+        "complete_saint_list": false
+      },
+      "owner_approval": null,
+      "clerical_review": null,
+      "rights_review": "pending",
+      "unresolved_identity_or_date": [],
+      "prose_status": "PENDING_HUMAN_TEXT_IDENTITY_RIGHTS_AND_PUBLICATION_REVIEW",
+      "takeaway_status": "ORIGINAL_EDITORIAL_REFLECTION_NOT_QUOTATION",
+      "claims": [
+        {
+          "locations": [
+            "intro",
+            "body"
+          ],
+          "kind": "source_based_summary_with_explicit_tradition_attribution",
+          "source_ids": [
+            "ks01-b1-olympas-erastus-rodion-companions"
+          ]
+        },
+        {
+          "locations": [
+            "takeaway"
+          ],
+          "kind": "editorial_reflection",
+          "source_ids": []
+        }
+      ],
+      "word_counts": {
+        "sr-Cyrl": 117,
+        "sr-Latn": 117
+      }
+    },
+    {
+      "date": "2026-11-24",
+      "julian_date": "2026-11-11",
+      "calendar_title": {
+        "sr-Cyrl": "Свети великомученик Мина",
+        "sr-Latn": "Sveti velikomučenik Mina"
+      },
+      "calendar_source_ids": [
+        "eparhija-month-11"
+      ],
+      "article_id": "menas-egypt-martyr",
+      "subject_id": "saint-menas-egypt-martyr",
+      "observance_id": "obs-menas-egypt-martyr",
+      "occurrence_id": "occ-obs-menas-egypt-martyr-2026",
+      "operation": {
+        "article": "new_pending",
+        "subject": "add_pending",
+        "observance": "add_pending",
+        "occurrence": "add_pending",
+        "article_link": "add_pending"
+      },
+      "source_ids": [
+        "ks01-b1-menas-egypt-martyr"
+      ],
+      "identity_note": "Мина Египатски; новији ратни наратив са изворне странице није преузет.",
+      "canonical_source_commemoration_month_day": "11-11",
+      "date_evidence": {
+        "kind": "EXACT_APPROVED_ANNUAL_ROW_NOT_COMPUTED",
+        "calendar_payload_sha256": "a1b6a5d5911ae03f77802bd466227f0c1ea4fe97708b1b6f92cd4b08847c7c9c",
+        "source_records": [
+          {
+            "id": "eparhija-month-11",
+            "url": "https://www.eparhija.at/kalendar?m=2026-11",
+            "effective_url": "https://www.eparhija.at/kalendar?m=2026-11",
+            "fetched_at": "2026-09-15T09:42:14.667347+00:00",
+            "http_status": "200",
+            "response_sha256": "abd5fecc3321025b200622f4e62b2125d1c42c0853de87d61f02dde64bd2aab8",
+            "response_bytes": 1040525,
+            "evidence_path": "docs/content-review/2026-09-15-calendar/evidence/eparhija-month-11.json",
+            "evidence_sha256": "e2329ba348732e73242eb2dcf554c77aaf7013947aaf4035ff5dba284313721d",
+            "title": "Епархија аустријска СПЦ — календар",
+            "evidence_path_base": "canonical_repository"
+          }
+        ],
+        "fresh_calendar_web_fetch": false,
+        "source_recorded_2026": true,
+        "complete_saint_list": false
+      },
+      "owner_approval": null,
+      "clerical_review": null,
+      "rights_review": "pending",
+      "unresolved_identity_or_date": [],
+      "prose_status": "PENDING_HUMAN_TEXT_IDENTITY_RIGHTS_AND_PUBLICATION_REVIEW",
+      "takeaway_status": "ORIGINAL_EDITORIAL_REFLECTION_NOT_QUOTATION",
+      "claims": [
+        {
+          "locations": [
+            "intro",
+            "body"
+          ],
+          "kind": "source_based_summary_with_explicit_tradition_attribution",
+          "source_ids": [
+            "ks01-b1-menas-egypt-martyr"
+          ]
+        },
+        {
+          "locations": [
+            "takeaway"
+          ],
+          "kind": "editorial_reflection",
+          "source_ids": []
+        }
+      ],
+      "word_counts": {
+        "sr-Cyrl": 116,
+        "sr-Latn": 116
+      }
+    },
+    {
+      "date": "2026-11-25",
+      "julian_date": "2026-11-12",
+      "calendar_title": {
+        "sr-Cyrl": "Свети Јован Милостиви",
+        "sr-Latn": "Sveti Jovan Milostivi"
+      },
+      "calendar_source_ids": [
+        "eparhija-month-11"
+      ],
+      "article_id": "john-merciful-alexandria",
+      "subject_id": "saint-john-merciful-alexandria",
+      "observance_id": "obs-john-merciful-alexandria",
+      "occurrence_id": "occ-obs-john-merciful-alexandria-2026",
+      "operation": {
+        "article": "new_pending",
+        "subject": "add_pending",
+        "observance": "add_pending",
+        "occurrence": "add_pending",
+        "article_link": "add_pending"
+      },
+      "source_ids": [
+        "ks01-b1-john-merciful-alexandria"
+      ],
+      "identity_note": "Идентитет је предложен на основу наведеног конкретног црквеног извора; чека људски преглед.",
+      "canonical_source_commemoration_month_day": "11-12",
+      "date_evidence": {
+        "kind": "EXACT_APPROVED_ANNUAL_ROW_NOT_COMPUTED",
+        "calendar_payload_sha256": "a1b6a5d5911ae03f77802bd466227f0c1ea4fe97708b1b6f92cd4b08847c7c9c",
+        "source_records": [
+          {
+            "id": "eparhija-month-11",
+            "url": "https://www.eparhija.at/kalendar?m=2026-11",
+            "effective_url": "https://www.eparhija.at/kalendar?m=2026-11",
+            "fetched_at": "2026-09-15T09:42:14.667347+00:00",
+            "http_status": "200",
+            "response_sha256": "abd5fecc3321025b200622f4e62b2125d1c42c0853de87d61f02dde64bd2aab8",
+            "response_bytes": 1040525,
+            "evidence_path": "docs/content-review/2026-09-15-calendar/evidence/eparhija-month-11.json",
+            "evidence_sha256": "e2329ba348732e73242eb2dcf554c77aaf7013947aaf4035ff5dba284313721d",
+            "title": "Епархија аустријска СПЦ — календар",
+            "evidence_path_base": "canonical_repository"
+          }
+        ],
+        "fresh_calendar_web_fetch": false,
+        "source_recorded_2026": true,
+        "complete_saint_list": false
+      },
+      "owner_approval": null,
+      "clerical_review": null,
+      "rights_review": "pending",
+      "unresolved_identity_or_date": [],
+      "prose_status": "PENDING_HUMAN_TEXT_IDENTITY_RIGHTS_AND_PUBLICATION_REVIEW",
+      "takeaway_status": "ORIGINAL_EDITORIAL_REFLECTION_NOT_QUOTATION",
+      "claims": [
+        {
+          "locations": [
+            "intro",
+            "body"
+          ],
+          "kind": "source_based_summary_with_explicit_tradition_attribution",
+          "source_ids": [
+            "ks01-b1-john-merciful-alexandria"
+          ]
+        },
+        {
+          "locations": [
+            "takeaway"
+          ],
+          "kind": "editorial_reflection",
+          "source_ids": []
+        }
+      ],
+      "word_counts": {
+        "sr-Cyrl": 116,
+        "sr-Latn": 116
+      }
+    },
+    {
+      "date": "2026-11-26",
+      "julian_date": "2026-11-13",
+      "calendar_title": {
+        "sr-Cyrl": "Свети Јован Златоусти, Патријарх цариградски (Божићне покладе)",
+        "sr-Latn": "Sveti Jovan Zlatousti, Patrijarh carigradski (Božićne poklade)"
+      },
+      "calendar_source_ids": [
+        "eparhija-month-11"
+      ],
+      "article_id": "john-chrysostom-constantinople",
+      "subject_id": "saint-john-chrysostom-constantinople",
+      "observance_id": "obs-john-chrysostom-constantinople",
+      "occurrence_id": "occ-obs-john-chrysostom-constantinople-2026",
+      "operation": {
+        "article": "new_pending",
+        "subject": "add_pending",
+        "observance": "add_pending",
+        "occurrence": "add_pending",
+        "article_link": "add_pending"
+      },
+      "source_ids": [
+        "ks01-b1-john-chrysostom-constantinople"
+      ],
+      "identity_note": "Календарски додатак о покладама остаје само у тачном title binding-у; правила поста нису додата. Новембарски спомен није проглашен даном смрти.",
+      "canonical_source_commemoration_month_day": "11-13",
+      "date_evidence": {
+        "kind": "EXACT_APPROVED_ANNUAL_ROW_NOT_COMPUTED",
+        "calendar_payload_sha256": "a1b6a5d5911ae03f77802bd466227f0c1ea4fe97708b1b6f92cd4b08847c7c9c",
+        "source_records": [
+          {
+            "id": "eparhija-month-11",
+            "url": "https://www.eparhija.at/kalendar?m=2026-11",
+            "effective_url": "https://www.eparhija.at/kalendar?m=2026-11",
+            "fetched_at": "2026-09-15T09:42:14.667347+00:00",
+            "http_status": "200",
+            "response_sha256": "abd5fecc3321025b200622f4e62b2125d1c42c0853de87d61f02dde64bd2aab8",
+            "response_bytes": 1040525,
+            "evidence_path": "docs/content-review/2026-09-15-calendar/evidence/eparhija-month-11.json",
+            "evidence_sha256": "e2329ba348732e73242eb2dcf554c77aaf7013947aaf4035ff5dba284313721d",
+            "title": "Епархија аустријска СПЦ — календар",
+            "evidence_path_base": "canonical_repository"
+          }
+        ],
+        "fresh_calendar_web_fetch": false,
+        "source_recorded_2026": true,
+        "complete_saint_list": false
+      },
+      "owner_approval": null,
+      "clerical_review": null,
+      "rights_review": "pending",
+      "unresolved_identity_or_date": [],
+      "prose_status": "PENDING_HUMAN_TEXT_IDENTITY_RIGHTS_AND_PUBLICATION_REVIEW",
+      "takeaway_status": "ORIGINAL_EDITORIAL_REFLECTION_NOT_QUOTATION",
+      "claims": [
+        {
+          "locations": [
+            "intro",
+            "body"
+          ],
+          "kind": "source_based_summary_with_explicit_tradition_attribution",
+          "source_ids": [
+            "ks01-b1-john-chrysostom-constantinople"
+          ]
+        },
+        {
+          "locations": [
+            "takeaway"
+          ],
+          "kind": "editorial_reflection",
+          "source_ids": []
+        }
+      ],
+      "word_counts": {
+        "sr-Cyrl": 119,
+        "sr-Latn": 119
+      }
+    },
+    {
+      "date": "2026-11-27",
+      "julian_date": "2026-11-14",
+      "calendar_title": {
+        "sr-Cyrl": "Свети апостол Филип",
+        "sr-Latn": "Sveti apostol Filip"
+      },
+      "calendar_source_ids": [
+        "eparhija-month-11"
+      ],
+      "article_id": "philip-apostle-twelve",
+      "subject_id": "saint-philip-apostle-twelve",
+      "observance_id": "obs-philip-apostle-twelve",
+      "occurrence_id": "occ-obs-philip-apostle-twelve-2026",
+      "operation": {
+        "article": "new_pending",
+        "subject": "add_pending",
+        "observance": "add_pending",
+        "occurrence": "add_pending",
+        "article_link": "add_pending"
+      },
+      "source_ids": [
+        "ks01-b1-philip-apostle-twelve"
+      ],
+      "identity_note": "Нови идентитет из Дванаесторице; постојећи philip-deacon-seventy се не користи и не мења.",
+      "canonical_source_commemoration_month_day": "11-14",
+      "date_evidence": {
+        "kind": "EXACT_APPROVED_ANNUAL_ROW_NOT_COMPUTED",
+        "calendar_payload_sha256": "a1b6a5d5911ae03f77802bd466227f0c1ea4fe97708b1b6f92cd4b08847c7c9c",
+        "source_records": [
+          {
+            "id": "eparhija-month-11",
+            "url": "https://www.eparhija.at/kalendar?m=2026-11",
+            "effective_url": "https://www.eparhija.at/kalendar?m=2026-11",
+            "fetched_at": "2026-09-15T09:42:14.667347+00:00",
+            "http_status": "200",
+            "response_sha256": "abd5fecc3321025b200622f4e62b2125d1c42c0853de87d61f02dde64bd2aab8",
+            "response_bytes": 1040525,
+            "evidence_path": "docs/content-review/2026-09-15-calendar/evidence/eparhija-month-11.json",
+            "evidence_sha256": "e2329ba348732e73242eb2dcf554c77aaf7013947aaf4035ff5dba284313721d",
+            "title": "Епархија аустријска СПЦ — календар",
+            "evidence_path_base": "canonical_repository"
+          }
+        ],
+        "fresh_calendar_web_fetch": false,
+        "source_recorded_2026": true,
+        "complete_saint_list": false
+      },
+      "owner_approval": null,
+      "clerical_review": null,
+      "rights_review": "pending",
+      "unresolved_identity_or_date": [],
+      "prose_status": "PENDING_HUMAN_TEXT_IDENTITY_RIGHTS_AND_PUBLICATION_REVIEW",
+      "takeaway_status": "ORIGINAL_EDITORIAL_REFLECTION_NOT_QUOTATION",
+      "claims": [
+        {
+          "locations": [
+            "intro",
+            "body"
+          ],
+          "kind": "source_based_summary_with_explicit_tradition_attribution",
+          "source_ids": [
+            "ks01-b1-philip-apostle-twelve"
+          ]
+        },
+        {
+          "locations": [
+            "takeaway"
+          ],
+          "kind": "editorial_reflection",
+          "source_ids": []
+        }
+      ],
+      "word_counts": {
+        "sr-Cyrl": 113,
+        "sr-Latn": 113
+      }
+    },
+    {
+      "date": "2026-11-28",
+      "julian_date": "2026-11-15",
+      "calendar_title": {
+        "sr-Cyrl": "Свети мученици Гурије, Самон и Авив (Почетак поста)",
+        "sr-Latn": "Sveti mučenici Gurije, Samon i Aviv (Početak posta)"
+      },
+      "calendar_source_ids": [
+        "eparhija-month-11"
+      ],
+      "article_id": "gurias-samonas-abibus-edessa",
+      "subject_id": "group-gurias-samonas-abibus-edessa",
+      "observance_id": "obs-gurias-samonas-abibus-edessa",
+      "occurrence_id": "occ-obs-gurias-samonas-abibus-edessa-2026",
+      "operation": {
+        "article": "new_pending",
+        "subject": "add_pending",
+        "observance": "add_pending",
+        "occurrence": "add_pending",
+        "article_link": "add_pending"
+      },
+      "source_ids": [
+        "ks01-b1-gurias-samonas-abibus-edessa"
+      ],
+      "identity_note": "Група остаје једна; почетак поста у годишњем наслову није основ за ново правило поста.",
+      "canonical_source_commemoration_month_day": "11-15",
+      "date_evidence": {
+        "kind": "EXACT_APPROVED_ANNUAL_ROW_NOT_COMPUTED",
+        "calendar_payload_sha256": "a1b6a5d5911ae03f77802bd466227f0c1ea4fe97708b1b6f92cd4b08847c7c9c",
+        "source_records": [
+          {
+            "id": "eparhija-month-11",
+            "url": "https://www.eparhija.at/kalendar?m=2026-11",
+            "effective_url": "https://www.eparhija.at/kalendar?m=2026-11",
+            "fetched_at": "2026-09-15T09:42:14.667347+00:00",
+            "http_status": "200",
+            "response_sha256": "abd5fecc3321025b200622f4e62b2125d1c42c0853de87d61f02dde64bd2aab8",
+            "response_bytes": 1040525,
+            "evidence_path": "docs/content-review/2026-09-15-calendar/evidence/eparhija-month-11.json",
+            "evidence_sha256": "e2329ba348732e73242eb2dcf554c77aaf7013947aaf4035ff5dba284313721d",
+            "title": "Епархија аустријска СПЦ — календар",
+            "evidence_path_base": "canonical_repository"
+          }
+        ],
+        "fresh_calendar_web_fetch": false,
+        "source_recorded_2026": true,
+        "complete_saint_list": false
+      },
+      "owner_approval": null,
+      "clerical_review": null,
+      "rights_review": "pending",
+      "unresolved_identity_or_date": [],
+      "prose_status": "PENDING_HUMAN_TEXT_IDENTITY_RIGHTS_AND_PUBLICATION_REVIEW",
+      "takeaway_status": "ORIGINAL_EDITORIAL_REFLECTION_NOT_QUOTATION",
+      "claims": [
+        {
+          "locations": [
+            "intro",
+            "body"
+          ],
+          "kind": "source_based_summary_with_explicit_tradition_attribution",
+          "source_ids": [
+            "ks01-b1-gurias-samonas-abibus-edessa"
+          ]
+        },
+        {
+          "locations": [
+            "takeaway"
+          ],
+          "kind": "editorial_reflection",
+          "source_ids": []
+        }
+      ],
+      "word_counts": {
+        "sr-Cyrl": 120,
+        "sr-Latn": 120
+      }
+    },
+    {
+      "date": "2026-11-29",
+      "julian_date": "2026-11-16",
+      "calendar_title": {
+        "sr-Cyrl": "Свети апостол и јеванђелист Матеј",
+        "sr-Latn": "Sveti apostol i jevanđelist Matej"
+      },
+      "calendar_source_ids": [
+        "eparhija-month-11"
+      ],
+      "article_id": "matthew-apostle-evangelist",
+      "subject_id": "saint-matthew-apostle-evangelist",
+      "observance_id": "obs-matthew-apostle-evangelist",
+      "occurrence_id": "occ-obs-matthew-apostle-evangelist-2026",
+      "operation": {
+        "article": "new_pending",
+        "subject": "add_pending",
+        "observance": "add_pending",
+        "occurrence": "add_pending",
+        "article_link": "add_pending"
+      },
+      "source_ids": [
+        "ks01-b1-matthew-apostle-evangelist"
+      ],
+      "identity_note": "Изостављене су непроверене породичне везе и споредне тврдње о изворном језику; нема промене годишње доделе Јеванђеља.",
+      "canonical_source_commemoration_month_day": "11-16",
+      "date_evidence": {
+        "kind": "EXACT_APPROVED_ANNUAL_ROW_NOT_COMPUTED",
+        "calendar_payload_sha256": "a1b6a5d5911ae03f77802bd466227f0c1ea4fe97708b1b6f92cd4b08847c7c9c",
+        "source_records": [
+          {
+            "id": "eparhija-month-11",
+            "url": "https://www.eparhija.at/kalendar?m=2026-11",
+            "effective_url": "https://www.eparhija.at/kalendar?m=2026-11",
+            "fetched_at": "2026-09-15T09:42:14.667347+00:00",
+            "http_status": "200",
+            "response_sha256": "abd5fecc3321025b200622f4e62b2125d1c42c0853de87d61f02dde64bd2aab8",
+            "response_bytes": 1040525,
+            "evidence_path": "docs/content-review/2026-09-15-calendar/evidence/eparhija-month-11.json",
+            "evidence_sha256": "e2329ba348732e73242eb2dcf554c77aaf7013947aaf4035ff5dba284313721d",
+            "title": "Епархија аустријска СПЦ — календар",
+            "evidence_path_base": "canonical_repository"
+          }
+        ],
+        "fresh_calendar_web_fetch": false,
+        "source_recorded_2026": true,
+        "complete_saint_list": false
+      },
+      "owner_approval": null,
+      "clerical_review": null,
+      "rights_review": "pending",
+      "unresolved_identity_or_date": [],
+      "prose_status": "PENDING_HUMAN_TEXT_IDENTITY_RIGHTS_AND_PUBLICATION_REVIEW",
+      "takeaway_status": "ORIGINAL_EDITORIAL_REFLECTION_NOT_QUOTATION",
+      "claims": [
+        {
+          "locations": [
+            "intro",
+            "body"
+          ],
+          "kind": "source_based_summary_with_explicit_tradition_attribution",
+          "source_ids": [
+            "ks01-b1-matthew-apostle-evangelist"
+          ]
+        },
+        {
+          "locations": [
+            "takeaway"
+          ],
+          "kind": "editorial_reflection",
+          "source_ids": []
+        }
+      ],
+      "word_counts": {
+        "sr-Cyrl": 119,
+        "sr-Latn": 119
+      }
+    },
+    {
+      "date": "2026-11-30",
+      "julian_date": "2026-11-17",
+      "calendar_title": {
+        "sr-Cyrl": "Свети Григорије Чудотворац",
+        "sr-Latn": "Sveti Grigorije Čudotvorac"
+      },
+      "calendar_source_ids": [
+        "eparhija-month-11"
+      ],
+      "article_id": "gregory-wonderworker-neocaesarea",
+      "subject_id": "saint-gregory-wonderworker-neocaesarea",
+      "observance_id": "obs-gregory-wonderworker-neocaesarea",
+      "occurrence_id": "occ-obs-gregory-wonderworker-neocaesarea-2026",
+      "operation": {
+        "article": "new_pending",
+        "subject": "add_pending",
+        "observance": "add_pending",
+        "occurrence": "add_pending",
+        "article_link": "add_pending"
+      },
+      "source_ids": [
+        "ks01-b1-gregory-wonderworker-neocaesarea"
+      ],
+      "identity_note": "Неокесаријски епископ, не Григорије Богослов или Декаполит; споредна хронологија школовања изостављена.",
+      "canonical_source_commemoration_month_day": "11-17",
+      "date_evidence": {
+        "kind": "EXACT_APPROVED_ANNUAL_ROW_NOT_COMPUTED",
+        "calendar_payload_sha256": "a1b6a5d5911ae03f77802bd466227f0c1ea4fe97708b1b6f92cd4b08847c7c9c",
+        "source_records": [
+          {
+            "id": "eparhija-month-11",
+            "url": "https://www.eparhija.at/kalendar?m=2026-11",
+            "effective_url": "https://www.eparhija.at/kalendar?m=2026-11",
+            "fetched_at": "2026-09-15T09:42:14.667347+00:00",
+            "http_status": "200",
+            "response_sha256": "abd5fecc3321025b200622f4e62b2125d1c42c0853de87d61f02dde64bd2aab8",
+            "response_bytes": 1040525,
+            "evidence_path": "docs/content-review/2026-09-15-calendar/evidence/eparhija-month-11.json",
+            "evidence_sha256": "e2329ba348732e73242eb2dcf554c77aaf7013947aaf4035ff5dba284313721d",
+            "title": "Епархија аустријска СПЦ — календар",
+            "evidence_path_base": "canonical_repository"
+          }
+        ],
+        "fresh_calendar_web_fetch": false,
+        "source_recorded_2026": true,
+        "complete_saint_list": false
+      },
+      "owner_approval": null,
+      "clerical_review": null,
+      "rights_review": "pending",
+      "unresolved_identity_or_date": [],
+      "prose_status": "PENDING_HUMAN_TEXT_IDENTITY_RIGHTS_AND_PUBLICATION_REVIEW",
+      "takeaway_status": "ORIGINAL_EDITORIAL_REFLECTION_NOT_QUOTATION",
+      "claims": [
+        {
+          "locations": [
+            "intro",
+            "body"
+          ],
+          "kind": "source_based_summary_with_explicit_tradition_attribution",
+          "source_ids": [
+            "ks01-b1-gregory-wonderworker-neocaesarea"
+          ]
+        },
+        {
+          "locations": [
+            "takeaway"
+          ],
+          "kind": "editorial_reflection",
+          "source_ids": []
+        }
+      ],
+      "word_counts": {
+        "sr-Cyrl": 119,
+        "sr-Latn": 119
+      }
+    },
+    {
+      "date": "2026-12-01",
+      "julian_date": "2026-11-18",
+      "calendar_title": {
+        "sr-Cyrl": "Свети мученик Платон",
+        "sr-Latn": "Sveti mučenik Platon"
+      },
+      "calendar_source_ids": [
+        "eparhija-month-12"
+      ],
+      "article_id": "platon-ancyra-martyr",
+      "subject_id": "saint-platon-ancyra-martyr",
+      "observance_id": "obs-platon-ancyra-martyr",
+      "occurrence_id": "occ-obs-platon-ancyra-martyr-2026",
+      "operation": {
+        "article": "new_pending",
+        "subject": "add_pending",
+        "observance": "add_pending",
+        "occurrence": "add_pending",
+        "article_link": "add_pending"
+      },
+      "source_ids": [
+        "ks01-b1-platon-ancyra-martyr"
+      ],
+      "identity_note": "Идентитет је предложен на основу наведеног конкретног црквеног извора; чека људски преглед.",
+      "canonical_source_commemoration_month_day": "11-18",
+      "date_evidence": {
+        "kind": "EXACT_APPROVED_ANNUAL_ROW_NOT_COMPUTED",
+        "calendar_payload_sha256": "a1b6a5d5911ae03f77802bd466227f0c1ea4fe97708b1b6f92cd4b08847c7c9c",
+        "source_records": [
+          {
+            "id": "eparhija-month-12",
+            "url": "https://www.eparhija.at/kalendar?m=2026-12",
+            "effective_url": "https://www.eparhija.at/kalendar?m=2026-12",
+            "fetched_at": "2026-09-15T09:42:14.710786+00:00",
+            "http_status": "200",
+            "response_sha256": "a202474d300a916f478793644737c40a1d3134a9e02e3237468db88e6d610c8c",
+            "response_bytes": 1042645,
+            "evidence_path": "docs/content-review/2026-09-15-calendar/evidence/eparhija-month-12.json",
+            "evidence_sha256": "4e383773a5e3172aaecf6d84e8d714282a436ecb2dbc6eb13ecabc0ac1f46421",
+            "title": "Епархија аустријска СПЦ — календар",
+            "evidence_path_base": "canonical_repository"
+          }
+        ],
+        "fresh_calendar_web_fetch": false,
+        "source_recorded_2026": true,
+        "complete_saint_list": false
+      },
+      "owner_approval": null,
+      "clerical_review": null,
+      "rights_review": "pending",
+      "unresolved_identity_or_date": [],
+      "prose_status": "PENDING_HUMAN_TEXT_IDENTITY_RIGHTS_AND_PUBLICATION_REVIEW",
+      "takeaway_status": "ORIGINAL_EDITORIAL_REFLECTION_NOT_QUOTATION",
+      "claims": [
+        {
+          "locations": [
+            "intro",
+            "body"
+          ],
+          "kind": "source_based_summary_with_explicit_tradition_attribution",
+          "source_ids": [
+            "ks01-b1-platon-ancyra-martyr"
+          ]
+        },
+        {
+          "locations": [
+            "takeaway"
+          ],
+          "kind": "editorial_reflection",
+          "source_ids": []
+        }
+      ],
+      "word_counts": {
+        "sr-Cyrl": 115,
+        "sr-Latn": 115
+      }
+    },
+    {
+      "date": "2026-12-02",
+      "julian_date": "2026-11-19",
+      "calendar_title": {
+        "sr-Cyrl": "Свети пророк Авдија",
+        "sr-Latn": "Sveti prorok Avdija"
+      },
+      "calendar_source_ids": [
+        "eparhija-month-12"
+      ],
+      "article_id": "obadiah-prophet",
+      "subject_id": "saint-obadiah-prophet",
+      "observance_id": "obs-obadiah-prophet",
+      "occurrence_id": "occ-obs-obadiah-prophet-2026",
+      "operation": {
+        "article": "new_pending",
+        "subject": "add_pending",
+        "observance": "add_pending",
+        "occurrence": "add_pending",
+        "article_link": "add_pending"
+      },
+      "source_ids": [
+        "ks01-b1-obadiah-prophet"
+      ],
+      "identity_note": "Повезивање са Ахавовим дворанином изричито је означено као предање, не независно утврђена историјска идентификација.",
+      "canonical_source_commemoration_month_day": "11-19",
+      "date_evidence": {
+        "kind": "EXACT_APPROVED_ANNUAL_ROW_NOT_COMPUTED",
+        "calendar_payload_sha256": "a1b6a5d5911ae03f77802bd466227f0c1ea4fe97708b1b6f92cd4b08847c7c9c",
+        "source_records": [
+          {
+            "id": "eparhija-month-12",
+            "url": "https://www.eparhija.at/kalendar?m=2026-12",
+            "effective_url": "https://www.eparhija.at/kalendar?m=2026-12",
+            "fetched_at": "2026-09-15T09:42:14.710786+00:00",
+            "http_status": "200",
+            "response_sha256": "a202474d300a916f478793644737c40a1d3134a9e02e3237468db88e6d610c8c",
+            "response_bytes": 1042645,
+            "evidence_path": "docs/content-review/2026-09-15-calendar/evidence/eparhija-month-12.json",
+            "evidence_sha256": "4e383773a5e3172aaecf6d84e8d714282a436ecb2dbc6eb13ecabc0ac1f46421",
+            "title": "Епархија аустријска СПЦ — календар",
+            "evidence_path_base": "canonical_repository"
+          }
+        ],
+        "fresh_calendar_web_fetch": false,
+        "source_recorded_2026": true,
+        "complete_saint_list": false
+      },
+      "owner_approval": null,
+      "clerical_review": null,
+      "rights_review": "pending",
+      "unresolved_identity_or_date": [],
+      "prose_status": "PENDING_HUMAN_TEXT_IDENTITY_RIGHTS_AND_PUBLICATION_REVIEW",
+      "takeaway_status": "ORIGINAL_EDITORIAL_REFLECTION_NOT_QUOTATION",
+      "claims": [
+        {
+          "locations": [
+            "intro",
+            "body"
+          ],
+          "kind": "source_based_summary_with_explicit_tradition_attribution",
+          "source_ids": [
+            "ks01-b1-obadiah-prophet"
+          ]
+        },
+        {
+          "locations": [
+            "takeaway"
+          ],
+          "kind": "editorial_reflection",
+          "source_ids": []
+        }
+      ],
+      "word_counts": {
+        "sr-Cyrl": 119,
+        "sr-Latn": 119
+      }
+    },
+    {
+      "date": "2026-12-03",
+      "julian_date": "2026-11-20",
+      "calendar_title": {
+        "sr-Cyrl": "Преподобни Григорије Декаполит",
+        "sr-Latn": "Prepodobni Grigorije Dekapolit"
+      },
+      "calendar_source_ids": [
+        "eparhija-month-12"
+      ],
+      "article_id": "gregory-decapolite",
+      "subject_id": "saint-gregory-decapolite",
+      "observance_id": "obs-gregory-decapolite",
+      "occurrence_id": "occ-obs-gregory-decapolite-2026",
+      "operation": {
+        "article": "new_pending",
+        "subject": "add_pending",
+        "observance": "add_pending",
+        "occurrence": "add_pending",
+        "article_link": "add_pending"
+      },
+      "source_ids": [
+        "ks01-b1-gregory-decapolite"
+      ],
+      "identity_note": "Година упокојења из једног извора није преузета; нема спајања са Григоријем Чудотворцем.",
+      "canonical_source_commemoration_month_day": "11-20",
+      "date_evidence": {
+        "kind": "EXACT_APPROVED_ANNUAL_ROW_NOT_COMPUTED",
+        "calendar_payload_sha256": "a1b6a5d5911ae03f77802bd466227f0c1ea4fe97708b1b6f92cd4b08847c7c9c",
+        "source_records": [
+          {
+            "id": "eparhija-month-12",
+            "url": "https://www.eparhija.at/kalendar?m=2026-12",
+            "effective_url": "https://www.eparhija.at/kalendar?m=2026-12",
+            "fetched_at": "2026-09-15T09:42:14.710786+00:00",
+            "http_status": "200",
+            "response_sha256": "a202474d300a916f478793644737c40a1d3134a9e02e3237468db88e6d610c8c",
+            "response_bytes": 1042645,
+            "evidence_path": "docs/content-review/2026-09-15-calendar/evidence/eparhija-month-12.json",
+            "evidence_sha256": "4e383773a5e3172aaecf6d84e8d714282a436ecb2dbc6eb13ecabc0ac1f46421",
+            "title": "Епархија аустријска СПЦ — календар",
+            "evidence_path_base": "canonical_repository"
+          }
+        ],
+        "fresh_calendar_web_fetch": false,
+        "source_recorded_2026": true,
+        "complete_saint_list": false
+      },
+      "owner_approval": null,
+      "clerical_review": null,
+      "rights_review": "pending",
+      "unresolved_identity_or_date": [],
+      "prose_status": "PENDING_HUMAN_TEXT_IDENTITY_RIGHTS_AND_PUBLICATION_REVIEW",
+      "takeaway_status": "ORIGINAL_EDITORIAL_REFLECTION_NOT_QUOTATION",
+      "claims": [
+        {
+          "locations": [
+            "intro",
+            "body"
+          ],
+          "kind": "source_based_summary_with_explicit_tradition_attribution",
+          "source_ids": [
+            "ks01-b1-gregory-decapolite"
+          ]
+        },
+        {
+          "locations": [
+            "takeaway"
+          ],
+          "kind": "editorial_reflection",
+          "source_ids": []
+        }
+      ],
+      "word_counts": {
+        "sr-Cyrl": 118,
+        "sr-Latn": 118
+      }
+    },
+    {
+      "date": "2026-12-04",
+      "julian_date": "2026-11-21",
+      "calendar_title": {
+        "sr-Cyrl": "Ваведење Пресвете Богородице",
+        "sr-Latn": "Vavedenje Presvete Bogorodice"
+      },
+      "calendar_source_ids": [
+        "eparhija-month-12"
+      ],
+      "article_id": "entry-theotokos-temple",
+      "subject_id": null,
+      "observance_id": "obs-entry-theotokos",
+      "occurrence_id": "occ-obs-entry-theotokos-2026",
+      "operation": {
+        "article": "new_pending",
+        "subject": "none_for_feast",
+        "observance": "reuse",
+        "occurrence": "reuse",
+        "article_link": "add_pending"
+      },
+      "source_ids": [
+        "ks01-b1-entry-theotokos-temple"
+      ],
+      "identity_note": "Постојећи празник и годишња појава се користе без измена. Извор је основни OCA текст, не придодата беседа Светог Григорија Паламе.",
+      "canonical_source_commemoration_month_day": "11-21",
+      "date_evidence": {
+        "kind": "EXACT_APPROVED_ANNUAL_ROW_NOT_COMPUTED",
+        "calendar_payload_sha256": "a1b6a5d5911ae03f77802bd466227f0c1ea4fe97708b1b6f92cd4b08847c7c9c",
+        "source_records": [
+          {
+            "id": "eparhija-month-12",
+            "url": "https://www.eparhija.at/kalendar?m=2026-12",
+            "effective_url": "https://www.eparhija.at/kalendar?m=2026-12",
+            "fetched_at": "2026-09-15T09:42:14.710786+00:00",
+            "http_status": "200",
+            "response_sha256": "a202474d300a916f478793644737c40a1d3134a9e02e3237468db88e6d610c8c",
+            "response_bytes": 1042645,
+            "evidence_path": "docs/content-review/2026-09-15-calendar/evidence/eparhija-month-12.json",
+            "evidence_sha256": "4e383773a5e3172aaecf6d84e8d714282a436ecb2dbc6eb13ecabc0ac1f46421",
+            "title": "Епархија аустријска СПЦ — календар",
+            "evidence_path_base": "canonical_repository"
+          }
+        ],
+        "fresh_calendar_web_fetch": false,
+        "source_recorded_2026": true,
+        "complete_saint_list": false
+      },
+      "owner_approval": null,
+      "clerical_review": null,
+      "rights_review": "pending",
+      "unresolved_identity_or_date": [],
+      "prose_status": "PENDING_HUMAN_TEXT_IDENTITY_RIGHTS_AND_PUBLICATION_REVIEW",
+      "takeaway_status": "ORIGINAL_EDITORIAL_REFLECTION_NOT_QUOTATION",
+      "claims": [
+        {
+          "locations": [
+            "intro",
+            "body"
+          ],
+          "kind": "source_based_summary_with_explicit_tradition_attribution",
+          "source_ids": [
+            "ks01-b1-entry-theotokos-temple"
+          ]
+        },
+        {
+          "locations": [
+            "takeaway"
+          ],
+          "kind": "editorial_reflection",
+          "source_ids": []
+        }
+      ],
+      "word_counts": {
+        "sr-Cyrl": 116,
+        "sr-Latn": 116
+      }
+    },
+    {
+      "date": "2026-12-05",
+      "julian_date": "2026-11-22",
+      "calendar_title": {
+        "sr-Cyrl": "Свети апостоли Филимон, Апфија и Архип",
+        "sr-Latn": "Sveti apostoli Filimon, Apfija i Arhip"
+      },
+      "calendar_source_ids": [
+        "eparhija-month-12"
+      ],
+      "article_id": "philemon-apphia-archippus",
+      "subject_id": "group-philemon-apphia-archippus",
+      "observance_id": "obs-philemon-apphia-archippus",
+      "occurrence_id": "occ-obs-philemon-apphia-archippus-2026",
+      "operation": {
+        "article": "new_pending",
+        "subject": "add_pending",
+        "observance": "add_pending",
+        "occurrence": "add_pending",
+        "article_link": "add_pending"
+      },
+      "source_ids": [
+        "ks01-b1-philemon-apphia-archippus"
+      ],
+      "identity_note": "Тројни SPC спомен није проширен на Онисима из дужег OCA наслова. Нема самосталних подељених субјеката.",
+      "canonical_source_commemoration_month_day": "11-22",
+      "date_evidence": {
+        "kind": "EXACT_APPROVED_ANNUAL_ROW_NOT_COMPUTED",
+        "calendar_payload_sha256": "a1b6a5d5911ae03f77802bd466227f0c1ea4fe97708b1b6f92cd4b08847c7c9c",
+        "source_records": [
+          {
+            "id": "eparhija-month-12",
+            "url": "https://www.eparhija.at/kalendar?m=2026-12",
+            "effective_url": "https://www.eparhija.at/kalendar?m=2026-12",
+            "fetched_at": "2026-09-15T09:42:14.710786+00:00",
+            "http_status": "200",
+            "response_sha256": "a202474d300a916f478793644737c40a1d3134a9e02e3237468db88e6d610c8c",
+            "response_bytes": 1042645,
+            "evidence_path": "docs/content-review/2026-09-15-calendar/evidence/eparhija-month-12.json",
+            "evidence_sha256": "4e383773a5e3172aaecf6d84e8d714282a436ecb2dbc6eb13ecabc0ac1f46421",
+            "title": "Епархија аустријска СПЦ — календар",
+            "evidence_path_base": "canonical_repository"
+          }
+        ],
+        "fresh_calendar_web_fetch": false,
+        "source_recorded_2026": true,
+        "complete_saint_list": false
+      },
+      "owner_approval": null,
+      "clerical_review": null,
+      "rights_review": "pending",
+      "unresolved_identity_or_date": [],
+      "prose_status": "PENDING_HUMAN_TEXT_IDENTITY_RIGHTS_AND_PUBLICATION_REVIEW",
+      "takeaway_status": "ORIGINAL_EDITORIAL_REFLECTION_NOT_QUOTATION",
+      "claims": [
+        {
+          "locations": [
+            "intro",
+            "body"
+          ],
+          "kind": "source_based_summary_with_explicit_tradition_attribution",
+          "source_ids": [
+            "ks01-b1-philemon-apphia-archippus"
+          ]
+        },
+        {
+          "locations": [
+            "takeaway"
+          ],
+          "kind": "editorial_reflection",
+          "source_ids": []
+        }
+      ],
+      "word_counts": {
+        "sr-Cyrl": 120,
+        "sr-Latn": 120
+      }
+    },
+    {
+      "date": "2026-12-06",
+      "julian_date": "2026-11-23",
+      "calendar_title": {
+        "sr-Cyrl": "Свети Амфилохије Иконијски",
+        "sr-Latn": "Sveti Amfilohije Ikonijski"
+      },
+      "calendar_source_ids": [
+        "eparhija-month-12"
+      ],
+      "article_id": "amphilochius-iconium",
+      "subject_id": "saint-amphilochius-iconium",
+      "observance_id": "obs-amphilochius-iconium",
+      "occurrence_id": "occ-obs-amphilochius-iconium-2026",
+      "operation": {
+        "article": "new_pending",
+        "subject": "add_pending",
+        "observance": "add_pending",
+        "occurrence": "add_pending",
+        "article_link": "add_pending"
+      },
+      "source_ids": [
+        "ks01-b1-amphilochius-iconium"
+      ],
+      "identity_note": "Идентитет је предложен на основу наведеног конкретног црквеног извора; чека људски преглед.",
+      "canonical_source_commemoration_month_day": "11-23",
+      "date_evidence": {
+        "kind": "EXACT_APPROVED_ANNUAL_ROW_NOT_COMPUTED",
+        "calendar_payload_sha256": "a1b6a5d5911ae03f77802bd466227f0c1ea4fe97708b1b6f92cd4b08847c7c9c",
+        "source_records": [
+          {
+            "id": "eparhija-month-12",
+            "url": "https://www.eparhija.at/kalendar?m=2026-12",
+            "effective_url": "https://www.eparhija.at/kalendar?m=2026-12",
+            "fetched_at": "2026-09-15T09:42:14.710786+00:00",
+            "http_status": "200",
+            "response_sha256": "a202474d300a916f478793644737c40a1d3134a9e02e3237468db88e6d610c8c",
+            "response_bytes": 1042645,
+            "evidence_path": "docs/content-review/2026-09-15-calendar/evidence/eparhija-month-12.json",
+            "evidence_sha256": "4e383773a5e3172aaecf6d84e8d714282a436ecb2dbc6eb13ecabc0ac1f46421",
+            "title": "Епархија аустријска СПЦ — календар",
+            "evidence_path_base": "canonical_repository"
+          }
+        ],
+        "fresh_calendar_web_fetch": false,
+        "source_recorded_2026": true,
+        "complete_saint_list": false
+      },
+      "owner_approval": null,
+      "clerical_review": null,
+      "rights_review": "pending",
+      "unresolved_identity_or_date": [],
+      "prose_status": "PENDING_HUMAN_TEXT_IDENTITY_RIGHTS_AND_PUBLICATION_REVIEW",
+      "takeaway_status": "ORIGINAL_EDITORIAL_REFLECTION_NOT_QUOTATION",
+      "claims": [
+        {
+          "locations": [
+            "intro",
+            "body"
+          ],
+          "kind": "source_based_summary_with_explicit_tradition_attribution",
+          "source_ids": [
+            "ks01-b1-amphilochius-iconium"
+          ]
+        },
+        {
+          "locations": [
+            "takeaway"
+          ],
+          "kind": "editorial_reflection",
+          "source_ids": []
+        }
+      ],
+      "word_counts": {
+        "sr-Cyrl": 118,
+        "sr-Latn": 118
+      }
+    },
+    {
+      "date": "2026-12-07",
+      "julian_date": "2026-11-24",
+      "calendar_title": {
+        "sr-Cyrl": "Света великомученица Екатерина",
+        "sr-Latn": "Sveta velikomučenica Ekaterina"
+      },
+      "calendar_source_ids": [
+        "eparhija-month-12"
+      ],
+      "article_id": "catherine-alexandria-martyr",
+      "subject_id": "saint-catherine-alexandria-martyr",
+      "observance_id": "obs-catherine-alexandria-martyr",
+      "occurrence_id": "occ-obs-catherine-alexandria-martyr-2026",
+      "operation": {
+        "article": "new_pending",
+        "subject": "add_pending",
+        "observance": "add_pending",
+        "occurrence": "add_pending",
+        "article_link": "add_pending"
+      },
+      "source_ids": [
+        "ks01-b1-catherine-alexandria-martyr",
+        "ks01-b1-catherine-spc-date"
+      ],
+      "identity_note": "OCA изричито има 24.11. и напомиње грчки 25.11; SPC извештај објављен 08.12.2021. именује славу 07.12.2021. Годишњи 2026 датум и даље потиче само из везаног календара.",
+      "canonical_source_commemoration_month_day": "11-24",
+      "date_evidence": {
+        "kind": "EXACT_APPROVED_ANNUAL_ROW_NOT_COMPUTED",
+        "calendar_payload_sha256": "a1b6a5d5911ae03f77802bd466227f0c1ea4fe97708b1b6f92cd4b08847c7c9c",
+        "source_records": [
+          {
+            "id": "eparhija-month-12",
+            "url": "https://www.eparhija.at/kalendar?m=2026-12",
+            "effective_url": "https://www.eparhija.at/kalendar?m=2026-12",
+            "fetched_at": "2026-09-15T09:42:14.710786+00:00",
+            "http_status": "200",
+            "response_sha256": "a202474d300a916f478793644737c40a1d3134a9e02e3237468db88e6d610c8c",
+            "response_bytes": 1042645,
+            "evidence_path": "docs/content-review/2026-09-15-calendar/evidence/eparhija-month-12.json",
+            "evidence_sha256": "4e383773a5e3172aaecf6d84e8d714282a436ecb2dbc6eb13ecabc0ac1f46421",
+            "title": "Епархија аустријска СПЦ — календар",
+            "evidence_path_base": "canonical_repository"
+          }
+        ],
+        "fresh_calendar_web_fetch": false,
+        "source_recorded_2026": true,
+        "complete_saint_list": false
+      },
+      "owner_approval": null,
+      "clerical_review": null,
+      "rights_review": "pending",
+      "unresolved_identity_or_date": [],
+      "prose_status": "PENDING_HUMAN_TEXT_IDENTITY_RIGHTS_AND_PUBLICATION_REVIEW",
+      "takeaway_status": "ORIGINAL_EDITORIAL_REFLECTION_NOT_QUOTATION",
+      "claims": [
+        {
+          "locations": [
+            "intro",
+            "body"
+          ],
+          "kind": "source_based_summary_with_explicit_tradition_attribution",
+          "source_ids": [
+            "ks01-b1-catherine-alexandria-martyr"
+          ]
+        },
+        {
+          "locations": [
+            "takeaway"
+          ],
+          "kind": "editorial_reflection",
+          "source_ids": []
+        }
+      ],
+      "word_counts": {
+        "sr-Cyrl": 121,
+        "sr-Latn": 121
+      }
+    },
+    {
+      "date": "2026-12-08",
+      "julian_date": "2026-11-25",
+      "calendar_title": {
+        "sr-Cyrl": "Свети свештеномученик Климент",
+        "sr-Latn": "Sveti sveštenomučenik Kliment"
+      },
+      "calendar_source_ids": [
+        "eparhija-month-12"
+      ],
+      "article_id": "clement-rome-hieromartyr",
+      "subject_id": "saint-clement-rome-hieromartyr",
+      "observance_id": "obs-clement-rome-hieromartyr",
+      "occurrence_id": "occ-obs-clement-rome-hieromartyr-2026",
+      "operation": {
+        "article": "new_pending",
+        "subject": "add_pending",
+        "observance": "add_pending",
+        "occurrence": "add_pending",
+        "article_link": "add_pending"
+      },
+      "source_ids": [
+        "ks01-b1-clement-rome-hieromartyr"
+      ],
+      "identity_note": "Кратак годишњи назив разјашњен конкретним извором: Римски, не Анкирски/Охридски. Тврдња о ауторству обе посланице Коринћанима није преузета.",
+      "canonical_source_commemoration_month_day": "11-25",
+      "date_evidence": {
+        "kind": "EXACT_APPROVED_ANNUAL_ROW_NOT_COMPUTED",
+        "calendar_payload_sha256": "a1b6a5d5911ae03f77802bd466227f0c1ea4fe97708b1b6f92cd4b08847c7c9c",
+        "source_records": [
+          {
+            "id": "eparhija-month-12",
+            "url": "https://www.eparhija.at/kalendar?m=2026-12",
+            "effective_url": "https://www.eparhija.at/kalendar?m=2026-12",
+            "fetched_at": "2026-09-15T09:42:14.710786+00:00",
+            "http_status": "200",
+            "response_sha256": "a202474d300a916f478793644737c40a1d3134a9e02e3237468db88e6d610c8c",
+            "response_bytes": 1042645,
+            "evidence_path": "docs/content-review/2026-09-15-calendar/evidence/eparhija-month-12.json",
+            "evidence_sha256": "4e383773a5e3172aaecf6d84e8d714282a436ecb2dbc6eb13ecabc0ac1f46421",
+            "title": "Епархија аустријска СПЦ — календар",
+            "evidence_path_base": "canonical_repository"
+          }
+        ],
+        "fresh_calendar_web_fetch": false,
+        "source_recorded_2026": true,
+        "complete_saint_list": false
+      },
+      "owner_approval": null,
+      "clerical_review": null,
+      "rights_review": "pending",
+      "unresolved_identity_or_date": [],
+      "prose_status": "PENDING_HUMAN_TEXT_IDENTITY_RIGHTS_AND_PUBLICATION_REVIEW",
+      "takeaway_status": "ORIGINAL_EDITORIAL_REFLECTION_NOT_QUOTATION",
+      "claims": [
+        {
+          "locations": [
+            "intro",
+            "body"
+          ],
+          "kind": "source_based_summary_with_explicit_tradition_attribution",
+          "source_ids": [
+            "ks01-b1-clement-rome-hieromartyr"
+          ]
+        },
+        {
+          "locations": [
+            "takeaway"
+          ],
+          "kind": "editorial_reflection",
+          "source_ids": []
+        }
+      ],
+      "word_counts": {
+        "sr-Cyrl": 125,
+        "sr-Latn": 125
+      }
+    },
+    {
+      "date": "2026-12-09",
+      "julian_date": "2026-11-26",
+      "calendar_title": {
+        "sr-Cyrl": "Преподобни Алимпије Столпник",
+        "sr-Latn": "Prepodobni Alimpije Stolpnik"
+      },
+      "calendar_source_ids": [
+        "eparhija-month-12"
+      ],
+      "article_id": "alypius-stylite-adrianopolis",
+      "subject_id": "saint-alypius-stylite-adrianopolis",
+      "observance_id": "obs-alypius-stylite-adrianopolis",
+      "occurrence_id": "occ-obs-alypius-stylite-adrianopolis-2026",
+      "operation": {
+        "article": "new_pending",
+        "subject": "add_pending",
+        "observance": "add_pending",
+        "occurrence": "add_pending",
+        "article_link": "add_pending"
+      },
+      "source_ids": [
+        "ks01-b1-alypius-stylite-adrianopolis"
+      ],
+      "identity_note": "Није Алимпије Печерски иконописац; година 0201 у URL-у није датум објаве.",
+      "canonical_source_commemoration_month_day": "11-26",
+      "date_evidence": {
+        "kind": "EXACT_APPROVED_ANNUAL_ROW_NOT_COMPUTED",
+        "calendar_payload_sha256": "a1b6a5d5911ae03f77802bd466227f0c1ea4fe97708b1b6f92cd4b08847c7c9c",
+        "source_records": [
+          {
+            "id": "eparhija-month-12",
+            "url": "https://www.eparhija.at/kalendar?m=2026-12",
+            "effective_url": "https://www.eparhija.at/kalendar?m=2026-12",
+            "fetched_at": "2026-09-15T09:42:14.710786+00:00",
+            "http_status": "200",
+            "response_sha256": "a202474d300a916f478793644737c40a1d3134a9e02e3237468db88e6d610c8c",
+            "response_bytes": 1042645,
+            "evidence_path": "docs/content-review/2026-09-15-calendar/evidence/eparhija-month-12.json",
+            "evidence_sha256": "4e383773a5e3172aaecf6d84e8d714282a436ecb2dbc6eb13ecabc0ac1f46421",
+            "title": "Епархија аустријска СПЦ — календар",
+            "evidence_path_base": "canonical_repository"
+          }
+        ],
+        "fresh_calendar_web_fetch": false,
+        "source_recorded_2026": true,
+        "complete_saint_list": false
+      },
+      "owner_approval": null,
+      "clerical_review": null,
+      "rights_review": "pending",
+      "unresolved_identity_or_date": [],
+      "prose_status": "PENDING_HUMAN_TEXT_IDENTITY_RIGHTS_AND_PUBLICATION_REVIEW",
+      "takeaway_status": "ORIGINAL_EDITORIAL_REFLECTION_NOT_QUOTATION",
+      "claims": [
+        {
+          "locations": [
+            "intro",
+            "body"
+          ],
+          "kind": "source_based_summary_with_explicit_tradition_attribution",
+          "source_ids": [
+            "ks01-b1-alypius-stylite-adrianopolis"
+          ]
+        },
+        {
+          "locations": [
+            "takeaway"
+          ],
+          "kind": "editorial_reflection",
+          "source_ids": []
+        }
+      ],
+      "word_counts": {
+        "sr-Cyrl": 122,
+        "sr-Latn": 122
+      }
+    },
+    {
+      "date": "2026-12-10",
+      "julian_date": "2026-11-27",
+      "calendar_title": {
+        "sr-Cyrl": "Свети мученик Јаков Персијанац",
+        "sr-Latn": "Sveti mučenik Jakov Persijanac"
+      },
+      "calendar_source_ids": [
+        "eparhija-month-12"
+      ],
+      "article_id": "james-persian-martyr",
+      "subject_id": "saint-james-persian-martyr",
+      "observance_id": "obs-james-persian-martyr",
+      "occurrence_id": "occ-obs-james-persian-martyr-2026",
+      "operation": {
+        "article": "new_pending",
+        "subject": "add_pending",
+        "observance": "add_pending",
+        "occurrence": "add_pending",
+        "article_link": "add_pending"
+      },
+      "source_ids": [
+        "ks01-b1-james-persian-martyr"
+      ],
+      "identity_note": "Персијски мученик, не Јаков Ростовски; нема графичког препричавања мучења.",
+      "canonical_source_commemoration_month_day": "11-27",
+      "date_evidence": {
+        "kind": "EXACT_APPROVED_ANNUAL_ROW_NOT_COMPUTED",
+        "calendar_payload_sha256": "a1b6a5d5911ae03f77802bd466227f0c1ea4fe97708b1b6f92cd4b08847c7c9c",
+        "source_records": [
+          {
+            "id": "eparhija-month-12",
+            "url": "https://www.eparhija.at/kalendar?m=2026-12",
+            "effective_url": "https://www.eparhija.at/kalendar?m=2026-12",
+            "fetched_at": "2026-09-15T09:42:14.710786+00:00",
+            "http_status": "200",
+            "response_sha256": "a202474d300a916f478793644737c40a1d3134a9e02e3237468db88e6d610c8c",
+            "response_bytes": 1042645,
+            "evidence_path": "docs/content-review/2026-09-15-calendar/evidence/eparhija-month-12.json",
+            "evidence_sha256": "4e383773a5e3172aaecf6d84e8d714282a436ecb2dbc6eb13ecabc0ac1f46421",
+            "title": "Епархија аустријска СПЦ — календар",
+            "evidence_path_base": "canonical_repository"
+          }
+        ],
+        "fresh_calendar_web_fetch": false,
+        "source_recorded_2026": true,
+        "complete_saint_list": false
+      },
+      "owner_approval": null,
+      "clerical_review": null,
+      "rights_review": "pending",
+      "unresolved_identity_or_date": [],
+      "prose_status": "PENDING_HUMAN_TEXT_IDENTITY_RIGHTS_AND_PUBLICATION_REVIEW",
+      "takeaway_status": "ORIGINAL_EDITORIAL_REFLECTION_NOT_QUOTATION",
+      "claims": [
+        {
+          "locations": [
+            "intro",
+            "body"
+          ],
+          "kind": "source_based_summary_with_explicit_tradition_attribution",
+          "source_ids": [
+            "ks01-b1-james-persian-martyr"
+          ]
+        },
+        {
+          "locations": [
+            "takeaway"
+          ],
+          "kind": "editorial_reflection",
+          "source_ids": []
+        }
+      ],
+      "word_counts": {
+        "sr-Cyrl": 115,
+        "sr-Latn": 115
+      }
+    }
+  ],
+  "articles": [
+    {
+      "id": "thirty-three-martyrs-melitene",
+      "revision": 1,
+      "type": "group",
+      "subtype": null,
+      "source_ids": [
+        "ks01-b1-thirty-three-martyrs-melitene"
+      ],
+      "content": {
+        "sr-Cyrl": {
+          "title": "Света тридесет три мученика у Мелитини",
+          "intro": "Црква заједно памти Јерона и његове сапострадалнике из Мелитине. Њихово житије говори о људима који су под притиском сачували верност Христу.",
+          "body": [
+            "Јерон је потицао из Тијане у Кападокији, где га је мајка одгајала у вери. Према житију, после сукоба око војне службе доспео је у Мелитину. Тамо је са тридесет двојицом других заточеника одбио да принесе жртву незнабожачким боговима. После затварања и мучења били су погубљени. Хришћани су се побринули за њихову сахрану, а црквени спомен чува њихово заједничко сведочење."
+          ],
+          "takeaway": "Издвајамо снагу узајамне подршке: тешкоћу је лакше носити када човек није остављен сам. Можемо данас охрабрити некога ко је под притиском, без великих речи и без очекивања да нам узврати."
+        },
+        "sr-Latn": {
+          "title": "Sveta trideset tri mučenika u Melitini",
+          "intro": "Crkva zajedno pamti Jerona i njegove sapostradalnike iz Melitine. Njihovo žitije govori o ljudima koji su pod pritiskom sačuvali vernost Hristu.",
+          "body": [
+            "Jeron je poticao iz Tijane u Kapadokiji, gde ga je majka odgajala u veri. Prema žitiju, posle sukoba oko vojne službe dospeo je u Melitinu. Tamo je sa trideset dvojicom drugih zatočenika odbio da prinese žrtvu neznabožačkim bogovima. Posle zatvaranja i mučenja bili su pogubljeni. Hrišćani su se pobrinuli za njihovu sahranu, a crkveni spomen čuva njihovo zajedničko svedočenje."
+          ],
+          "takeaway": "Izdvajamo snagu uzajamne podrške: teškoću je lakše nositi kada čovek nije ostavljen sam. Možemo danas ohrabriti nekoga ko je pod pritiskom, bez velikih reči i bez očekivanja da nam uzvrati."
+        }
+      }
+    },
+    {
+      "id": "michael-bodiless-powers-synaxis",
+      "revision": 1,
+      "type": "feast",
+      "subtype": "feast",
+      "source_ids": [
+        "ks01-b1-michael-bodiless-powers-synaxis"
+      ],
+      "content": {
+        "sr-Cyrl": {
+          "title": "Сабор Архангела Михаила и осталих небеских сила",
+          "intro": "Аранђеловдан је саборни спомен Архангела Михаила и осталих небеских сила. Празник усмерава пажњу на њихово служење Богу, а не на обожавање анђела.",
+          "body": [
+            "Црквено предање назива Михаила предводником небеских сила и описује га као верног Божјег слугу. У истом празничном спомену анђели се памте као весници, помоћници и чувари који људе упућују ка добру. Различити називи анђелских чинова изражавају различите службе, али не раздвајају њихову усмереност ка Богу. Овај сабор није исто што и посебан спомен Михаиловог чуда у Хони."
+          ],
+          "takeaway": "Издвајамо служење без истицања себе. Добро дело не мора да буде примећено да би било вредно. У свом окружењу можемо понудити помоћ тихо, поштујући слободу и достојанство онога коме је намењена."
+        },
+        "sr-Latn": {
+          "title": "Sabor Arhangela Mihaila i ostalih nebeskih sila",
+          "intro": "Aranđelovdan je saborni spomen Arhangela Mihaila i ostalih nebeskih sila. Praznik usmerava pažnju na njihovo služenje Bogu, a ne na obožavanje anđela.",
+          "body": [
+            "Crkveno predanje naziva Mihaila predvodnikom nebeskih sila i opisuje ga kao vernog Božjeg slugu. U istom prazničnom spomenu anđeli se pamte kao vesnici, pomoćnici i čuvari koji ljude upućuju ka dobru. Različiti nazivi anđelskih činova izražavaju različite službe, ali ne razdvajaju njihovu usmerenost ka Bogu. Ovaj sabor nije isto što i poseban spomen Mihailovog čuda u Honi."
+          ],
+          "takeaway": "Izdvajamo služenje bez isticanja sebe. Dobro delo ne mora da bude primećeno da bi bilo vredno. U svom okruženju možemo ponuditi pomoć tiho, poštujući slobodu i dostojanstvo onoga kome je namenjena."
+        }
+      }
+    },
+    {
+      "id": "onesiphorus-porphyrius-ephesus",
+      "revision": 1,
+      "type": "group",
+      "subtype": null,
+      "source_ids": [
+        "ks01-b1-onesiphorus-porphyrius-ephesus"
+      ],
+      "content": {
+        "sr-Cyrl": {
+          "title": "Свети мученици Онисифор и Порфирије",
+          "intro": "Онисифор и Порфирије заједно се помињу међу ефеским мученицима. Кратко житије везује њихово страдање за прогон хришћана у време цара Диоклецијана.",
+          "body": [
+            "Сачувани црквени запис усредсређен је на њихово мучеништво: били су изложени тешком насиљу и умрли су од задобијених повреда. Верници су потом сабрали њихове посмртне остатке и сахранили их са поштовањем. Извор не даје подробну причу о њиховим породицама, занимањима или претходном животу. Њихова имена остају повезана у заједничком спомену."
+          ],
+          "takeaway": "Издвајамо поштовање према страдалима, чак и када о њима знамо мало. Недостатак подробности није позив да дописујемо туђи живот. Пажљиво сећање, саосећање и брига за достојанство човека могу бити наш тихи одговор на туђу патњу."
+        },
+        "sr-Latn": {
+          "title": "Sveti mučenici Onisifor i Porfirije",
+          "intro": "Onisifor i Porfirije zajedno se pominju među efeskim mučenicima. Kratko žitije vezuje njihovo stradanje za progon hrišćana u vreme cara Dioklecijana.",
+          "body": [
+            "Sačuvani crkveni zapis usredsređen je na njihovo mučeništvo: bili su izloženi teškom nasilju i umrli su od zadobijenih povreda. Vernici su potom sabrali njihove posmrtne ostatke i sahranili ih sa poštovanjem. Izvor ne daje podrobnu priču o njihovim porodicama, zanimanjima ili prethodnom životu. Njihova imena ostaju povezana u zajedničkom spomenu."
+          ],
+          "takeaway": "Izdvajamo poštovanje prema stradalima, čak i kada o njima znamo malo. Nedostatak podrobnosti nije poziv da dopisujemo tuđi život. Pažljivo sećanje, saosećanje i briga za dostojanstvo čoveka mogu biti naš tihi odgovor na tuđu patnju."
+        }
+      }
+    },
+    {
+      "id": "olympas-erastus-rodion-companions",
+      "revision": 1,
+      "type": "group",
+      "subtype": null,
+      "source_ids": [
+        "ks01-b1-olympas-erastus-rodion-companions"
+      ],
+      "content": {
+        "sr-Cyrl": {
+          "title": "Свети апостоли Олимп, Ераст, Родион и сапутници",
+          "intro": "Олимп, Ераст и Родион припадају кругу раних апостолских сарадника. Њихов заједнички спомен подсећа на многе људе који су служили првим хришћанским заједницама.",
+          "body": [
+            "Црквени извор повезује их са апостолом Павлом и поздравима у Посланици Римљанима. Ераст се помиње као градски благајник. Олимп и Родион у предању су повезани и са апостолом Петром и страдањем у Риму. Са њима се прослављају Сосипатар, Кварт и Тертије; за Тертија се наводи да је записао Павлову посланицу. Тако се у једном спомену сусрећу различите службе ране Цркве."
+          ],
+          "takeaway": "Издвајамо вредност сарадње. Не стоји свако пред људима и не обавља свако исти посао, али пажљиво извршен мали задатак може много значити за заједницу. Добро је препознати и захвалити онима чији рад обично не видимо."
+        },
+        "sr-Latn": {
+          "title": "Sveti apostoli Olimp, Erast, Rodion i saputnici",
+          "intro": "Olimp, Erast i Rodion pripadaju krugu ranih apostolskih saradnika. Njihov zajednički spomen podseća na mnoge ljude koji su služili prvim hrišćanskim zajednicama.",
+          "body": [
+            "Crkveni izvor povezuje ih sa apostolom Pavlom i pozdravima u Poslanici Rimljanima. Erast se pominje kao gradski blagajnik. Olimp i Rodion u predanju su povezani i sa apostolom Petrom i stradanjem u Rimu. Sa njima se proslavljaju Sosipatar, Kvart i Tertije; za Tertija se navodi da je zapisao Pavlovu poslanicu. Tako se u jednom spomenu susreću različite službe rane Crkve."
+          ],
+          "takeaway": "Izdvajamo vrednost saradnje. Ne stoji svako pred ljudima i ne obavlja svako isti posao, ali pažljivo izvršen mali zadatak može mnogo značiti za zajednicu. Dobro je prepoznati i zahvaliti onima čiji rad obično ne vidimo."
+        }
+      }
+    },
+    {
+      "id": "menas-egypt-martyr",
+      "revision": 1,
+      "type": "saint",
+      "subtype": null,
+      "source_ids": [
+        "ks01-b1-menas-egypt-martyr"
+      ],
+      "content": {
+        "sr-Cyrl": {
+          "title": "Свети великомученик Мина",
+          "intro": "Мина је био хришћанин пореклом из Египта и војник у Фригији. Житије истиче његову одлуку да не учествује у прогону других хришћана.",
+          "body": [
+            "Када је објављена наредба о приношењу жртава незнабожачким боговима, напустио је службу и повукао се у планину. Тамо се посветио молитви и подвижничком животу. Потом је јавно исповедио веру у Христа и био затворен. Ни обећање повратка војног положаја није га навело да се одрекне вере. После мучеништва његови пријатељи су сачували тело, које је касније пренето у Египат."
+          ],
+          "takeaway": "Издвајамо одговорност за сопствене поступке. Наређење, притисак средине или обећање користи не уклањају питање шта је исправно. У свакодневици можемо почети од малог: не пристати да понизимо другога ради сопствене удобности или прихватања у друштву."
+        },
+        "sr-Latn": {
+          "title": "Sveti velikomučenik Mina",
+          "intro": "Mina je bio hrišćanin poreklom iz Egipta i vojnik u Frigiji. Žitije ističe njegovu odluku da ne učestvuje u progonu drugih hrišćana.",
+          "body": [
+            "Kada je objavljena naredba o prinošenju žrtava neznabožačkim bogovima, napustio je službu i povukao se u planinu. Tamo se posvetio molitvi i podvižničkom životu. Potom je javno ispovedio veru u Hrista i bio zatvoren. Ni obećanje povratka vojnog položaja nije ga navelo da se odrekne vere. Posle mučeništva njegovi prijatelji su sačuvali telo, koje je kasnije preneto u Egipat."
+          ],
+          "takeaway": "Izdvajamo odgovornost za sopstvene postupke. Naređenje, pritisak sredine ili obećanje koristi ne uklanjaju pitanje šta je ispravno. U svakodnevici možemo početi od malog: ne pristati da ponizimo drugoga radi sopstvene udobnosti ili prihvatanja u društvu."
+        }
+      }
+    },
+    {
+      "id": "john-merciful-alexandria",
+      "revision": 1,
+      "type": "saint",
+      "subtype": null,
+      "source_ids": [
+        "ks01-b1-john-merciful-alexandria"
+      ],
+      "content": {
+        "sr-Cyrl": {
+          "title": "Свети Јован Милостиви",
+          "intro": "Јован Милостиви, патријарх александријски, у црквеном сећању нарочито је повезан са бригом за сиромашне. Његова служба обухватала је и молитву и непосредну помоћ.",
+          "body": [
+            "Потицао је са Кипра. После смрти супруге и деце прихватио је монашки живот, а касније је изабран за александријског патријарха. Према житију, организовао је редовно снабдевање потребитих из црквене ризнице. Примао је људе који су тражили помоћ, обилазио болесне и старао се о заробљеницима. Предање памти и његову спремност да затражи опроштај и да на увреду не узврати осветом."
+          ],
+          "takeaway": "Издвајамо милосрђе које има конкретан облик. Добра намера постаје помоћ тек када некоме посветимо време, храну, пажњу или подршку. Можемо се запитати ко нам је близу, а чију потребу већ дуго одлажемо да приметимо."
+        },
+        "sr-Latn": {
+          "title": "Sveti Jovan Milostivi",
+          "intro": "Jovan Milostivi, patrijarh aleksandrijski, u crkvenom sećanju naročito je povezan sa brigom za siromašne. Njegova služba obuhvatala je i molitvu i neposrednu pomoć.",
+          "body": [
+            "Poticao je sa Kipra. Posle smrti supruge i dece prihvatio je monaški život, a kasnije je izabran za aleksandrijskog patrijarha. Prema žitiju, organizovao je redovno snabdevanje potrebitih iz crkvene riznice. Primao je ljude koji su tražili pomoć, obilazio bolesne i starao se o zarobljenicima. Predanje pamti i njegovu spremnost da zatraži oproštaj i da na uvredu ne uzvrati osvetom."
+          ],
+          "takeaway": "Izdvajamo milosrđe koje ima konkretan oblik. Dobra namera postaje pomoć tek kada nekome posvetimo vreme, hranu, pažnju ili podršku. Možemo se zapitati ko nam je blizu, a čiju potrebu već dugo odlažemo da primetimo."
+        }
+      }
+    },
+    {
+      "id": "john-chrysostom-constantinople",
+      "revision": 1,
+      "type": "saint",
+      "subtype": null,
+      "source_ids": [
+        "ks01-b1-john-chrysostom-constantinople"
+      ],
+      "content": {
+        "sr-Cyrl": {
+          "title": "Свети Јован Златоусти",
+          "intro": "Јован Златоусти познат је као проповедник и тумач Светог писма. Његово црквено служење неодвојиво је од бриге за сиромашне и опомињања моћних.",
+          "body": [
+            "Одрастао је у Антиохији, где је после школовања и подвижничког живота служио као ђакон и свештеник. Његове беседе приближавале су верницима јеванђелску поруку. Када је постао цариградски архиепископ, средства је усмеравао и на помоћ болеснима, путницима и сиромашнима. Критиковање неправде донело му је сукобе и прогонство. Умро је на присилном путовању, а његова писана поука остала је важна у животу Цркве."
+          ],
+          "takeaway": "Издвајамо склад речи и дела. Убедљив говор губи снагу ако не прати стварну бригу за људе. Пре него што другоме дамо савет, можемо проверити да ли смо спремни да му посветимо пажњу и понесемо део терета."
+        },
+        "sr-Latn": {
+          "title": "Sveti Jovan Zlatousti",
+          "intro": "Jovan Zlatousti poznat je kao propovednik i tumač Svetog pisma. Njegovo crkveno služenje neodvojivo je od brige za siromašne i opominjanja moćnih.",
+          "body": [
+            "Odrastao je u Antiohiji, gde je posle školovanja i podvižničkog života služio kao đakon i sveštenik. Njegove besede približavale su vernicima jevanđelsku poruku. Kada je postao carigradski arhiepiskop, sredstva je usmeravao i na pomoć bolesnima, putnicima i siromašnima. Kritikovanje nepravde donelo mu je sukobe i progonstvo. Umro je na prisilnom putovanju, a njegova pisana pouka ostala je važna u životu Crkve."
+          ],
+          "takeaway": "Izdvajamo sklad reči i dela. Ubedljiv govor gubi snagu ako ne prati stvarnu brigu za ljude. Pre nego što drugome damo savet, možemo proveriti da li smo spremni da mu posvetimo pažnju i ponesemo deo tereta."
+        }
+      }
+    },
+    {
+      "id": "philip-apostle-twelve",
+      "revision": 1,
+      "type": "saint",
+      "subtype": null,
+      "source_ids": [
+        "ks01-b1-philip-apostle-twelve"
+      ],
+      "content": {
+        "sr-Cyrl": {
+          "title": "Свети апостол Филип",
+          "intro": "Филип из Витсаиде припада Дванаесторици Христових апостола. Није истоимени ђакон из Седамдесеторице, чији се спомен у календару налази у другом дану.",
+          "body": [
+            "Јеванђелско казивање повезује Филипа са позивом да следи Христа и са довођењем Натанаила. Помиње се и приликом храњења мноштва и сусрета са људима који желе да виде Исуса. Црквено предање затим прати његову проповед у различитим крајевима, заједно са сестром Маријамном и апостолом Вартоломејем. Његово мучеништво везује се за Јерапољ у Фригији. У средишту спомена остаје сведочење о Христу."
+          ],
+          "takeaway": "Издвајамо отвореност за сусрет. Понекад је највредније што можемо учинити да некога пажљиво саслушамо и помогнемо му да постави своје питање. Вера се не преноси притиском, већ стрпљењем, личним примером и поштовањем другога."
+        },
+        "sr-Latn": {
+          "title": "Sveti apostol Filip",
+          "intro": "Filip iz Vitsaide pripada Dvanaestorici Hristovih apostola. Nije istoimeni đakon iz Sedamdesetorice, čiji se spomen u kalendaru nalazi u drugom danu.",
+          "body": [
+            "Jevanđelsko kazivanje povezuje Filipa sa pozivom da sledi Hrista i sa dovođenjem Natanaila. Pominje se i prilikom hranjenja mnoštva i susreta sa ljudima koji žele da vide Isusa. Crkveno predanje zatim prati njegovu propoved u različitim krajevima, zajedno sa sestrom Marijamnom i apostolom Vartolomejem. Njegovo mučeništvo vezuje se za Jerapolj u Frigiji. U središtu spomena ostaje svedočenje o Hristu."
+          ],
+          "takeaway": "Izdvajamo otvorenost za susret. Ponekad je najvrednije što možemo učiniti da nekoga pažljivo saslušamo i pomognemo mu da postavi svoje pitanje. Vera se ne prenosi pritiskom, već strpljenjem, ličnim primerom i poštovanjem drugoga."
+        }
+      }
+    },
+    {
+      "id": "gurias-samonas-abibus-edessa",
+      "revision": 1,
+      "type": "group",
+      "subtype": null,
+      "source_ids": [
+        "ks01-b1-gurias-samonas-abibus-edessa"
+      ],
+      "content": {
+        "sr-Cyrl": {
+          "title": "Свети мученици Гурије, Самон и Авив",
+          "intro": "Гурије, Самон и Авив заједно се прослављају као мученици Едесе. Њихов заједнички спомен не значи да су сва тројица пострадала у истом тренутку.",
+          "body": [
+            "Гурије и Самон били су пријатељи и проповедници хришћанске вере. Према житију, одбили су да принесу незнабожачку жртву, били заточени и погубљени. Авив је био едески ђакон који је страдао у каснијем прогону. Када је сазнао да га траже, сам се јавио властима и исповедио веру. Сахрањен је уз раније мученике, па су њихова имена остала повезана у црквеном памћењу."
+          ],
+          "takeaway": "Издвајамо верност која не зависи од тога да ли нас други виде. Пријатељство и заједништво могу помоћи да истрајемо у добру. Важно је и да чувамо истину о другима, не сводећи различите животе на једну једноставну причу."
+        },
+        "sr-Latn": {
+          "title": "Sveti mučenici Gurije, Samon i Aviv",
+          "intro": "Gurije, Samon i Aviv zajedno se proslavljaju kao mučenici Edese. Njihov zajednički spomen ne znači da su sva trojica postradala u istom trenutku.",
+          "body": [
+            "Gurije i Samon bili su prijatelji i propovednici hrišćanske vere. Prema žitiju, odbili su da prinesu neznabožačku žrtvu, bili zatočeni i pogubljeni. Aviv je bio edeski đakon koji je stradao u kasnijem progonu. Kada je saznao da ga traže, sam se javio vlastima i ispovedio veru. Sahranjen je uz ranije mučenike, pa su njihova imena ostala povezana u crkvenom pamćenju."
+          ],
+          "takeaway": "Izdvajamo vernost koja ne zavisi od toga da li nas drugi vide. Prijateljstvo i zajedništvo mogu pomoći da istrajemo u dobru. Važno je i da čuvamo istinu o drugima, ne svodeći različite živote na jednu jednostavnu priču."
+        }
+      }
+    },
+    {
+      "id": "matthew-apostle-evangelist",
+      "revision": 1,
+      "type": "saint",
+      "subtype": null,
+      "source_ids": [
+        "ks01-b1-matthew-apostle-evangelist"
+      ],
+      "content": {
+        "sr-Cyrl": {
+          "title": "Свети апостол и јеванђелист Матеј",
+          "intro": "Матеј, назван и Левије, био је цариник пре него што је пошао за Христом. Црква га памти међу Дванаесторицом апостола и као јеванђелисту.",
+          "body": [
+            "Јеванђелско казивање описује његов позив усред свакодневног посла. Матеј је напустио царинарницу, а потом је у свом дому угостио Исуса и ученике заједно са својим познаницима. Тај сусрет истиче Христов позив грешницима на покајање. Као апостол слушао је Учитеља и сведочио о њему. Црквено предање повезује његово име са Јеванђељем које прво стоји у новозаветном поретку књига и објављује Христа као обећаног Месију."
+          ],
+          "takeaway": "Издвајамо могућност новог почетка. Човека не треба заувек затворити у његову прошлост или занимање. Истовремено, промена тражи одговор: мали поштен поступак данас може бити важнији од дугог објашњавања зашто јуче нисмо могли другачије."
+        },
+        "sr-Latn": {
+          "title": "Sveti apostol i jevanđelist Matej",
+          "intro": "Matej, nazvan i Levije, bio je carinik pre nego što je pošao za Hristom. Crkva ga pamti među Dvanaestoricom apostola i kao jevanđelistu.",
+          "body": [
+            "Jevanđelsko kazivanje opisuje njegov poziv usred svakodnevnog posla. Matej je napustio carinarnicu, a potom je u svom domu ugostio Isusa i učenike zajedno sa svojim poznanicima. Taj susret ističe Hristov poziv grešnicima na pokajanje. Kao apostol slušao je Učitelja i svedočio o njemu. Crkveno predanje povezuje njegovo ime sa Jevanđeljem koje prvo stoji u novozavetnom poretku knjiga i objavljuje Hrista kao obećanog Mesiju."
+          ],
+          "takeaway": "Izdvajamo mogućnost novog početka. Čoveka ne treba zauvek zatvoriti u njegovu prošlost ili zanimanje. Istovremeno, promena traži odgovor: mali pošten postupak danas može biti važniji od dugog objašnjavanja zašto juče nismo mogli drugačije."
+        }
+      }
+    },
+    {
+      "id": "gregory-wonderworker-neocaesarea",
+      "revision": 1,
+      "type": "saint",
+      "subtype": null,
+      "source_ids": [
+        "ks01-b1-gregory-wonderworker-neocaesarea"
+      ],
+      "content": {
+        "sr-Cyrl": {
+          "title": "Свети Григорије Чудотворац",
+          "intro": "Григорије Чудотворац био је епископ Неокесарије. Црквено предање у његовом животу повезује тражење истине, подвижничку молитву и бригу за поверени народ.",
+          "body": [
+            "Потицао је из нехришћанске породице и стекао образовање пре прихватања хришћанства. После учења и повлачења у самоћу постао је епископ свога града. Житије га описује као проповедника који је помагао потребитима и посредовао у споровима. Током прогона старао се да вернике склони на сигурније место. Назив Чудотворац припада црквеном сећању на чуда која се у предању везују за његову молитву."
+          ],
+          "takeaway": "Издвајамо учење које води одговорности. Знање није само оно што можемо да поновимо, него и начин на који слушамо људе и решавамо сукобе. У некој малој расправи данас можемо покушати да будемо посредник, а не нови извор напетости."
+        },
+        "sr-Latn": {
+          "title": "Sveti Grigorije Čudotvorac",
+          "intro": "Grigorije Čudotvorac bio je episkop Neokesarije. Crkveno predanje u njegovom životu povezuje traženje istine, podvižničku molitvu i brigu za povereni narod.",
+          "body": [
+            "Poticao je iz nehrišćanske porodice i stekao obrazovanje pre prihvatanja hrišćanstva. Posle učenja i povlačenja u samoću postao je episkop svoga grada. Žitije ga opisuje kao propovednika koji je pomagao potrebitima i posredovao u sporovima. Tokom progona starao se da vernike skloni na sigurnije mesto. Naziv Čudotvorac pripada crkvenom sećanju na čuda koja se u predanju vezuju za njegovu molitvu."
+          ],
+          "takeaway": "Izdvajamo učenje koje vodi odgovornosti. Znanje nije samo ono što možemo da ponovimo, nego i način na koji slušamo ljude i rešavamo sukobe. U nekoj maloj raspravi danas možemo pokušati da budemo posrednik, a ne novi izvor napetosti."
+        }
+      }
+    },
+    {
+      "id": "platon-ancyra-martyr",
+      "revision": 1,
+      "type": "saint",
+      "subtype": null,
+      "source_ids": [
+        "ks01-b1-platon-ancyra-martyr"
+      ],
+      "content": {
+        "sr-Cyrl": {
+          "title": "Свети мученик Платон",
+          "intro": "Мученик Платон потицао је из Анкире у Галатији. Његово житије описује младог хришћанина који је јавно говорио о вери и остао јој привржен.",
+          "body": [
+            "Према црквеном извору, путовао је и проповедао, због чега је изведен пред управника Агрипина. Услов за понуђене почасти и повољан положај било је одрицање од Христа. Платон је то одбио. Ни затвор ни мучење нису променили његову одлуку, па је погубљен. Црква га прославља као мученика; његов идентитет припада овој анкирској причи, а не истоименом античком философу."
+          ],
+          "takeaway": "Издвајамо слободу савести и меру у обећањима успеха. Није свака понуђена предност добра ако тражи да се одрекнемо онога што сматрамо истинитим. Можемо пажљиво проверити цену неког малог компромиса пре него што на њега пристанемо."
+        },
+        "sr-Latn": {
+          "title": "Sveti mučenik Platon",
+          "intro": "Mučenik Platon poticao je iz Ankire u Galatiji. Njegovo žitije opisuje mladog hrišćanina koji je javno govorio o veri i ostao joj privržen.",
+          "body": [
+            "Prema crkvenom izvoru, putovao je i propovedao, zbog čega je izveden pred upravnika Agripina. Uslov za ponuđene počasti i povoljan položaj bilo je odricanje od Hrista. Platon je to odbio. Ni zatvor ni mučenje nisu promenili njegovu odluku, pa je pogubljen. Crkva ga proslavlja kao mučenika; njegov identitet pripada ovoj ankirskoj priči, a ne istoimenom antičkom filosofu."
+          ],
+          "takeaway": "Izdvajamo slobodu savesti i meru u obećanjima uspeha. Nije svaka ponuđena prednost dobra ako traži da se odreknemo onoga što smatramo istinitim. Možemo pažljivo proveriti cenu nekog malog kompromisa pre nego što na njega pristanemo."
+        }
+      }
+    },
+    {
+      "id": "obadiah-prophet",
+      "revision": 1,
+      "type": "saint",
+      "subtype": null,
+      "source_ids": [
+        "ks01-b1-obadiah-prophet"
+      ],
+      "content": {
+        "sr-Cyrl": {
+          "title": "Свети пророк Авдија",
+          "intro": "Авдија је један од дванаест малих пророка Старог завета. Тај назив односи се на краткоћу пророчких књига, а не на мању вредност њихове поруке.",
+          "body": [
+            "Црквено житијско предање повезује пророка Авдију са човеком који је служио на двору цара Ахава и поштовао Бога. За време Језавељиног прогона скривао је пророке и доносио им храну. Исто предање говори о његовој повезаности са пророком Илијом. Ове животне појединости припадају предањском тумачењу идентитета пророка. Књига која носи Авдијино име чува његово пророчко сведочење у старозаветном зборнику."
+          ],
+          "takeaway": "Издвајамо помоћ која се пружа и када није лако бити виђен уз угроженога. Храброст понекад почиње од хране, склоништа или пажљиво сачуваног поверења. Не морамо имати велики утицај да бисмо некоме олакшали дан и сачували његово достојанство."
+        },
+        "sr-Latn": {
+          "title": "Sveti prorok Avdija",
+          "intro": "Avdija je jedan od dvanaest malih proroka Starog zaveta. Taj naziv odnosi se na kratkoću proročkih knjiga, a ne na manju vrednost njihove poruke.",
+          "body": [
+            "Crkveno žitijsko predanje povezuje proroka Avdiju sa čovekom koji je služio na dvoru cara Ahava i poštovao Boga. Za vreme Jezaveljinog progona skrivao je proroke i donosio im hranu. Isto predanje govori o njegovoj povezanosti sa prorokom Ilijom. Ove životne pojedinosti pripadaju predanjskom tumačenju identiteta proroka. Knjiga koja nosi Avdijino ime čuva njegovo proročko svedočenje u starozavetnom zborniku."
+          ],
+          "takeaway": "Izdvajamo pomoć koja se pruža i kada nije lako biti viđen uz ugroženoga. Hrabrost ponekad počinje od hrane, skloništa ili pažljivo sačuvanog poverenja. Ne moramo imati veliki uticaj da bismo nekome olakšali dan i sačuvali njegovo dostojanstvo."
+        }
+      }
+    },
+    {
+      "id": "gregory-decapolite",
+      "revision": 1,
+      "type": "saint",
+      "subtype": null,
+      "source_ids": [
+        "ks01-b1-gregory-decapolite"
+      ],
+      "content": {
+        "sr-Cyrl": {
+          "title": "Преподобни Григорије Декаполит",
+          "intro": "Григорије Декаполит потицао је из исавријског Декапоља. Црквено житије памти га као монаха који је молитвени живот повезао са подршком прогоњеним верницима.",
+          "body": [
+            "Напустио је родитељски дом желећи подвижнички живот уместо припремљеног брака. Предање затим описује његова путовања и боравак у различитим монашким срединама, међу њима у манастиру Светог Мине код Солуна. У време иконоборачких спорова бранио је поштовање светих икона и храбрио оне који су због вере трпели притисак. Његова тишина није значила равнодушност према невољама других, већ је стајала уз делатно сведочење."
+          ],
+          "takeaway": "Издвајамо мир који не бежи од одговорности. Потребно нам је време за сабирање, али и спремност да чујемо туђу тешкоћу. Кратак разговор, посета или реч охрабрења могу бити једноставан начин да тишина прерасте у бригу."
+        },
+        "sr-Latn": {
+          "title": "Prepodobni Grigorije Dekapolit",
+          "intro": "Grigorije Dekapolit poticao je iz isavrijskog Dekapolja. Crkveno žitije pamti ga kao monaha koji je molitveni život povezao sa podrškom progonjenim vernicima.",
+          "body": [
+            "Napustio je roditeljski dom želeći podvižnički život umesto pripremljenog braka. Predanje zatim opisuje njegova putovanja i boravak u različitim monaškim sredinama, među njima u manastiru Svetog Mine kod Soluna. U vreme ikonoboračkih sporova branio je poštovanje svetih ikona i hrabrio one koji su zbog vere trpeli pritisak. Njegova tišina nije značila ravnodušnost prema nevoljama drugih, već je stajala uz delatno svedočenje."
+          ],
+          "takeaway": "Izdvajamo mir koji ne beži od odgovornosti. Potrebno nam je vreme za sabiranje, ali i spremnost da čujemo tuđu teškoću. Kratak razgovor, poseta ili reč ohrabrenja mogu biti jednostavan način da tišina preraste u brigu."
+        }
+      }
+    },
+    {
+      "id": "entry-theotokos-temple",
+      "revision": 1,
+      "type": "feast",
+      "subtype": "feast",
+      "source_ids": [
+        "ks01-b1-entry-theotokos-temple"
+      ],
+      "content": {
+        "sr-Cyrl": {
+          "title": "Ваведење Пресвете Богородице",
+          "intro": "Ваведење слави увођење Пресвете Богородице у храм. Догађај припада црквеном предању о Маријином детињству и њеном посвећењу Богу од најранијих година.",
+          "body": [
+            "Према том предању, Јоаким и Ана довели су трогодишњу Марију у јерусалимски храм, испуњавајући свој завет. Њено одрастање приказано је кроз молитву и живот уз светињу. Празник се у Цркви тумачи као припрема и најава Христовог доласка. У његовом средишту није подробан историјски опис свакодневице, него Богородичино поверење Богу и место које она има у тајни спасења."
+          ],
+          "takeaway": "Издвајамо пажљиво неговање онога што нам је поверено. Родитељска и свака друга брига тражи стрпљење, пример и поштовање личности. Можемо данас направити мало простора за мир, захвалност и заједнички разговор, без журбе да све одмах постане видљив резултат."
+        },
+        "sr-Latn": {
+          "title": "Vavedenje Presvete Bogorodice",
+          "intro": "Vavedenje slavi uvođenje Presvete Bogorodice u hram. Događaj pripada crkvenom predanju o Marijinom detinjstvu i njenom posvećenju Bogu od najranijih godina.",
+          "body": [
+            "Prema tom predanju, Joakim i Ana doveli su trogodišnju Mariju u jerusalimski hram, ispunjavajući svoj zavet. Njeno odrastanje prikazano je kroz molitvu i život uz svetinju. Praznik se u Crkvi tumači kao priprema i najava Hristovog dolaska. U njegovom središtu nije podroban istorijski opis svakodnevice, nego Bogorodičino poverenje Bogu i mesto koje ona ima u tajni spasenja."
+          ],
+          "takeaway": "Izdvajamo pažljivo negovanje onoga što nam je povereno. Roditeljska i svaka druga briga traži strpljenje, primer i poštovanje ličnosti. Možemo danas napraviti malo prostora za mir, zahvalnost i zajednički razgovor, bez žurbe da sve odmah postane vidljiv rezultat."
+        }
+      }
+    },
+    {
+      "id": "philemon-apphia-archippus",
+      "revision": 1,
+      "type": "group",
+      "subtype": null,
+      "source_ids": [
+        "ks01-b1-philemon-apphia-archippus"
+      ],
+      "content": {
+        "sr-Cyrl": {
+          "title": "Свети Филимон, Апфија и Архип",
+          "intro": "Филимон, Апфија и Архип припадају апостолском кругу првих хришћанских заједница. Њихов спомен повезује проповед вере, гостопримство и старање о људима у невољи.",
+          "body": [
+            "Према црквеном житију, Филимон и његова супруга Апфија живели су у Колоси. Њихов дом постао је место окупљања верника, а они су бринули о болеснима и потребитима. Филимон је проповедао и изван свога дома. Предање повезује мучеништво њега, Апфије и Архипа са прогоном у време Нерона. Заједнички спомен чува њихова имена као сведочанство живота ране Цркве и међусобне повезаности њених чланова."
+          ],
+          "takeaway": "Издвајамо гостопримство које је више од отворених врата. То је спремност да за другога одвојимо време и прихватимо део његове потребе. Дом или заједница постају топлији када помоћ није само свечана реч, него редовна и обична пажња."
+        },
+        "sr-Latn": {
+          "title": "Sveti Filimon, Apfija i Arhip",
+          "intro": "Filimon, Apfija i Arhip pripadaju apostolskom krugu prvih hrišćanskih zajednica. Njihov spomen povezuje propoved vere, gostoprimstvo i staranje o ljudima u nevolji.",
+          "body": [
+            "Prema crkvenom žitiju, Filimon i njegova supruga Apfija živeli su u Kolosi. Njihov dom postao je mesto okupljanja vernika, a oni su brinuli o bolesnima i potrebitima. Filimon je propovedao i izvan svoga doma. Predanje povezuje mučeništvo njega, Apfije i Arhipa sa progonom u vreme Nerona. Zajednički spomen čuva njihova imena kao svedočanstvo života rane Crkve i međusobne povezanosti njenih članova."
+          ],
+          "takeaway": "Izdvajamo gostoprimstvo koje je više od otvorenih vrata. To je spremnost da za drugoga odvojimo vreme i prihvatimo deo njegove potrebe. Dom ili zajednica postaju topliji kada pomoć nije samo svečana reč, nego redovna i obična pažnja."
+        }
+      }
+    },
+    {
+      "id": "amphilochius-iconium",
+      "revision": 1,
+      "type": "saint",
+      "subtype": null,
+      "source_ids": [
+        "ks01-b1-amphilochius-iconium"
+      ],
+      "content": {
+        "sr-Cyrl": {
+          "title": "Свети Амфилохије Иконијски",
+          "intro": "Амфилохије је био епископ Иконије и савременик великих кападокијских отаца. Његова служба припада времену важних црквених расправа о вери у Свету Тројицу.",
+          "body": [
+            "Потицао је из Кесарије Кападокијске и пре епископске службе бавио се правом. Био је близак Василију Великом и Григорију Богослову. Као пастир противио се учењима која су оспоравала божанство Сина и Светога Духа. Василије му је посветио своје дело о Светом Духу. Црквени извор бележи и његово учешће на Другом васељенском сабору, одржаном у Цариграду."
+          ],
+          "takeaway": "Издвајамо пажљиво разумевање речи које изговарамо. Разговор о важним стварима тражи учење, стрпљење и спремност да се пита пре него што се пресуди. Чврстина уверења не мора да искључи благост према саговорнику и одговорност за начин на који му се обраћамо."
+        },
+        "sr-Latn": {
+          "title": "Sveti Amfilohije Ikonijski",
+          "intro": "Amfilohije je bio episkop Ikonije i savremenik velikih kapadokijskih otaca. Njegova služba pripada vremenu važnih crkvenih rasprava o veri u Svetu Trojicu.",
+          "body": [
+            "Poticao je iz Kesarije Kapadokijske i pre episkopske službe bavio se pravom. Bio je blizak Vasiliju Velikom i Grigoriju Bogoslovu. Kao pastir protivio se učenjima koja su osporavala božanstvo Sina i Svetoga Duha. Vasilije mu je posvetio svoje delo o Svetom Duhu. Crkveni izvor beleži i njegovo učešće na Drugom vaseljenskom saboru, održanom u Carigradu."
+          ],
+          "takeaway": "Izdvajamo pažljivo razumevanje reči koje izgovaramo. Razgovor o važnim stvarima traži učenje, strpljenje i spremnost da se pita pre nego što se presudi. Čvrstina uverenja ne mora da isključi blagost prema sagovorniku i odgovornost za način na koji mu se obraćamo."
+        }
+      }
+    },
+    {
+      "id": "catherine-alexandria-martyr",
+      "revision": 1,
+      "type": "saint",
+      "subtype": null,
+      "source_ids": [
+        "ks01-b1-catherine-alexandria-martyr",
+        "ks01-b1-catherine-spc-date"
+      ],
+      "content": {
+        "sr-Cyrl": {
+          "title": "Света великомученица Екатерина",
+          "intro": "Екатерина Александријска у црквеном предању памти се као образована хришћанка и мученица. Њено житије истиче сусрет учености, вере и храброг исповедања Христа.",
+          "body": [
+            "Предање описује њено одрастање у Александрији и поуку коју је примила од хришћанског духовника пре крштења. Потом је пред владарем бранила веру и разговарала са ученим противницима. Ни обећања ни принуда нису је навели да се одрекне Христа, па је погубљена. Црквено сећање повезује њене мошти са Синајем. Овде се прати спомен Екатерине из постојећег српског календара, без преношења другог календарског обичаја."
+          ],
+          "takeaway": "Издвајамо знање које не служи понижавању другога. Учење нам може помоћи да јасније говоримо, али и да боље слушамо. У расправи вреди чувати и истину и достојанство саговорника, не мерити успех само тиме ко је надгласао кога."
+        },
+        "sr-Latn": {
+          "title": "Sveta velikomučenica Ekaterina",
+          "intro": "Ekaterina Aleksandrijska u crkvenom predanju pamti se kao obrazovana hrišćanka i mučenica. Njeno žitije ističe susret učenosti, vere i hrabrog ispovedanja Hrista.",
+          "body": [
+            "Predanje opisuje njeno odrastanje u Aleksandriji i pouku koju je primila od hrišćanskog duhovnika pre krštenja. Potom je pred vladarem branila veru i razgovarala sa učenim protivnicima. Ni obećanja ni prinuda nisu je naveli da se odrekne Hrista, pa je pogubljena. Crkveno sećanje povezuje njene mošti sa Sinajem. Ovde se prati spomen Ekaterine iz postojećeg srpskog kalendara, bez prenošenja drugog kalendarskog običaja."
+          ],
+          "takeaway": "Izdvajamo znanje koje ne služi ponižavanju drugoga. Učenje nam može pomoći da jasnije govorimo, ali i da bolje slušamo. U raspravi vredi čuvati i istinu i dostojanstvo sagovornika, ne meriti uspeh samo time ko je nadglasao koga."
+        }
+      }
+    },
+    {
+      "id": "clement-rome-hieromartyr",
+      "revision": 1,
+      "type": "saint",
+      "subtype": null,
+      "source_ids": [
+        "ks01-b1-clement-rome-hieromartyr"
+      ],
+      "content": {
+        "sr-Cyrl": {
+          "title": "Свети свештеномученик Климент Римски",
+          "intro": "Климент Римски био је један од раних епископа Рима. Црквено предање повезује његов живот са апостолским сведочењем и каснијим страдањем у прогонству.",
+          "body": [
+            "Житије говори о његовом сусрету са Варнавом и о учењу уз апостола Петра. Као римски епископ служио је заједници која је чувала живо сећање на апостоле. Према предању, прогнан је у каменолом код Херсона, где је наставио да проповеда и помаже хришћанима. Страдао је бачен у море. Овај спомен односи се на римског Климента, а не на истоимене светитеље из Анкире или Охрида."
+          ],
+          "takeaway": "Издвајамо бригу која не престаје када се околности погоршају. Не можемо увек да бирамо место и услове живота, али понекад можемо да сачувамо мало простора за помоћ другоме. То не умањује сопствену тешкоћу, већ спречава да нас она потпуно затвори."
+        },
+        "sr-Latn": {
+          "title": "Sveti sveštenomučenik Kliment Rimski",
+          "intro": "Kliment Rimski bio je jedan od ranih episkopa Rima. Crkveno predanje povezuje njegov život sa apostolskim svedočenjem i kasnijim stradanjem u progonstvu.",
+          "body": [
+            "Žitije govori o njegovom susretu sa Varnavom i o učenju uz apostola Petra. Kao rimski episkop služio je zajednici koja je čuvala živo sećanje na apostole. Prema predanju, prognan je u kamenolom kod Hersona, gde je nastavio da propoveda i pomaže hrišćanima. Stradao je bačen u more. Ovaj spomen odnosi se na rimskog Klimenta, a ne na istoimene svetitelje iz Ankire ili Ohrida."
+          ],
+          "takeaway": "Izdvajamo brigu koja ne prestaje kada se okolnosti pogoršaju. Ne možemo uvek da biramo mesto i uslove života, ali ponekad možemo da sačuvamo malo prostora za pomoć drugome. To ne umanjuje sopstvenu teškoću, već sprečava da nas ona potpuno zatvori."
+        }
+      }
+    },
+    {
+      "id": "alypius-stylite-adrianopolis",
+      "revision": 1,
+      "type": "saint",
+      "subtype": null,
+      "source_ids": [
+        "ks01-b1-alypius-stylite-adrianopolis"
+      ],
+      "content": {
+        "sr-Cyrl": {
+          "title": "Преподобни Алимпије Столпник",
+          "intro": "Алимпије је потицао из Адријанопоља у Пафлагонији. Назив Столпник подсећа на необичан подвижнички живот на стубу, који црквено житије описује као молитвено служење.",
+          "body": [
+            "Одрастао је уз епископа Теодора и желео повучен живот посвећен Богу. Према предању, уз помоћ верника подигао је цркву Свете Јефимије, а затим се подвижавао на оближњем стубу. Људи су му долазили ради поуке и утехе. Око тог места настале су мушка и женска монашка заједница. Тако његова усамљеност у житију није одвојена од старања о онима који су му се обраћали."
+          ],
+          "takeaway": "Издвајамо постојаност, а не спољашњу необичност подвига. Не треба подражавати туђе крајње облике живота без разумевања и вођства. За нас почетак може бити једноставна добра навика коју чувамо стрпљиво: пажљива молитва, одмерена реч или редовна помоћ ближњем."
+        },
+        "sr-Latn": {
+          "title": "Prepodobni Alimpije Stolpnik",
+          "intro": "Alimpije je poticao iz Adrijanopolja u Paflagoniji. Naziv Stolpnik podseća na neobičan podvižnički život na stubu, koji crkveno žitije opisuje kao molitveno služenje.",
+          "body": [
+            "Odrastao je uz episkopa Teodora i želeo povučen život posvećen Bogu. Prema predanju, uz pomoć vernika podigao je crkvu Svete Jefimije, a zatim se podvižavao na obližnjem stubu. Ljudi su mu dolazili radi pouke i utehe. Oko tog mesta nastale su muška i ženska monaška zajednica. Tako njegova usamljenost u žitiju nije odvojena od staranja o onima koji su mu se obraćali."
+          ],
+          "takeaway": "Izdvajamo postojanost, a ne spoljašnju neobičnost podviga. Ne treba podražavati tuđe krajnje oblike života bez razumevanja i vođstva. Za nas početak može biti jednostavna dobra navika koju čuvamo strpljivo: pažljiva molitva, odmerena reč ili redovna pomoć bližnjem."
+        }
+      }
+    },
+    {
+      "id": "james-persian-martyr",
+      "revision": 1,
+      "type": "saint",
+      "subtype": null,
+      "source_ids": [
+        "ks01-b1-james-persian-martyr"
+      ],
+      "content": {
+        "sr-Cyrl": {
+          "title": "Свети мученик Јаков Персијанац",
+          "intro": "Житије Јакова Персијанца говори о паду и покајању, а не само о непоколебљивости. Био је хришћанин на персијском двору који је подлегао притиску.",
+          "body": [
+            "Према црквеном предању, Јаков је током војног похода учествовао у незнабожачком жртвовању. Мајка и супруга писмом су га позвале да се врати вери. Он је потом пред владарем поново исповедио Христа и одбио да своју одлуку повуче. Због тога је претрпео мучеништво. Црква га памти као персијског мученика чија прича укључује признавање сопственог одступања и стварни преокрет."
+          ],
+          "takeaway": "Издвајамо могућност покајања без прикривања грешке. Подршка ближњих понекад је и искрена опомена, изговорена с љубављу. Када погрешимо, можемо почети од признања и једног поправљеног поступка, уместо да сву снагу потрошимо на одбрану сопствене слике."
+        },
+        "sr-Latn": {
+          "title": "Sveti mučenik Jakov Persijanac",
+          "intro": "Žitije Jakova Persijanca govori o padu i pokajanju, a ne samo o nepokolebljivosti. Bio je hrišćanin na persijskom dvoru koji je podlegao pritisku.",
+          "body": [
+            "Prema crkvenom predanju, Jakov je tokom vojnog pohoda učestvovao u neznabožačkom žrtvovanju. Majka i supruga pismom su ga pozvale da se vrati veri. On je potom pred vladarem ponovo ispovedio Hrista i odbio da svoju odluku povuče. Zbog toga je pretrpeo mučeništvo. Crkva ga pamti kao persijskog mučenika čija priča uključuje priznavanje sopstvenog odstupanja i stvarni preokret."
+          ],
+          "takeaway": "Izdvajamo mogućnost pokajanja bez prikrivanja greške. Podrška bližnjih ponekad je i iskrena opomena, izgovorena s ljubavlju. Kada pogrešimo, možemo početi od priznanja i jednog popravljenog postupka, umesto da svu snagu potrošimo na odbranu sopstvene slike."
+        }
+      }
+    }
+  ]
+}

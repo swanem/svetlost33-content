@@ -1,0 +1,15 @@
+{
+  "status": "EXACT_S12_LOCAL_SIGNING_GO_NOT_PUBLICATION_GO",
+  "date": "2026-10-02",
+  "user_authorization": "objavi zavrseno i nastavi sa Isporuka gotovih izmena, Dopuna kalendara and OTA",
+  "release_set_id": "shared-calendar-saints-2026-10-02-m0v2-s12",
+  "public_head_rechecked": "e59bfa36bed840e751f7dbe5e0b7fa1e86cbced0",
+  "index_sha256": "a0d50c23036db203035419f4ba169ddb6005223799ed3ac4e89e03dd9f7733e9",
+  "release_sha256": "78142e24f74812be9859b88163203de23517a9ed40a16c0f5ee085e25354255d",
+  "root_review": "Read exact prepare/sign source, focused tests, owner approval, handoff and 12-path allowlist. Source hashes match frozen handoff. Independently executed 9/9 focused tests, zero failure/cancel/skip, including ephemeral-key 24-profile coverage. Fresh public main remains exact S11. No native compatibility claim yet.",
+  "test_log": "root-focused-tests.log",
+  "scope": "Two optional revisions: exact approved catalog delta and bound calendar-browser; five modules and all 62 articles preserved. No media, rights/date changes, annual/archive facts, 2027, telemetry or Liturgical text.",
+  "key_scope": "Use existing external production key through reviewed local signer only; no key rotation or secret output.",
+  "remaining": ["production signature/profile validation", "both native exact-generation acceptance", "fresh public head check", "atomic allowlisted publication", "public HTTPS readback"],
+  "published": false
+}

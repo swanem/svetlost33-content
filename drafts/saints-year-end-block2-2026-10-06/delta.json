@@ -1,0 +1,2394 @@
+{
+  "schema_version": "svetlost33-ks01-year-end-block2-delta-1",
+  "status": "PENDING_HUMAN_TEXT_IDENTITY_RIGHTS_AND_PUBLICATION_REVIEW",
+  "owner_approval": null,
+  "base_inputs": [
+    {
+      "path": "releases/v2/production/index.json",
+      "bytes": 592,
+      "sha256": "a0d50c23036db203035419f4ba169ddb6005223799ed3ac4e89e03dd9f7733e9"
+    },
+    {
+      "path": "releases/v2/production/releases/shared-calendar-saints-2026-10-02-m0v2-s12/release-set.json",
+      "bytes": 3944,
+      "sha256": "78142e24f74812be9859b88163203de23517a9ed40a16c0f5ee085e25354255d"
+    },
+    {
+      "path": "releases/v2/production/releases/shared-annual-2026-r1-m0v2-s2/modules/calendar-2026-r1-2026.1.1-r2/manifest.json",
+      "bytes": 630,
+      "sha256": "11e5d8b92ebbacd40ae6d0bad861c85a2df8220cd0b1091a2b7522754d538905"
+    },
+    {
+      "path": "releases/v2/production/releases/shared-annual-2026-r1-m0v2-s2/modules/calendar-2026-r1-2026.1.1-r2/data/calendar.2026.json",
+      "bytes": 1665524,
+      "sha256": "a1b6a5d5911ae03f77802bd466227f0c1ea4fe97708b1b6f92cd4b08847c7c9c"
+    },
+    {
+      "path": "releases/v2/production/releases/shared-content-refresh-2026-09-30-m0v2-s11/modules/saints-v1-2026.9.30-r4/manifest.json",
+      "bytes": 586,
+      "sha256": "ae73dcd04221e44e57c07af7daf669a27a73005f054d1d99b2333011e77c3292"
+    },
+    {
+      "path": "releases/v2/production/releases/shared-content-refresh-2026-09-30-m0v2-s11/modules/saints-v1-2026.9.30-r4/data/saints-v1.json",
+      "bytes": 211965,
+      "sha256": "ca3e4fd02ca79e97d53e0e456b2ccaaeb81ebc3b740a71b3eb72049bf01331b5"
+    },
+    {
+      "path": "releases/v2/production/releases/shared-calendar-saints-2026-10-02-m0v2-s12/modules/liturgical-catalog-v1-2026.10.1-r7/manifest.json",
+      "bytes": 695,
+      "sha256": "1bb3d4b5ac6a5b4f4946ea7438cfe465f6121a7877dbb35976965ff28a13943e"
+    },
+    {
+      "path": "releases/v2/production/releases/shared-calendar-saints-2026-10-02-m0v2-s12/modules/liturgical-catalog-v1-2026.10.1-r7/data/liturgical-catalog-v1.json",
+      "bytes": 66656,
+      "sha256": "d973f659da3a1e084739afe70a6a31daea390c32f5508ecdaa56a3fc3e7b4af3"
+    },
+    {
+      "path": "releases/v2/production/releases/shared-calendar-saints-2026-10-02-m0v2-s12/modules/calendar-browser-v1-2026.10.2-r3/manifest.json",
+      "bytes": 533,
+      "sha256": "6a61a1593a890f4a8c9ac6fbd54feb6ee0b349c92020dd5f56f4c6c25492a805"
+    },
+    {
+      "path": "releases/v2/production/releases/shared-calendar-saints-2026-10-02-m0v2-s12/modules/calendar-browser-v1-2026.10.2-r3/data/calendar-browser-v1.json",
+      "bytes": 97947,
+      "sha256": "20d3d0ad3d9a352c87d05425e8673460c62c9a0cf4043988c48e4c0da3d61fae"
+    },
+    {
+      "path": "drafts/saints-completion-2026-09-21/sources.json",
+      "bytes": 19540,
+      "sha256": "6a5705620d8c95ff6fb5c9feac83ccfb610af3f1fad6df59320d66209bfa27aa"
+    },
+    {
+      "path": "drafts/saints-next-window-2026-09-30/sources.json",
+      "bytes": 30502,
+      "sha256": "c6bba1b829d595620ef3adfb28d1fcc1b8915dcf4a4f0abbf3e5c2d3431635a2"
+    },
+    {
+      "path": "approvals/saints-completion-2026-09-21/owner-publication-approval.json",
+      "bytes": 7021,
+      "sha256": "8a103bf8ba8508360d377236517660320708cf1221caf8c279fe91fefb78df06"
+    },
+    {
+      "path": "approvals/new-content-2026-09-30/owner-approval.json",
+      "bytes": 7829,
+      "sha256": "549e767f5734030b8c36d7b05c1b7eefc02583a4b6b14f4313e8721594002290"
+    },
+    {
+      "path": "approvals/calendar-saints-window-2026-10-02/owner-approval.json",
+      "bytes": 3074,
+      "sha256": "15a5c33a13cfb572c2861e20463b49fd073164118375d86c97216472c2d1ae71"
+    }
+  ],
+  "protected_block1_inputs": [
+    {
+      "path": "drafts/saints-year-end-block1-2026-10-06/handoff.json",
+      "bytes": 2259,
+      "sha256": "13e19c3406397d5bf30ab0e03c8e060d4ae8fafd1be38583b76dc18615777ca1"
+    },
+    {
+      "path": "drafts/saints-year-end-block1-2026-10-06/manuscript.mjs",
+      "bytes": 40401,
+      "sha256": "402ea6e792b88630baa2dde31a40ef9d4eccd36afff68d6ef384cfc7f8ad9f33"
+    },
+    {
+      "path": "drafts/saints-year-end-block1-2026-10-06/prepare.mjs",
+      "bytes": 17489,
+      "sha256": "713a423c3b205bb616b4300d2c0e04a8bc80094b47f44b19643a0d89d728ec0c"
+    },
+    {
+      "path": "drafts/saints-year-end-block1-2026-10-06/verify.mjs",
+      "bytes": 10196,
+      "sha256": "74db010322e12a14323699ce98c5f8c9099db3e3e8ef7085f6c7c37a39a0aed6"
+    },
+    {
+      "path": "drafts/saints-year-end-block1-2026-10-06/master.json",
+      "bytes": 134635,
+      "sha256": "167eb762f87a3d1dbfd5623b32197d5af683e7ed01fbc8f2948499ceca7dae6b"
+    },
+    {
+      "path": "drafts/saints-year-end-block1-2026-10-06/delta.json",
+      "bytes": 67743,
+      "sha256": "f929151078bf1a99e392dcd786cbdde3142ddd34aa5929828c524d31a9b537e3"
+    },
+    {
+      "path": "drafts/saints-year-end-block1-2026-10-06/sources.json",
+      "bytes": 15683,
+      "sha256": "b1d2b2a701ba1adda3f9451785e108b10c98be69b12a03e67d91cca680b877d2"
+    },
+    {
+      "path": "drafts/saints-year-end-block1-2026-10-06/validation.json",
+      "bytes": 4495,
+      "sha256": "efa2bd87ec4724e128e0ee4630660d2d90e9e4dd7b98a127107d617c87d757e2"
+    }
+  ],
+  "previous_protected_inputs": [
+    {
+      "path": "drafts/calendar-saints-expansion-2026-10-06/handoff.json",
+      "bytes": 4470,
+      "sha256": "5c6c7664c8dec4ec72959ad59a0916ec9154670162c5523eee315f8146f96bf6"
+    },
+    {
+      "path": "fixtures/ks01-capacity-2026-10-06/generated/handoff.json",
+      "bytes": 5971,
+      "sha256": "1e47b55ff442628eb0445ecbb0456d48b511ec449912b55a154d4ab9a12e0c33"
+    },
+    {
+      "path": "drafts/ks01-capacity-shared-implementation-2026-10-06/handoff.json",
+      "bytes": 4422,
+      "sha256": "1838ab2e80bb693eea1e069ec9194476e84ac9cca836c7b00b47f75e12944d04"
+    },
+    {
+      "path": "../svetlost33-github/docs/contracts/calendar-saints-expansion-2026-10-06/public-baseline-s12-2026-10-06.json",
+      "bytes": 12742,
+      "sha256": "4c75bc9c1721ca677d11d256f15159d81c683eef68baa641b0ba24b10182de28"
+    }
+  ],
+  "new_article_master": "master.json#/articles",
+  "new_article_ids": [
+    "stephen-new-confessor",
+    "paramon-philumenus-commemoration",
+    "andrew-first-called-apostle",
+    "nahum-prophet",
+    "habakkuk-prophet",
+    "zephaniah-prophet",
+    "barbara-heliopolis-martyr",
+    "sabbas-sanctified",
+    "nicholas-myra-december",
+    "gregory-gornjak",
+    "patapius-thebes",
+    "conception-theotokos-by-anna",
+    "menas-hermogenes-eugraphus-alexandria",
+    "daniel-stylite-constantinople",
+    "spyridon-tremithus",
+    "eustratius-sebaste-martyr",
+    "thyrsus-leucius-philemon-apollonius",
+    "eleutherius-illyria-hieromartyr",
+    "haggai-prophet",
+    "daniel-prophet",
+    "sebastian-rome-martyr"
+  ],
+  "new_day_mappings": [
+    {
+      "date": "2026-12-11",
+      "julian_date": "2026-11-28",
+      "calendar_title": {
+        "sr-Cyrl": "Свети преподобномученик Стефан",
+        "sr-Latn": "Sveti prepodobnomučenik Stefan"
+      },
+      "calendar_source_ids": [
+        "eparhija-month-12"
+      ],
+      "article_ids": [
+        "stephen-new-confessor"
+      ],
+      "complete_saint_list": false,
+      "calendar_notes": []
+    },
+    {
+      "date": "2026-12-12",
+      "julian_date": "2026-11-29",
+      "calendar_title": {
+        "sr-Cyrl": "Свети мученици Парамон и Филумен",
+        "sr-Latn": "Sveti mučenici Paramon i Filumen"
+      },
+      "calendar_source_ids": [
+        "eparhija-month-12"
+      ],
+      "article_ids": [
+        "paramon-philumenus-commemoration"
+      ],
+      "complete_saint_list": false,
+      "calendar_notes": []
+    },
+    {
+      "date": "2026-12-13",
+      "julian_date": "2026-11-30",
+      "calendar_title": {
+        "sr-Cyrl": "Свети апостол Андреј Првозвани",
+        "sr-Latn": "Sveti apostol Andrej Prvozvani"
+      },
+      "calendar_source_ids": [
+        "eparhija-month-12"
+      ],
+      "article_ids": [
+        "andrew-first-called-apostle"
+      ],
+      "complete_saint_list": false,
+      "calendar_notes": []
+    },
+    {
+      "date": "2026-12-14",
+      "julian_date": "2026-12-01",
+      "calendar_title": {
+        "sr-Cyrl": "Свети пророк Наум",
+        "sr-Latn": "Sveti prorok Naum"
+      },
+      "calendar_source_ids": [
+        "eparhija-month-12"
+      ],
+      "article_ids": [
+        "nahum-prophet"
+      ],
+      "complete_saint_list": false,
+      "calendar_notes": []
+    },
+    {
+      "date": "2026-12-15",
+      "julian_date": "2026-12-02",
+      "calendar_title": {
+        "sr-Cyrl": "Свети пророк Авакум",
+        "sr-Latn": "Sveti prorok Avakum"
+      },
+      "calendar_source_ids": [
+        "eparhija-month-12"
+      ],
+      "article_ids": [
+        "habakkuk-prophet"
+      ],
+      "complete_saint_list": false,
+      "calendar_notes": []
+    },
+    {
+      "date": "2026-12-16",
+      "julian_date": "2026-12-03",
+      "calendar_title": {
+        "sr-Cyrl": "Свети пророк Софоније",
+        "sr-Latn": "Sveti prorok Sofonije"
+      },
+      "calendar_source_ids": [
+        "eparhija-month-12"
+      ],
+      "article_ids": [
+        "zephaniah-prophet"
+      ],
+      "complete_saint_list": false,
+      "calendar_notes": []
+    },
+    {
+      "date": "2026-12-17",
+      "julian_date": "2026-12-04",
+      "calendar_title": {
+        "sr-Cyrl": "Света великомученица Варвара",
+        "sr-Latn": "Sveta velikomučenica Varvara"
+      },
+      "calendar_source_ids": [
+        "eparhija-month-12"
+      ],
+      "article_ids": [
+        "barbara-heliopolis-martyr"
+      ],
+      "complete_saint_list": false,
+      "calendar_notes": []
+    },
+    {
+      "date": "2026-12-18",
+      "julian_date": "2026-12-05",
+      "calendar_title": {
+        "sr-Cyrl": "Преподобни Сава Освећени",
+        "sr-Latn": "Prepodobni Sava Osvećeni"
+      },
+      "calendar_source_ids": [
+        "eparhija-month-12"
+      ],
+      "article_ids": [
+        "sabbas-sanctified"
+      ],
+      "complete_saint_list": false,
+      "calendar_notes": []
+    },
+    {
+      "date": "2026-12-19",
+      "julian_date": "2026-12-06",
+      "calendar_title": {
+        "sr-Cyrl": "Свети Николај, Архиепископ мирликијски Чудотворац – Никољдан",
+        "sr-Latn": "Sveti Nikolaj, Arhiepiskop mirlikijski Čudotvorac – Nikoljdan"
+      },
+      "calendar_source_ids": [
+        "eparhija-month-12"
+      ],
+      "article_ids": [
+        "nicholas-myra-december"
+      ],
+      "complete_saint_list": false,
+      "calendar_notes": []
+    },
+    {
+      "date": "2026-12-20",
+      "julian_date": "2026-12-07",
+      "calendar_title": {
+        "sr-Cyrl": "Преподобни Григорије Горњачки – Детињци",
+        "sr-Latn": "Prepodobni Grigorije Gornjački – Detinjci"
+      },
+      "calendar_source_ids": [
+        "eparhija-month-12"
+      ],
+      "article_ids": [
+        "gregory-gornjak"
+      ],
+      "complete_saint_list": false,
+      "calendar_notes": []
+    },
+    {
+      "date": "2026-12-21",
+      "julian_date": "2026-12-08",
+      "calendar_title": {
+        "sr-Cyrl": "Преподобни Патапије",
+        "sr-Latn": "Prepodobni Patapije"
+      },
+      "calendar_source_ids": [
+        "eparhija-month-12"
+      ],
+      "article_ids": [
+        "patapius-thebes"
+      ],
+      "complete_saint_list": false,
+      "calendar_notes": []
+    },
+    {
+      "date": "2026-12-22",
+      "julian_date": "2026-12-09",
+      "calendar_title": {
+        "sr-Cyrl": "Зачеће Свете Ане",
+        "sr-Latn": "Začeće Svete Ane"
+      },
+      "calendar_source_ids": [
+        "eparhija-month-12"
+      ],
+      "article_ids": [
+        "conception-theotokos-by-anna"
+      ],
+      "complete_saint_list": false,
+      "calendar_notes": []
+    },
+    {
+      "date": "2026-12-23",
+      "julian_date": "2026-12-10",
+      "calendar_title": {
+        "sr-Cyrl": "Свети мученик Мина и други с њим",
+        "sr-Latn": "Sveti mučenik Mina i drugi s njim"
+      },
+      "calendar_source_ids": [
+        "eparhija-month-12"
+      ],
+      "article_ids": [
+        "menas-hermogenes-eugraphus-alexandria"
+      ],
+      "complete_saint_list": false,
+      "calendar_notes": []
+    },
+    {
+      "date": "2026-12-24",
+      "julian_date": "2026-12-11",
+      "calendar_title": {
+        "sr-Cyrl": "Преподобни Данило Столпник",
+        "sr-Latn": "Prepodobni Danilo Stolpnik"
+      },
+      "calendar_source_ids": [
+        "eparhija-month-12"
+      ],
+      "article_ids": [
+        "daniel-stylite-constantinople"
+      ],
+      "complete_saint_list": false,
+      "calendar_notes": []
+    },
+    {
+      "date": "2026-12-25",
+      "julian_date": "2026-12-12",
+      "calendar_title": {
+        "sr-Cyrl": "Свети Спиридон Чудотворац, Епископ тримитунски",
+        "sr-Latn": "Sveti Spiridon Čudotvorac, Episkop trimitunski"
+      },
+      "calendar_source_ids": [
+        "eparhija-month-12"
+      ],
+      "article_ids": [
+        "spyridon-tremithus"
+      ],
+      "complete_saint_list": false,
+      "calendar_notes": []
+    },
+    {
+      "date": "2026-12-26",
+      "julian_date": "2026-12-13",
+      "calendar_title": {
+        "sr-Cyrl": "Свети мученик Евстратије",
+        "sr-Latn": "Sveti mučenik Evstratije"
+      },
+      "calendar_source_ids": [
+        "eparhija-month-12"
+      ],
+      "article_ids": [
+        "eustratius-sebaste-martyr"
+      ],
+      "complete_saint_list": false,
+      "calendar_notes": []
+    },
+    {
+      "date": "2026-12-27",
+      "julian_date": "2026-12-14",
+      "calendar_title": {
+        "sr-Cyrl": "Свети мученици Тирс, Левкије, Филимон, Аполоније и други с њима – Материце",
+        "sr-Latn": "Sveti mučenici Tirs, Levkije, Filimon, Apolonije i drugi s njima – Materice"
+      },
+      "calendar_source_ids": [
+        "eparhija-month-12"
+      ],
+      "article_ids": [
+        "thyrsus-leucius-philemon-apollonius"
+      ],
+      "complete_saint_list": false,
+      "calendar_notes": []
+    },
+    {
+      "date": "2026-12-28",
+      "julian_date": "2026-12-15",
+      "calendar_title": {
+        "sr-Cyrl": "Свети свештеномученик Елевтерије",
+        "sr-Latn": "Sveti sveštenomučenik Elevterije"
+      },
+      "calendar_source_ids": [
+        "eparhija-month-12"
+      ],
+      "article_ids": [
+        "eleutherius-illyria-hieromartyr"
+      ],
+      "complete_saint_list": false,
+      "calendar_notes": []
+    },
+    {
+      "date": "2026-12-29",
+      "julian_date": "2026-12-16",
+      "calendar_title": {
+        "sr-Cyrl": "Свети пророк Агеј",
+        "sr-Latn": "Sveti prorok Agej"
+      },
+      "calendar_source_ids": [
+        "eparhija-month-12"
+      ],
+      "article_ids": [
+        "haggai-prophet"
+      ],
+      "complete_saint_list": false,
+      "calendar_notes": []
+    },
+    {
+      "date": "2026-12-30",
+      "julian_date": "2026-12-17",
+      "calendar_title": {
+        "sr-Cyrl": "Свети пророк Данило",
+        "sr-Latn": "Sveti prorok Danilo"
+      },
+      "calendar_source_ids": [
+        "eparhija-month-12"
+      ],
+      "article_ids": [
+        "daniel-prophet"
+      ],
+      "complete_saint_list": false,
+      "calendar_notes": []
+    },
+    {
+      "date": "2026-12-31",
+      "julian_date": "2026-12-18",
+      "calendar_title": {
+        "sr-Cyrl": "Свети мученик Севастијан",
+        "sr-Latn": "Sveti mučenik Sevastijan"
+      },
+      "calendar_source_ids": [
+        "eparhija-month-12"
+      ],
+      "article_ids": [
+        "sebastian-rome-martyr"
+      ],
+      "complete_saint_list": false,
+      "calendar_notes": []
+    }
+  ],
+  "new_source_records": [
+    {
+      "id": "ks01-b2-stephen-new-confessor",
+      "kind": "article",
+      "title": "Monastic Martyr and Confessor Stephen the New",
+      "url": "https://www.oca.org/saints/lives/2026/11/28/103412-monastic-martyr-and-confessor-stephen-the-new",
+      "publisher": "Orthodox Church in America",
+      "original_author": null,
+      "published_on": null,
+      "reviewed_on": "2026-10-06"
+    },
+    {
+      "id": "ks01-b2-paramon-philumenus-commemoration",
+      "kind": "article",
+      "title": "Martyr Paramon and 370 Martyrs in Bithynia",
+      "url": "https://www.oca.org/saints/lives/2025/11/29/103442-martyr-paramon-and-370-martyrs-in-bithynia",
+      "publisher": "Orthodox Church in America",
+      "original_author": null,
+      "published_on": null,
+      "reviewed_on": "2026-10-06"
+    },
+    {
+      "id": "ks01-b2-paramon-philumenus-commemoration-2",
+      "kind": "article",
+      "title": "Martyr Philoumenus of Ancyra",
+      "url": "https://www.oca.org/saints/lives/2026/11/29/103444-martyr-philoumenus-of-ancyra",
+      "publisher": "Orthodox Church in America",
+      "original_author": null,
+      "published_on": null,
+      "reviewed_on": "2026-10-06"
+    },
+    {
+      "id": "ks01-b2-andrew-first-called-apostle",
+      "kind": "article",
+      "title": "Apostle Andrew, the Holy and All-Praised First-Called",
+      "url": "https://www.oca.org/saints/lives/2026/11/30/103450-apostle-andrew-the-holy-and-all-praised-first-called",
+      "publisher": "Orthodox Church in America",
+      "original_author": null,
+      "published_on": null,
+      "reviewed_on": "2026-10-06"
+    },
+    {
+      "id": "ks01-b2-nahum-prophet",
+      "kind": "article",
+      "title": "Prophet Nahum",
+      "url": "https://www.oca.org/saints/all-lives/2026/12/01",
+      "publisher": "Orthodox Church in America",
+      "original_author": null,
+      "published_on": null,
+      "reviewed_on": "2026-10-06"
+    },
+    {
+      "id": "ks01-b2-habakkuk-prophet",
+      "kind": "article",
+      "title": "Prophet Habakkuk",
+      "url": "https://www.oca.org/saints/lives/2026/12/02/103455-prophet-habakkuk",
+      "publisher": "Orthodox Church in America",
+      "original_author": null,
+      "published_on": null,
+      "reviewed_on": "2026-10-06"
+    },
+    {
+      "id": "ks01-b2-zephaniah-prophet",
+      "kind": "article",
+      "title": "Prophet Zephaniah",
+      "url": "https://www.oca.org/saints/lives/2026/12/03/103465-prophet-zephaniah",
+      "publisher": "Orthodox Church in America",
+      "original_author": null,
+      "published_on": null,
+      "reviewed_on": "2026-10-06"
+    },
+    {
+      "id": "ks01-b2-barbara-heliopolis-martyr",
+      "kind": "article",
+      "title": "Greatmartyr Barbara and Martyr Juliana, at Heliopolis in Syria",
+      "url": "https://www.oca.org/saints/lives/2026/12/04/103472-greatmartyr-barbara-and-martyr-juliana-at-heliopolis-in-syria",
+      "publisher": "Orthodox Church in America",
+      "original_author": null,
+      "published_on": null,
+      "reviewed_on": "2026-10-06"
+    },
+    {
+      "id": "ks01-b2-sabbas-sanctified",
+      "kind": "article",
+      "title": "Venerable Savva the Sanctified",
+      "url": "https://www.oca.org/saints/lives/2026/12/05/103477-venerable-savva-the-sanctified",
+      "publisher": "Orthodox Church in America",
+      "original_author": null,
+      "published_on": null,
+      "reviewed_on": "2026-10-06"
+    },
+    {
+      "id": "ks01-b2-nicholas-myra-december",
+      "kind": "article",
+      "title": "Saint Nicholas the Wonderworker, Archbishop of Myra in Lycia",
+      "url": "https://www.oca.org/saints/all-lives/2026/12/06",
+      "publisher": "Orthodox Church in America",
+      "original_author": null,
+      "published_on": null,
+      "reviewed_on": "2026-10-06"
+    },
+    {
+      "id": "ks01-b2-gregory-gornjak",
+      "kind": "article",
+      "title": "Преподобни Григорије Горњачки",
+      "url": "https://mitropolija.com/2021/12/20/prepodobni-grigorije-gornjacki/",
+      "publisher": "Православна Митрополија црногорско-приморска",
+      "original_author": null,
+      "published_on": "2021-12-20",
+      "reviewed_on": "2026-10-06"
+    },
+    {
+      "id": "ks01-b2-gregory-gornjak-2",
+      "kind": "article",
+      "title": "О Манастиру",
+      "url": "https://www.manastirgornjak.rs/manastir/",
+      "publisher": "Манастир Горњак",
+      "original_author": null,
+      "published_on": null,
+      "reviewed_on": "2026-10-06"
+    },
+    {
+      "id": "ks01-b2-patapius-thebes",
+      "kind": "article",
+      "title": "Venerable Patapius of Thebes",
+      "url": "https://www.oca.org/saints/all-lives/2026/12/08",
+      "publisher": "Orthodox Church in America",
+      "original_author": null,
+      "published_on": null,
+      "reviewed_on": "2026-10-06"
+    },
+    {
+      "id": "ks01-b2-conception-theotokos-by-anna",
+      "kind": "article",
+      "title": "Conception of the Most Holy Theotokos by Saint Anna",
+      "url": "https://www.oca.org/saints/all-lives/2026/12/09",
+      "publisher": "Orthodox Church in America",
+      "original_author": null,
+      "published_on": null,
+      "reviewed_on": "2026-10-06"
+    },
+    {
+      "id": "ks01-b2-menas-hermogenes-eugraphus-alexandria",
+      "kind": "article",
+      "title": "Martyrs Menas, Hermogenes, and Eugraphus, of Alexandria",
+      "url": "https://www.oca.org/saints/lives/2026/12/10/103511-martyrs-menas-hermogenes-and-eugraphus-of-alexandria",
+      "publisher": "Orthodox Church in America",
+      "original_author": null,
+      "published_on": null,
+      "reviewed_on": "2026-10-06"
+    },
+    {
+      "id": "ks01-b2-daniel-stylite-constantinople",
+      "kind": "article",
+      "title": "Venerable Daniel the Stylite of Constantinople",
+      "url": "https://www.oca.org/saints/lives/2026/12/11/103520-venerable-daniel-the-stylite-of-constantinople",
+      "publisher": "Orthodox Church in America",
+      "original_author": null,
+      "published_on": null,
+      "reviewed_on": "2026-10-06"
+    },
+    {
+      "id": "ks01-b2-spyridon-tremithus",
+      "kind": "article",
+      "title": "Saint Spyridon the Wonderworker, Bishop of Tremithus",
+      "url": "https://www.oca.org/saints/all-lives/2026/12/12",
+      "publisher": "Orthodox Church in America",
+      "original_author": null,
+      "published_on": null,
+      "reviewed_on": "2026-10-06"
+    },
+    {
+      "id": "ks01-b2-eustratius-sebaste-martyr",
+      "kind": "article",
+      "title": "Martyrs Eustratius, Auxentius, Eugene, Mardarius, and Orestes, at Sebaste",
+      "url": "https://www.oca.org/saints/lives/2026/12/13/103531-martyrs-eustratius-auxentius-eugene-mardarius-and-orestes-at-seb",
+      "publisher": "Orthodox Church in America",
+      "original_author": null,
+      "published_on": null,
+      "reviewed_on": "2026-10-06"
+    },
+    {
+      "id": "ks01-b2-thyrsus-leucius-philemon-apollonius",
+      "kind": "article",
+      "title": "Lives of all saints commemorated on December 14",
+      "url": "https://www.oca.org/saints/all-lives/2026/12/14",
+      "publisher": "Orthodox Church in America",
+      "original_author": null,
+      "published_on": null,
+      "reviewed_on": "2026-10-06"
+    },
+    {
+      "id": "ks01-b2-eleutherius-illyria-hieromartyr",
+      "kind": "article",
+      "title": "Hieromartyr Eleutherius, Bishop of Illyria, his mother, Martyr Evanthia, and Caribus the Eparch",
+      "url": "https://www.oca.org/saints/lives/2026/12/15/103548-hieromartyr-eleutherius-bishop-of-illyria-his-mother-martyr-evan",
+      "publisher": "Orthodox Church in America",
+      "original_author": null,
+      "published_on": null,
+      "reviewed_on": "2026-10-06"
+    },
+    {
+      "id": "ks01-b2-haggai-prophet",
+      "kind": "article",
+      "title": "Prophet Haggai",
+      "url": "https://www.oca.org/saints/lives/2025/12/16/103556-prophet-haggai",
+      "publisher": "Orthodox Church in America",
+      "original_author": null,
+      "published_on": null,
+      "reviewed_on": "2026-10-06"
+    },
+    {
+      "id": "ks01-b2-daniel-prophet",
+      "kind": "article",
+      "title": "Prophet Daniel",
+      "url": "https://www.oca.org/saints/lives/2026/12/17/103559-prophet-daniel",
+      "publisher": "Orthodox Church in America",
+      "original_author": null,
+      "published_on": null,
+      "reviewed_on": "2026-10-06"
+    },
+    {
+      "id": "ks01-b2-sebastian-rome-martyr",
+      "kind": "article",
+      "title": "Martyr Sebastian at Rome, and his companions",
+      "url": "https://www.oca.org/saints/lives/0203/12/18/103565-martyr-sebastian-at-rome-and-his-companions",
+      "publisher": "Orthodox Church in America",
+      "original_author": null,
+      "published_on": null,
+      "reviewed_on": "2026-10-06"
+    }
+  ],
+  "calendar_source_addition_for_standalone_only": {
+    "id": "eparhija-month-12",
+    "kind": "calendar",
+    "title": "Епархија аустријска СПЦ — календар",
+    "url": "https://www.eparhija.at/kalendar?m=2026-12",
+    "publisher": "Епархија аустријска СПЦ",
+    "original_author": null,
+    "published_on": null,
+    "reviewed_on": "2026-09-15"
+  },
+  "catalog_records": {
+    "sources": [
+      {
+        "id": "ks01-b2-stephen-new-confessor",
+        "title": "Monastic Martyr and Confessor Stephen the New",
+        "url": "https://www.oca.org/saints/lives/2026/11/28/103412-monastic-martyr-and-confessor-stephen-the-new",
+        "publisher": "Orthodox Church in America",
+        "original_author": null,
+        "checked_on": "2026-10-06",
+        "review_status": "pending",
+        "rights_status": "pending"
+      },
+      {
+        "id": "ks01-b2-paramon-philumenus-commemoration",
+        "title": "Martyr Paramon and 370 Martyrs in Bithynia",
+        "url": "https://www.oca.org/saints/lives/2025/11/29/103442-martyr-paramon-and-370-martyrs-in-bithynia",
+        "publisher": "Orthodox Church in America",
+        "original_author": null,
+        "checked_on": "2026-10-06",
+        "review_status": "pending",
+        "rights_status": "pending"
+      },
+      {
+        "id": "ks01-b2-paramon-philumenus-commemoration-2",
+        "title": "Martyr Philoumenus of Ancyra",
+        "url": "https://www.oca.org/saints/lives/2026/11/29/103444-martyr-philoumenus-of-ancyra",
+        "publisher": "Orthodox Church in America",
+        "original_author": null,
+        "checked_on": "2026-10-06",
+        "review_status": "pending",
+        "rights_status": "pending"
+      },
+      {
+        "id": "ks01-b2-andrew-first-called-apostle",
+        "title": "Apostle Andrew, the Holy and All-Praised First-Called",
+        "url": "https://www.oca.org/saints/lives/2026/11/30/103450-apostle-andrew-the-holy-and-all-praised-first-called",
+        "publisher": "Orthodox Church in America",
+        "original_author": null,
+        "checked_on": "2026-10-06",
+        "review_status": "pending",
+        "rights_status": "pending"
+      },
+      {
+        "id": "ks01-b2-nahum-prophet",
+        "title": "Prophet Nahum",
+        "url": "https://www.oca.org/saints/all-lives/2026/12/01",
+        "publisher": "Orthodox Church in America",
+        "original_author": null,
+        "checked_on": "2026-10-06",
+        "review_status": "pending",
+        "rights_status": "pending"
+      },
+      {
+        "id": "ks01-b2-habakkuk-prophet",
+        "title": "Prophet Habakkuk",
+        "url": "https://www.oca.org/saints/lives/2026/12/02/103455-prophet-habakkuk",
+        "publisher": "Orthodox Church in America",
+        "original_author": null,
+        "checked_on": "2026-10-06",
+        "review_status": "pending",
+        "rights_status": "pending"
+      },
+      {
+        "id": "ks01-b2-zephaniah-prophet",
+        "title": "Prophet Zephaniah",
+        "url": "https://www.oca.org/saints/lives/2026/12/03/103465-prophet-zephaniah",
+        "publisher": "Orthodox Church in America",
+        "original_author": null,
+        "checked_on": "2026-10-06",
+        "review_status": "pending",
+        "rights_status": "pending"
+      },
+      {
+        "id": "ks01-b2-barbara-heliopolis-martyr",
+        "title": "Greatmartyr Barbara and Martyr Juliana, at Heliopolis in Syria",
+        "url": "https://www.oca.org/saints/lives/2026/12/04/103472-greatmartyr-barbara-and-martyr-juliana-at-heliopolis-in-syria",
+        "publisher": "Orthodox Church in America",
+        "original_author": null,
+        "checked_on": "2026-10-06",
+        "review_status": "pending",
+        "rights_status": "pending"
+      },
+      {
+        "id": "ks01-b2-sabbas-sanctified",
+        "title": "Venerable Savva the Sanctified",
+        "url": "https://www.oca.org/saints/lives/2026/12/05/103477-venerable-savva-the-sanctified",
+        "publisher": "Orthodox Church in America",
+        "original_author": null,
+        "checked_on": "2026-10-06",
+        "review_status": "pending",
+        "rights_status": "pending"
+      },
+      {
+        "id": "ks01-b2-nicholas-myra-december",
+        "title": "Saint Nicholas the Wonderworker, Archbishop of Myra in Lycia",
+        "url": "https://www.oca.org/saints/all-lives/2026/12/06",
+        "publisher": "Orthodox Church in America",
+        "original_author": null,
+        "checked_on": "2026-10-06",
+        "review_status": "pending",
+        "rights_status": "pending"
+      },
+      {
+        "id": "ks01-b2-gregory-gornjak",
+        "title": "Преподобни Григорије Горњачки",
+        "url": "https://mitropolija.com/2021/12/20/prepodobni-grigorije-gornjacki/",
+        "publisher": "Православна Митрополија црногорско-приморска",
+        "original_author": null,
+        "checked_on": "2026-10-06",
+        "review_status": "pending",
+        "rights_status": "pending"
+      },
+      {
+        "id": "ks01-b2-gregory-gornjak-2",
+        "title": "О Манастиру",
+        "url": "https://www.manastirgornjak.rs/manastir/",
+        "publisher": "Манастир Горњак",
+        "original_author": null,
+        "checked_on": "2026-10-06",
+        "review_status": "pending",
+        "rights_status": "pending"
+      },
+      {
+        "id": "ks01-b2-patapius-thebes",
+        "title": "Venerable Patapius of Thebes",
+        "url": "https://www.oca.org/saints/all-lives/2026/12/08",
+        "publisher": "Orthodox Church in America",
+        "original_author": null,
+        "checked_on": "2026-10-06",
+        "review_status": "pending",
+        "rights_status": "pending"
+      },
+      {
+        "id": "ks01-b2-conception-theotokos-by-anna",
+        "title": "Conception of the Most Holy Theotokos by Saint Anna",
+        "url": "https://www.oca.org/saints/all-lives/2026/12/09",
+        "publisher": "Orthodox Church in America",
+        "original_author": null,
+        "checked_on": "2026-10-06",
+        "review_status": "pending",
+        "rights_status": "pending"
+      },
+      {
+        "id": "ks01-b2-menas-hermogenes-eugraphus-alexandria",
+        "title": "Martyrs Menas, Hermogenes, and Eugraphus, of Alexandria",
+        "url": "https://www.oca.org/saints/lives/2026/12/10/103511-martyrs-menas-hermogenes-and-eugraphus-of-alexandria",
+        "publisher": "Orthodox Church in America",
+        "original_author": null,
+        "checked_on": "2026-10-06",
+        "review_status": "pending",
+        "rights_status": "pending"
+      },
+      {
+        "id": "ks01-b2-daniel-stylite-constantinople",
+        "title": "Venerable Daniel the Stylite of Constantinople",
+        "url": "https://www.oca.org/saints/lives/2026/12/11/103520-venerable-daniel-the-stylite-of-constantinople",
+        "publisher": "Orthodox Church in America",
+        "original_author": null,
+        "checked_on": "2026-10-06",
+        "review_status": "pending",
+        "rights_status": "pending"
+      },
+      {
+        "id": "ks01-b2-spyridon-tremithus",
+        "title": "Saint Spyridon the Wonderworker, Bishop of Tremithus",
+        "url": "https://www.oca.org/saints/all-lives/2026/12/12",
+        "publisher": "Orthodox Church in America",
+        "original_author": null,
+        "checked_on": "2026-10-06",
+        "review_status": "pending",
+        "rights_status": "pending"
+      },
+      {
+        "id": "ks01-b2-eustratius-sebaste-martyr",
+        "title": "Martyrs Eustratius, Auxentius, Eugene, Mardarius, and Orestes, at Sebaste",
+        "url": "https://www.oca.org/saints/lives/2026/12/13/103531-martyrs-eustratius-auxentius-eugene-mardarius-and-orestes-at-seb",
+        "publisher": "Orthodox Church in America",
+        "original_author": null,
+        "checked_on": "2026-10-06",
+        "review_status": "pending",
+        "rights_status": "pending"
+      },
+      {
+        "id": "ks01-b2-thyrsus-leucius-philemon-apollonius",
+        "title": "Lives of all saints commemorated on December 14",
+        "url": "https://www.oca.org/saints/all-lives/2026/12/14",
+        "publisher": "Orthodox Church in America",
+        "original_author": null,
+        "checked_on": "2026-10-06",
+        "review_status": "pending",
+        "rights_status": "pending"
+      },
+      {
+        "id": "ks01-b2-eleutherius-illyria-hieromartyr",
+        "title": "Hieromartyr Eleutherius, Bishop of Illyria, his mother, Martyr Evanthia, and Caribus the Eparch",
+        "url": "https://www.oca.org/saints/lives/2026/12/15/103548-hieromartyr-eleutherius-bishop-of-illyria-his-mother-martyr-evan",
+        "publisher": "Orthodox Church in America",
+        "original_author": null,
+        "checked_on": "2026-10-06",
+        "review_status": "pending",
+        "rights_status": "pending"
+      },
+      {
+        "id": "ks01-b2-haggai-prophet",
+        "title": "Prophet Haggai",
+        "url": "https://www.oca.org/saints/lives/2025/12/16/103556-prophet-haggai",
+        "publisher": "Orthodox Church in America",
+        "original_author": null,
+        "checked_on": "2026-10-06",
+        "review_status": "pending",
+        "rights_status": "pending"
+      },
+      {
+        "id": "ks01-b2-daniel-prophet",
+        "title": "Prophet Daniel",
+        "url": "https://www.oca.org/saints/lives/2026/12/17/103559-prophet-daniel",
+        "publisher": "Orthodox Church in America",
+        "original_author": null,
+        "checked_on": "2026-10-06",
+        "review_status": "pending",
+        "rights_status": "pending"
+      },
+      {
+        "id": "ks01-b2-sebastian-rome-martyr",
+        "title": "Martyr Sebastian at Rome, and his companions",
+        "url": "https://www.oca.org/saints/lives/0203/12/18/103565-martyr-sebastian-at-rome-and-his-companions",
+        "publisher": "Orthodox Church in America",
+        "original_author": null,
+        "checked_on": "2026-10-06",
+        "review_status": "pending",
+        "rights_status": "pending"
+      }
+    ],
+    "subjects": [
+      {
+        "id": "saint-stephen-new-confessor",
+        "type": "saint",
+        "name": {
+          "sr-Cyrl": "Преподобномученик Стефан Нови",
+          "sr-Latn": "Prepodobnomučenik Stefan Novi"
+        },
+        "aliases": [],
+        "source_ids": [
+          "eparhija-month-12",
+          "ks01-b2-stephen-new-confessor"
+        ],
+        "review_status": "pending"
+      },
+      {
+        "id": "group-paramon-philumenus-commemoration",
+        "type": "group",
+        "name": {
+          "sr-Cyrl": "Свети мученици Парамон и Филумен",
+          "sr-Latn": "Sveti mučenici Paramon i Filumen"
+        },
+        "aliases": [],
+        "source_ids": [
+          "eparhija-month-12",
+          "ks01-b2-paramon-philumenus-commemoration",
+          "ks01-b2-paramon-philumenus-commemoration-2"
+        ],
+        "review_status": "pending"
+      },
+      {
+        "id": "saint-andrew-first-called-apostle",
+        "type": "saint",
+        "name": {
+          "sr-Cyrl": "Свети апостол Андреј Првозвани",
+          "sr-Latn": "Sveti apostol Andrej Prvozvani"
+        },
+        "aliases": [],
+        "source_ids": [
+          "eparhija-month-12",
+          "ks01-b2-andrew-first-called-apostle"
+        ],
+        "review_status": "pending"
+      },
+      {
+        "id": "saint-nahum-prophet",
+        "type": "saint",
+        "name": {
+          "sr-Cyrl": "Свети пророк Наум",
+          "sr-Latn": "Sveti prorok Naum"
+        },
+        "aliases": [],
+        "source_ids": [
+          "eparhija-month-12",
+          "ks01-b2-nahum-prophet"
+        ],
+        "review_status": "pending"
+      },
+      {
+        "id": "saint-habakkuk-prophet",
+        "type": "saint",
+        "name": {
+          "sr-Cyrl": "Свети пророк Авакум",
+          "sr-Latn": "Sveti prorok Avakum"
+        },
+        "aliases": [],
+        "source_ids": [
+          "eparhija-month-12",
+          "ks01-b2-habakkuk-prophet"
+        ],
+        "review_status": "pending"
+      },
+      {
+        "id": "saint-zephaniah-prophet",
+        "type": "saint",
+        "name": {
+          "sr-Cyrl": "Свети пророк Софоније",
+          "sr-Latn": "Sveti prorok Sofonije"
+        },
+        "aliases": [],
+        "source_ids": [
+          "eparhija-month-12",
+          "ks01-b2-zephaniah-prophet"
+        ],
+        "review_status": "pending"
+      },
+      {
+        "id": "saint-barbara-heliopolis-martyr",
+        "type": "saint",
+        "name": {
+          "sr-Cyrl": "Света великомученица Варвара",
+          "sr-Latn": "Sveta velikomučenica Varvara"
+        },
+        "aliases": [],
+        "source_ids": [
+          "eparhija-month-12",
+          "ks01-b2-barbara-heliopolis-martyr"
+        ],
+        "review_status": "pending"
+      },
+      {
+        "id": "saint-sabbas-sanctified",
+        "type": "saint",
+        "name": {
+          "sr-Cyrl": "Преподобни Сава Освећени",
+          "sr-Latn": "Prepodobni Sava Osvećeni"
+        },
+        "aliases": [],
+        "source_ids": [
+          "eparhija-month-12",
+          "ks01-b2-sabbas-sanctified"
+        ],
+        "review_status": "pending"
+      },
+      {
+        "id": "saint-gregory-gornjak",
+        "type": "saint",
+        "name": {
+          "sr-Cyrl": "Преподобни Григорије Горњачки",
+          "sr-Latn": "Prepodobni Grigorije Gornjački"
+        },
+        "aliases": [],
+        "source_ids": [
+          "eparhija-month-12",
+          "ks01-b2-gregory-gornjak",
+          "ks01-b2-gregory-gornjak-2"
+        ],
+        "review_status": "pending"
+      },
+      {
+        "id": "saint-patapius-thebes",
+        "type": "saint",
+        "name": {
+          "sr-Cyrl": "Преподобни Патапије",
+          "sr-Latn": "Prepodobni Patapije"
+        },
+        "aliases": [],
+        "source_ids": [
+          "eparhija-month-12",
+          "ks01-b2-patapius-thebes"
+        ],
+        "review_status": "pending"
+      },
+      {
+        "id": "group-menas-hermogenes-eugraphus-alexandria",
+        "type": "group",
+        "name": {
+          "sr-Cyrl": "Свети мученици Мина, Ермоген и Евграф",
+          "sr-Latn": "Sveti mučenici Mina, Ermogen i Evgraf"
+        },
+        "aliases": [],
+        "source_ids": [
+          "eparhija-month-12",
+          "ks01-b2-menas-hermogenes-eugraphus-alexandria"
+        ],
+        "review_status": "pending"
+      },
+      {
+        "id": "saint-daniel-stylite-constantinople",
+        "type": "saint",
+        "name": {
+          "sr-Cyrl": "Преподобни Данило Столпник",
+          "sr-Latn": "Prepodobni Danilo Stolpnik"
+        },
+        "aliases": [],
+        "source_ids": [
+          "eparhija-month-12",
+          "ks01-b2-daniel-stylite-constantinople"
+        ],
+        "review_status": "pending"
+      },
+      {
+        "id": "saint-spyridon-tremithus",
+        "type": "saint",
+        "name": {
+          "sr-Cyrl": "Свети Спиридон Тримитунски",
+          "sr-Latn": "Sveti Spiridon Trimitunski"
+        },
+        "aliases": [],
+        "source_ids": [
+          "eparhija-month-12",
+          "ks01-b2-spyridon-tremithus"
+        ],
+        "review_status": "pending"
+      },
+      {
+        "id": "saint-eustratius-sebaste-martyr",
+        "type": "saint",
+        "name": {
+          "sr-Cyrl": "Свети мученик Евстратије",
+          "sr-Latn": "Sveti mučenik Evstratije"
+        },
+        "aliases": [],
+        "source_ids": [
+          "eparhija-month-12",
+          "ks01-b2-eustratius-sebaste-martyr"
+        ],
+        "review_status": "pending"
+      },
+      {
+        "id": "group-thyrsus-leucius-philemon-apollonius",
+        "type": "group",
+        "name": {
+          "sr-Cyrl": "Свети мученици Тирс, Левкије, Филимон и Аполоније",
+          "sr-Latn": "Sveti mučenici Tirs, Levkije, Filimon i Apolonije"
+        },
+        "aliases": [],
+        "source_ids": [
+          "eparhija-month-12",
+          "ks01-b2-thyrsus-leucius-philemon-apollonius"
+        ],
+        "review_status": "pending"
+      },
+      {
+        "id": "saint-eleutherius-illyria-hieromartyr",
+        "type": "saint",
+        "name": {
+          "sr-Cyrl": "Свети свештеномученик Елевтерије",
+          "sr-Latn": "Sveti sveštenomučenik Elevterije"
+        },
+        "aliases": [],
+        "source_ids": [
+          "eparhija-month-12",
+          "ks01-b2-eleutherius-illyria-hieromartyr"
+        ],
+        "review_status": "pending"
+      },
+      {
+        "id": "saint-haggai-prophet",
+        "type": "saint",
+        "name": {
+          "sr-Cyrl": "Свети пророк Агеј",
+          "sr-Latn": "Sveti prorok Agej"
+        },
+        "aliases": [],
+        "source_ids": [
+          "eparhija-month-12",
+          "ks01-b2-haggai-prophet"
+        ],
+        "review_status": "pending"
+      },
+      {
+        "id": "saint-daniel-prophet",
+        "type": "saint",
+        "name": {
+          "sr-Cyrl": "Свети пророк Данило",
+          "sr-Latn": "Sveti prorok Danilo"
+        },
+        "aliases": [],
+        "source_ids": [
+          "eparhija-month-12",
+          "ks01-b2-daniel-prophet"
+        ],
+        "review_status": "pending"
+      },
+      {
+        "id": "saint-sebastian-rome-martyr",
+        "type": "saint",
+        "name": {
+          "sr-Cyrl": "Свети мученик Севастијан",
+          "sr-Latn": "Sveti mučenik Sevastijan"
+        },
+        "aliases": [],
+        "source_ids": [
+          "eparhija-month-12",
+          "ks01-b2-sebastian-rome-martyr"
+        ],
+        "review_status": "pending"
+      }
+    ],
+    "observances": [
+      {
+        "id": "obs-stephen-new-confessor",
+        "kind": "saint_commemoration",
+        "name": {
+          "sr-Cyrl": "Преподобномученик Стефан Нови",
+          "sr-Latn": "Prepodobnomučenik Stefan Novi"
+        },
+        "description": {
+          "sr-Cyrl": "Спомен светитеља",
+          "sr-Latn": "Spomen svetitelja"
+        },
+        "subject_ids": [
+          "saint-stephen-new-confessor"
+        ],
+        "aliases": [],
+        "source_ids": [
+          "eparhija-month-12",
+          "ks01-b2-stephen-new-confessor"
+        ],
+        "review_status": "pending"
+      },
+      {
+        "id": "obs-paramon-philumenus-commemoration",
+        "kind": "group_commemoration",
+        "name": {
+          "sr-Cyrl": "Свети мученици Парамон и Филумен",
+          "sr-Latn": "Sveti mučenici Paramon i Filumen"
+        },
+        "description": {
+          "sr-Cyrl": "Спомен групе светих",
+          "sr-Latn": "Spomen grupe svetih"
+        },
+        "subject_ids": [
+          "group-paramon-philumenus-commemoration"
+        ],
+        "aliases": [],
+        "source_ids": [
+          "eparhija-month-12",
+          "ks01-b2-paramon-philumenus-commemoration",
+          "ks01-b2-paramon-philumenus-commemoration-2"
+        ],
+        "review_status": "pending"
+      },
+      {
+        "id": "obs-andrew-first-called-apostle",
+        "kind": "saint_commemoration",
+        "name": {
+          "sr-Cyrl": "Свети апостол Андреј Првозвани",
+          "sr-Latn": "Sveti apostol Andrej Prvozvani"
+        },
+        "description": {
+          "sr-Cyrl": "Спомен светитеља",
+          "sr-Latn": "Spomen svetitelja"
+        },
+        "subject_ids": [
+          "saint-andrew-first-called-apostle"
+        ],
+        "aliases": [],
+        "source_ids": [
+          "eparhija-month-12",
+          "ks01-b2-andrew-first-called-apostle"
+        ],
+        "review_status": "pending"
+      },
+      {
+        "id": "obs-nahum-prophet",
+        "kind": "saint_commemoration",
+        "name": {
+          "sr-Cyrl": "Свети пророк Наум",
+          "sr-Latn": "Sveti prorok Naum"
+        },
+        "description": {
+          "sr-Cyrl": "Спомен светитеља",
+          "sr-Latn": "Spomen svetitelja"
+        },
+        "subject_ids": [
+          "saint-nahum-prophet"
+        ],
+        "aliases": [],
+        "source_ids": [
+          "eparhija-month-12",
+          "ks01-b2-nahum-prophet"
+        ],
+        "review_status": "pending"
+      },
+      {
+        "id": "obs-habakkuk-prophet",
+        "kind": "saint_commemoration",
+        "name": {
+          "sr-Cyrl": "Свети пророк Авакум",
+          "sr-Latn": "Sveti prorok Avakum"
+        },
+        "description": {
+          "sr-Cyrl": "Спомен светитеља",
+          "sr-Latn": "Spomen svetitelja"
+        },
+        "subject_ids": [
+          "saint-habakkuk-prophet"
+        ],
+        "aliases": [],
+        "source_ids": [
+          "eparhija-month-12",
+          "ks01-b2-habakkuk-prophet"
+        ],
+        "review_status": "pending"
+      },
+      {
+        "id": "obs-zephaniah-prophet",
+        "kind": "saint_commemoration",
+        "name": {
+          "sr-Cyrl": "Свети пророк Софоније",
+          "sr-Latn": "Sveti prorok Sofonije"
+        },
+        "description": {
+          "sr-Cyrl": "Спомен светитеља",
+          "sr-Latn": "Spomen svetitelja"
+        },
+        "subject_ids": [
+          "saint-zephaniah-prophet"
+        ],
+        "aliases": [],
+        "source_ids": [
+          "eparhija-month-12",
+          "ks01-b2-zephaniah-prophet"
+        ],
+        "review_status": "pending"
+      },
+      {
+        "id": "obs-barbara-heliopolis-martyr",
+        "kind": "saint_commemoration",
+        "name": {
+          "sr-Cyrl": "Света великомученица Варвара",
+          "sr-Latn": "Sveta velikomučenica Varvara"
+        },
+        "description": {
+          "sr-Cyrl": "Спомен светитеља",
+          "sr-Latn": "Spomen svetitelja"
+        },
+        "subject_ids": [
+          "saint-barbara-heliopolis-martyr"
+        ],
+        "aliases": [],
+        "source_ids": [
+          "eparhija-month-12",
+          "ks01-b2-barbara-heliopolis-martyr"
+        ],
+        "review_status": "pending"
+      },
+      {
+        "id": "obs-sabbas-sanctified",
+        "kind": "saint_commemoration",
+        "name": {
+          "sr-Cyrl": "Преподобни Сава Освећени",
+          "sr-Latn": "Prepodobni Sava Osvećeni"
+        },
+        "description": {
+          "sr-Cyrl": "Спомен светитеља",
+          "sr-Latn": "Spomen svetitelja"
+        },
+        "subject_ids": [
+          "saint-sabbas-sanctified"
+        ],
+        "aliases": [],
+        "source_ids": [
+          "eparhija-month-12",
+          "ks01-b2-sabbas-sanctified"
+        ],
+        "review_status": "pending"
+      },
+      {
+        "id": "obs-gregory-gornjak",
+        "kind": "saint_commemoration",
+        "name": {
+          "sr-Cyrl": "Преподобни Григорије Горњачки",
+          "sr-Latn": "Prepodobni Grigorije Gornjački"
+        },
+        "description": {
+          "sr-Cyrl": "Спомен светитеља",
+          "sr-Latn": "Spomen svetitelja"
+        },
+        "subject_ids": [
+          "saint-gregory-gornjak"
+        ],
+        "aliases": [],
+        "source_ids": [
+          "eparhija-month-12",
+          "ks01-b2-gregory-gornjak",
+          "ks01-b2-gregory-gornjak-2"
+        ],
+        "review_status": "pending"
+      },
+      {
+        "id": "obs-patapius-thebes",
+        "kind": "saint_commemoration",
+        "name": {
+          "sr-Cyrl": "Преподобни Патапије",
+          "sr-Latn": "Prepodobni Patapije"
+        },
+        "description": {
+          "sr-Cyrl": "Спомен светитеља",
+          "sr-Latn": "Spomen svetitelja"
+        },
+        "subject_ids": [
+          "saint-patapius-thebes"
+        ],
+        "aliases": [],
+        "source_ids": [
+          "eparhija-month-12",
+          "ks01-b2-patapius-thebes"
+        ],
+        "review_status": "pending"
+      },
+      {
+        "id": "obs-conception-theotokos-by-anna",
+        "kind": "feast",
+        "name": {
+          "sr-Cyrl": "Зачеће Пресвете Богородице од Свете Ане",
+          "sr-Latn": "Začeće Presvete Bogorodice od Svete Ane"
+        },
+        "description": {
+          "sr-Cyrl": "Празнични спомен",
+          "sr-Latn": "Praznični spomen"
+        },
+        "subject_ids": [],
+        "aliases": [],
+        "source_ids": [
+          "eparhija-month-12",
+          "ks01-b2-conception-theotokos-by-anna"
+        ],
+        "review_status": "pending"
+      },
+      {
+        "id": "obs-menas-hermogenes-eugraphus-alexandria",
+        "kind": "group_commemoration",
+        "name": {
+          "sr-Cyrl": "Свети мученици Мина, Ермоген и Евграф",
+          "sr-Latn": "Sveti mučenici Mina, Ermogen i Evgraf"
+        },
+        "description": {
+          "sr-Cyrl": "Спомен групе светих",
+          "sr-Latn": "Spomen grupe svetih"
+        },
+        "subject_ids": [
+          "group-menas-hermogenes-eugraphus-alexandria"
+        ],
+        "aliases": [],
+        "source_ids": [
+          "eparhija-month-12",
+          "ks01-b2-menas-hermogenes-eugraphus-alexandria"
+        ],
+        "review_status": "pending"
+      },
+      {
+        "id": "obs-daniel-stylite-constantinople",
+        "kind": "saint_commemoration",
+        "name": {
+          "sr-Cyrl": "Преподобни Данило Столпник",
+          "sr-Latn": "Prepodobni Danilo Stolpnik"
+        },
+        "description": {
+          "sr-Cyrl": "Спомен светитеља",
+          "sr-Latn": "Spomen svetitelja"
+        },
+        "subject_ids": [
+          "saint-daniel-stylite-constantinople"
+        ],
+        "aliases": [],
+        "source_ids": [
+          "eparhija-month-12",
+          "ks01-b2-daniel-stylite-constantinople"
+        ],
+        "review_status": "pending"
+      },
+      {
+        "id": "obs-spyridon-tremithus",
+        "kind": "saint_commemoration",
+        "name": {
+          "sr-Cyrl": "Свети Спиридон Тримитунски",
+          "sr-Latn": "Sveti Spiridon Trimitunski"
+        },
+        "description": {
+          "sr-Cyrl": "Спомен светитеља",
+          "sr-Latn": "Spomen svetitelja"
+        },
+        "subject_ids": [
+          "saint-spyridon-tremithus"
+        ],
+        "aliases": [],
+        "source_ids": [
+          "eparhija-month-12",
+          "ks01-b2-spyridon-tremithus"
+        ],
+        "review_status": "pending"
+      },
+      {
+        "id": "obs-eustratius-sebaste-martyr",
+        "kind": "saint_commemoration",
+        "name": {
+          "sr-Cyrl": "Свети мученик Евстратије",
+          "sr-Latn": "Sveti mučenik Evstratije"
+        },
+        "description": {
+          "sr-Cyrl": "Спомен светитеља",
+          "sr-Latn": "Spomen svetitelja"
+        },
+        "subject_ids": [
+          "saint-eustratius-sebaste-martyr"
+        ],
+        "aliases": [],
+        "source_ids": [
+          "eparhija-month-12",
+          "ks01-b2-eustratius-sebaste-martyr"
+        ],
+        "review_status": "pending"
+      },
+      {
+        "id": "obs-thyrsus-leucius-philemon-apollonius",
+        "kind": "group_commemoration",
+        "name": {
+          "sr-Cyrl": "Свети мученици Тирс, Левкије, Филимон и Аполоније",
+          "sr-Latn": "Sveti mučenici Tirs, Levkije, Filimon i Apolonije"
+        },
+        "description": {
+          "sr-Cyrl": "Спомен групе светих",
+          "sr-Latn": "Spomen grupe svetih"
+        },
+        "subject_ids": [
+          "group-thyrsus-leucius-philemon-apollonius"
+        ],
+        "aliases": [],
+        "source_ids": [
+          "eparhija-month-12",
+          "ks01-b2-thyrsus-leucius-philemon-apollonius"
+        ],
+        "review_status": "pending"
+      },
+      {
+        "id": "obs-eleutherius-illyria-hieromartyr",
+        "kind": "saint_commemoration",
+        "name": {
+          "sr-Cyrl": "Свети свештеномученик Елевтерије",
+          "sr-Latn": "Sveti sveštenomučenik Elevterije"
+        },
+        "description": {
+          "sr-Cyrl": "Спомен светитеља",
+          "sr-Latn": "Spomen svetitelja"
+        },
+        "subject_ids": [
+          "saint-eleutherius-illyria-hieromartyr"
+        ],
+        "aliases": [],
+        "source_ids": [
+          "eparhija-month-12",
+          "ks01-b2-eleutherius-illyria-hieromartyr"
+        ],
+        "review_status": "pending"
+      },
+      {
+        "id": "obs-haggai-prophet",
+        "kind": "saint_commemoration",
+        "name": {
+          "sr-Cyrl": "Свети пророк Агеј",
+          "sr-Latn": "Sveti prorok Agej"
+        },
+        "description": {
+          "sr-Cyrl": "Спомен светитеља",
+          "sr-Latn": "Spomen svetitelja"
+        },
+        "subject_ids": [
+          "saint-haggai-prophet"
+        ],
+        "aliases": [],
+        "source_ids": [
+          "eparhija-month-12",
+          "ks01-b2-haggai-prophet"
+        ],
+        "review_status": "pending"
+      },
+      {
+        "id": "obs-daniel-prophet",
+        "kind": "saint_commemoration",
+        "name": {
+          "sr-Cyrl": "Свети пророк Данило",
+          "sr-Latn": "Sveti prorok Danilo"
+        },
+        "description": {
+          "sr-Cyrl": "Спомен светитеља",
+          "sr-Latn": "Spomen svetitelja"
+        },
+        "subject_ids": [
+          "saint-daniel-prophet"
+        ],
+        "aliases": [],
+        "source_ids": [
+          "eparhija-month-12",
+          "ks01-b2-daniel-prophet"
+        ],
+        "review_status": "pending"
+      },
+      {
+        "id": "obs-sebastian-rome-martyr",
+        "kind": "saint_commemoration",
+        "name": {
+          "sr-Cyrl": "Свети мученик Севастијан",
+          "sr-Latn": "Sveti mučenik Sevastijan"
+        },
+        "description": {
+          "sr-Cyrl": "Спомен светитеља",
+          "sr-Latn": "Spomen svetitelja"
+        },
+        "subject_ids": [
+          "saint-sebastian-rome-martyr"
+        ],
+        "aliases": [],
+        "source_ids": [
+          "eparhija-month-12",
+          "ks01-b2-sebastian-rome-martyr"
+        ],
+        "review_status": "pending"
+      }
+    ],
+    "occurrences": [
+      {
+        "id": "occ-obs-stephen-new-confessor-2026",
+        "observance_id": "obs-stephen-new-confessor",
+        "calendar_binding_id": "calendar-spc-2026",
+        "date": "2026-12-11",
+        "julian_date": "2026-11-28",
+        "calendar_title": {
+          "sr-Cyrl": "Свети преподобномученик Стефан",
+          "sr-Latn": "Sveti prepodobnomučenik Stefan"
+        },
+        "calendar_source_ids": [
+          "eparhija-month-12"
+        ],
+        "source_ids": [
+          "eparhija-month-12",
+          "ks01-b2-stephen-new-confessor"
+        ],
+        "review_status": "pending"
+      },
+      {
+        "id": "occ-obs-paramon-philumenus-commemoration-2026",
+        "observance_id": "obs-paramon-philumenus-commemoration",
+        "calendar_binding_id": "calendar-spc-2026",
+        "date": "2026-12-12",
+        "julian_date": "2026-11-29",
+        "calendar_title": {
+          "sr-Cyrl": "Свети мученици Парамон и Филумен",
+          "sr-Latn": "Sveti mučenici Paramon i Filumen"
+        },
+        "calendar_source_ids": [
+          "eparhija-month-12"
+        ],
+        "source_ids": [
+          "eparhija-month-12",
+          "ks01-b2-paramon-philumenus-commemoration",
+          "ks01-b2-paramon-philumenus-commemoration-2"
+        ],
+        "review_status": "pending"
+      },
+      {
+        "id": "occ-obs-andrew-first-called-apostle-2026",
+        "observance_id": "obs-andrew-first-called-apostle",
+        "calendar_binding_id": "calendar-spc-2026",
+        "date": "2026-12-13",
+        "julian_date": "2026-11-30",
+        "calendar_title": {
+          "sr-Cyrl": "Свети апостол Андреј Првозвани",
+          "sr-Latn": "Sveti apostol Andrej Prvozvani"
+        },
+        "calendar_source_ids": [
+          "eparhija-month-12"
+        ],
+        "source_ids": [
+          "eparhija-month-12",
+          "ks01-b2-andrew-first-called-apostle"
+        ],
+        "review_status": "pending"
+      },
+      {
+        "id": "occ-obs-nahum-prophet-2026",
+        "observance_id": "obs-nahum-prophet",
+        "calendar_binding_id": "calendar-spc-2026",
+        "date": "2026-12-14",
+        "julian_date": "2026-12-01",
+        "calendar_title": {
+          "sr-Cyrl": "Свети пророк Наум",
+          "sr-Latn": "Sveti prorok Naum"
+        },
+        "calendar_source_ids": [
+          "eparhija-month-12"
+        ],
+        "source_ids": [
+          "eparhija-month-12",
+          "ks01-b2-nahum-prophet"
+        ],
+        "review_status": "pending"
+      },
+      {
+        "id": "occ-obs-habakkuk-prophet-2026",
+        "observance_id": "obs-habakkuk-prophet",
+        "calendar_binding_id": "calendar-spc-2026",
+        "date": "2026-12-15",
+        "julian_date": "2026-12-02",
+        "calendar_title": {
+          "sr-Cyrl": "Свети пророк Авакум",
+          "sr-Latn": "Sveti prorok Avakum"
+        },
+        "calendar_source_ids": [
+          "eparhija-month-12"
+        ],
+        "source_ids": [
+          "eparhija-month-12",
+          "ks01-b2-habakkuk-prophet"
+        ],
+        "review_status": "pending"
+      },
+      {
+        "id": "occ-obs-zephaniah-prophet-2026",
+        "observance_id": "obs-zephaniah-prophet",
+        "calendar_binding_id": "calendar-spc-2026",
+        "date": "2026-12-16",
+        "julian_date": "2026-12-03",
+        "calendar_title": {
+          "sr-Cyrl": "Свети пророк Софоније",
+          "sr-Latn": "Sveti prorok Sofonije"
+        },
+        "calendar_source_ids": [
+          "eparhija-month-12"
+        ],
+        "source_ids": [
+          "eparhija-month-12",
+          "ks01-b2-zephaniah-prophet"
+        ],
+        "review_status": "pending"
+      },
+      {
+        "id": "occ-obs-barbara-heliopolis-martyr-2026",
+        "observance_id": "obs-barbara-heliopolis-martyr",
+        "calendar_binding_id": "calendar-spc-2026",
+        "date": "2026-12-17",
+        "julian_date": "2026-12-04",
+        "calendar_title": {
+          "sr-Cyrl": "Света великомученица Варвара",
+          "sr-Latn": "Sveta velikomučenica Varvara"
+        },
+        "calendar_source_ids": [
+          "eparhija-month-12"
+        ],
+        "source_ids": [
+          "eparhija-month-12",
+          "ks01-b2-barbara-heliopolis-martyr"
+        ],
+        "review_status": "pending"
+      },
+      {
+        "id": "occ-obs-sabbas-sanctified-2026",
+        "observance_id": "obs-sabbas-sanctified",
+        "calendar_binding_id": "calendar-spc-2026",
+        "date": "2026-12-18",
+        "julian_date": "2026-12-05",
+        "calendar_title": {
+          "sr-Cyrl": "Преподобни Сава Освећени",
+          "sr-Latn": "Prepodobni Sava Osvećeni"
+        },
+        "calendar_source_ids": [
+          "eparhija-month-12"
+        ],
+        "source_ids": [
+          "eparhija-month-12",
+          "ks01-b2-sabbas-sanctified"
+        ],
+        "review_status": "pending"
+      },
+      {
+        "id": "occ-obs-gregory-gornjak-2026",
+        "observance_id": "obs-gregory-gornjak",
+        "calendar_binding_id": "calendar-spc-2026",
+        "date": "2026-12-20",
+        "julian_date": "2026-12-07",
+        "calendar_title": {
+          "sr-Cyrl": "Преподобни Григорије Горњачки – Детињци",
+          "sr-Latn": "Prepodobni Grigorije Gornjački – Detinjci"
+        },
+        "calendar_source_ids": [
+          "eparhija-month-12"
+        ],
+        "source_ids": [
+          "eparhija-month-12",
+          "ks01-b2-gregory-gornjak",
+          "ks01-b2-gregory-gornjak-2"
+        ],
+        "review_status": "pending"
+      },
+      {
+        "id": "occ-obs-patapius-thebes-2026",
+        "observance_id": "obs-patapius-thebes",
+        "calendar_binding_id": "calendar-spc-2026",
+        "date": "2026-12-21",
+        "julian_date": "2026-12-08",
+        "calendar_title": {
+          "sr-Cyrl": "Преподобни Патапије",
+          "sr-Latn": "Prepodobni Patapije"
+        },
+        "calendar_source_ids": [
+          "eparhija-month-12"
+        ],
+        "source_ids": [
+          "eparhija-month-12",
+          "ks01-b2-patapius-thebes"
+        ],
+        "review_status": "pending"
+      },
+      {
+        "id": "occ-obs-conception-theotokos-by-anna-2026",
+        "observance_id": "obs-conception-theotokos-by-anna",
+        "calendar_binding_id": "calendar-spc-2026",
+        "date": "2026-12-22",
+        "julian_date": "2026-12-09",
+        "calendar_title": {
+          "sr-Cyrl": "Зачеће Свете Ане",
+          "sr-Latn": "Začeće Svete Ane"
+        },
+        "calendar_source_ids": [
+          "eparhija-month-12"
+        ],
+        "source_ids": [
+          "eparhija-month-12",
+          "ks01-b2-conception-theotokos-by-anna"
+        ],
+        "review_status": "pending"
+      },
+      {
+        "id": "occ-obs-menas-hermogenes-eugraphus-alexandria-2026",
+        "observance_id": "obs-menas-hermogenes-eugraphus-alexandria",
+        "calendar_binding_id": "calendar-spc-2026",
+        "date": "2026-12-23",
+        "julian_date": "2026-12-10",
+        "calendar_title": {
+          "sr-Cyrl": "Свети мученик Мина и други с њим",
+          "sr-Latn": "Sveti mučenik Mina i drugi s njim"
+        },
+        "calendar_source_ids": [
+          "eparhija-month-12"
+        ],
+        "source_ids": [
+          "eparhija-month-12",
+          "ks01-b2-menas-hermogenes-eugraphus-alexandria"
+        ],
+        "review_status": "pending"
+      },
+      {
+        "id": "occ-obs-daniel-stylite-constantinople-2026",
+        "observance_id": "obs-daniel-stylite-constantinople",
+        "calendar_binding_id": "calendar-spc-2026",
+        "date": "2026-12-24",
+        "julian_date": "2026-12-11",
+        "calendar_title": {
+          "sr-Cyrl": "Преподобни Данило Столпник",
+          "sr-Latn": "Prepodobni Danilo Stolpnik"
+        },
+        "calendar_source_ids": [
+          "eparhija-month-12"
+        ],
+        "source_ids": [
+          "eparhija-month-12",
+          "ks01-b2-daniel-stylite-constantinople"
+        ],
+        "review_status": "pending"
+      },
+      {
+        "id": "occ-obs-spyridon-tremithus-2026",
+        "observance_id": "obs-spyridon-tremithus",
+        "calendar_binding_id": "calendar-spc-2026",
+        "date": "2026-12-25",
+        "julian_date": "2026-12-12",
+        "calendar_title": {
+          "sr-Cyrl": "Свети Спиридон Чудотворац, Епископ тримитунски",
+          "sr-Latn": "Sveti Spiridon Čudotvorac, Episkop trimitunski"
+        },
+        "calendar_source_ids": [
+          "eparhija-month-12"
+        ],
+        "source_ids": [
+          "eparhija-month-12",
+          "ks01-b2-spyridon-tremithus"
+        ],
+        "review_status": "pending"
+      },
+      {
+        "id": "occ-obs-eustratius-sebaste-martyr-2026",
+        "observance_id": "obs-eustratius-sebaste-martyr",
+        "calendar_binding_id": "calendar-spc-2026",
+        "date": "2026-12-26",
+        "julian_date": "2026-12-13",
+        "calendar_title": {
+          "sr-Cyrl": "Свети мученик Евстратије",
+          "sr-Latn": "Sveti mučenik Evstratije"
+        },
+        "calendar_source_ids": [
+          "eparhija-month-12"
+        ],
+        "source_ids": [
+          "eparhija-month-12",
+          "ks01-b2-eustratius-sebaste-martyr"
+        ],
+        "review_status": "pending"
+      },
+      {
+        "id": "occ-obs-thyrsus-leucius-philemon-apollonius-2026",
+        "observance_id": "obs-thyrsus-leucius-philemon-apollonius",
+        "calendar_binding_id": "calendar-spc-2026",
+        "date": "2026-12-27",
+        "julian_date": "2026-12-14",
+        "calendar_title": {
+          "sr-Cyrl": "Свети мученици Тирс, Левкије, Филимон, Аполоније и други с њима – Материце",
+          "sr-Latn": "Sveti mučenici Tirs, Levkije, Filimon, Apolonije i drugi s njima – Materice"
+        },
+        "calendar_source_ids": [
+          "eparhija-month-12"
+        ],
+        "source_ids": [
+          "eparhija-month-12",
+          "ks01-b2-thyrsus-leucius-philemon-apollonius"
+        ],
+        "review_status": "pending"
+      },
+      {
+        "id": "occ-obs-eleutherius-illyria-hieromartyr-2026",
+        "observance_id": "obs-eleutherius-illyria-hieromartyr",
+        "calendar_binding_id": "calendar-spc-2026",
+        "date": "2026-12-28",
+        "julian_date": "2026-12-15",
+        "calendar_title": {
+          "sr-Cyrl": "Свети свештеномученик Елевтерије",
+          "sr-Latn": "Sveti sveštenomučenik Elevterije"
+        },
+        "calendar_source_ids": [
+          "eparhija-month-12"
+        ],
+        "source_ids": [
+          "eparhija-month-12",
+          "ks01-b2-eleutherius-illyria-hieromartyr"
+        ],
+        "review_status": "pending"
+      },
+      {
+        "id": "occ-obs-haggai-prophet-2026",
+        "observance_id": "obs-haggai-prophet",
+        "calendar_binding_id": "calendar-spc-2026",
+        "date": "2026-12-29",
+        "julian_date": "2026-12-16",
+        "calendar_title": {
+          "sr-Cyrl": "Свети пророк Агеј",
+          "sr-Latn": "Sveti prorok Agej"
+        },
+        "calendar_source_ids": [
+          "eparhija-month-12"
+        ],
+        "source_ids": [
+          "eparhija-month-12",
+          "ks01-b2-haggai-prophet"
+        ],
+        "review_status": "pending"
+      },
+      {
+        "id": "occ-obs-daniel-prophet-2026",
+        "observance_id": "obs-daniel-prophet",
+        "calendar_binding_id": "calendar-spc-2026",
+        "date": "2026-12-30",
+        "julian_date": "2026-12-17",
+        "calendar_title": {
+          "sr-Cyrl": "Свети пророк Данило",
+          "sr-Latn": "Sveti prorok Danilo"
+        },
+        "calendar_source_ids": [
+          "eparhija-month-12"
+        ],
+        "source_ids": [
+          "eparhija-month-12",
+          "ks01-b2-daniel-prophet"
+        ],
+        "review_status": "pending"
+      },
+      {
+        "id": "occ-obs-sebastian-rome-martyr-2026",
+        "observance_id": "obs-sebastian-rome-martyr",
+        "calendar_binding_id": "calendar-spc-2026",
+        "date": "2026-12-31",
+        "julian_date": "2026-12-18",
+        "calendar_title": {
+          "sr-Cyrl": "Свети мученик Севастијан",
+          "sr-Latn": "Sveti mučenik Sevastijan"
+        },
+        "calendar_source_ids": [
+          "eparhija-month-12"
+        ],
+        "source_ids": [
+          "eparhija-month-12",
+          "ks01-b2-sebastian-rome-martyr"
+        ],
+        "review_status": "pending"
+      }
+    ],
+    "article_links": [
+      {
+        "observance_id": "obs-stephen-new-confessor",
+        "article_binding_id": "saints-pilot-2026",
+        "article_id": "stephen-new-confessor",
+        "source_ids": [
+          "eparhija-month-12",
+          "ks01-b2-stephen-new-confessor"
+        ],
+        "review_status": "pending"
+      },
+      {
+        "observance_id": "obs-paramon-philumenus-commemoration",
+        "article_binding_id": "saints-pilot-2026",
+        "article_id": "paramon-philumenus-commemoration",
+        "source_ids": [
+          "eparhija-month-12",
+          "ks01-b2-paramon-philumenus-commemoration",
+          "ks01-b2-paramon-philumenus-commemoration-2"
+        ],
+        "review_status": "pending"
+      },
+      {
+        "observance_id": "obs-andrew-first-called-apostle",
+        "article_binding_id": "saints-pilot-2026",
+        "article_id": "andrew-first-called-apostle",
+        "source_ids": [
+          "eparhija-month-12",
+          "ks01-b2-andrew-first-called-apostle"
+        ],
+        "review_status": "pending"
+      },
+      {
+        "observance_id": "obs-nahum-prophet",
+        "article_binding_id": "saints-pilot-2026",
+        "article_id": "nahum-prophet",
+        "source_ids": [
+          "eparhija-month-12",
+          "ks01-b2-nahum-prophet"
+        ],
+        "review_status": "pending"
+      },
+      {
+        "observance_id": "obs-habakkuk-prophet",
+        "article_binding_id": "saints-pilot-2026",
+        "article_id": "habakkuk-prophet",
+        "source_ids": [
+          "eparhija-month-12",
+          "ks01-b2-habakkuk-prophet"
+        ],
+        "review_status": "pending"
+      },
+      {
+        "observance_id": "obs-zephaniah-prophet",
+        "article_binding_id": "saints-pilot-2026",
+        "article_id": "zephaniah-prophet",
+        "source_ids": [
+          "eparhija-month-12",
+          "ks01-b2-zephaniah-prophet"
+        ],
+        "review_status": "pending"
+      },
+      {
+        "observance_id": "obs-barbara-heliopolis-martyr",
+        "article_binding_id": "saints-pilot-2026",
+        "article_id": "barbara-heliopolis-martyr",
+        "source_ids": [
+          "eparhija-month-12",
+          "ks01-b2-barbara-heliopolis-martyr"
+        ],
+        "review_status": "pending"
+      },
+      {
+        "observance_id": "obs-sabbas-sanctified",
+        "article_binding_id": "saints-pilot-2026",
+        "article_id": "sabbas-sanctified",
+        "source_ids": [
+          "eparhija-month-12",
+          "ks01-b2-sabbas-sanctified"
+        ],
+        "review_status": "pending"
+      },
+      {
+        "observance_id": "obs-nicholas-december",
+        "article_binding_id": "saints-pilot-2026",
+        "article_id": "nicholas-myra-december",
+        "source_ids": [
+          "eparhija-month-12",
+          "ks01-b2-nicholas-myra-december"
+        ],
+        "review_status": "pending"
+      },
+      {
+        "observance_id": "obs-gregory-gornjak",
+        "article_binding_id": "saints-pilot-2026",
+        "article_id": "gregory-gornjak",
+        "source_ids": [
+          "eparhija-month-12",
+          "ks01-b2-gregory-gornjak",
+          "ks01-b2-gregory-gornjak-2"
+        ],
+        "review_status": "pending"
+      },
+      {
+        "observance_id": "obs-patapius-thebes",
+        "article_binding_id": "saints-pilot-2026",
+        "article_id": "patapius-thebes",
+        "source_ids": [
+          "eparhija-month-12",
+          "ks01-b2-patapius-thebes"
+        ],
+        "review_status": "pending"
+      },
+      {
+        "observance_id": "obs-conception-theotokos-by-anna",
+        "article_binding_id": "saints-pilot-2026",
+        "article_id": "conception-theotokos-by-anna",
+        "source_ids": [
+          "eparhija-month-12",
+          "ks01-b2-conception-theotokos-by-anna"
+        ],
+        "review_status": "pending"
+      },
+      {
+        "observance_id": "obs-menas-hermogenes-eugraphus-alexandria",
+        "article_binding_id": "saints-pilot-2026",
+        "article_id": "menas-hermogenes-eugraphus-alexandria",
+        "source_ids": [
+          "eparhija-month-12",
+          "ks01-b2-menas-hermogenes-eugraphus-alexandria"
+        ],
+        "review_status": "pending"
+      },
+      {
+        "observance_id": "obs-daniel-stylite-constantinople",
+        "article_binding_id": "saints-pilot-2026",
+        "article_id": "daniel-stylite-constantinople",
+        "source_ids": [
+          "eparhija-month-12",
+          "ks01-b2-daniel-stylite-constantinople"
+        ],
+        "review_status": "pending"
+      },
+      {
+        "observance_id": "obs-spyridon-tremithus",
+        "article_binding_id": "saints-pilot-2026",
+        "article_id": "spyridon-tremithus",
+        "source_ids": [
+          "eparhija-month-12",
+          "ks01-b2-spyridon-tremithus"
+        ],
+        "review_status": "pending"
+      },
+      {
+        "observance_id": "obs-eustratius-sebaste-martyr",
+        "article_binding_id": "saints-pilot-2026",
+        "article_id": "eustratius-sebaste-martyr",
+        "source_ids": [
+          "eparhija-month-12",
+          "ks01-b2-eustratius-sebaste-martyr"
+        ],
+        "review_status": "pending"
+      },
+      {
+        "observance_id": "obs-thyrsus-leucius-philemon-apollonius",
+        "article_binding_id": "saints-pilot-2026",
+        "article_id": "thyrsus-leucius-philemon-apollonius",
+        "source_ids": [
+          "eparhija-month-12",
+          "ks01-b2-thyrsus-leucius-philemon-apollonius"
+        ],
+        "review_status": "pending"
+      },
+      {
+        "observance_id": "obs-eleutherius-illyria-hieromartyr",
+        "article_binding_id": "saints-pilot-2026",
+        "article_id": "eleutherius-illyria-hieromartyr",
+        "source_ids": [
+          "eparhija-month-12",
+          "ks01-b2-eleutherius-illyria-hieromartyr"
+        ],
+        "review_status": "pending"
+      },
+      {
+        "observance_id": "obs-haggai-prophet",
+        "article_binding_id": "saints-pilot-2026",
+        "article_id": "haggai-prophet",
+        "source_ids": [
+          "eparhija-month-12",
+          "ks01-b2-haggai-prophet"
+        ],
+        "review_status": "pending"
+      },
+      {
+        "observance_id": "obs-daniel-prophet",
+        "article_binding_id": "saints-pilot-2026",
+        "article_id": "daniel-prophet",
+        "source_ids": [
+          "eparhija-month-12",
+          "ks01-b2-daniel-prophet"
+        ],
+        "review_status": "pending"
+      },
+      {
+        "observance_id": "obs-sebastian-rome-martyr",
+        "article_binding_id": "saints-pilot-2026",
+        "article_id": "sebastian-rome-martyr",
+        "source_ids": [
+          "eparhija-month-12",
+          "ks01-b2-sebastian-rome-martyr"
+        ],
+        "review_status": "pending"
+      }
+    ]
+  },
+  "catalog_before": {
+    "sources": 20,
+    "subjects": 18,
+    "observances": 34,
+    "occurrences": 32,
+    "article_links": 11
+  },
+  "catalog_additions": {
+    "sources": 23,
+    "subjects": 19,
+    "observances": 20,
+    "occurrences": 20,
+    "article_links": 21
+  },
+  "standalone_S12_plus_block2": {
+    "articles": 83,
+    "saints": {
+      "path": "IN_MEMORY_ONLY/saints-v1.json",
+      "bytes": 322220,
+      "sha256": "bc99d3023fe594bad442d55cdb7aa1fc9858ae78a04bb8c0cf5d13fd580acb77"
+    },
+    "catalog": {
+      "path": "IN_MEMORY_ONLY/liturgical-catalog-v1.json",
+      "bytes": 113365,
+      "sha256": "b38efa762ea6d9a67ac6e5e450b5521c10287453374c982767a171b03ef68ab0"
+    },
+    "browser": {
+      "path": "IN_MEMORY_ONLY/calendar-browser-v1.json",
+      "bytes": 97906,
+      "sha256": "c9b0802fb7cfb0915974ad42e9ac09152854dfef98356c9f33092e1fb1af70e2"
+    },
+    "counts": {
+      "sources": 43,
+      "subjects": 37,
+      "observances": 54,
+      "occurrences": 52,
+      "article_links": 32
+    },
+    "article_binding": {
+      "id": "saints-pilot-2026",
+      "module_id": "saints-v1",
+      "version": "2026.10.6",
+      "revision": 6,
+      "path": "data/saints-v1.json",
+      "sha256": "bc99d3023fe594bad442d55cdb7aa1fc9858ae78a04bb8c0cf5d13fd580acb77"
+    },
+    "browser_catalog_binding": {
+      "module_id": "liturgical-catalog-v1",
+      "version": "2026.10.6",
+      "revision": 9,
+      "path": "data/liturgical-catalog-v1.json",
+      "sha256": "b38efa762ea6d9a67ac6e5e450b5521c10287453374c982767a171b03ef68ab0"
+    }
+  },
+  "combined_S12_plus_both_pending_blocks": {
+    "articles": 104,
+    "saints": {
+      "path": "IN_MEMORY_ONLY/saints-v1.json",
+      "bytes": 399113,
+      "sha256": "34aaa713f61e57990b0d3f85e62c69f5bda661f4db08f569cf6a9d6635006832"
+    },
+    "catalog": {
+      "path": "IN_MEMORY_ONLY/liturgical-catalog-v1.json",
+      "bytes": 159604,
+      "sha256": "cca6c025c025797f5e0bcc50b89903bbedaa9d10ad094eccfc1335b529d8d7e0"
+    },
+    "browser": {
+      "path": "IN_MEMORY_ONLY/calendar-browser-v1.json",
+      "bytes": 97906,
+      "sha256": "cf12a20df56122ec1130017841a7d6d2de90af934463e1054cc257c0c98dd8e7"
+    },
+    "counts": {
+      "sources": 65,
+      "subjects": 56,
+      "observances": 73,
+      "occurrences": 71,
+      "article_links": 53
+    },
+    "article_binding": {
+      "id": "saints-pilot-2026",
+      "module_id": "saints-v1",
+      "version": "2026.10.6",
+      "revision": 6,
+      "path": "data/saints-v1.json",
+      "sha256": "34aaa713f61e57990b0d3f85e62c69f5bda661f4db08f569cf6a9d6635006832"
+    },
+    "browser_catalog_binding": {
+      "module_id": "liturgical-catalog-v1",
+      "version": "2026.10.6",
+      "revision": 9,
+      "path": "data/liturgical-catalog-v1.json",
+      "sha256": "cca6c025c025797f5e0bcc50b89903bbedaa9d10ad094eccfc1335b529d8d7e0"
+    }
+  },
+  "combined_status": "IN_MEMORY_MEASUREMENT_ONLY_62_APPROVED_PLUS42_PENDING_NOT_A_RELEASE",
+  "runtime_payload_files_written": false,
+  "candidate_versions_not_reserved": true,
+  "profile": "ks01-capacity-366-r1",
+  "decision_sha256": "5452b8728adad35a1fc300ec04967a3b70d3cac3a175b06136c9aff39b0c781b",
+  "untouched": [
+    "Approved62 raw articles/IDs/days/sources",
+    "annual2026 bytes",
+    "S12",
+    "block1 frozen artifacts",
+    "Package A",
+    "Package B not generated",
+    "test-only capacity fixtures",
+    "browser membership/archive",
+    "2027",
+    "fasting/Gospel facts",
+    "native builds/code/settings"
+  ],
+  "open_gates": [
+    "Independent human text/identity/link review of block2 and pending block1",
+    "Rights review, no new license asserted",
+    "Resolve any reviewer findings by explicit revision, never silent frozen-master edits",
+    "Package A acceptance before Package B generation",
+    "Real final whole-generation merge after approvals, exact bindings and compatible native acceptance",
+    "Separate signing/publication authority"
+  ]
+}

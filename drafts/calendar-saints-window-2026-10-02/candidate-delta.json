@@ -1,0 +1,100 @@
+{
+  "schema_version": "svetlost33-editorial-catalog-delta-1",
+  "id": "calendar-saints-window-2026-10-02-r1",
+  "status": "unsigned_pending_candidate",
+  "scope": {
+    "from": "2026-10-02",
+    "through": "2026-10-08",
+    "calendar_profile_id": "spc-rs-ba-julian-v1",
+    "preparation_authorized": true,
+    "publication_authorized": false,
+    "new_articles": 0,
+    "annual_calendar_changes": 0,
+    "new_source_claims": 0,
+    "rights_changes": 0
+  },
+  "base": {
+    "release_set_id": "shared-content-refresh-2026-09-30-m0v2-s11",
+    "release_set_sha256": "ef109fcdb5ef14baae8697664e447a1c17378030e57f1209cb3fa2510cbf13d3",
+    "catalog_sha256": "7aa40603faefad1a291d8bb379bc54b32576c5119a6fcc93b49cad5172096c26",
+    "calendar_sha256": "a1b6a5d5911ae03f77802bd466227f0c1ea4fe97708b1b6f92cd4b08847c7c9c",
+    "saints_sha256": "ca3e4fd02ca79e97d53e0e456b2ccaaeb81ebc3b740a71b3eb72049bf01331b5"
+  },
+  "candidate": {
+    "version": "2026.10.1",
+    "revision": 7,
+    "review_status": "pending",
+    "approval_id": null,
+    "calendar_binding_id": "calendar-spc-2026",
+    "article_binding_id": "saints-pilot-2026"
+  },
+  "additions": [
+    {
+      "date": "2026-10-02",
+      "observance_id": "obs-trophimus-sabbatius-dorymedon",
+      "kind": "group_commemoration",
+      "subject_id": "group-trophimus-sabbatius-dorymedon",
+      "subject_operation": "add",
+      "article_id": "trophimus-sabbatius-dorymedon"
+    },
+    {
+      "date": "2026-10-03",
+      "observance_id": "obs-greatmartyr-eustathius",
+      "kind": "saint_commemoration",
+      "subject_id": "saint-greatmartyr-eustathius",
+      "subject_operation": "add",
+      "article_id": "greatmartyr-eustathius"
+    },
+    {
+      "date": "2026-10-04",
+      "observance_id": "obs-apostle-quadratus",
+      "kind": "saint_commemoration",
+      "subject_id": "saint-apostle-quadratus",
+      "subject_operation": "add",
+      "article_id": "apostle-quadratus"
+    },
+    {
+      "date": "2026-10-05",
+      "observance_id": "obs-hieromartyr-phocas-sinope",
+      "kind": "saint_commemoration",
+      "subject_id": "saint-hieromartyr-phocas-sinope",
+      "subject_operation": "add",
+      "article_id": "hieromartyr-phocas-sinope"
+    },
+    {
+      "date": "2026-10-06",
+      "observance_id": "obs-conception-john-forerunner",
+      "kind": "feast",
+      "subject_id": "saint-john-baptist",
+      "subject_operation": "reuse",
+      "article_id": "conception-john-forerunner"
+    },
+    {
+      "date": "2026-10-07",
+      "observance_id": "obs-protomartyr-thecla",
+      "kind": "saint_commemoration",
+      "subject_id": "saint-protomartyr-thecla",
+      "subject_operation": "add",
+      "article_id": "protomartyr-thecla"
+    },
+    {
+      "date": "2026-10-08",
+      "observance_id": "obs-euphrosyne-alexandria",
+      "kind": "saint_commemoration",
+      "subject_id": "saint-euphrosyne-alexandria",
+      "subject_operation": "add",
+      "article_id": "euphrosyne-alexandria"
+    }
+  ],
+  "unchanged_unknowns": {
+    "gospel_dates": ["2026-10-02", "2026-10-03", "2026-10-04", "2026-10-05", "2026-10-06", "2026-10-07", "2026-10-08"],
+    "fasting_rule_dates": ["2026-10-02"],
+    "explanation": "Preserve the exact S11 calendar evidence. No fresh web audit or service-assignment claim is made in this increment. The conflicting WATER/OIL observations on 2026-10-02 remain UNKNOWN."
+  },
+  "later_release_requirements": [
+    "Review exact pending candidate and assign a new explicit approval record; do not inherit the S11 approval ID.",
+    "Rebind calendar-browser-v1 to the exact newly approved catalog hash/version/revision in a coherent candidate generation.",
+    "Validate the exact shared generation on both native clients; this editorial validator is not native acceptance or signature verification.",
+    "Obtain separate publication authorization before signing, activating, or publishing; none is performed here."
+  ]
+}

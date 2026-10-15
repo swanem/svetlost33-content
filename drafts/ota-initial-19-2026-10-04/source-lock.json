@@ -1,0 +1,109 @@
+{
+  "schema_version": "svetlost33-ota-initial19-input-lock-1",
+  "status": "LOCAL_INPUT_INVENTORY_NOT_WIRE_EXPORT",
+  "recorded_on": "2026-10-04",
+  "anchors": [
+    {
+      "id": "old-approval",
+      "path": "svetlost33-content/approvals/shared-backgrounds-v1-2026-09-16/approval.json",
+      "bytes": 2719,
+      "sha256": "43cc4bda3835376e8d6e20d91f29df64784d2100ff085961fbfa945009d8c020"
+    },
+    {
+      "id": "old-source",
+      "path": "svetlost33-content/approvals/shared-backgrounds-v1-2026-09-16/source-manifest.json",
+      "bytes": 6648,
+      "sha256": "6b8102f428daf16d361aa87d686eb444e8ed1ef4ba94ed241cafc44a8a7c15b4"
+    },
+    {
+      "id": "old-catalog",
+      "path": "svetlost33-content/approvals/shared-backgrounds-v1-2026-09-16/catalog.json",
+      "bytes": 5011,
+      "sha256": "9895ddbeee59b2fc1203ffae21c727121ad6474a267bfb1b013c79a554ae4894"
+    },
+    {
+      "id": "old-rights",
+      "path": "svetlost33-content/licenses/backgrounds-v1.json",
+      "bytes": 6202,
+      "sha256": "5d5996e2f4f033e33949b8e3d80aa3ffba4c1d9fff85e6359275962f4822e2af"
+    },
+    {
+      "id": "spec",
+      "path": "svetlost33-github/docs/SPECIFIKACIJA.md",
+      "bytes": 439536,
+      "sha256": "36cbd275c490f8952b082c27f3f2388ff6884e61e224645efab15cac41afc61d"
+    },
+    {
+      "id": "m4-plan",
+      "path": "svetlost33-github/docs/PLAN-OTVORENIH-STAVKI-2026-09-30.md",
+      "bytes": 40204,
+      "sha256": "ff4a295aba79b208f3a87006deb1ba3b42fc818fc5c4abb46cce8924082fde05"
+    },
+    {
+      "id": "freeze-r4",
+      "path": "svetlost33-github/docs/contracts/media-ota-v1-2026-09-30/shared-freeze-r4.json",
+      "bytes": 6128,
+      "sha256": "d8bf15e6727b9286a9af177d8ebe2925254e59c4e3959985bd45465de0f8a9e9"
+    },
+    {
+      "id": "clarification-01",
+      "path": "svetlost33-github/docs/contracts/media-ota-v1-2026-09-30/shared-freeze-r4-clarification-01.json",
+      "bytes": 1697,
+      "sha256": "8f37a607e3ddeb314bee01c8ee8a8d6ec4ec1fefbe90c0f9eddc18680909abc4"
+    },
+    {
+      "id": "image-structure",
+      "path": "svetlost33-github/docs/contracts/media-ota-v1-2026-09-30/wire/review-r2/image-structure.mjs",
+      "bytes": 3685,
+      "sha256": "4557d148da9e56d952ae0f9ed20a0982e692565e26c887fb3e7fe4b0542ad409"
+    },
+    {
+      "id": "frozen-r3-exporter",
+      "path": "svetlost33-github/docs/contracts/media-ota-v1-2026-09-30/wire/review-r3/exporter.mjs",
+      "bytes": 18443,
+      "sha256": "5548051ca8428dba059411d5742b00a65aa742af6678bc2a5318300acf84e860"
+    },
+    {
+      "id": "frozen-r3-source-lock",
+      "path": "svetlost33-github/docs/contracts/media-ota-v1-2026-09-30/wire/review-r3/source-lock.json",
+      "bytes": 1731,
+      "sha256": "9fa4686f6a3babffbfde2160c359444227216d3bf723e90b1ac6df86cd00aec6"
+    },
+    {
+      "id": "slava-candidate",
+      "path": "svetlost33-content/drafts/slava-default-2026-10-01/candidate-r1.json",
+      "bytes": 2929,
+      "sha256": "0c51d4f0510ab4e9199d566d0e0fbac1d4afb31bdc9589688a966d8a7cf4c277"
+    },
+    {
+      "id": "slava-editorial",
+      "path": "svetlost33-content/drafts/slava-default-2026-10-01/owner-approval-r1.json",
+      "bytes": 1453,
+      "sha256": "07d5561332511d363a45c1f66b7850ef559d8ceb98d9906d2bc9e8424ed0f289"
+    },
+    {
+      "id": "slava-account-confirmation",
+      "path": "svetlost33-content/drafts/slava-default-2026-10-01/account-holder-confirmation-2026-10-04.json",
+      "bytes": 1726,
+      "sha256": "47f00718064739c25bd6f9805786e587883b2b151c0d93680079a661f5285bb6"
+    },
+    {
+      "id": "slava-native-renditions",
+      "path": "svetlost33-content/drafts/slava-default-2026-10-01/native-renditions/manifest.json",
+      "bytes": 3017,
+      "sha256": "11c5b8af1b085524d2d5d7deeef95a954ada05b16cdb4dfd9f75c355fb7aa023"
+    },
+    {
+      "id": "android-native-renditions",
+      "path": "svetlost33-android-release-0.21.1/shared/background-renditions-v1/manifest.json",
+      "bytes": 31612,
+      "sha256": "a09e4d9e9ce784f76fc190281f5ce8cb5b0ae2d597075b96c2d25839b269dad9"
+    },
+    {
+      "id": "ios-native-renditions",
+      "path": "svetlost33-ios-release-2026-10-02/Sources/SvetlostCore/PreviewResources/background-renditions-v1/manifest.json",
+      "bytes": 31612,
+      "sha256": "a09e4d9e9ce784f76fc190281f5ce8cb5b0ae2d597075b96c2d25839b269dad9"
+    }
+  ]
+}

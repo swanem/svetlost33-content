@@ -1,0 +1,85 @@
+{
+  "schema_version": "svetlost33-media19-tooling-handoff-1",
+  "recorded_on": "2026-10-05",
+  "status": "LOCAL_TOOLING_READY_FOR_ROOT_REVIEW_NOT_PRODUCTION_GO",
+  "scope": "One additive first-media-adoption adapter in existing content scripts. Exact authenticated S12 seven-module core plus exact approved19 M4 images and minimal public evidence projections. No generic publisher, activation, sequence allocator or later-ledger reset.",
+  "changed_files": [
+    {"path": "scripts/media19-release-v2.mjs", "bytes": 32018, "sha256": "8a1def488608223a25fcb93cdc5c9f534c8a6a474c34ef20a9b637a855166fe0"},
+    {"path": "tests/media19-release-v2.test.mjs", "bytes": 13784, "sha256": "f350e9df151c239a058aa770c5c08cfd6cce656c348d9dc416d2ccd9a0859dc7"},
+    {"path": "drafts/ota-media19-release-tooling-2026-10-05/targeted-tests.log", "bytes": 1424, "sha256": "638730c4feebca691de34b41089f50a2aa20cc32f0d9c88516cf46d9bbe22d30"}
+  ],
+  "input_pins": {
+    "baseline_release": "shared-calendar-saints-2026-10-02-m0v2-s12",
+    "baseline_sequence": 12,
+    "baseline_index_sha256": "a0d50c23036db203035419f4ba169ddb6005223799ed3ac4e89e03dd9f7733e9",
+    "baseline_release_sha256": "78142e24f74812be9859b88163203de23517a9ed40a16c0f5ee085e25354255d",
+    "existing_public_key_sha256": "9671cc745a71f3b35ac2281bfd4e8da9335db9c6a44beda0ae5cf380b292c1f6",
+    "media_inventory": "drafts/ota-initial-19-export-2026-10-05/output-inventory.json",
+    "media_inventory_sha256": "b94c69fa69bf6bd292043baa695e6aa24a1242c2da58a40607e6808926892f30",
+    "media_root_review_sha256": "fe564618bb385dc4ba2b2caf4be8061f8284ea6d6d84d33918d23e45cb88d05a",
+    "exact_media_stage": "/private/var/folders/cf/rml65hmd6t771hjy4368hngc0000gn/T/svetlost33-media19-m4-dsU3D5"
+  },
+  "implementation": {
+    "prepare": "Closed explicit release binding; genuine S12 RSA-PSS verification, 24 preserved baseline profile checks, exact47-file M4 input and frozen R2 schema/joins/bytes/full-decode/budget validation. New unsigned tree has a private signing-request.json with exact plan hash, manifest inventory and minimal publication allowlist. No production values are defaulted.",
+    "sign": "Explicit coordinator GO; exact pinned root release approval; both final native M5 receipt/artifact sets and matching actual minimum clients; fresh public S12 observation within one hour; exact staged bytes; unchanged real baseline. These checks precede key access and repeat before writing. Existing external-key guard and pinned public DER parity; RSA-PSS/SHA256 salt32; new signed stage only.",
+    "validate": "Reconstruct exact original S12 from preserved signed discovery archive, compare complete signed inventory and planned unsigned bytes, then execute 24 new-profile accepts and 24 unsupported-policy expected rejections through the existing M0 verifier.",
+    "readback": "Reuse existing bounded ordinary public fetchExactPublicFile and CHANNEL; validate exact signed graph before and after HTTPS reads; recheck both discovery files after graph fetch; exclusive-create local receipt. No push/install action is implemented.",
+    "core_preservation": "Production path retains all seven original S12 core manifests, signatures, payload bytes, identities, revisions and dependencies. Only test harness rekeys core manifests to an ephemeral anchor; core payload bytes remain exact in both paths.",
+    "policy": "background-policy-v1 remains required; background-media-v2 remains optional and depends on exact policy version. Seven policy JSON files, 19 original images and 19 existing derivatives. Initial empty ledger is permitted only by exact authenticated S12 having no prior policy/media module; any live baseline advance fails closed.",
+    "provenance_boundary": "Existing false ready_for_ota_publication and production_activation_authorized_by_this_file fields remain factual local provenance statements, not the new release certificate. Separate exact root approval binds the final public projection and technical release. No new copyright, territory, CC0 or legal guarantee is inferred; seven excluded drafts remain excluded.",
+    "approval_boundary": "The adapter verifies exact root-approved receipt/artifact bytes, platforms, minima and commits; the coordinator interprets platform-owned M5 receipt schemas. Merely hashing an arbitrary log does not independently establish native M5 acceptance. Final root approval must attest real complete native evidence, not these synthetic test-gate receipts."
+  },
+  "required_inputs_not_yet_created": {
+    "production_binding": {
+      "schema_version": "svetlost33-media19-release-binding-1",
+      "mode": "PRODUCTION_PREPARATION",
+      "baseline": "Exact exported S12 object plus history=NO_MEDIA_POLICY_IN_AUTHENTICATED_S12.",
+      "baseline_observation": "Exact path/bytes/sha256 of a real fresh S12 public readback PASS receipt; generated through existing verify-public-calendar-saints-window-v2.mjs, not a test observation.",
+      "target": "Explicit coordinator-selected real release_set_id, sequence, issued_at and expires_at. Increasing sequence and bounded validity. None reserved here.",
+      "media": "Explicit real version, revision, policy_version, policy_revision and approval_id; no M4 synthetic values.",
+      "min_clients": "Actual final Android integer and iOS semver required by accepted M5 builds; no guesses.",
+      "compatibility": "unsupported_required_policy_keeps_last_good_or_bundled_annual_no_automatic_s12"
+    },
+    "production_approval": {
+      "schema_version": "svetlost33-media19-release-approval-1",
+      "decision": "APPROVED_FOR_SIGNING_AFTER_M5",
+      "mode": "PRODUCTION_PREPARATION",
+      "required_exact_binding_fields": ["recorded_at", "plan_sha256", "binding_sha256", "policy_files_sha256", "release_set_id", "sequence", "min_clients"],
+      "public_projection": "EXACT_MINIMAL_PROJECTION_APPROVED_NO_RIGHTS_EXPANSION",
+      "compatibility": "unsupported_required_policy_keeps_last_good_or_bundled_annual_no_automatic_s12",
+      "native_m5": "Exactly Android+iOS, each status=M5_FULL_VERTICAL_ACCEPTED, matching minimum_client, real source_commit, receipt path/bytes/sha256 and nonempty exact artifact records. Approval itself is hash-pinned by root at signing."
+    }
+  },
+  "commands_for_later_root_use_only": [
+    "node --test tests/media19-release-v2.test.mjs",
+    "node scripts/verify-public-calendar-saints-window-v2.mjs --signed <exact-S12-signed-stage> --receipt <new-real-baseline-receipt>",
+    "node scripts/media19-release-v2.mjs prepare --binding <real-root-binding> --source <actual-S12-base> --media-stage <exact19-stage> --out <new-unsigned-stage>",
+    "node scripts/media19-release-v2.mjs sign --binding <same-binding> --source <same-base> --media-stage <exact19-stage> --candidate <exact-unsigned-stage> --out <new-signed-stage> --approval <final-root-M5-approval> --approval-sha256 <exact-approval-hash> --private-key <existing-external-key-locator> --coordinator-go",
+    "node scripts/media19-release-v2.mjs validate --binding <same-binding> --media-stage <exact19-stage> --signed <exact-signed-stage>",
+    "After separately approved existing allowlisted Git publication only: node scripts/media19-release-v2.mjs readback --binding <same-binding> --media-stage <exact19-stage> --signed <exact-signed-stage> --receipt <new-local-receipt>"
+  ],
+  "path_note": "Use canonical real paths. Existing no-symlink input rules reject macOS /var alias; use /private/var for private scratch. Outputs must not exist and must be outside production and input roots. Private key remains external; never copy it into a stage or repository.",
+  "targeted_verification": {
+    "command": "node --test tests/media19-release-v2.test.mjs",
+    "exit_code": 0,
+    "tests_passed": 13,
+    "tests_failed": 0,
+    "duration_ms": 30182.147709,
+    "positive": ["exact19 and exact S12 core payload preservation", "required-policy/optional-media exact dependency", "minimal public allowlist", "11 actual RSA-PSS test-key signatures", "24 media-capable profiles accept", "24 old-capability profiles reject required policy", "exact injected graph readback and final discovery-pair recheck"],
+    "negative": ["missing/partial M5, pending approval/projection", "wrong minima, plan hash, receipt hash or artifact bytes", "test binding rejected by production exports before key access", "advanced baseline and immutable target collision", "bad baseline observation and expired candidate", "corrupt/oversize/404 public reads"],
+    "test_stage": "/private/var/folders/cf/rml65hmd6t771hjy4368hngc0000gn/T/svetlost33-media19-tooling-tests-AXSRCH/TEST-ONLY-signed",
+    "test_readback_receipt": {"path": "/private/var/folders/cf/rml65hmd6t771hjy4368hngc0000gn/T/svetlost33-media19-tooling-tests-AXSRCH/TEST-ONLY-injected-readback.json", "bytes": 60806, "sha256": "49fccebff61bcaf4c75a8852877d74a7137904c52e053da2b27d9cfaf01d060f"},
+    "test_graph_files": 128,
+    "test_graph_bytes": 60906992,
+    "test_only_extra_files": "Test graph also retains original signed S12 while adding test-key core manifest copies. Production path does not rekey or duplicate those core modules; test file count is not a production release inventory.",
+    "limits": "Injected transport, no actual network; ephemeral in-memory key, no production key read/export; fake M5 receipts explicitly marked test-only with actual_native_execution=false. Production key-reading sign export was only exercised on rejection paths. No production candidate, native runtime/build, storage/consumer result or activation is claimed. Partial policy-only capability does not establish complete R4 adoption and remains a native acceptance gate."
+  },
+  "intentional_compatibility": "Existing static single production index is unchanged. Unsupported required policy rejects the whole candidate. Older installed clients keep prior good content; fresh older clients use bundled/annual fallback. They do not automatically discover/adopt S12 or the new core. No routing protocol or extra owner question added.",
+  "remaining_gates": [
+    "Final actual M5 vertical evidence on both platforms and exact client minima; current shared tooling tests do not close this.",
+    "Root review of this additive source, real current public S12 readback, explicit release identities and exact unsigned plan/public projection approval.",
+    "Root-authorized production signing with existing external authority, exact final profile/native compatibility checks, existing non-force allowlisted publication of immutable graph plus discovery pair, ordinary HTTPS readback and normal-client uptake."
+  ],
+  "not_done": ["production binding", "production signature", "production sequence reservation", "public network access", "publication", "native edits or builds", "old artifact edits", "new content or rights expansion"],
+  "stop_after_handoff": true
+}

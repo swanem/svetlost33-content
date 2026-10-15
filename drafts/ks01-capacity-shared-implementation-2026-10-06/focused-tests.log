@@ -1,0 +1,20 @@
+Command: node --test tests/ks01-capacity-profile.test.mjs
+Exit code: 0
+
+✔ KS01 is explicit, fixed and immutable; all historical schema/validator/fixture pins remain exact (2.844791ms)
+✔ 62/A retain historical acceptance; 104/366 require explicit KS01, including browser catalog selection (132.079458ms)
+✔ Historical saints64/65 and KS01366/367 boundaries remain independent (58.723083ms)
+✔ Sources/subjects/article links each accept512 and reject513 without unrelated limit changes (112.798625ms)
+✔ Raw byte ceilings precede decoding: exact limit succeeds, +1 byte/invalid UTF8/BOM fail (46.96975ms)
+✔ Closed shape, duplicate IDs, script parity, article type and references remain fail-closed (99.093375ms)
+✔ Both scripts resolve exact packageA links and full366 graph identities; next year has no derived dates (255.485375ms)
+✔ Same-generation, approval and exact calendar/article/browser bindings are enforced by KS01 (135.627333ms)
+✔ Baseline semantic API output and browser archive behavior are identical under both explicit profiles (49.724542ms)
+ℹ tests 9
+ℹ suites 0
+ℹ pass 9
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 1076.998

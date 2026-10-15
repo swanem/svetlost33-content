@@ -1,0 +1,162 @@
+{
+  "status": "UNSIGNED_S14_APPROVED_COPY_NOT_PUBLISHED",
+  "release_set_id": "shared-calendar-gospel-2026-10-06-m0v2-s14",
+  "sequence": 14,
+  "index_sha256": "51cbc3824d371ac647950644bad8dbdea6945f7c75360c667975fc909265430c",
+  "release_sha256": "4e82e44fb0ef84fec3789ee009f4526cb57ac5e3d76162ca84b8ce5d378de097",
+  "calendar": {
+    "path": "data/calendar.2026.json",
+    "bytes": 1712834,
+    "sha256": "299842090189bd44974cb6aabfa8a6af5db4fccdc64e3c556ab4dc60aa1944b4"
+  },
+  "saints": {
+    "path": "data/saints-v1.json",
+    "bytes": 399124,
+    "sha256": "4c418f4f8f3eb09f3613218b2c65cc444049ccdd886fb17f3e4426bfa03abafa"
+  },
+  "catalog": {
+    "path": "data/liturgical-catalog-v1.json",
+    "bytes": 255272,
+    "sha256": "0659df40a030557f56a52d87ac79853d28aaaea62838ee52191be990a97cb669"
+  },
+  "browser": {
+    "path": "data/calendar-browser-v1.json",
+    "bytes": 97946,
+    "sha256": "b24b687db725d1c7f255d2a5024bda15a20d3f629c2744262e9f61694b653ea6"
+  },
+  "approval": {
+    "path": "approvals/pravoslavno-gospel-2026-10-06/owner-combined-publication-approval.json",
+    "sha256": "5f6caab4281e3a31a1b0c9b6d69c1aca89bed418a81e1d8822ccf0c846db3912",
+    "id": "owner-combined-calendar-gospel-2026-10-06"
+  },
+  "preflight": {
+    "state": "EDITORIAL_SIMULATION_ONLY",
+    "runtime_authenticated": false,
+    "profile": "ks01-capacity-366-r1",
+    "saints_articles": 104,
+    "saints_sources": 126,
+    "saints_days": 104,
+    "catalog_sources": 112,
+    "subjects": 93,
+    "observances": 112,
+    "occurrences": 110,
+    "article_links": 93,
+    "feast_memberships": 21,
+    "archive_days": 94,
+    "organizations": 3
+  },
+  "bible_checks": [
+    {
+      "valid": true,
+      "errors": [],
+      "counts": {
+        "quotes": 21,
+        "calendar_readings": 285
+      }
+    },
+    {
+      "valid": true,
+      "errors": [],
+      "counts": {
+        "quotes": 21,
+        "calendar_readings": 285
+      }
+    }
+  ],
+  "source_actual_RSA_checks": [
+    {
+      "platform": "android",
+      "releaseSetId": "shared-saints104-2026-10-06-m0v2-s13",
+      "sequence": 13,
+      "modules": 7,
+      "verifiedModules": 7,
+      "skippedOptionalModules": [],
+      "totalBytes": 5992900
+    },
+    {
+      "platform": "ios",
+      "releaseSetId": "shared-saints104-2026-10-06-m0v2-s13",
+      "sequence": 13,
+      "modules": 7,
+      "verifiedModules": 7,
+      "skippedOptionalModules": [],
+      "totalBytes": 5992900
+    }
+  ],
+  "unchanged_article_objects": 104,
+  "A_dates": 23,
+  "B_dates": 19,
+  "new_article_links": 40,
+  "gospel_dates_added": 31,
+  "gospel_readings_added": 33,
+  "gospel_display_eligible_dates": [
+    "2026-10-06",
+    "2026-10-07",
+    "2026-10-08",
+    "2026-10-09",
+    "2026-10-10",
+    "2026-10-11",
+    "2026-10-12",
+    "2026-10-13",
+    "2026-10-14",
+    "2026-10-15",
+    "2026-10-16",
+    "2026-10-17",
+    "2026-10-18",
+    "2026-10-19",
+    "2026-10-20",
+    "2026-10-21",
+    "2026-10-22",
+    "2026-10-23",
+    "2026-10-24",
+    "2026-10-25",
+    "2026-10-26",
+    "2026-10-27",
+    "2026-10-28",
+    "2026-10-29",
+    "2026-10-30",
+    "2026-10-31",
+    "2026-11-01",
+    "2026-11-02",
+    "2026-11-03",
+    "2026-11-04",
+    "2026-11-05"
+  ],
+  "full_service_schedule_claimed": false,
+  "annual_top_level_historical_review_flags_preserved": true,
+  "unresolved_future_dates_preserved": 56,
+  "fasting_and_non_gospel_day_fields_unchanged": true,
+  "preserved_module_ids": [
+    "library-annual-2026-r1",
+    "daily-cycles-r1",
+    "organizations-v1"
+  ],
+  "replaced_module_ids": [
+    "calendar-2026-r1",
+    "saints-v1",
+    "liturgical-catalog-v1",
+    "calendar-browser-v1"
+  ],
+  "old_pending_originals_unchanged": true,
+  "test_fixture_reused": false,
+  "unsigned_graph_files": 73,
+  "unsigned_documents": 6,
+  "signed_graph_expected_files": 79,
+  "publication_allowlist_files": 18,
+  "native_pass": false,
+  "signed": false,
+  "published": false,
+  "requested_minimum_clients": {
+    "android": 66,
+    "ios": "0.1.14"
+  },
+  "minimum_clients_compatible": false,
+  "known_blocker": "Root source review: released iOS41 M0 ModularRuntimeProjector uses loadDevelopmentReview; AnnualGospelCalendar requires173 source-recorded/192 unresolved and productionEligible=false. S14 changes counts to204/161 and31eligible=true. Native owner confirmation/remediation required; no historical guard weakened here.",
+  "remaining_gates": [
+    "Root review of exact graph/approval transform and separate local signing GO",
+    "Exact signed native S13→S14 acceptance including publisher-reference display and historical annual-gate compatibility",
+    "Fresh ordinary public S13 index/signature and HEAD compare-and-swap",
+    "Atomic allowlisted publication and exact signed public graph readback"
+  ],
+  "limitation": "Historical annual top-level gates and library release-scope stay unchanged; only31 newly approved publisher reference days get production_eligible=true. No blanket annual/clergy approval."
+}

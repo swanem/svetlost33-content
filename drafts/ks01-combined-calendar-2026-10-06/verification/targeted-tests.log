@@ -1,0 +1,70 @@
+TAP version 13
+# Subtest: Deterministic frozen inputs/public63-file readback and reviewable outputs
+ok 1 - Deterministic frozen inputs/public63-file readback and reviewable outputs
+  ---
+  duration_ms: 60.496167
+  type: 'test'
+  ...
+# Subtest: Exact A rebase/B counts and pending shapes; no approved flag fabrication
+ok 2 - Exact A rebase/B counts and pending shapes; no approved flag fabrication
+  ---
+  duration_ms: 6.000125
+  type: 'test'
+  ...
+# Subtest: All104 article objects, year-end links, old catalog rows, settings, archive and unavailable2027 unchanged
+ok 3 - All104 article objects, year-end links, old catalog rows, settings, archive and unavailable2027 unchanged
+  ---
+  duration_ms: 0.905958
+  type: 'test'
+  ...
+# Subtest: All42 dates/articles resolve both scripts in memory-only reviewed simulation; groups and namesakes preserved
+ok 4 - All42 dates/articles resolve both scripts in memory-only reviewed simulation; groups and namesakes preserved
+  ---
+  duration_ms: 335.634709
+  type: 'test'
+  ...
+# Subtest: Source dates exact, eight alias strings exact calendar evidence, annual-day and binding negatives
+ok 5 - Source dates exact, eight alias strings exact calendar evidence, annual-day and binding negatives
+  ---
+  duration_ms: 15.076584
+  type: 'test'
+  ...
+# Subtest: Exact pending browser binding; stale approved simulation binding cannot expose feasts
+ok 6 - Exact pending browser binding; stale approved simulation binding cannot expose feasts
+  ---
+  duration_ms: 6.31625
+  type: 'test'
+  ...
+# Subtest: All33 original source labels match registered source; entire ordered multi-zachalo/discontiguous readings intact
+ok 7 - All33 original source labels match registered source; entire ordered multi-zachalo/discontiguous readings intact
+  ---
+  duration_ms: 0.435167
+  type: 'test'
+  ...
+# Subtest: Strict grammar and exact source registration/book/all ranges/full list/scalar/service negatives
+ok 8 - Strict grammar and exact source registration/book/all ranges/full list/scalar/service negatives
+  ---
+  duration_ms: 0.283916
+  type: 'test'
+  ...
+# Subtest: Shared Bible gate validates all old+new readings against exact approved corpus in both scripts and fails corrupted input
+ok 9 - Shared Bible gate validates all old+new readings against exact approved corpus in both scripts and fails corrupted input
+  ---
+  duration_ms: 63.575458
+  type: 'test'
+  ...
+# Subtest: Single combined pending plan preserves old observations, unknown future dates and all non-Gospel annual fields
+ok 10 - Single combined pending plan preserves old observations, unknown future dates and all non-Gospel annual fields
+  ---
+  duration_ms: 3.385208
+  type: 'test'
+  ...
+1..10
+# tests 10
+# suites 0
+# pass 10
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 753.384834

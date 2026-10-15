@@ -1,0 +1,22 @@
+{
+  "schema_version": "svetlost33-shared-ota-fixture-root-review-1",
+  "recorded_on": "2026-10-05",
+  "status": "ACCEPTED_LOCAL_TEST_INPUT_ONLY",
+  "handoff_sha256": "7e840a39d0584ebfc9fe29a95e4cb93106da7f3a5cce65c56dc60d102e3ac91b",
+  "inventory_sha256": "6923c9015bb525361b70c18f3c5ce9f127a2716e94c0a6a4935be7a82717c95b",
+  "builder_sha256": "d837d8fd9adc68190b27797d84ab81159d0a6aa9c061a499ac38d29270149a9a",
+  "test_sha256": "31742250b0b8f98314ad26903a8dab62f4c2e5dc49ed00c86040a9c8547bf823",
+  "root_actions": [
+    "Read stable builder/test/handoff and verified exact source pins after execution.",
+    "Repeated the delivered-set targeted tests without rebuilding keys or fixture sets: 15/15 PASS, no failures/skips, 1169.215459 ms.",
+    "The executed checks read back all 3x89 transport files, verify 33 real detached RSA-PSS signatures, preserve 21 S12 payloads and check R2 full decode of all 38 image files.",
+    "Confirmed N+1 same-images/new-catalog semantics are explicitly covered by the frozen R4 metadata-only title-change adoption test."
+  ],
+  "log": "root-targeted-tests.log",
+  "stage": "/var/folders/cf/rml65hmd6t771hjy4368hngc0000gn/T/svetlost33-media19-shared-test-only-XttKY0",
+  "key_boundary": "Only the pinned ephemeral public key is provided. Private key was not persisted by the builder; root did not read production private keys. Never load this downloaded test key into production trust.",
+  "native_handoff": "Both original owners use this exact same stage, fixed test context and isolated stores. Immutable stage uses internal hardlinks: copy into separate test roots for fault mutation. No server or native transfer was exercised by this review.",
+  "native_M5_pass": false,
+  "capability_go": false,
+  "production_publication_go": false
+}

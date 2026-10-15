@@ -1,0 +1,29 @@
+✔ exact19 approved sources, 38 media files, 7 policy payloads and full reference decode pass (0.979042ms)
+✔ same pinned sources generate byte-identical candidate and recipe (2561.502958ms)
+✔ exact local input schema rejects count, hash, unknown production override and coerced number (0.637459ms)
+✔ source bytes require both length and exact hash (0.06525ms)
+✔ seven earlier drafts and native BG02 derivatives are absent from wire payload (0.222417ms)
+✔ evidence projection has hashes but no raw private records, prompts or machine paths (0.213834ms)
+✔ metadata probe returns pending, never installed media or real signature success (21.438958ms)
+✔ publication gate cannot be overridden with caller approval or a fabricated report (0.093ms)
+✔ raw metadata modification is rejected before claims are accepted (18.736042ms)
+✔ missing account-holder join cannot pass merely by rebinding manifest hashes (19.3695ms)
+✔ false rights claim cannot pass five loose R2 evidence object schemas (18.831167ms)
+✔ changed script or invented date is rejected after full metadata rebind (37.586041ms)
+✔ canonical parser disallows duplicate keys even when manifest is rehashed (18.590959ms)
+✔ exact media/catalog bijection rejects an extra unreferenced image record (20.086917ms)
+✔ per-file schema and aggregate pair budget gates execute (35.858584ms)
+✔ truncated PNG rejected by full structure check even after all hashes are recomputed (35.319333ms)
+✔ complete CRC-valid PNG with invalid compressed pixels is rejected by full decode (39.053709ms)
+✔ valid unrelated JPEG cannot masquerade as the traced mechanical thumbnail (755.941541ms)
+✔ required policy cannot silently omit one of its seven JSON files (21.959208ms)
+✔ output path escape and unlisted payload are rejected (36.016ms)
+✔ local candidate cannot be rebound to a production-looking key (19.396208ms)
+ℹ tests 21
+ℹ suites 0
+ℹ pass 21
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 6455.33575

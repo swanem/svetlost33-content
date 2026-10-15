@@ -1,0 +1,42 @@
+{
+  "schema_version": "svetlost33-module-manifest-2",
+  "module_id": "daily-cycles-r1",
+  "module_type": "cycles",
+  "version": "2026.1.2",
+  "revision": 3,
+  "key_id": "svetlost33-content-2026-key-1",
+  "capabilities": [
+    "cycle-v1",
+    "sr-Cyrl",
+    "sr-Latn"
+  ],
+  "dependencies": [
+    {
+      "module_id": "library-annual-2026-r1",
+      "version": "2026.1.1"
+    }
+  ],
+  "files": [
+    {
+      "path": "data/legacy-cycle.sr-Cyrl.json",
+      "bytes": 71899,
+      "sha256": "46aedf8c494dc79dbc6756fbff19d858cec0885218af18af0ce551e004293415",
+      "content_type": "application/json",
+      "encoding": "utf-8"
+    },
+    {
+      "path": "data/legacy-cycle.sr-Latn.json",
+      "bytes": 63690,
+      "sha256": "e02c2cdd593d2823e9cabe44e5618ea87746815d1fb3476b2309380237c20b84",
+      "content_type": "application/json",
+      "encoding": "utf-8"
+    },
+    {
+      "path": "evidence/widget-excerpt-owner-approval.json",
+      "bytes": 12879,
+      "sha256": "1f6808e6cc226612341c07160fa97960103bce86ba350a612b3c02409fe6a8c9",
+      "content_type": "application/json",
+      "encoding": "utf-8"
+    }
+  ]
+}

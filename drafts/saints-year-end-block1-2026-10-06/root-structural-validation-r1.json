@@ -1,0 +1,20 @@
+{
+  "schema_version": "svetlost33-ks01-root-pending-content-validation-1",
+  "checked_at_utc": "2026-10-06T07:14:00Z",
+  "status": "PASS_STRUCTURAL_ONLY_PENDING_CONTENT_REVIEW_AND_USER_APPROVAL",
+  "command": "node drafts/saints-year-end-block1-2026-10-06/verify.mjs --check",
+  "exit_code": 0,
+  "assertion_groups": 10,
+  "handoff_sha256": "13e19c3406397d5bf30ab0e03c8e060d4ae8fafd1be38583b76dc18615777ca1",
+  "validation_sha256": "efa2bd87ec4724e128e0ee4630660d2d90e9e4dd7b98a127107d617c87d757e2",
+  "window": ["2026-11-20", "2026-12-10"],
+  "new_pending_articles": 21,
+  "new_pending_links": 21,
+  "existing_articles_preserved": 62,
+  "scope": "Independent deterministic check of both scripts, word count, exact pinned annual joins, additive catalog delta and rejection of pending drafts at runtime. This does not independently verify every prose/source claim.",
+  "independent_source_review": "Assigned to existing read-only reviewer; pending at this record.",
+  "owner_approval": null,
+  "rights_clearance": null,
+  "native_pass": false,
+  "published": false
+}

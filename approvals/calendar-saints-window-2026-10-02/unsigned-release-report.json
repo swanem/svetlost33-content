@@ -1,0 +1,148 @@
+{
+  "status": "UNSIGNED_S12_CANDIDATE_NOT_PUBLISHED",
+  "source_release_set_id": "shared-content-refresh-2026-09-30-m0v2-s11",
+  "source_index_sha256": "36d39ce8882df55b66987afedcb8f080f31c2b8fd565a45561492aae5e2631ff",
+  "release_set_id": "shared-calendar-saints-2026-10-02-m0v2-s12",
+  "sequence": 12,
+  "index_sha256": "a0d50c23036db203035419f4ba169ddb6005223799ed3ac4e89e03dd9f7733e9",
+  "release_sha256": "78142e24f74812be9859b88163203de23517a9ed40a16c0f5ee085e25354255d",
+  "catalog_sha256": "d973f659da3a1e084739afe70a6a31daea390c32f5508ecdaa56a3fc3e7b4af3",
+  "browser_sha256": "20d3d0ad3d9a352c87d05425e8673460c62c9a0cf4043988c48e4c0da3d61fae",
+  "changes": {
+    "subjects": 6,
+    "observances": 7,
+    "occurrences": 7,
+    "existing_article_links": 7,
+    "new_articles": 0,
+    "annual_calendar_days": 0,
+    "archive_facts": 0,
+    "images": 0
+  },
+  "source_rights_and_review_dates_unchanged": true,
+  "public_payloads_contain_private_review_notes": false,
+  "preserved_unknowns": [
+    "Seven daily Gospels 2026-10-02 through 2026-10-08 remain UNRESOLVED",
+    "2026-10-02 fasting rule remains UNKNOWN"
+  ],
+  "preserved_published_articles": 62,
+  "preserved_prior_article_links": 4,
+  "preflight": {
+    "state": "EDITORIAL_SIMULATION_ONLY",
+    "runtime_authenticated": false,
+    "saints_articles": 62,
+    "saints_days": 62,
+    "organizations": 3,
+    "links": 15,
+    "catalog_article_links": 11,
+    "feast_memberships": 21,
+    "archive_days": 94,
+    "compatibility": [
+      {
+        "profile": "no_organizations_base_no_browser",
+        "modules": 3,
+        "skipped": [
+          "organizations-v1",
+          "saints-v1",
+          "liturgical-catalog-v1",
+          "calendar-browser-v1"
+        ]
+      },
+      {
+        "profile": "no_organizations_base_browser",
+        "modules": 4,
+        "skipped": [
+          "organizations-v1",
+          "saints-v1",
+          "liturgical-catalog-v1"
+        ]
+      },
+      {
+        "profile": "no_organizations_saints_no_browser",
+        "modules": 4,
+        "skipped": [
+          "organizations-v1",
+          "liturgical-catalog-v1",
+          "calendar-browser-v1"
+        ]
+      },
+      {
+        "profile": "no_organizations_saints_browser",
+        "modules": 5,
+        "skipped": [
+          "organizations-v1",
+          "liturgical-catalog-v1"
+        ]
+      },
+      {
+        "profile": "no_organizations_catalog_and_saints_no_browser",
+        "modules": 5,
+        "skipped": [
+          "organizations-v1",
+          "calendar-browser-v1"
+        ]
+      },
+      {
+        "profile": "no_organizations_catalog_and_saints_browser",
+        "modules": 6,
+        "skipped": [
+          "organizations-v1"
+        ]
+      },
+      {
+        "profile": "organizations_base_no_browser",
+        "modules": 4,
+        "skipped": [
+          "saints-v1",
+          "liturgical-catalog-v1",
+          "calendar-browser-v1"
+        ]
+      },
+      {
+        "profile": "organizations_base_browser",
+        "modules": 5,
+        "skipped": [
+          "saints-v1",
+          "liturgical-catalog-v1"
+        ]
+      },
+      {
+        "profile": "organizations_saints_no_browser",
+        "modules": 5,
+        "skipped": [
+          "liturgical-catalog-v1",
+          "calendar-browser-v1"
+        ]
+      },
+      {
+        "profile": "organizations_saints_browser",
+        "modules": 6,
+        "skipped": [
+          "liturgical-catalog-v1"
+        ]
+      },
+      {
+        "profile": "organizations_catalog_and_saints_no_browser",
+        "modules": 6,
+        "skipped": [
+          "calendar-browser-v1"
+        ]
+      },
+      {
+        "profile": "organizations_catalog_and_saints_browser",
+        "modules": 7,
+        "skipped": []
+      }
+    ]
+  },
+  "unsigned_documents": 4,
+  "public_delta_files_after_signing": 12,
+  "remaining_gates": [
+    "coordinator exact candidate review",
+    "fresh public baseline recheck",
+    "production-key signing by root only",
+    "24 exact production signature/profile checks",
+    "both native exact generation acceptance",
+    "atomic public discovery commit",
+    "HTTPS exact readback"
+  ]
+}

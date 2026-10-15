@@ -1,0 +1,695 @@
+{
+  "schema_version": "svetlost33-saints-next-window-sources-1",
+  "review_status": "EDITORIAL_SOURCE_REVIEW_NOT_OWNER_APPROVAL",
+  "checked_on": "2026-09-30",
+  "biography_sources": [
+    {
+      "source": {
+        "id": "next-oca-pelagia",
+        "kind": "article",
+        "title": "Venerable Pelagia the Penitent",
+        "url": "https://www.oca.org/saints/lives/2026/10/08/102899-venerable-pelagia-the-penitent",
+        "publisher": "Orthodox Church in America",
+        "original_author": null,
+        "published_on": null,
+        "reviewed_on": "2026-09-30"
+      },
+      "evidence": {
+        "access_status": "OPENED_PRIMARY_CHURCH_PAGE",
+        "church_month_day": "10-08",
+        "civil_date_authority": "PINNED_2026_ANNUAL_CALENDAR_NOT_SOURCE_URL_YEAR",
+        "source_snapshot_sha256": null,
+        "verbatim_quote_words": 0,
+        "source_text_reproduced": false,
+        "editorial_note": "Покајница са Маслинске горе; није истоимена девица-мученица."
+      }
+    },
+    {
+      "source": {
+        "id": "next-oca-james-alphaeus",
+        "kind": "article",
+        "title": "Apostle James, son of Alphaeus",
+        "url": "https://www.oca.org/saints/lives/2026/10/09/102916-apostle-james-son-of-alphaeus",
+        "publisher": "Orthodox Church in America",
+        "original_author": null,
+        "published_on": null,
+        "reviewed_on": "2026-09-30"
+      },
+      "evidence": {
+        "access_status": "OPENED_PRIMARY_CHURCH_PAGE",
+        "church_month_day": "10-09",
+        "civil_date_authority": "PINNED_2026_ANNUAL_CALENDAR_NOT_SOURCE_URL_YEAR",
+        "source_snapshot_sha256": null,
+        "verbatim_quote_words": 0,
+        "source_text_reproduced": false,
+        "editorial_note": "Јаков Алфејев, не Јаков брат Господњи или Зеведејев."
+      }
+    },
+    {
+      "source": {
+        "id": "next-oca-eulampius-eulampia",
+        "kind": "article",
+        "title": "Martyrs Eulampius and Eulampia, at Nicomedia, and 200 Martyrs with them",
+        "url": "https://www.oca.org/saints/lives/2026/10/10/102919-martyrs-eulampius-and-eulampia-at-nicomedia-and-200-martyrs-with",
+        "publisher": "Orthodox Church in America",
+        "original_author": null,
+        "published_on": null,
+        "reviewed_on": "2026-09-30"
+      },
+      "evidence": {
+        "access_status": "OPENED_PRIMARY_CHURCH_PAGE",
+        "church_month_day": "10-10",
+        "civil_date_authority": "PINNED_2026_ANNUAL_CALENDAR_NOT_SOURCE_URL_YEAR",
+        "source_snapshot_sha256": null,
+        "verbatim_quote_words": 0,
+        "source_text_reproduced": false,
+        "editorial_note": "Брат и сестра; групни чланак, без аутоматског раздвајања."
+      }
+    },
+    {
+      "source": {
+        "id": "next-oca-philip-deacon",
+        "kind": "article",
+        "title": "Apostle Philip of the Seventy, One of the Seven Deacons",
+        "url": "https://www.oca.org/saints/lives/2026/10/11/102936-apostle-philip-of-the-seventy-one-of-the-seven-deacons",
+        "publisher": "Orthodox Church in America",
+        "original_author": null,
+        "published_on": null,
+        "reviewed_on": "2026-09-30"
+      },
+      "evidence": {
+        "access_status": "OPENED_PRIMARY_CHURCH_PAGE",
+        "church_month_day": "10-11",
+        "civil_date_authority": "PINNED_2026_ANNUAL_CALENDAR_NOT_SOURCE_URL_YEAR",
+        "source_snapshot_sha256": null,
+        "verbatim_quote_words": 0,
+        "source_text_reproduced": false,
+        "editorial_note": "Филип ђакон из Седамдесеторице, не апостол из Дванаесторице."
+      }
+    },
+    {
+      "source": {
+        "id": "next-oca-tarachus-group",
+        "kind": "article",
+        "title": "Martyrs Probus, Tarachus, and Andronicus, at Tarsus in Cilicia",
+        "url": "https://www.oca.org/saints/lives/2020/10/12/102941-martyrs-probus-tarachus-and-andronicus-at-tarsus-in-cilicia",
+        "publisher": "Orthodox Church in America",
+        "original_author": null,
+        "published_on": null,
+        "reviewed_on": "2026-09-30"
+      },
+      "evidence": {
+        "access_status": "OPENED_PRIMARY_CHURCH_PAGE",
+        "church_month_day": "10-12",
+        "civil_date_authority": "PINNED_2026_ANNUAL_CALENDAR_NOT_SOURCE_URL_YEAR",
+        "source_snapshot_sha256": null,
+        "verbatim_quote_words": 0,
+        "source_text_reproduced": false,
+        "editorial_note": "Коришћен успешно отворен URL 2020; година у OCA путањи није датум објављивања."
+      }
+    },
+    {
+      "source": {
+        "id": "next-oca-carpus-group",
+        "kind": "article",
+        "title": "Martyrs Carpus, Papylus, Agathadorus, and Agathonica, at Pergamum",
+        "url": "https://www.oca.org/saints/lives/2026/10/13/102953-martyrs-carpus-papylus-agathadorus-and-agathonica-at-pergamum",
+        "publisher": "Orthodox Church in America",
+        "original_author": null,
+        "published_on": null,
+        "reviewed_on": "2026-09-30"
+      },
+      "evidence": {
+        "access_status": "OPENED_PRIMARY_CHURCH_PAGE",
+        "church_month_day": "10-13",
+        "civil_date_authority": "PINNED_2026_ANNUAL_CALENDAR_NOT_SOURCE_URL_YEAR",
+        "source_snapshot_sha256": null,
+        "verbatim_quote_words": 0,
+        "source_text_reproduced": false,
+        "editorial_note": "Назив календара задржан; биографски извор обухвата сапострадалнике."
+      }
+    },
+    {
+      "source": {
+        "id": "next-spc-paraskeva",
+        "kind": "article",
+        "title": "Света Петка",
+        "url": "https://zvonce.spc.rs/%D1%81%D0%B2%D0%B5%D1%82%D0%B0-%D0%BF%D0%B5%D1%82%D0%BA%D0%B0/",
+        "publisher": "Светосавско Звонце — Српска православна црква",
+        "original_author": null,
+        "published_on": null,
+        "reviewed_on": "2026-09-30"
+      },
+      "evidence": {
+        "access_status": "OPENED_PRIMARY_CHURCH_PAGE",
+        "church_month_day": "10-14",
+        "civil_date_authority": "PINNED_2026_ANNUAL_CALENDAR_NOT_SOURCE_URL_YEAR",
+        "source_snapshot_sha256": null,
+        "verbatim_quote_words": 0,
+        "source_text_reproduced": false,
+        "editorial_note": "Параскева Епиватска; извор изричито наводи 27/14. октобар. Непотребне спорне године су изостављене."
+      }
+    },
+    {
+      "source": {
+        "id": "next-mcp-paraskeva",
+        "kind": "article",
+        "title": "Преподобна мати Параскева – Света Петка",
+        "url": "https://mitropolija.com/2014/10/26/prepodobna-mati-paraskeva-sveta-petka-2/",
+        "publisher": "Митрополија црногорско-приморска",
+        "original_author": "Преподобни Јустин Поповић — Житија светих (атрибуција странице)",
+        "published_on": "2014-10-26",
+        "reviewed_on": "2026-09-30"
+      },
+      "evidence": {
+        "access_status": "OPENED_PRIMARY_CHURCH_PAGE",
+        "church_month_day": "10-14",
+        "civil_date_authority": "PINNED_2026_ANNUAL_CALENDAR_NOT_SOURCE_URL_YEAR",
+        "source_snapshot_sha256": null,
+        "verbatim_quote_words": 0,
+        "source_text_reproduced": false,
+        "editorial_note": "Додатно порекло житијског предања; није преузет текст Житија нити превод."
+      }
+    },
+    {
+      "source": {
+        "id": "next-oca-lucian",
+        "kind": "article",
+        "title": "Martyr Lucian the Presbyter of Antioch",
+        "url": "https://www.oca.org/saints/lives/2015/10/15/102973-martyr-lucian-the-presbyter-of-antioch",
+        "publisher": "Orthodox Church in America",
+        "original_author": null,
+        "published_on": null,
+        "reviewed_on": "2026-09-30"
+      },
+      "evidence": {
+        "access_status": "OPENED_PRIMARY_CHURCH_PAGE",
+        "church_month_day": "10-15",
+        "civil_date_authority": "PINNED_2026_ANNUAL_CALENDAR_NOT_SOURCE_URL_YEAR",
+        "source_snapshot_sha256": null,
+        "verbatim_quote_words": 0,
+        "source_text_reproduced": false,
+        "editorial_note": "Антиохијски презвитер, не Лукијан Кијевопечерски."
+      }
+    },
+    {
+      "source": {
+        "id": "next-oca-longinus",
+        "kind": "article",
+        "title": "Martyr Longinus the Centurion, who stood at the Cross of the Lord",
+        "url": "https://www.oca.org/saints/lives/2026/10/16/102980-martyr-longinus-the-centurion-who-stood-at-the-cross-of-the-lord",
+        "publisher": "Orthodox Church in America",
+        "original_author": null,
+        "published_on": null,
+        "reviewed_on": "2026-09-30"
+      },
+      "evidence": {
+        "access_status": "OPENED_PRIMARY_CHURCH_PAGE",
+        "church_month_day": "10-16",
+        "civil_date_authority": "PINNED_2026_ANNUAL_CALENDAR_NOT_SOURCE_URL_YEAR",
+        "source_snapshot_sha256": null,
+        "verbatim_quote_words": 0,
+        "source_text_reproduced": false,
+        "editorial_note": "Сотник код Крста, не истоимени монаси; без колективне кривице или графичких описа."
+      }
+    },
+    {
+      "source": {
+        "id": "next-oca-hosea",
+        "kind": "article",
+        "title": "Prophet Hosea",
+        "url": "https://www.oca.org/saints/lives/2013/10/17/102983-prophet-hosea",
+        "publisher": "Orthodox Church in America",
+        "original_author": null,
+        "published_on": null,
+        "reviewed_on": "2026-09-30"
+      },
+      "evidence": {
+        "access_status": "OPENED_PRIMARY_CHURCH_PAGE",
+        "church_month_day": "10-17",
+        "civil_date_authority": "PINNED_2026_ANNUAL_CALENDAR_NOT_SOURCE_URL_YEAR",
+        "source_snapshot_sha256": null,
+        "verbatim_quote_words": 0,
+        "source_text_reproduced": false,
+        "editorial_note": "Прецизан век и трајање службе нису преузети као независно утврђени историјски подаци."
+      }
+    },
+    {
+      "source": {
+        "id": "next-mcp-peter-cetinje",
+        "kind": "article",
+        "title": "Житије Светог Петра Цетињског",
+        "url": "https://mitropolija.com/2023/10/30/zitije-svetog-petra-cetinjskog-2/",
+        "publisher": "Митрополија црногорско-приморска",
+        "original_author": "Преподобни Јустин Ћелијски",
+        "published_on": "2023-10-30",
+        "reviewed_on": "2026-09-30"
+      },
+      "evidence": {
+        "access_status": "OPENED_PRIMARY_CHURCH_PAGE",
+        "church_month_day": "10-18",
+        "civil_date_authority": "PINNED_2026_ANNUAL_CALENDAR_NOT_SOURCE_URL_YEAR",
+        "source_snapshot_sha256": null,
+        "verbatim_quote_words": 0,
+        "source_text_reproduced": false,
+        "editorial_note": "Петар Први, не Петар Други; несигурна година рођења изостављена."
+      }
+    },
+    {
+      "source": {
+        "id": "next-mcp-prohor",
+        "kind": "article",
+        "title": "Преподобни Прохор Пчињски",
+        "url": "https://mitropolija.com/2025/10/31/prepodobni-prohor-pcinjski-3/",
+        "publisher": "Митрополија црногорско-приморска",
+        "original_author": null,
+        "published_on": "2025-10-31",
+        "reviewed_on": "2026-09-30"
+      },
+      "evidence": {
+        "access_status": "OPENED_PRIMARY_CHURCH_PAGE",
+        "church_month_day": "10-19",
+        "civil_date_authority": "PINNED_2026_ANNUAL_CALENDAR_NOT_SOURCE_URL_YEAR",
+        "source_snapshot_sha256": null,
+        "verbatim_quote_words": 0,
+        "source_text_reproduced": false,
+        "editorial_note": "Изостављени спорна хронологија и савремеништво са Јованом Рилским."
+      }
+    },
+    {
+      "source": {
+        "id": "next-oca-artemius",
+        "kind": "article",
+        "title": "Greatmartyr Artemius at Antioch",
+        "url": "https://www.oca.org/saints/lives/2014/10/20/103005-greatmartyr-artemius-at-antioch",
+        "publisher": "Orthodox Church in America",
+        "original_author": null,
+        "published_on": null,
+        "reviewed_on": "2026-09-30"
+      },
+      "evidence": {
+        "access_status": "OPENED_PRIMARY_CHURCH_PAGE",
+        "church_month_day": "10-20",
+        "civil_date_authority": "PINNED_2026_ANNUAL_CALENDAR_NOT_SOURCE_URL_YEAR",
+        "source_snapshot_sha256": null,
+        "verbatim_quote_words": 0,
+        "source_text_reproduced": false,
+        "editorial_note": "Артемије Антиохијски, не Верколски."
+      }
+    },
+    {
+      "source": {
+        "id": "next-oca-hilarion",
+        "kind": "article",
+        "title": "Venerable Hilarion the Great",
+        "url": "https://www.oca.org/saints/lives/2026/10/21/103009-venerable-hilarion-the-great",
+        "publisher": "Orthodox Church in America",
+        "original_author": null,
+        "published_on": null,
+        "reviewed_on": "2026-09-30"
+      },
+      "evidence": {
+        "access_status": "OPENED_PRIMARY_CHURCH_PAGE",
+        "church_month_day": "10-21",
+        "civil_date_authority": "PINNED_2026_ANNUAL_CALENDAR_NOT_SOURCE_URL_YEAR",
+        "source_snapshot_sha256": null,
+        "verbatim_quote_words": 0,
+        "source_text_reproduced": false,
+        "editorial_note": "Иларион Велики, не Мегленски; несигурна тачна година упокојења изостављена."
+      }
+    },
+    {
+      "source": {
+        "id": "next-oca-averky",
+        "kind": "article",
+        "title": "Saint Averkios the Wonderworker, Bishop of Hieropolis, Equal of the Apostles",
+        "url": "https://www.oca.org/saints/lives/2026/10/22/103022-saint-averkios-the-wonderworker-bishop-of-hieropolis-equal-of-th",
+        "publisher": "Orthodox Church in America",
+        "original_author": null,
+        "published_on": null,
+        "reviewed_on": "2026-09-30"
+      },
+      "evidence": {
+        "access_status": "OPENED_PRIMARY_CHURCH_PAGE",
+        "church_month_day": "10-22",
+        "civil_date_authority": "PINNED_2026_ANNUAL_CALENDAR_NOT_SOURCE_URL_YEAR",
+        "source_snapshot_sha256": null,
+        "verbatim_quote_words": 0,
+        "source_text_reproduced": false,
+        "editorial_note": "Аверкије Јерапољски; не додаје се непроверена тачна година смрти."
+      }
+    },
+    {
+      "source": {
+        "id": "next-oca-james-jerusalem",
+        "kind": "article",
+        "title": "Apostle James, the Brother of the Lord",
+        "url": "https://www.oca.org/saints/lives/2026/10/23/103039-apostle-james-the-brother-of-the-lord",
+        "publisher": "Orthodox Church in America",
+        "original_author": null,
+        "published_on": null,
+        "reviewed_on": "2026-09-30"
+      },
+      "evidence": {
+        "access_status": "OPENED_PRIMARY_CHURCH_PAGE",
+        "church_month_day": "10-23",
+        "civil_date_authority": "PINNED_2026_ANNUAL_CALENDAR_NOT_SOURCE_URL_YEAR",
+        "source_snapshot_sha256": null,
+        "verbatim_quote_words": 0,
+        "source_text_reproduced": false,
+        "editorial_note": "Први јерусалимски епископ; различит од Алфејевог Јакова 22.10."
+      }
+    },
+    {
+      "source": {
+        "id": "next-oca-arethas",
+        "kind": "article",
+        "title": "Martyr Arethas and 4,299 Martyrs with him",
+        "url": "https://www.oca.org/saints/lives/2026/10/24/103043-martyr-arethas-and-4299-martyrs-with-him",
+        "publisher": "Orthodox Church in America",
+        "original_author": null,
+        "published_on": null,
+        "reviewed_on": "2026-09-30"
+      },
+      "evidence": {
+        "access_status": "OPENED_PRIMARY_CHURCH_PAGE",
+        "church_month_day": "10-24",
+        "civil_date_authority": "PINNED_2026_ANNUAL_CALENDAR_NOT_SOURCE_URL_YEAR",
+        "source_snapshot_sha256": null,
+        "verbatim_quote_words": 0,
+        "source_text_reproduced": false,
+        "editorial_note": "Не тврди се независно проверен број жртава; без колективне кривице."
+      }
+    },
+    {
+      "source": {
+        "id": "next-oca-marcian-martyrius",
+        "kind": "article",
+        "title": "Martyrs Marcian and Martyrius, the Notaries of Constantinople",
+        "url": "https://www.oca.org/saints/lives/2026/10/25/103053-martyrs-marcian-and-martyrius-the-notaries-of-constantinople",
+        "publisher": "Orthodox Church in America",
+        "original_author": null,
+        "published_on": null,
+        "reviewed_on": "2026-09-30"
+      },
+      "evidence": {
+        "access_status": "OPENED_PRIMARY_CHURCH_PAGE",
+        "church_month_day": "10-25",
+        "civil_date_authority": "PINNED_2026_ANNUAL_CALENDAR_NOT_SOURCE_URL_YEAR",
+        "source_snapshot_sha256": null,
+        "verbatim_quote_words": 0,
+        "source_text_reproduced": false,
+        "editorial_note": "Извори варирају око 335/355; прецизна година страдања намерно изостављена."
+      }
+    },
+    {
+      "source": {
+        "id": "next-oca-demetrius",
+        "kind": "article",
+        "title": "Holy, Glorious Demetrios the Myrrh-gusher of Thessaloniki",
+        "url": "https://www.oca.org/saints/lives/2026/10/26/103059-holy-glorious-demetrios-the-myrrh-gusher-of-thessaloniki",
+        "publisher": "Orthodox Church in America",
+        "original_author": null,
+        "published_on": null,
+        "reviewed_on": "2026-09-30"
+      },
+      "evidence": {
+        "access_status": "OPENED_PRIMARY_CHURCH_PAGE",
+        "church_month_day": "10-26",
+        "civil_date_authority": "PINNED_2026_ANNUAL_CALENDAR_NOT_SOURCE_URL_YEAR",
+        "source_snapshot_sha256": null,
+        "verbatim_quote_words": 0,
+        "source_text_reproduced": false,
+        "editorial_note": "Солунски Димитрије; спекулација о словенском пореклу није преузета."
+      }
+    },
+    {
+      "source": {
+        "id": "next-oca-nestor",
+        "kind": "article",
+        "title": "Martyr Nestor of Thessalonica",
+        "url": "https://www.oca.org/saints/lives/2026/10/27/103066-martyr-nestor-of-thessalonica",
+        "publisher": "Orthodox Church in America",
+        "original_author": null,
+        "published_on": null,
+        "reviewed_on": "2026-09-30"
+      },
+      "evidence": {
+        "access_status": "OPENED_PRIMARY_CHURCH_PAGE",
+        "church_month_day": "10-27",
+        "civil_date_authority": "PINNED_2026_ANNUAL_CALENDAR_NOT_SOURCE_URL_YEAR",
+        "source_snapshot_sha256": null,
+        "verbatim_quote_words": 0,
+        "source_text_reproduced": false,
+        "editorial_note": "Нестор Солунски, не Летописац; без извођења позива на насиље."
+      }
+    },
+    {
+      "source": {
+        "id": "next-oca-terence",
+        "kind": "article",
+        "title": "Martyrs Terence and Neonila, and their children",
+        "url": "https://www.oca.org/saints/lives/2026/10/28/103091-martyrs-terence-and-neonila-and-their-children",
+        "publisher": "Orthodox Church in America",
+        "original_author": null,
+        "published_on": null,
+        "reviewed_on": "2026-09-30"
+      },
+      "evidence": {
+        "access_status": "OPENED_PRIMARY_CHURCH_PAGE",
+        "church_month_day": "10-28",
+        "civil_date_authority": "PINNED_2026_ANNUAL_CALENDAR_NOT_SOURCE_URL_YEAR",
+        "source_snapshot_sha256": null,
+        "verbatim_quote_words": 0,
+        "source_text_reproduced": false,
+        "editorial_note": "Породични групни текст; није апостол Терције."
+      }
+    },
+    {
+      "source": {
+        "id": "next-oca-abramius",
+        "kind": "article",
+        "title": "Venerable Abramius the Recluse, and his niece, Blessed Mary, of Mesopotamia",
+        "url": "https://www.oca.org/saints/lives/2026/10/29/103100-venerable-abramius-the-recluse-and-his-niece-blessed-mary-of-mes",
+        "publisher": "Orthodox Church in America",
+        "original_author": null,
+        "published_on": null,
+        "reviewed_on": "2026-09-30"
+      },
+      "evidence": {
+        "access_status": "OPENED_PRIMARY_CHURCH_PAGE",
+        "church_month_day": "10-29",
+        "civil_date_authority": "PINNED_2026_ANNUAL_CALENDAR_NOT_SOURCE_URL_YEAR",
+        "source_snapshot_sha256": null,
+        "verbatim_quote_words": 0,
+        "source_text_reproduced": false,
+        "editorial_note": "Аврамије Затворник, не старозаветни Авраам нити Ростовски."
+      }
+    },
+    {
+      "source": {
+        "id": "next-oca-zenobius",
+        "kind": "article",
+        "title": "Lives of all saints commemorated on October 30 — Hieromartyr Zenobios and his sister Zenobia",
+        "url": "https://www.oca.org/saints/all-lives/1983/10/30",
+        "publisher": "Orthodox Church in America",
+        "original_author": null,
+        "published_on": null,
+        "reviewed_on": "2026-09-30"
+      },
+      "evidence": {
+        "access_status": "OPENED_PRIMARY_CHURCH_PAGE",
+        "church_month_day": "10-30",
+        "civil_date_authority": "PINNED_2026_ANNUAL_CALENDAR_NOT_SOURCE_URL_YEAR",
+        "source_snapshot_sha256": null,
+        "verbatim_quote_words": 0,
+        "source_text_reproduced": false,
+        "editorial_note": "Прегледан одговарајући одељак; брат и сестра, не супружници."
+      }
+    },
+    {
+      "source": {
+        "id": "next-oca-stachys",
+        "kind": "article",
+        "title": "Holy Apostles Stakhys, Apelles, Amplias, Urban, and Narcissus of the 70",
+        "url": "https://www.oca.org/saints/lives/2026/10/31/103132-holy-apostles-stakhys-apelles-amplias-urban-and-narcissus-of-the",
+        "publisher": "Orthodox Church in America",
+        "original_author": null,
+        "published_on": null,
+        "reviewed_on": "2026-09-30"
+      },
+      "evidence": {
+        "access_status": "OPENED_PRIMARY_CHURCH_PAGE",
+        "church_month_day": "10-31",
+        "civil_date_authority": "PINNED_2026_ANNUAL_CALENDAR_NOT_SOURCE_URL_YEAR",
+        "source_snapshot_sha256": null,
+        "verbatim_quote_words": 0,
+        "source_text_reproduced": false,
+        "editorial_note": "Наслов и тело имају различит број имена; не спајају се њихове службе или начини смрти."
+      }
+    },
+    {
+      "source": {
+        "id": "next-oca-cosmas-damian",
+        "kind": "article",
+        "title": "Holy Wonderworkers and Unmercenaries Cosmas and Damian of Mesopotamia",
+        "url": "https://www.oca.org/saints/lives/2026/11/01/103133-holy-wonderworkers-and-unmercenaries-cosmas-and-damian-of-mesopo",
+        "publisher": "Orthodox Church in America",
+        "original_author": null,
+        "published_on": null,
+        "reviewed_on": "2026-09-30"
+      },
+      "evidence": {
+        "access_status": "OPENED_PRIMARY_CHURCH_PAGE",
+        "church_month_day": "11-01",
+        "civil_date_authority": "PINNED_2026_ANNUAL_CALENDAR_NOT_SOURCE_URL_YEAR",
+        "source_snapshot_sha256": null,
+        "verbatim_quote_words": 0,
+        "source_text_reproduced": false,
+        "editorial_note": "Азијски пар, не римски или арабијски; изостављено несигурно уже место порекла."
+      }
+    },
+    {
+      "source": {
+        "id": "next-oca-acindynus",
+        "kind": "article",
+        "title": "Martyrs Acindynus, Pegasius, Aphthonius, Elpidephorus, Anempodistus, and 7,000 with them, of Persia",
+        "url": "https://www.oca.org/saints/lives/2026/11/02/103151-martyrs-acindynus-pegasius-aphthonius-elpidephorus-anempodistus",
+        "publisher": "Orthodox Church in America",
+        "original_author": null,
+        "published_on": null,
+        "reviewed_on": "2026-09-30"
+      },
+      "evidence": {
+        "access_status": "OPENED_PRIMARY_CHURCH_PAGE",
+        "church_month_day": "11-02",
+        "civil_date_authority": "PINNED_2026_ANNUAL_CALENDAR_NOT_SOURCE_URL_YEAR",
+        "source_snapshot_sha256": null,
+        "verbatim_quote_words": 0,
+        "source_text_reproduced": false,
+        "editorial_note": "Персијски мученици; не тврди се исти тренутак/начин страдања или независно проверен број."
+      }
+    },
+    {
+      "source": {
+        "id": "next-oca-george-lydda",
+        "kind": "article",
+        "title": "Consecration of the Church of the Holy Great Martyr George in Lydda",
+        "url": "https://www.oca.org/saints/lives/2026/11/03/103161-consecration-of-the-church-of-the-holy-great-martyr-george-in-ly",
+        "publisher": "Orthodox Church in America",
+        "original_author": null,
+        "published_on": null,
+        "reviewed_on": "2026-09-30"
+      },
+      "evidence": {
+        "access_status": "OPENED_PRIMARY_CHURCH_PAGE",
+        "church_month_day": "11-03",
+        "civil_date_authority": "PINNED_2026_ANNUAL_CALENDAR_NOT_SOURCE_URL_YEAR",
+        "source_snapshot_sha256": null,
+        "verbatim_quote_words": 0,
+        "source_text_reproduced": false,
+        "editorial_note": "Допунски извор; година првог храма није преузета због неслагања са Митрополијом."
+      }
+    },
+    {
+      "source": {
+        "id": "next-oca-joannicius",
+        "kind": "article",
+        "title": "Venerable Joannicius the Great",
+        "url": "https://www.oca.org/saints/lives/2018/11/04/103171-venerable-joannicius-the-great",
+        "publisher": "Orthodox Church in America",
+        "original_author": null,
+        "published_on": null,
+        "reviewed_on": "2026-09-30"
+      },
+      "evidence": {
+        "access_status": "OPENED_PRIMARY_CHURCH_PAGE",
+        "church_month_day": "11-04",
+        "civil_date_authority": "PINNED_2026_ANNUAL_CALENDAR_NOT_SOURCE_URL_YEAR",
+        "source_snapshot_sha256": null,
+        "verbatim_quote_words": 0,
+        "source_text_reproduced": false,
+        "editorial_note": "Јоаникије Велики из Витиније, не Девички или савремени архијереј."
+      }
+    },
+    {
+      "source": {
+        "id": "next-oca-galaction",
+        "kind": "article",
+        "title": "Martyrs Galaction and his wife, Epistemis, at Emesa",
+        "url": "https://www.oca.org/saints/lives/2026/11/05/103176-martyrs-galaction-and-his-wife-epistemis-at-emesa",
+        "publisher": "Orthodox Church in America",
+        "original_author": null,
+        "published_on": null,
+        "reviewed_on": "2026-09-30"
+      },
+      "evidence": {
+        "access_status": "OPENED_PRIMARY_CHURCH_PAGE",
+        "church_month_day": "11-05",
+        "civil_date_authority": "PINNED_2026_ANNUAL_CALENDAR_NOT_SOURCE_URL_YEAR",
+        "source_snapshot_sha256": null,
+        "verbatim_quote_words": 0,
+        "source_text_reproduced": false,
+        "editorial_note": "Наслов каже супруга, приповест заручница; прецизан брачни статус изостављен."
+      }
+    },
+    {
+      "source": {
+        "id": "next-oca-paul-confessor",
+        "kind": "article",
+        "title": "Saint Paul the Confessor, Archbishop of Constantinople",
+        "url": "https://www.oca.org/saints/lives/2026/11/06/103185-saint-paul-the-confessor-archbishop-of-constantinople",
+        "publisher": "Orthodox Church in America",
+        "original_author": null,
+        "published_on": null,
+        "reviewed_on": "2026-09-30"
+      },
+      "evidence": {
+        "access_status": "OPENED_PRIMARY_CHURCH_PAGE",
+        "church_month_day": "11-06",
+        "civil_date_authority": "PINNED_2026_ANNUAL_CALENDAR_NOT_SOURCE_URL_YEAR",
+        "source_snapshot_sha256": null,
+        "verbatim_quote_words": 0,
+        "source_text_reproduced": false,
+        "editorial_note": "Цариградски архиепископ, не апостол Павле или Павле Тивејски."
+      }
+    },
+    {
+      "source": {
+        "id": "next-mcp-george-lydda",
+        "kind": "article",
+        "title": "Обновљење храма Светог великомученика Георгија – Ђурђиц",
+        "url": "https://mitropolija.com/2019/11/16/obnovljenje-hrama-svetog-velikomucenika-georgija-djurdjic/",
+        "publisher": "Митрополија црногорско-приморска",
+        "original_author": null,
+        "published_on": "2019-11-16",
+        "reviewed_on": "2026-09-30"
+      },
+      "evidence": {
+        "access_status": "OPENED_PRIMARY_CHURCH_PAGE",
+        "church_month_day": "11-03",
+        "civil_date_authority": "PINNED_2026_ANNUAL_CALENDAR_NOT_SOURCE_URL_YEAR",
+        "source_snapshot_sha256": null,
+        "verbatim_quote_words": 0,
+        "source_text_reproduced": false,
+        "editorial_note": "Ђурђиц је посебан догађај; није obs-george (Ђурђевдан). Нема активног canonical ID за овај спомен."
+      }
+    }
+  ],
+  "calendar_refresh": [
+    {
+      "source_id": "eparhija-month-10",
+      "url": "https://www.eparhija.at/kalendar?m=2026-10",
+      "checked_on": "2026-09-30",
+      "status": "OPENED_SELECTED_DATES_MATCH_PINNED_CALENDAR"
+    },
+    {
+      "source_id": "eparhija-month-11",
+      "url": "https://www.eparhija.at/kalendar?m=2026-11",
+      "checked_on": "2026-09-30",
+      "status": "REFRESH_FAILED_USING_PINNED_SOURCE_RECORD",
+      "original_fetch_at": "2026-09-15T09:42:14.667347+00:00",
+      "original_response_sha256": "abd5fecc3321025b200622f4e62b2125d1c42c0853de87d61f02dde64bd2aab8"
+    }
+  ]
+}

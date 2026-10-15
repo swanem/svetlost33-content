@@ -1,0 +1,23 @@
+{
+  "scope": "Editorial draft only; no native reader or publication validation",
+  "checked_at": "2026-10-05T05:22:22.149Z",
+  "manuscript_sha256": "55a86a22200408ef594eaf99bf2f4ab376dc2e7be3c2556cf8b7b66e160ffdaf",
+  "commandments": 10,
+  "biblical_verses": 17,
+  "localized_pairs": 48,
+  "numbering_and_references": "PASS",
+  "script_and_transliteration": "PASS",
+  "live_source_comparison": "17/17 exact after HTML and whitespace normalization",
+  "source_url": "https://ebible.org/srp1868/EXO20.htm",
+  "source_html_sha256": "8b6c673c2ac9c8edae3eb487d365365077a42e5b84db9a9efd9f979dd972cfe8",
+  "independent_editorial_review": {
+    "reviewer": "ios_i5_final_review",
+    "result": "No blocking finding for this draft",
+    "scope": "Orthodox numbering, EXO verse ranges, complete 17-verse excerpt, attribution and editorial separation; unsupported native routes not claimed",
+    "orthodox_numbering_source": "Reviewer retrieved full HTML of https://svetosavlje.org/pravoslavni-pojmovnik-za-pocetnike/137/ independently; root had search excerpt only",
+    "clerical_review": false
+  },
+  "publication_authorized": false,
+  "native_changes": false,
+  "included_in_ota_images": false
+}

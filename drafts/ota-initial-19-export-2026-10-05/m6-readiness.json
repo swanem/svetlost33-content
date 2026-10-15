@@ -1,0 +1,131 @@
+{
+  "schema_version": "svetlost33-media19-m6-readiness-1",
+  "recorded_on": "2026-10-05",
+  "status": "READ_ONLY_READINESS_NOT_M6_GO",
+  "boundary": "Source/metadata inspection only. No tests, fresh network readback, private-key/token read, version/sequence reservation, signing, native edit or publication.",
+  "approved_input": {
+    "scope": "Exact existing18 plus slava-default; seven prior drafts excluded.",
+    "evidence": "drafts/ota-initial-19-export-2026-10-05/root-review.json accepts the local47-file export and minimal projection. No new per-asset factual approval blocker found for these exact19.",
+    "slava": "drafts/slava-default-2026-10-01/account-holder-confirmation-2026-10-04.json closes the account-holder question; do not ask it again.",
+    "public_projection": "Five evidence objects are hash-bound minimal projections; no raw private approvals/prompts/account data in payload. Release-bound publication/technical GO remains false, not a missing blanket owner approval.",
+    "rights_boundary": "Preserve existing18 recorded RS/BA app-distribution scope and separate slava basis. No CC0, public-domain, global reuse license or independent legal guarantee inferred."
+  },
+  "existing_workflow": [
+    {
+      "step": "Exact19 local export",
+      "pointer": "drafts/ota-initial-19-export-2026-10-05/exporter.mjs",
+      "command": "node drafts/ota-initial-19-export-2026-10-05/exporter.mjs --stage",
+      "limit": "Executable local-only; publicationGate is permanently false. Do not sign local versions/sequence1/empty history as production."
+    },
+    {
+      "step": "Current S12 prepare/sign precedent",
+      "pointer": "scripts/prepare-calendar-saints-window-v2.mjs; scripts/sign-calendar-saints-window-v2.mjs:33-101",
+      "limit": "Hard-pinned S11-to-S12 plan, exact owner hashes, seven modules and24 old profiles. Not a generic media publisher; cannot safely pass the19-media draft to it."
+    },
+    {
+      "step": "Shared verifier",
+      "pointer": "scripts/validate-m0-v2.mjs:149-228",
+      "limit": "Real RSA-PSS/SHA256, raw hashes/lengths, minimum client, required capability, dependency, full image decode and budgets. Existing12 optional profiles perOS are in scripts/prepare-calendar-browser-release-v2.mjs:211-217."
+    },
+    {
+      "step": "Existing publication mechanism",
+      "pointer": "approvals/calendar-saints-window-2026-10-02/publication.json",
+      "limit": "Root previously created an exact allowlisted immutable tree+commit, non-force main update with index/signature together. Preserve this mechanism; no new service/parallel publisher needed."
+    },
+    {
+      "step": "Public readback precedent",
+      "pointer": "scripts/verify-public-calendar-saints-window-v2.mjs; scripts/verify-public-shared-refresh-v2.mjs:14-45",
+      "command": "node scripts/verify-public-calendar-saints-window-v2.mjs --signed <exact-S12-stage> --receipt <new-receipt>",
+      "limit": "This command is S12-only. Reuse bounded fetchExactPublicFile and discovery-pair recheck for a separately approved media release validator; no M6 media readback command exists yet."
+    }
+  ],
+  "real_remaining_gates": [
+    {
+      "id": "M6-TOOLS",
+      "state": "MISSING_RELEASE_BOUND_MEDIA_ADAPTER",
+      "detail": "One additive scoped preparation/sign/validation/readback adapter is still required within the existing publication workflow. Reuse exact19 bytes/projections; derive current real signed baseline, history/ledger/checkpoint/retained bindings, approved release values and real native minima. Neither frozen R3/local M4 nor test-key fixtures are production signing inputs."
+    },
+    {
+      "id": "M6-NATIVE",
+      "state": "PENDING_M1_M5_FINAL_ACCEPTANCE",
+      "detail": "Do not enable policy/media capabilities before the same complete native N-to-N+1 vertical is accepted on both platforms. Whole-production-release budget and native persistent-storage/consumer behavior must be proven on the final actual bytes. Shared fixture reference tests are not this evidence."
+    },
+    {
+      "id": "M6-COMPAT",
+      "state": "EXPLICIT_OLD_CLIENT_OUTCOME_REQUIRED",
+      "detail": "Keep required background-policy-v1 and optional background-media-v2 with exact policy dependency. Current production is one static index/channel, not per-client routing. Unknown required policy rejects the whole new release; it does not auto-adopt new core. Existing old installations retain last-good. Fresh old installations have bundled/annual fallback, not automatic signed S12 selection. Decide/record whether that bounded fallback is sufficient before switch; requiring continued fresh-old S12 discovery would need separate explicit compatibility work, which is not implemented by current routing."
+    },
+    {
+      "id": "M6-PUBLICATION",
+      "state": "PENDING_EXACT_SIGNED_CANDIDATE",
+      "detail": "After final native minima and exact release binding, root checks public-safe allowlist/deployment scope, signs with existing production authority, verifies profile outcomes, publishes immutable artifacts plus matching discovery pair, then public-byte/signature readback and normal client uptake. No additional rights expansion or repeated slava approval is presumed."
+    }
+  ],
+  "old_client_evidence": {
+    "discovery": "Android61 and iOS36 both use raw.githubusercontent.com/swanem/svetlost33-content/main/releases/v2/production and channel production. No automatic archived-compatible release selection was found in these concrete paths.",
+    "android": "Isolated Android61: M0V2UpdateCoordinator.kt:94 uses source.fetch(...,\"production\",...). M0V2Updater.kt:58 selects that sole channel; 76-100 rejects unsupported required policy before installer activation. LocalContentResolver.kt:75-96 falls back to annual.loadActive/legacy.load when no modular generation. SvetlostApplication.kt:88-92 initializes bundled annual content via BundledAnnualContentInstaller.",
+    "ios": "Isolated iOS36: Svetlost33App/ProductionContentUpdates.swift:19-43 fixes the production endpoint and old capability set. ModularHTTPSPackageFetcher.swift:112-115 rejects unsupported required modules. ContentGenerationRepository.swift:321-360 falls back to bundled resources when no active pointer/valid generation, with baseline legacy-ios-v015-baseline-1.",
+    "s12": "Current locally recorded S12 discovery SHA a0d50c23036db203035419f4ba169ddb6005223799ed3ac4e89e03dd9f7733e9. Immutable S12 artefacts existing on the host do not themselves create fresh-old discovery routing after the production pointer advances.",
+    "tests_needed": "Old profiles must explicitly reject the OTA candidate while retaining prior/bundled data, not all report successful new-core activation. New accepted profiles need both policy and media capabilities; partial pair support is not full R4 adoption. Native fresh-install/upgrade outcomes need explicit M5/M6 evidence.",
+    "no_protocol_proposed": true
+  },
+  "known_budget": "Local exact19 media is49,398,385 bytes. Test S12+media graph is9modules/66payloadfiles and about55.2MB transport pervariant, below100MiB reference limit; this is not a production binding or native storage proof.",
+  "pins": [
+    {
+      "path": "svetlost33-content/drafts/ota-initial-19-export-2026-10-05/root-review.json",
+      "bytes": 2239,
+      "sha256": "fe564618bb385dc4ba2b2caf4be8061f8284ea6d6d84d33918d23e45cb88d05a"
+    },
+    {
+      "path": "svetlost33-content/scripts/sign-calendar-saints-window-v2.mjs",
+      "bytes": 7119,
+      "sha256": "a5adae7f42da5711fe8a8b275017831ad3e64d7f9811a8ca5bad15dc31dbb524"
+    },
+    {
+      "path": "svetlost33-content/scripts/prepare-calendar-browser-release-v2.mjs",
+      "bytes": 30156,
+      "sha256": "ab1ff1fb85979bc0fa6c658609f52490444dd6734b136385b66e8723e91fbdd4"
+    },
+    {
+      "path": "svetlost33-content/scripts/verify-public-calendar-saints-window-v2.mjs",
+      "bytes": 4199,
+      "sha256": "ff27de6ca5529ee942fbb352e1641607186051d3211d9edb205a5e11d7e0be6c"
+    },
+    {
+      "path": "svetlost33-content/releases/v2/production/index.json",
+      "bytes": 592,
+      "sha256": "a0d50c23036db203035419f4ba169ddb6005223799ed3ac4e89e03dd9f7733e9"
+    },
+    {
+      "path": "svetlost33-android-release-0.21.1/app/src/main/java/app/svetlost33/data/M0V2Updater.kt",
+      "bytes": 9796,
+      "sha256": "87f474bd949c444bcd4f9e76558f8acb18aa73eedd7d973cc90daa7728d74a9e"
+    },
+    {
+      "path": "svetlost33-android-release-0.21.1/app/src/main/java/app/svetlost33/data/M0V2UpdateCoordinator.kt",
+      "bytes": 8686,
+      "sha256": "6f6679e102ab453349ccb53e19588e0416f0c2bc5e636c342973d552691f3fd9"
+    },
+    {
+      "path": "svetlost33-android-release-0.21.1/app/src/main/java/app/svetlost33/data/LocalContentResolver.kt",
+      "bytes": 5526,
+      "sha256": "6773712f20659e63ebe6a1a8541246cdd8cd33d1cdf23dc848d84c415062cf02"
+    },
+    {
+      "path": "svetlost33-ios-release-2026-10-02/Svetlost33App/ProductionContentUpdates.swift",
+      "bytes": 2850,
+      "sha256": "190fcbf366da91340c1950b12b2c69c45488314c3dbc5d4a85949662a78d4c1c"
+    },
+    {
+      "path": "svetlost33-ios-release-2026-10-02/Sources/SvetlostCore/ModularHTTPSPackageFetcher.swift",
+      "bytes": 10380,
+      "sha256": "7b848d63fae7a43b89feb0d15c6184aa201e8dd32b90bb092fd8ca36ae538c2e"
+    },
+    {
+      "path": "svetlost33-ios-release-2026-10-02/Sources/SvetlostCore/ContentGenerationRepository.swift",
+      "bytes": 71992,
+      "sha256": "f571234d89fc0cf6130130932376ab43ab563e9b353310c3a51e68e591d15dc8"
+    }
+  ],
+  "stop_after_receipt": true
+}

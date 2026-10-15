@@ -1,0 +1,68 @@
+{
+  "schema_version": "svetlost33-ks01-block1-handoff-1",
+  "status": "PASS_PENDING_CONTENT_NOT_APPROVED",
+  "path": "drafts/saints-year-end-block1-2026-10-06",
+  "window": [
+    "2026-11-20",
+    "2026-12-10"
+  ],
+  "counts": {
+    "dates": 21,
+    "existing_articles_reused": 0,
+    "new_pending_articles": 21,
+    "unknown_identity_or_date": 0,
+    "content_approval_pending": 21,
+    "independent_rights_clearance": 0,
+    "real_articles_after_local_merge": 83,
+    "reused_observances": 2,
+    "reused_occurrences": 2,
+    "new_subjects": 19,
+    "new_observances": 19,
+    "new_occurrences": 19,
+    "new_article_links": 21
+  },
+  "artifacts": [
+    {
+      "path": "manuscript.mjs",
+      "bytes": 40401,
+      "sha256": "402ea6e792b88630baa2dde31a40ef9d4eccd36afff68d6ef384cfc7f8ad9f33"
+    },
+    {
+      "path": "prepare.mjs",
+      "bytes": 17489,
+      "sha256": "713a423c3b205bb616b4300d2c0e04a8bc80094b47f44b19643a0d89d728ec0c"
+    },
+    {
+      "path": "verify.mjs",
+      "bytes": 10196,
+      "sha256": "74db010322e12a14323699ce98c5f8c9099db3e3e8ef7085f6c7c37a39a0aed6"
+    },
+    {
+      "path": "master.json",
+      "bytes": 134635,
+      "sha256": "167eb762f87a3d1dbfd5623b32197d5af683e7ed01fbc8f2948499ceca7dae6b"
+    },
+    {
+      "path": "delta.json",
+      "bytes": 67743,
+      "sha256": "f929151078bf1a99e392dcd786cbdde3142ddd34aa5929828c524d31a9b537e3"
+    },
+    {
+      "path": "sources.json",
+      "bytes": 15683,
+      "sha256": "b1d2b2a701ba1adda3f9451785e108b10c98be69b12a03e67d91cca680b877d2"
+    },
+    {
+      "path": "validation.json",
+      "bytes": 4495,
+      "sha256": "efa2bd87ec4724e128e0ee4630660d2d90e9e4dd7b98a127107d617c87d757e2"
+    }
+  ],
+  "check": "node drafts/saints-year-end-block1-2026-10-06/verify.mjs --check",
+  "result": "10/10 PASS",
+  "next_gate": "Human review of these exact 21 new texts and pending metadata/rights; no owner or church approval has been supplied.",
+  "sources": "sources.json: 21 directly opened OCA church lives and 1 directly opened SPC dated report; annual mappings remain pinned S12.",
+  "reuse": "0 existing articles; 2 existing catalog observances/occurrences reused without changes.",
+  "approved_originals_preserved": true,
+  "no_publication_or_native_changes": true
+}

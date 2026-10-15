@@ -1,0 +1,72 @@
+{
+  "schema_version": "svetlost33-ks01-reference-verification-1",
+  "status": "PASS_EDITORIAL_REFERENCE_ONLY",
+  "command": "node drafts/calendar-saints-expansion-2026-10-06/verify.mjs --write-evidence",
+  "node_version": "v24.13.0",
+  "checks": [
+    {
+      "name": "All seven exported files reproduce byte for byte from the one master",
+      "result": "PASS"
+    },
+    {
+      "name": "Pinned approved 62-article source, exact 42 day joins and bounded A/B ordering",
+      "result": "PASS"
+    },
+    {
+      "name": "Independent expected counts, array/raw byte limits and exact browser binding",
+      "result": "PASS"
+    },
+    {
+      "name": "All previous entities/links/sources, annual/article bindings, slava map and 2027 stay identical",
+      "result": "PASS"
+    },
+    {
+      "name": "Historical source dates/attribution stay exact; every new alias is explicitly evidenced",
+      "result": "PASS"
+    },
+    {
+      "name": "Candidate/null approval and every newly proposed metadata row remain fail closed",
+      "result": "PASS"
+    },
+    {
+      "name": "All 23 dates resolve exactly and each old article is found in both scripts in memory-only reviewed simulation",
+      "result": "PASS"
+    },
+    {
+      "name": "Identity distinctions, intact groups, exact popular aliases and article/image-independent search",
+      "result": "PASS"
+    },
+    {
+      "name": "Wrong source day, pending date, pending article and stale generation are rejected or suppressed",
+      "result": "PASS"
+    },
+    {
+      "name": "Browser simulation uses exact newly serialized reviewed catalog hash; stale binding cannot expose feasts",
+      "result": "PASS"
+    },
+    {
+      "name": "Duplicate observance/occurrence/link proposals and malformed local binding fail structural validation",
+      "result": "PASS"
+    },
+    {
+      "name": "All hash-bound source files, current local discovery and original raw articles/calendar remain unchanged after checks",
+      "result": "PASS"
+    }
+  ],
+  "assertion_groups": 12,
+  "test_context": "TEST_ONLY_SYNTHETIC_TRUST_AND_REVIEW_NOT_OWNER_APPROVAL",
+  "native_acceptance": false,
+  "signature_verification": false,
+  "publication": false,
+  "candidate_bytes": 119549,
+  "browser_bytes": 97906,
+  "artifact_sha256": {
+    "inventory.json": "a95ac333c9a1fd8c67c781bc62f23e6f9c8028be5c29503c5f6ec8bef8380d21",
+    "package-a.catalog.pending.json": "121387e5bb1d80ab76460e1aff92cdfa10d70590ba8e78db0c5717bc3e6674d4",
+    "package-a.browser.pending.json": "97a0dbbfa106e9c941f5fda076dd35f3aefd8e1c0bdb8df00e4800fc8717f763",
+    "package-a.delta.json": "7de48daef0c9bf521d560d7f699dfa2c14f88ff90ed3aced4420dcb24aff4677",
+    "PREGLED.md": "57912956c518abc6f8a9abd84458c0ed7b62e84cfe5ebfe71ff86d6609fdb1b7",
+    "source-provenance.json": "f54ff4326a46ab4801f86afdfaa1f47571b73763b6437a1ca207ef6f73e1aa01",
+    "public-baseline-reference.json": "07f80575760e380fb0a67f01e9835c13cb0a813ba8ad4f2522e1a573b6927fc8"
+  }
+}

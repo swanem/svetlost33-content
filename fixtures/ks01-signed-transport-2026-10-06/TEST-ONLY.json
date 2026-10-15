@@ -1,0 +1,40 @@
+{
+  "warning": "TEST_ONLY_LOCAL_RSA_PSS_NOT_PRODUCTION_TRUST_NOT_CONTENT_APPROVAL_NEVER_PUBLISH",
+  "publishable": false,
+  "production_signature": false,
+  "owner_approval": false,
+  "local_test_signature": "RSA-PSS SHA-256, 2048-bit, saltLength 32; fresh ephemeral private KeyObject never serialized",
+  "key_id": "ks01-test-transport-key-1",
+  "fixed_test_time": "2026-10-06T12:00:00Z",
+  "channel": "production",
+  "channel_note": "Native wire-compatible channel name only. This directory is not a production endpoint.",
+  "clients": {
+    "old": {
+      "android": 1000,
+      "ios": "99.0.0"
+    },
+    "expanded": {
+      "android": 1001,
+      "ios": "99.0.1"
+    }
+  },
+  "sequences": [
+    {
+      "name": "baseline62",
+      "sequence": 100
+    },
+    {
+      "name": "packageA",
+      "sequence": 101
+    },
+    {
+      "name": "synthetic104",
+      "sequence": 102
+    },
+    {
+      "name": "synthetic366",
+      "sequence": 103
+    }
+  ],
+  "inputs_note": "Approved core payload bytes and historical evidence are reused unchanged; they do not approve synthetic content or this test release."
+}

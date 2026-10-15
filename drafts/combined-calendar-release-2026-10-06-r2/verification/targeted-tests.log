@@ -1,0 +1,52 @@
+TAP version 13
+# Subtest: r2 differs from frozen r1 only in index/release-set/signing plan; exact4payloads and all old evidence preserved
+ok 1 - r2 differs from frozen r1 only in index/release-set/signing plan; exact4payloads and all old evidence preserved
+  ---
+  duration_ms: 60.880375
+  type: 'test'
+  ...
+# Subtest: Confirmed floor propagates into descriptor, hashes/dependencies and exact unsigned artifact
+ok 2 - Confirmed floor propagates into descriptor, hashes/dependencies and exact unsigned artifact
+  ---
+  duration_ms: 34.896875
+  type: 'test'
+  ...
+# Subtest: Full KS01/Bible reference validation over unchanged approved content; no native/signature acceptance implied
+ok 3 - Full KS01/Bible reference validation over unchanged approved content; no native/signature acceptance implied
+  ---
+  duration_ms: 762.160875
+  type: 'test'
+  ...
+# Subtest: Hash-bound explicit root GO cannot substitute publication or wrong release/floor/head
+ok 4 - Hash-bound explicit root GO cannot substitute publication or wrong release/floor/head
+  ---
+  duration_ms: 1.001583
+  type: 'test'
+  ...
+# Subtest: Unsigned extra/tamper and missing authority/external key location stop before key/network access
+ok 5 - Unsigned extra/tamper and missing authority/external key location stop before key/network access
+  ---
+  duration_ms: 78.824833
+  type: 'test'
+  ...
+# Subtest: S13 CAS and18-path publication/immutable/new-output guards are read-only and bounded
+ok 6 - S13 CAS and18-path publication/immutable/new-output guards are read-only and bounded
+  ---
+  duration_ms: 42.333834
+  type: 'test'
+  ...
+# Subtest: Readback rejects malformed/in-stage output without fetching; protected inputs remain exact
+ok 7 - Readback rejects malformed/in-stage output without fetching; protected inputs remain exact
+  ---
+  duration_ms: 1031.571167
+  type: 'test'
+  ...
+1..7
+# tests 7
+# suites 0
+# pass 7
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 3280.041125

@@ -1,0 +1,16 @@
+{
+  "schema_version": "svetlost33-m0-index-2",
+  "sequence": 201,
+  "issued_at": "2026-10-06T00:00:00Z",
+  "expires_at": "2026-10-07T00:00:00Z",
+  "key_id": "ks01-real-draft104-test-key-1",
+  "channels": {
+    "production": {
+      "release_set_id": "test-ks01-real104-realdraft104-201",
+      "path": "release-set.json",
+      "bytes": 2694,
+      "sha256": "fa1c020abb7ea36d358db1ea433d86a0b7ba2e9656fb741313d908285ff86286",
+      "signature_path": "release-set.sig"
+    }
+  }
+}

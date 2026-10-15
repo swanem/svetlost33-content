@@ -1,0 +1,107 @@
+{
+  "schema": "svetlost33.root-memory-evidence-reuse-review.v1",
+  "review_date": "2026-10-06",
+  "status": "BOUNDED_HISTORICAL_MEMORY_PARSER_EVIDENCE_REUSE_SUPPORTED_NOT_FRESH_S13_MEASUREMENT",
+  "scope": "Read-only receipt review, source identity checks and exact JSON/raw-byte comparison of final unsigned S13 against the measured realDraft104 graph. No native execution, benchmark, speed optimization, signing or publication.",
+  "evidence": {
+    "android": {
+      "receipt": "../svetlost33-github/docs/evidence/v0.32-ks01-calendar-saints/root-real104-runtime-review-r1.json",
+      "receipt_sha256": "69b6be04a767a41763398c31782156f12bab65e9dd5bea2d9c5062bd60625a8d",
+      "owner_handoff": "../svetlost33-github/docs/evidence/v0.32-ks01-calendar-saints/runtime-real104-20261006/handoff.json",
+      "owner_handoff_sha256": "62d918dbfa2fea5022b8a9cd0eea540390c234a741824f0c0bc7a1f6a80b7d68",
+      "measured_source": "1e57ccbae04d510ec796ad8a454ccf76e5225647",
+      "release66_source": "b22a16b31039b9537471b446386b059985f2edcb",
+      "source_parity": "git diff --name-only measured..release -- app/src/main is empty",
+      "protocol": "API35 emulator, debug build, one warmup plus five measured paired samples",
+      "memory_metric": "10ms sampled process PSS; not RSS or unsampled peak",
+      "max_paired_delta_bytes": 30685184,
+      "memory_limit_bytes": 50331648,
+      "memory_result": "PASS",
+      "domain_parser_median_ns": 95144250,
+      "domain_parser_limit_ns": 500000000,
+      "domain_parser_result": "PASS"
+    },
+    "ios": {
+      "receipt": "../svetlost33-ios/docs/evidence/v0.32-ks01-calendar-saints/root-real104-runtime-review-r1.json",
+      "receipt_sha256": "f3b6797b268e5828195b914e4028a986e59ea79eaa938625dba0672a773624a9",
+      "owner_handoff": "../svetlost33-ios/docs/evidence/v0.32-ks01-calendar-saints/real-draft104-runtime-r1.json",
+      "owner_handoff_sha256": "0ad4d29943858f73e4558cd92577babb8f91340166dc057808a7eb1307ea9faf",
+      "artifact_manifest_sha256": "e17ff2462ac729a4d7c946a0455cc025cffad1bfdecbe3986b241a83ec53d754",
+      "measured_source": "f1ccd71483420678a4b5b6f76d736dc78d35cc62",
+      "release41_source": "452e4bcda43f076f02abe5310016f4cb25d5e00d",
+      "source_parity": "git diff --name-only measured..release -- Sources Svetlost33App Svetlost33Widget is empty",
+      "protocol": "Simulator debug build, one warmup plus five measured samples; RSS filtered to nonce-proven live PIDs",
+      "memory_metric": "Sampled process RSS; not PSS or physical-device absolute memory acceptance",
+      "baseline_peak_bytes": 479854592,
+      "real104_peak_bytes": 492027904,
+      "incremental_peak_bytes": 12173312,
+      "memory_limit_bytes": 50331648,
+      "memory_result": "PASS",
+      "domain_parser_median_ms": 99,
+      "domain_parser_limit_ms": 500,
+      "domain_parser_result": "PASS",
+      "separate_historical_result": "Cold median increase +401ms failed its +250ms threshold. This receipt does not close, reinterpret or rerun that independent gate."
+    }
+  },
+  "input_pins": {
+    "measured_fixture_handoff_sha256": "fc72570fc407f89a61362bc05a2aee5c660d2f2188296ec52d719b9d0abccea9",
+    "unsigned_root": "drafts/saints104-release-2026-10-06/unsigned-s13",
+    "unsigned_handoff": "drafts/saints104-release-2026-10-06/handoff/handoff.json",
+    "unsigned_handoff_sha256": "16e16efe524844a8dd47edf640fcdbe0637ea2b1b9478944455b936b0610be9d",
+    "unsigned_release_path": "releases/shared-saints104-2026-10-06-m0v2-s13/release-set.json",
+    "unsigned_release_sha256": "76054fb851221ad1de64922a1167741646e2dd9f199588404b9a6a7745d4b7ff"
+  },
+  "payload_comparison": [
+    {
+      "module": "saints-v1",
+      "measured_bytes": 399124,
+      "measured_sha256": "84834f9950f5b32e5b3a6b49cfb21c60d7c1c1e1d597cfce01b1abfd2359df9f",
+      "final_bytes": 399111,
+      "final_sha256": "35d9401dd895557de013e42ce71d8101a11b5e96e42212a3605951181c002047",
+      "changed_json_paths_only": ["/revision", "/approval_id"],
+      "revision_change": "6 to 5; test-only fixture revision replaced by production revision",
+      "counts": {"sources": 126, "articles": 104, "days": 104}
+    },
+    {
+      "module": "liturgical-catalog-v1",
+      "measured_bytes": 159848,
+      "measured_sha256": "da9a9ec9e81b706f7470dd849ce09a4e62afcd5011ca3843961f8c239724ca73",
+      "final_bytes": 159835,
+      "final_sha256": "3d79bc91da681f46dc5b016f3b2033693b7d7b3a12742c0b245cdcbce47f5df8",
+      "changed_json_paths_only": ["/revision", "/approval_id", "/article_bindings/0/revision", "/article_bindings/0/sha256"],
+      "revision_change": "9 to 8; saints binding 6 to 5 with exact final saints hash",
+      "counts": {"calendar_profiles": 1, "sources": 65, "subjects": 56, "observances": 73, "calendar_bindings": 1, "occurrences": 71, "day_reviews": 0, "article_bindings": 1, "article_links": 53, "legacy_slava_links": 10, "coverage": 2}
+    },
+    {
+      "module": "calendar-browser-v1",
+      "measured_bytes": 97947,
+      "measured_sha256": "e83a3feedb3b0393cb8d699ebfaed22ae842d7a9d116127c83eaaff0b4afb330",
+      "final_bytes": 97934,
+      "final_sha256": "13ef75b85963573eaf3f61131381af2116a70a32459a3afeff8759aa31a82db6",
+      "changed_json_paths_only": ["/revision", "/approval_id", "/catalog_binding/revision", "/catalog_binding/sha256", "/archive_bindings/0/library_binding/manifest_sha256", "/archive_bindings/0/cycles_binding/manifest_sha256"],
+      "revision_change": "5 to 4; catalog binding 9 to 8 with exact final catalog hash; archive hashes reference existing production manifests instead of test manifests",
+      "counts": {"feast_memberships": 21, "archive_bindings": 1, "archive_days": 94}
+    }
+  ],
+  "parity_result": {
+    "unexpected_json_differences": [],
+    "total_payload_byte_delta": -39,
+    "all104_article_models_identical_including_both_scripts_order_and_types": true,
+    "all104_day_models_identical": true,
+    "prior62_articles_identical_to_measured_baseline62": true,
+    "new_article_count": 42,
+    "all_array_counts_and_structure_preserved": true,
+    "approval_id_change": "test-only-real-draft104-not-owner-approval to saints104-2026-10-06-owner-r1",
+    "review_status_note": "No review_status or version difference against the already test-approved measured copy; original pending drafts were not changed or re-reviewed here.",
+    "unchanged_core_payloads": "All 17 library/cycles/calendar files referenced by final S13 equal the measured real104 files byte-for-byte.",
+    "unchanged_production_modules": "S12 and S13 release references are identical for library-annual-2026-r1, daily-cycles-r1, calendar-2026-r1 and organizations-v1."
+  },
+  "conclusion": "Existing bounded real104 memory/parser evidence is reusable for this exact metadata-only final payload delta on the unchanged delivered production sources. No new concrete memory/parser-growth blocker or new benchmark need was identified solely from this delta.",
+  "conditions_and_limits": [
+    "This is evidence reuse, not a fresh S13 RSS/PSS measurement or a measured physical-device/release-build claim.",
+    "Measured transport has six modules; production has seven including unchanged S12 organizations. It does not establish identical absolute memory for the full seven-module production graph, but organizations are not a new S12-to-S13 growth branch.",
+    "Signed S13 payload hashes must remain exactly the final hashes above. Any later text, count, structure, source-code, A/B merge or additional module change requires reassessment of the affected evidence.",
+    "Exact production-key signatures, final S12-to-S13 installation, min-client rejection, binding correctness and retention remain separate native acceptance gates. No content, signing or publication approval is supplied by this receipt.",
+    "No thresholds were changed and no speed optimization or benchmark was requested or executed."
+  ]
+}

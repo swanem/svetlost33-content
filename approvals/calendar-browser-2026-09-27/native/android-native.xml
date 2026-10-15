@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="app.svetlost33.data.M0CalendarBrowserS10IntegrationTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2026-09-27T09:24:39" hostname="redacted-local-host" time="1.646">
+  <properties/>
+  <testcase name="exactSignedS10KeepsTodayWhenOptionalCalendarCapabilityIsUnsupported" classname="app.svetlost33.data.M0CalendarBrowserS10IntegrationTest" time="0.301"/>
+  <testcase name="exactSignedS10UpgradesS9AndKeepsProspectiveArchivePastOnly" classname="app.svetlost33.data.M0CalendarBrowserS10IntegrationTest" time="1.345"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

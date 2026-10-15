@@ -1,0 +1,31 @@
+{
+  "schema_version": "svetlost33-initial19-m4-root-review-1",
+  "recorded_on": "2026-10-05",
+  "status": "BOUNDED_LOCAL_EXPORT_ACCEPTED_NOT_PRODUCTION_RELEASE",
+  "handoff_sha256": "af6b3bd301c8dd2bd37bc21dd06005384f45626459591b446f9cf85c9a6ef6a9",
+  "exporter_sha256": "95b15217e1a450c2ed26ba852ed3d26fefa710c8efcb35852e2aee04ade78f8d",
+  "output_inventory_sha256": "b94c69fa69bf6bd292043baa695e6aa24a1242c2da58a40607e6808926892f30",
+  "root_checks": {
+    "source_review": "Read additive input/schema/exporter and handoff; exact approved19 joins, explicit private-to-public projection and local-only synthetic context are separated from production binding.",
+    "source_and_evidence_records": "6/6 SHA and byte-length checks PASS against handoff.",
+    "staged_payload": "47/47 SHA and byte-length checks PASS by independent readback, total 49,459,824 bytes including two unsigned manifests.",
+    "visual_samples": "Inspected exact 480x853 day1 and slava-default JPEG thumbnails. Both show intact composition with no evident stretch or accidental clipping. This is a two-image sample, not all19/native crop or contrast QA.",
+    "owner_tests": "Retained 21/21 PASS log hash checked, not rerun by root. Structural/full Sharp decode and deterministic regeneration are owner test results, not native decoder or signature proof."
+  },
+  "preserved": [
+    "19 existing approved originals, no seven prior draft images",
+    "Exact frozen R3 thumbnail recipe and unchanged R2/R3/R4 artifacts",
+    "day1-day7 default membership and one common slava motif, no new dates",
+    "Minimal evidence projection, no private paths/prompts/account details",
+    "Recorded distribution basis only, no CC0/public-domain/legal guarantee"
+  ],
+  "remaining": [
+    "Native manual update and consumer/storage integration",
+    "Full same-candidate N-to-N+1 native vertical validation",
+    "Production-bound version, minima, ledger/checkpoint/history and whole-release budget",
+    "Signing, public readback and real client uptake"
+  ],
+  "warning": "Do not sign the local sequence1/revision1/empty-ledger artifacts as-is. This receipt does not activate a capability or authorize bypass of native M5.",
+  "publication_gate": false,
+  "native_go": false
+}

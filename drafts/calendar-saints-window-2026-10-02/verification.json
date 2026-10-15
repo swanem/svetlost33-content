@@ -1,0 +1,285 @@
+{
+  "status": "PASS_EDITORIAL_ONLY",
+  "checks": 21,
+  "check_names": [
+    "Exact immutable S11 release-set, three manifests and three payload hashes/lengths",
+    "Delta is the bounded unsigned seven-day proposal, not publication approval",
+    "Seven exact approved day/article/type joins; six new identities and one reused John identity",
+    "Pending catalog validates existing schema, both scripts and limits",
+    "All old subjects, observances, occurrences and four article links are retained byte-equivalent as JSON",
+    "Unrelated fields, sources/rights, legacy slava map and exact raw bindings are unchanged",
+    "Seven unknown Gospels and the Oct 2 fasting conflict are not promoted",
+    "Pending candidate is fail-closed even with a simulated host; unauthenticated approved simulation also rejects",
+    "2026-10-02: exact occurrence and linked old article in Cyrillic/Latin search",
+    "2026-10-03: exact occurrence and linked old article in Cyrillic/Latin search",
+    "2026-10-04: exact occurrence and linked old article in Cyrillic/Latin search",
+    "2026-10-05: exact occurrence and linked old article in Cyrillic/Latin search",
+    "2026-10-06: exact occurrence and linked old article in Cyrillic/Latin search",
+    "2026-10-07: exact occurrence and linked old article in Cyrillic/Latin search",
+    "2026-10-08: exact occurrence and linked old article in Cyrillic/Latin search",
+    "Slava search is independent of articles/images; partial names work in both scripts",
+    "John conception remains a separate feast/date from January Synaxis, not a replacement",
+    "Quadratus is not Exaltation: exact calendar note remains in the old saint module only",
+    "2027 remains unavailable; wrong profile has no inferred dates",
+    "Corrupted binding hash, date join, script parity and pending observance do not become verified",
+    "Persisted pending candidate equals exact deterministic reconstruction"
+  ],
+  "candidate_sha256": "5bdbe2e1693f89bd5f65d62212798d60ea88bf7662133138292b2fd474948eae",
+  "candidate_bytes": 66615,
+  "additions": {
+    "subjects": 6,
+    "observances": 7,
+    "occurrences": 7,
+    "article_links": 7,
+    "articles": 0,
+    "calendar_day_changes": 0
+  },
+  "totals": {
+    "subjects": 18,
+    "observances": 34,
+    "occurrences": 32,
+    "article_links": 11,
+    "published_articles_unchanged": 62
+  },
+  "runtime_pending_gate": "unapproved",
+  "native_tests_run": false,
+  "signatures_verified_here": false,
+  "published": false,
+  "web_research_performed": false,
+  "unknowns_preserved": {
+    "gospel_dates": [
+      "2026-10-02",
+      "2026-10-03",
+      "2026-10-04",
+      "2026-10-05",
+      "2026-10-06",
+      "2026-10-07",
+      "2026-10-08"
+    ],
+    "fasting_rule_dates": [
+      "2026-10-02"
+    ],
+    "explanation": "Preserve the exact S11 calendar evidence. No fresh web audit or service-assignment claim is made in this increment. The conflicting WATER/OIL observations on 2026-10-02 remain UNKNOWN."
+  },
+  "source_provenance": [
+    {
+      "date": "2026-10-02",
+      "observance_id": "obs-trophimus-sabbatius-dorymedon",
+      "article_id": "trophimus-sabbatius-dorymedon",
+      "calendar_source": {
+        "id": "eparhija-month-10",
+        "title": "Епархија аустријска СПЦ — календар",
+        "url": "https://www.eparhija.at/kalendar?m=2026-10",
+        "publisher": "Епархија аустријска СПЦ",
+        "original_author": null,
+        "checked_on": "2026-09-15",
+        "review_status": "reviewed",
+        "rights_status": "pending"
+      },
+      "existing_article_sources": [
+        {
+          "id": "oca-trophimus",
+          "kind": "article",
+          "title": "Martyrs Trophimus, Sabbatius, and Dorymedon of Synnada",
+          "url": "https://www.oca.org/saints/lives/2026/09/19/102664-martyrs-trophimus-sabbatius-and-dorymedon-of-synnada",
+          "publisher": "Orthodox Church in America",
+          "original_author": null,
+          "published_on": null,
+          "reviewed_on": "2026-09-20"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-03",
+      "observance_id": "obs-greatmartyr-eustathius",
+      "article_id": "greatmartyr-eustathius",
+      "calendar_source": {
+        "id": "eparhija-month-10",
+        "title": "Епархија аустријска СПЦ — календар",
+        "url": "https://www.eparhija.at/kalendar?m=2026-10",
+        "publisher": "Епархија аустријска СПЦ",
+        "original_author": null,
+        "checked_on": "2026-09-15",
+        "review_status": "reviewed",
+        "rights_status": "pending"
+      },
+      "existing_article_sources": [
+        {
+          "id": "comp-oca-eustathius",
+          "kind": "article",
+          "title": "Greatmartyr Eustáthios Placidas, with his wife and children, of Rome",
+          "url": "https://www.oca.org/saints/lives/2026/09/20/102674-greatmartyr-eustthios-placidas-with-his-wife-and-children-of-rom",
+          "publisher": "Orthodox Church in America",
+          "original_author": null,
+          "published_on": null,
+          "reviewed_on": "2026-09-21"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-04",
+      "observance_id": "obs-apostle-quadratus",
+      "article_id": "apostle-quadratus",
+      "calendar_source": {
+        "id": "eparhija-month-10",
+        "title": "Епархија аустријска СПЦ — календар",
+        "url": "https://www.eparhija.at/kalendar?m=2026-10",
+        "publisher": "Епархија аустријска СПЦ",
+        "original_author": null,
+        "checked_on": "2026-09-15",
+        "review_status": "reviewed",
+        "rights_status": "pending"
+      },
+      "existing_article_sources": [
+        {
+          "id": "comp-oca-quadratus",
+          "kind": "article",
+          "title": "Apostle Quadratus of the Seventy",
+          "url": "https://www.oca.org/saints/lives/2026/09/21/102683-apostle-quadratus-of-the-seventy",
+          "publisher": "Orthodox Church in America",
+          "original_author": null,
+          "published_on": null,
+          "reviewed_on": "2026-09-21"
+        },
+        {
+          "id": "comp-spc-quadratus",
+          "kind": "article",
+          "title": "Свети апостол Кодрат",
+          "url": "https://spc.rs/sr/news/10103.sveti-apostol-kodrat.html",
+          "publisher": "Српска православна црква",
+          "original_author": null,
+          "published_on": "2025-10-04",
+          "reviewed_on": "2026-09-21"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-05",
+      "observance_id": "obs-hieromartyr-phocas-sinope",
+      "article_id": "hieromartyr-phocas-sinope",
+      "calendar_source": {
+        "id": "eparhija-month-10",
+        "title": "Епархија аустријска СПЦ — календар",
+        "url": "https://www.eparhija.at/kalendar?m=2026-10",
+        "publisher": "Епархија аустријска СПЦ",
+        "original_author": null,
+        "checked_on": "2026-09-15",
+        "review_status": "reviewed",
+        "rights_status": "pending"
+      },
+      "existing_article_sources": [
+        {
+          "id": "comp-oca-phocas",
+          "kind": "article",
+          "title": "Hieromartyr Phocas, Bishop of Sinope",
+          "url": "https://www.oca.org/saints/lives/2026/09/22/102695-hieromartyr-phocas-bishop-of-sinope",
+          "publisher": "Orthodox Church in America",
+          "original_author": null,
+          "published_on": null,
+          "reviewed_on": "2026-09-21"
+        },
+        {
+          "id": "comp-mcp-phocas",
+          "kind": "article",
+          "title": "Свети свештеномученик Фока епископ Синопски",
+          "url": "https://mitropolija.com/2025/10/04/sveti-svestenomucenik-foka-episkop-sinopski/",
+          "publisher": "Православна Митрополија црногорско-приморска",
+          "original_author": "Свети Владика Николај",
+          "published_on": "2025-10-04",
+          "reviewed_on": "2026-09-21"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-06",
+      "observance_id": "obs-conception-john-forerunner",
+      "article_id": "conception-john-forerunner",
+      "calendar_source": {
+        "id": "eparhija-month-10",
+        "title": "Епархија аустријска СПЦ — календар",
+        "url": "https://www.eparhija.at/kalendar?m=2026-10",
+        "publisher": "Епархија аустријска СПЦ",
+        "original_author": null,
+        "checked_on": "2026-09-15",
+        "review_status": "reviewed",
+        "rights_status": "pending"
+      },
+      "existing_article_sources": [
+        {
+          "id": "comp-oca-conception-john",
+          "kind": "article",
+          "title": "Conception of the Honorable Glorious Prophet, Forerunner and Baptist John",
+          "url": "https://www.oca.org/saints/lives/2026/09/23/102703-conception-of-the-honorable-glorious-prophet-forerunner-and-bapt",
+          "publisher": "Orthodox Church in America",
+          "original_author": null,
+          "published_on": null,
+          "reviewed_on": "2026-09-21"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-07",
+      "observance_id": "obs-protomartyr-thecla",
+      "article_id": "protomartyr-thecla",
+      "calendar_source": {
+        "id": "eparhija-month-10",
+        "title": "Епархија аустријска СПЦ — календар",
+        "url": "https://www.eparhija.at/kalendar?m=2026-10",
+        "publisher": "Епархија аустријска СПЦ",
+        "original_author": null,
+        "checked_on": "2026-09-15",
+        "review_status": "reviewed",
+        "rights_status": "pending"
+      },
+      "existing_article_sources": [
+        {
+          "id": "comp-oca-thecla",
+          "kind": "article",
+          "title": "Protomartyr and Equal of the Apostles Thekla",
+          "url": "https://www.oca.org/saints/lives/2026/09/24/102715-protomartyr-and-equal-of-the-apostles-thekla",
+          "publisher": "Orthodox Church in America",
+          "original_author": null,
+          "published_on": null,
+          "reviewed_on": "2026-09-21"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-08",
+      "observance_id": "obs-euphrosyne-alexandria",
+      "article_id": "euphrosyne-alexandria",
+      "calendar_source": {
+        "id": "eparhija-month-10",
+        "title": "Епархија аустријска СПЦ — календар",
+        "url": "https://www.eparhija.at/kalendar?m=2026-10",
+        "publisher": "Епархија аустријска СПЦ",
+        "original_author": null,
+        "checked_on": "2026-09-15",
+        "review_status": "reviewed",
+        "rights_status": "pending"
+      },
+      "existing_article_sources": [
+        {
+          "id": "comp-oca-euphrosyne",
+          "kind": "article",
+          "title": "Venerable Euphrosyne of Alexandria",
+          "url": "https://www.oca.org/saints/lives/2026/09/25/102726-venerable-euphrosyne-of-alexandria",
+          "publisher": "Orthodox Church in America",
+          "original_author": null,
+          "published_on": null,
+          "reviewed_on": "2026-09-21"
+        },
+        {
+          "id": "comp-mcp-euphrosyne",
+          "kind": "article",
+          "title": "Преподобна Ефросинија",
+          "url": "https://mitropolija.com/2024/10/08/prepodobna-efrosinija-3/",
+          "publisher": "Православна Митрополија црногорско-приморска",
+          "original_author": null,
+          "published_on": "2024-10-08",
+          "reviewed_on": "2026-09-21"
+        }
+      ]
+    }
+  ]
+}

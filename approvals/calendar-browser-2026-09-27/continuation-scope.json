@@ -1,0 +1,27 @@
+{
+  "record_type": "OWNER_SCOPE_APPROVAL_NOT_EXACT_PAYLOAD_RECEIPT",
+  "recorded_on": "2026-09-27",
+  "approver_role": "project_owner",
+  "statements": [
+    "odobravam novinpkaet praznika i uslove. sta je jos potrebno da se nastavi?",
+    "ok nastavi sve"
+  ],
+  "platforms": ["ios", "android"],
+  "scope": [
+    "Continue v0.28 calendar, upcoming feasts and shared reading archive implementation and verification",
+    "Prepare source-reviewed 2026 major feast package for the existing SPC Serbia/BiH profile",
+    "Establish honest public archive coverage from evidence, without retroactive invention",
+    "Prepare one shared content candidate after source, schema and compatibility checks"
+  ],
+  "exact_payload_review": null,
+  "publication_receipt": null,
+  "production_activated": false,
+  "not_evidence_of": [
+    "Dates or completeness of a not-yet-prepared payload",
+    "Public historical date-to-phase assignments",
+    "2027 calendar coverage",
+    "Clerical or independent legal review",
+    "Successful native build, device signing, publication or installation"
+  ],
+  "note": "The owner's Xcode terms acceptance is a separate local tool prerequisite, not a religious-content rights assertion. Preserve existing source and license records. Freeze actual reviewed bytes separately before signing or activation."
+}

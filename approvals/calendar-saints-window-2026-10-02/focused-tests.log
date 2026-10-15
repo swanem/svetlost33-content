@@ -1,0 +1,17 @@
+✔ S12 adds only two optional revisions; all five other module entries, bytes and signatures are immutable (0.73775ms)
+✔ exact approved pending bytes change only approval fields; all 62 articles and old four links remain intact (14.338042ms)
+✔ calendar-browser rebinds exact new catalog only: 21 memberships, 94 archive days and expiry are unchanged (1.586875ms)
+✔ unknown annual values and unavailable 2027 cannot be promoted by this release (8.929ms)
+✔ unsigned artifact set is reproducible and only 12 exact public delta paths are allowed after signing (708.074125ms)
+✔ source expiry/advance/tamper fail closed; no old-base retry after S12 (74.594625ms)
+✔ new exact authorization plus explicit GO is required before any key read; changed candidate fails before key access (1056.477417ms)
+✔ key boundary, no-follow source/candidate reads and mismatched catalog/browser binding remain blocked (641.184ms)
+✔ test-only ephemeral signatures validate both platforms and all 12 capability profiles, minimums and replay gate (1351.716125ms)
+ℹ tests 9
+ℹ suites 0
+ℹ pass 9
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 5431.332166

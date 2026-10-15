@@ -1,0 +1,164 @@
+{
+  "schema_version": 1,
+  "status": "ROOT_APPROVED_EXACT_S14_R2_PUBLICATION",
+  "recorded_at_utc": "2026-10-06 21:24:54 UTC",
+  "user_authority": "odobravam ispravke i objavljivanje; objavi sve",
+  "release_set_id": "shared-calendar-gospel-2026-10-06-m0v2-s14",
+  "sequence": 14,
+  "minimum_clients": {
+    "android": 66,
+    "ios": "0.1.15"
+  },
+  "content_approval_sha256": "5f6caab4281e3a31a1b0c9b6d69c1aca89bed418a81e1d8822ccf0c846db3912",
+  "signed_validation_sha256": "d8da467096f05f44685432242e75da46a89b498eeff9dca3e812a469bf327f28",
+  "root_shared": {
+    "tests": 7,
+    "failures": 0,
+    "skipped": 0,
+    "log_sha256": "4f20dc175910cf73eb889fc467340aed893adf5837667aadee4951e9340aade9"
+  },
+  "ios": {
+    "receipt": "root-ios42-s14-acceptance.json",
+    "signed_artifact": "0.1.15(42)",
+    "actual_signed_transition": "1/1 PASS19.376s; owner log verified by root",
+    "root_preflight": "4/4 PASS; not summed with transition",
+    "physical_install42": false,
+    "physical_device": "Nemus unavailable; question sent once; no polling/reinstall"
+  },
+  "android": {
+    "source": "895969685c58f6596e82958a05db688427210b59",
+    "runtime": "unchanged from published code66 source39030168f333b910f3ded9f21fed01b46db44f69",
+    "actual_signed_transition": "1/1 PASS1.787s; Gradle37s;25 executed tasks;0fail/error/skip",
+    "test_sha256": "5a81583ae2f3bf42cc6ffd895a165a9560d4ffb5e9a91d5060b421fa769983f6",
+    "xml_sha256": "bcce9a07350f0848e65d2e9e4021af511822c048dc48919b6d6e7ba5fdc6793d",
+    "log_sha256": "ce7ab80a3d4cd63eef3e43b96e4e013d4e028775fa9d353645ac34496b29378d",
+    "pre_post_hashes_identical": true,
+    "independent_review": "Actual production RSA verifier -> local HTTP-source bytes -> installer -> repository reader/restart;104 objects,53+40links,31dates/33readings confirmed",
+    "scope_limits": [
+      "Repository-level Latin reader/restart, not UI/device",
+      "Malformed discovery negative fails JSON parsing before RSA; not a distinct valid-JSON invalid-signature proof"
+    ]
+  },
+  "delivery_order_clarification": "Renewed publish-all authority: publish content and truthful site notes while physical Nemus is unavailable. Compatible signed iOS42 is ready. Minimum iOS0.1.15 remains enforced; installed41 must retain S13, not consume incompatible S14. Physical42 delivery remains pending and is not represented as completed.",
+  "expected_public_parent": "0cbc5e31100c3a66830f1fd6e3d0a08a489dcb8b",
+  "expected_new_tree": "2cbe956f2f6babf4a7d76a0958f12ea270dda9e8",
+  "allowed_public_files": [
+    {
+      "path": "discovery-archive/shared-saints104-2026-10-06-m0v2-s13/index.json",
+      "bytes": 574,
+      "sha256": "6250554d597daa19025cdcd3bc1d0c7c1763c3763ff4bc4fe1b85fb03f69441b",
+      "gitSha": "e9d74477fc05e90b73d09d6b69e3f7a85cc1b00a"
+    },
+    {
+      "path": "discovery-archive/shared-saints104-2026-10-06-m0v2-s13/index.sig",
+      "bytes": 513,
+      "sha256": "04d6deaae79d9e76acef883b9caef5ca3a4137e9122e7046633190d2d6b22467",
+      "gitSha": "2ff346a2f1727049c0b654fb72bb6bc356df4669"
+    },
+    {
+      "path": "index.json",
+      "bytes": 592,
+      "sha256": "3dfef0768a2862e4709276114dec8f5817189bd4b833192b33aa6b0e889d4f1b",
+      "gitSha": "f65a6c2a972c26f8cc1a906f1d43a94308ad3a1d"
+    },
+    {
+      "path": "index.sig",
+      "bytes": 513,
+      "sha256": "6917de9de689559caf6b974049b88f1927698a2623ebccc37e5c41dac76f3ed9",
+      "gitSha": "eb7f0d4e2f8e765f1e8a7a4f641a8c05015c6d09"
+    },
+    {
+      "path": "releases/shared-calendar-gospel-2026-10-06-m0v2-s14/modules/calendar-2026-r1-2026.10.6-r3/data/calendar.2026.json",
+      "bytes": 1712834,
+      "sha256": "299842090189bd44974cb6aabfa8a6af5db4fccdc64e3c556ab4dc60aa1944b4",
+      "gitSha": "ea390f40c739454d2822ad78f5159087e3a086d6"
+    },
+    {
+      "path": "releases/shared-calendar-gospel-2026-10-06-m0v2-s14/modules/calendar-2026-r1-2026.10.6-r3/manifest.json",
+      "bytes": 631,
+      "sha256": "9c080209792f4ff5b8aa2116e32a47d95094d690cca5e56d352c68f5c4c7195a",
+      "gitSha": "18c948c371fb0bc60598998eae4e03fc0ffe497d"
+    },
+    {
+      "path": "releases/shared-calendar-gospel-2026-10-06-m0v2-s14/modules/calendar-2026-r1-2026.10.6-r3/manifest.sig",
+      "bytes": 513,
+      "sha256": "894be80bb8f96ecfd908f9088c670486bc7bfeda007ce66e1f7154b4dfcb2624",
+      "gitSha": "6ebf2de2abc75ebde39c0fad14e3b1c834a135ef"
+    },
+    {
+      "path": "releases/shared-calendar-gospel-2026-10-06-m0v2-s14/modules/calendar-browser-v1-2026.10.6-r5/data/calendar-browser-v1.json",
+      "bytes": 97946,
+      "sha256": "b24b687db725d1c7f255d2a5024bda15a20d3f629c2744262e9f61694b653ea6",
+      "gitSha": "3fe3666b95681d88e0805a38ac7b40f7c7e397ec"
+    },
+    {
+      "path": "releases/shared-calendar-gospel-2026-10-06-m0v2-s14/modules/calendar-browser-v1-2026.10.6-r5/manifest.json",
+      "bytes": 533,
+      "sha256": "b172df702838fda0d49d13a0dc485fa0a087a3a60205ddc29c547285a88c20c7",
+      "gitSha": "69c8cbb7d129cd08d9cf20f9386b72999ce2f973"
+    },
+    {
+      "path": "releases/shared-calendar-gospel-2026-10-06-m0v2-s14/modules/calendar-browser-v1-2026.10.6-r5/manifest.sig",
+      "bytes": 513,
+      "sha256": "3eb8a23a6bb4d64b3446cd0759d6ca689e4491c5aa4ab089274baa77620996da",
+      "gitSha": "cda952f83e1568bd4a4e009f8d36f5bc69c7c305"
+    },
+    {
+      "path": "releases/shared-calendar-gospel-2026-10-06-m0v2-s14/modules/liturgical-catalog-v1-2026.10.6-r9/data/liturgical-catalog-v1.json",
+      "bytes": 255272,
+      "sha256": "0659df40a030557f56a52d87ac79853d28aaaea62838ee52191be990a97cb669",
+      "gitSha": "5afd76763bbf9acf8c70e25b5be5a551345781d9"
+    },
+    {
+      "path": "releases/shared-calendar-gospel-2026-10-06-m0v2-s14/modules/liturgical-catalog-v1-2026.10.6-r9/manifest.json",
+      "bytes": 697,
+      "sha256": "c08ad88208f3c61030556dffbb449c1ff64370a17b5ed58d9e47103e68a57480",
+      "gitSha": "de573a96d8ed097fe85f69bb14e3fd9e1707b0a1"
+    },
+    {
+      "path": "releases/shared-calendar-gospel-2026-10-06-m0v2-s14/modules/liturgical-catalog-v1-2026.10.6-r9/manifest.sig",
+      "bytes": 513,
+      "sha256": "e87e7a8b85f37329d8ac01350e2d93b54740c321b4294af6e8321cbae0693b8c",
+      "gitSha": "3746ff8da0e2ddc49cef68d3f003aee3a4e3258b"
+    },
+    {
+      "path": "releases/shared-calendar-gospel-2026-10-06-m0v2-s14/modules/saints-v1-2026.10.6-r6/data/saints-v1.json",
+      "bytes": 399124,
+      "sha256": "4c418f4f8f3eb09f3613218b2c65cc444049ccdd886fb17f3e4426bfa03abafa",
+      "gitSha": "226a44d1e66017963a3b4e8a7044b4c7a3158d75"
+    },
+    {
+      "path": "releases/shared-calendar-gospel-2026-10-06-m0v2-s14/modules/saints-v1-2026.10.6-r6/manifest.json",
+      "bytes": 587,
+      "sha256": "29ab2725c1df13a8ec40c8e41651e938c05b9ad19a0d23acb92b35b58d4ce465",
+      "gitSha": "10ba93535d9a4d924364704ee2ad7e1e83c34f2e"
+    },
+    {
+      "path": "releases/shared-calendar-gospel-2026-10-06-m0v2-s14/modules/saints-v1-2026.10.6-r6/manifest.sig",
+      "bytes": 513,
+      "sha256": "fa6fc8fefe56ca5d29c71bef16c6e8714271641cbba488edab78930c758a6461",
+      "gitSha": "70fa74deeb63fb26417121dcf1fbf25c025c1079"
+    },
+    {
+      "path": "releases/shared-calendar-gospel-2026-10-06-m0v2-s14/release-set.json",
+      "bytes": 3974,
+      "sha256": "86f105fbb95e4188565415b3184e3f160fa36b8cbd4a2dcc5b891df6ad0c6025",
+      "gitSha": "f6ff25c7519c88781c5d81098426fc4d0b22d6b9"
+    },
+    {
+      "path": "releases/shared-calendar-gospel-2026-10-06-m0v2-s14/release-set.sig",
+      "bytes": 513,
+      "sha256": "203d0c76ba03d24c5aba80a9e6305140eb4f3f512a0c4e53bd7558bd015e6fd3",
+      "gitSha": "fa94649f1fe5d54ea7076904f316edad51a558e6"
+    }
+  ],
+  "build_slot": "free; no root build",
+  "native_implemented_by_root": false,
+  "new_apk": false,
+  "publication_already_performed": false,
+  "limits": [
+    "104 existing articles unchanged;40 added calendar links",
+    "Gospel Oct6-Nov5 only;Nov6-Dec31 unresolved",
+    "No OTA backgrounds,2027,optimization,keys/ACL changes"
+  ]
+}

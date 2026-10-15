@@ -1,0 +1,512 @@
+{
+  "schema_version": "svetlost33-pravoslavno-gospel-delta-1",
+  "status": "REVIEW_ONLY_NO_CALENDAR_BYTES_REPLACED",
+  "summary": {
+    "requested_dates": 31,
+    "fetched_http200": 31,
+    "valid_source_dates": 31,
+    "candidate_dates_without_reference_conflict": 31,
+    "gospel_readings": 33,
+    "multi_reading_dates": [
+      "2026-10-14",
+      "2026-10-27"
+    ],
+    "discontiguous_readings": [
+      {
+        "date": "2026-10-14",
+        "source_reference": "Свето Јеванђеље од Луке, зачало 4 (1,39-49; 56)"
+      },
+      {
+        "date": "2026-10-14",
+        "source_reference": "Свето Јеванђеље од Луке, зачало 54, 58 (10,38-42; 11,27-28)"
+      }
+    ],
+    "explicit_service_readings": 4,
+    "gaps": [],
+    "conflicts": [],
+    "last_validated_source_date": "2026-11-05",
+    "last_contiguous_validated_source_date": "2026-11-05",
+    "next_search_local_date": "2026-10-26",
+    "timezone": "Europe/Belgrade",
+    "next_search_local_time": "09:00",
+    "legacy_source_label_incompatibilities": 33,
+    "production_calendar_changed": false,
+    "signed": false,
+    "published": false
+  },
+  "daily_operations": [
+    {
+      "date": "2026-10-06",
+      "state": "SOURCE_REFERENCE_VALIDATED_PENDING_REVIEW",
+      "before_gospel_sha256": "da9f843c9b35e5b0df190f01f61c18e3ee821785996a074360967beee6a778d7",
+      "proposed_gospel_sha256": "6c951e56778ea9af3c6cf462bbe047a54e4e59c19e2a8831ba9d8a97b305da54",
+      "comparison": {
+        "existing_status": "UNRESOLVED",
+        "previous_reading_count": 0,
+        "kind": "NEW_OBSERVATION_FOR_UNRESOLVED_DATE",
+        "conflicts_with_existing_readings": false,
+        "conflicts_with_observed_readings": false,
+        "previous_missing_or_disagreement_evidence_retained": true
+      },
+      "errors": []
+    },
+    {
+      "date": "2026-10-07",
+      "state": "SOURCE_REFERENCE_VALIDATED_PENDING_REVIEW",
+      "before_gospel_sha256": "5fd0794ab95b626ca9a0276f27a163f107b46b79694c4cb8aaa09be2a07ca9cf",
+      "proposed_gospel_sha256": "1e117b2b812b658281f2e9fa9367a6b3f6dd000e1cef2d4a9121b7bffbbc8e69",
+      "comparison": {
+        "existing_status": "UNRESOLVED",
+        "previous_reading_count": 0,
+        "kind": "NEW_OBSERVATION_FOR_UNRESOLVED_DATE",
+        "conflicts_with_existing_readings": false,
+        "conflicts_with_observed_readings": false,
+        "previous_missing_or_disagreement_evidence_retained": true
+      },
+      "errors": []
+    },
+    {
+      "date": "2026-10-08",
+      "state": "SOURCE_REFERENCE_VALIDATED_PENDING_REVIEW",
+      "before_gospel_sha256": "f9a6ef0ef09ef344a18a1c7c69221b261e3c0e881003759c1d9c36c58d0b0b17",
+      "proposed_gospel_sha256": "0949a637b92b4ceede04a1f70e0be396041b474073db6aee7b3e2ddb82763548",
+      "comparison": {
+        "existing_status": "UNRESOLVED",
+        "previous_reading_count": 0,
+        "kind": "NEW_OBSERVATION_FOR_UNRESOLVED_DATE",
+        "conflicts_with_existing_readings": false,
+        "conflicts_with_observed_readings": false,
+        "previous_missing_or_disagreement_evidence_retained": true
+      },
+      "errors": []
+    },
+    {
+      "date": "2026-10-09",
+      "state": "SOURCE_REFERENCE_VALIDATED_PENDING_REVIEW",
+      "before_gospel_sha256": "97c33ceb78e95caaf471d480280596ed5fea29807d346d0cd5c382af13af91a6",
+      "proposed_gospel_sha256": "eb67ee1e46dc4c84fd3be078dc99b184cf2c218addf5e8f8594776ba72b17bf8",
+      "comparison": {
+        "existing_status": "UNRESOLVED",
+        "previous_reading_count": 0,
+        "kind": "NEW_OBSERVATION_FOR_UNRESOLVED_DATE",
+        "conflicts_with_existing_readings": false,
+        "conflicts_with_observed_readings": false,
+        "previous_missing_or_disagreement_evidence_retained": true
+      },
+      "errors": []
+    },
+    {
+      "date": "2026-10-10",
+      "state": "SOURCE_REFERENCE_VALIDATED_PENDING_REVIEW",
+      "before_gospel_sha256": "e258d9793c936e2b060aa51705fde9fd65e17185bc6e2aa293f0db456b728f95",
+      "proposed_gospel_sha256": "176cd56b038d22c5b8e9521b74953876473b097e96828ee2484293864faacfd2",
+      "comparison": {
+        "existing_status": "UNRESOLVED",
+        "previous_reading_count": 0,
+        "kind": "NEW_OBSERVATION_FOR_UNRESOLVED_DATE",
+        "conflicts_with_existing_readings": false,
+        "conflicts_with_observed_readings": false,
+        "previous_missing_or_disagreement_evidence_retained": true
+      },
+      "errors": []
+    },
+    {
+      "date": "2026-10-11",
+      "state": "SOURCE_REFERENCE_VALIDATED_PENDING_REVIEW",
+      "before_gospel_sha256": "a5e33bda5975df0e6b9976015ded27f1ce2104419bbb7bce5b7e85bea7ba71cc",
+      "proposed_gospel_sha256": "6b4e2d98d495ef587fb1c78bd0533f1c4bd1e57c607c5840781c51983071b628",
+      "comparison": {
+        "existing_status": "UNRESOLVED",
+        "previous_reading_count": 0,
+        "kind": "NEW_OBSERVATION_FOR_UNRESOLVED_DATE",
+        "conflicts_with_existing_readings": false,
+        "conflicts_with_observed_readings": false,
+        "previous_missing_or_disagreement_evidence_retained": true
+      },
+      "errors": []
+    },
+    {
+      "date": "2026-10-12",
+      "state": "SOURCE_REFERENCE_VALIDATED_PENDING_REVIEW",
+      "before_gospel_sha256": "020e13c33d4d414098ae0bfd9df954878c141ca208071c749d621c6c4ebab162",
+      "proposed_gospel_sha256": "f4bc017ede31e39b796e768ebfa1b1b7aeaad45bba9298ec4ecb01a490f3551b",
+      "comparison": {
+        "existing_status": "UNRESOLVED",
+        "previous_reading_count": 0,
+        "kind": "NEW_OBSERVATION_FOR_UNRESOLVED_DATE",
+        "conflicts_with_existing_readings": false,
+        "conflicts_with_observed_readings": false,
+        "previous_missing_or_disagreement_evidence_retained": true
+      },
+      "errors": []
+    },
+    {
+      "date": "2026-10-13",
+      "state": "SOURCE_REFERENCE_VALIDATED_PENDING_REVIEW",
+      "before_gospel_sha256": "f026acdf27d43c8906ed726fc120f220ace14922fb893ea77ab94e14b547b869",
+      "proposed_gospel_sha256": "20d0ce1c7d6026b7e8c2bdefe626f124797fbcf09c373d6e995f8ef0b5d57a26",
+      "comparison": {
+        "existing_status": "UNRESOLVED",
+        "previous_reading_count": 0,
+        "kind": "NEW_OBSERVATION_FOR_UNRESOLVED_DATE",
+        "conflicts_with_existing_readings": false,
+        "conflicts_with_observed_readings": false,
+        "previous_missing_or_disagreement_evidence_retained": true
+      },
+      "errors": []
+    },
+    {
+      "date": "2026-10-14",
+      "state": "SOURCE_REFERENCE_VALIDATED_PENDING_REVIEW",
+      "before_gospel_sha256": "b0c06a7ad1385ecf6311960a622f39b38e82b9a0d4b6c0008e382ac8aad6f0db",
+      "proposed_gospel_sha256": "7f2ad390accadd525517bd8eedb343b568da6585ecdc4b92a38e1b0009cacfd1",
+      "comparison": {
+        "existing_status": "UNRESOLVED",
+        "previous_reading_count": 0,
+        "kind": "NEW_OBSERVATION_FOR_UNRESOLVED_DATE",
+        "conflicts_with_existing_readings": false,
+        "conflicts_with_observed_readings": false,
+        "previous_missing_or_disagreement_evidence_retained": true
+      },
+      "errors": []
+    },
+    {
+      "date": "2026-10-15",
+      "state": "SOURCE_REFERENCE_VALIDATED_PENDING_REVIEW",
+      "before_gospel_sha256": "62b00e0fd45bb0067800405575bfa425a13825993474c61b016af4493162b35e",
+      "proposed_gospel_sha256": "24ba53a8a5017a82af384d9cfff31c0429605dc6de03fc9f09a82c5470d4c81f",
+      "comparison": {
+        "existing_status": "UNRESOLVED",
+        "previous_reading_count": 0,
+        "kind": "NEW_OBSERVATION_FOR_UNRESOLVED_DATE",
+        "conflicts_with_existing_readings": false,
+        "conflicts_with_observed_readings": false,
+        "previous_missing_or_disagreement_evidence_retained": true
+      },
+      "errors": []
+    },
+    {
+      "date": "2026-10-16",
+      "state": "SOURCE_REFERENCE_VALIDATED_PENDING_REVIEW",
+      "before_gospel_sha256": "b240f84ffb92aa2b3dd79168bbf699df54cc8c8b38558613e9b7c118a3f6921b",
+      "proposed_gospel_sha256": "b0a25c7a7ce28fdbe151e574552dd5ed083c764e5ca3faa431bcaba996a767ff",
+      "comparison": {
+        "existing_status": "UNRESOLVED",
+        "previous_reading_count": 0,
+        "kind": "NEW_OBSERVATION_FOR_UNRESOLVED_DATE",
+        "conflicts_with_existing_readings": false,
+        "conflicts_with_observed_readings": false,
+        "previous_missing_or_disagreement_evidence_retained": true
+      },
+      "errors": []
+    },
+    {
+      "date": "2026-10-17",
+      "state": "SOURCE_REFERENCE_VALIDATED_PENDING_REVIEW",
+      "before_gospel_sha256": "9441d03f3f94ad1995e559b5d66e48a0ee1013413eca4142ecd2ac8bb19551e3",
+      "proposed_gospel_sha256": "4c3390cb00d3d74350be33eae0b7fb3d800654ec3355b73828bec4639341b0f5",
+      "comparison": {
+        "existing_status": "UNRESOLVED",
+        "previous_reading_count": 0,
+        "kind": "NEW_OBSERVATION_FOR_UNRESOLVED_DATE",
+        "conflicts_with_existing_readings": false,
+        "conflicts_with_observed_readings": false,
+        "previous_missing_or_disagreement_evidence_retained": true
+      },
+      "errors": []
+    },
+    {
+      "date": "2026-10-18",
+      "state": "SOURCE_REFERENCE_VALIDATED_PENDING_REVIEW",
+      "before_gospel_sha256": "1f3bfa129d158e3bdb795b92399104d6a5847565d685b59caf04d9c74a79e30a",
+      "proposed_gospel_sha256": "2ed66537e4e3b602dff5b0f239e774231c9e2bcb0f1ef1454900037623efc37a",
+      "comparison": {
+        "existing_status": "UNRESOLVED",
+        "previous_reading_count": 0,
+        "kind": "NEW_OBSERVATION_FOR_UNRESOLVED_DATE",
+        "conflicts_with_existing_readings": false,
+        "conflicts_with_observed_readings": false,
+        "previous_missing_or_disagreement_evidence_retained": true
+      },
+      "errors": []
+    },
+    {
+      "date": "2026-10-19",
+      "state": "SOURCE_REFERENCE_VALIDATED_PENDING_REVIEW",
+      "before_gospel_sha256": "ddf38368ce5be9beb1230d4540c8dab7f0238170229fa6038c050f818ccaf1bc",
+      "proposed_gospel_sha256": "83c879b6c803e00e2fc1069a696764c033654053e3885daeaae59c7fa4881a6f",
+      "comparison": {
+        "existing_status": "UNRESOLVED",
+        "previous_reading_count": 0,
+        "kind": "NEW_OBSERVATION_FOR_UNRESOLVED_DATE",
+        "conflicts_with_existing_readings": false,
+        "conflicts_with_observed_readings": false,
+        "previous_missing_or_disagreement_evidence_retained": true
+      },
+      "errors": []
+    },
+    {
+      "date": "2026-10-20",
+      "state": "SOURCE_REFERENCE_VALIDATED_PENDING_REVIEW",
+      "before_gospel_sha256": "87a5f3b758038f644b1e5d57fec4ca30bda234c1d4fbb61161d5674052e7f204",
+      "proposed_gospel_sha256": "ac742fe380c63d16c7925d4a04c0e43a71806cb234e462ced51996330556b076",
+      "comparison": {
+        "existing_status": "UNRESOLVED",
+        "previous_reading_count": 0,
+        "kind": "NEW_OBSERVATION_FOR_UNRESOLVED_DATE",
+        "conflicts_with_existing_readings": false,
+        "conflicts_with_observed_readings": false,
+        "previous_missing_or_disagreement_evidence_retained": true
+      },
+      "errors": []
+    },
+    {
+      "date": "2026-10-21",
+      "state": "SOURCE_REFERENCE_VALIDATED_PENDING_REVIEW",
+      "before_gospel_sha256": "5f30b654d68e8bacd09029735be2d2037a37179e0b714b74d822c2a2e37e71a8",
+      "proposed_gospel_sha256": "9ba59902b825166aec5ac6c399201dfb4116324aa1381e154bfd946c19bd7369",
+      "comparison": {
+        "existing_status": "UNRESOLVED",
+        "previous_reading_count": 0,
+        "kind": "NEW_OBSERVATION_FOR_UNRESOLVED_DATE",
+        "conflicts_with_existing_readings": false,
+        "conflicts_with_observed_readings": false,
+        "previous_missing_or_disagreement_evidence_retained": true
+      },
+      "errors": []
+    },
+    {
+      "date": "2026-10-22",
+      "state": "SOURCE_REFERENCE_VALIDATED_PENDING_REVIEW",
+      "before_gospel_sha256": "29a575eaca3d611f2034326806d1524a4a1724e1770e89f42970a2672d02cbf9",
+      "proposed_gospel_sha256": "887d3473e78e0dd31f1d44dcf013c7d96d9ef2cf9bd3348d9182b0a575d52318",
+      "comparison": {
+        "existing_status": "UNRESOLVED",
+        "previous_reading_count": 0,
+        "kind": "NEW_OBSERVATION_FOR_UNRESOLVED_DATE",
+        "conflicts_with_existing_readings": false,
+        "conflicts_with_observed_readings": false,
+        "previous_missing_or_disagreement_evidence_retained": true
+      },
+      "errors": []
+    },
+    {
+      "date": "2026-10-23",
+      "state": "SOURCE_REFERENCE_VALIDATED_PENDING_REVIEW",
+      "before_gospel_sha256": "e5a5ddd51380191f307d670d52834e72a40dae207125638a314b0294b06557ec",
+      "proposed_gospel_sha256": "c508e6b267adbc8cf78e85beb0e17d6aa3698dc83858a5afd9e8d030c98866e4",
+      "comparison": {
+        "existing_status": "UNRESOLVED",
+        "previous_reading_count": 0,
+        "kind": "NEW_OBSERVATION_FOR_UNRESOLVED_DATE",
+        "conflicts_with_existing_readings": false,
+        "conflicts_with_observed_readings": false,
+        "previous_missing_or_disagreement_evidence_retained": true
+      },
+      "errors": []
+    },
+    {
+      "date": "2026-10-24",
+      "state": "SOURCE_REFERENCE_VALIDATED_PENDING_REVIEW",
+      "before_gospel_sha256": "bd0f69c51ddb8bc5538a1f4ba3c3720d8c27825564c5008b7ed74a6859720b93",
+      "proposed_gospel_sha256": "4ed2427fa3bc0a9cdaa087eead5919e891215f98678e78f8c884801cbae3ac1c",
+      "comparison": {
+        "existing_status": "UNRESOLVED",
+        "previous_reading_count": 0,
+        "kind": "NEW_OBSERVATION_FOR_UNRESOLVED_DATE",
+        "conflicts_with_existing_readings": false,
+        "conflicts_with_observed_readings": false,
+        "previous_missing_or_disagreement_evidence_retained": true
+      },
+      "errors": []
+    },
+    {
+      "date": "2026-10-25",
+      "state": "SOURCE_REFERENCE_VALIDATED_PENDING_REVIEW",
+      "before_gospel_sha256": "1081e0ffe76a0a2b629b8ebdd8b5be9c43416d34090d2c34622da0dcd499202f",
+      "proposed_gospel_sha256": "dd21aac89b8df66897e62addb49dbcc4c3e5fb7aecf7caae29fbab46d23e9fed",
+      "comparison": {
+        "existing_status": "UNRESOLVED",
+        "previous_reading_count": 0,
+        "kind": "NEW_OBSERVATION_FOR_UNRESOLVED_DATE",
+        "conflicts_with_existing_readings": false,
+        "conflicts_with_observed_readings": false,
+        "previous_missing_or_disagreement_evidence_retained": true
+      },
+      "errors": []
+    },
+    {
+      "date": "2026-10-26",
+      "state": "SOURCE_REFERENCE_VALIDATED_PENDING_REVIEW",
+      "before_gospel_sha256": "8573e0638a39bc786a8f7f82305789f50ee4792f290b91c59520ce22b94a5c7f",
+      "proposed_gospel_sha256": "4076118c026a85b178c258ccae8f4fe42bc3727d22a6d68c64bceafcf9acb851",
+      "comparison": {
+        "existing_status": "UNRESOLVED",
+        "previous_reading_count": 0,
+        "kind": "NEW_OBSERVATION_FOR_UNRESOLVED_DATE",
+        "conflicts_with_existing_readings": false,
+        "conflicts_with_observed_readings": false,
+        "previous_missing_or_disagreement_evidence_retained": true
+      },
+      "errors": []
+    },
+    {
+      "date": "2026-10-27",
+      "state": "SOURCE_REFERENCE_VALIDATED_PENDING_REVIEW",
+      "before_gospel_sha256": "92f6ebabf687eff43d15cc8c7fafe0e4bf398e784bcc5fba0770262a6fc0e409",
+      "proposed_gospel_sha256": "2c7ed0e988ab2e76825fa7836fb05c7adfdb3568a5dbb351a04375c78546375a",
+      "comparison": {
+        "existing_status": "UNRESOLVED",
+        "previous_reading_count": 0,
+        "kind": "NEW_OBSERVATION_FOR_UNRESOLVED_DATE",
+        "conflicts_with_existing_readings": false,
+        "conflicts_with_observed_readings": false,
+        "previous_missing_or_disagreement_evidence_retained": true
+      },
+      "errors": []
+    },
+    {
+      "date": "2026-10-28",
+      "state": "SOURCE_REFERENCE_VALIDATED_PENDING_REVIEW",
+      "before_gospel_sha256": "720f8f1b34a2ecac65efbf6ddd38f69d49f965ea9a0c4b4ef2b4cab788ed1abe",
+      "proposed_gospel_sha256": "7360839aae3ca7818dcf9b8c269d0f36fc897f4672a12372ce2b26abdf9d131a",
+      "comparison": {
+        "existing_status": "UNRESOLVED",
+        "previous_reading_count": 0,
+        "kind": "NEW_OBSERVATION_FOR_UNRESOLVED_DATE",
+        "conflicts_with_existing_readings": false,
+        "conflicts_with_observed_readings": false,
+        "previous_missing_or_disagreement_evidence_retained": true
+      },
+      "errors": []
+    },
+    {
+      "date": "2026-10-29",
+      "state": "SOURCE_REFERENCE_VALIDATED_PENDING_REVIEW",
+      "before_gospel_sha256": "e4bd54f0373552296be265553f21269b972fbc905ae3f2364e7c7875cda581ab",
+      "proposed_gospel_sha256": "ab72adcb6b388740b63252c8df2cbab36c703a0e333c394bebf0a9c12847f601",
+      "comparison": {
+        "existing_status": "UNRESOLVED",
+        "previous_reading_count": 0,
+        "kind": "NEW_OBSERVATION_FOR_UNRESOLVED_DATE",
+        "conflicts_with_existing_readings": false,
+        "conflicts_with_observed_readings": false,
+        "previous_missing_or_disagreement_evidence_retained": true
+      },
+      "errors": []
+    },
+    {
+      "date": "2026-10-30",
+      "state": "SOURCE_REFERENCE_VALIDATED_PENDING_REVIEW",
+      "before_gospel_sha256": "27836ff6c1d96620748d517b2c707c027bc13ea4734f274bbd564bc8d334ef9d",
+      "proposed_gospel_sha256": "122c5d03f2f171dd4186ccd860bf6231062a8fc5e4e8f49156a2899f78235bd3",
+      "comparison": {
+        "existing_status": "UNRESOLVED",
+        "previous_reading_count": 0,
+        "kind": "NEW_OBSERVATION_FOR_UNRESOLVED_DATE",
+        "conflicts_with_existing_readings": false,
+        "conflicts_with_observed_readings": false,
+        "previous_missing_or_disagreement_evidence_retained": true
+      },
+      "errors": []
+    },
+    {
+      "date": "2026-10-31",
+      "state": "SOURCE_REFERENCE_VALIDATED_PENDING_REVIEW",
+      "before_gospel_sha256": "acbe9f2676965dd8f5aaee63a90aa89170aecc4e23b6faf0b68a802de7cfb965",
+      "proposed_gospel_sha256": "20c6219f3d68070827461154fe31bba43c9fc6b3cafcabe8bbcb2b442b1658b4",
+      "comparison": {
+        "existing_status": "UNRESOLVED",
+        "previous_reading_count": 0,
+        "kind": "NEW_OBSERVATION_FOR_UNRESOLVED_DATE",
+        "conflicts_with_existing_readings": false,
+        "conflicts_with_observed_readings": false,
+        "previous_missing_or_disagreement_evidence_retained": true
+      },
+      "errors": []
+    },
+    {
+      "date": "2026-11-01",
+      "state": "SOURCE_REFERENCE_VALIDATED_PENDING_REVIEW",
+      "before_gospel_sha256": "1e5e096656eab41c2fedc41927fef89a4357cf9d415a0c71352900c011c9eff8",
+      "proposed_gospel_sha256": "de8b5cca355f3c54894bbe0cd9c53b71998162f0dc3ebd1cbc524de34c114375",
+      "comparison": {
+        "existing_status": "UNRESOLVED",
+        "previous_reading_count": 0,
+        "kind": "NEW_OBSERVATION_FOR_UNRESOLVED_DATE",
+        "conflicts_with_existing_readings": false,
+        "conflicts_with_observed_readings": false,
+        "previous_missing_or_disagreement_evidence_retained": true
+      },
+      "errors": []
+    },
+    {
+      "date": "2026-11-02",
+      "state": "SOURCE_REFERENCE_VALIDATED_PENDING_REVIEW",
+      "before_gospel_sha256": "d69b465c9530c2edf3a9706c7a4c04e798c6afea508af72c6385bd4aebaeea4f",
+      "proposed_gospel_sha256": "308a5a8b7e7ced8e2244cbbab3ac77740bd7ce64647aa9d847b42c2c464d4ec3",
+      "comparison": {
+        "existing_status": "UNRESOLVED",
+        "previous_reading_count": 0,
+        "kind": "NEW_OBSERVATION_FOR_UNRESOLVED_DATE",
+        "conflicts_with_existing_readings": false,
+        "conflicts_with_observed_readings": false,
+        "previous_missing_or_disagreement_evidence_retained": true
+      },
+      "errors": []
+    },
+    {
+      "date": "2026-11-03",
+      "state": "SOURCE_REFERENCE_VALIDATED_PENDING_REVIEW",
+      "before_gospel_sha256": "eadf3f173c6e5d4809f92669b72ab0caecabd873fe266f349ad784b8c927bdc2",
+      "proposed_gospel_sha256": "7d1dc890953f768114d8c62605092be2c74c325eda2093eff0ce7a37dda0ddab",
+      "comparison": {
+        "existing_status": "UNRESOLVED",
+        "previous_reading_count": 0,
+        "kind": "NEW_OBSERVATION_FOR_UNRESOLVED_DATE",
+        "conflicts_with_existing_readings": false,
+        "conflicts_with_observed_readings": false,
+        "previous_missing_or_disagreement_evidence_retained": true
+      },
+      "errors": []
+    },
+    {
+      "date": "2026-11-04",
+      "state": "SOURCE_REFERENCE_VALIDATED_PENDING_REVIEW",
+      "before_gospel_sha256": "7f2d51b89927b352b7938be0207c2984d7f6716ba2c7ecaaaa3fd6b2e508f2a6",
+      "proposed_gospel_sha256": "ebcbf407cb8bc4492109fe7a316de0f42351ca4ea291b09c6da186757802db39",
+      "comparison": {
+        "existing_status": "UNRESOLVED",
+        "previous_reading_count": 0,
+        "kind": "NEW_OBSERVATION_FOR_UNRESOLVED_DATE",
+        "conflicts_with_existing_readings": false,
+        "conflicts_with_observed_readings": false,
+        "previous_missing_or_disagreement_evidence_retained": true
+      },
+      "errors": []
+    },
+    {
+      "date": "2026-11-05",
+      "state": "SOURCE_REFERENCE_VALIDATED_PENDING_REVIEW",
+      "before_gospel_sha256": "637e745e8911bb67378a7754b8b588e21a5e3f0c2feae340976d57a57f8539a7",
+      "proposed_gospel_sha256": "c8c601454407b28835afebd1674460c518875be608cb658d112b226e6e0cf19f",
+      "comparison": {
+        "existing_status": "UNRESOLVED",
+        "previous_reading_count": 0,
+        "kind": "NEW_OBSERVATION_FOR_UNRESOLVED_DATE",
+        "conflicts_with_existing_readings": false,
+        "conflicts_with_observed_readings": false,
+        "previous_missing_or_disagreement_evidence_retained": true
+      },
+      "errors": []
+    }
+  ],
+  "remaining_gates": [
+    "Independent date/reference/provenance review",
+    "Existing shared legacy source_reference grammar rejects Pravoslavno headings; explicit source-label adapter compatibility must be reviewed before any annual release assembly",
+    "Exact approved-calendar content revision and binding regeneration only after review; do not mutate S13",
+    "Both native source-label/reader acceptance and separately authorized production signing/publication"
+  ],
+  "no_new_rights_grant": true,
+  "no_clerical_endorsement": true
+}

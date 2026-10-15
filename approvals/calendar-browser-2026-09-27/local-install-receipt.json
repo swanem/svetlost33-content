@@ -1,0 +1,122 @@
+{
+  "state": "INSTALLED_LOCALLY_NOT_PUBLISHED",
+  "ready_to_install": true,
+  "blockers": [],
+  "release_set_id": "shared-calendar-browser-2026-09-27-m0v2-s10",
+  "sequence": 10,
+  "index_sha256": "cbb21ce4fcd50dbc7c97c95f56d5b5aea96da5c1ace65a1a49e68099cbd8ec23",
+  "release_sha256": "ccc354a8c9e2af4e45b08ec8ffc1d73dfeb4d8154dcf923efb5324d50debe879",
+  "mode": "s9_to_s10",
+  "immutable_files_to_copy": [
+    "discovery-archive/shared-saints-completion-2026-09-21-m0v2-s9/index.json",
+    "discovery-archive/shared-saints-completion-2026-09-21-m0v2-s9/index.sig",
+    "releases/shared-calendar-browser-2026-09-27-m0v2-s10/evidence/candidate-review.json",
+    "releases/shared-calendar-browser-2026-09-27-m0v2-s10/evidence/owner-scope.json",
+    "releases/shared-calendar-browser-2026-09-27-m0v2-s10/evidence/source-review-1.json",
+    "releases/shared-calendar-browser-2026-09-27-m0v2-s10/modules/calendar-browser-v1-2026.9.27-r1/data/calendar-browser-v1.json",
+    "releases/shared-calendar-browser-2026-09-27-m0v2-s10/modules/calendar-browser-v1-2026.9.27-r1/manifest.json",
+    "releases/shared-calendar-browser-2026-09-27-m0v2-s10/modules/calendar-browser-v1-2026.9.27-r1/manifest.sig",
+    "releases/shared-calendar-browser-2026-09-27-m0v2-s10/modules/liturgical-catalog-v1-2026.9.27-r5/data/liturgical-catalog-v1.json",
+    "releases/shared-calendar-browser-2026-09-27-m0v2-s10/modules/liturgical-catalog-v1-2026.9.27-r5/manifest.json",
+    "releases/shared-calendar-browser-2026-09-27-m0v2-s10/modules/liturgical-catalog-v1-2026.9.27-r5/manifest.sig",
+    "releases/shared-calendar-browser-2026-09-27-m0v2-s10/release-set.json",
+    "releases/shared-calendar-browser-2026-09-27-m0v2-s10/release-set.sig"
+  ],
+  "signed_file_count": 52,
+  "signature_and_compatibility_checks": 24,
+  "native_GO": [
+    {
+      "platform": "android",
+      "path": "approvals/calendar-browser-2026-09-27/android-go.json",
+      "bytes": 1360,
+      "sha256": "9c5ef5d87af05a4ea77e413b3ac2e04d10883ef8a5a5ae4d6b4f94c7d40f7727",
+      "status": "GO_FOR_S10_ACTIVATION",
+      "recorded_at": "2026-09-27T09:28:50.489Z",
+      "artifacts": [
+        {
+          "path": "approvals/calendar-browser-2026-09-27/native/android-status.md",
+          "bytes": 8423,
+          "sha256": "d8540af7ad7846084307abdbb3f1842f315dc6019ee70d09395392e6365c7b3a"
+        },
+        {
+          "path": "approvals/calendar-browser-2026-09-27/native/android-native.xml",
+          "bytes": 676,
+          "sha256": "9020e4a1b5215e8d8792e1758d429a138bf56267d925d6ac3a682102b4170482"
+        },
+        {
+          "path": "approvals/calendar-browser-2026-09-27/native/android-emulator.xml",
+          "bytes": 1249,
+          "sha256": "5918405a061fff451d98515dd7243be626d5ca9d36fa0cd759d5e9d792f746b4"
+        }
+      ]
+    },
+    {
+      "platform": "ios",
+      "path": "approvals/calendar-browser-2026-09-27/ios-go.json",
+      "bytes": 1155,
+      "sha256": "283abf1978e0184a9f17281a897cfc1ddbaca1644110281f915240dce14ed57f",
+      "status": "GO_FOR_S10_ACTIVATION",
+      "recorded_at": "2026-09-27T09:28:50.489Z",
+      "artifacts": [
+        {
+          "path": "approvals/calendar-browser-2026-09-27/native/ios-status.md",
+          "bytes": 7648,
+          "sha256": "36c03fe3c3ae8a7a6c585121c8939c31f9ea3ec09f792297a8e91845bc66bd2e"
+        },
+        {
+          "path": "approvals/calendar-browser-2026-09-27/native/ios-test-summary.txt",
+          "bytes": 1654,
+          "sha256": "c56af63bd4e12bd299cc6214c5742f80a2107d391353ee2b3e841c49fa3f64a0"
+        }
+      ]
+    }
+  ],
+  "prospective_publication_plan": {
+    "status": "PLANNED_NOT_PUBLISHED",
+    "start_date": "2026-09-29",
+    "end_date": "2026-12-31",
+    "publish_before_utc": "2026-09-28T10:00:00Z",
+    "policy_id": "calendar-week-v1",
+    "policy_version": 1,
+    "archive_bindings": [
+      {
+        "id": "calendar-week-2026-s9",
+        "policy_id": "calendar-week-v1",
+        "policy_version": 1,
+        "library_binding": {
+          "module_id": "library-annual-2026-r1",
+          "version": "2026.1.1",
+          "revision": 2,
+          "manifest_sha256": "5247bedb3d3deaf5f81601ff2f7a274417b0ce11ac1cebbb3f4b518cd26ee16d"
+        },
+        "cycles_binding": {
+          "module_id": "daily-cycles-r1",
+          "version": "2026.1.2",
+          "revision": 3,
+          "manifest_sha256": "b20e5ff4f29faf3b18b4e1e23d37dd5384a00b9cb54567fb838de71b095a630d"
+        }
+      }
+    ]
+  },
+  "public_publication_performed": false,
+  "production_discovery_changed": true,
+  "installed_at": "2026-09-27T09:29:43.441Z",
+  "installed_checks": [
+    {
+      "releaseSetId": "shared-calendar-browser-2026-09-27-m0v2-s10",
+      "sequence": 10,
+      "modules": 7,
+      "verifiedModules": 7,
+      "skippedOptionalModules": [],
+      "totalBytes": 5627397
+    },
+    {
+      "releaseSetId": "shared-calendar-browser-2026-09-27-m0v2-s10",
+      "sequence": 10,
+      "modules": 7,
+      "verifiedModules": 7,
+      "skippedOptionalModules": [],
+      "totalBytes": 5627397
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "schema_version": "svetlost33-release-set-2",
+  "release_set_id": "test-ks01-real104-realdraft104-201",
+  "sequence": 201,
+  "channel": "production",
+  "key_id": "ks01-real-draft104-test-key-1",
+  "approved_platforms": [
+    "android",
+    "ios"
+  ],
+  "min_clients": {
+    "android": 1001,
+    "ios": "99.0.1"
+  },
+  "modules": [
+    {
+      "module_id": "library-annual-2026-r1",
+      "module_type": "library",
+      "version": "2026.1.1",
+      "required": true,
+      "manifest_path": "modules/library-annual-2026-r1/manifest.json",
+      "manifest_bytes": 3329,
+      "manifest_sha256": "f915ec20e12f11cbe3022dd15d729e1d0fe312efea02a952c516fe3072fa51b5",
+      "signature_path": "modules/library-annual-2026-r1/manifest.sig"
+    },
+    {
+      "module_id": "daily-cycles-r1",
+      "module_type": "cycles",
+      "version": "2026.1.2",
+      "required": true,
+      "manifest_path": "modules/daily-cycles-r1/manifest.json",
+      "manifest_bytes": 1118,
+      "manifest_sha256": "64bff62c8587b42ed3b1cf9e791e897a26e506d3fb10c634948af66d03fc9d1b",
+      "signature_path": "modules/daily-cycles-r1/manifest.sig"
+    },
+    {
+      "module_id": "calendar-2026-r1",
+      "module_type": "calendar",
+      "version": "2026.1.1",
+      "required": true,
+      "manifest_path": "modules/calendar-2026-r1/manifest.json",
+      "manifest_bytes": 630,
+      "manifest_sha256": "a918e5784ac9e06f79dba5d3a51deb0511f544b21cad4f73d3e29721bcdaf377",
+      "signature_path": "modules/calendar-2026-r1/manifest.sig"
+    },
+    {
+      "module_id": "saints-v1",
+      "module_type": "library",
+      "version": "2026.10.6",
+      "required": false,
+      "manifest_path": "modules/saints-v1/manifest.json",
+      "manifest_bytes": 586,
+      "manifest_sha256": "e18b52d287971786953069422a151c489e7805e201ea14faaaa7e391d0c5b28f",
+      "signature_path": "modules/saints-v1/manifest.sig"
+    },
+    {
+      "module_id": "liturgical-catalog-v1",
+      "module_type": "library",
+      "version": "2026.10.6",
+      "required": false,
+      "manifest_path": "modules/liturgical-catalog-v1/manifest.json",
+      "manifest_bytes": 696,
+      "manifest_sha256": "5aa74142fdd95f725a2a71e7126a9b1ec114f47f8a2acba53c7a1fb27de4d4e7",
+      "signature_path": "modules/liturgical-catalog-v1/manifest.sig"
+    },
+    {
+      "module_id": "calendar-browser-v1",
+      "module_type": "library",
+      "version": "2026.10.6",
+      "required": false,
+      "manifest_path": "modules/calendar-browser-v1/manifest.json",
+      "manifest_bytes": 533,
+      "manifest_sha256": "82ec06df5b0cb9692b38726386e7394606f3cb8941ef940ed7d085d90763a466",
+      "signature_path": "modules/calendar-browser-v1/manifest.sig"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<testsuite name="app.svetlost33.ui.CalendarBrowserScreenTest" tests="6" failures="0" errors="0" skipped="0" time="12.664" timestamp="2026-09-27T09:25:09" hostname="localhost">
+  <properties>
+    <property name="device" value="Svetlost33_API35(AVD) - 15" />
+    <property name="flavor" value="" />
+    <property name="project" value=":app" />
+  </properties>
+  <testcase name="syntheticPastDayPhaseReaderBackAndCurrentFlowKeepsContext" classname="app.svetlost33.ui.CalendarBrowserScreenTest" time="3.086" />
+  <testcase name="missingOptionalModuleIsHonestAndDoesNotBlockOpeningCurrentReading" classname="app.svetlost33.ui.CalendarBrowserScreenTest" time="2.184" />
+  <testcase name="existingArchiveReaderRevalidatesFutureRouteAndCannotWriteFavorites" classname="app.svetlost33.ui.CalendarBrowserScreenTest" time="1.424" />
+  <testcase name="missingHolidayModuleUsesSelectedScript" classname="app.svetlost33.ui.CalendarBrowserScreenTest" time="1.117" />
+  <testcase name="futureDateCannotOpenArchive" classname="app.svetlost33.ui.CalendarBrowserScreenTest" time="1.512" />
+  <testcase name="captureCalendarAndArchiveMatrix" classname="app.svetlost33.ui.CalendarBrowserEvidenceTest" time="2.812" />
+</testsuite>

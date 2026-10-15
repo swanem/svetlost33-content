@@ -7,6 +7,31 @@ Izvor, tačnost, prava, teritorije i promenjeni sadržaj i dalje zahtevaju pregl
 
 ## Važeće zajedničko odobrenje
 
+### Novi sadržaj — odluka 30.09.2026.
+
+Korisnik je potvrdio: „odobri sav nov sadržaj”.
+[Tačna zajednička odluka](new-content-2026-09-30/owner-approval.json) vezuje
+hashove četiri pripremljena kandidata: 30 kratkih tekstova za 21.10–19.11,
+sedam čistih prazničnih podloga, tri osvežene kartice organizacija sa 15 veza
+i 30 validnih oktobarskih **radio-predloga**, ne potvrđenih rasporeda službi.
+Odobrenje je jedno za Android i iOS; odnosi se na navedene revizije, ne na
+budući sadržaj ili nepotvrđene činjenice. Dva dokumentovana predloga veze ka
+člancima imaju vlasnikovu saglasnost, ali još traže proveru identiteta/datuma
+i tačno vezivanje modula pre runtime aktivacije.
+
+Status je **vlasnički odobreno, nije objavljeno**. Zaključani draft fajlovi i
+njihovi tadašnji `null`/pending statusi ostaju istorijski snimak; ova naknadna
+odluka ih ne prepisuje. Tehnička promocija mora napraviti novu proverenu reviziju
+i pokazati razlike. Zasebne kapije potpisa/objave, native QA, prava i izvora
+nisu zaobiđene. Aktivni S10 je nepromenjen. Liturgijski tekst ostaje pauziran;
+neispravan radio-red za 16.10, logotipi bez potvrđenih resursa i nepostojeći
+2027 podaci nisu proglašeni odobrenim sadržajem.
+
+Lokalna provera odluke: `node --test approvals/new-content-2026-09-30/verify.test.mjs`.
+Proverava hashove odobrenih snimaka, opseg i sačuvane zabrane, bez potpisa ili mreže.
+
+### Ranije zajedničko annual odobrenje
+
 [shared-annual-2026-r1-2026-09-15](shared-annual-2026-r1-2026-09-15.json)
 objedinjuje ranije Android/iOS odluke za istih 13 neizmenjenih annual r1
 datoteka: **150 psalama, 18 molitava, četiri Jevanđelja, oba pisma, 21 dnevni

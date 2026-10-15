@@ -1,0 +1,20 @@
+{
+  "status": "PUBLISHED_AND_PUBLIC_BYTES_VERIFIED",
+  "date": "2026-10-02",
+  "repository": "swanem/svetlost33-content",
+  "branch": "main",
+  "parent": "e59bfa36bed840e751f7dbe5e0b7fa1e86cbced0",
+  "tree": "66fa7f9e4bef881702c1c3228a4ec50fe97d7bad",
+  "commit": "16f1fe741aaad2450fe66a0832c28c1b3e891502",
+  "commit_url": "https://github.com/swanem/svetlost33-content/commit/16f1fe741aaad2450fe66a0832c28c1b3e891502",
+  "method": "Atomic 12-path tree/commit from exact public S11 parent; non-force main update, confirmed by fresh git ls-remote. No push of dirty local history.",
+  "release_set_id": "shared-calendar-saints-2026-10-02-m0v2-s12",
+  "sequence": 12,
+  "index_sha256": "a0d50c23036db203035419f4ba169ddb6005223799ed3ac4e89e03dd9f7733e9",
+  "release_sha256": "78142e24f74812be9859b88163203de23517a9ed40a16c0f5ee085e25354255d",
+  "native_acceptance": "Both native production-key signature/installer S11-to-S12 tests passed on isolated release candidates; root source and retained-evidence review recorded in root-publication-go.json.",
+  "public_readback": "public-readback-s12.json: 50 exact files, 24 production signature/capability profiles, discovery pair rechecked after graph; PASS",
+  "scope": "Seven reviewed observances/dates and seven existing-article links for October 2-8; six new subjects. Five other modules and all 62 article bytes, 21 feast memberships and 94 archive days unchanged.",
+  "limits": "Public readability and native local acceptance do not prove activation on a particular user's phone. No new app release, image distribution, production media/annual capability, 2027 fact, analytics or Liturgical text.",
+  "app_artifacts_unchanged": ["Android 0.21.0 (60) on site v23", "iOS 0.1.8 (35) last installed Nemus"]
+}

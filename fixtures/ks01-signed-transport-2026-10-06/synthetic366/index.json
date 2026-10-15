@@ -1,0 +1,16 @@
+{
+  "schema_version": "svetlost33-m0-index-2",
+  "sequence": 103,
+  "issued_at": "2026-10-06T00:00:00Z",
+  "expires_at": "2026-10-07T00:00:00Z",
+  "key_id": "ks01-test-transport-key-1",
+  "channels": {
+    "production": {
+      "release_set_id": "test-ks01-synthetic366-103",
+      "path": "release-set.json",
+      "bytes": 2694,
+      "sha256": "e5fabe7fe5078a71164280cda770a3e08cf38bb04091ada2c48c44528104f1c5",
+      "signature_path": "release-set.sig"
+    }
+  }
+}

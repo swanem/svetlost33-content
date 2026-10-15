@@ -1,0 +1,36 @@
+Svetlost33 iOS v0.28 native S10-r2 verification
+Date: 2026-09-27
+
+Exact positive input:
+SVETLOST_M0_S10_STAGING=<workspace>/svetlost33-content/approvals/calendar-browser-2026-09-27/signed-s10-r2
+index.json: 595 bytes
+index SHA-256: cbb21ce4fcd50dbc7c97c95f56d5b5aea96da5c1ace65a1a49e68099cbd8ec23
+release-set SHA-256: ccc354a8c9e2af4e45b08ec8ffc1d73dfeb4d8154dcf923efb5324d50debe879
+
+Exact negative input:
+SVETLOST_M0_S10_REJECTED_STAGING=<workspace>/svetlost33-content/approvals/calendar-browser-2026-09-27/signed-s10
+index SHA-256: 008dab19b0f0561626c7de820f9ab039fc2938b34bcf57181851304097118a96
+expected result: rejected before projection because the signed index uses the unsupported fractional issued_at form
+
+Command:
+env SVETLOST_M0_S10_STAGING=<signed-s10-r2> SVETLOST_M0_S10_REJECTED_STAGING=<signed-s10> bash scripts/test_core.sh
+
+Final output:
+PASS exactFractionalTimestampCandidateFailsClosedBeforeProjection
+PASS exactSignedS10ValidatesProjectsAndSurvivesOfflineRestart
+PASS oldCapabilityProfileSkipsBrowserBytesAndKeepsReadingHealthy
+PASS ProductionCalendarBrowserStagingV028Tests
+PASS RejectedCalendarBrowserStagingV028Tests
+Test run with 272 tests in 45 suites passed after 26.048 seconds.
+
+Focused rerun after current-generation binding assertions:
+Test run with 3 tests in 2 suites passed after 21.484 seconds.
+
+Xcode simulator build:
+Xcode 27.0 (27A266a)
+Destination: Svetlost33 iPhone 16 Pro Max, iOS 26.5
+Command result: exit 0, no compiler warnings
+Install result: exit 0
+Launch result: app.svetlost33.ios launched
+
+No public channel, physical iPhone, system clock, unsigned auth bypass, or bundled production content was changed.

@@ -1,0 +1,26 @@
+{
+  "schema_version": "svetlost33-editorial-publication-approval-1",
+  "recorded_at_utc": "2026-10-06T15:55:00Z",
+  "status": "USER_AUTHORIZED_EXACT_NEW_COLLECTION_PUBLICATION_AFTER_TECHNICAL_ACCEPTANCE",
+  "user_instruction_exact": "posle objavi novu zbirku tekstova",
+  "context": "Direct follow-up to delivery of the completed Android66/iOS41 applications and the current104-text collection objective. This is an explicit publication request, not a preselected answer or mere technical-priority choice.",
+  "scope": "42 prepared original bilingual summaries and reviewed canonical identity/source links for2026-11-20 through2026-12-31, added to62 unchanged existing articles, total104. No additional prose or facts authorized.",
+  "resolves_question_in": "drafts/saints-year-end-review-2026-10-06/approval-request.json",
+  "pins_verified_by_root": {
+    "block1_handoff": "13e19c3406397d5bf30ab0e03c8e060d4ae8fafd1be38583b76dc18615777ca1",
+    "block1_independent_review": "fca2e8103967821944300eb2da9718407cda2dd706541e5832b384238725ee84",
+    "block2_handoff": "54bb0a1475199c0aa0884c7a32409ca0aef9033967d4055c14717751b5f1cc8d",
+    "block2_independent_review": "15c0fe1a6326357472bd4adc91070dd64e9429b0071a056a211995ad40da36d5",
+    "PREGLED-CIRILICA.md": "5648b6bdfe3a886c80ff19ffe25b96604b4675a1aa6aabd2628921d6e6ef890b",
+    "PREGLED-LATINICA.md": "92c600ccc4c0a8db41ccf78a02b6ce8f3ac34925a62754ad89da2127c7b44a6e"
+  },
+  "preserve_original_pending_drafts": true,
+  "approved_copy_only": true,
+  "rights_basis": "Original editorial summaries with attributed factual sources; no copied source passages identified by saved bounded review. This request does not license third-party source pages, certify public domain or supply an independent legal guarantee.",
+  "clerical_review": null,
+  "independent_legal_clearance": null,
+  "excluded": ["separate PackageA approval", "unprepared PackageB", "synthetic104/366 or benchmark prose", "new images", "2027 facts", "OTA backgrounds", "speed optimization", "privacy/analytics or keys/ACL changes"],
+  "remaining_gates": ["Fresh signed S12 base identity", "Exact approved-copy payload and dependency regeneration", "Current compatible client floors", "Functional/security/memory/retention acceptance on intended native clients without renewed speed work", "Existing production signing process and public readback"],
+  "signed": false,
+  "published": false
+}

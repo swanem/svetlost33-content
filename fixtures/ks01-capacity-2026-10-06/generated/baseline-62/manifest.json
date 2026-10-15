@@ -1,0 +1,65 @@
+{
+  "schema_version": "svetlost33-test-fixture-files-1",
+  "warning": "TEST_ONLY_SYNTHETIC_TRUST_AND_REVIEW_NEVER_PUBLISH_NOT_OWNER_APPROVAL",
+  "publishable": false,
+  "files": [
+    {
+      "path": "baseline-62/saints-v1.json",
+      "bytes": 211965,
+      "sha256": "ca3e4fd02ca79e97d53e0e456b2ccaaeb81ebc3b740a71b3eb72049bf01331b5"
+    },
+    {
+      "path": "baseline-62/liturgical-catalog-v1.json",
+      "bytes": 66656,
+      "sha256": "d973f659da3a1e084739afe70a6a31daea390c32f5508ecdaa56a3fc3e7b4af3"
+    },
+    {
+      "path": "baseline-62/calendar-browser-v1.json",
+      "bytes": 97947,
+      "sha256": "20d3d0ad3d9a352c87d05425e8673460c62c9a0cf4043988c48e4c0da3d61fae"
+    },
+    {
+      "path": "baseline-62/contexts.json",
+      "bytes": 1633647,
+      "sha256": "f985e02b2c75ea51ac750393ab8646ddeb3ae4596d1257d29ea1fa32f78c8598"
+    },
+    {
+      "path": "baseline-62/TEST-ONLY.json",
+      "bytes": 399,
+      "sha256": "60626492aef0eaed544fa15c72af13e4a4e0014cade50973e91844a52925d6c5"
+    }
+  ],
+  "measurements": {
+    "name": "baseline-62",
+    "purpose": "TEST_ONLY_SYNTHETIC_TRUST_AND_REVIEW_NEVER_PUBLISH_NOT_OWNER_APPROVAL",
+    "synthetic_articles": 0,
+    "raw_bytes": {
+      "saints": 211965,
+      "catalog": 66656,
+      "browser": 97947,
+      "calendar": 1665524
+    },
+    "saints_counts": {
+      "articles": 62,
+      "sources": 80,
+      "days": 62,
+      "max_articles_per_day": 1
+    },
+    "catalog_counts": {
+      "sources": 20,
+      "subjects": 18,
+      "observances": 34,
+      "occurrences": 32,
+      "article_links": 11,
+      "calendar_bindings": 1,
+      "article_bindings": 1
+    },
+    "distinct_test_identity_links": 0,
+    "browser_counts": {
+      "memberships": 21,
+      "archive_days": 94
+    },
+    "preserved_original_article_objects": 62,
+    "note": "Exact raw approved S12 payload bytes in an unauthenticated test harness."
+  }
+}

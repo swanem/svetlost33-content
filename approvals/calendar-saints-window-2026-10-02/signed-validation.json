@@ -1,0 +1,386 @@
+{
+  "status": "SIGNED_LOCAL_S12_VALID_NOT_PUBLISHED",
+  "release_set_id": "shared-calendar-saints-2026-10-02-m0v2-s12",
+  "sequence": 12,
+  "index_sha256": "a0d50c23036db203035419f4ba169ddb6005223799ed3ac4e89e03dd9f7733e9",
+  "release_sha256": "78142e24f74812be9859b88163203de23517a9ed40a16c0f5ee085e25354255d",
+  "catalog_sha256": "d973f659da3a1e084739afe70a6a31daea390c32f5508ecdaa56a3fc3e7b4af3",
+  "browser_sha256": "20d3d0ad3d9a352c87d05425e8673460c62c9a0cf4043988c48e4c0da3d61fae",
+  "checks": [
+    {
+      "platform": "android",
+      "profile": "no_organizations_base_no_browser",
+      "releaseSetId": "shared-calendar-saints-2026-10-02-m0v2-s12",
+      "sequence": 12,
+      "modules": 3,
+      "verifiedModules": 7,
+      "skippedOptionalModules": [
+        "organizations-v1",
+        "saints-v1",
+        "liturgical-catalog-v1",
+        "calendar-browser-v1"
+      ],
+      "totalBytes": 5325006
+    },
+    {
+      "platform": "android",
+      "profile": "no_organizations_base_browser",
+      "releaseSetId": "shared-calendar-saints-2026-10-02-m0v2-s12",
+      "sequence": 12,
+      "modules": 4,
+      "verifiedModules": 7,
+      "skippedOptionalModules": [
+        "organizations-v1",
+        "saints-v1",
+        "liturgical-catalog-v1"
+      ],
+      "totalBytes": 5422953
+    },
+    {
+      "platform": "android",
+      "profile": "no_organizations_saints_no_browser",
+      "releaseSetId": "shared-calendar-saints-2026-10-02-m0v2-s12",
+      "sequence": 12,
+      "modules": 4,
+      "verifiedModules": 7,
+      "skippedOptionalModules": [
+        "organizations-v1",
+        "liturgical-catalog-v1",
+        "calendar-browser-v1"
+      ],
+      "totalBytes": 5536971
+    },
+    {
+      "platform": "android",
+      "profile": "no_organizations_saints_browser",
+      "releaseSetId": "shared-calendar-saints-2026-10-02-m0v2-s12",
+      "sequence": 12,
+      "modules": 5,
+      "verifiedModules": 7,
+      "skippedOptionalModules": [
+        "organizations-v1",
+        "liturgical-catalog-v1"
+      ],
+      "totalBytes": 5634918
+    },
+    {
+      "platform": "android",
+      "profile": "no_organizations_catalog_and_saints_no_browser",
+      "releaseSetId": "shared-calendar-saints-2026-10-02-m0v2-s12",
+      "sequence": 12,
+      "modules": 5,
+      "verifiedModules": 7,
+      "skippedOptionalModules": [
+        "organizations-v1",
+        "calendar-browser-v1"
+      ],
+      "totalBytes": 5603627
+    },
+    {
+      "platform": "android",
+      "profile": "no_organizations_catalog_and_saints_browser",
+      "releaseSetId": "shared-calendar-saints-2026-10-02-m0v2-s12",
+      "sequence": 12,
+      "modules": 6,
+      "verifiedModules": 7,
+      "skippedOptionalModules": [
+        "organizations-v1"
+      ],
+      "totalBytes": 5701574
+    },
+    {
+      "platform": "android",
+      "profile": "organizations_base_no_browser",
+      "releaseSetId": "shared-calendar-saints-2026-10-02-m0v2-s12",
+      "sequence": 12,
+      "modules": 4,
+      "verifiedModules": 7,
+      "skippedOptionalModules": [
+        "saints-v1",
+        "liturgical-catalog-v1",
+        "calendar-browser-v1"
+      ],
+      "totalBytes": 5336079
+    },
+    {
+      "platform": "android",
+      "profile": "organizations_base_browser",
+      "releaseSetId": "shared-calendar-saints-2026-10-02-m0v2-s12",
+      "sequence": 12,
+      "modules": 5,
+      "verifiedModules": 7,
+      "skippedOptionalModules": [
+        "saints-v1",
+        "liturgical-catalog-v1"
+      ],
+      "totalBytes": 5434026
+    },
+    {
+      "platform": "android",
+      "profile": "organizations_saints_no_browser",
+      "releaseSetId": "shared-calendar-saints-2026-10-02-m0v2-s12",
+      "sequence": 12,
+      "modules": 5,
+      "verifiedModules": 7,
+      "skippedOptionalModules": [
+        "liturgical-catalog-v1",
+        "calendar-browser-v1"
+      ],
+      "totalBytes": 5548044
+    },
+    {
+      "platform": "android",
+      "profile": "organizations_saints_browser",
+      "releaseSetId": "shared-calendar-saints-2026-10-02-m0v2-s12",
+      "sequence": 12,
+      "modules": 6,
+      "verifiedModules": 7,
+      "skippedOptionalModules": [
+        "liturgical-catalog-v1"
+      ],
+      "totalBytes": 5645991
+    },
+    {
+      "platform": "android",
+      "profile": "organizations_catalog_and_saints_no_browser",
+      "releaseSetId": "shared-calendar-saints-2026-10-02-m0v2-s12",
+      "sequence": 12,
+      "modules": 6,
+      "verifiedModules": 7,
+      "skippedOptionalModules": [
+        "calendar-browser-v1"
+      ],
+      "totalBytes": 5614700
+    },
+    {
+      "platform": "android",
+      "profile": "organizations_catalog_and_saints_browser",
+      "releaseSetId": "shared-calendar-saints-2026-10-02-m0v2-s12",
+      "sequence": 12,
+      "modules": 7,
+      "verifiedModules": 7,
+      "skippedOptionalModules": [],
+      "totalBytes": 5712647
+    },
+    {
+      "platform": "ios",
+      "profile": "no_organizations_base_no_browser",
+      "releaseSetId": "shared-calendar-saints-2026-10-02-m0v2-s12",
+      "sequence": 12,
+      "modules": 3,
+      "verifiedModules": 7,
+      "skippedOptionalModules": [
+        "organizations-v1",
+        "saints-v1",
+        "liturgical-catalog-v1",
+        "calendar-browser-v1"
+      ],
+      "totalBytes": 5325006
+    },
+    {
+      "platform": "ios",
+      "profile": "no_organizations_base_browser",
+      "releaseSetId": "shared-calendar-saints-2026-10-02-m0v2-s12",
+      "sequence": 12,
+      "modules": 4,
+      "verifiedModules": 7,
+      "skippedOptionalModules": [
+        "organizations-v1",
+        "saints-v1",
+        "liturgical-catalog-v1"
+      ],
+      "totalBytes": 5422953
+    },
+    {
+      "platform": "ios",
+      "profile": "no_organizations_saints_no_browser",
+      "releaseSetId": "shared-calendar-saints-2026-10-02-m0v2-s12",
+      "sequence": 12,
+      "modules": 4,
+      "verifiedModules": 7,
+      "skippedOptionalModules": [
+        "organizations-v1",
+        "liturgical-catalog-v1",
+        "calendar-browser-v1"
+      ],
+      "totalBytes": 5536971
+    },
+    {
+      "platform": "ios",
+      "profile": "no_organizations_saints_browser",
+      "releaseSetId": "shared-calendar-saints-2026-10-02-m0v2-s12",
+      "sequence": 12,
+      "modules": 5,
+      "verifiedModules": 7,
+      "skippedOptionalModules": [
+        "organizations-v1",
+        "liturgical-catalog-v1"
+      ],
+      "totalBytes": 5634918
+    },
+    {
+      "platform": "ios",
+      "profile": "no_organizations_catalog_and_saints_no_browser",
+      "releaseSetId": "shared-calendar-saints-2026-10-02-m0v2-s12",
+      "sequence": 12,
+      "modules": 5,
+      "verifiedModules": 7,
+      "skippedOptionalModules": [
+        "organizations-v1",
+        "calendar-browser-v1"
+      ],
+      "totalBytes": 5603627
+    },
+    {
+      "platform": "ios",
+      "profile": "no_organizations_catalog_and_saints_browser",
+      "releaseSetId": "shared-calendar-saints-2026-10-02-m0v2-s12",
+      "sequence": 12,
+      "modules": 6,
+      "verifiedModules": 7,
+      "skippedOptionalModules": [
+        "organizations-v1"
+      ],
+      "totalBytes": 5701574
+    },
+    {
+      "platform": "ios",
+      "profile": "organizations_base_no_browser",
+      "releaseSetId": "shared-calendar-saints-2026-10-02-m0v2-s12",
+      "sequence": 12,
+      "modules": 4,
+      "verifiedModules": 7,
+      "skippedOptionalModules": [
+        "saints-v1",
+        "liturgical-catalog-v1",
+        "calendar-browser-v1"
+      ],
+      "totalBytes": 5336079
+    },
+    {
+      "platform": "ios",
+      "profile": "organizations_base_browser",
+      "releaseSetId": "shared-calendar-saints-2026-10-02-m0v2-s12",
+      "sequence": 12,
+      "modules": 5,
+      "verifiedModules": 7,
+      "skippedOptionalModules": [
+        "saints-v1",
+        "liturgical-catalog-v1"
+      ],
+      "totalBytes": 5434026
+    },
+    {
+      "platform": "ios",
+      "profile": "organizations_saints_no_browser",
+      "releaseSetId": "shared-calendar-saints-2026-10-02-m0v2-s12",
+      "sequence": 12,
+      "modules": 5,
+      "verifiedModules": 7,
+      "skippedOptionalModules": [
+        "liturgical-catalog-v1",
+        "calendar-browser-v1"
+      ],
+      "totalBytes": 5548044
+    },
+    {
+      "platform": "ios",
+      "profile": "organizations_saints_browser",
+      "releaseSetId": "shared-calendar-saints-2026-10-02-m0v2-s12",
+      "sequence": 12,
+      "modules": 6,
+      "verifiedModules": 7,
+      "skippedOptionalModules": [
+        "liturgical-catalog-v1"
+      ],
+      "totalBytes": 5645991
+    },
+    {
+      "platform": "ios",
+      "profile": "organizations_catalog_and_saints_no_browser",
+      "releaseSetId": "shared-calendar-saints-2026-10-02-m0v2-s12",
+      "sequence": 12,
+      "modules": 6,
+      "verifiedModules": 7,
+      "skippedOptionalModules": [
+        "calendar-browser-v1"
+      ],
+      "totalBytes": 5614700
+    },
+    {
+      "platform": "ios",
+      "profile": "organizations_catalog_and_saints_browser",
+      "releaseSetId": "shared-calendar-saints-2026-10-02-m0v2-s12",
+      "sequence": 12,
+      "modules": 7,
+      "verifiedModules": 7,
+      "skippedOptionalModules": [],
+      "totalBytes": 5712647
+    }
+  ],
+  "public_files": [
+    {
+      "path": "discovery-archive/shared-content-refresh-2026-09-30-m0v2-s11/index.json",
+      "bytes": 592,
+      "sha256": "36d39ce8882df55b66987afedcb8f080f31c2b8fd565a45561492aae5e2631ff"
+    },
+    {
+      "path": "discovery-archive/shared-content-refresh-2026-09-30-m0v2-s11/index.sig",
+      "bytes": 513,
+      "sha256": "b680c6e5b96812399acba10d5d6be2945b5dd962424b9c63008cb155e9760a5a"
+    },
+    {
+      "path": "index.json",
+      "bytes": 592,
+      "sha256": "a0d50c23036db203035419f4ba169ddb6005223799ed3ac4e89e03dd9f7733e9"
+    },
+    {
+      "path": "index.sig",
+      "bytes": 513,
+      "sha256": "caae1bacd679c17637de572ec64761aab98e4f5da18e6486abe6e25504e2f5d3"
+    },
+    {
+      "path": "releases/shared-calendar-saints-2026-10-02-m0v2-s12/modules/calendar-browser-v1-2026.10.2-r3/data/calendar-browser-v1.json",
+      "bytes": 97947,
+      "sha256": "20d3d0ad3d9a352c87d05425e8673460c62c9a0cf4043988c48e4c0da3d61fae"
+    },
+    {
+      "path": "releases/shared-calendar-saints-2026-10-02-m0v2-s12/modules/calendar-browser-v1-2026.10.2-r3/manifest.json",
+      "bytes": 533,
+      "sha256": "6a61a1593a890f4a8c9ac6fbd54feb6ee0b349c92020dd5f56f4c6c25492a805"
+    },
+    {
+      "path": "releases/shared-calendar-saints-2026-10-02-m0v2-s12/modules/calendar-browser-v1-2026.10.2-r3/manifest.sig",
+      "bytes": 513,
+      "sha256": "97b1a321cdb8576016b9fb745cfea6d8691b953423991b6c11b0dfc68e825e4f"
+    },
+    {
+      "path": "releases/shared-calendar-saints-2026-10-02-m0v2-s12/modules/liturgical-catalog-v1-2026.10.1-r7/data/liturgical-catalog-v1.json",
+      "bytes": 66656,
+      "sha256": "d973f659da3a1e084739afe70a6a31daea390c32f5508ecdaa56a3fc3e7b4af3"
+    },
+    {
+      "path": "releases/shared-calendar-saints-2026-10-02-m0v2-s12/modules/liturgical-catalog-v1-2026.10.1-r7/manifest.json",
+      "bytes": 695,
+      "sha256": "1bb3d4b5ac6a5b4f4946ea7438cfe465f6121a7877dbb35976965ff28a13943e"
+    },
+    {
+      "path": "releases/shared-calendar-saints-2026-10-02-m0v2-s12/modules/liturgical-catalog-v1-2026.10.1-r7/manifest.sig",
+      "bytes": 513,
+      "sha256": "ef1d773edc92105e0e84f7c69d4c94c8bcde3f30d6b0876e745ede068eaf59a7"
+    },
+    {
+      "path": "releases/shared-calendar-saints-2026-10-02-m0v2-s12/release-set.json",
+      "bytes": 3944,
+      "sha256": "78142e24f74812be9859b88163203de23517a9ed40a16c0f5ee085e25354255d"
+    },
+    {
+      "path": "releases/shared-calendar-saints-2026-10-02-m0v2-s12/release-set.sig",
+      "bytes": 513,
+      "sha256": "8f2a46ba5e575bd6a3bd0e1a27637f85829c94ddeeedde23616638ba3dbf97e1"
+    }
+  ],
+  "native_acceptance_required_before_activation": true,
+  "production_activated": false,
+  "published": false
+}

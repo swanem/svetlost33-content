@@ -1,0 +1,178 @@
+{
+  "schema_version": "svetlost33-ks01-block2-validation-1",
+  "status": "PASS_PENDING_CONTENT_NOT_APPROVED",
+  "checked_on": "2026-10-06",
+  "command": "node drafts/saints-year-end-block2-2026-10-06/verify.mjs --check",
+  "checks": [
+    {
+      "name": "S12_and_entire_frozen_block1_handoff_artifacts_pinned",
+      "result": "PASS"
+    },
+    {
+      "name": "exact_21_annual_dates_titles_source_order_no_recurrence",
+      "result": "PASS"
+    },
+    {
+      "name": "original62_and_prior_pending21_retained_without_promotion",
+      "result": "PASS"
+    },
+    {
+      "name": "both_scripts_100_to_200_words_separate_editorial_takeaway",
+      "result": "PASS"
+    },
+    {
+      "name": "23_specific_primary_sources_and_honest_unknown_bibliography",
+      "result": "PASS"
+    },
+    {
+      "name": "nicholas_reuse_only_no_wrong_observance_or_identity_merge",
+      "result": "PASS"
+    },
+    {
+      "name": "real83_and104_KS01_bound_previews_historical_defaults_unchanged",
+      "result": "PASS"
+    },
+    {
+      "name": "pending_content_never_runtime_eligible_no_synthetic_approval",
+      "result": "PASS"
+    },
+    {
+      "name": "negative_duplicate_script_shape_and_exact_calendar_mapping",
+      "result": "PASS"
+    },
+    {
+      "name": "master_delta_sources_deterministic_bytes",
+      "result": "PASS"
+    }
+  ],
+  "total_checks": 10,
+  "counts": {
+    "dates": 21,
+    "existing_articles_reused": 0,
+    "new_pending_articles": 21,
+    "unknown_identity_or_date": 0,
+    "content_approval_pending": 21,
+    "excluded_detail_questions": 1,
+    "independent_rights_clearance": 0,
+    "reused_subjects": 1,
+    "reused_observances": 1,
+    "reused_occurrences": 1,
+    "new_subjects": 19,
+    "new_observances": 20,
+    "new_occurrences": 20,
+    "new_article_links": 21,
+    "standalone_real_articles": 83,
+    "combined_real_articles": 104,
+    "combined_new_pending_articles": 42,
+    "still_approved_original_articles": 62
+  },
+  "files": [
+    {
+      "path": "manuscript.mjs",
+      "bytes": 41703,
+      "sha256": "098ce6a584e45c0bb9ea2e6ee7c9445839be141f85d054bdf4deb4c72a62769e"
+    },
+    {
+      "path": "prepare.mjs",
+      "bytes": 17691,
+      "sha256": "25a72a03e7f8e84b70a73ddd62a6e3594e1b71e4f4605f385eecb3e7254bd2c4"
+    },
+    {
+      "path": "verify.mjs",
+      "bytes": 11003,
+      "sha256": "bd8ea5ccb9bffc28dc546253368068707241cd7d14f6c50e6968ea71448f43ea"
+    },
+    {
+      "path": "master.json",
+      "bytes": 130925,
+      "sha256": "4f0373511527c47876cb50fd390b47f9159842cad2776a1436ab13b528aa495e"
+    },
+    {
+      "path": "delta.json",
+      "bytes": 79173,
+      "sha256": "c4f563433a916885f6c730d873f32cc76730a18226649bb612dff1865480b4e4"
+    },
+    {
+      "path": "sources.json",
+      "bytes": 13417,
+      "sha256": "e13a6e416bd6701aab3eff13a2f927c3f39eea0e4a27cc287ae3964d20f29a47"
+    }
+  ],
+  "block1_pins": [
+    {
+      "path": "drafts/saints-year-end-block1-2026-10-06/handoff.json",
+      "bytes": 2259,
+      "sha256": "13e19c3406397d5bf30ab0e03c8e060d4ae8fafd1be38583b76dc18615777ca1"
+    },
+    {
+      "path": "drafts/saints-year-end-block1-2026-10-06/manuscript.mjs",
+      "bytes": 40401,
+      "sha256": "402ea6e792b88630baa2dde31a40ef9d4eccd36afff68d6ef384cfc7f8ad9f33"
+    },
+    {
+      "path": "drafts/saints-year-end-block1-2026-10-06/prepare.mjs",
+      "bytes": 17489,
+      "sha256": "713a423c3b205bb616b4300d2c0e04a8bc80094b47f44b19643a0d89d728ec0c"
+    },
+    {
+      "path": "drafts/saints-year-end-block1-2026-10-06/verify.mjs",
+      "bytes": 10196,
+      "sha256": "74db010322e12a14323699ce98c5f8c9099db3e3e8ef7085f6c7c37a39a0aed6"
+    },
+    {
+      "path": "drafts/saints-year-end-block1-2026-10-06/master.json",
+      "bytes": 134635,
+      "sha256": "167eb762f87a3d1dbfd5623b32197d5af683e7ed01fbc8f2948499ceca7dae6b"
+    },
+    {
+      "path": "drafts/saints-year-end-block1-2026-10-06/delta.json",
+      "bytes": 67743,
+      "sha256": "f929151078bf1a99e392dcd786cbdde3142ddd34aa5929828c524d31a9b537e3"
+    },
+    {
+      "path": "drafts/saints-year-end-block1-2026-10-06/sources.json",
+      "bytes": 15683,
+      "sha256": "b1d2b2a701ba1adda3f9451785e108b10c98be69b12a03e67d91cca680b877d2"
+    },
+    {
+      "path": "drafts/saints-year-end-block1-2026-10-06/validation.json",
+      "bytes": 4495,
+      "sha256": "efa2bd87ec4724e128e0ee4630660d2d90e9e4dd7b98a127107d617c87d757e2"
+    }
+  ],
+  "words_per_script": {
+    "min": 113,
+    "max": 123
+  },
+  "standalone_measurement": {
+    "articles": 83,
+    "sources": 104,
+    "days": 83,
+    "saints_bytes": 322220,
+    "catalog_bytes": 113365,
+    "browser_bytes": 97906
+  },
+  "combined_measurement": {
+    "articles": 104,
+    "sources": 126,
+    "days": 104,
+    "saints_bytes": 399113,
+    "catalog_bytes": 159604,
+    "browser_bytes": 97906
+  },
+  "runtime_payload_files_written": false,
+  "owner_approval": null,
+  "clerical_review": null,
+  "rights_clearance": null,
+  "signed": false,
+  "published": false,
+  "native_tested": false,
+  "limitations": [
+    "No content, rights or canonical approval is supplied by tests.",
+    "Original HTML is not archived; no response-byte hashes claimed.",
+    "Gregory of Gornjak place/exact year of repose remains an excluded detail question, not a guessed fact.",
+    "104-article measurement contains62 approved and42 pending real editorial drafts; not synthetic prose and not a publishable release.",
+    "Combined catalog excludes Package A/B deltas; final approved whole-generation merge remains separate.",
+    "No new calendar/Gospel/fasting facts, 2027, native code or build."
+  ]
+}

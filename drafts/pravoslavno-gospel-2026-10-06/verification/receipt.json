@@ -1,0 +1,265 @@
+{
+  "status": "PASS_DRAFT_REFERENCE_INTAKE_ONLY",
+  "started_at": "2026-10-06T17:44:44.172Z",
+  "completed_at": "2026-10-06T17:44:44.512Z",
+  "command": "node drafts/pravoslavno-gospel-2026-10-06/verify.mjs --check",
+  "node": "v24.13.0",
+  "tests": 9,
+  "exit_code": 0,
+  "network_during_test": false,
+  "summary": {
+    "requested_dates": 31,
+    "fetched_http200": 31,
+    "valid_source_dates": 31,
+    "candidate_dates_without_reference_conflict": 31,
+    "gospel_readings": 33,
+    "multi_reading_dates": [
+      "2026-10-14",
+      "2026-10-27"
+    ],
+    "discontiguous_readings": [
+      {
+        "date": "2026-10-14",
+        "source_reference": "Свето Јеванђеље од Луке, зачало 4 (1,39-49; 56)"
+      },
+      {
+        "date": "2026-10-14",
+        "source_reference": "Свето Јеванђеље од Луке, зачало 54, 58 (10,38-42; 11,27-28)"
+      }
+    ],
+    "explicit_service_readings": 4,
+    "gaps": [],
+    "conflicts": [],
+    "last_validated_source_date": "2026-11-05",
+    "last_contiguous_validated_source_date": "2026-11-05",
+    "next_search_local_date": "2026-10-26",
+    "timezone": "Europe/Belgrade",
+    "next_search_local_time": "09:00",
+    "legacy_source_label_incompatibilities": 33,
+    "production_calendar_changed": false,
+    "signed": false,
+    "published": false
+  },
+  "protected_source_inputs": [
+    {
+      "path": "approvals/pravoslavno-gospel-2026-10-06/source-intake-request.json",
+      "bytes": 2225,
+      "sha256": "1c143c74ae952dc918baaedfb3e9dfa210cc05f5300651bba211268d7e79b133"
+    },
+    {
+      "path": "approvals/saints104-2026-10-06/public-readback-s13.json",
+      "bytes": 25097,
+      "sha256": "e6bce373760da88996bf2df0a789ff853eef483e12a9d393608106d149f9c700"
+    },
+    {
+      "path": "drafts/saints104-release-2026-10-06/signed-s13/index.json",
+      "bytes": 574,
+      "sha256": "6250554d597daa19025cdcd3bc1d0c7c1763c3763ff4bc4fe1b85fb03f69441b"
+    },
+    {
+      "path": "drafts/saints104-release-2026-10-06/signed-s13/releases/shared-saints104-2026-10-06-m0v2-s13/release-set.json",
+      "bytes": 3903,
+      "sha256": "76054fb851221ad1de64922a1167741646e2dd9f199588404b9a6a7745d4b7ff"
+    },
+    {
+      "path": "drafts/saints104-release-2026-10-06/signed-s13/releases/shared-annual-2026-r1-m0v2-s2/modules/calendar-2026-r1-2026.1.1-r2/manifest.json",
+      "bytes": 630,
+      "sha256": "11e5d8b92ebbacd40ae6d0bad861c85a2df8220cd0b1091a2b7522754d538905"
+    },
+    {
+      "path": "drafts/saints104-release-2026-10-06/signed-s13/releases/shared-annual-2026-r1-m0v2-s2/modules/calendar-2026-r1-2026.1.1-r2/data/calendar.2026.json",
+      "bytes": 1665524,
+      "sha256": "a1b6a5d5911ae03f77802bd466227f0c1ea4fe97708b1b6f92cd4b08847c7c9c"
+    },
+    {
+      "path": "drafts/saints104-release-2026-10-06/signed-s13/releases/shared-annual-2026-r1-m0v2-s2/modules/library-annual-2026-r1-2026.1.1-r2/manifest.json",
+      "bytes": 3329,
+      "sha256": "5247bedb3d3deaf5f81601ff2f7a274417b0ce11ac1cebbb3f4b518cd26ee16d"
+    },
+    {
+      "path": "drafts/saints104-release-2026-10-06/signed-s13/releases/shared-annual-2026-r1-m0v2-s2/modules/library-annual-2026-r1-2026.1.1-r2/data/psalms.sr-Cyrl.json",
+      "bytes": 707117,
+      "sha256": "71918c97fe6fcc6d9f21a1990aaf0ceb2399bc503a43a9106f8e680f67844e83"
+    },
+    {
+      "path": "drafts/saints104-release-2026-10-06/signed-s13/releases/shared-annual-2026-r1-m0v2-s2/modules/library-annual-2026-r1-2026.1.1-r2/data/gospels.sr-Cyrl.json",
+      "bytes": 1026828,
+      "sha256": "3855892ef6a8784e20b3ef83729a29437b7f8663bf83f6775f63978eeedc9809"
+    },
+    {
+      "path": "drafts/saints104-release-2026-10-06/signed-s13/releases/shared-annual-2026-r1-m0v2-s2/modules/library-annual-2026-r1-2026.1.1-r2/data/psalms.sr-Latn.json",
+      "bytes": 553977,
+      "sha256": "01b2657d85430ec68bcc56d8a0b7b45e03449d1c2cb658a07d130ea57cf8a63d"
+    },
+    {
+      "path": "drafts/saints104-release-2026-10-06/signed-s13/releases/shared-annual-2026-r1-m0v2-s2/modules/library-annual-2026-r1-2026.1.1-r2/data/gospels.sr-Latn.json",
+      "bytes": 778280,
+      "sha256": "392b4290654a9b2376e7319af980e8b9238ba8b4c20593f4b20c9d8688e31610"
+    },
+    {
+      "path": "acquisition/manifest.json",
+      "bytes": 52636,
+      "sha256": "a576eff7c665e181514751bdfe4f3b6f01985f5e73224174a987dbcde5739522"
+    },
+    {
+      "path": "acquisition/raw/2026-10-06-attempt1.html",
+      "bytes": 21274,
+      "sha256": "7a562f8688ac1bb16a16e6d1b6d2b4871e4cc075d6f89a8cf2cee32338fb8b09"
+    },
+    {
+      "path": "acquisition/raw/2026-10-07-attempt1.html",
+      "bytes": 22091,
+      "sha256": "d1f2bafce970853148b5e9e584ab9aef23be0f564cdb28ebc02f80abf2f0ab9a"
+    },
+    {
+      "path": "acquisition/raw/2026-10-08-attempt1.html",
+      "bytes": 21992,
+      "sha256": "e8d37e6cb97dbecf1b1bbdeecf43168d82fd0ecd3f97cdbf2d75c210bcca7d81"
+    },
+    {
+      "path": "acquisition/raw/2026-10-09-attempt1.html",
+      "bytes": 22130,
+      "sha256": "6cc0b1b5d6638bbdded84702c9ec64aac58a2ca2f210d976cbcef795818b7be5"
+    },
+    {
+      "path": "acquisition/raw/2026-10-10-attempt1.html",
+      "bytes": 23400,
+      "sha256": "7d1998bdb5f2469f2aa60fea3821f60b96597139c0378e163dfe29441ff84799"
+    },
+    {
+      "path": "acquisition/raw/2026-10-11-attempt1.html",
+      "bytes": 22584,
+      "sha256": "73a2a71408654b74d2770402a0054fa7b8117c4abcd45449685641e06d9d1e1b"
+    },
+    {
+      "path": "acquisition/raw/2026-10-12-attempt1.html",
+      "bytes": 21351,
+      "sha256": "8397113ee7828ee470b4d69a2e11fbeb9117327d58265a5ca9cd138210c7c4f5"
+    },
+    {
+      "path": "acquisition/raw/2026-10-13-attempt1.html",
+      "bytes": 22192,
+      "sha256": "f32ebbfd295767d920c7889139f701f24a5f73406a0788325a555f9e431d75b2"
+    },
+    {
+      "path": "acquisition/raw/2026-10-14-attempt1.html",
+      "bytes": 23459,
+      "sha256": "3e7ced696449e6669b4d3d8ff71210db41ea873e25f202468432b5e6bdff3919"
+    },
+    {
+      "path": "acquisition/raw/2026-10-15-attempt1.html",
+      "bytes": 23438,
+      "sha256": "1b558ca0af02a4936cb2b698953caaefda17dd49dbd6daa80aa31f7f7cd2e23d"
+    },
+    {
+      "path": "acquisition/raw/2026-10-16-attempt1.html",
+      "bytes": 22506,
+      "sha256": "3b744cddd422abaaa63f6f9e7197edb5e8e24f684a98501c4a952595c81d6e5a"
+    },
+    {
+      "path": "acquisition/raw/2026-10-17-attempt1.html",
+      "bytes": 23229,
+      "sha256": "c135bd395d752684e3a0ca68e851033b295ef19f52a310ff911284f6a25d4608"
+    },
+    {
+      "path": "acquisition/raw/2026-10-18-attempt1.html",
+      "bytes": 21880,
+      "sha256": "31c8450a79152f68677b98c6109e26cd4375825e8a05a4bdf0685d2c44df3086"
+    },
+    {
+      "path": "acquisition/raw/2026-10-19-attempt1.html",
+      "bytes": 24258,
+      "sha256": "29e2e8119101c80081696b1f59645071c9f254fe9c681a8872721fb7f7af3d74"
+    },
+    {
+      "path": "acquisition/raw/2026-10-20-attempt1.html",
+      "bytes": 20165,
+      "sha256": "f21bbea2ed5a12c5a3e6de17a24dbb4370d3f44005fc592fa4ef4c44907b6c3b"
+    },
+    {
+      "path": "acquisition/raw/2026-10-21-attempt1.html",
+      "bytes": 21274,
+      "sha256": "85e48c9bee4803d974bd1d332d7f91d0fa841065898e7d080cc9727ee709dc6b"
+    },
+    {
+      "path": "acquisition/raw/2026-10-22-attempt1.html",
+      "bytes": 21383,
+      "sha256": "5dada750d680f8aa1d72e1b27428a288683db3190a10b59d27ce07178021f417"
+    },
+    {
+      "path": "acquisition/raw/2026-10-23-attempt1.html",
+      "bytes": 21817,
+      "sha256": "7310d5f15af792e0bfbc66adf414f09003db0469e45e32f99719dd836b2a0d57"
+    },
+    {
+      "path": "acquisition/raw/2026-10-24-attempt1.html",
+      "bytes": 23744,
+      "sha256": "3feae3164ff6003eed5d8c9b4772f8e02839fa1b13766f13f3a29f19ba71e2d9"
+    },
+    {
+      "path": "acquisition/raw/2026-10-25-attempt1.html",
+      "bytes": 22437,
+      "sha256": "64674265addd4695c4d6fc970af699e7f605b11ed7a8a043b19297b526480608"
+    },
+    {
+      "path": "acquisition/raw/2026-10-26-attempt1.html",
+      "bytes": 21688,
+      "sha256": "5033a2d76b84afa80f52de9a751bbbaa6ffc8dc92329d723b6d20cd7742495f3"
+    },
+    {
+      "path": "acquisition/raw/2026-10-27-attempt1.html",
+      "bytes": 29178,
+      "sha256": "1cb9cb93caccd0e3b6795997eb7523250c3cd6def3e4be7c2c12c70574340c90"
+    },
+    {
+      "path": "acquisition/raw/2026-10-28-attempt1.html",
+      "bytes": 22007,
+      "sha256": "571e20e974820f656f358631b3459881aea5ec3def3db262d74463e4f5e25a6b"
+    },
+    {
+      "path": "acquisition/raw/2026-10-29-attempt1.html",
+      "bytes": 21768,
+      "sha256": "f624fea3414ae03ff3d043c159cb394e30aef65120bd5a5fc9716d581d07f790"
+    },
+    {
+      "path": "acquisition/raw/2026-10-30-attempt1.html",
+      "bytes": 23359,
+      "sha256": "0eba7739cfd9687ba4e69a3430974861e08cfcf2d9efcc029cacee64aa679335"
+    },
+    {
+      "path": "acquisition/raw/2026-10-31-attempt1.html",
+      "bytes": 23826,
+      "sha256": "b1ac34a5228504381d9bee7bc0db7d0449caff8a2a356834f5b8d1512e38c65d"
+    },
+    {
+      "path": "acquisition/raw/2026-11-01-attempt1.html",
+      "bytes": 22860,
+      "sha256": "1a64d21abc533b3049309bd41c30ff85832368dfb6350fd20553fb0cb5026908"
+    },
+    {
+      "path": "acquisition/raw/2026-11-02-attempt1.html",
+      "bytes": 20707,
+      "sha256": "8e37acb03e08ae85453df0070f14de2e5679c3562f9f44acc8505493f0e55f30"
+    },
+    {
+      "path": "acquisition/raw/2026-11-03-attempt1.html",
+      "bytes": 22051,
+      "sha256": "24d30a914abed628aae475af89a67649a3cf7c3e0c8b53ff4fbc856048dc7a13"
+    },
+    {
+      "path": "acquisition/raw/2026-11-04-attempt1.html",
+      "bytes": 21479,
+      "sha256": "99f6329cb750878c8ce6c2608700edb5937ea91be5fa15c02925c394261ecaa2"
+    },
+    {
+      "path": "acquisition/raw/2026-11-05-attempt1.html",
+      "bytes": 22197,
+      "sha256": "472e7c6feddae378c6844c66ad7bae080ab595d6f6123aad8fcc003ac387f9c5"
+    }
+  ],
+  "test_log_sha256": "374dc4a09d0edb70a4ebc3c2d8aebc3c5f81cab7223ef5c519a92ec7ae60602a",
+  "production_imported": false,
+  "signed": false,
+  "published": false,
+  "native_run": false
+}

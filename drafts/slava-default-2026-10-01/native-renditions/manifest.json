@@ -1,0 +1,93 @@
+{
+  "group": "approved-existing",
+  "items": [
+    {
+      "id": "slava-default",
+      "renditions": {
+        "gallery-small": {
+          "bytes": 43699,
+          "height": 640,
+          "mime_type": "image/jpeg",
+          "path": "approved-existing/slava-default/87ce4958b5cc3e3157f02d8be930272979b64cae76b33aa3fd55db370438b9c7/2b673f18f967ecd0bbf43f11c21a648f478d55e5f2ccd5d8fbc4ad70d2a2e763/gallery-small.jpg",
+          "recipe_sha256": "2b673f18f967ecd0bbf43f11c21a648f478d55e5f2ccd5d8fbc4ad70d2a2e763",
+          "recipe_version": "jpeg-v1",
+          "sha256": "8fc65811578c7ea27b1755fb8a31d6fac41467c78d194d7210a3842db6a3205a",
+          "width": 360
+        },
+        "preview-large": {
+          "bytes": 159398,
+          "height": 1280,
+          "mime_type": "image/jpeg",
+          "path": "approved-existing/slava-default/87ce4958b5cc3e3157f02d8be930272979b64cae76b33aa3fd55db370438b9c7/2b673f18f967ecd0bbf43f11c21a648f478d55e5f2ccd5d8fbc4ad70d2a2e763/preview-large.jpg",
+          "recipe_sha256": "2b673f18f967ecd0bbf43f11c21a648f478d55e5f2ccd5d8fbc4ad70d2a2e763",
+          "recipe_version": "jpeg-v1",
+          "sha256": "48d62ecbdf8c1ec46e3de23b1eb917ad7098b7f1006fb2007e01ea99b8e87f1f",
+          "width": 720
+        }
+      },
+      "source": {
+        "bytes": 2200011,
+        "format": "PNG",
+        "height": 1672,
+        "orientation": 1,
+        "oriented_height": 1672,
+        "oriented_width": 941,
+        "path": "backgrounds/slava-default.png",
+        "root": "android-assets",
+        "sha256": "87ce4958b5cc3e3157f02d8be930272979b64cae76b33aa3fd55db370438b9c7",
+        "width": 941
+      }
+    }
+  ],
+  "limits": {
+    "items": 128,
+    "json_bytes": 1048576,
+    "source_bytes": 33554432,
+    "source_edge": 16384,
+    "source_pixels": 40000000
+  },
+  "recipe": {
+    "alpha": "reject",
+    "color": "unprofiled-rgb-or-grayscale-only-assumed-srgb",
+    "crop": false,
+    "encoder": {
+      "jpeg": "6.2",
+      "libjpeg_turbo": "3.1.1",
+      "pillow": "11.3.0"
+    },
+    "icc": "reject-nonempty",
+    "jpeg": {
+      "optimize": true,
+      "progressive": true,
+      "subsampling": 2
+    },
+    "metadata": "strip",
+    "orientation": "exif-transpose-before-resize",
+    "resize": "lanczos",
+    "rounding": "nearest-half-up-integer",
+    "upscale": false,
+    "variants": {
+      "gallery-small": {
+        "max_bytes": 250000,
+        "max_long_edge": 640,
+        "quality": 80
+      },
+      "preview-large": {
+        "max_bytes": 1000000,
+        "max_long_edge": 1280,
+        "quality": 85
+      }
+    },
+    "version": "jpeg-v1"
+  },
+  "recipe_sha256": "2b673f18f967ecd0bbf43f11c21a648f478d55e5f2ccd5d8fbc4ad70d2a2e763",
+  "runtime_import": true,
+  "schema_version": "svetlost33-background-renditions-1",
+  "source_lock_sha256": "3cd60707fcd8c983dff52ee8200759f8f816cca710e948af981331a1b543cbeb",
+  "state": "local-runtime-candidate",
+  "totals": {
+    "gallery-small_bytes": 43699,
+    "original_bytes": 2200011,
+    "preview-large_bytes": 159398
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "schemaVersion": 1,
+  "recordKind": "additive_provenance_and_service_terms_review_not_publication_license",
+  "reviewedOn": "2026-10-01",
+  "status": "PROVENANCE_DOCUMENTED_SERVICE_BASIS_REVIEWED_NOT_RUNTIME_CLEARANCE",
+  "candidate": {
+    "path": "drafts/feast-backgrounds-2026-09-30/candidate.json",
+    "sha256": "f252dddb866c7020a09adc28ea727262409ad8d7d9d496c5aa3d8a2d29fcd548",
+    "variant": "clean",
+    "count": 7,
+    "bytes": 17414965,
+    "originalBytesChanged": false
+  },
+  "sourceManifest": {
+    "path": "../svetlo-figma-assets/praznici-prvih-sedam-v1/manifest.json",
+    "sha256": "0c7d361720a1b02456ebc29f8c5469a94b55771c39fc89715d425d13d4cc964c"
+  },
+  "ownerDecision": {
+    "path": "approvals/new-content-2026-09-30/owner-approval.json",
+    "sha256": "549e767f5734030b8c36d7b05c1b7eefc02583a4b6b14f4313e8721594002290",
+    "sameEditorialApprovalNeededAgain": false,
+    "intendedAppTerritories": ["RS", "BA"],
+    "bothPlatforms": true
+  },
+  "provenanceFindings": {
+    "handoff": "../svetlo-figma-assets/praznici-prvih-sedam-v1/HANDOFF-OTA-2026-09-30.md",
+    "engineRecorded": "built-in ImageGen",
+    "generationDate": "2026-09-29",
+    "cleanGenerationInput": "text_only_no_reference_image",
+    "subject": "symbolic_landscapes_without_human_or_saint_figures",
+    "thirdPartyDownloadedMaterialRecorded": false,
+    "originalToolOutputHashMatches": 5,
+    "projectOutputAndPromptOnlyIds": ["feast-bogojavljenje", "feast-veliki-petak"],
+    "missingOriginalToolPathIsDisclosed": true,
+    "pendingStatusOrigin": "drafts/feast-backgrounds-2026-09-30/inspect.mjs initializes distribution_review to pending; this field is not a finding of a third-party prohibition."
+  },
+  "officialSources": [
+    {
+      "url": "https://openai.com/policies/terms-of-use/",
+      "effective": "2026-01-01",
+      "section": "Content; Using our Services",
+      "paraphrase": "Individual-service terms allocate output rights between the account user and OpenAI, to the extent applicable law permits. They preserve responsibility for input rights and do not guarantee unique output or transfer third-party rights. AI output must not be represented as human-generated."
+    },
+    {
+      "url": "https://openai.com/policies/eu-terms-of-use/",
+      "updated": "2026-01-16",
+      "section": "Content",
+      "paraphrase": "European individual-service terms contain the corresponding output ownership allocation, with applicable-law and third-party-output limitations."
+    },
+    {
+      "url": "https://openai.com/policies/services-agreement/",
+      "effective": "2026-01-01",
+      "section": "4. Customer Content",
+      "paraphrase": "The business agreement allocates output rights to the contractual Customer, not automatically to every end user, and preserves input responsibility and possible similarity of output."
+    },
+    {
+      "url": "https://openai.com/policies/service-terms/",
+      "section": "Image and Video Capabilities",
+      "paraphrase": "Publicly sharing someone else's image on the service does not itself provide outside-service rights. The local evidence here records newly generated project outputs, not other users' public images."
+    }
+  ],
+  "assessment": {
+    "basis": "Documented first-party AI generation plus the applicable service-output contract is the relevant basis to evaluate, rather than inventing a stock-image license or treating null license_label as a prohibition.",
+    "accountContractAndLegalHolderIndependentlyVerified": false,
+    "missingFactIfNeeded": "Confirm that generation was under the project owner's own account or an account whose contractual Customer authorizes this project; no credential, invoice or secret is needed.",
+    "copyrightExistenceOrExclusivityClaimed": false,
+    "nonInfringementGuaranteeClaimed": false,
+    "publicDomainOrCC0Assigned": false,
+    "ecclesiasticalApprovalClaimed": false,
+    "worldwidePublicReuseLicenseAssigned": false,
+    "historicalPendingOrApprovalRewritten": false,
+    "readyForDistribution": false,
+    "runtimePublicationAuthorizedByThisRecord": false
+  },
+  "nextGates": [
+    "Tie the contractual account-holder basis to the existing project authorization without requesting the same editorial approval again.",
+    "Review exact new technical thumbnails and their native presentation.",
+    "Complete both native OTA compatibility, integrity, network, retention and recovery tests.",
+    "Prepare a new exact production candidate with reviewed evidence links; preserve all historical source and approval bytes."
+  ],
+  "unchanged": ["production discovery", "S11", "existing 18 approvals", "source artwork", "historical draft", "native code"]
+}

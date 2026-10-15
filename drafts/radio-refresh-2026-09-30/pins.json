@@ -1,0 +1,48 @@
+{
+  "schema_version": "svetlost33-radio-refresh-pins-1",
+  "status": "LOCAL_EVIDENCE_NOT_RELEASE_AUTHENTICATION",
+  "files": [
+    {
+      "role": "inventory",
+      "path": "drafts/calendar-gaps-2026-09-30/inventory.json",
+      "bytes": 55970,
+      "sha256": "8ed3742249f69fcf387fa6bf3f02ea1bd4d0c51a9303d45530c7b83430042df0"
+    },
+    {
+      "role": "core",
+      "path": "scripts/radio-monitor-core-v2.mjs",
+      "bytes": 7735,
+      "sha256": "b944bebe01931b219c161098db5fe1f00faab58ba24d8e9f94c63eeaedbc5212"
+    },
+    {
+      "role": "set",
+      "path": "releases/v2/production/releases/shared-calendar-browser-2026-09-27-m0v2-s10/release-set.json",
+      "bytes": 3933,
+      "sha256": "ccc354a8c9e2af4e45b08ec8ffc1d73dfeb4d8154dcf923efb5324d50debe879"
+    },
+    {
+      "role": "calendarManifest",
+      "path": "releases/v2/production/releases/shared-annual-2026-r1-m0v2-s2/modules/calendar-2026-r1-2026.1.1-r2/manifest.json",
+      "bytes": 630,
+      "sha256": "11e5d8b92ebbacd40ae6d0bad861c85a2df8220cd0b1091a2b7522754d538905"
+    },
+    {
+      "role": "libraryManifest",
+      "path": "releases/v2/production/releases/shared-annual-2026-r1-m0v2-s2/modules/library-annual-2026-r1-2026.1.1-r2/manifest.json",
+      "bytes": 3329,
+      "sha256": "5247bedb3d3deaf5f81601ff2f7a274417b0ce11ac1cebbb3f4b518cd26ee16d"
+    },
+    {
+      "role": "calendar",
+      "path": "releases/v2/production/releases/shared-annual-2026-r1-m0v2-s2/modules/calendar-2026-r1-2026.1.1-r2/data/calendar.2026.json",
+      "bytes": 1665524,
+      "sha256": "a1b6a5d5911ae03f77802bd466227f0c1ea4fe97708b1b6f92cd4b08847c7c9c"
+    },
+    {
+      "role": "corpus",
+      "path": "releases/v2/production/releases/shared-annual-2026-r1-m0v2-s2/modules/library-annual-2026-r1-2026.1.1-r2/data/gospels.sr-Cyrl.json",
+      "bytes": 1026828,
+      "sha256": "3855892ef6a8784e20b3ef83729a29437b7f8663bf83f6775f63978eeedc9809"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+✔ draft schema is valid and no action is enabled even under a modeled authenticated context (14.310208ms)
+✔ all three stable identities, six old URLs and neutral-logo/no-payment-rail scope survive (0.9025ms)
+✔ nine additions are explicitly attested by official pages and every destination was fetched (0.146ms)
+✔ review interval is exactly 30 days with one timestamp per link (0.061958ms)
+✔ modeled future approval preserves freshness requirement for donation only (1.75625ms)
+✔ expiry boundary and withdrawal block actions without affecting unrelated organizations (0.955125ms)
+✔ S10 baseline remains intact and all six non-charity descriptors are pinned (10.093709ms)
+✔ manifest schema and every proposed file hash match; no signing or production-ready release exists (33.48675ms)
+ℹ tests 8
+ℹ suites 0
+ℹ pass 8
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 197.706083

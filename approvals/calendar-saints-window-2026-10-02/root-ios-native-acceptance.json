@@ -1,0 +1,16 @@
+{
+  "status": "SCOPED_IOS_S12_NATIVE_ACCEPTANCE_CONFIRMED_FROM_STABLE_SOURCE_AND_LOG",
+  "date": "2026-10-02",
+  "release_source": "3ebc6bec0ab730f284dfa5fb2a8e6efa89874066",
+  "test_commit": "7837d4187f973ae1376d59519301e98d6ead9889",
+  "evidence_commit": "473ecf9",
+  "native_test_sha256": "5199adba7a1c40eb02caf4af9bf1715b856b964526ab627aa41d2264a5a9c0a4",
+  "native_log_sha256": "0ef9609838966f640868f99a24a458961b525064aa78cc5fae6771d15282cf82",
+  "native_receipt_sha256": "61c804fa77de2d5518cb8cd1a4d9632a53027fefb5aabf8cbffd3e432a735676",
+  "test_result": "1/1 PASS, 20.142 seconds, zero skip; owner run, no redundant root rerun",
+  "root_review": "Read full exact-candidate test and retained log; recomputed all three hashes and confirmed runtime bytes unchanged from release source. Native pinned RSA-PSS verifier authenticates original S11 and S12, real ModularUpdateInstaller commits S11 then S12 in a temporary native repository. No re-sign or DigestVerifier. Checks exact catalog/browser identity, seven additions/links, unchanged 62-article bytes, 21 memberships and 94 archive days, byte-identical settings, old archive-reader gate and cold repository restart.",
+  "index_sha256": "a0d50c23036db203035419f4ba169ddb6005223799ed3ac4e89e03dd9f7733e9",
+  "release_sha256": "78142e24f74812be9859b88163203de23517a9ed40a16c0f5ee085e25354255d",
+  "limits": ["local signed-input transport/native repository test, not public network refresh", "no physical Nemus claim", "no app signing or asset distribution gate closure", "not full-suite or capability matrix rerun"],
+  "public_activation": false
+}

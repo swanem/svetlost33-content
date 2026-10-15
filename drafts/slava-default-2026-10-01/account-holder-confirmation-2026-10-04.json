@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "recordedOn": "2026-10-04",
+  "decision": "USER_ACCOUNT_OWNERSHIP_CONFIRMED_FOR_EXACT_SLAVA_MOTIF",
+  "userMessage": "moje nalog je koriscen sta je jos potrebnmo od mene?",
+  "context": "Direct response to the outstanding question whether the account used to generate the Slava motif was the user's own account or an authorized organizational account.",
+  "accountHolderStatement": "The user confirms their own account was used.",
+  "assetId": "slava-default",
+  "original": "slava-default-candidate-r1.png",
+  "originalSha256": "87ce4958b5cc3e3157f02d8be930272979b64cae76b33aa3fd55db370438b9c7",
+  "candidateRecord": "candidate-r1.json",
+  "candidateRecordSha256": "0c51d4f0510ab4e9199d566d0e0fbac1d4afb31bdc9589688a966d8a7cf4c277",
+  "editorialApprovalRecord": "owner-approval-r1.json",
+  "editorialApprovalRecordSha256": "07d5561332511d363a45c1f66b7850ef559d8ceb98d9906d2bc9e8424ed0f289",
+  "priorPublicationAuthorization": "objavi zavrseno i nastavi sa Isporuka gotovih izmena, Dopuna kalendara and OTA",
+  "outstandingAccountHolderQuestionResolved": true,
+  "newPublicationApprovalRequiredForThisExactMotif": false,
+  "scope": "Exact approved Slava motif and its traced native preview renditions only. The factual account-holder blocker is closed; technical release checks and signing remain separate.",
+  "limitations": [
+    "User statement, not an independent account audit or legal guarantee.",
+    "No CC0 or public-domain license assertion.",
+    "Does not change historical candidate or approval records.",
+    "Does not resolve the separate provenance records of the previous seven draft images.",
+    "Does not assert signing, publication, device installation or OTA activation."
+  ]
+}

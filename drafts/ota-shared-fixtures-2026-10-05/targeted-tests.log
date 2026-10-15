@@ -1,0 +1,23 @@
+✔ three exact inventories contain 89 regular files each; no extra/private key artifact (41.116125ms)
+✔ only ephemeral RSA2048 public SPKI is delivered; PSS SHA256 salt32 verifies all33 signed documents (2.264584ms)
+✔ one actual S12 core graph preserves21 payloads byte-for-byte in allvariants (6.424083ms)
+✔ each signed graph has9modules, exact7policy and38media records; source core dependencies unchanged (72.0845ms)
+✔ synthetic sequence/minclients/key/channel are explicit test-only and never production defaults (0.240208ms)
+✔ N+1 changes catalog approval metadata only; all38 images and signed media manifest stay identical (4.58475ms)
+✔ R2 exact schema/binding/structure and full decode accepts N19originals+19thumbnails (760.996083ms)
+✔ R2 N→N+1 metadata transition retains pending status but bindsnew catalog/policy (3.094666ms)
+✔ synthetic N+2 globalrevoke is equivalent fresh/upgrade and protects slava-default (2.569375ms)
+✔ R2 rollback and lost authenticated checkpoint fail closed (0.843792ms)
+✔ R2 raw catalog tamper is rejected before metadata claims (0.243458ms)
+✔ real M0 verifier rejects the production public key for fixture signatures (3.099458ms)
+✔ real M0 verifier rejects changed raw index bytes without mutating shared fixture files (1.269666ms)
+✔ real M0 gates reject production channel, insufficient client, required capability and rollback (27.938792ms)
+✔ builder safe reads require pinned hashes and cannot escape the immutable fixture root (0.516708ms)
+ℹ tests 15
+ℹ suites 0
+ℹ pass 15
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 1183.761334

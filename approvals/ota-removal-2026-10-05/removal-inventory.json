@@ -1,0 +1,156 @@
+{
+  "recorded_on": "2026-10-05",
+  "status": "EXACT_REMOVAL_SCOPE_APPROVED",
+  "authority": "User cancelled wallpaper OTA and explicitly requested removing existing OTA code; root delegated content-only cleanup.",
+  "scope": "Eleven wallpaper-only exporters/development-fixture builders/tests and two npm commands. No generic publisher/verifier or bundled image/preview/rights removal.",
+  "removals": [
+    {
+      "path": "scripts/media19-release-v2.mjs",
+      "bytes": 32018,
+      "sha256": "8a1def488608223a25fcb93cdc5c9f534c8a6a474c34ef20a9b637a855166fe0",
+      "tracked": false
+    },
+    {
+      "path": "tests/media19-release-v2.test.mjs",
+      "bytes": 13784,
+      "sha256": "f350e9df151c239a058aa770c5c08cfd6cce656c348d9dc416d2ccd9a0859dc7",
+      "tracked": false
+    },
+    {
+      "path": "drafts/ota-initial-19-2026-10-04/validate-inputs.mjs",
+      "bytes": 12728,
+      "sha256": "d519128d1a9e02c41a18c14537a5d36aaefd8b10c5cd723084027baa362e685e",
+      "tracked": false
+    },
+    {
+      "path": "drafts/ota-initial-19-export-2026-10-05/exporter.mjs",
+      "bytes": 23750,
+      "sha256": "95b15217e1a450c2ed26ba852ed3d26fefa710c8efcb35852e2aee04ade78f8d",
+      "tracked": false
+    },
+    {
+      "path": "drafts/ota-initial-19-export-2026-10-05/exporter.test.mjs",
+      "bytes": 11441,
+      "sha256": "fdf02a7df81c7187b0725a40eab16f3e652bba0446988c86e39cb8bb59dda9cd",
+      "tracked": false
+    },
+    {
+      "path": "drafts/ota-shared-fixtures-2026-10-05/builder.mjs",
+      "bytes": 18529,
+      "sha256": "d837d8fd9adc68190b27797d84ab81159d0a6aa9c061a499ac38d29270149a9a",
+      "tracked": false
+    },
+    {
+      "path": "drafts/ota-shared-fixtures-2026-10-05/builder.test.mjs",
+      "bytes": 13088,
+      "sha256": "31742250b0b8f98314ad26903a8dab62f4c2e5dc49ed00c86040a9c8547bf823",
+      "tracked": false
+    },
+    {
+      "path": "scripts/generate-development-backgrounds-v1.mjs",
+      "bytes": 17621,
+      "sha256": "1dca15a5967bd58a106a95519476c88280a7b913659071f2e9eb937cc18f0edb",
+      "tracked": true
+    },
+    {
+      "path": "scripts/generate-development-combined.mjs",
+      "bytes": 7220,
+      "sha256": "8111fa8fa0ba69d5f1e7c7050ab6cb6e5f303df6d00a6ce5049dfc956aa7563b",
+      "tracked": true
+    },
+    {
+      "path": "tests/backgrounds-development.test.mjs",
+      "bytes": 18221,
+      "sha256": "38031579726b9f9ca9c7c4ad6754abbf786b747151c5fba52f11213a8b8b1e85",
+      "tracked": true
+    },
+    {
+      "path": "tests/backgrounds-combined.test.mjs",
+      "bytes": 9942,
+      "sha256": "0b436bf1cb05712c18d817dae3ff0a87f5115d2e38a2aa0b89c1a881ba04910a",
+      "tracked": true
+    }
+  ],
+  "preserved": [
+    {
+      "root": "releases",
+      "files": 179,
+      "bytes": 17670677,
+      "tree_sha256": "03223a213592822200e7bec1ea2fdafc0381dd6b7b785278ba1c9155fb30c22c"
+    },
+    {
+      "root": "modules",
+      "files": 6,
+      "bytes": 194222,
+      "tree_sha256": "31f88d9b0b2f8ba83ac171d053cd97749d9b890a77e3115f2e5712e9f4c63c92"
+    },
+    {
+      "root": "licenses",
+      "files": 2,
+      "bytes": 6973,
+      "tree_sha256": "9517499b5805b0ba659a5f5a91f7feb3f54b022cec659b09203fa3d4b4ebb538"
+    },
+    {
+      "root": "approvals/shared-backgrounds-v1-2026-09-16",
+      "files": 3,
+      "bytes": 14378,
+      "tree_sha256": "9a34d5ac5a4c57f28e08b22b6caefe3abba74f99cc58dfc2f81ea24b5b2f4377"
+    },
+    {
+      "root": "drafts/slava-default-2026-10-01",
+      "files": 10,
+      "bytes": 4614581,
+      "tree_sha256": "86d0d95c5fde4c2134d2eb2ad1b03d2f28a819c142e1545a83d847d968704b1a"
+    },
+    {
+      "root": "drafts/ota-initial-19-2026-10-04",
+      "files": 4,
+      "bytes": 96530,
+      "tree_sha256": "404dc91502a411c4cbcdb4af5cfa02b975e181299c155bce885a100ba3951ce3"
+    },
+    {
+      "root": "drafts/ota-initial-19-export-2026-10-05",
+      "files": 7,
+      "bytes": 41901,
+      "tree_sha256": "ae624fbf6f500eb3ad8b4a4d2496a997a39e2eca97269b17b3c411ee5c6cee48"
+    },
+    {
+      "root": "drafts/ota-shared-fixtures-2026-10-05",
+      "files": 6,
+      "bytes": 69351,
+      "tree_sha256": "4e68f264bd417cf3a955a44cf7563b3004a312d104cbeebd8ddea993efa9503b"
+    },
+    {
+      "root": "drafts/ota-media19-release-tooling-2026-10-05",
+      "files": 2,
+      "bytes": 12278,
+      "tree_sha256": "39196d45fae4157c02a240f26a400a590d721caed873ae1f9d114da6c360adef"
+    },
+    {
+      "root": "exports/ten-commandments-v1",
+      "files": 1,
+      "bytes": 17209,
+      "tree_sha256": "df0dc3863ed5702ab700b2a9a7a2fa78c69ffab7e30488272b66fc82052c695d"
+    }
+  ],
+  "package_before": {
+    "path": "package.json",
+    "bytes": 1173,
+    "sha256": "e2d344486848bdee0e21e29271c5471b0fcc348310aa570c07ae2b0b5c3c4389"
+  },
+  "git_head": "e6e09c613c1847cc027cdbb23b04d99cbe836840",
+  "dependency_findings": {
+    "p5_chain": "media19-release-v2 imports only the M4 exporter and shared fixture builder; their tests/imports are removed together. validate-inputs is the initial P5-only locked inventory probe; its saved output/evidence remain.",
+    "older_development_chain": "backgrounds-v1 development signer/fixture builder is imported only by combined annual+background integration fixture and the two dedicated tests. Generic annual generator is separate and preserved.",
+    "package_scripts_removed": [
+      "development:backgrounds",
+      "development:combined"
+    ],
+    "retained_generic_image_tests": "generate-v2-fixtures.mjs backgrounds-core tiny synthetic images, validate-m0-v2.mjs image decode/schema validation and content-v015 inventory tests remain generic M0 regression coverage, not a real-media publisher."
+  },
+  "backup": {
+    "path": "approvals/ota-removal-2026-10-05/removed-content-tooling.tar.gz",
+    "selection": "Exact eleven paths listed above, including all seven untracked source/test files and four tracked historical fixture files.",
+    "restore_guidance": "Extract into a NEW review directory first and compare listed hashes. Do not restore over current code automatically."
+  }
+}

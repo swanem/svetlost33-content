@@ -1,0 +1,24 @@
+{
+  "record_kind": "read_only_public_git_base_observation_not_publication_receipt",
+  "observed_on": "2026-10-02",
+  "repository": "https://github.com/swanem/svetlost33-content.git",
+  "branch": "refs/heads/main",
+  "commit": "e59bfa36bed840e751f7dbe5e0b7fa1e86cbced0",
+  "methods": [
+    "git ls-remote returned the same public main commit",
+    "fresh shallow sparse checkout from the public repository, then git rev-parse HEAD",
+    "sparse checkout of releases/v2/production into an isolated temporary directory",
+    "fresh raw HTTPS index readback with Cache-Control no-cache and SHA-256, using authorized network access"
+  ],
+  "checkout": "/tmp/svetlost33-s12-public.622b9y/checkout",
+  "production_root": "/tmp/svetlost33-s12-public.622b9y/checkout/releases/v2/production",
+  "index_sha256": "36d39ce8882df55b66987afedcb8f080f31c2b8fd565a45561492aae5e2631ff",
+  "release_set_id": "shared-content-refresh-2026-09-30-m0v2-s11",
+  "sequence": 11,
+  "release_set_sha256": "ef109fcdb5ef14baae8697664e447a1c17378030e57f1209cb3fa2510cbf13d3",
+  "limits": [
+    "Sandbox DNS initially failed; authorized network access completed both public git retrieval and raw HTTPS discovery hash readback.",
+    "The preparation loader separately verifies pinned production key, all signatures, lengths, hashes, dependency graph and supported profiles from these captured bytes.",
+    "This is a point-in-time observation. Signing/publication must recheck public main and discovery; the observation is not a lock on the remote repository."
+  ]
+}

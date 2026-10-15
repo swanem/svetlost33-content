@@ -1,0 +1,1594 @@
+{
+  "schema_version": "svetlost33-ota-initial19-input-inventory-1",
+  "status": "LOCAL_UNSIGNED_INPUT_INVENTORY_NOT_WIRE_EXPORT",
+  "recorded_on": "2026-10-04",
+  "anchors": [
+    {
+      "id": "old-approval",
+      "path": "svetlost33-content/approvals/shared-backgrounds-v1-2026-09-16/approval.json",
+      "bytes": 2719,
+      "sha256": "43cc4bda3835376e8d6e20d91f29df64784d2100ff085961fbfa945009d8c020"
+    },
+    {
+      "id": "old-source",
+      "path": "svetlost33-content/approvals/shared-backgrounds-v1-2026-09-16/source-manifest.json",
+      "bytes": 6648,
+      "sha256": "6b8102f428daf16d361aa87d686eb444e8ed1ef4ba94ed241cafc44a8a7c15b4"
+    },
+    {
+      "id": "old-catalog",
+      "path": "svetlost33-content/approvals/shared-backgrounds-v1-2026-09-16/catalog.json",
+      "bytes": 5011,
+      "sha256": "9895ddbeee59b2fc1203ffae21c727121ad6474a267bfb1b013c79a554ae4894"
+    },
+    {
+      "id": "old-rights",
+      "path": "svetlost33-content/licenses/backgrounds-v1.json",
+      "bytes": 6202,
+      "sha256": "5d5996e2f4f033e33949b8e3d80aa3ffba4c1d9fff85e6359275962f4822e2af"
+    },
+    {
+      "id": "spec",
+      "path": "svetlost33-github/docs/SPECIFIKACIJA.md",
+      "bytes": 439536,
+      "sha256": "36cbd275c490f8952b082c27f3f2388ff6884e61e224645efab15cac41afc61d"
+    },
+    {
+      "id": "m4-plan",
+      "path": "svetlost33-github/docs/PLAN-OTVORENIH-STAVKI-2026-09-30.md",
+      "bytes": 40204,
+      "sha256": "ff4a295aba79b208f3a87006deb1ba3b42fc818fc5c4abb46cce8924082fde05"
+    },
+    {
+      "id": "freeze-r4",
+      "path": "svetlost33-github/docs/contracts/media-ota-v1-2026-09-30/shared-freeze-r4.json",
+      "bytes": 6128,
+      "sha256": "d8bf15e6727b9286a9af177d8ebe2925254e59c4e3959985bd45465de0f8a9e9"
+    },
+    {
+      "id": "clarification-01",
+      "path": "svetlost33-github/docs/contracts/media-ota-v1-2026-09-30/shared-freeze-r4-clarification-01.json",
+      "bytes": 1697,
+      "sha256": "8f37a607e3ddeb314bee01c8ee8a8d6ec4ec1fefbe90c0f9eddc18680909abc4"
+    },
+    {
+      "id": "image-structure",
+      "path": "svetlost33-github/docs/contracts/media-ota-v1-2026-09-30/wire/review-r2/image-structure.mjs",
+      "bytes": 3685,
+      "sha256": "4557d148da9e56d952ae0f9ed20a0982e692565e26c887fb3e7fe4b0542ad409"
+    },
+    {
+      "id": "frozen-r3-exporter",
+      "path": "svetlost33-github/docs/contracts/media-ota-v1-2026-09-30/wire/review-r3/exporter.mjs",
+      "bytes": 18443,
+      "sha256": "5548051ca8428dba059411d5742b00a65aa742af6678bc2a5318300acf84e860"
+    },
+    {
+      "id": "frozen-r3-source-lock",
+      "path": "svetlost33-github/docs/contracts/media-ota-v1-2026-09-30/wire/review-r3/source-lock.json",
+      "bytes": 1731,
+      "sha256": "9fa4686f6a3babffbfde2160c359444227216d3bf723e90b1ac6df86cd00aec6"
+    },
+    {
+      "id": "slava-candidate",
+      "path": "svetlost33-content/drafts/slava-default-2026-10-01/candidate-r1.json",
+      "bytes": 2929,
+      "sha256": "0c51d4f0510ab4e9199d566d0e0fbac1d4afb31bdc9589688a966d8a7cf4c277"
+    },
+    {
+      "id": "slava-editorial",
+      "path": "svetlost33-content/drafts/slava-default-2026-10-01/owner-approval-r1.json",
+      "bytes": 1453,
+      "sha256": "07d5561332511d363a45c1f66b7850ef559d8ceb98d9906d2bc9e8424ed0f289"
+    },
+    {
+      "id": "slava-account-confirmation",
+      "path": "svetlost33-content/drafts/slava-default-2026-10-01/account-holder-confirmation-2026-10-04.json",
+      "bytes": 1726,
+      "sha256": "47f00718064739c25bd6f9805786e587883b2b151c0d93680079a661f5285bb6"
+    },
+    {
+      "id": "slava-native-renditions",
+      "path": "svetlost33-content/drafts/slava-default-2026-10-01/native-renditions/manifest.json",
+      "bytes": 3017,
+      "sha256": "11c5b8af1b085524d2d5d7deeef95a954ada05b16cdb4dfd9f75c355fb7aa023"
+    },
+    {
+      "id": "android-native-renditions",
+      "path": "svetlost33-android-release-0.21.1/shared/background-renditions-v1/manifest.json",
+      "bytes": 31612,
+      "sha256": "a09e4d9e9ce784f76fc190281f5ce8cb5b0ae2d597075b96c2d25839b269dad9"
+    },
+    {
+      "id": "ios-native-renditions",
+      "path": "svetlost33-ios-release-2026-10-02/Sources/SvetlostCore/PreviewResources/background-renditions-v1/manifest.json",
+      "bytes": 31612,
+      "sha256": "a09e4d9e9ce784f76fc190281f5ce8cb5b0ae2d597075b96c2d25839b269dad9"
+    }
+  ],
+  "native_source_commits": {
+    "android": {
+      "repo": "svetlost33-android-release-0.21.1",
+      "commit": "cd27680a56325be346a5657ef12cf7187458e1e1",
+      "version": "0.21.1",
+      "build": 61
+    },
+    "ios": {
+      "repo": "svetlost33-ios-release-2026-10-02",
+      "commit": "3ebc6bec0ab730f284dfa5fb2a8e6efa89874066",
+      "version": "0.1.9",
+      "build": 36
+    }
+  },
+  "default_ids": [
+    "day1",
+    "day2",
+    "day3",
+    "day4",
+    "day5",
+    "day6",
+    "day7"
+  ],
+  "asset_count": 19,
+  "original_bytes": 48081295,
+  "native_derivative_count": 38,
+  "native_derivative_bytes": 4156764,
+  "ota_thumbnail_count": 0,
+  "ota_package_bytes": null,
+  "production_sequence": null,
+  "production_min_clients": null,
+  "ready_for_signing": false,
+  "ready_for_publication": false,
+  "capability_enabled": false,
+  "excluded": [
+    "previous seven feast draft images",
+    "new calendar facts",
+    "native code",
+    "signatures",
+    "public activation"
+  ],
+  "scope_limit": "Validates exact approval/native committed bytes from delivered Android61/iOS36 sources and recorded approval joins. Root delivery receipts are referenced separately; no new device or artifact inspection. Not proof of global reuse rights, signed wire compatibility, native rendering or OTA activation.",
+  "items": [
+    {
+      "id": "day1",
+      "title": {
+        "sr-Latn": "Tihe vode",
+        "sr-Cyrl": "Тихе воде"
+      },
+      "original": {
+        "bytes": 2642832,
+        "sha256": "754a24836b33027d8bcaf4cfaa7770c4b0bc24a8012010fd03c1c6bd43571a9e",
+        "width": 941,
+        "height": 1672,
+        "content_type": "image/png",
+        "source_path": "svetlost33-android-release-0.21.1/app/src/main/assets/backgrounds/day1.png",
+        "native_paths": [
+          "svetlost33-android-release-0.21.1/app/src/main/assets/backgrounds/day1.png",
+          "svetlost33-ios-release-2026-10-02/Sources/SvetlostCore/Resources/backgrounds/day1.png"
+        ]
+      },
+      "provenance": {
+        "source_anchor": "old-source",
+        "source_pointer": "/assets/0",
+        "approval_anchors": [
+          "old-approval"
+        ],
+        "rights_anchor": "old-rights",
+        "rights_pointer": "/items/0",
+        "legal_basis": "APPROVED_FOR_APP_DISTRIBUTION_BY_PROJECT_OWNER",
+        "territories": [
+          "RS",
+          "BA"
+        ],
+        "public_license_asserted": false
+      },
+      "default_rotation_member": true,
+      "common_slava_motif": false,
+      "legacy_association_evidence_only": null,
+      "runtime_calendar_binding": null,
+      "native_derivatives": [
+        {
+          "role": "gallery-small",
+          "bytes": 38317,
+          "height": 640,
+          "mime_type": "image/jpeg",
+          "path": "approved-existing/day1/754a24836b33027d8bcaf4cfaa7770c4b0bc24a8012010fd03c1c6bd43571a9e/2b673f18f967ecd0bbf43f11c21a648f478d55e5f2ccd5d8fbc4ad70d2a2e763/gallery-small.jpg",
+          "recipe_sha256": "2b673f18f967ecd0bbf43f11c21a648f478d55e5f2ccd5d8fbc4ad70d2a2e763",
+          "recipe_version": "jpeg-v1",
+          "sha256": "35bdbac49f065a4bbeb49eb927335311888c59e3b4a3cc1a766a79a25b3a5843",
+          "width": 360,
+          "source_sha256": "754a24836b33027d8bcaf4cfaa7770c4b0bc24a8012010fd03c1c6bd43571a9e",
+          "native_paths": [
+            "svetlost33-android-release-0.21.1/shared/background-renditions-v1/approved-existing/day1/754a24836b33027d8bcaf4cfaa7770c4b0bc24a8012010fd03c1c6bd43571a9e/2b673f18f967ecd0bbf43f11c21a648f478d55e5f2ccd5d8fbc4ad70d2a2e763/gallery-small.jpg",
+            "svetlost33-ios-release-2026-10-02/Sources/SvetlostCore/PreviewResources/background-renditions-v1/approved-existing/day1/754a24836b33027d8bcaf4cfaa7770c4b0bc24a8012010fd03c1c6bd43571a9e/2b673f18f967ecd0bbf43f11c21a648f478d55e5f2ccd5d8fbc4ad70d2a2e763/gallery-small.jpg"
+          ],
+          "ota_thumbnail_role": false
+        },
+        {
+          "role": "preview-large",
+          "bytes": 183716,
+          "height": 1280,
+          "mime_type": "image/jpeg",
+          "path": "approved-existing/day1/754a24836b33027d8bcaf4cfaa7770c4b0bc24a8012010fd03c1c6bd43571a9e/2b673f18f967ecd0bbf43f11c21a648f478d55e5f2ccd5d8fbc4ad70d2a2e763/preview-large.jpg",
+          "recipe_sha256": "2b673f18f967ecd0bbf43f11c21a648f478d55e5f2ccd5d8fbc4ad70d2a2e763",
+          "recipe_version": "jpeg-v1",
+          "sha256": "5f6cf63ff048f8ed95ef0829bf4fbdc83df08703dbc1af9438784b322f8319c0",
+          "width": 720,
+          "source_sha256": "754a24836b33027d8bcaf4cfaa7770c4b0bc24a8012010fd03c1c6bd43571a9e",
+          "native_paths": [
+            "svetlost33-android-release-0.21.1/shared/background-renditions-v1/approved-existing/day1/754a24836b33027d8bcaf4cfaa7770c4b0bc24a8012010fd03c1c6bd43571a9e/2b673f18f967ecd0bbf43f11c21a648f478d55e5f2ccd5d8fbc4ad70d2a2e763/preview-large.jpg",
+            "svetlost33-ios-release-2026-10-02/Sources/SvetlostCore/PreviewResources/background-renditions-v1/approved-existing/day1/754a24836b33027d8bcaf4cfaa7770c4b0bc24a8012010fd03c1c6bd43571a9e/2b673f18f967ecd0bbf43f11c21a648f478d55e5f2ccd5d8fbc4ad70d2a2e763/preview-large.jpg"
+          ],
+          "ota_thumbnail_role": false
+        }
+      ]
+    },
+    {
+      "id": "day2",
+      "title": {
+        "sr-Latn": "Sigurno utočište",
+        "sr-Cyrl": "Сигурно уточиште"
+      },
+      "original": {
+        "bytes": 2637222,
+        "sha256": "7bdafabaacae4f5f75a1a8522794fcfe6e2c41420d862593f32107af7b581e4c",
+        "width": 941,
+        "height": 1672,
+        "content_type": "image/png",
+        "source_path": "svetlost33-android-release-0.21.1/app/src/main/assets/backgrounds/day2.png",
+        "native_paths": [
+          "svetlost33-android-release-0.21.1/app/src/main/assets/backgrounds/day2.png",
+          "svetlost33-ios-release-2026-10-02/Sources/SvetlostCore/Resources/backgrounds/day2.png"
+        ]
+      },
+      "provenance": {
+        "source_anchor": "old-source",
+        "source_pointer": "/assets/1",
+        "approval_anchors": [
+          "old-approval"
+        ],
+        "rights_anchor": "old-rights",
+        "rights_pointer": "/items/1",
+        "legal_basis": "APPROVED_FOR_APP_DISTRIBUTION_BY_PROJECT_OWNER",
+        "territories": [
+          "RS",
+          "BA"
+        ],
+        "public_license_asserted": false
+      },
+      "default_rotation_member": true,
+      "common_slava_motif": false,
+      "legacy_association_evidence_only": null,
+      "runtime_calendar_binding": null,
+      "native_derivatives": [
+        {
+          "role": "gallery-small",
+          "bytes": 38739,
+          "height": 640,
+          "mime_type": "image/jpeg",
+          "path": "approved-existing/day2/7bdafabaacae4f5f75a1a8522794fcfe6e2c41420d862593f32107af7b581e4c/2b673f18f967ecd0bbf43f11c21a648f478d55e5f2ccd5d8fbc4ad70d2a2e763/gallery-small.jpg",
+          "recipe_sha256": "2b673f18f967ecd0bbf43f11c21a648f478d55e5f2ccd5d8fbc4ad70d2a2e763",
+          "recipe_version": "jpeg-v1",
+          "sha256": "f6a72728793a085662e71b289bc8fd278bdeaf1501258c2cd520f6b1ca225d63",
+          "width": 360,
+          "source_sha256": "7bdafabaacae4f5f75a1a8522794fcfe6e2c41420d862593f32107af7b581e4c",
+          "native_paths": [
+            "svetlost33-android-release-0.21.1/shared/background-renditions-v1/approved-existing/day2/7bdafabaacae4f5f75a1a8522794fcfe6e2c41420d862593f32107af7b581e4c/2b673f18f967ecd0bbf43f11c21a648f478d55e5f2ccd5d8fbc4ad70d2a2e763/gallery-small.jpg",
+            "svetlost33-ios-release-2026-10-02/Sources/SvetlostCore/PreviewResources/background-renditions-v1/approved-existing/day2/7bdafabaacae4f5f75a1a8522794fcfe6e2c41420d862593f32107af7b581e4c/2b673f18f967ecd0bbf43f11c21a648f478d55e5f2ccd5d8fbc4ad70d2a2e763/gallery-small.jpg"
+          ],
+          "ota_thumbnail_role": false
+        },
+        {
+          "role": "preview-large",
+          "bytes": 183250,
+          "height": 1280,
+          "mime_type": "image/jpeg",
+          "path": "approved-existing/day2/7bdafabaacae4f5f75a1a8522794fcfe6e2c41420d862593f32107af7b581e4c/2b673f18f967ecd0bbf43f11c21a648f478d55e5f2ccd5d8fbc4ad70d2a2e763/preview-large.jpg",
+          "recipe_sha256": "2b673f18f967ecd0bbf43f11c21a648f478d55e5f2ccd5d8fbc4ad70d2a2e763",
+          "recipe_version": "jpeg-v1",
+          "sha256": "5cebdd48e92280070aeb694209193b6e0828311656fcd164dde3a0c4bb621df0",
+          "width": 720,
+          "source_sha256": "7bdafabaacae4f5f75a1a8522794fcfe6e2c41420d862593f32107af7b581e4c",
+          "native_paths": [
+            "svetlost33-android-release-0.21.1/shared/background-renditions-v1/approved-existing/day2/7bdafabaacae4f5f75a1a8522794fcfe6e2c41420d862593f32107af7b581e4c/2b673f18f967ecd0bbf43f11c21a648f478d55e5f2ccd5d8fbc4ad70d2a2e763/preview-large.jpg",
+            "svetlost33-ios-release-2026-10-02/Sources/SvetlostCore/PreviewResources/background-renditions-v1/approved-existing/day2/7bdafabaacae4f5f75a1a8522794fcfe6e2c41420d862593f32107af7b581e4c/2b673f18f967ecd0bbf43f11c21a648f478d55e5f2ccd5d8fbc4ad70d2a2e763/preview-large.jpg"
+          ],
+          "ota_thumbnail_role": false
+        }
+      ]
+    },
+    {
+      "id": "day3",
+      "title": {
+        "sr-Latn": "Svetlost na putu",
+        "sr-Cyrl": "Светлост на путу"
+      },
+      "original": {
+        "bytes": 2836981,
+        "sha256": "30dc32de31ab7fd2a87edd7af683b399f448f10d457cdfa7412fbd75d1ae1ddf",
+        "width": 941,
+        "height": 1672,
+        "content_type": "image/png",
+        "source_path": "svetlost33-android-release-0.21.1/app/src/main/assets/backgrounds/day3.png",
+        "native_paths": [
+          "svetlost33-android-release-0.21.1/app/src/main/assets/backgrounds/day3.png",
+          "svetlost33-ios-release-2026-10-02/Sources/SvetlostCore/Resources/backgrounds/day3.png"
+        ]
+      },
+      "provenance": {
+        "source_anchor": "old-source",
+        "source_pointer": "/assets/2",
+        "approval_anchors": [
+          "old-approval"
+        ],
+        "rights_anchor": "old-rights",
+        "rights_pointer": "/items/2",
+        "legal_basis": "APPROVED_FOR_APP_DISTRIBUTION_BY_PROJECT_OWNER",
+        "territories": [
+          "RS",
+          "BA"
+        ],
+        "public_license_asserted": false
+      },
+      "default_rotation_member": true,
+      "common_slava_motif": false,
+      "legacy_association_evidence_only": null,
+      "runtime_calendar_binding": null,
+      "native_derivatives": [
+        {
+          "role": "gallery-small",
+          "bytes": 48169,
+          "height": 640,
+          "mime_type": "image/jpeg",
+          "path": "approved-existing/day3/30dc32de31ab7fd2a87edd7af683b399f448f10d457cdfa7412fbd75d1ae1ddf/2b673f18f967ecd0bbf43f11c21a648f478d55e5f2ccd5d8fbc4ad70d2a2e763/gallery-small.jpg",
+          "recipe_sha256": "2b673f18f967ecd0bbf43f11c21a648f478d55e5f2ccd5d8fbc4ad70d2a2e763",
+          "recipe_version": "jpeg-v1",
+          "sha256": "d1c978c3b4c9de2c1c517bacda4d36758ae67874b56b7773a5b4376c23a0d511",
+          "width": 360,
+          "source_sha256": "30dc32de31ab7fd2a87edd7af683b399f448f10d457cdfa7412fbd75d1ae1ddf",
+          "native_paths": [
+            "svetlost33-android-release-0.21.1/shared/background-renditions-v1/approved-existing/day3/30dc32de31ab7fd2a87edd7af683b399f448f10d457cdfa7412fbd75d1ae1ddf/2b673f18f967ecd0bbf43f11c21a648f478d55e5f2ccd5d8fbc4ad70d2a2e763/gallery-small.jpg",
+            "svetlost33-ios-release-2026-10-02/Sources/SvetlostCore/PreviewResources/background-renditions-v1/approved-existing/day3/30dc32de31ab7fd2a87edd7af683b399f448f10d457cdfa7412fbd75d1ae1ddf/2b673f18f967ecd0bbf43f11c21a648f478d55e5f2ccd5d8fbc4ad70d2a2e763/gallery-small.jpg"
+          ],
+          "ota_thumbnail_role": false
+        },
+        {
+          "role": "preview-large",
+          "bytes": 218853,
+          "height": 1280,
+          "mime_type": "image/jpeg",
+          "path": "approved-existing/day3/30dc32de31ab7fd2a87edd7af683b399f448f10d457cdfa7412fbd75d1ae1ddf/2b673f18f967ecd0bbf43f11c21a648f478d55e5f2ccd5d8fbc4ad70d2a2e763/preview-large.jpg",
+          "recipe_sha256": "2b673f18f967ecd0bbf43f11c21a648f478d55e5f2ccd5d8fbc4ad70d2a2e763",
+          "recipe_version": "jpeg-v1",
+          "sha256": "cc076d1811daa68d5a177bc26a8ebd95c7c4b9d6c04899e79aff3ff64fd7ebe5",
+          "width": 720,
+          "source_sha256": "30dc32de31ab7fd2a87edd7af683b399f448f10d457cdfa7412fbd75d1ae1ddf",
+          "native_paths": [
+            "svetlost33-android-release-0.21.1/shared/background-renditions-v1/approved-existing/day3/30dc32de31ab7fd2a87edd7af683b399f448f10d457cdfa7412fbd75d1ae1ddf/2b673f18f967ecd0bbf43f11c21a648f478d55e5f2ccd5d8fbc4ad70d2a2e763/preview-large.jpg",
+            "svetlost33-ios-release-2026-10-02/Sources/SvetlostCore/PreviewResources/background-renditions-v1/approved-existing/day3/30dc32de31ab7fd2a87edd7af683b399f448f10d457cdfa7412fbd75d1ae1ddf/2b673f18f967ecd0bbf43f11c21a648f478d55e5f2ccd5d8fbc4ad70d2a2e763/preview-large.jpg"
+          ],
+          "ota_thumbnail_role": false
+        }
+      ]
+    },
+    {
+      "id": "day4",
+      "title": {
+        "sr-Latn": "Žeđ duše",
+        "sr-Cyrl": "Жеђ душе"
+      },
+      "original": {
+        "bytes": 3020963,
+        "sha256": "6d14f488e97dfdc8380efda582858f3e3f01935bb2f94a35f0abc2c081937e22",
+        "width": 941,
+        "height": 1672,
+        "content_type": "image/png",
+        "source_path": "svetlost33-android-release-0.21.1/app/src/main/assets/backgrounds/day4.png",
+        "native_paths": [
+          "svetlost33-android-release-0.21.1/app/src/main/assets/backgrounds/day4.png",
+          "svetlost33-ios-release-2026-10-02/Sources/SvetlostCore/Resources/backgrounds/day4.png"
+        ]
+      },
+      "provenance": {
+        "source_anchor": "old-source",
+        "source_pointer": "/assets/3",
+        "approval_anchors": [
+          "old-approval"
+        ],
+        "rights_anchor": "old-rights",
+        "rights_pointer": "/items/3",
+        "legal_basis": "APPROVED_FOR_APP_DISTRIBUTION_BY_PROJECT_OWNER",
+        "territories": [
+          "RS",
+          "BA"
+        ],
+        "public_license_asserted": false
+      },
+      "default_rotation_member": true,
+      "common_slava_motif": false,
+      "legacy_association_evidence_only": null,
+      "runtime_calendar_binding": null,
+      "native_derivatives": [
+        {
+          "role": "gallery-small",
+          "bytes": 53013,
+          "height": 640,
+          "mime_type": "image/jpeg",
+          "path": "approved-existing/day4/6d14f488e97dfdc8380efda582858f3e3f01935bb2f94a35f0abc2c081937e22/2b673f18f967ecd0bbf43f11c21a648f478d55e5f2ccd5d8fbc4ad70d2a2e763/gallery-small.jpg",
+          "recipe_sha256": "2b673f18f967ecd0bbf43f11c21a648f478d55e5f2ccd5d8fbc4ad70d2a2e763",
+          "recipe_version": "jpeg-v1",
+          "sha256": "4983e5664d27b1c5375532fbf925cdef303ad41f266db7273c2b7f88560a5ee0",
+          "width": 360,
+          "source_sha256": "6d14f488e97dfdc8380efda582858f3e3f01935bb2f94a35f0abc2c081937e22",
+          "native_paths": [
+            "svetlost33-android-release-0.21.1/shared/background-renditions-v1/approved-existing/day4/6d14f488e97dfdc8380efda582858f3e3f01935bb2f94a35f0abc2c081937e22/2b673f18f967ecd0bbf43f11c21a648f478d55e5f2ccd5d8fbc4ad70d2a2e763/gallery-small.jpg",
+            "svetlost33-ios-release-2026-10-02/Sources/SvetlostCore/PreviewResources/background-renditions-v1/approved-existing/day4/6d14f488e97dfdc8380efda582858f3e3f01935bb2f94a35f0abc2c081937e22/2b673f18f967ecd0bbf43f11c21a648f478d55e5f2ccd5d8fbc4ad70d2a2e763/gallery-small.jpg"
+          ],
+          "ota_thumbnail_role": false
+        },
+        {
+          "role": "preview-large",
+          "bytes": 242344,
+          "height": 1280,
+          "mime_type": "image/jpeg",
+          "path": "approved-existing/day4/6d14f488e97dfdc8380efda582858f3e3f01935bb2f94a35f0abc2c081937e22/2b673f18f967ecd0bbf43f11c21a648f478d55e5f2ccd5d8fbc4ad70d2a2e763/preview-large.jpg",
+          "recipe_sha256": "2b673f18f967ecd0bbf43f11c21a648f478d55e5f2ccd5d8fbc4ad70d2a2e763",
+          "recipe_version": "jpeg-v1",
+          "sha256": "f7dbc5d88799deafe7aea4396c4d076739fab778b4f0ac6c508ab5ef8edec0d2",
+          "width": 720,
+          "source_sha256": "6d14f488e97dfdc8380efda582858f3e3f01935bb2f94a35f0abc2c081937e22",
+          "native_paths": [
+            "svetlost33-android-release-0.21.1/shared/background-renditions-v1/approved-existing/day4/6d14f488e97dfdc8380efda582858f3e3f01935bb2f94a35f0abc2c081937e22/2b673f18f967ecd0bbf43f11c21a648f478d55e5f2ccd5d8fbc4ad70d2a2e763/preview-large.jpg",
+            "svetlost33-ios-release-2026-10-02/Sources/SvetlostCore/PreviewResources/background-renditions-v1/approved-existing/day4/6d14f488e97dfdc8380efda582858f3e3f01935bb2f94a35f0abc2c081937e22/2b673f18f967ecd0bbf43f11c21a648f478d55e5f2ccd5d8fbc4ad70d2a2e763/preview-large.jpg"
+          ],
+          "ota_thumbnail_role": false
+        }
+      ]
+    },
+    {
+      "id": "day5",
+      "title": {
+        "sr-Latn": "Lepota stvaranja",
+        "sr-Cyrl": "Лепота стварања"
+      },
+      "original": {
+        "bytes": 2557057,
+        "sha256": "109bcfd4dd5e1bc6534c9af5f78cb66f9bf063bfa19343c2613132bedda343d4",
+        "width": 941,
+        "height": 1672,
+        "content_type": "image/png",
+        "source_path": "svetlost33-android-release-0.21.1/app/src/main/assets/backgrounds/day5.png",
+        "native_paths": [
+          "svetlost33-android-release-0.21.1/app/src/main/assets/backgrounds/day5.png",
+          "svetlost33-ios-release-2026-10-02/Sources/SvetlostCore/Resources/backgrounds/day5.png"
+        ]
+      },
+      "provenance": {
+        "source_anchor": "old-source",
+        "source_pointer": "/assets/4",
+        "approval_anchors": [
+          "old-approval"
+        ],
+        "rights_anchor": "old-rights",
+        "rights_pointer": "/items/4",
+        "legal_basis": "APPROVED_FOR_APP_DISTRIBUTION_BY_PROJECT_OWNER",
+        "territories": [
+          "RS",
+          "BA"
+        ],
+        "public_license_asserted": false
+      },
+      "default_rotation_member": true,
+      "common_slava_motif": false,
+      "legacy_association_evidence_only": null,
+      "runtime_calendar_binding": null,
+      "native_derivatives": [
+        {
+          "role": "gallery-small",
+          "bytes": 40175,
+          "height": 640,
+          "mime_type": "image/jpeg",
+          "path": "approved-existing/day5/109bcfd4dd5e1bc6534c9af5f78cb66f9bf063bfa19343c2613132bedda343d4/2b673f18f967ecd0bbf43f11c21a648f478d55e5f2ccd5d8fbc4ad70d2a2e763/gallery-small.jpg",
+          "recipe_sha256": "2b673f18f967ecd0bbf43f11c21a648f478d55e5f2ccd5d8fbc4ad70d2a2e763",
+          "recipe_version": "jpeg-v1",
+          "sha256": "abb295f8185f57c6e828fe9d45c816f079ff5d9631f34b6f4119f1c11180c7bb",
+          "width": 360,
+          "source_sha256": "109bcfd4dd5e1bc6534c9af5f78cb66f9bf063bfa19343c2613132bedda343d4",
+          "native_paths": [
+            "svetlost33-android-release-0.21.1/shared/background-renditions-v1/approved-existing/day5/109bcfd4dd5e1bc6534c9af5f78cb66f9bf063bfa19343c2613132bedda343d4/2b673f18f967ecd0bbf43f11c21a648f478d55e5f2ccd5d8fbc4ad70d2a2e763/gallery-small.jpg",
+            "svetlost33-ios-release-2026-10-02/Sources/SvetlostCore/PreviewResources/background-renditions-v1/approved-existing/day5/109bcfd4dd5e1bc6534c9af5f78cb66f9bf063bfa19343c2613132bedda343d4/2b673f18f967ecd0bbf43f11c21a648f478d55e5f2ccd5d8fbc4ad70d2a2e763/gallery-small.jpg"
+          ],
+          "ota_thumbnail_role": false
+        },
+        {
+          "role": "preview-large",
+          "bytes": 181100,
+          "height": 1280,
+          "mime_type": "image/jpeg",
+          "path": "approved-existing/day5/109bcfd4dd5e1bc6534c9af5f78cb66f9bf063bfa19343c2613132bedda343d4/2b673f18f967ecd0bbf43f11c21a648f478d55e5f2ccd5d8fbc4ad70d2a2e763/preview-large.jpg",
+          "recipe_sha256": "2b673f18f967ecd0bbf43f11c21a648f478d55e5f2ccd5d8fbc4ad70d2a2e763",
+          "recipe_version": "jpeg-v1",
+          "sha256": "58bb147da95585516adaae08e281497f91b83e2bbff3bf1262e7fed375047441",
+          "width": 720,
+          "source_sha256": "109bcfd4dd5e1bc6534c9af5f78cb66f9bf063bfa19343c2613132bedda343d4",
+          "native_paths": [
+            "svetlost33-android-release-0.21.1/shared/background-renditions-v1/approved-existing/day5/109bcfd4dd5e1bc6534c9af5f78cb66f9bf063bfa19343c2613132bedda343d4/2b673f18f967ecd0bbf43f11c21a648f478d55e5f2ccd5d8fbc4ad70d2a2e763/preview-large.jpg",
+            "svetlost33-ios-release-2026-10-02/Sources/SvetlostCore/PreviewResources/background-renditions-v1/approved-existing/day5/109bcfd4dd5e1bc6534c9af5f78cb66f9bf063bfa19343c2613132bedda343d4/2b673f18f967ecd0bbf43f11c21a648f478d55e5f2ccd5d8fbc4ad70d2a2e763/preview-large.jpg"
+          ],
+          "ota_thumbnail_role": false
+        }
+      ]
+    },
+    {
+      "id": "day6",
+      "title": {
+        "sr-Latn": "Čisto srce",
+        "sr-Cyrl": "Чисто срце"
+      },
+      "original": {
+        "bytes": 2790818,
+        "sha256": "21dc5908abf336f9b31c4cd65dbae3df0509f677f6d7d6168ccc5d5cc3b044e7",
+        "width": 941,
+        "height": 1672,
+        "content_type": "image/png",
+        "source_path": "svetlost33-android-release-0.21.1/app/src/main/assets/backgrounds/day6.png",
+        "native_paths": [
+          "svetlost33-android-release-0.21.1/app/src/main/assets/backgrounds/day6.png",
+          "svetlost33-ios-release-2026-10-02/Sources/SvetlostCore/Resources/backgrounds/day6.png"
+        ]
+      },
+      "provenance": {
+        "source_anchor": "old-source",
+        "source_pointer": "/assets/5",
+        "approval_anchors": [
+          "old-approval"
+        ],
+        "rights_anchor": "old-rights",
+        "rights_pointer": "/items/5",
+        "legal_basis": "APPROVED_FOR_APP_DISTRIBUTION_BY_PROJECT_OWNER",
+        "territories": [
+          "RS",
+          "BA"
+        ],
+        "public_license_asserted": false
+      },
+      "default_rotation_member": true,
+      "common_slava_motif": false,
+      "legacy_association_evidence_only": null,
+      "runtime_calendar_binding": null,
+      "native_derivatives": [
+        {
+          "role": "gallery-small",
+          "bytes": 39873,
+          "height": 640,
+          "mime_type": "image/jpeg",
+          "path": "approved-existing/day6/21dc5908abf336f9b31c4cd65dbae3df0509f677f6d7d6168ccc5d5cc3b044e7/2b673f18f967ecd0bbf43f11c21a648f478d55e5f2ccd5d8fbc4ad70d2a2e763/gallery-small.jpg",
+          "recipe_sha256": "2b673f18f967ecd0bbf43f11c21a648f478d55e5f2ccd5d8fbc4ad70d2a2e763",
+          "recipe_version": "jpeg-v1",
+          "sha256": "b54411233b48eb6d7c54661b3417e30a5ce0bf24c65af00cec27a032583390cb",
+          "width": 360,
+          "source_sha256": "21dc5908abf336f9b31c4cd65dbae3df0509f677f6d7d6168ccc5d5cc3b044e7",
+          "native_paths": [
+            "svetlost33-android-release-0.21.1/shared/background-renditions-v1/approved-existing/day6/21dc5908abf336f9b31c4cd65dbae3df0509f677f6d7d6168ccc5d5cc3b044e7/2b673f18f967ecd0bbf43f11c21a648f478d55e5f2ccd5d8fbc4ad70d2a2e763/gallery-small.jpg",
+            "svetlost33-ios-release-2026-10-02/Sources/SvetlostCore/PreviewResources/background-renditions-v1/approved-existing/day6/21dc5908abf336f9b31c4cd65dbae3df0509f677f6d7d6168ccc5d5cc3b044e7/2b673f18f967ecd0bbf43f11c21a648f478d55e5f2ccd5d8fbc4ad70d2a2e763/gallery-small.jpg"
+          ],
+          "ota_thumbnail_role": false
+        },
+        {
+          "role": "preview-large",
+          "bytes": 193938,
+          "height": 1280,
+          "mime_type": "image/jpeg",
+          "path": "approved-existing/day6/21dc5908abf336f9b31c4cd65dbae3df0509f677f6d7d6168ccc5d5cc3b044e7/2b673f18f967ecd0bbf43f11c21a648f478d55e5f2ccd5d8fbc4ad70d2a2e763/preview-large.jpg",
+          "recipe_sha256": "2b673f18f967ecd0bbf43f11c21a648f478d55e5f2ccd5d8fbc4ad70d2a2e763",
+          "recipe_version": "jpeg-v1",
+          "sha256": "0549cfd4a2e3574d0917fc8a2ab89cba6bf4d76334ebdecb1c193118ed065f21",
+          "width": 720,
+          "source_sha256": "21dc5908abf336f9b31c4cd65dbae3df0509f677f6d7d6168ccc5d5cc3b044e7",
+          "native_paths": [
+            "svetlost33-android-release-0.21.1/shared/background-renditions-v1/approved-existing/day6/21dc5908abf336f9b31c4cd65dbae3df0509f677f6d7d6168ccc5d5cc3b044e7/2b673f18f967ecd0bbf43f11c21a648f478d55e5f2ccd5d8fbc4ad70d2a2e763/preview-large.jpg",
+            "svetlost33-ios-release-2026-10-02/Sources/SvetlostCore/PreviewResources/background-renditions-v1/approved-existing/day6/21dc5908abf336f9b31c4cd65dbae3df0509f677f6d7d6168ccc5d5cc3b044e7/2b673f18f967ecd0bbf43f11c21a648f478d55e5f2ccd5d8fbc4ad70d2a2e763/preview-large.jpg"
+          ],
+          "ota_thumbnail_role": false
+        }
+      ]
+    },
+    {
+      "id": "day7",
+      "title": {
+        "sr-Latn": "Iz dubine ka jutru",
+        "sr-Cyrl": "Из дубине ка јутру"
+      },
+      "original": {
+        "bytes": 2364087,
+        "sha256": "d693391df7a6d7e9e50530c74f0a7c8f6ebe8f331eb3177775fb9d41bd7b61c5",
+        "width": 941,
+        "height": 1672,
+        "content_type": "image/png",
+        "source_path": "svetlost33-android-release-0.21.1/app/src/main/assets/backgrounds/day7.png",
+        "native_paths": [
+          "svetlost33-android-release-0.21.1/app/src/main/assets/backgrounds/day7.png",
+          "svetlost33-ios-release-2026-10-02/Sources/SvetlostCore/Resources/backgrounds/day7.png"
+        ]
+      },
+      "provenance": {
+        "source_anchor": "old-source",
+        "source_pointer": "/assets/6",
+        "approval_anchors": [
+          "old-approval"
+        ],
+        "rights_anchor": "old-rights",
+        "rights_pointer": "/items/6",
+        "legal_basis": "APPROVED_FOR_APP_DISTRIBUTION_BY_PROJECT_OWNER",
+        "territories": [
+          "RS",
+          "BA"
+        ],
+        "public_license_asserted": false
+      },
+      "default_rotation_member": true,
+      "common_slava_motif": false,
+      "legacy_association_evidence_only": null,
+      "runtime_calendar_binding": null,
+      "native_derivatives": [
+        {
+          "role": "gallery-small",
+          "bytes": 31439,
+          "height": 640,
+          "mime_type": "image/jpeg",
+          "path": "approved-existing/day7/d693391df7a6d7e9e50530c74f0a7c8f6ebe8f331eb3177775fb9d41bd7b61c5/2b673f18f967ecd0bbf43f11c21a648f478d55e5f2ccd5d8fbc4ad70d2a2e763/gallery-small.jpg",
+          "recipe_sha256": "2b673f18f967ecd0bbf43f11c21a648f478d55e5f2ccd5d8fbc4ad70d2a2e763",
+          "recipe_version": "jpeg-v1",
+          "sha256": "a83c869fcd8f2dac068292c71332fc4501eb57c6c3bfb41e70d07810dd94eca6",
+          "width": 360,
+          "source_sha256": "d693391df7a6d7e9e50530c74f0a7c8f6ebe8f331eb3177775fb9d41bd7b61c5",
+          "native_paths": [
+            "svetlost33-android-release-0.21.1/shared/background-renditions-v1/approved-existing/day7/d693391df7a6d7e9e50530c74f0a7c8f6ebe8f331eb3177775fb9d41bd7b61c5/2b673f18f967ecd0bbf43f11c21a648f478d55e5f2ccd5d8fbc4ad70d2a2e763/gallery-small.jpg",
+            "svetlost33-ios-release-2026-10-02/Sources/SvetlostCore/PreviewResources/background-renditions-v1/approved-existing/day7/d693391df7a6d7e9e50530c74f0a7c8f6ebe8f331eb3177775fb9d41bd7b61c5/2b673f18f967ecd0bbf43f11c21a648f478d55e5f2ccd5d8fbc4ad70d2a2e763/gallery-small.jpg"
+          ],
+          "ota_thumbnail_role": false
+        },
+        {
+          "role": "preview-large",
+          "bytes": 149393,
+          "height": 1280,
+          "mime_type": "image/jpeg",
+          "path": "approved-existing/day7/d693391df7a6d7e9e50530c74f0a7c8f6ebe8f331eb3177775fb9d41bd7b61c5/2b673f18f967ecd0bbf43f11c21a648f478d55e5f2ccd5d8fbc4ad70d2a2e763/preview-large.jpg",
+          "recipe_sha256": "2b673f18f967ecd0bbf43f11c21a648f478d55e5f2ccd5d8fbc4ad70d2a2e763",
+          "recipe_version": "jpeg-v1",
+          "sha256": "a6214f700ca48d281b42e79decd43bbba18ce570cadc7c00f2ea611f84a3f3ac",
+          "width": 720,
+          "source_sha256": "d693391df7a6d7e9e50530c74f0a7c8f6ebe8f331eb3177775fb9d41bd7b61c5",
+          "native_paths": [
+            "svetlost33-android-release-0.21.1/shared/background-renditions-v1/approved-existing/day7/d693391df7a6d7e9e50530c74f0a7c8f6ebe8f331eb3177775fb9d41bd7b61c5/2b673f18f967ecd0bbf43f11c21a648f478d55e5f2ccd5d8fbc4ad70d2a2e763/preview-large.jpg",
+            "svetlost33-ios-release-2026-10-02/Sources/SvetlostCore/PreviewResources/background-renditions-v1/approved-existing/day7/d693391df7a6d7e9e50530c74f0a7c8f6ebe8f331eb3177775fb9d41bd7b61c5/2b673f18f967ecd0bbf43f11c21a648f478d55e5f2ccd5d8fbc4ad70d2a2e763/preview-large.jpg"
+          ],
+          "ota_thumbnail_role": false
+        }
+      ]
+    },
+    {
+      "id": "sveta-petka",
+      "title": {
+        "sr-Latn": "Tišina izvora",
+        "sr-Cyrl": "Тишина извора"
+      },
+      "original": {
+        "bytes": 2498804,
+        "sha256": "4e342036be4c8055803f789ae932571055928c366ceb90e3cebd4ba8ec905d68",
+        "width": 941,
+        "height": 1672,
+        "content_type": "image/png",
+        "source_path": "svetlost33-android-release-0.21.1/app/src/main/assets/backgrounds/saints/sveta-petka.png",
+        "native_paths": [
+          "svetlost33-android-release-0.21.1/app/src/main/assets/backgrounds/saints/sveta-petka.png",
+          "svetlost33-ios-release-2026-10-02/Sources/SvetlostCore/Resources/backgrounds/saints/sveta-petka.png"
+        ]
+      },
+      "provenance": {
+        "source_anchor": "old-source",
+        "source_pointer": "/assets/7",
+        "approval_anchors": [
+          "old-approval"
+        ],
+        "rights_anchor": "old-rights",
+        "rights_pointer": "/items/7",
+        "legal_basis": "APPROVED_FOR_APP_DISTRIBUTION_BY_PROJECT_OWNER",
+        "territories": [
+          "RS",
+          "BA"
+        ],
+        "public_license_asserted": false
+      },
+      "default_rotation_member": false,
+      "common_slava_motif": false,
+      "legacy_association_evidence_only": {
+        "saintLatn": "Sveta Petka",
+        "saintCyrl": "Света Петка",
+        "feastMonthDay": "10-27"
+      },
+      "runtime_calendar_binding": null,
+      "native_derivatives": [
+        {
+          "role": "gallery-small",
+          "bytes": 40169,
+          "height": 640,
+          "mime_type": "image/jpeg",
+          "path": "approved-existing/sveta-petka/4e342036be4c8055803f789ae932571055928c366ceb90e3cebd4ba8ec905d68/2b673f18f967ecd0bbf43f11c21a648f478d55e5f2ccd5d8fbc4ad70d2a2e763/gallery-small.jpg",
+          "recipe_sha256": "2b673f18f967ecd0bbf43f11c21a648f478d55e5f2ccd5d8fbc4ad70d2a2e763",
+          "recipe_version": "jpeg-v1",
+          "sha256": "1dda91543a8f40b377c81bc0ba8d05cb369772115c05e0ee9a41748d1699760d",
+          "width": 360,
+          "source_sha256": "4e342036be4c8055803f789ae932571055928c366ceb90e3cebd4ba8ec905d68",
+          "native_paths": [
+            "svetlost33-android-release-0.21.1/shared/background-renditions-v1/approved-existing/sveta-petka/4e342036be4c8055803f789ae932571055928c366ceb90e3cebd4ba8ec905d68/2b673f18f967ecd0bbf43f11c21a648f478d55e5f2ccd5d8fbc4ad70d2a2e763/gallery-small.jpg",
+            "svetlost33-ios-release-2026-10-02/Sources/SvetlostCore/PreviewResources/background-renditions-v1/approved-existing/sveta-petka/4e342036be4c8055803f789ae932571055928c366ceb90e3cebd4ba8ec905d68/2b673f18f967ecd0bbf43f11c21a648f478d55e5f2ccd5d8fbc4ad70d2a2e763/gallery-small.jpg"
+          ],
+          "ota_thumbnail_role": false
+        },
+        {
+          "role": "preview-large",
+          "bytes": 176453,
+          "height": 1280,
+          "mime_type": "image/jpeg",
+          "path": "approved-existing/sveta-petka/4e342036be4c8055803f789ae932571055928c366ceb90e3cebd4ba8ec905d68/2b673f18f967ecd0bbf43f11c21a648f478d55e5f2ccd5d8fbc4ad70d2a2e763/preview-large.jpg",
+          "recipe_sha256": "2b673f18f967ecd0bbf43f11c21a648f478d55e5f2ccd5d8fbc4ad70d2a2e763",
+          "recipe_version": "jpeg-v1",
+          "sha256": "693019066d39b5d68a5171feccd704369b43069133e89593cbe890c3ace3004a",
+          "width": 720,
+          "source_sha256": "4e342036be4c8055803f789ae932571055928c366ceb90e3cebd4ba8ec905d68",
+          "native_paths": [
+            "svetlost33-android-release-0.21.1/shared/background-renditions-v1/approved-existing/sveta-petka/4e342036be4c8055803f789ae932571055928c366ceb90e3cebd4ba8ec905d68/2b673f18f967ecd0bbf43f11c21a648f478d55e5f2ccd5d8fbc4ad70d2a2e763/preview-large.jpg",
+            "svetlost33-ios-release-2026-10-02/Sources/SvetlostCore/PreviewResources/background-renditions-v1/approved-existing/sveta-petka/4e342036be4c8055803f789ae932571055928c366ceb90e3cebd4ba8ec905d68/2b673f18f967ecd0bbf43f11c21a648f478d55e5f2ccd5d8fbc4ad70d2a2e763/preview-large.jpg"
+          ],
+          "ota_thumbnail_role": false
+        }
+      ]
+    },
+    {
+      "id": "sveti-sava",
+      "title": {
+        "sr-Latn": "Svetosavska zora",
+        "sr-Cyrl": "Светосавска зора"
+      },
+      "original": {
+        "bytes": 2019325,
+        "sha256": "51c0f82e6203cadf3059dc40f61550ca6cb3a9aefe1fda3c72ceec40344a9943",
+        "width": 941,
+        "height": 1672,
+        "content_type": "image/png",
+        "source_path": "svetlost33-android-release-0.21.1/app/src/main/assets/backgrounds/saints/sveti-sava.png",
+        "native_paths": [
+          "svetlost33-android-release-0.21.1/app/src/main/assets/backgrounds/saints/sveti-sava.png",
+          "svetlost33-ios-release-2026-10-02/Sources/SvetlostCore/Resources/backgrounds/saints/sveti-sava.png"
+        ]
+      },
+      "provenance": {
+        "source_anchor": "old-source",
+        "source_pointer": "/assets/8",
+        "approval_anchors": [
+          "old-approval"
+        ],
+        "rights_anchor": "old-rights",
+        "rights_pointer": "/items/8",
+        "legal_basis": "APPROVED_FOR_APP_DISTRIBUTION_BY_PROJECT_OWNER",
+        "territories": [
+          "RS",
+          "BA"
+        ],
+        "public_license_asserted": false
+      },
+      "default_rotation_member": false,
+      "common_slava_motif": false,
+      "legacy_association_evidence_only": {
+        "saintLatn": "Sveti Sava",
+        "saintCyrl": "Свети Сава",
+        "feastMonthDay": "01-27"
+      },
+      "runtime_calendar_binding": null,
+      "native_derivatives": [
+        {
+          "role": "gallery-small",
+          "bytes": 32218,
+          "height": 640,
+          "mime_type": "image/jpeg",
+          "path": "approved-existing/sveti-sava/51c0f82e6203cadf3059dc40f61550ca6cb3a9aefe1fda3c72ceec40344a9943/2b673f18f967ecd0bbf43f11c21a648f478d55e5f2ccd5d8fbc4ad70d2a2e763/gallery-small.jpg",
+          "recipe_sha256": "2b673f18f967ecd0bbf43f11c21a648f478d55e5f2ccd5d8fbc4ad70d2a2e763",
+          "recipe_version": "jpeg-v1",
+          "sha256": "56cf5d9b312f1d08139ef408b9e764e67158d7d5225c8e3114f2d7a6a084cf5e",
+          "width": 360,
+          "source_sha256": "51c0f82e6203cadf3059dc40f61550ca6cb3a9aefe1fda3c72ceec40344a9943",
+          "native_paths": [
+            "svetlost33-android-release-0.21.1/shared/background-renditions-v1/approved-existing/sveti-sava/51c0f82e6203cadf3059dc40f61550ca6cb3a9aefe1fda3c72ceec40344a9943/2b673f18f967ecd0bbf43f11c21a648f478d55e5f2ccd5d8fbc4ad70d2a2e763/gallery-small.jpg",
+            "svetlost33-ios-release-2026-10-02/Sources/SvetlostCore/PreviewResources/background-renditions-v1/approved-existing/sveti-sava/51c0f82e6203cadf3059dc40f61550ca6cb3a9aefe1fda3c72ceec40344a9943/2b673f18f967ecd0bbf43f11c21a648f478d55e5f2ccd5d8fbc4ad70d2a2e763/gallery-small.jpg"
+          ],
+          "ota_thumbnail_role": false
+        },
+        {
+          "role": "preview-large",
+          "bytes": 134890,
+          "height": 1280,
+          "mime_type": "image/jpeg",
+          "path": "approved-existing/sveti-sava/51c0f82e6203cadf3059dc40f61550ca6cb3a9aefe1fda3c72ceec40344a9943/2b673f18f967ecd0bbf43f11c21a648f478d55e5f2ccd5d8fbc4ad70d2a2e763/preview-large.jpg",
+          "recipe_sha256": "2b673f18f967ecd0bbf43f11c21a648f478d55e5f2ccd5d8fbc4ad70d2a2e763",
+          "recipe_version": "jpeg-v1",
+          "sha256": "82317ef7154b179a506537ba4166f3f737a86b7f50713c22623d287c3a1ba904",
+          "width": 720,
+          "source_sha256": "51c0f82e6203cadf3059dc40f61550ca6cb3a9aefe1fda3c72ceec40344a9943",
+          "native_paths": [
+            "svetlost33-android-release-0.21.1/shared/background-renditions-v1/approved-existing/sveti-sava/51c0f82e6203cadf3059dc40f61550ca6cb3a9aefe1fda3c72ceec40344a9943/2b673f18f967ecd0bbf43f11c21a648f478d55e5f2ccd5d8fbc4ad70d2a2e763/preview-large.jpg",
+            "svetlost33-ios-release-2026-10-02/Sources/SvetlostCore/PreviewResources/background-renditions-v1/approved-existing/sveti-sava/51c0f82e6203cadf3059dc40f61550ca6cb3a9aefe1fda3c72ceec40344a9943/2b673f18f967ecd0bbf43f11c21a648f478d55e5f2ccd5d8fbc4ad70d2a2e763/preview-large.jpg"
+          ],
+          "ota_thumbnail_role": false
+        }
+      ]
+    },
+    {
+      "id": "sveti-nikola",
+      "title": {
+        "sr-Latn": "Mirna luka",
+        "sr-Cyrl": "Мирна лука"
+      },
+      "original": {
+        "bytes": 2361255,
+        "sha256": "32c28f8f14e7074a86ec46a5b771b21beb07299cf787aca33a7fccba22070e22",
+        "width": 941,
+        "height": 1672,
+        "content_type": "image/png",
+        "source_path": "svetlost33-android-release-0.21.1/app/src/main/assets/backgrounds/saints/sveti-nikola.png",
+        "native_paths": [
+          "svetlost33-android-release-0.21.1/app/src/main/assets/backgrounds/saints/sveti-nikola.png",
+          "svetlost33-ios-release-2026-10-02/Sources/SvetlostCore/Resources/backgrounds/saints/sveti-nikola.png"
+        ]
+      },
+      "provenance": {
+        "source_anchor": "old-source",
+        "source_pointer": "/assets/9",
+        "approval_anchors": [
+          "old-approval"
+        ],
+        "rights_anchor": "old-rights",
+        "rights_pointer": "/items/9",
+        "legal_basis": "APPROVED_FOR_APP_DISTRIBUTION_BY_PROJECT_OWNER",
+        "territories": [
+          "RS",
+          "BA"
+        ],
+        "public_license_asserted": false
+      },
+      "default_rotation_member": false,
+      "common_slava_motif": false,
+      "legacy_association_evidence_only": {
+        "saintLatn": "Sveti Nikola",
+        "saintCyrl": "Свети Никола",
+        "feastMonthDay": "12-19"
+      },
+      "runtime_calendar_binding": null,
+      "native_derivatives": [
+        {
+          "role": "gallery-small",
+          "bytes": 28303,
+          "height": 640,
+          "mime_type": "image/jpeg",
+          "path": "approved-existing/sveti-nikola/32c28f8f14e7074a86ec46a5b771b21beb07299cf787aca33a7fccba22070e22/2b673f18f967ecd0bbf43f11c21a648f478d55e5f2ccd5d8fbc4ad70d2a2e763/gallery-small.jpg",
+          "recipe_sha256": "2b673f18f967ecd0bbf43f11c21a648f478d55e5f2ccd5d8fbc4ad70d2a2e763",
+          "recipe_version": "jpeg-v1",
+          "sha256": "94679b053bab8d425253af0c71f8b36159d8f903686f810893647362adbe613e",
+          "width": 360,
+          "source_sha256": "32c28f8f14e7074a86ec46a5b771b21beb07299cf787aca33a7fccba22070e22",
+          "native_paths": [
+            "svetlost33-android-release-0.21.1/shared/background-renditions-v1/approved-existing/sveti-nikola/32c28f8f14e7074a86ec46a5b771b21beb07299cf787aca33a7fccba22070e22/2b673f18f967ecd0bbf43f11c21a648f478d55e5f2ccd5d8fbc4ad70d2a2e763/gallery-small.jpg",
+            "svetlost33-ios-release-2026-10-02/Sources/SvetlostCore/PreviewResources/background-renditions-v1/approved-existing/sveti-nikola/32c28f8f14e7074a86ec46a5b771b21beb07299cf787aca33a7fccba22070e22/2b673f18f967ecd0bbf43f11c21a648f478d55e5f2ccd5d8fbc4ad70d2a2e763/gallery-small.jpg"
+          ],
+          "ota_thumbnail_role": false
+        },
+        {
+          "role": "preview-large",
+          "bytes": 138928,
+          "height": 1280,
+          "mime_type": "image/jpeg",
+          "path": "approved-existing/sveti-nikola/32c28f8f14e7074a86ec46a5b771b21beb07299cf787aca33a7fccba22070e22/2b673f18f967ecd0bbf43f11c21a648f478d55e5f2ccd5d8fbc4ad70d2a2e763/preview-large.jpg",
+          "recipe_sha256": "2b673f18f967ecd0bbf43f11c21a648f478d55e5f2ccd5d8fbc4ad70d2a2e763",
+          "recipe_version": "jpeg-v1",
+          "sha256": "cf414193ceb8d37a913aca39bd4dfe9d44378b1a462705f76e9c6cd4546b0d3d",
+          "width": 720,
+          "source_sha256": "32c28f8f14e7074a86ec46a5b771b21beb07299cf787aca33a7fccba22070e22",
+          "native_paths": [
+            "svetlost33-android-release-0.21.1/shared/background-renditions-v1/approved-existing/sveti-nikola/32c28f8f14e7074a86ec46a5b771b21beb07299cf787aca33a7fccba22070e22/2b673f18f967ecd0bbf43f11c21a648f478d55e5f2ccd5d8fbc4ad70d2a2e763/preview-large.jpg",
+            "svetlost33-ios-release-2026-10-02/Sources/SvetlostCore/PreviewResources/background-renditions-v1/approved-existing/sveti-nikola/32c28f8f14e7074a86ec46a5b771b21beb07299cf787aca33a7fccba22070e22/2b673f18f967ecd0bbf43f11c21a648f478d55e5f2ccd5d8fbc4ad70d2a2e763/preview-large.jpg"
+          ],
+          "ota_thumbnail_role": false
+        }
+      ]
+    },
+    {
+      "id": "sveti-jovan",
+      "title": {
+        "sr-Latn": "Tišina Jordana",
+        "sr-Cyrl": "Тишина Јордана"
+      },
+      "original": {
+        "bytes": 2671916,
+        "sha256": "6f58cd033ed42e07298173222bcf6a9297f0a30da94ecbc4717c942ea346e786",
+        "width": 941,
+        "height": 1672,
+        "content_type": "image/png",
+        "source_path": "svetlost33-android-release-0.21.1/app/src/main/assets/backgrounds/saints/sveti-jovan.png",
+        "native_paths": [
+          "svetlost33-android-release-0.21.1/app/src/main/assets/backgrounds/saints/sveti-jovan.png",
+          "svetlost33-ios-release-2026-10-02/Sources/SvetlostCore/Resources/backgrounds/saints/sveti-jovan.png"
+        ]
+      },
+      "provenance": {
+        "source_anchor": "old-source",
+        "source_pointer": "/assets/10",
+        "approval_anchors": [
+          "old-approval"
+        ],
+        "rights_anchor": "old-rights",
+        "rights_pointer": "/items/10",
+        "legal_basis": "APPROVED_FOR_APP_DISTRIBUTION_BY_PROJECT_OWNER",
+        "territories": [
+          "RS",
+          "BA"
+        ],
+        "public_license_asserted": false
+      },
+      "default_rotation_member": false,
+      "common_slava_motif": false,
+      "legacy_association_evidence_only": {
+        "saintLatn": "Sveti Jovan Krstitelj",
+        "saintCyrl": "Свети Јован Крститељ",
+        "feastMonthDay": "01-20"
+      },
+      "runtime_calendar_binding": null,
+      "native_derivatives": [
+        {
+          "role": "gallery-small",
+          "bytes": 40936,
+          "height": 640,
+          "mime_type": "image/jpeg",
+          "path": "approved-existing/sveti-jovan/6f58cd033ed42e07298173222bcf6a9297f0a30da94ecbc4717c942ea346e786/2b673f18f967ecd0bbf43f11c21a648f478d55e5f2ccd5d8fbc4ad70d2a2e763/gallery-small.jpg",
+          "recipe_sha256": "2b673f18f967ecd0bbf43f11c21a648f478d55e5f2ccd5d8fbc4ad70d2a2e763",
+          "recipe_version": "jpeg-v1",
+          "sha256": "85d42569576e7dcaebd9bf36d4b59f46032821c34d06d96db911e5c881fd90a0",
+          "width": 360,
+          "source_sha256": "6f58cd033ed42e07298173222bcf6a9297f0a30da94ecbc4717c942ea346e786",
+          "native_paths": [
+            "svetlost33-android-release-0.21.1/shared/background-renditions-v1/approved-existing/sveti-jovan/6f58cd033ed42e07298173222bcf6a9297f0a30da94ecbc4717c942ea346e786/2b673f18f967ecd0bbf43f11c21a648f478d55e5f2ccd5d8fbc4ad70d2a2e763/gallery-small.jpg",
+            "svetlost33-ios-release-2026-10-02/Sources/SvetlostCore/PreviewResources/background-renditions-v1/approved-existing/sveti-jovan/6f58cd033ed42e07298173222bcf6a9297f0a30da94ecbc4717c942ea346e786/2b673f18f967ecd0bbf43f11c21a648f478d55e5f2ccd5d8fbc4ad70d2a2e763/gallery-small.jpg"
+          ],
+          "ota_thumbnail_role": false
+        },
+        {
+          "role": "preview-large",
+          "bytes": 190937,
+          "height": 1280,
+          "mime_type": "image/jpeg",
+          "path": "approved-existing/sveti-jovan/6f58cd033ed42e07298173222bcf6a9297f0a30da94ecbc4717c942ea346e786/2b673f18f967ecd0bbf43f11c21a648f478d55e5f2ccd5d8fbc4ad70d2a2e763/preview-large.jpg",
+          "recipe_sha256": "2b673f18f967ecd0bbf43f11c21a648f478d55e5f2ccd5d8fbc4ad70d2a2e763",
+          "recipe_version": "jpeg-v1",
+          "sha256": "3eda664be979f83e0fa1bcd7f94cc55fd1a03087efd1b94c188f82a7ad9cb481",
+          "width": 720,
+          "source_sha256": "6f58cd033ed42e07298173222bcf6a9297f0a30da94ecbc4717c942ea346e786",
+          "native_paths": [
+            "svetlost33-android-release-0.21.1/shared/background-renditions-v1/approved-existing/sveti-jovan/6f58cd033ed42e07298173222bcf6a9297f0a30da94ecbc4717c942ea346e786/2b673f18f967ecd0bbf43f11c21a648f478d55e5f2ccd5d8fbc4ad70d2a2e763/preview-large.jpg",
+            "svetlost33-ios-release-2026-10-02/Sources/SvetlostCore/PreviewResources/background-renditions-v1/approved-existing/sveti-jovan/6f58cd033ed42e07298173222bcf6a9297f0a30da94ecbc4717c942ea346e786/2b673f18f967ecd0bbf43f11c21a648f478d55e5f2ccd5d8fbc4ad70d2a2e763/preview-large.jpg"
+          ],
+          "ota_thumbnail_role": false
+        }
+      ]
+    },
+    {
+      "id": "sveti-georgije",
+      "title": {
+        "sr-Latn": "Đurđevdansko jutro",
+        "sr-Cyrl": "Ђурђевданско јутро"
+      },
+      "original": {
+        "bytes": 2685300,
+        "sha256": "9a0ba486840d69af4f76a0f08aaa1775bfec88e364018e7d5401cda79a7be2dc",
+        "width": 941,
+        "height": 1672,
+        "content_type": "image/png",
+        "source_path": "svetlost33-android-release-0.21.1/app/src/main/assets/backgrounds/saints/sveti-georgije.png",
+        "native_paths": [
+          "svetlost33-android-release-0.21.1/app/src/main/assets/backgrounds/saints/sveti-georgije.png",
+          "svetlost33-ios-release-2026-10-02/Sources/SvetlostCore/Resources/backgrounds/saints/sveti-georgije.png"
+        ]
+      },
+      "provenance": {
+        "source_anchor": "old-source",
+        "source_pointer": "/assets/11",
+        "approval_anchors": [
+          "old-approval"
+        ],
+        "rights_anchor": "old-rights",
+        "rights_pointer": "/items/11",
+        "legal_basis": "APPROVED_FOR_APP_DISTRIBUTION_BY_PROJECT_OWNER",
+        "territories": [
+          "RS",
+          "BA"
+        ],
+        "public_license_asserted": false
+      },
+      "default_rotation_member": false,
+      "common_slava_motif": false,
+      "legacy_association_evidence_only": {
+        "saintLatn": "Sveti Georgije",
+        "saintCyrl": "Свети Георгије",
+        "feastMonthDay": "05-06"
+      },
+      "runtime_calendar_binding": null,
+      "native_derivatives": [
+        {
+          "role": "gallery-small",
+          "bytes": 48723,
+          "height": 640,
+          "mime_type": "image/jpeg",
+          "path": "approved-existing/sveti-georgije/9a0ba486840d69af4f76a0f08aaa1775bfec88e364018e7d5401cda79a7be2dc/2b673f18f967ecd0bbf43f11c21a648f478d55e5f2ccd5d8fbc4ad70d2a2e763/gallery-small.jpg",
+          "recipe_sha256": "2b673f18f967ecd0bbf43f11c21a648f478d55e5f2ccd5d8fbc4ad70d2a2e763",
+          "recipe_version": "jpeg-v1",
+          "sha256": "9b9597a9eb3c68db086b13c77fbb0a0ea2258c12b8ec067e7d01ba75f02d911e",
+          "width": 360,
+          "source_sha256": "9a0ba486840d69af4f76a0f08aaa1775bfec88e364018e7d5401cda79a7be2dc",
+          "native_paths": [
+            "svetlost33-android-release-0.21.1/shared/background-renditions-v1/approved-existing/sveti-georgije/9a0ba486840d69af4f76a0f08aaa1775bfec88e364018e7d5401cda79a7be2dc/2b673f18f967ecd0bbf43f11c21a648f478d55e5f2ccd5d8fbc4ad70d2a2e763/gallery-small.jpg",
+            "svetlost33-ios-release-2026-10-02/Sources/SvetlostCore/PreviewResources/background-renditions-v1/approved-existing/sveti-georgije/9a0ba486840d69af4f76a0f08aaa1775bfec88e364018e7d5401cda79a7be2dc/2b673f18f967ecd0bbf43f11c21a648f478d55e5f2ccd5d8fbc4ad70d2a2e763/gallery-small.jpg"
+          ],
+          "ota_thumbnail_role": false
+        },
+        {
+          "role": "preview-large",
+          "bytes": 211027,
+          "height": 1280,
+          "mime_type": "image/jpeg",
+          "path": "approved-existing/sveti-georgije/9a0ba486840d69af4f76a0f08aaa1775bfec88e364018e7d5401cda79a7be2dc/2b673f18f967ecd0bbf43f11c21a648f478d55e5f2ccd5d8fbc4ad70d2a2e763/preview-large.jpg",
+          "recipe_sha256": "2b673f18f967ecd0bbf43f11c21a648f478d55e5f2ccd5d8fbc4ad70d2a2e763",
+          "recipe_version": "jpeg-v1",
+          "sha256": "1d5b222614666ed1ad79a93aef031e26faa68480966b21da1ed7f5b2862cbf33",
+          "width": 720,
+          "source_sha256": "9a0ba486840d69af4f76a0f08aaa1775bfec88e364018e7d5401cda79a7be2dc",
+          "native_paths": [
+            "svetlost33-android-release-0.21.1/shared/background-renditions-v1/approved-existing/sveti-georgije/9a0ba486840d69af4f76a0f08aaa1775bfec88e364018e7d5401cda79a7be2dc/2b673f18f967ecd0bbf43f11c21a648f478d55e5f2ccd5d8fbc4ad70d2a2e763/preview-large.jpg",
+            "svetlost33-ios-release-2026-10-02/Sources/SvetlostCore/PreviewResources/background-renditions-v1/approved-existing/sveti-georgije/9a0ba486840d69af4f76a0f08aaa1775bfec88e364018e7d5401cda79a7be2dc/2b673f18f967ecd0bbf43f11c21a648f478d55e5f2ccd5d8fbc4ad70d2a2e763/preview-large.jpg"
+          ],
+          "ota_thumbnail_role": false
+        }
+      ]
+    },
+    {
+      "id": "sveti-dimitrije",
+      "title": {
+        "sr-Latn": "Solunsko bdenije",
+        "sr-Cyrl": "Солунско бденије"
+      },
+      "original": {
+        "bytes": 2483364,
+        "sha256": "69702a1f5062767d7a5ca9391999812dcc09db956bed2eb431ab6d8b8eb24710",
+        "width": 941,
+        "height": 1672,
+        "content_type": "image/png",
+        "source_path": "svetlost33-android-release-0.21.1/app/src/main/assets/backgrounds/saints/sveti-dimitrije.png",
+        "native_paths": [
+          "svetlost33-android-release-0.21.1/app/src/main/assets/backgrounds/saints/sveti-dimitrije.png",
+          "svetlost33-ios-release-2026-10-02/Sources/SvetlostCore/Resources/backgrounds/saints/sveti-dimitrije.png"
+        ]
+      },
+      "provenance": {
+        "source_anchor": "old-source",
+        "source_pointer": "/assets/12",
+        "approval_anchors": [
+          "old-approval"
+        ],
+        "rights_anchor": "old-rights",
+        "rights_pointer": "/items/12",
+        "legal_basis": "APPROVED_FOR_APP_DISTRIBUTION_BY_PROJECT_OWNER",
+        "territories": [
+          "RS",
+          "BA"
+        ],
+        "public_license_asserted": false
+      },
+      "default_rotation_member": false,
+      "common_slava_motif": false,
+      "legacy_association_evidence_only": {
+        "saintLatn": "Sveti Dimitrije",
+        "saintCyrl": "Свети Димитрије",
+        "feastMonthDay": "11-08"
+      },
+      "runtime_calendar_binding": null,
+      "native_derivatives": [
+        {
+          "role": "gallery-small",
+          "bytes": 38644,
+          "height": 640,
+          "mime_type": "image/jpeg",
+          "path": "approved-existing/sveti-dimitrije/69702a1f5062767d7a5ca9391999812dcc09db956bed2eb431ab6d8b8eb24710/2b673f18f967ecd0bbf43f11c21a648f478d55e5f2ccd5d8fbc4ad70d2a2e763/gallery-small.jpg",
+          "recipe_sha256": "2b673f18f967ecd0bbf43f11c21a648f478d55e5f2ccd5d8fbc4ad70d2a2e763",
+          "recipe_version": "jpeg-v1",
+          "sha256": "64c5fad396102133d771db857978fe74880664d4194eecdb2065815f232eeadf",
+          "width": 360,
+          "source_sha256": "69702a1f5062767d7a5ca9391999812dcc09db956bed2eb431ab6d8b8eb24710",
+          "native_paths": [
+            "svetlost33-android-release-0.21.1/shared/background-renditions-v1/approved-existing/sveti-dimitrije/69702a1f5062767d7a5ca9391999812dcc09db956bed2eb431ab6d8b8eb24710/2b673f18f967ecd0bbf43f11c21a648f478d55e5f2ccd5d8fbc4ad70d2a2e763/gallery-small.jpg",
+            "svetlost33-ios-release-2026-10-02/Sources/SvetlostCore/PreviewResources/background-renditions-v1/approved-existing/sveti-dimitrije/69702a1f5062767d7a5ca9391999812dcc09db956bed2eb431ab6d8b8eb24710/2b673f18f967ecd0bbf43f11c21a648f478d55e5f2ccd5d8fbc4ad70d2a2e763/gallery-small.jpg"
+          ],
+          "ota_thumbnail_role": false
+        },
+        {
+          "role": "preview-large",
+          "bytes": 176120,
+          "height": 1280,
+          "mime_type": "image/jpeg",
+          "path": "approved-existing/sveti-dimitrije/69702a1f5062767d7a5ca9391999812dcc09db956bed2eb431ab6d8b8eb24710/2b673f18f967ecd0bbf43f11c21a648f478d55e5f2ccd5d8fbc4ad70d2a2e763/preview-large.jpg",
+          "recipe_sha256": "2b673f18f967ecd0bbf43f11c21a648f478d55e5f2ccd5d8fbc4ad70d2a2e763",
+          "recipe_version": "jpeg-v1",
+          "sha256": "f5da7a8aa3ac58a0ea7b5d7fa4565448eebac67731f640db4bd56f29d8b168e0",
+          "width": 720,
+          "source_sha256": "69702a1f5062767d7a5ca9391999812dcc09db956bed2eb431ab6d8b8eb24710",
+          "native_paths": [
+            "svetlost33-android-release-0.21.1/shared/background-renditions-v1/approved-existing/sveti-dimitrije/69702a1f5062767d7a5ca9391999812dcc09db956bed2eb431ab6d8b8eb24710/2b673f18f967ecd0bbf43f11c21a648f478d55e5f2ccd5d8fbc4ad70d2a2e763/preview-large.jpg",
+            "svetlost33-ios-release-2026-10-02/Sources/SvetlostCore/PreviewResources/background-renditions-v1/approved-existing/sveti-dimitrije/69702a1f5062767d7a5ca9391999812dcc09db956bed2eb431ab6d8b8eb24710/2b673f18f967ecd0bbf43f11c21a648f478d55e5f2ccd5d8fbc4ad70d2a2e763/preview-large.jpg"
+          ],
+          "ota_thumbnail_role": false
+        }
+      ]
+    },
+    {
+      "id": "arhangel-mihailo",
+      "title": {
+        "sr-Latn": "Nebeska svetlost",
+        "sr-Cyrl": "Небеска светлост"
+      },
+      "original": {
+        "bytes": 2322153,
+        "sha256": "2f0a4d51d8bd679849ee54df6aec728d4d063c6d0fde240a530afe966223e6a1",
+        "width": 941,
+        "height": 1672,
+        "content_type": "image/png",
+        "source_path": "svetlost33-android-release-0.21.1/app/src/main/assets/backgrounds/saints/arhangel-mihailo.png",
+        "native_paths": [
+          "svetlost33-android-release-0.21.1/app/src/main/assets/backgrounds/saints/arhangel-mihailo.png",
+          "svetlost33-ios-release-2026-10-02/Sources/SvetlostCore/Resources/backgrounds/saints/arhangel-mihailo.png"
+        ]
+      },
+      "provenance": {
+        "source_anchor": "old-source",
+        "source_pointer": "/assets/13",
+        "approval_anchors": [
+          "old-approval"
+        ],
+        "rights_anchor": "old-rights",
+        "rights_pointer": "/items/13",
+        "legal_basis": "APPROVED_FOR_APP_DISTRIBUTION_BY_PROJECT_OWNER",
+        "territories": [
+          "RS",
+          "BA"
+        ],
+        "public_license_asserted": false
+      },
+      "default_rotation_member": false,
+      "common_slava_motif": false,
+      "legacy_association_evidence_only": {
+        "saintLatn": "Sveti arhangel Mihailo",
+        "saintCyrl": "Свети архангел Михаило",
+        "feastMonthDay": "11-21"
+      },
+      "runtime_calendar_binding": null,
+      "native_derivatives": [
+        {
+          "role": "gallery-small",
+          "bytes": 27598,
+          "height": 640,
+          "mime_type": "image/jpeg",
+          "path": "approved-existing/arhangel-mihailo/2f0a4d51d8bd679849ee54df6aec728d4d063c6d0fde240a530afe966223e6a1/2b673f18f967ecd0bbf43f11c21a648f478d55e5f2ccd5d8fbc4ad70d2a2e763/gallery-small.jpg",
+          "recipe_sha256": "2b673f18f967ecd0bbf43f11c21a648f478d55e5f2ccd5d8fbc4ad70d2a2e763",
+          "recipe_version": "jpeg-v1",
+          "sha256": "7bf5146b5822d97c89c576d1f01c4200256e7b867fcb9a3447ad7892cdd8a959",
+          "width": 360,
+          "source_sha256": "2f0a4d51d8bd679849ee54df6aec728d4d063c6d0fde240a530afe966223e6a1",
+          "native_paths": [
+            "svetlost33-android-release-0.21.1/shared/background-renditions-v1/approved-existing/arhangel-mihailo/2f0a4d51d8bd679849ee54df6aec728d4d063c6d0fde240a530afe966223e6a1/2b673f18f967ecd0bbf43f11c21a648f478d55e5f2ccd5d8fbc4ad70d2a2e763/gallery-small.jpg",
+            "svetlost33-ios-release-2026-10-02/Sources/SvetlostCore/PreviewResources/background-renditions-v1/approved-existing/arhangel-mihailo/2f0a4d51d8bd679849ee54df6aec728d4d063c6d0fde240a530afe966223e6a1/2b673f18f967ecd0bbf43f11c21a648f478d55e5f2ccd5d8fbc4ad70d2a2e763/gallery-small.jpg"
+          ],
+          "ota_thumbnail_role": false
+        },
+        {
+          "role": "preview-large",
+          "bytes": 131691,
+          "height": 1280,
+          "mime_type": "image/jpeg",
+          "path": "approved-existing/arhangel-mihailo/2f0a4d51d8bd679849ee54df6aec728d4d063c6d0fde240a530afe966223e6a1/2b673f18f967ecd0bbf43f11c21a648f478d55e5f2ccd5d8fbc4ad70d2a2e763/preview-large.jpg",
+          "recipe_sha256": "2b673f18f967ecd0bbf43f11c21a648f478d55e5f2ccd5d8fbc4ad70d2a2e763",
+          "recipe_version": "jpeg-v1",
+          "sha256": "1f2e0073bf660afa9381832805d6656f40f284d25e5461c471584be155057144",
+          "width": 720,
+          "source_sha256": "2f0a4d51d8bd679849ee54df6aec728d4d063c6d0fde240a530afe966223e6a1",
+          "native_paths": [
+            "svetlost33-android-release-0.21.1/shared/background-renditions-v1/approved-existing/arhangel-mihailo/2f0a4d51d8bd679849ee54df6aec728d4d063c6d0fde240a530afe966223e6a1/2b673f18f967ecd0bbf43f11c21a648f478d55e5f2ccd5d8fbc4ad70d2a2e763/preview-large.jpg",
+            "svetlost33-ios-release-2026-10-02/Sources/SvetlostCore/PreviewResources/background-renditions-v1/approved-existing/arhangel-mihailo/2f0a4d51d8bd679849ee54df6aec728d4d063c6d0fde240a530afe966223e6a1/2b673f18f967ecd0bbf43f11c21a648f478d55e5f2ccd5d8fbc4ad70d2a2e763/preview-large.jpg"
+          ],
+          "ota_thumbnail_role": false
+        }
+      ]
+    },
+    {
+      "id": "sveti-stefan-decanski",
+      "title": {
+        "sr-Latn": "Dečanska svetlost",
+        "sr-Cyrl": "Дечанска светлост"
+      },
+      "original": {
+        "bytes": 2648769,
+        "sha256": "9a319c2441d663d8a9f9b4288950d220243114807a3a6990f7541f5cfa15aa34",
+        "width": 941,
+        "height": 1672,
+        "content_type": "image/png",
+        "source_path": "svetlost33-android-release-0.21.1/app/src/main/assets/backgrounds/saints/sveti-stefan-decanski.png",
+        "native_paths": [
+          "svetlost33-android-release-0.21.1/app/src/main/assets/backgrounds/saints/sveti-stefan-decanski.png",
+          "svetlost33-ios-release-2026-10-02/Sources/SvetlostCore/Resources/backgrounds/saints/sveti-stefan-decanski.png"
+        ]
+      },
+      "provenance": {
+        "source_anchor": "old-source",
+        "source_pointer": "/assets/14",
+        "approval_anchors": [
+          "old-approval"
+        ],
+        "rights_anchor": "old-rights",
+        "rights_pointer": "/items/14",
+        "legal_basis": "APPROVED_FOR_APP_DISTRIBUTION_BY_PROJECT_OWNER",
+        "territories": [
+          "RS",
+          "BA"
+        ],
+        "public_license_asserted": false
+      },
+      "default_rotation_member": false,
+      "common_slava_motif": false,
+      "legacy_association_evidence_only": {
+        "saintLatn": "Sveti Stefan Dečanski",
+        "saintCyrl": "Свети Стефан Дечански",
+        "feastMonthDay": "11-24"
+      },
+      "runtime_calendar_binding": null,
+      "native_derivatives": [
+        {
+          "role": "gallery-small",
+          "bytes": 49600,
+          "height": 640,
+          "mime_type": "image/jpeg",
+          "path": "approved-existing/sveti-stefan-decanski/9a319c2441d663d8a9f9b4288950d220243114807a3a6990f7541f5cfa15aa34/2b673f18f967ecd0bbf43f11c21a648f478d55e5f2ccd5d8fbc4ad70d2a2e763/gallery-small.jpg",
+          "recipe_sha256": "2b673f18f967ecd0bbf43f11c21a648f478d55e5f2ccd5d8fbc4ad70d2a2e763",
+          "recipe_version": "jpeg-v1",
+          "sha256": "3f1e6e409ffcd19e1e66a252568516ecf124298eada20fc11445a1eeb31ceb6d",
+          "width": 360,
+          "source_sha256": "9a319c2441d663d8a9f9b4288950d220243114807a3a6990f7541f5cfa15aa34",
+          "native_paths": [
+            "svetlost33-android-release-0.21.1/shared/background-renditions-v1/approved-existing/sveti-stefan-decanski/9a319c2441d663d8a9f9b4288950d220243114807a3a6990f7541f5cfa15aa34/2b673f18f967ecd0bbf43f11c21a648f478d55e5f2ccd5d8fbc4ad70d2a2e763/gallery-small.jpg",
+            "svetlost33-ios-release-2026-10-02/Sources/SvetlostCore/PreviewResources/background-renditions-v1/approved-existing/sveti-stefan-decanski/9a319c2441d663d8a9f9b4288950d220243114807a3a6990f7541f5cfa15aa34/2b673f18f967ecd0bbf43f11c21a648f478d55e5f2ccd5d8fbc4ad70d2a2e763/gallery-small.jpg"
+          ],
+          "ota_thumbnail_role": false
+        },
+        {
+          "role": "preview-large",
+          "bytes": 214669,
+          "height": 1280,
+          "mime_type": "image/jpeg",
+          "path": "approved-existing/sveti-stefan-decanski/9a319c2441d663d8a9f9b4288950d220243114807a3a6990f7541f5cfa15aa34/2b673f18f967ecd0bbf43f11c21a648f478d55e5f2ccd5d8fbc4ad70d2a2e763/preview-large.jpg",
+          "recipe_sha256": "2b673f18f967ecd0bbf43f11c21a648f478d55e5f2ccd5d8fbc4ad70d2a2e763",
+          "recipe_version": "jpeg-v1",
+          "sha256": "6c523159fc11276103eca2bbf9d2618de966b6e9e7a6e379d88f4a2bf306a3f3",
+          "width": 720,
+          "source_sha256": "9a319c2441d663d8a9f9b4288950d220243114807a3a6990f7541f5cfa15aa34",
+          "native_paths": [
+            "svetlost33-android-release-0.21.1/shared/background-renditions-v1/approved-existing/sveti-stefan-decanski/9a319c2441d663d8a9f9b4288950d220243114807a3a6990f7541f5cfa15aa34/2b673f18f967ecd0bbf43f11c21a648f478d55e5f2ccd5d8fbc4ad70d2a2e763/preview-large.jpg",
+            "svetlost33-ios-release-2026-10-02/Sources/SvetlostCore/PreviewResources/background-renditions-v1/approved-existing/sveti-stefan-decanski/9a319c2441d663d8a9f9b4288950d220243114807a3a6990f7541f5cfa15aa34/2b673f18f967ecd0bbf43f11c21a648f478d55e5f2ccd5d8fbc4ad70d2a2e763/preview-large.jpg"
+          ],
+          "ota_thumbnail_role": false
+        }
+      ]
+    },
+    {
+      "id": "sveti-simeon",
+      "title": {
+        "sr-Latn": "Studenička tišina",
+        "sr-Cyrl": "Студеничка тишина"
+      },
+      "original": {
+        "bytes": 2277368,
+        "sha256": "06ca4416a8f50d83eafb5a3c74823a41e80cd525bbd148a04b04d72e9aab1ff6",
+        "width": 941,
+        "height": 1672,
+        "content_type": "image/png",
+        "source_path": "svetlost33-android-release-0.21.1/app/src/main/assets/backgrounds/saints/sveti-simeon.png",
+        "native_paths": [
+          "svetlost33-android-release-0.21.1/app/src/main/assets/backgrounds/saints/sveti-simeon.png",
+          "svetlost33-ios-release-2026-10-02/Sources/SvetlostCore/Resources/backgrounds/saints/sveti-simeon.png"
+        ]
+      },
+      "provenance": {
+        "source_anchor": "old-source",
+        "source_pointer": "/assets/15",
+        "approval_anchors": [
+          "old-approval"
+        ],
+        "rights_anchor": "old-rights",
+        "rights_pointer": "/items/15",
+        "legal_basis": "APPROVED_FOR_APP_DISTRIBUTION_BY_PROJECT_OWNER",
+        "territories": [
+          "RS",
+          "BA"
+        ],
+        "public_license_asserted": false
+      },
+      "default_rotation_member": false,
+      "common_slava_motif": false,
+      "legacy_association_evidence_only": {
+        "saintLatn": "Sveti Simeon Mirotočivi",
+        "saintCyrl": "Свети Симеон Мироточиви",
+        "feastMonthDay": "02-26"
+      },
+      "runtime_calendar_binding": null,
+      "native_derivatives": [
+        {
+          "role": "gallery-small",
+          "bytes": 34369,
+          "height": 640,
+          "mime_type": "image/jpeg",
+          "path": "approved-existing/sveti-simeon/06ca4416a8f50d83eafb5a3c74823a41e80cd525bbd148a04b04d72e9aab1ff6/2b673f18f967ecd0bbf43f11c21a648f478d55e5f2ccd5d8fbc4ad70d2a2e763/gallery-small.jpg",
+          "recipe_sha256": "2b673f18f967ecd0bbf43f11c21a648f478d55e5f2ccd5d8fbc4ad70d2a2e763",
+          "recipe_version": "jpeg-v1",
+          "sha256": "3fd29945a626089a9cbb380cc3f93b30ba55cc8ecc00d443529c227505a1b60a",
+          "width": 360,
+          "source_sha256": "06ca4416a8f50d83eafb5a3c74823a41e80cd525bbd148a04b04d72e9aab1ff6",
+          "native_paths": [
+            "svetlost33-android-release-0.21.1/shared/background-renditions-v1/approved-existing/sveti-simeon/06ca4416a8f50d83eafb5a3c74823a41e80cd525bbd148a04b04d72e9aab1ff6/2b673f18f967ecd0bbf43f11c21a648f478d55e5f2ccd5d8fbc4ad70d2a2e763/gallery-small.jpg",
+            "svetlost33-ios-release-2026-10-02/Sources/SvetlostCore/PreviewResources/background-renditions-v1/approved-existing/sveti-simeon/06ca4416a8f50d83eafb5a3c74823a41e80cd525bbd148a04b04d72e9aab1ff6/2b673f18f967ecd0bbf43f11c21a648f478d55e5f2ccd5d8fbc4ad70d2a2e763/gallery-small.jpg"
+          ],
+          "ota_thumbnail_role": false
+        },
+        {
+          "role": "preview-large",
+          "bytes": 146492,
+          "height": 1280,
+          "mime_type": "image/jpeg",
+          "path": "approved-existing/sveti-simeon/06ca4416a8f50d83eafb5a3c74823a41e80cd525bbd148a04b04d72e9aab1ff6/2b673f18f967ecd0bbf43f11c21a648f478d55e5f2ccd5d8fbc4ad70d2a2e763/preview-large.jpg",
+          "recipe_sha256": "2b673f18f967ecd0bbf43f11c21a648f478d55e5f2ccd5d8fbc4ad70d2a2e763",
+          "recipe_version": "jpeg-v1",
+          "sha256": "6bcc4e511f0e8e0a47e8cb285ab4d111c3aeaa1a34e44fab0fa503dda620c38b",
+          "width": 720,
+          "source_sha256": "06ca4416a8f50d83eafb5a3c74823a41e80cd525bbd148a04b04d72e9aab1ff6",
+          "native_paths": [
+            "svetlost33-android-release-0.21.1/shared/background-renditions-v1/approved-existing/sveti-simeon/06ca4416a8f50d83eafb5a3c74823a41e80cd525bbd148a04b04d72e9aab1ff6/2b673f18f967ecd0bbf43f11c21a648f478d55e5f2ccd5d8fbc4ad70d2a2e763/preview-large.jpg",
+            "svetlost33-ios-release-2026-10-02/Sources/SvetlostCore/PreviewResources/background-renditions-v1/approved-existing/sveti-simeon/06ca4416a8f50d83eafb5a3c74823a41e80cd525bbd148a04b04d72e9aab1ff6/2b673f18f967ecd0bbf43f11c21a648f478d55e5f2ccd5d8fbc4ad70d2a2e763/preview-large.jpg"
+          ],
+          "ota_thumbnail_role": false
+        }
+      ]
+    },
+    {
+      "id": "sveti-nektarije",
+      "title": {
+        "sr-Latn": "Eginski mir",
+        "sr-Cyrl": "Егински мир"
+      },
+      "original": {
+        "bytes": 2630573,
+        "sha256": "d0b50f1f2b96e635403b21c9d9ad652b6911d2e98ce9b5a64c4bb1adc827f362",
+        "width": 941,
+        "height": 1672,
+        "content_type": "image/png",
+        "source_path": "svetlost33-android-release-0.21.1/app/src/main/assets/backgrounds/saints/sveti-nektarije.png",
+        "native_paths": [
+          "svetlost33-android-release-0.21.1/app/src/main/assets/backgrounds/saints/sveti-nektarije.png",
+          "svetlost33-ios-release-2026-10-02/Sources/SvetlostCore/Resources/backgrounds/saints/sveti-nektarije.png"
+        ]
+      },
+      "provenance": {
+        "source_anchor": "old-source",
+        "source_pointer": "/assets/16",
+        "approval_anchors": [
+          "old-approval"
+        ],
+        "rights_anchor": "old-rights",
+        "rights_pointer": "/items/16",
+        "legal_basis": "APPROVED_FOR_APP_DISTRIBUTION_BY_PROJECT_OWNER",
+        "territories": [
+          "RS",
+          "BA"
+        ],
+        "public_license_asserted": false
+      },
+      "default_rotation_member": false,
+      "common_slava_motif": false,
+      "legacy_association_evidence_only": {
+        "saintLatn": "Sveti Nektarije Eginski",
+        "saintCyrl": "Свети Нектарије Егински",
+        "feastMonthDay": "11-22"
+      },
+      "runtime_calendar_binding": null,
+      "native_derivatives": [
+        {
+          "role": "gallery-small",
+          "bytes": 43711,
+          "height": 640,
+          "mime_type": "image/jpeg",
+          "path": "approved-existing/sveti-nektarije/d0b50f1f2b96e635403b21c9d9ad652b6911d2e98ce9b5a64c4bb1adc827f362/2b673f18f967ecd0bbf43f11c21a648f478d55e5f2ccd5d8fbc4ad70d2a2e763/gallery-small.jpg",
+          "recipe_sha256": "2b673f18f967ecd0bbf43f11c21a648f478d55e5f2ccd5d8fbc4ad70d2a2e763",
+          "recipe_version": "jpeg-v1",
+          "sha256": "30f2da6ceaf265f9b4d5accf146225b02216d90eb0037d765ec21c44aa7cf1b0",
+          "width": 360,
+          "source_sha256": "d0b50f1f2b96e635403b21c9d9ad652b6911d2e98ce9b5a64c4bb1adc827f362",
+          "native_paths": [
+            "svetlost33-android-release-0.21.1/shared/background-renditions-v1/approved-existing/sveti-nektarije/d0b50f1f2b96e635403b21c9d9ad652b6911d2e98ce9b5a64c4bb1adc827f362/2b673f18f967ecd0bbf43f11c21a648f478d55e5f2ccd5d8fbc4ad70d2a2e763/gallery-small.jpg",
+            "svetlost33-ios-release-2026-10-02/Sources/SvetlostCore/PreviewResources/background-renditions-v1/approved-existing/sveti-nektarije/d0b50f1f2b96e635403b21c9d9ad652b6911d2e98ce9b5a64c4bb1adc827f362/2b673f18f967ecd0bbf43f11c21a648f478d55e5f2ccd5d8fbc4ad70d2a2e763/gallery-small.jpg"
+          ],
+          "ota_thumbnail_role": false
+        },
+        {
+          "role": "preview-large",
+          "bytes": 199650,
+          "height": 1280,
+          "mime_type": "image/jpeg",
+          "path": "approved-existing/sveti-nektarije/d0b50f1f2b96e635403b21c9d9ad652b6911d2e98ce9b5a64c4bb1adc827f362/2b673f18f967ecd0bbf43f11c21a648f478d55e5f2ccd5d8fbc4ad70d2a2e763/preview-large.jpg",
+          "recipe_sha256": "2b673f18f967ecd0bbf43f11c21a648f478d55e5f2ccd5d8fbc4ad70d2a2e763",
+          "recipe_version": "jpeg-v1",
+          "sha256": "45976c25b158eaec09c0bb610115b35ede18d0ffba196b4f89ad32ba929e732d",
+          "width": 720,
+          "source_sha256": "d0b50f1f2b96e635403b21c9d9ad652b6911d2e98ce9b5a64c4bb1adc827f362",
+          "native_paths": [
+            "svetlost33-android-release-0.21.1/shared/background-renditions-v1/approved-existing/sveti-nektarije/d0b50f1f2b96e635403b21c9d9ad652b6911d2e98ce9b5a64c4bb1adc827f362/2b673f18f967ecd0bbf43f11c21a648f478d55e5f2ccd5d8fbc4ad70d2a2e763/preview-large.jpg",
+            "svetlost33-ios-release-2026-10-02/Sources/SvetlostCore/PreviewResources/background-renditions-v1/approved-existing/sveti-nektarije/d0b50f1f2b96e635403b21c9d9ad652b6911d2e98ce9b5a64c4bb1adc827f362/2b673f18f967ecd0bbf43f11c21a648f478d55e5f2ccd5d8fbc4ad70d2a2e763/preview-large.jpg"
+          ],
+          "ota_thumbnail_role": false
+        }
+      ]
+    },
+    {
+      "id": "fast",
+      "title": {
+        "sr-Latn": "Tišina posta",
+        "sr-Cyrl": "Тишина поста"
+      },
+      "original": {
+        "bytes": 2432497,
+        "sha256": "32780fab2af739567da83caac2bc24ca2c57449af0e4a439cd986407af01d693",
+        "width": 941,
+        "height": 1672,
+        "content_type": "image/png",
+        "source_path": "svetlost33-android-release-0.21.1/app/src/main/assets/backgrounds/fast.png",
+        "native_paths": [
+          "svetlost33-android-release-0.21.1/app/src/main/assets/backgrounds/fast.png",
+          "svetlost33-ios-release-2026-10-02/Sources/SvetlostCore/Resources/backgrounds/fast.png"
+        ]
+      },
+      "provenance": {
+        "source_anchor": "old-source",
+        "source_pointer": "/assets/17",
+        "approval_anchors": [
+          "old-approval"
+        ],
+        "rights_anchor": "old-rights",
+        "rights_pointer": "/items/17",
+        "legal_basis": "APPROVED_FOR_APP_DISTRIBUTION_BY_PROJECT_OWNER",
+        "territories": [
+          "RS",
+          "BA"
+        ],
+        "public_license_asserted": false
+      },
+      "default_rotation_member": false,
+      "common_slava_motif": false,
+      "legacy_association_evidence_only": null,
+      "runtime_calendar_binding": null,
+      "native_derivatives": [
+        {
+          "role": "gallery-small",
+          "bytes": 38140,
+          "height": 640,
+          "mime_type": "image/jpeg",
+          "path": "approved-existing/fast/32780fab2af739567da83caac2bc24ca2c57449af0e4a439cd986407af01d693/2b673f18f967ecd0bbf43f11c21a648f478d55e5f2ccd5d8fbc4ad70d2a2e763/gallery-small.jpg",
+          "recipe_sha256": "2b673f18f967ecd0bbf43f11c21a648f478d55e5f2ccd5d8fbc4ad70d2a2e763",
+          "recipe_version": "jpeg-v1",
+          "sha256": "4f1408ed319d4882134062b6adeaf4dacb67702d53903f74cc46a53c01030eb7",
+          "width": 360,
+          "source_sha256": "32780fab2af739567da83caac2bc24ca2c57449af0e4a439cd986407af01d693",
+          "native_paths": [
+            "svetlost33-android-release-0.21.1/shared/background-renditions-v1/approved-existing/fast/32780fab2af739567da83caac2bc24ca2c57449af0e4a439cd986407af01d693/2b673f18f967ecd0bbf43f11c21a648f478d55e5f2ccd5d8fbc4ad70d2a2e763/gallery-small.jpg",
+            "svetlost33-ios-release-2026-10-02/Sources/SvetlostCore/PreviewResources/background-renditions-v1/approved-existing/fast/32780fab2af739567da83caac2bc24ca2c57449af0e4a439cd986407af01d693/2b673f18f967ecd0bbf43f11c21a648f478d55e5f2ccd5d8fbc4ad70d2a2e763/gallery-small.jpg"
+          ],
+          "ota_thumbnail_role": false
+        },
+        {
+          "role": "preview-large",
+          "bytes": 168080,
+          "height": 1280,
+          "mime_type": "image/jpeg",
+          "path": "approved-existing/fast/32780fab2af739567da83caac2bc24ca2c57449af0e4a439cd986407af01d693/2b673f18f967ecd0bbf43f11c21a648f478d55e5f2ccd5d8fbc4ad70d2a2e763/preview-large.jpg",
+          "recipe_sha256": "2b673f18f967ecd0bbf43f11c21a648f478d55e5f2ccd5d8fbc4ad70d2a2e763",
+          "recipe_version": "jpeg-v1",
+          "sha256": "ab10c6d03434acfbccb20508b5ed80bbf95895f52957c384c1953533e385aa89",
+          "width": 720,
+          "source_sha256": "32780fab2af739567da83caac2bc24ca2c57449af0e4a439cd986407af01d693",
+          "native_paths": [
+            "svetlost33-android-release-0.21.1/shared/background-renditions-v1/approved-existing/fast/32780fab2af739567da83caac2bc24ca2c57449af0e4a439cd986407af01d693/2b673f18f967ecd0bbf43f11c21a648f478d55e5f2ccd5d8fbc4ad70d2a2e763/preview-large.jpg",
+            "svetlost33-ios-release-2026-10-02/Sources/SvetlostCore/PreviewResources/background-renditions-v1/approved-existing/fast/32780fab2af739567da83caac2bc24ca2c57449af0e4a439cd986407af01d693/2b673f18f967ecd0bbf43f11c21a648f478d55e5f2ccd5d8fbc4ad70d2a2e763/preview-large.jpg"
+          ],
+          "ota_thumbnail_role": false
+        }
+      ]
+    },
+    {
+      "id": "slava-default",
+      "title": {
+        "sr-Latn": "Krsna slava",
+        "sr-Cyrl": "Крсна слава"
+      },
+      "original": {
+        "bytes": 2200011,
+        "sha256": "87ce4958b5cc3e3157f02d8be930272979b64cae76b33aa3fd55db370438b9c7",
+        "width": 941,
+        "height": 1672,
+        "content_type": "image/png",
+        "source_path": "svetlost33-content/drafts/slava-default-2026-10-01/slava-default-candidate-r1.png",
+        "native_paths": [
+          "svetlost33-android-release-0.21.1/app/src/main/assets/backgrounds/slava-default.png",
+          "svetlost33-ios-release-2026-10-02/Sources/SvetlostCore/Resources/backgrounds/slava-default.png"
+        ]
+      },
+      "provenance": {
+        "source_anchor": "slava-candidate",
+        "source_pointer": "/",
+        "approval_anchors": [
+          "slava-editorial",
+          "slava-account-confirmation"
+        ],
+        "legal_basis": "RECORDED_OWNER_APPROVAL_AND_ACCOUNT_HOLDER_STATEMENT",
+        "public_license_asserted": false
+      },
+      "default_rotation_member": false,
+      "common_slava_motif": true,
+      "legacy_association_evidence_only": null,
+      "runtime_calendar_binding": null,
+      "native_derivatives": [
+        {
+          "role": "gallery-small",
+          "bytes": 43699,
+          "height": 640,
+          "mime_type": "image/jpeg",
+          "path": "approved-existing/slava-default/87ce4958b5cc3e3157f02d8be930272979b64cae76b33aa3fd55db370438b9c7/2b673f18f967ecd0bbf43f11c21a648f478d55e5f2ccd5d8fbc4ad70d2a2e763/gallery-small.jpg",
+          "recipe_sha256": "2b673f18f967ecd0bbf43f11c21a648f478d55e5f2ccd5d8fbc4ad70d2a2e763",
+          "recipe_version": "jpeg-v1",
+          "sha256": "8fc65811578c7ea27b1755fb8a31d6fac41467c78d194d7210a3842db6a3205a",
+          "width": 360,
+          "source_sha256": "87ce4958b5cc3e3157f02d8be930272979b64cae76b33aa3fd55db370438b9c7",
+          "native_paths": [
+            "svetlost33-android-release-0.21.1/shared/background-renditions-v1/approved-existing/slava-default/87ce4958b5cc3e3157f02d8be930272979b64cae76b33aa3fd55db370438b9c7/2b673f18f967ecd0bbf43f11c21a648f478d55e5f2ccd5d8fbc4ad70d2a2e763/gallery-small.jpg",
+            "svetlost33-ios-release-2026-10-02/Sources/SvetlostCore/PreviewResources/background-renditions-v1/approved-existing/slava-default/87ce4958b5cc3e3157f02d8be930272979b64cae76b33aa3fd55db370438b9c7/2b673f18f967ecd0bbf43f11c21a648f478d55e5f2ccd5d8fbc4ad70d2a2e763/gallery-small.jpg"
+          ],
+          "ota_thumbnail_role": false
+        },
+        {
+          "role": "preview-large",
+          "bytes": 159398,
+          "height": 1280,
+          "mime_type": "image/jpeg",
+          "path": "approved-existing/slava-default/87ce4958b5cc3e3157f02d8be930272979b64cae76b33aa3fd55db370438b9c7/2b673f18f967ecd0bbf43f11c21a648f478d55e5f2ccd5d8fbc4ad70d2a2e763/preview-large.jpg",
+          "recipe_sha256": "2b673f18f967ecd0bbf43f11c21a648f478d55e5f2ccd5d8fbc4ad70d2a2e763",
+          "recipe_version": "jpeg-v1",
+          "sha256": "48d62ecbdf8c1ec46e3de23b1eb917ad7098b7f1006fb2007e01ea99b8e87f1f",
+          "width": 720,
+          "source_sha256": "87ce4958b5cc3e3157f02d8be930272979b64cae76b33aa3fd55db370438b9c7",
+          "native_paths": [
+            "svetlost33-android-release-0.21.1/shared/background-renditions-v1/approved-existing/slava-default/87ce4958b5cc3e3157f02d8be930272979b64cae76b33aa3fd55db370438b9c7/2b673f18f967ecd0bbf43f11c21a648f478d55e5f2ccd5d8fbc4ad70d2a2e763/preview-large.jpg",
+            "svetlost33-ios-release-2026-10-02/Sources/SvetlostCore/PreviewResources/background-renditions-v1/approved-existing/slava-default/87ce4958b5cc3e3157f02d8be930272979b64cae76b33aa3fd55db370438b9c7/2b673f18f967ecd0bbf43f11c21a648f478d55e5f2ccd5d8fbc4ad70d2a2e763/preview-large.jpg"
+          ],
+          "ota_thumbnail_role": false
+        }
+      ]
+    }
+  ]
+}

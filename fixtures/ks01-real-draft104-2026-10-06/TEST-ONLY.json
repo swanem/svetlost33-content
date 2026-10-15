@@ -1,0 +1,21 @@
+{
+  "warning": "TEST_ONLY_REAL_DRAFT_PROSE_PENDING_NOT_OWNER_OR_CHURCH_APPROVAL_NEVER_PUBLISH",
+  "publishable": false,
+  "production_trust": false,
+  "owner_approval": false,
+  "signature": "RSA-PSS SHA-256, 2048-bit, saltLength=32; one fresh ephemeral key for both profiles; private key never serialized",
+  "channel": "production",
+  "channel_note": "Wire-compatible label only; local fixture, never a production endpoint",
+  "fixed_test_time": "2026-10-06T12:00:00Z",
+  "clients": {
+    "old": {
+      "android": 1000,
+      "ios": "99.0.0"
+    },
+    "expanded": {
+      "android": 1001,
+      "ios": "99.0.1"
+    }
+  },
+  "native_authentication": "Use raw dataset directories and common public key. Reference contexts are sidecars, never native trust substitutes."
+}

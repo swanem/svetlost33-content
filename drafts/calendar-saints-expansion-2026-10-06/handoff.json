@@ -1,0 +1,112 @@
+{
+  "id": "ks01-calendar-saints-package-a-2026-10-06",
+  "prepared_on": "2026-10-06",
+  "status": "PACKAGE_A_PREPARED_PENDING_REVIEW_NOT_PUBLISHED",
+  "base": {
+    "release_set_id": "shared-calendar-saints-2026-10-02-m0v2-s12",
+    "local_index_sha256": "a0d50c23036db203035419f4ba169ddb6005223799ed3ac4e89e03dd9f7733e9",
+    "public_confirmation": {
+      "path": "../svetlost33-github/docs/contracts/calendar-saints-expansion-2026-10-06/public-baseline-s12-2026-10-06.json",
+      "bytes": 12742,
+      "sha256": "4c75bc9c1721ca677d11d256f15159d81c683eef68baa641b0ba24b10182de28",
+      "status": "COORDINATOR_PUBLIC_S12_READBACK_PASS",
+      "completed_at": "2026-10-06T05:38:01.241Z",
+      "verified_files": 50,
+      "profile_checks": 24,
+      "candidate_approval": false,
+      "candidate_publication": false,
+      "native_acceptance": false
+    }
+  },
+  "scope": {
+    "package_a": [
+      "2026-10-09",
+      "2026-10-31"
+    ],
+    "package_b": "42-row inventory includes November 1–19; candidate deferred until package A accepted",
+    "new_articles": 0
+  },
+  "additions": {
+    "sources": 28,
+    "subjects": 20,
+    "observances": 21,
+    "occurrences": 21,
+    "article_links": 22
+  },
+  "after": {
+    "sources": 48,
+    "subjects": 38,
+    "observances": 55,
+    "occurrences": 53,
+    "article_links": 33
+  },
+  "capacity": {
+    "catalog_bytes": 119549,
+    "catalog_byte_limit": 524288,
+    "browser_bytes": 97906,
+    "browser_byte_limit": 1048576,
+    "counts": {
+      "sources": 48,
+      "subjects": 38,
+      "observances": 55,
+      "occurrences": 53,
+      "article_links": 33
+    },
+    "count_limits": {
+      "sources": 256,
+      "subjects": 256,
+      "observances": 512,
+      "occurrences": 2048,
+      "article_links": 256
+    },
+    "saints_articles": 62,
+    "saints_bytes": 211965,
+    "saints_article_limit": 64,
+    "saints_byte_limit": 262144
+  },
+  "approval_id": null,
+  "new_metadata_review_status": "pending",
+  "native_acceptance": false,
+  "production_signing": false,
+  "publication": false,
+  "artifacts": {
+    "inventory.json": "a95ac333c9a1fd8c67c781bc62f23e6f9c8028be5c29503c5f6ec8bef8380d21",
+    "package-a.catalog.pending.json": "121387e5bb1d80ab76460e1aff92cdfa10d70590ba8e78db0c5717bc3e6674d4",
+    "package-a.browser.pending.json": "97a0dbbfa106e9c941f5fda076dd35f3aefd8e1c0bdb8df00e4800fc8717f763",
+    "package-a.delta.json": "7de48daef0c9bf521d560d7f699dfa2c14f88ff90ed3aced4420dcb24aff4677",
+    "PREGLED.md": "57912956c518abc6f8a9abd84458c0ed7b62e84cfe5ebfe71ff86d6609fdb1b7",
+    "source-provenance.json": "f54ff4326a46ab4801f86afdfaa1f47571b73763b6437a1ca207ef6f73e1aa01",
+    "public-baseline-reference.json": "07f80575760e380fb0a67f01e9835c13cb0a813ba8ad4f2522e1a573b6927fc8",
+    "verification.json": "4dd108699cdd1629de9be73c2a06895b95c6419f0b0da0ef2e1ade2928d93a15",
+    "master.mjs": "4b60b054c72593b3948c8970e74e3f0793b8ffd57edb32e51c2356966948043b",
+    "prepare.mjs": "aee1bca36140ddbcf1d8c2515a8cae059a5df710c9bf8af3d77cc8bab1fee636",
+    "verify.mjs": "97f9eceb1e4d566ecb201fea4fc148b6707bd8cadbca9cf2ddf412210ead9b72"
+  },
+  "validation": {
+    "command": "node drafts/calendar-saints-expansion-2026-10-06/verify.mjs --write-evidence",
+    "result": "PASS_EDITORIAL_REFERENCE_ONLY",
+    "assertion_groups": 12
+  },
+  "remaining_gates": [
+    "Fresh public baseline recheck immediately before any future signing/publication",
+    "Review/approval of exact new identities and links",
+    "Package A acceptance before package B candidate",
+    "Native exact generation acceptance before any activation",
+    "Any approval promotion changes bytes: regenerate the browser hash binding and recheck",
+    "Separate signing/publication authority"
+  ],
+  "source_limitations": [
+    "No fresh source web review; inherited source dates retained exactly.",
+    "No new source snapshot hashes or rights/clerical clearance.",
+    "November prior URL-unavailability limitation preserved; exact approved annual bytes are date authority.",
+    "Any approved promotion changes catalog bytes and requires newly computed browser binding, manifests and native checks."
+  ],
+  "preserved": [
+    "All 62 raw approved articles",
+    "Annual calendar and fasting/Gospel decisions",
+    "Existing S12 records and legacy slava mapping",
+    "Calendar-browser memberships and complete historical archive",
+    "2027 unavailable state",
+    "Production index/manifests/signatures and unrelated dirty files"
+  ]
+}

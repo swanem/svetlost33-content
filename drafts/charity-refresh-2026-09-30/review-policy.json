@@ -1,0 +1,18 @@
+{
+  "status": "proposed_requires_exact_candidate_approval",
+  "verified_at": "2026-09-30T10:55:30Z",
+  "expires_at": "2026-10-30T10:55:30Z",
+  "interval_days": 30,
+  "next_manual_review_by": "2026-10-23T10:55:30Z",
+  "previous_registry_expires_at": "2026-10-18T10:35:15Z",
+  "rules": [
+    "Complete source review and approved release before the existing 2026-10-18T10:35:15Z expiry; this draft extends nothing in production.",
+    "Candidate/link expiry is fixed at 30 days after this source check, not 30 days after an eventual signature.",
+    "If release preparation occurs more than 24 hours after this check, recheck all official identities and 15 destinations; changes require a new candidate/hash and approval.",
+    "Any changed identity, unexplained destination redirect, removed official backlink, revoked link or missing source suspends the affected proposal until resolved; no automatic expiry extension.",
+    "Re-read latest production index before preparing a release, retaining all non-organizations modules byte-for-byte in their descriptors.",
+    "Neutral logos do not block verified links. A later non-null logo requires exact PNG/JPEG, documented use basis, hash/media validation, and both native capability proofs.",
+    "Native runtime still requires authenticated current content and a new payment-session freshness check before opening donation; content expiry and link expiry are hard boundaries.",
+    "Manual review date is a proposed editorial deadline, not a newly scheduled automation."
+  ]
+}

@@ -1,0 +1,386 @@
+{
+  "schema_version": "svetlost33-media-review-candidate-1",
+  "candidate_id": "feast-backgrounds-2026-09-30-r1",
+  "status": "local_review_only",
+  "production_release": false,
+  "approved_platforms": [],
+  "intended_platforms": [
+    "android",
+    "ios"
+  ],
+  "source": {
+    "directory": "svetlo-figma-assets/praznici-prvih-sedam-v1",
+    "manifest_sha256": "0c7d361720a1b02456ebc29f8c5469a94b55771c39fc89715d425d13d4cc964c"
+  },
+  "application_variant": "clean",
+  "clean_original_bytes": 17414965,
+  "all_original_bytes": 33151432,
+  "dates_imported_as_runtime_rules": false,
+  "rights": {
+    "provenance": "first_party_ai_generation",
+    "license_label": null,
+    "distribution_review": "pending",
+    "territories": [],
+    "note": "Image prompts are provenance, not a CC0 or public-domain license; no third-party license is inferred."
+  },
+  "unchanged_existing_approval_id": "shared-backgrounds-v1-2026-09-16",
+  "items": [
+    {
+      "id": "feast-pokrov",
+      "source_id": "pokrov",
+      "title": {
+        "sr-Latn": "Pod okriljem mira",
+        "sr-Cyrl": "Под окриљем мира"
+      },
+      "caption": {
+        "sr-Latn": "Pokrov Presvete Bogorodice",
+        "sr-Cyrl": "Покров Пресвете Богородице"
+      },
+      "appearance": "dark",
+      "variants": {
+        "clean": {
+          "path": "bez-teksta/01-pokrov.png",
+          "width": 841,
+          "height": 1870,
+          "bytes": 2569026,
+          "sha256": "1bf60b3846bab7234aea6fdbd179a280de829e9bc8982673ed283616aebd58e0",
+          "content_type": "image/png",
+          "full_decode": "passed"
+        },
+        "named": {
+          "path": "sa-nazivom/01-pokrov.png",
+          "width": 841,
+          "height": 1870,
+          "bytes": 2286062,
+          "sha256": "b7f35640306caba017415ca4da62a1e8ac325995f8e54cde87cc0548f59e016d",
+          "content_type": "image/png",
+          "full_decode": "passed"
+        }
+      },
+      "prompt": {
+        "path": "prompts/01-pokrov.prompt.txt",
+        "sha256": "b334cfce3191471c7714f52f5f15f17eb74d016091614ba6dacaa17cd50bb3fc"
+      },
+      "provenance": {
+        "kind": "ai_generated",
+        "engine": "built-in ImageGen",
+        "created_on": "2026-09-29"
+      },
+      "review": {
+        "visual_clean": "reviewed_for_candidate",
+        "source_qa": "passed",
+        "device_crop": "pending",
+        "caption_overlay": "pending",
+        "owner_exact_revision": "pending"
+      },
+      "calendar_binding": null,
+      "auto_rotation": false
+    },
+    {
+      "id": "feast-sveti-luka",
+      "source_id": "sveti-luka",
+      "title": {
+        "sr-Latn": "Reč svetlosti",
+        "sr-Cyrl": "Реч светлости"
+      },
+      "caption": {
+        "sr-Latn": "Sveti apostol Luka",
+        "sr-Cyrl": "Свети апостол Лука"
+      },
+      "appearance": "dark",
+      "variants": {
+        "clean": {
+          "path": "bez-teksta/02-sveti-luka.png",
+          "width": 841,
+          "height": 1870,
+          "bytes": 2338550,
+          "sha256": "e5b36ece7ec34e047c371aefdce0e0098ef166ea4ca0cdfe039e0c0695a3ae71",
+          "content_type": "image/png",
+          "full_decode": "passed"
+        },
+        "named": {
+          "path": "sa-nazivom/02-sveti-luka.png",
+          "width": 841,
+          "height": 1870,
+          "bytes": 2120769,
+          "sha256": "2dcbfcc90f3885783e8f9d0caa2ddf47c44e87ec00135ad2f2405719586c967f",
+          "content_type": "image/png",
+          "full_decode": "passed"
+        }
+      },
+      "prompt": {
+        "path": "prompts/02-sveti-luka.prompt.txt",
+        "sha256": "801c4eb1e15185b7804dfef729b6cb77974a36e4afd61479ffad000ef38cbe9b"
+      },
+      "provenance": {
+        "kind": "ai_generated",
+        "engine": "built-in ImageGen",
+        "created_on": "2026-09-29"
+      },
+      "review": {
+        "visual_clean": "reviewed_for_candidate",
+        "source_qa": "passed",
+        "device_crop": "pending",
+        "caption_overlay": "pending",
+        "owner_exact_revision": "pending"
+      },
+      "calendar_binding": null,
+      "auto_rotation": false
+    },
+    {
+      "id": "feast-vavedenje",
+      "source_id": "vavedenje",
+      "title": {
+        "sr-Latn": "Ulazak u svetlost",
+        "sr-Cyrl": "Улазак у светлост"
+      },
+      "caption": {
+        "sr-Latn": "Vavedenje",
+        "sr-Cyrl": "Ваведење"
+      },
+      "appearance": "light",
+      "variants": {
+        "clean": {
+          "path": "bez-teksta/03-vavedenje.png",
+          "width": 841,
+          "height": 1870,
+          "bytes": 2563334,
+          "sha256": "877540a05ee68eb83667bf37bdd6263e5764a0795dfbf587f775d7fa3e291a42",
+          "content_type": "image/png",
+          "full_decode": "passed"
+        },
+        "named": {
+          "path": "sa-nazivom/03-vavedenje.png",
+          "width": 841,
+          "height": 1870,
+          "bytes": 2378952,
+          "sha256": "ca0cb38891b4af2a1dd5534fa8140291e87685827bcd46ec61a961c9425e9cc8",
+          "content_type": "image/png",
+          "full_decode": "passed"
+        }
+      },
+      "prompt": {
+        "path": "prompts/03-vavedenje.prompt.txt",
+        "sha256": "8444a5dd93f6aec158a10c5b9972aa2ed5c6b6ebf781c164441fcab3eb4f8271"
+      },
+      "provenance": {
+        "kind": "ai_generated",
+        "engine": "built-in ImageGen",
+        "created_on": "2026-09-29"
+      },
+      "review": {
+        "visual_clean": "reviewed_for_candidate",
+        "source_qa": "passed",
+        "device_crop": "pending",
+        "caption_overlay": "pending",
+        "owner_exact_revision": "pending"
+      },
+      "calendar_binding": null,
+      "auto_rotation": false
+    },
+    {
+      "id": "feast-badnji-dan",
+      "source_id": "badnji-dan",
+      "title": {
+        "sr-Latn": "Tiho iščekivanje",
+        "sr-Cyrl": "Тихо ишчекивање"
+      },
+      "caption": {
+        "sr-Latn": "Badnji dan",
+        "sr-Cyrl": "Бадњи дан"
+      },
+      "appearance": "light",
+      "variants": {
+        "clean": {
+          "path": "bez-teksta/04-badnji-dan.png",
+          "width": 841,
+          "height": 1870,
+          "bytes": 2647839,
+          "sha256": "7bedaa7049aab279eb5e4a672e74441273bdce36db98ec31985dbca572501629",
+          "content_type": "image/png",
+          "full_decode": "passed"
+        },
+        "named": {
+          "path": "sa-nazivom/04-badnji-dan.png",
+          "width": 841,
+          "height": 1870,
+          "bytes": 2466248,
+          "sha256": "a349f3a168fdeb47f09dbf1ad694dd1f82cc61657d8dc297469eb9e98eda80ed",
+          "content_type": "image/png",
+          "full_decode": "passed"
+        }
+      },
+      "prompt": {
+        "path": "prompts/04-badnji-dan.prompt.txt",
+        "sha256": "d81d5ea3a59ce16051fb60835b3349411bb1a555f8aa43daaa7cb4286efbe13e"
+      },
+      "provenance": {
+        "kind": "ai_generated",
+        "engine": "built-in ImageGen",
+        "created_on": "2026-09-29"
+      },
+      "review": {
+        "visual_clean": "reviewed_for_candidate",
+        "source_qa": "passed",
+        "device_crop": "pending",
+        "caption_overlay": "pending",
+        "owner_exact_revision": "pending"
+      },
+      "calendar_binding": null,
+      "auto_rotation": false
+    },
+    {
+      "id": "feast-bogojavljenje",
+      "source_id": "bogojavljenje",
+      "title": {
+        "sr-Latn": "Svetlost nad vodom",
+        "sr-Cyrl": "Светлост над водом"
+      },
+      "caption": {
+        "sr-Latn": "Bogojavljenje",
+        "sr-Cyrl": "Богојављење"
+      },
+      "appearance": "light",
+      "variants": {
+        "clean": {
+          "path": "bez-teksta/05-bogojavljenje.png",
+          "width": 793,
+          "height": 1983,
+          "bytes": 2452330,
+          "sha256": "3f0e1ce1cc199c54d7ed2c31797adb8599bc2b7c44009fdee5d7ebb270aa17e1",
+          "content_type": "image/png",
+          "full_decode": "passed"
+        },
+        "named": {
+          "path": "sa-nazivom/05-bogojavljenje.png",
+          "width": 793,
+          "height": 1983,
+          "bytes": 2175530,
+          "sha256": "0621041b669a48bcaa9dfe7638a1f3617c9313e5e1d601adef046c1eb6783a7f",
+          "content_type": "image/png",
+          "full_decode": "passed"
+        }
+      },
+      "prompt": {
+        "path": "prompts/05-bogojavljenje.prompt.txt",
+        "sha256": "d3c3d9161944cf239a8c03e9ad9cdd5620afd60b08adeb033a6ab1a87d8ea7a0"
+      },
+      "provenance": {
+        "kind": "ai_generated",
+        "engine": "built-in ImageGen",
+        "created_on": "2026-09-29"
+      },
+      "review": {
+        "visual_clean": "reviewed_for_candidate",
+        "source_qa": "passed",
+        "device_crop": "pending",
+        "caption_overlay": "pending",
+        "owner_exact_revision": "pending"
+      },
+      "calendar_binding": null,
+      "auto_rotation": false
+    },
+    {
+      "id": "feast-veliki-petak",
+      "source_id": "veliki-petak",
+      "title": {
+        "sr-Latn": "Tišina pod Krstom",
+        "sr-Cyrl": "Тишина под Крстом"
+      },
+      "caption": {
+        "sr-Latn": "Veliki petak",
+        "sr-Cyrl": "Велики петак"
+      },
+      "appearance": "dark",
+      "variants": {
+        "clean": {
+          "path": "bez-teksta/06-veliki-petak.png",
+          "width": 841,
+          "height": 1870,
+          "bytes": 2340874,
+          "sha256": "4767c688dce1199b586b5b7661579d911c8a9e633c9dfadbcfe026110651af16",
+          "content_type": "image/png",
+          "full_decode": "passed"
+        },
+        "named": {
+          "path": "sa-nazivom/06-veliki-petak.png",
+          "width": 841,
+          "height": 1870,
+          "bytes": 2019194,
+          "sha256": "148048a261f7a5b6916b45fa4d3193e76cedc47b7b9320070646efaf777490a3",
+          "content_type": "image/png",
+          "full_decode": "passed"
+        }
+      },
+      "prompt": {
+        "path": "prompts/06-veliki-petak.prompt.txt",
+        "sha256": "37217f88d9055b147d58269785996c7b9b3c690da2adf7535f45c929dc6a66b5"
+      },
+      "provenance": {
+        "kind": "ai_generated",
+        "engine": "built-in ImageGen",
+        "created_on": "2026-09-29"
+      },
+      "review": {
+        "visual_clean": "reviewed_for_candidate",
+        "source_qa": "passed",
+        "device_crop": "pending",
+        "caption_overlay": "pending",
+        "owner_exact_revision": "pending"
+      },
+      "calendar_binding": null,
+      "auto_rotation": false
+    },
+    {
+      "id": "feast-vaskrs",
+      "source_id": "vaskrs",
+      "title": {
+        "sr-Latn": "Svetlost Vaskrsenja",
+        "sr-Cyrl": "Светлост Васкрсења"
+      },
+      "caption": {
+        "sr-Latn": "Vaskrs",
+        "sr-Cyrl": "Васкрс"
+      },
+      "appearance": "light",
+      "variants": {
+        "clean": {
+          "path": "bez-teksta/07-vaskrs.png",
+          "width": 841,
+          "height": 1870,
+          "bytes": 2503012,
+          "sha256": "fa2cd8d305064e71d1b1e8ae8c7ac743124538e2e83da0c5ec2e8e34ecbb1431",
+          "content_type": "image/png",
+          "full_decode": "passed"
+        },
+        "named": {
+          "path": "sa-nazivom/07-vaskrs.png",
+          "width": 841,
+          "height": 1870,
+          "bytes": 2289712,
+          "sha256": "4c1b7e88a9232318e2112c8d0cf8be879c0f725704bce6cb9f5471c584021630",
+          "content_type": "image/png",
+          "full_decode": "passed"
+        }
+      },
+      "prompt": {
+        "path": "prompts/07-vaskrs.prompt.txt",
+        "sha256": "7b93db9d34dd6a0942ca560b083c57e0ca6ba554360ec9446c0669322400949d"
+      },
+      "provenance": {
+        "kind": "ai_generated",
+        "engine": "built-in ImageGen",
+        "created_on": "2026-09-29"
+      },
+      "review": {
+        "visual_clean": "reviewed_for_candidate",
+        "source_qa": "passed",
+        "device_crop": "pending",
+        "caption_overlay": "pending",
+        "owner_exact_revision": "pending"
+      },
+      "calendar_binding": null,
+      "auto_rotation": false
+    }
+  ]
+}

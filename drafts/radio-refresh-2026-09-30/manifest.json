@@ -1,0 +1,51 @@
+{
+  "schema_version": "svetlost33-radio-refresh-manifest-1",
+  "candidate_id": "radio-refresh-2026-09-30-r1",
+  "status": "LOCAL_UNSIGNED_REVIEW_CANDIDATE",
+  "owner_approval": null,
+  "clerical_review": null,
+  "publication_authorized": false,
+  "source_response_sha256": "0f2cd640a2273771a7f0871070e4b51a4a84c3e67ba5c606864c81c0b870b71f",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 6634,
+      "sha256": "9291d3bc10ef91860c592faabaea14562687dedd15eb6682e6c49b546e0e7313"
+    },
+    {
+      "path": "pins.json",
+      "bytes": 1923,
+      "sha256": "5855d84c3c00b68de85f85b3f7b8a385f26fae169f9c8410c68d4a0245821c6e"
+    },
+    {
+      "path": "capture.mjs",
+      "bytes": 4447,
+      "sha256": "9b2827d691c5c2501bb6caf2255207befe9ad80df3db10cd2e9db4deb089f7eb"
+    },
+    {
+      "path": "inspect.mjs",
+      "bytes": 14247,
+      "sha256": "70b4edb82971b71898f48773d50d36bf88bb0c0d95a637469e8dce742e9727d4"
+    },
+    {
+      "path": "inspect.test.mjs",
+      "bytes": 10097,
+      "sha256": "7397816086eb675763f94da68472a2f4098c5b3ad5703483e008205a2066c635"
+    },
+    {
+      "path": "source-observation.json",
+      "bytes": 87160,
+      "sha256": "3fb47f250c9a0f01ed6270f781953c0910df8f520497c396a1c2b8a4596d43d3"
+    },
+    {
+      "path": "candidate.json",
+      "bytes": 24134,
+      "sha256": "c009569f695d094623f538b569468fd8f507301434cf8b9de9f9ab9156359446"
+    },
+    {
+      "path": "report.json",
+      "bytes": 34300,
+      "sha256": "d7dd98369937466e9a1fa559921d52a27eb37bc6a325aaf6c9763339fa3e92df"
+    }
+  ]
+}

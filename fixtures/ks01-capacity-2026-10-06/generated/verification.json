@@ -1,0 +1,121 @@
+{
+  "schema_version": "svetlost33-ks01-capacity-test-receipt-1",
+  "status": "PASS_TEST_ONLY_REFERENCE_NOT_NATIVE_ACCEPTANCE",
+  "warning": "TEST_ONLY_SYNTHETIC_TRUST_AND_REVIEW_NEVER_PUBLISH_NOT_OWNER_APPROVAL",
+  "command": "node fixtures/ks01-capacity-2026-10-06/verify.mjs --write-evidence",
+  "node_version": "v24.13.0",
+  "platform": "darwin",
+  "architecture": "arm64",
+  "assertions": [
+    {
+      "name": "All generated datasets and raw common calendar reproduce byte-for-byte with exact manifest hashes",
+      "status": "PASS"
+    },
+    {
+      "name": "Baseline62 and frozen pendingA remain unchanged; testA promotions are only review flags, test approval and exact browser hash",
+      "status": "PASS"
+    },
+    {
+      "name": "104/366 each preserve all62 original article objects and S12 catalog rows; 366 distinct subjects/sources/links really exist",
+      "status": "PASS"
+    },
+    {
+      "name": "Historical parsers still accept real62/testA and reject unsupported104/366; cloned profile changes only locked count/byte limits",
+      "status": "PASS"
+    },
+    {
+      "name": "Expanded profile accepts all four coherent same-generation payload sets and both scripts of all366 linked identities",
+      "status": "PASS"
+    },
+    {
+      "name": "Article count boundary366 succeeds and367 fails with valid remaining shape; unchanged saints source boundary512/513 holds",
+      "status": "PASS"
+    },
+    {
+      "name": "Each expanded catalog collection independently accepts512 and rejects513, with valid IDs/references and bytes below1MiB",
+      "status": "PASS"
+    },
+    {
+      "name": "Raw UTF8 byte ceilings accept exact whitespace-padded limit and reject one extra byte before parsing",
+      "status": "PASS"
+    },
+    {
+      "name": "Closed shape, duplicate identities, both-script parity and dangling references remain enforced",
+      "status": "PASS"
+    },
+    {
+      "name": "Exact calendar, article, browser and generation binding failures remain unavailable; draft status never authenticates content",
+      "status": "PASS"
+    },
+    {
+      "name": "PackageA test view resolves all23 exact dates and existing old article links without changing feast selection or archive",
+      "status": "PASS"
+    },
+    {
+      "name": "All pinned production/draft/schema/validator inputs remain unchanged after fixture generation and reference tests",
+      "status": "PASS"
+    }
+  ],
+  "assertion_groups": 12,
+  "node_measurements": {
+    "samples": [
+      {
+        "dataset": "baseline-62",
+        "operation": "Node raw parse and structural validation of saints+catalog+browser only",
+        "samples_ms": [
+          6.281,
+          5.951,
+          5.99,
+          6.283,
+          6.028
+        ],
+        "median_ms": 6.028,
+        "max_of_five_ms": 6.283
+      },
+      {
+        "dataset": "synthetic-104",
+        "operation": "Node raw parse and structural validation of saints+catalog+browser only",
+        "samples_ms": [
+          12.021,
+          12.519,
+          11.715,
+          11.907,
+          12.294
+        ],
+        "median_ms": 12.021,
+        "max_of_five_ms": 12.519
+      },
+      {
+        "dataset": "synthetic-366",
+        "operation": "Node raw parse and structural validation of saints+catalog+browser only",
+        "samples_ms": [
+          38.023,
+          37.377,
+          36.992,
+          37.854,
+          37.304
+        ],
+        "median_ms": 37.377,
+        "max_of_five_ms": 38.023
+      }
+    ],
+    "cold_native_measurement": false,
+    "peak_memory_measured": false,
+    "note": "Five in-process Node runs; excludes module compilation, projection, install, UI and native hardware. Not a device performance gate."
+  },
+  "source_hashes": {
+    "generate.mjs": "05f69f0c94f7abb5658fa62d8f2c71e6e6937cc6d3e38c9720520228a9db5b73",
+    "reference-profile.mjs": "7abec40b8a4f8b976f027bc272923319b62cc7a6ab497d827c1fded1a04d528b",
+    "verify.mjs": "d25d1d37da904308306637c857a5435a5c06886163a7290c9035597f08e126fb",
+    "README.md": "decbb8cdcd3d6c59832c1bd9b6faaece84d0a4d766dbf760f3a35e2276e6d208"
+  },
+  "fixture_manifests": {
+    "baseline-62": "4dac3598d340d87d0690112e20b41b986f6039910c8efee0b6b835241dad1812",
+    "synthetic-104": "6606022609b65f1d6eab10b147b9c590448ff5926cbb29c595b397b4925d255d",
+    "synthetic-366": "c043f0bf2ab9ec4045375e6d92af9f06907bdb30737142ece839e15f2e89e0a6",
+    "package-a-test-view": "da31d9a3206f70836d9c207a13c27a2880de91fb47ba3c828b197703425b7b9b"
+  },
+  "no_production_signature": true,
+  "no_native_change": true,
+  "actual104_content_supplied": false
+}

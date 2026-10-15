@@ -1,0 +1,3007 @@
+{
+  "schema_version": "svetlost33-radio-source-observation-1",
+  "year": 2026,
+  "status": "radio_only_not_liturgical_assignment",
+  "owner_approval": null,
+  "publication_authorized": false,
+  "source": {
+    "requested_url": "https://www.slovoljubve.com/cir/TumacenjaJevandjeljaKalendar.asp?Godina=2026",
+    "effective_url": "https://www.slovoljubve.com/cir/TumacenjaJevandjeljaKalendar.asp?Godina=2026",
+    "requested_at": "2026-09-30T11:41:05.662Z",
+    "checked_at": "2026-09-30T11:41:11.133Z",
+    "http_status": 200,
+    "content_type": "text/html",
+    "response_bytes": 158093,
+    "response_sha256": "0f2cd640a2273771a7f0871070e4b51a4a84c3e67ba5c606864c81c0b870b71f",
+    "extraction": "radio-monitor-core-v2 parsed facts; full HTML not retained",
+    "response_body_retained": false,
+    "response_hash_is_not_a_signature": true
+  },
+  "rows_sha256": "b121943bb9360714a57212073010f3b890cbe0eda7bee73b33c4419395620d9b",
+  "rows": [
+    {
+      "date": "2026-01-01",
+      "references": [
+        "Јеванђеље по Марку, зачало 39. 9,10-16"
+      ],
+      "notes": [],
+      "supplemental_blessing": false,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-01-02",
+      "references": [
+        "Јеванђеље по Марку, зачало 41. 9,33-41"
+      ],
+      "notes": [],
+      "supplemental_blessing": false,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-01-03",
+      "references": [
+        "Јеванђеље по Луки, зачало 74. 14,1-11"
+      ],
+      "notes": [],
+      "supplemental_blessing": false,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-01-04",
+      "references": [
+        "Јеванђеље по Матеју, зачало 1. 1,1-17"
+      ],
+      "notes": [],
+      "supplemental_blessing": false,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-01-05",
+      "references": [
+        "Јеванђеље по Марку, зачало 42. 9,42-10,1",
+        "Јеванђеље по Луки, зачало 106. 21,12-27"
+      ],
+      "notes": [],
+      "supplemental_blessing": false,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-01-06",
+      "references": [
+        "Јеванђеље по Луки, зачало 5. 2,1-11",
+        "Јеванђеље по Луки, зачало 6. 2,20-22"
+      ],
+      "notes": [],
+      "supplemental_blessing": false,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-01-07",
+      "references": [
+        "Јеванђеље по Матеју, зачало 3. 2,1-12"
+      ],
+      "notes": [],
+      "supplemental_blessing": false,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-01-08",
+      "references": [
+        "Јеванђеље по Матеју, зачало 4. 2,13-23"
+      ],
+      "notes": [],
+      "supplemental_blessing": false,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-01-09",
+      "references": [
+        "Јеванђеље по Марку, зачало 46. 10,23-32",
+        "Јеванђеље по Матеју, зачало 87. 21,33-43"
+      ],
+      "notes": [],
+      "supplemental_blessing": false,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-01-10",
+      "references": [
+        "Јеванђеље по Матеју, зачало 46. 12,14-29",
+        "Јеванђеље по Луки, зачало 51. 10,16-21"
+      ],
+      "notes": [],
+      "supplemental_blessing": false,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-01-11",
+      "references": [
+        "Јеванђеље по Матеју, зачало 4. 2,13-23"
+      ],
+      "notes": [],
+      "supplemental_blessing": false,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-01-12",
+      "references": [
+        "Јеванђеље по Марку, зачало 48. 10,46-52"
+      ],
+      "notes": [],
+      "supplemental_blessing": false,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-01-13",
+      "references": [
+        "Јеванђеље по Марку, зачало 50. 11,11-21"
+      ],
+      "notes": [],
+      "supplemental_blessing": false,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-01-14",
+      "references": [
+        "Јеванђеље по Луки, зачало 6. 2,20-22",
+        "Јеванђеље по Луки, зачало 24. 6,17-23"
+      ],
+      "notes": [],
+      "supplemental_blessing": false,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-01-15",
+      "references": [
+        "Јеванђеље по Марку, зачало 52. 11,27-33",
+        "Јеванђеље по Јовану, зачало 50. 15,1-8"
+      ],
+      "notes": [],
+      "supplemental_blessing": false,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-01-16",
+      "references": [
+        "Јеванђеље по Јовану, зачало 1. 1,1-17"
+      ],
+      "notes": [
+        "Данас нема читања али ћемо по благослову прочитати"
+      ],
+      "supplemental_blessing": true,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-01-17",
+      "references": [
+        "Јеванђеље по Матеју, зачало 5. 3,1-12",
+        "Јеванђеље по Луки, зачало 50. 10,1-15"
+      ],
+      "notes": [],
+      "supplemental_blessing": false,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-01-18",
+      "references": [
+        "Јеванђеље по Марку, зачало 1. 1,1-8"
+      ],
+      "notes": [],
+      "supplemental_blessing": false,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-01-19",
+      "references": [
+        "Јеванђеље по Матеју, зачало 6. 3,13-17"
+      ],
+      "notes": [],
+      "supplemental_blessing": false,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-01-20",
+      "references": [
+        "Јеванђеље по Јовану, зачало 3. 1,29-34"
+      ],
+      "notes": [],
+      "supplemental_blessing": false,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-01-21",
+      "references": [
+        "Јеванђеље по Марку, зачало 56. 12,28-37"
+      ],
+      "notes": [],
+      "supplemental_blessing": false,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-01-22",
+      "references": [
+        "Јеванђеље по Марку, зачало 57. 12,38-44"
+      ],
+      "notes": [],
+      "supplemental_blessing": false,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-01-23",
+      "references": [
+        "Јеванђеље по Марку, зачало 58. 13,1-8",
+        "Јеванђеље по Матеју, зачало 34. 9,36-10,8"
+      ],
+      "notes": [],
+      "supplemental_blessing": false,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-01-24",
+      "references": [
+        "Јеванђеље по Матеју, зачало 7. 4,1-11",
+        "Јеванђеље по Матеју, зачало 43. 11,27-30"
+      ],
+      "notes": [],
+      "supplemental_blessing": false,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-01-25",
+      "references": [
+        "Јеванђеље по Матеју, зачало 8. 4,12-17",
+        "Јеванђеље по Луки, зачало 94. 19,1-10"
+      ],
+      "notes": [],
+      "supplemental_blessing": false,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-01-26",
+      "references": [
+        "Јеванђеље по Марку, зачало 54. 12,13-17"
+      ],
+      "notes": [],
+      "supplemental_blessing": false,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-01-27",
+      "references": [
+        "Јеванђеље по Јовану, зачало 36. 10,9-16"
+      ],
+      "notes": [],
+      "supplemental_blessing": false,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-01-28",
+      "references": [
+        "Јеванђеље по Марку, зачало 56. 12,28-37",
+        "Јеванђеље по Матеју, зачало 43. 11,27-30"
+      ],
+      "notes": [],
+      "supplemental_blessing": false,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-01-29",
+      "references": [
+        "Јеванђеље по Марку, зачало 57. 12,38-44",
+        "Јеванђеље по Јовану, зачало 67. 21,15-25"
+      ],
+      "notes": [],
+      "supplemental_blessing": false,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-01-30",
+      "references": [
+        "Јеванђеље по Марку, зачало 58. 12,1-8",
+        "Јеванђеље по Луки, зачало 24. 6,17-23"
+      ],
+      "notes": [],
+      "supplemental_blessing": false,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-01-31",
+      "references": [
+        "Јеванђеље по Матеју, зачало 11. 5,14-19",
+        "Јеванђеље по Луки, зачало 88. 18,1-8"
+      ],
+      "notes": [],
+      "supplemental_blessing": false,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-02-01",
+      "references": [
+        "Јеванђеље по Луки, зачало 89. 18,10-14"
+      ],
+      "notes": [],
+      "supplemental_blessing": false,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-02-02",
+      "references": [
+        "Јеванђеље по Марку, зачало 59. 11,29-33",
+        "Јеванђеље по Луки, зачало 24. 6,17-23"
+      ],
+      "notes": [],
+      "supplemental_blessing": false,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-02-03",
+      "references": [
+        "Јеванђеље по Марку, зачало 60. 13,14-23",
+        "Јеванђеље по Луки, зачало 64. 12,8-12"
+      ],
+      "notes": [],
+      "supplemental_blessing": false,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-02-04",
+      "references": [
+        "Јеванђеље по Марку, зачало 61. 13,24-31",
+        "Јеванђеље по Луки, зачало 50. 10,1-15"
+      ],
+      "notes": [],
+      "supplemental_blessing": false,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-02-05",
+      "references": [
+        "Јеванђеље по Марку, зачало 62. 13,31-14,2",
+        "Јеванђеље по Јовану, зачало 36. 10,9-16"
+      ],
+      "notes": [],
+      "supplemental_blessing": false,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-02-06",
+      "references": [
+        "Јеванђеље по Марку, зачало 63. 14,3-9"
+      ],
+      "notes": [],
+      "supplemental_blessing": false,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-02-07",
+      "references": [
+        "Јеванђеље по Луки, зачало 103. 20,45-21,4",
+        "Јеванђеље по Јовану, зачало 36. 10,9-16"
+      ],
+      "notes": [],
+      "supplemental_blessing": false,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-02-08",
+      "references": [
+        "Јеванђеље по Луки, зачало 79. 15,11-32"
+      ],
+      "notes": [],
+      "supplemental_blessing": false,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-02-09",
+      "references": [
+        "Јеванђеље по Марку, зачало 49. 11,1-11",
+        "Јеванђеље по Јовану, зачало 36. 10,9-16"
+      ],
+      "notes": [],
+      "supplemental_blessing": false,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-02-10",
+      "references": [
+        "Јеванђеље по Марку, зачало 64. 14,10-42",
+        "Јеванђеље по Матеју, зачало 43. 11,27-30"
+      ],
+      "notes": [],
+      "supplemental_blessing": false,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-02-11",
+      "references": [
+        "Јеванђеље по Марку, зачало 65. 14,43-15,1",
+        "Јеванђеље по Марку, зачало 41. 9,33-41"
+      ],
+      "notes": [],
+      "supplemental_blessing": false,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-02-12",
+      "references": [
+        "Јеванђеље по Матеју, зачало 11. 5,14-19"
+      ],
+      "notes": [],
+      "supplemental_blessing": false,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-02-13",
+      "references": [
+        "Јеванђеље по Луки, зачало 51. 10,16-21",
+        "Јеванђеље по Матеју, зачало 34. 9,36-10,8"
+      ],
+      "notes": [],
+      "supplemental_blessing": false,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-02-14",
+      "references": [
+        "Јеванђеље по Луки, зачало 105. 21,8-36",
+        "Јеванђеље по Јовану, зачало 16. 5,24-30"
+      ],
+      "notes": [],
+      "supplemental_blessing": false,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-02-15",
+      "references": [
+        "Јеванђеље по Матеју, зачало 106. 25,31-46",
+        "Јеванђеље по Луки, зачало 7. 2,22-40"
+      ],
+      "notes": [],
+      "supplemental_blessing": false,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-02-16",
+      "references": [
+        "Јеванђеље по Луки, зачало 96. 19,29-40",
+        "Јеванђеље по Луки, зачало 8. 2,25-52"
+      ],
+      "notes": [],
+      "supplemental_blessing": false,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-02-17",
+      "references": [
+        "Јеванђеље по Матеју, зачало 109. 26,57-75"
+      ],
+      "notes": [],
+      "supplemental_blessing": false,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-02-18",
+      "references": [
+        "Јеванђеље по Јовану, зачало 1. 1,1-17"
+      ],
+      "notes": [
+        "Данас нема читања али ћемо по благослову прочитати"
+      ],
+      "supplemental_blessing": true,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-02-19",
+      "references": [
+        "Јеванђеље по Луки, зачало 110. 23,1-31"
+      ],
+      "notes": [],
+      "supplemental_blessing": false,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-02-20",
+      "references": [
+        "Јеванђеље по Јовану, зачало 2. 1,18-28"
+      ],
+      "notes": [
+        "Данас нема читања али ћемо по благослову прочитати"
+      ],
+      "supplemental_blessing": true,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-02-21",
+      "references": [
+        "Јеванђеље по Матеју, зачало 16. 6,1-13",
+        "Јеванђеље по Матеју, зачало 43. 11,27-30"
+      ],
+      "notes": [],
+      "supplemental_blessing": false,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-02-22",
+      "references": [
+        "Јеванђеље по Матеју, зачало 17. 6,14-21"
+      ],
+      "notes": [],
+      "supplemental_blessing": false,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-02-23",
+      "references": [
+        "Јеванђеље по Јовану, зачало 3. 1,29-34"
+      ],
+      "notes": [
+        "Данас нема читања али ћемо по благослову прочитати"
+      ],
+      "supplemental_blessing": true,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-02-24",
+      "references": [
+        "Јеванђеље по Јовану, зачало 4. 1,35-42"
+      ],
+      "notes": [
+        "Данас нема читања али ћемо по благослову прочитати"
+      ],
+      "supplemental_blessing": true,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-02-25",
+      "references": [
+        "Јеванђеље по Јовану, зачало 5. 1,43-51"
+      ],
+      "notes": [
+        "Данас нема читања али ћемо по благослову прочитати"
+      ],
+      "supplemental_blessing": true,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-02-26",
+      "references": [
+        "Јеванђеље по Јовану, зачало 6. 2,1-11"
+      ],
+      "notes": [
+        "Данас нема читања али ћемо по благослову прочитати"
+      ],
+      "supplemental_blessing": true,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-02-27",
+      "references": [
+        "Јеванђеље по Јовану, зачало 7. 2,12-25"
+      ],
+      "notes": [
+        "Данас нема читања али ћемо по благослову прочитати"
+      ],
+      "supplemental_blessing": true,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-02-28",
+      "references": [
+        "Јеванђеље по Марку, зачало 10. 2,23-3,5",
+        "Јеванђеље по Јовану, зачало 52. 15,17-16,2"
+      ],
+      "notes": [],
+      "supplemental_blessing": false,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-03-01",
+      "references": [
+        "Јеванђеље по Јовану, зачало 5. 1,43-51"
+      ],
+      "notes": [],
+      "supplemental_blessing": false,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-03-02",
+      "references": [
+        "Јеванђеље по Јовану, зачало 8. 3,1-12"
+      ],
+      "notes": [
+        "Данас нема читања али ћемо по благослову прочитати"
+      ],
+      "supplemental_blessing": true,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-03-03",
+      "references": [
+        "Јеванђеље по Јовану, зачало 9. 3,13-15"
+      ],
+      "notes": [
+        "Данас нема читања али ћемо по благослову прочитати"
+      ],
+      "supplemental_blessing": true,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-03-04",
+      "references": [
+        "Јеванђеље по Јовану, зачало 10. 3,16-21"
+      ],
+      "notes": [
+        "Данас нема читања али ћемо по благослову прочитати"
+      ],
+      "supplemental_blessing": true,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-03-05",
+      "references": [
+        "Јеванђеље по Јовану, зачало 11. 3,22-36"
+      ],
+      "notes": [
+        "Данас нема читања али ћемо по благослову прочитати"
+      ],
+      "supplemental_blessing": true,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-03-06",
+      "references": [
+        "Јеванђеље по Јовану, зачало 12. 4,5-42"
+      ],
+      "notes": [
+        "Данас нема читања али ћемо по благослову прочитати"
+      ],
+      "supplemental_blessing": true,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-03-07",
+      "references": [
+        "Јеванђеље по Марку, зачало 6. 1,38-45",
+        "Јеванђеље по Јовану, зачало 16. 5,24-30"
+      ],
+      "notes": [],
+      "supplemental_blessing": false,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-03-08",
+      "references": [
+        "Јеванђеље по Марку, зачало 7. 2,1-12",
+        "Јеванђеље по Јовану, зачало 36. 10,9-16"
+      ],
+      "notes": [],
+      "supplemental_blessing": false,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-03-09",
+      "references": [
+        "Јеванђеље по Јовану, зачало 13. 4,46-54"
+      ],
+      "notes": [
+        "Данас нема читања али ћемо по благослову прочитати"
+      ],
+      "supplemental_blessing": true,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-03-10",
+      "references": [
+        "Јеванђеље по Јовану, зачало 14. 5,1-15"
+      ],
+      "notes": [
+        "Данас нема читања али ћемо по благослову прочитати"
+      ],
+      "supplemental_blessing": true,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-03-11",
+      "references": [
+        "Јеванђеље по Јовану, зачало 15. 5,17-24"
+      ],
+      "notes": [
+        "Данас нема читања али ћемо по благослову прочитати"
+      ],
+      "supplemental_blessing": true,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-03-12",
+      "references": [
+        "Јеванђеље по Јовану, зачало 16. 5,24-30"
+      ],
+      "notes": [
+        "Данас нема читања али ћемо по благослову прочитати"
+      ],
+      "supplemental_blessing": true,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-03-13",
+      "references": [
+        "Јеванђеље по Јовану, зачало 17. 5,30-6,2"
+      ],
+      "notes": [
+        "Данас нема читања али ћемо по благослову прочитати"
+      ],
+      "supplemental_blessing": true,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-03-14",
+      "references": [
+        "Јеванђеље по Марку, зачало 8. 2,13-17",
+        "Јеванђеље по Јовану, зачало 16. 5,24-30"
+      ],
+      "notes": [],
+      "supplemental_blessing": false,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-03-15",
+      "references": [
+        "Јеванђеље по Марку, зачало 37. 8,34-9,1"
+      ],
+      "notes": [],
+      "supplemental_blessing": false,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-03-16",
+      "references": [
+        "Јеванђеље по Јовану, зачало 18. 6,5-14"
+      ],
+      "notes": [
+        "Данас нема читања али ћемо по благослову прочитати"
+      ],
+      "supplemental_blessing": true,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-03-17",
+      "references": [
+        "Јеванђеље по Јовану, зачало 19. 6,14-27"
+      ],
+      "notes": [
+        "Данас нема читања али ћемо по благослову прочитати"
+      ],
+      "supplemental_blessing": true,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-03-18",
+      "references": [
+        "Јеванђеље по Јовану, зачало 20. 6,27-33"
+      ],
+      "notes": [
+        "Данас нема читања али ћемо по благослову прочитати"
+      ],
+      "supplemental_blessing": true,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-03-19",
+      "references": [
+        "Јеванђеље по Јовану, зачало 21. 6,35-39"
+      ],
+      "notes": [
+        "Данас нема читања али ћемо по благослову прочитати"
+      ],
+      "supplemental_blessing": true,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-03-20",
+      "references": [
+        "Јеванђеље по Јовану, зачало 22. 6,40-44"
+      ],
+      "notes": [
+        "Данас нема читања али ћемо по благослову прочитати"
+      ],
+      "supplemental_blessing": true,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-03-21",
+      "references": [
+        "Јеванђеље по Марку, зачало 31. 7,31-37",
+        "Јеванђеље по Јовану, зачало 16. 5,24-30"
+      ],
+      "notes": [],
+      "supplemental_blessing": false,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-03-22",
+      "references": [
+        "Јеванђеље по Марку, зачало 40. 9,17-32",
+        "Јеванђеље по Матеју, зачало 80. 20,1-16"
+      ],
+      "notes": [],
+      "supplemental_blessing": false,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-03-23",
+      "references": [
+        "Јеванђеље по Јовану, зачало 23. 6,48-54"
+      ],
+      "notes": [
+        "Данас нема читања али ћемо по благослову прочитати"
+      ],
+      "supplemental_blessing": true,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-03-24",
+      "references": [
+        "Јеванђеље по Јовану, зачало 24. 6,56-69"
+      ],
+      "notes": [
+        "Данас нема читања али ћемо по благослову прочитати"
+      ],
+      "supplemental_blessing": true,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-03-25",
+      "references": [
+        "Јеванђеље по Јовану, зачало 25. 7,1-13"
+      ],
+      "notes": [
+        "Данас нема читања али ћемо по благослову прочитати"
+      ],
+      "supplemental_blessing": true,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-03-26",
+      "references": [
+        "Јеванђеље по Јовану, зачало 26. 7,14-30"
+      ],
+      "notes": [
+        "Данас нема читања али ћемо по благослову прочитати"
+      ],
+      "supplemental_blessing": true,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-03-27",
+      "references": [
+        "Јеванђеље по Јовану, зачало 27. 7,37-52"
+      ],
+      "notes": [
+        "Данас нема читања али ћемо по благослову прочитати"
+      ],
+      "supplemental_blessing": true,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-03-28",
+      "references": [
+        "Јеванђеље по Марку, зачало 35. 8,27-31",
+        "Јеванђеље по Луки, зачало 54. 10,38-42"
+      ],
+      "notes": [],
+      "supplemental_blessing": false,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-03-29",
+      "references": [
+        "Јеванђеље по Луки, зачало 33. 7,36-50",
+        "Јеванђеље по Марку, зачало 47. 10,32-45"
+      ],
+      "notes": [],
+      "supplemental_blessing": false,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-03-30",
+      "references": [
+        "Јеванђеље по Јовану, зачало 27. 7,37-52"
+      ],
+      "notes": [
+        "Данас нема читања али ћемо по благослову прочитати"
+      ],
+      "supplemental_blessing": true,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-03-31",
+      "references": [
+        "Јеванђеље по Јовану, зачало 28. 8,3-11"
+      ],
+      "notes": [
+        "Данас нема читања али ћемо по благослову прочитати"
+      ],
+      "supplemental_blessing": true,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-04-01",
+      "references": [
+        "Јеванђеље по Матеју, зачало 10. 4,25-5,13"
+      ],
+      "notes": [
+        "Данас нема читања али ћемо по благослову прочитати"
+      ],
+      "supplemental_blessing": true,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-04-02",
+      "references": [
+        "Јеванђеље по Матеју, зачало 11. 5,14-19"
+      ],
+      "notes": [
+        "Данас нема читања али ћемо по благослову прочитати"
+      ],
+      "supplemental_blessing": true,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-04-03",
+      "references": [
+        "Јеванђеље по Матеју, зачало 12. 5,20-26"
+      ],
+      "notes": [
+        "Данас нема читања али ћемо по благослову прочитати"
+      ],
+      "supplemental_blessing": true,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-04-04",
+      "references": [
+        "Јеванђеље по Јовану, зачало 39. 11,1-46"
+      ],
+      "notes": [],
+      "supplemental_blessing": false,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-04-05",
+      "references": [
+        "Јеванђеље по Јовану, зачало 41. 12,1-19"
+      ],
+      "notes": [],
+      "supplemental_blessing": false,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-04-06",
+      "references": [
+        "Јеванђеље по Матеју, зачало 98. 24,3-12",
+        "Јеванђеље по Матеју, зачало 99. 24,13-26",
+        "Јеванђеље по Матеју, зачало 100. 24,27-33",
+        "Јеванђеље по Матеју, зачало 101. 24,34-35"
+      ],
+      "notes": [],
+      "supplemental_blessing": false,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-04-07",
+      "references": [
+        "Јеванђеље по Матеју, зачало 102. 24,36-41",
+        "Јеванђеље по Матеју, зачало 103. 24,42-51",
+        "Јеванђеље по Матеју, зачало 104. 25,1-13",
+        "Јеванђеље по Матеју, зачало 105. 25,14-30",
+        "Јеванђеље по Матеју, зачало 106. 25,31-46",
+        "Јеванђеље по Матеју, зачало 107. 26,1-5"
+      ],
+      "notes": [],
+      "supplemental_blessing": false,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-04-08",
+      "references": [
+        "Јеванђеље по Матеју, зачало 108. 26,6-39"
+      ],
+      "notes": [],
+      "supplemental_blessing": false,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-04-09",
+      "references": [
+        "Јеванђеље по Јовану, зачало 44. 13,1-11",
+        "Јеванђеље по Луки, зачало 109. 19,39-71",
+        "Јеванђеље по Матеју, зачало 108. 26,40-56",
+        "Јеванђеље по Матеју, зачало 109. 26,57-75",
+        "Јеванђеље по Матеју, зачало 110. 27,1-2"
+      ],
+      "notes": [],
+      "supplemental_blessing": false,
+      "validation_errors": [
+        {
+          "reference": 1,
+          "code": "invalid_verse_endpoint",
+          "segment": 0
+        }
+      ]
+    },
+    {
+      "date": "2026-04-10",
+      "references": [
+        "Јеванђеље по Матеју, зачало 111. 27,3-26",
+        "Јеванђеље по Матеју, зачало 112. 27,27-32",
+        "Јеванђеље по Матеју, зачало 113. 27,33-61",
+        "Јеванђеље по Матеју, зачало 114. 27,62-66",
+        "Јеванђеље по Луки, зачало 111. 23,32-56",
+        "Јеванђеље по Јовану, зачало 61. 19,25-37"
+      ],
+      "notes": [],
+      "supplemental_blessing": false,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-04-11",
+      "references": [
+        "Јеванђеље по Матеју, зачало 115. 28,1-15",
+        "Јеванђеље по Матеју, зачало 116. 28,16-20"
+      ],
+      "notes": [],
+      "supplemental_blessing": false,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-04-12",
+      "references": [
+        "Јеванђеље по Јовану, зачало 1. 1,1-17"
+      ],
+      "notes": [],
+      "supplemental_blessing": false,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-04-13",
+      "references": [
+        "Јеванђеље по Јовану, зачало 2. 1,18-26"
+      ],
+      "notes": [],
+      "supplemental_blessing": false,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-04-14",
+      "references": [
+        "Јеванђеље по Луки, зачало 113. 24,12-35"
+      ],
+      "notes": [],
+      "supplemental_blessing": false,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-04-15",
+      "references": [
+        "Јеванђеље по Јовану, зачало 4. 1,35-42"
+      ],
+      "notes": [],
+      "supplemental_blessing": false,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-04-16",
+      "references": [
+        "Јеванђеље по Јовану, зачало 8. 3,1-12"
+      ],
+      "notes": [],
+      "supplemental_blessing": false,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-04-17",
+      "references": [
+        "Јеванђеље по Јовану, зачало 7. 2,12-25",
+        "Јеванђеље по Луки, зачало 54. 10,38-42"
+      ],
+      "notes": [],
+      "supplemental_blessing": false,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-04-18",
+      "references": [
+        "Јеванђеље по Јовану, зачало 11. 3,22-36"
+      ],
+      "notes": [],
+      "supplemental_blessing": false,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-04-19",
+      "references": [
+        "Јеванђеље по Јовану, зачало 65. 20,19-31"
+      ],
+      "notes": [],
+      "supplemental_blessing": false,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-04-20",
+      "references": [
+        "Јеванђеље по Јовану, зачало 6. 2,1-11"
+      ],
+      "notes": [],
+      "supplemental_blessing": false,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-04-21",
+      "references": [
+        "Јеванђеље по Јовану, зачало 10. 3,16-21"
+      ],
+      "notes": [],
+      "supplemental_blessing": false,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-04-22",
+      "references": [
+        "Јеванђеље по Јовану, зачало 15. 5,17-24"
+      ],
+      "notes": [],
+      "supplemental_blessing": false,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-04-23",
+      "references": [
+        "Јеванђеље по Јовану, зачало 16. 5,24-30"
+      ],
+      "notes": [],
+      "supplemental_blessing": false,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-04-24",
+      "references": [
+        "Јеванђеље по Јовану, зачало 17. 5,30-6,2"
+      ],
+      "notes": [],
+      "supplemental_blessing": false,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-04-25",
+      "references": [
+        "Јеванђеље по Јовану, зачало 19. 6,14-27"
+      ],
+      "notes": [],
+      "supplemental_blessing": false,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-04-26",
+      "references": [
+        "Јеванђеље по Марку, зачало 69. 15,43-47"
+      ],
+      "notes": [],
+      "supplemental_blessing": false,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-04-27",
+      "references": [
+        "Јеванђеље по Јовану, зачало 13. 4,46-54"
+      ],
+      "notes": [],
+      "supplemental_blessing": false,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-04-28",
+      "references": [
+        "Јеванђеље по Јовану, зачало 20. 6,27-33"
+      ],
+      "notes": [],
+      "supplemental_blessing": false,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-04-29",
+      "references": [
+        "Јеванђеље по Јовану, зачало 21. 6,35-39"
+      ],
+      "notes": [],
+      "supplemental_blessing": false,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-04-30",
+      "references": [
+        "Јеванђеље по Јовану, зачало 22. 6,40-44"
+      ],
+      "notes": [],
+      "supplemental_blessing": false,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-05-01",
+      "references": [
+        "Јеванђеље по Јовану, зачало 23. 6,48-54"
+      ],
+      "notes": [],
+      "supplemental_blessing": false,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-05-02",
+      "references": [
+        "Јеванђеље по Јовану, зачало 52. 15,17-16,2"
+      ],
+      "notes": [],
+      "supplemental_blessing": false,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-05-03",
+      "references": [
+        "Јеванђеље по Јовану, зачало 14. 5,1-15"
+      ],
+      "notes": [],
+      "supplemental_blessing": false,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-05-04",
+      "references": [
+        "Јеванђеље по Јовану, зачало 24. 6,56-69"
+      ],
+      "notes": [],
+      "supplemental_blessing": false,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-05-05",
+      "references": [
+        "Јеванђеље по Јовану, зачало 25. 7,1-13"
+      ],
+      "notes": [],
+      "supplemental_blessing": false,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-05-06",
+      "references": [
+        "Јеванђеље по Јовану, зачало 26. 7,14-30",
+        "Јеванђеље по Јовану, зачало 52. 15,17-16,2"
+      ],
+      "notes": [],
+      "supplemental_blessing": false,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-05-07",
+      "references": [
+        "Јеванђеље по Јовану, зачало 29. 8,12-20"
+      ],
+      "notes": [],
+      "supplemental_blessing": false,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-05-08",
+      "references": [
+        "Јеванђеље по Јовану, зачало 30. 8,21-30",
+        "Јеванђеље по Марку, зачало 23. 6,7-13"
+      ],
+      "notes": [],
+      "supplemental_blessing": false,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-05-09",
+      "references": [
+        "Јеванђеље по Јовану, зачало 31. 8,31-42"
+      ],
+      "notes": [],
+      "supplemental_blessing": false,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-05-10",
+      "references": [
+        "Јеванђеље по Јовану, зачало 12. 4,5-42"
+      ],
+      "notes": [],
+      "supplemental_blessing": false,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-05-11",
+      "references": [
+        "Јеванђеље по Јовану, зачало 32. 8,42-51"
+      ],
+      "notes": [],
+      "supplemental_blessing": false,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-05-12",
+      "references": [
+        "Јеванђеље по Јовану, зачало 33. 8,51-59",
+        "Јеванђеље по Луки, зачало 24. 6,17-23"
+      ],
+      "notes": [],
+      "supplemental_blessing": false,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-05-13",
+      "references": [
+        "Јеванђеље по Јовану, зачало 18. 6,5-14",
+        "Јеванђеље по Луки, зачало 17. 5,1-11"
+      ],
+      "notes": [],
+      "supplemental_blessing": false,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-05-14",
+      "references": [
+        "Јеванђеље по Јовану, зачало 35. 9,39-10,9",
+        "Јеванђеље по Луки, зачало 14. 4,22-30"
+      ],
+      "notes": [],
+      "supplemental_blessing": false,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-05-15",
+      "references": [
+        "Јеванђеље по Јовану, зачало 37. 10,17-28",
+        "Јеванђеље по Матеју, зачало 11. 5,14-19"
+      ],
+      "notes": [],
+      "supplemental_blessing": false,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-05-16",
+      "references": [
+        "Јеванђеље по Јовану, зачало 38. 10,27-38"
+      ],
+      "notes": [],
+      "supplemental_blessing": false,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-05-17",
+      "references": [
+        "Јеванђеље по Јовану, зачало 34. 9,1-38"
+      ],
+      "notes": [],
+      "supplemental_blessing": false,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-05-18",
+      "references": [
+        "Јеванђеље по Јовану, зачало 40. 11,47-57"
+      ],
+      "notes": [],
+      "supplemental_blessing": false,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-05-19",
+      "references": [
+        "Јеванђеље по Јовану, зачало 40. 11,47-57",
+        "Јеванђеље по Јовану, зачало 36. 10,9-16"
+      ],
+      "notes": [],
+      "supplemental_blessing": false,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-05-20",
+      "references": [
+        "Јеванђеље по Јовану, зачало 43. 12,36-47"
+      ],
+      "notes": [],
+      "supplemental_blessing": false,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-05-21",
+      "references": [
+        "Јеванђеље по Луки, зачало 114. 24,36-53",
+        "Јеванђеље по Јовану, зачало 61. 19,25-37"
+      ],
+      "notes": [],
+      "supplemental_blessing": false,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-05-22",
+      "references": [
+        "Јеванђеље по Јовану, зачало 47. 14,1-11",
+        "Јеванђеље по Луки, зачало 24. 6,17-23"
+      ],
+      "notes": [],
+      "supplemental_blessing": false,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-05-23",
+      "references": [
+        "Јеванђеље по Јовану, зачало 48. 14,10-21",
+        "Јеванђеље по Матеју, зачало 56. 13,53-58"
+      ],
+      "notes": [],
+      "supplemental_blessing": false,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-05-24",
+      "references": [
+        "Јеванђеље по Јовану, зачало 56. 17,1-13",
+        "Јеванђеље по Матеју, зачало 11. 5,14-19"
+      ],
+      "notes": [],
+      "supplemental_blessing": false,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-05-25",
+      "references": [
+        "Јеванђеље по Јовану, зачало 49. 14,27-31",
+        "Јеванђеље по Матеју, зачало 11. 5,14-19"
+      ],
+      "notes": [],
+      "supplemental_blessing": false,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-05-26",
+      "references": [
+        "Јеванђеље по Јовану, зачало 53. 16,2-13"
+      ],
+      "notes": [],
+      "supplemental_blessing": false,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-05-27",
+      "references": [
+        "Јеванђеље по Јовану, зачало 54. 16,15-23"
+      ],
+      "notes": [],
+      "supplemental_blessing": false,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-05-28",
+      "references": [
+        "Јеванђеље по Јовану, зачало 55. 16,23-33",
+        "Јеванђеље по Луки, зачало 77. 14,25-35"
+      ],
+      "notes": [],
+      "supplemental_blessing": false,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-05-29",
+      "references": [
+        "Јеванђеље по Јовану, зачало 57. 17,18-26"
+      ],
+      "notes": [],
+      "supplemental_blessing": false,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-05-30",
+      "references": [
+        "Јеванђеље по Јовану, зачало 67. 21,15-25",
+        "Јеванђеље по Јовану, зачало 16. 5,24-30"
+      ],
+      "notes": [],
+      "supplemental_blessing": false,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-05-31",
+      "references": [
+        "Јеванђеље по Јовану, зачало 27. 7,37-52"
+      ],
+      "notes": [],
+      "supplemental_blessing": false,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-06-01",
+      "references": [
+        "Јеванђеље по Матеју, зачало 75. 18,10-17"
+      ],
+      "notes": [],
+      "supplemental_blessing": false,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-06-02",
+      "references": [
+        "Јеванђеље по Матеју, зачало 10. 4,25-5,13"
+      ],
+      "notes": [],
+      "supplemental_blessing": false,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-06-03",
+      "references": [
+        "Јеванђеље по Матеју, зачало 12. 5,20-26",
+        "Јеванђеље по Јовану, зачало 35. 9,39-10,9"
+      ],
+      "notes": [],
+      "supplemental_blessing": false,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-06-04",
+      "references": [
+        "Јеванђеље по Матеју, зачало 13. 5,27-32"
+      ],
+      "notes": [],
+      "supplemental_blessing": false,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-06-05",
+      "references": [
+        "Јеванђеље по Матеју, зачало 14. 5,33-41",
+        "Јеванђеље по Матеју, зачало 40. 11,2-15"
+      ],
+      "notes": [],
+      "supplemental_blessing": false,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-06-06",
+      "references": [
+        "Јеванђеље по Матеју, зачало 15. 5,42-48"
+      ],
+      "notes": [],
+      "supplemental_blessing": false,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-06-07",
+      "references": [
+        "Јеванђеље по Матеју, зачало 38. 10,32-36"
+      ],
+      "notes": [],
+      "supplemental_blessing": false,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-06-08",
+      "references": [
+        "Јеванђеље по Јовану, зачало 1. 1,1-17"
+      ],
+      "notes": [
+        "Данас нема читања али ћемо по благослову прочитати"
+      ],
+      "supplemental_blessing": true,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-06-09",
+      "references": [
+        "Јеванђеље по Матеју, зачало 22. 7,15-20"
+      ],
+      "notes": [],
+      "supplemental_blessing": false,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-06-10",
+      "references": [
+        "Јеванђеље по Јовану, зачало 2. 1,18-28"
+      ],
+      "notes": [
+        "Данас нема читања али ћемо по благослову прочитати"
+      ],
+      "supplemental_blessing": true,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-06-11",
+      "references": [
+        "Јеванђеље по Матеју, зачало 27. 8,23-27"
+      ],
+      "notes": [],
+      "supplemental_blessing": false,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-06-12",
+      "references": [
+        "Јеванђеље по Јовану, зачало 3. 1,29-34"
+      ],
+      "notes": [
+        "Данас нема читања али ћемо по благослову прочитати"
+      ],
+      "supplemental_blessing": true,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-06-13",
+      "references": [
+        "Јеванђеље по Матеју, зачало 20. 7,1-11"
+      ],
+      "notes": [],
+      "supplemental_blessing": false,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-06-14",
+      "references": [
+        "Јеванђеље по Матеју, зачало 9. 4,18-24",
+        "Јеванђеље по Матеју, зачало 10. 4,25-5,13"
+      ],
+      "notes": [],
+      "supplemental_blessing": false,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-06-15",
+      "references": [
+        "Јеванђеље по Матеју, зачало 34. 9,36-10,8"
+      ],
+      "notes": [],
+      "supplemental_blessing": false,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-06-16",
+      "references": [
+        "Јеванђеље по Матеју, зачало 35. 10,9-15"
+      ],
+      "notes": [],
+      "supplemental_blessing": false,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-06-17",
+      "references": [
+        "Јеванђеље по Јовану, зачало 4. 1,35-42"
+      ],
+      "notes": [
+        "Данас нема читања али ћемо по благослову прочитати"
+      ],
+      "supplemental_blessing": true,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-06-18",
+      "references": [
+        "Јеванђеље по Матеју, зачало 37. 10,23-31"
+      ],
+      "notes": [],
+      "supplemental_blessing": false,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-06-19",
+      "references": [
+        "Јеванђеље по Јовану, зачало 5. 1,43-51"
+      ],
+      "notes": [
+        "Данас нема читања али ћемо по благослову прочитати"
+      ],
+      "supplemental_blessing": true,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-06-20",
+      "references": [
+        "Јеванђеље по Матеју, зачало 24. 7,24-8,4"
+      ],
+      "notes": [],
+      "supplemental_blessing": false,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-06-21",
+      "references": [
+        "Јеванђеље по Матеју, зачало 18. 6,21-30",
+        "Јеванђеље по Матеју, зачало 36. 10,16-22"
+      ],
+      "notes": [],
+      "supplemental_blessing": false,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-06-22",
+      "references": [
+        "Јеванђеље по Матеју, зачало 40. 11,2-15",
+        "Јеванђеље по Матеју, зачало 36. 10,16-22"
+      ],
+      "notes": [],
+      "supplemental_blessing": false,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-06-23",
+      "references": [
+        "Јеванђеље по Матеју, зачало 41. 11,16-19"
+      ],
+      "notes": [],
+      "supplemental_blessing": false,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-06-24",
+      "references": [
+        "Јеванђеље по Матеју, зачало 42. 11,20-26",
+        "Јеванђеље по Луки, зачало 51. 10,16-21"
+      ],
+      "notes": [],
+      "supplemental_blessing": false,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-06-25",
+      "references": [
+        "Јеванђеље по Матеју, зачало 43. 11,27-30"
+      ],
+      "notes": [],
+      "supplemental_blessing": false,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-06-26",
+      "references": [
+        "Јеванђеље по Јовану, зачало 6. 2,1-11"
+      ],
+      "notes": [
+        "Данас нема читања али ћемо по благослову прочитати"
+      ],
+      "supplemental_blessing": true,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-06-27",
+      "references": [
+        "Јеванђеље по Луки, зачало 14. 4,22-30",
+        "Јеванђеље по Матеју, зачало 26. 8,14-22"
+      ],
+      "notes": [],
+      "supplemental_blessing": false,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-06-28",
+      "references": [
+        "Јеванђеље по Матеју, зачало 25. 8,5-13",
+        "Јеванђеље по Јовану, зачало 52. 15,17-16,2"
+      ],
+      "notes": [],
+      "supplemental_blessing": false,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-06-29",
+      "references": [
+        "Јеванђеље по Матеју, зачало 45. 12,9-13"
+      ],
+      "notes": [],
+      "supplemental_blessing": false,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-06-30",
+      "references": [
+        "Јеванђеље по Матеју, зачало 46. 12,14-29",
+        "Јеванђеље по Луки, зачало 106. 21,12-27"
+      ],
+      "notes": [],
+      "supplemental_blessing": false,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-07-01",
+      "references": [
+        "Јеванђеље по Јовану, зачало 7. 2,12-25"
+      ],
+      "notes": [
+        "Данас нема читања али ћемо по благослову прочитати"
+      ],
+      "supplemental_blessing": true,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-07-02",
+      "references": [
+        "Јеванђеље по Матеју, зачало 49. 12,46-13,2",
+        "Јеванђеље по Јовану, зачало 48. 14,10-21"
+      ],
+      "notes": [],
+      "supplemental_blessing": false,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-07-03",
+      "references": [
+        "Јеванђеље по Јовану, зачало 8. 3,1-12"
+      ],
+      "notes": [
+        "Данас нема читања али ћемо по благослову прочитати"
+      ],
+      "supplemental_blessing": true,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-07-04",
+      "references": [
+        "Јеванђеље по Луки, зачало 106. 21,12-27",
+        "Јеванђеље по Матеју, зачало 30. 9,9-13"
+      ],
+      "notes": [],
+      "supplemental_blessing": false,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-07-05",
+      "references": [
+        "Јеванђеље по Матеју, зачало 28. 8,28-34"
+      ],
+      "notes": [],
+      "supplemental_blessing": false,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-07-06",
+      "references": [
+        "Јеванђеље по Матеју, зачало 51. 13,10-23"
+      ],
+      "notes": [],
+      "supplemental_blessing": false,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-07-07",
+      "references": [
+        "Јеванђеље по Луки, зачало 1. 1,1-23"
+      ],
+      "notes": [],
+      "supplemental_blessing": false,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-07-08",
+      "references": [
+        "Јеванђеље по Матеју, зачало 52. 13,24-30",
+        "Јеванђеље по Матеју, зачало 53. 13,31-36",
+        "Јеванђеље по Луки, зачало 33. 7,36-50"
+      ],
+      "notes": [],
+      "supplemental_blessing": false,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-07-09",
+      "references": [
+        "Јеванђеље по Матеју, зачало 54. 13,36-43"
+      ],
+      "notes": [],
+      "supplemental_blessing": false,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-07-10",
+      "references": [
+        "Јеванђеље по Јовану, зачало 9. 3,13-15"
+      ],
+      "notes": [
+        "Данас нема читања али ћемо по благослову прочитати"
+      ],
+      "supplemental_blessing": true,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-07-11",
+      "references": [
+        "Јеванђеље по Матеју, зачало 34. 9,36-10,8",
+        "Јеванђеље по Матеју, зачало 32. 9,18-26"
+      ],
+      "notes": [],
+      "supplemental_blessing": false,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-07-12",
+      "references": [
+        "Јеванђеље по Матеју, зачало 29. 9,1-8",
+        "Јеванђеље по Матеју, зачало 67. 16,13-19"
+      ],
+      "notes": [],
+      "supplemental_blessing": false,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-07-13",
+      "references": [
+        "Јеванђеље по Матеју, зачало 56. 13,53-58",
+        "Јеванђеље по Марку, зачало 12. 3,13-19"
+      ],
+      "notes": [],
+      "supplemental_blessing": false,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-07-14",
+      "references": [
+        "Јеванђеље по Матеју, зачало 57. 14,1-13",
+        "Јеванђеље по Матеју, зачало 34. 9,36-10,8"
+      ],
+      "notes": [],
+      "supplemental_blessing": false,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-07-15",
+      "references": [
+        "Јеванђеље по Матеју, зачало 60. 14,35-15,11",
+        "Јеванђеље по Луки, зачало 54. 10,38-42"
+      ],
+      "notes": [],
+      "supplemental_blessing": false,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-07-16",
+      "references": [
+        "Јеванђеље по Матеју, зачало 61. 15,12-20"
+      ],
+      "notes": [],
+      "supplemental_blessing": false,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-07-17",
+      "references": [
+        "Јеванђеље по Матеју, зачало 63. 15,29-31",
+        "Јеванђеље по Матеју, зачало 21. 7,12-14"
+      ],
+      "notes": [],
+      "supplemental_blessing": false,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-07-18",
+      "references": [
+        "Јеванђеље по Луки, зачало 24. 6,17-23",
+        "Јеванђеље по Матеју, зачало 39. 10,37-11,1"
+      ],
+      "notes": [],
+      "supplemental_blessing": false,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-07-19",
+      "references": [
+        "Јеванђеље по Матеју, зачало 33. 9,27-35"
+      ],
+      "notes": [],
+      "supplemental_blessing": false,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-07-20",
+      "references": [
+        "Јеванђеље по Матеју, зачало 65. 16,1-5"
+      ],
+      "notes": [],
+      "supplemental_blessing": false,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-07-21",
+      "references": [
+        "Јеванђеље по Матеју, зачало 66. 16,6-12",
+        "Јеванђеље по Матеју, зачало 39. 10,37-11,1"
+      ],
+      "notes": [],
+      "supplemental_blessing": false,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-07-22",
+      "references": [
+        "Јеванђеље по Матеју, зачало 68. 16,20-23"
+      ],
+      "notes": [],
+      "supplemental_blessing": false,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-07-23",
+      "references": [
+        "Јеванђеље по Матеју, зачало 69. 16,24-28"
+      ],
+      "notes": [],
+      "supplemental_blessing": false,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-07-24",
+      "references": [
+        "Јеванђеље по Матеју, зачало 71. 17,10-13",
+        "Јеванђеље по Луки, зачало 33. 7,36-50"
+      ],
+      "notes": [],
+      "supplemental_blessing": false,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-07-25",
+      "references": [
+        "Јеванђеље по Луки, зачало 4. 1,39-80",
+        "Јеванђеље по Матеју, зачало 47. 12,30-37"
+      ],
+      "notes": [],
+      "supplemental_blessing": false,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-07-26",
+      "references": [
+        "Јеванђеље по Матеју, зачало 58. 14,14-21",
+        "Јеванђеље по Јовану, зачало 56. 17,1-13"
+      ],
+      "notes": [],
+      "supplemental_blessing": false,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-07-27",
+      "references": [
+        "Јеванђеље по Матеју, зачало 74. 18,1-9"
+      ],
+      "notes": [],
+      "supplemental_blessing": false,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-07-28",
+      "references": [
+        "Јеванђеље по Матеју, зачало 76. 18,18-22",
+        "Јеванђеље по Луки, зачало 51. 10,16-21"
+      ],
+      "notes": [],
+      "supplemental_blessing": false,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-07-29",
+      "references": [
+        "Јеванђеље по Матеју, зачало 80. 20,1-16"
+      ],
+      "notes": [],
+      "supplemental_blessing": false,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-07-30",
+      "references": [
+        "Јеванђеље по Матеју, зачало 81. 20,18-28",
+        "Јеванђеље по Луки, зачало 33. 7,36-50"
+      ],
+      "notes": [],
+      "supplemental_blessing": false,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-07-31",
+      "references": [
+        "Јеванђеље по Матеју, зачало 83. 21,1-17"
+      ],
+      "notes": [],
+      "supplemental_blessing": false,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-08-01",
+      "references": [
+        "Јеванђеље по Луки, зачало 24. 6,17-23",
+        "Јеванђеље по Матеју, зачало 64. 15,32-39"
+      ],
+      "notes": [],
+      "supplemental_blessing": false,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-08-02",
+      "references": [
+        "Јеванђеље по Матеју, зачало 59. 14,22-34",
+        "Јеванђеље по Луки, зачало 14. 4,22-30"
+      ],
+      "notes": [],
+      "supplemental_blessing": false,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-08-03",
+      "references": [
+        "Јеванђеље по Матеју, зачало 84. 21,18-22"
+      ],
+      "notes": [],
+      "supplemental_blessing": false,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-08-04",
+      "references": [
+        "Јеванђеље по Матеју, зачало 85. 21,23-27",
+        "Јеванђеље по Луки, зачало 34. 8,1-4"
+      ],
+      "notes": [],
+      "supplemental_blessing": false,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-08-05",
+      "references": [
+        "Јеванђеље по Матеју, зачало 86. 21,28-32"
+      ],
+      "notes": [],
+      "supplemental_blessing": false,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-08-06",
+      "references": [
+        "Јеванђеље по Матеју, зачало 88. 21,44-46",
+        "Јеванђеље по Луки, зачало 33. 7,36-50"
+      ],
+      "notes": [],
+      "supplemental_blessing": false,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-08-07",
+      "references": [
+        "Јеванђеље по Матеју, зачало 91. 22,23-33",
+        "Јеванђеље по Луки, зачало 36. 8,16-21"
+      ],
+      "notes": [],
+      "supplemental_blessing": false,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-08-08",
+      "references": [
+        "Јеванђеље по Матеју, зачало 73. 17,24-27"
+      ],
+      "notes": [],
+      "supplemental_blessing": false,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-08-09",
+      "references": [
+        "Јеванђеље по Матеју, зачало 72. 17,14-23",
+        "Јеванђеље по Јовану, зачало 52. 15,17-16,2"
+      ],
+      "notes": [],
+      "supplemental_blessing": false,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-08-10",
+      "references": [
+        "Јеванђеље по Матеју, зачало 94. 23,13-22"
+      ],
+      "notes": [],
+      "supplemental_blessing": false,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-08-11",
+      "references": [
+        "Јеванђеље по Матеју, зачало 95. 23,23-28"
+      ],
+      "notes": [],
+      "supplemental_blessing": false,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-08-12",
+      "references": [
+        "Јеванђеље по Матеју, зачало 96. 23,29-39",
+        "Јеванђеље по Матеју, зачало 104. 25,1-13"
+      ],
+      "notes": [],
+      "supplemental_blessing": false,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-08-13",
+      "references": [
+        "Јеванђеље по Матеју, зачало 99. 24,13-26",
+        "Јеванђеље по Матеју, зачало 100. 24,27-33",
+        "Јеванђеље по Матеју, зачало 43. 11,27-30"
+      ],
+      "notes": [],
+      "supplemental_blessing": false,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-08-14",
+      "references": [
+        "Јеванђеље по Јовану, зачало 60. 19,6-24",
+        "Јеванђеље по Матеју, зачало 38. 10,32-36"
+      ],
+      "notes": [],
+      "supplemental_blessing": false,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-08-15",
+      "references": [
+        "Јеванђеље по Матеју, зачало 87. 21,33-43",
+        "Јеванђеље по Матеју, зачало 78. 19,3-15"
+      ],
+      "notes": [],
+      "supplemental_blessing": false,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-08-16",
+      "references": [
+        "Јеванђеље по Матеју, зачало 77. 18,23-19,2"
+      ],
+      "notes": [],
+      "supplemental_blessing": false,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-08-17",
+      "references": [
+        "Јеванђеље по Марку, зачало 2. 1,9-15"
+      ],
+      "notes": [],
+      "supplemental_blessing": false,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-08-18",
+      "references": [
+        "Јеванђеље по Марку, зачало 3. 1,16-22",
+        "Јеванђеље по Марку, зачало 4. 1,23-28"
+      ],
+      "notes": [],
+      "supplemental_blessing": false,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-08-19",
+      "references": [
+        "Јеванђеље по Матеју, зачало 70. 17,1-9"
+      ],
+      "notes": [],
+      "supplemental_blessing": false,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-08-20",
+      "references": [
+        "Јеванђеље по Марку, зачало 5. 1,29-37",
+        "Јеванђеље по Јовану, зачало 52. 15,17-16,2"
+      ],
+      "notes": [],
+      "supplemental_blessing": false,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-08-21",
+      "references": [
+        "Јеванђеље по Марку, зачало 9. 2,18-22"
+      ],
+      "notes": [],
+      "supplemental_blessing": false,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-08-22",
+      "references": [
+        "Јеванђеље по Луки, зачало 40. 9,1-6",
+        "Јеванђеље по Матеју, зачало 82. 20,29-34"
+      ],
+      "notes": [],
+      "supplemental_blessing": false,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-08-23",
+      "references": [
+        "Јеванђеље по Матеју, зачало 79. 19,16-30"
+      ],
+      "notes": [],
+      "supplemental_blessing": false,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-08-24",
+      "references": [
+        "Јеванђеље по Марку, зачало 11. 3,6-12"
+      ],
+      "notes": [],
+      "supplemental_blessing": false,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-08-25",
+      "references": [
+        "Јеванђеље по Марку, зачало 12. 3,13-19"
+      ],
+      "notes": [],
+      "supplemental_blessing": false,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-08-26",
+      "references": [
+        "Јеванђеље по Марку, зачало 13. 3,20-27"
+      ],
+      "notes": [],
+      "supplemental_blessing": false,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-08-27",
+      "references": [
+        "Јеванђеље по Марку, зачало 14. 3,28-35",
+        "Јеванђеље по Марку, зачало 15. 4,1-9"
+      ],
+      "notes": [],
+      "supplemental_blessing": false,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-08-28",
+      "references": [
+        "Јеванђеље по Луки, зачало 54. 10,38-42"
+      ],
+      "notes": [],
+      "supplemental_blessing": false,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-08-29",
+      "references": [
+        "Јеванђеље по Луки, зачало 48. 9,49-56"
+      ],
+      "notes": [],
+      "supplemental_blessing": false,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-08-30",
+      "references": [
+        "Јеванђеље по Матеју, зачало 87. 21,33-43"
+      ],
+      "notes": [],
+      "supplemental_blessing": false,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-08-31",
+      "references": [
+        "Јеванђеље по Марку, зачало 16. 4,10-23",
+        "Јеванђеље по Луки, зачало 63. 12,2-7"
+      ],
+      "notes": [],
+      "supplemental_blessing": false,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-09-01",
+      "references": [
+        "Јеванђеље по Марку, зачало 17. 4,24-34",
+        "Јеванђеље по Луки, зачало 106. 21,12-27"
+      ],
+      "notes": [],
+      "supplemental_blessing": false,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-09-02",
+      "references": [
+        "Јеванђеље по Марку, зачало 18. 4,35-41"
+      ],
+      "notes": [],
+      "supplemental_blessing": false,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-09-03",
+      "references": [
+        "Јеванђеље по Марку, зачало 19. 5,1-20"
+      ],
+      "notes": [],
+      "supplemental_blessing": false,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-09-04",
+      "references": [
+        "Јеванђеље по Марку, зачало 20. 5,21-24"
+      ],
+      "notes": [],
+      "supplemental_blessing": false,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-09-05",
+      "references": [
+        "Јеванђеље по Луки, зачало 54. 10,38-42"
+      ],
+      "notes": [],
+      "supplemental_blessing": false,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-09-06",
+      "references": [
+        "Јеванђеље по Матеју, зачало 89. 22,1-14"
+      ],
+      "notes": [],
+      "supplemental_blessing": false,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-09-07",
+      "references": [
+        "Јеванђеље по Марку, зачало 21. 5,24-43",
+        "Јеванђеље по Матеју, зачало 11. 5,14-19"
+      ],
+      "notes": [],
+      "supplemental_blessing": false,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-09-08",
+      "references": [
+        "Јеванђеље по Марку, зачало 22. 6,1-6"
+      ],
+      "notes": [],
+      "supplemental_blessing": false,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-09-09",
+      "references": [
+        "Јеванђеље по Марку, зачало 23. 6,7-13",
+        "Јеванђеље по Матеју, зачало 10. 4,25-5,13"
+      ],
+      "notes": [],
+      "supplemental_blessing": false,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-09-10",
+      "references": [
+        "Јеванђеље по Марку, зачало 25. 6,30-44",
+        "Јеванђеље по Марку, зачало 26. 6,45-53"
+      ],
+      "notes": [],
+      "supplemental_blessing": false,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-09-11",
+      "references": [
+        "Јеванђеље по Марку, зачало 24. 6,14-29"
+      ],
+      "notes": [],
+      "supplemental_blessing": false,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-09-12",
+      "references": [
+        "Јеванђеље по Матеју, зачало 97. 24,1-2"
+      ],
+      "notes": [],
+      "supplemental_blessing": false,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-09-13",
+      "references": [
+        "Јеванђеље по Матеју, зачало 92. 22,34-46",
+        "Јеванђеље по Матеју, зачало 11. 5,14-19"
+      ],
+      "notes": [],
+      "supplemental_blessing": false,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-09-14",
+      "references": [
+        "Јеванђеље по Луки, зачало 13. 4,16-22",
+        "Јеванђеље по Матеју, зачало 43. 11,27-30"
+      ],
+      "notes": [],
+      "supplemental_blessing": false,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-09-15",
+      "references": [
+        "Јеванђеље по Марку, зачало 27. 6,54-7,4",
+        "Јеванђеље по Марку, зачало 28. 7,5-13",
+        "Јеванђеље по Јовану, зачало 50. 15,1-8"
+      ],
+      "notes": [],
+      "supplemental_blessing": false,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-09-16",
+      "references": [
+        "Јеванђеље по Марку, зачало 29. 7,14-23",
+        "Јеванђеље по Јовану, зачало 36. 10,9-16"
+      ],
+      "notes": [],
+      "supplemental_blessing": false,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-09-17",
+      "references": [
+        "Јеванђеље по Марку, зачало 30. 7,24-30",
+        "Јеванђеље по Луки, зачало 67. 12,32-41"
+      ],
+      "notes": [],
+      "supplemental_blessing": false,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-09-18",
+      "references": [
+        "Јеванђеље по Марку, зачало 32. 8,1-10",
+        "Јеванђеље по Матеју, зачало 96. 23,29-39"
+      ],
+      "notes": [],
+      "supplemental_blessing": false,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-09-19",
+      "references": [
+        "Јеванђеље по Луки, зачало 51. 10,16-21",
+        "Јеванђеље по Матеју, зачало 101. 24,34-35"
+      ],
+      "notes": [],
+      "supplemental_blessing": false,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-09-20",
+      "references": [
+        "Јеванђеље по Јовану, зачало 9. 3,13-15",
+        "Јеванђеље по Матеју, зачало 105. 25,14-30"
+      ],
+      "notes": [],
+      "supplemental_blessing": false,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-09-21",
+      "references": [
+        "Јеванђеље по Луки, зачало 54. 10,38-42"
+      ],
+      "notes": [],
+      "supplemental_blessing": false,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-09-22",
+      "references": [
+        "Јеванђеље по Марку, зачало 48. 10,46-52",
+        "Јеванђеље по Марку, зачало 50. 11,11-21",
+        "Јеванђеље по Луки, зачало 36. 8,16-21"
+      ],
+      "notes": [],
+      "supplemental_blessing": false,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-09-23",
+      "references": [
+        "Јеванђеље по Марку, зачало 51. 11,22-26"
+      ],
+      "notes": [],
+      "supplemental_blessing": false,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-09-24",
+      "references": [
+        "Јеванђеље по Марку, зачало 52. 11,27-33",
+        "Јеванђеље по Јовану, зачало 28. 8,3-11"
+      ],
+      "notes": [],
+      "supplemental_blessing": false,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-09-25",
+      "references": [
+        "Јеванђеље по Марку, зачало 53. 12,1-12",
+        "Јеванђеље по Јовану, зачало 54. 16,15-23"
+      ],
+      "notes": [],
+      "supplemental_blessing": false,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-09-26",
+      "references": [
+        "Јеванђеље по Матеју, зачало 67. 16,13-19",
+        "Јеванђеље по Матеју, зачало 39. 10,37-11,1"
+      ],
+      "notes": [],
+      "supplemental_blessing": false,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-09-27",
+      "references": [
+        "Јеванђеље по Јовану, зачало 60. 19,6-24"
+      ],
+      "notes": [],
+      "supplemental_blessing": false,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-09-28",
+      "references": [
+        "Јеванђеље по Луки, зачало 10. 3,19-22",
+        "Јеванђеље по Матеју, зачало 36. 10,16-22"
+      ],
+      "notes": [],
+      "supplemental_blessing": false,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-09-29",
+      "references": [
+        "Јеванђеље по Луки, зачало 11. 3,23-38",
+        "Јеванђеље по Луки, зачало 33. 7,36-50"
+      ],
+      "notes": [],
+      "supplemental_blessing": false,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-09-30",
+      "references": [
+        "Јеванђеље по Луки, зачало 12. 4,1-15"
+      ],
+      "notes": [],
+      "supplemental_blessing": false,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-10-01",
+      "references": [
+        "Јеванђеље по Луки, зачало 13. 4,16-22"
+      ],
+      "notes": [],
+      "supplemental_blessing": false,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-10-02",
+      "references": [
+        "Јеванђеље по Луки, зачало 14. 4,22-30"
+      ],
+      "notes": [],
+      "supplemental_blessing": false,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-10-03",
+      "references": [
+        "Јеванђеље по Јовану, зачало 30. 8,21-30",
+        "Јеванђеље по Луки, зачало 106. 21,12-27"
+      ],
+      "notes": [],
+      "supplemental_blessing": false,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-10-04",
+      "references": [
+        "Јеванђеље по Марку, зачало 37. 8,34-9,1",
+        "Јеванђеље по Луки, зачало 17. 5,1-11"
+      ],
+      "notes": [],
+      "supplemental_blessing": false,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-10-05",
+      "references": [
+        "Јеванђеље по Луки, зачало 16. 4,37-44",
+        "Јеванђеље по Јовану, зачало 36. 10,9-16"
+      ],
+      "notes": [],
+      "supplemental_blessing": false,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-10-06",
+      "references": [
+        "Јеванђеље по Луки, зачало 18. 5,12-16",
+        "Јеванђеље по Луки, зачало 2. 1,5-23"
+      ],
+      "notes": [],
+      "supplemental_blessing": false,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-10-07",
+      "references": [
+        "Јеванђеље по Луки, зачало 21. 5,33-39",
+        "Јеванђеље по Матеју, зачало 104. 25,1-13"
+      ],
+      "notes": [],
+      "supplemental_blessing": false,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-10-08",
+      "references": [
+        "Јеванђеље по Луки, зачало 23. 6,12-16",
+        "Јеванђеље по Луки, зачало 24. 6,17-23"
+      ],
+      "notes": [],
+      "supplemental_blessing": false,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-10-09",
+      "references": [
+        "Јеванђеље по Јовану, зачало 61. 19,25-37"
+      ],
+      "notes": [],
+      "supplemental_blessing": false,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-10-10",
+      "references": [
+        "Јеванђеље по Луки, зачало 19. 5,17-26"
+      ],
+      "notes": [],
+      "supplemental_blessing": false,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-10-11",
+      "references": [
+        "Јеванђеље по Луки, зачало 26. 6,31-36",
+        "Јеванђеље по Луки, зачало 24. 6,17-23"
+      ],
+      "notes": [],
+      "supplemental_blessing": false,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-10-12",
+      "references": [
+        "Јеванђеље по Луки, зачало 25. 6,24-30",
+        "Јеванђеље по Луки, зачало 24. 6,17-23"
+      ],
+      "notes": [],
+      "supplemental_blessing": false,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-10-13",
+      "references": [
+        "Јеванђеље по Луки, зачало 27. 6,37-45",
+        "Јеванђеље по Матеју, зачало 103. 24,42-51"
+      ],
+      "notes": [],
+      "supplemental_blessing": false,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-10-14",
+      "references": [
+        "Јеванђеље по Луки, зачало 54. 10,38-42",
+        "Јеванђеље по Луки, зачало 51. 10,16-21"
+      ],
+      "notes": [],
+      "supplemental_blessing": false,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-10-15",
+      "references": [
+        "Јеванђеље по Луки, зачало 28. 6,46-49",
+        "Јеванђеље по Луки, зачало 31. 7,17-30",
+        "Јеванђеље по Јовану, зачало 36. 10,9-16"
+      ],
+      "notes": [],
+      "supplemental_blessing": false,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-10-16",
+      "references": [
+        "Јеванђеље по Луки, зачало 32. 7,31-25",
+        "Јеванђеље по Матеју, зачало 55. 13,44-52"
+      ],
+      "notes": [],
+      "supplemental_blessing": false,
+      "validation_errors": [
+        {
+          "reference": 0,
+          "code": "invalid_or_reversed_range",
+          "segment": 0
+        }
+      ]
+    },
+    {
+      "date": "2026-10-17",
+      "references": [
+        "Јеванђеље по Луки, зачало 20. 5,27-32"
+      ],
+      "notes": [],
+      "supplemental_blessing": false,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-10-18",
+      "references": [
+        "Јеванђеље по Луки, зачало 30. 7,11-16"
+      ],
+      "notes": [],
+      "supplemental_blessing": false,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-10-19",
+      "references": [
+        "Јеванђеље по Луки, зачало 33. 7,36-50",
+        "Јеванђеље по Јовану, зачало 67. 21,15-25"
+      ],
+      "notes": [],
+      "supplemental_blessing": false,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-10-20",
+      "references": [
+        "Јеванђеље по Луки, зачало 34. 8,1-4",
+        "Јеванђеље по Луки, зачало 106. 21,12-27"
+      ],
+      "notes": [],
+      "supplemental_blessing": false,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-10-21",
+      "references": [
+        "Јеванђеље по Луки, зачало 37. 8,22-25"
+      ],
+      "notes": [],
+      "supplemental_blessing": false,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-10-22",
+      "references": [
+        "Јеванђеље по Луки, зачало 41. 9,7-12",
+        "Јеванђеље по Луки, зачало 51. 10,16-21"
+      ],
+      "notes": [],
+      "supplemental_blessing": false,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-10-23",
+      "references": [
+        "Јеванђеље по Луки, зачало 42. 9,12-17"
+      ],
+      "notes": [],
+      "supplemental_blessing": false,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-10-24",
+      "references": [
+        "Јеванђеље по Луки, зачало 50. 10,1-15",
+        "Јеванђеље по Луки, зачало 22. 6,1-11"
+      ],
+      "notes": [],
+      "supplemental_blessing": false,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-10-25",
+      "references": [
+        "Јеванђеље по Луки, зачало 35. 8,5-15",
+        "Јеванђеље по Јовану, зачало 56. 17,1-13"
+      ],
+      "notes": [],
+      "supplemental_blessing": false,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-10-26",
+      "references": [
+        "Јеванђеље по Луки, зачало 43. 9,18-22"
+      ],
+      "notes": [],
+      "supplemental_blessing": false,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-10-27",
+      "references": [
+        "Јеванђеље по Луки, зачало 44. 9,23-27",
+        "Јеванђеље по Матеју, зачало 104. 25,1-13"
+      ],
+      "notes": [],
+      "supplemental_blessing": false,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-10-28",
+      "references": [
+        "Јеванђеље по Луки, зачало 47. 9,43-48"
+      ],
+      "notes": [],
+      "supplemental_blessing": false,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-10-29",
+      "references": [
+        "Јеванђеље по Луки, зачало 48. 9,49-56",
+        "Јеванђеље по Матеју, зачало 113. 27,33-61"
+      ],
+      "notes": [],
+      "supplemental_blessing": false,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-10-30",
+      "references": [
+        "Јеванђеље по Луки, зачало 50. 10,1-15",
+        "Јеванђеље по Луки, зачало 29. 7,1-10"
+      ],
+      "notes": [],
+      "supplemental_blessing": false,
+      "validation_errors": []
+    },
+    {
+      "date": "2026-10-31",
+      "references": [
+        "Јеванђеље по Луки, зачало 51. 10,16-21",
+        "Јеванђеље по Јовану, зачало 35. 9,39-10,9"
+      ],
+      "notes": [],
+      "supplemental_blessing": false,
+      "validation_errors": []
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "schema_version": "svetlost33-bounded-release-handoff-1",
+  "recorded_at": "2026-10-02T09:15:44Z",
+  "status": "SOURCE_FROZEN_UNSIGNED_S12_READY_FOR_COORDINATOR_REVIEW",
+  "release_set_id": "shared-calendar-saints-2026-10-02-m0v2-s12",
+  "sequence": 12,
+  "unsigned_directory": "build/calendar-saints-window-2026-10-02/unsigned-s12",
+  "prepared_from": {
+    "public_commit": "e59bfa36bed840e751f7dbe5e0b7fa1e86cbced0",
+    "release_set_id": "shared-content-refresh-2026-09-30-m0v2-s11",
+    "index_sha256": "36d39ce8882df55b66987afedcb8f080f31c2b8fd565a45561492aae5e2631ff",
+    "release_sha256": "ef109fcdb5ef14baae8697664e447a1c17378030e57f1209cb3fa2510cbf13d3",
+    "public_checkout_source": "/private/tmp/svetlost33-s12-public.622b9y/checkout/releases/v2/production",
+    "evidence": "approvals/calendar-saints-window-2026-10-02/public-base-observation.json",
+    "verification": "Fresh public git checkout and raw HTTPS discovery agree; source loader verifies pinned production public key, RSA-PSS signatures, all source bytes and hashes and full-capability Android/iOS graphs. No production secret accessed."
+  },
+  "approval": {
+    "path": "approvals/calendar-saints-window-2026-10-02/owner-approval.json",
+    "sha256": "15a5c33a13cfb572c2861e20463b49fd073164118375d86c97216472c2d1ae71",
+    "scope": "Additive explicit 2026-10-02 owner approval of the exact completed 02–08 October pending candidate and conditional shared publication after checks. Historical draft/approval bytes were not changed."
+  },
+  "diff": {
+    "catalog": {
+      "version": "2026.10.1",
+      "revision": 7,
+      "pending_candidate_sha256": "5bdbe2e1693f89bd5f65d62212798d60ea88bf7662133138292b2fd474948eae",
+      "promotion_only": ["review_status pending to approved", "approval_id null to the new explicit owner approval"],
+      "additions_from_S11": {"subjects": 6, "observances": 7, "occurrences": 7, "existing_article_links": 7},
+      "retained": "All prior entries and four links, all 62 article bytes, exact calendar/saints bindings and source/right records. John conception stays separate from January Synaxis; Quadratus is not Exaltation."
+    },
+    "calendar_browser": {
+      "version": "2026.10.2",
+      "revision": 3,
+      "changes_only": ["technical version/revision", "new approval_id", "exact new catalog version/revision/hash binding"],
+      "retained_feast_memberships": 21,
+      "retained_archive_days": 94
+    },
+    "preserved_byte_identical_modules": ["library-annual-2026-r1", "daily-cycles-r1", "calendar-2026-r1", "organizations-v1", "saints-v1"],
+    "no_changes": ["annual calendar facts", "archive dates or reading choices", "Gospel service assignments", "2027", "media", "liturgical text", "source rights/dates", "charity expiry", "minimum clients/capabilities"],
+    "unknowns_retained": ["UNRESOLVED Gospel 02–08.10.2026", "UNKNOWN fasting rule 02.10.2026"],
+    "minimum_clients": {"android": 35, "ios": "0.1.0"}
+  },
+  "exact_output": {
+    "index_sha256": "a0d50c23036db203035419f4ba169ddb6005223799ed3ac4e89e03dd9f7733e9",
+    "release_sha256": "78142e24f74812be9859b88163203de23517a9ed40a16c0f5ee085e25354255d",
+    "catalog_sha256": "d973f659da3a1e084739afe70a6a31daea390c32f5508ecdaa56a3fc3e7b4af3",
+    "browser_sha256": "20d3d0ad3d9a352c87d05425e8673460c62c9a0cf4043988c48e4c0da3d61fae",
+    "signing_request_sha256": "a233151e77f89711798c396bf86005fe1584c94fd1da792a75090a76a24273b5",
+    "new_documents_requiring_signature": 4,
+    "public_delta_paths_after_signature": 12,
+    "public_allowlist_path": "approvals/calendar-saints-window-2026-10-02/publication-allowlist.json",
+    "private_notes_in_new_public_modules": false
+  },
+  "checks": {
+    "focused_command": "node --test tests/calendar-saints-window-release-v2.test.mjs",
+    "result": "9/9 PASS",
+    "log": "approvals/calendar-saints-window-2026-10-02/focused-tests.log",
+    "capability_profiles": "24 PASS: both OS minimum clients times all 12 existing optional-capability combinations; test-only ephemeral in-memory RSA key, never production key.",
+    "negatives": ["missing coordinator GO", "changed/extra candidate bytes before key read", "source index advance or signature corruption", "source expiry", "exact key boundary and symlinks", "catalog/browser binding mismatch", "below-minimum client", "replay below sequence high-water"],
+    "initial_test_adjustment": "Replay validator already rejected correctly with code REPLAY. The new test originally expected a different message substring; corrected it to assert the actual exact error code. No runtime guard changed.",
+    "production_candidate_signatures_tested": false,
+    "native_exact_candidate_acceptance_tested": false,
+    "no_historical_full_suite_rerun": true
+  },
+  "next_commands_from_content_root": {
+    "reproduce_to_new_directory_only": "node scripts/prepare-calendar-saints-window-v2.mjs --source /private/tmp/svetlost33-s12-public.622b9y/checkout/releases/v2/production --out build/calendar-saints-window-2026-10-02/unsigned-s12-recheck",
+    "public_head_recheck": "git ls-remote https://github.com/swanem/svetlost33-content.git refs/heads/main",
+    "local_sign_after_coordinator_review_only": "node scripts/sign-calendar-saints-window-v2.mjs --candidate build/calendar-saints-window-2026-10-02/unsigned-s12 --out build/calendar-saints-window-2026-10-02/signed-s12 --source releases/v2/production --private-key \"$S12_SIGNING_KEY_PATH\" --coordinator-go",
+    "validate_signed_stage": "node scripts/sign-calendar-saints-window-v2.mjs --validate-signed build/calendar-saints-window-2026-10-02/signed-s12",
+    "key_note": "S12_SIGNING_KEY_PATH is a placeholder for root's existing external locator. It is not set, resolved or read by this handoff. Do not copy a private key into a repo, candidate or output. The signer independently enforces existing SPKI public-key parity."
+  },
+  "publication_requirements": [
+    "Root performs one exact source/candidate review. No sign or public mutation has occurred here.",
+    "Recheck current public main and discovery immediately before signing/publication; if advanced from pinned S11, stop and replan rather than overwrite.",
+    "Signer reads actual clock, verifies approval and current base before key access and again before writing, rejects a preexisting output directory, and validates all 24 production-signed profiles afterward.",
+    "Root obtains both native exact-generation acceptance receipts; a content approval or test-only signature is not native acceptance.",
+    "Publish only the 12 paths in publication-allowlist.json; keep old immutable files untouched. index.json and index.sig must belong to the same public commit.",
+    "Do not publish signing-request.json, approvals, drafts, source-checkout metadata or a replacement trusted-public-key.pem.",
+    "After publication, read back exact signed graph/signatures and file hashes over HTTPS. The signer contains no installer, push, activation or network code."
+  ],
+  "source_sha256": {
+    "scripts/prepare-calendar-saints-window-v2.mjs": "6199bbbd587774179fd335c23c690d0a1508d7912a7bc59d8b2f555add18e03e",
+    "scripts/sign-calendar-saints-window-v2.mjs": "a5adae7f42da5711fe8a8b275017831ad3e64d7f9811a8ca5bad15dc31dbb524",
+    "tests/calendar-saints-window-release-v2.test.mjs": "8b05835a2be259a68ea06f10fd2f32d6e940d71446b3fca679bb3b89b3fbb1b2"
+  },
+  "evidence_sha256": {
+    "public-base-observation.json": "8ed99f2af511f93999c1d8a0e71a78aa0c763d70e54e0f2bd9496d81041874e6",
+    "focused-tests.log": "a6a46135ae2d24ac141681862c7d99cebb024df575107d9d690f53f8eb02c3d7",
+    "unsigned-release-report.json": "8860eb323daf057aab944837c68791d73649e0657a86011659ac0bc84fd1db8e",
+    "publication-allowlist.json": "3d6b40f95c1ecdd583e203da25bdcf64c1a295b40016ab967d20d3c1484ed725"
+  },
+  "signed": false,
+  "published": false,
+  "native_files_changed": false,
+  "historical_drafts_or_approvals_changed": false,
+  "next_window_researched": false
+}

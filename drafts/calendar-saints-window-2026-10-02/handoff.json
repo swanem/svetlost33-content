@@ -1,0 +1,74 @@
+{
+  "id": "calendar-saints-window-2026-10-02-r1-handoff",
+  "prepared_on": "2026-10-01",
+  "status": "bounded_editorial_candidate_complete_not_published",
+  "summary_sr_Latn": "Za 2–8. oktobar 2026. dodato je sedam kanonskih spomena sa potvrđenim datumima i vezama ka sedam već objavljenih članaka. Katalog dobija šest novih subjekata; za Začeće Svetog Jovana ponovo se koristi postojeći subjekt, ali novi spomen ostaje odvojen od januarskog Sabora. Nema novih biografija niti izmene godišnjeg kalendara.",
+  "summary_sr_Cyrl": "За 2–8. октобар 2026. додато је седам канонских спомена са потврђеним датумима и везама ка седам већ објављених чланака. Каталог добија шест нових субјеката; за Зачеће Светог Јована поново се користи постојећи субјект, али нови спомен остаје одвојен од јануарског Сабора. Нема нових биографија нити измене годишњег календара.",
+  "window": ["2026-10-02", "2026-10-08"],
+  "changes": {
+    "new_subjects": 6,
+    "new_observances": 7,
+    "new_exact_2026_occurrences": 7,
+    "new_existing_article_links": 7,
+    "new_articles": 0,
+    "annual_calendar_day_edits": 0,
+    "new_aliases_without_source": 0
+  },
+  "resulting_catalog": {
+    "subjects": 18,
+    "observances": 34,
+    "occurrences": 32,
+    "article_links": 11,
+    "complete_saint_list": false,
+    "year_2027": "unavailable"
+  },
+  "visible_names": [
+    {"date": "2026-10-02", "sr-Cyrl": "Свети мученици Трофим, Саватије и Доримедонт", "sr-Latn": "Sveti mučenici Trofim, Savatije i Dorimedont"},
+    {"date": "2026-10-03", "sr-Cyrl": "Свети великомученик Јевстатије", "sr-Latn": "Sveti velikomučenik Jevstatije"},
+    {"date": "2026-10-04", "sr-Cyrl": "Свети апостол Кодрат", "sr-Latn": "Sveti apostol Kodrat"},
+    {"date": "2026-10-05", "sr-Cyrl": "Свети свештеномученик Фока", "sr-Latn": "Sveti sveštenomučenik Foka"},
+    {"date": "2026-10-06", "sr-Cyrl": "Зачеће Светог Јована Претече и Крститеља", "sr-Latn": "Začeće Svetog Jovana Preteče i Krstitelja"},
+    {"date": "2026-10-07", "sr-Cyrl": "Света првомученица Текла", "sr-Latn": "Sveta prvomučenica Tekla"},
+    {"date": "2026-10-08", "sr-Cyrl": "Преподобна Ефросинија", "sr-Latn": "Prepodobna Efrosinija"}
+  ],
+  "provenance": {
+    "method": "Reuse exact immutable S11 calendar and saints payloads; do not infer dates from OCA civil dates or local device history.",
+    "calendar_source_id": "eparhija-month-10",
+    "calendar_source_url": "https://www.eparhija.at/kalendar?m=2026-10",
+    "existing_calendar_source_checked_on": "2026-09-15",
+    "saints_sources": "Exact already-published OCA / SPC / Mitropolija source records are listed per article in verification.json; original reviewed_on values are retained.",
+    "new_web_research_performed": false,
+    "rights_status_promoted": false,
+    "source_checked_dates_promoted": false
+  },
+  "preserved": [
+    "All 62 published articles and their raw module bytes; no duplicated biography.",
+    "All four existing canonical article links and all existing subject/observance/occurrence records.",
+    "All annual calendar bytes, library/cycle data, discovery, manifests, signatures and activation state.",
+    "Seven UNRESOLVED daily Gospels. Existing radio observations are not assigned to a service.",
+    "2026-10-02 fasting rule UNKNOWN: prior WATER/OIL source disagreement remains explicit.",
+    "Oct 4 Odanije Vozdvizenja remains its existing separate calendar note; it is not the identity of Apostle Quadratus.",
+    "Legacy slava links, old source rights fields, 2027 unavailable coverage and incomplete-saint-list flags."
+  ],
+  "validation": {
+    "command": "node drafts/calendar-saints-window-2026-10-02/validate-candidate.mjs",
+    "result": "PASS_EDITORIAL_ONLY",
+    "checks": 21,
+    "notes": "This is one focused validator with 21 named assertion groups, not 21 native tests. Its positive search/date host is explicitly test-only. Pending payload is rejected with unapproved. No signature, native runtime, image or publication acceptance is claimed.",
+    "candidate_bytes": 66615
+  },
+  "remaining_gates": [
+    "Exact candidate is still pending/null approval in its schema; a later explicit reviewed approval must not reuse the old S11 approval ID.",
+    "Any later shared release must rebind calendar-browser-v1 to the exact approved catalog bytes and verify all dependencies atomically.",
+    "Both native clients must verify the exact generation before activation; selection must use observance ID plus calendar profile, not subject or title alone.",
+    "No publication is authorized by this preparation handoff. No release number, signature or active discovery pointer is created."
+  ],
+  "artifact_sha256": {
+    "candidate-delta.json": "972543715c4da483e9d3d757be1c31131f98522e79c6455b69cc437c3bfafbee",
+    "catalog.pending.json": "5bdbe2e1693f89bd5f65d62212798d60ea88bf7662133138292b2fd474948eae",
+    "validate-candidate.mjs": "e0da1e1be9f619d6718fceb0e4e01a6edb508eae094fa47b7dd4e6caba2d3aad",
+    "verification.json": "f49f71ced719264397d4ab235939d8e6a5d650e3c60141954b524a06e170186b"
+  },
+  "stop_after_handoff": true,
+  "next_window_researched": false
+}

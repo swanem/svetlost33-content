@@ -1,0 +1,153 @@
+{
+  "approval_id": "shared-new-content-2026-09-30-owner-r1",
+  "record_kind": "editorial_owner_approval_not_runtime_manifest",
+  "status": "OWNER_APPROVED_NOT_PUBLISHED",
+  "recorded_at": "2026-09-30T17:53:13Z",
+  "approver_role": "project_owner",
+  "statement": "odobri sav nov sadržaj",
+  "context": "Approval of the exact prepared candidates identified below after the implementation status handoff. One content approval applies to both operating systems. This records the user's decision; it does not claim the user performed any particular review procedure.",
+  "platforms": ["android", "ios"],
+  "territories": ["RS", "BA"],
+  "source_state": "working-tree-hash-bound-snapshot",
+  "candidates": [
+    {
+      "id": "saints-next-window-2026-09-30-r1",
+      "owner_status": "APPROVED",
+      "anchor": {
+        "path": "drafts/saints-next-window-2026-09-30/manifest.json",
+        "sha256": "43d7a4c829b199daf04a7f722ae4413dca65833e615b13582f87c76fce52f109"
+      },
+      "scope": {
+        "new_short_articles": 30,
+        "window_start": "2026-10-21",
+        "window_end": "2026-11-19",
+        "scripts": ["sr-Cyrl", "sr-Latn"],
+        "existing_articles_preserved": 32,
+        "total_articles": 62,
+        "complete_saint_list": false,
+        "original_editorial_summaries_not_full_source_reproduction": true,
+        "new_prayers_troparia_kontakia": 0
+      },
+      "proposed_article_links": [
+        {"date": "2026-10-27", "article_id": "paraskeva-epivates", "observance_id": "obs-paraskeva"},
+        {"date": "2026-11-08", "article_id": "demetrius-thessalonica", "observance_id": "obs-demetrius"}
+      ],
+      "link_approval_scope": "Owner accepts these two documented proposals. Identity/date and exact same-generation bindings still require technical review before becoming runtime reviewed links. No new canonical subjects or invented links for the other articles.",
+      "source_limitations_preserved": [
+        "November calendar URL was unavailable at preparation; approved annual bytes and their prior source record remain the date basis.",
+        "No raw source HTML snapshots were retained; no new snapshot hashes or clerical clearance may be inferred."
+      ]
+    },
+    {
+      "id": "charity-refresh-2026-09-30-r3",
+      "owner_status": "APPROVED",
+      "anchor": {
+        "path": "drafts/charity-refresh-2026-09-30/candidate-lock.json",
+        "sha256": "9d0dab4a13be75ee835244392fd6e2cb3baa4d04c246d30f997d159c0805a9b3"
+      },
+      "scope": {
+        "version": "2026.9.30",
+        "revision": 3,
+        "organization_ids": ["nurdor-rs", "norbs-plus-rs", "srbi-za-srbe-rs"],
+        "total_links": 15,
+        "existing_donation_story_links": 6,
+        "new_website_social_links": 9,
+        "logos": false,
+        "local_ips_swift_payment_rails": false,
+        "donation_tracking_or_reminders": false
+      },
+      "source_limitations_preserved": [
+        "Official-site identity evidence is not an independent registry audit or payment verification.",
+        "Keep actual review time and expiry; perform the required fresh link review before publication when the prior check is older than 24 hours."
+      ]
+    },
+    {
+      "id": "feast-backgrounds-2026-09-30-r1",
+      "owner_status": "APPROVED",
+      "anchor": {
+        "path": "drafts/feast-backgrounds-2026-09-30/candidate.json",
+        "sha256": "f252dddb866c7020a09adc28ea727262409ad8d7d9d496c5aa3d8a2d29fcd548"
+      },
+      "scope": {
+        "application_variant": "clean",
+        "image_ids": ["feast-pokrov", "feast-sveti-luka", "feast-vavedenje", "feast-badnji-dan", "feast-bogojavljenje", "feast-veliki-petak", "feast-vaskrs"],
+        "clean_original_count": 7,
+        "clean_original_bytes": 17414965,
+        "localized_titles_and_captions": true,
+        "technical_same_image_previews_allowed": true,
+        "named_variants_in_application": false,
+        "automatic_rotation_enabled": false,
+        "artwork_dates_as_runtime_calendar": false
+      },
+      "source_limitations_preserved": [
+        "First-party AI-generated symbolic artwork, not a photograph or ecclesiastically approved icon.",
+        "Approval covers exact clean originals and their metadata; named media variants are not app resources.",
+        "Existing draft rendition manifest stays immutable and runtime_import:false until a separately validated technical import candidate is prepared."
+      ]
+    },
+    {
+      "id": "radio-refresh-2026-09-30-r1",
+      "owner_status": "APPROVED_AS_RADIO_SOURCE_PROPOSALS_ONLY",
+      "anchor": {
+        "path": "drafts/radio-refresh-2026-09-30/manifest.json",
+        "sha256": "bad383d25aa1509a0691bf06679b7a3b1e961f2b1cc4b4aaebc2d8867f00ce17"
+      },
+      "scope": {
+        "candidate_projection": "valid_added",
+        "valid_new_rows": 30,
+        "month": "2026-10",
+        "classification": "radio_only_not_liturgical_assignment",
+        "service_assignment_status": "UNRESOLVED",
+        "malformed_dates_excluded": ["2026-10-16", "2026-04-09"],
+        "partial_promotion_of_malformed_row": false,
+        "audio_or_source_articles_reproduced": false,
+        "calendar_or_fasting_claims_automatically_resolved": false
+      },
+      "source_limitations_preserved": [
+        "Valid Bible reference ranges do not prove the service assignment, audio identity or correctness of a zachalo label.",
+        "Keep existing contradictory, supplemental, unavailable and unknown states. Approval does not itself update any annual runtime decision."
+      ]
+    }
+  ],
+  "snapshot_policy": {
+    "historical_candidates_remain_unchanged": true,
+    "historical_draft_or_null_approval_fields_are_not_rewritten": true,
+    "owner_decision_is_this_additive_record": true,
+    "technical_promotion_requires_new_candidate_hashes_and_diff": true,
+    "same_approved_content_does_not_need_per_os_reapproval": true,
+    "changed_text_images_urls_dates_or_rights_scope_require_new_review": true,
+    "future_unwritten_or_unfetched_content_approved": false
+  },
+  "rights_and_review": {
+    "independent_legal_verification": false,
+    "clerical_review": null,
+    "public_license_assigned": false,
+    "source_rights_overridden_by_owner_approval": false,
+    "note": "Preserve the recorded rights/provenance basis and attribution. This owner decision is not a third-party license or legal/ecclesiastical certificate."
+  },
+  "publication": {
+    "authorized_by_this_record": false,
+    "signed": false,
+    "published": false,
+    "active_discovery_changed": false,
+    "release_sequence_reserved": false,
+    "native_app_release_authorized": false,
+    "device_install_authorized": false,
+    "remaining_gates": [
+      "Prepare new exact release candidates with this approval reference and reviewed metadata-only promotion diffs.",
+      "Preserve source uncertainty and rights limitations; verify stale external links before release.",
+      "Validate exact module dependencies and current production baseline without modifying historical signed bytes.",
+      "Complete required native integration, compatibility, integrity, visual and offline tests.",
+      "Separate explicit production signing/publication instruction after the technical handoff."
+    ]
+  },
+  "excluded": [
+    "Paused liturgical prayer-book texts, including the 1942 transcription.",
+    "Unprepared or unverified 2027 calendar data and remaining 2026 calendar gaps.",
+    "Charity logos without exact reviewed assets/rights evidence, bank or IPS/SWIFT instructions.",
+    "Broken radio-reference rows or invented corrections.",
+    "Technical contract fixtures presented as approved real content.",
+    "Unrelated changes in the old saints-completion TEKSTOVI.md working file.",
+    "Automatic approval of future monitor findings, background rotation changes, publication or payment actions."
+  ]
+}

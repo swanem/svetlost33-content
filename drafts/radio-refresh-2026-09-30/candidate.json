@@ -1,0 +1,651 @@
+{
+  "schema_version": "svetlost33-radio-refresh-candidate-1",
+  "status": "radio_only_not_liturgical_assignment",
+  "review_status": "PENDING",
+  "owner_approval": null,
+  "clerical_review": null,
+  "publication_authorized": false,
+  "release_allowed": false,
+  "source": {
+    "requested_url": "https://www.slovoljubve.com/cir/TumacenjaJevandjeljaKalendar.asp?Godina=2026",
+    "effective_url": "https://www.slovoljubve.com/cir/TumacenjaJevandjeljaKalendar.asp?Godina=2026",
+    "requested_at": "2026-09-30T11:41:05.662Z",
+    "checked_at": "2026-09-30T11:41:11.133Z",
+    "http_status": 200,
+    "content_type": "text/html",
+    "response_bytes": 158093,
+    "response_sha256": "0f2cd640a2273771a7f0871070e4b51a4a84c3e67ba5c606864c81c0b870b71f",
+    "extraction": "radio-monitor-core-v2 parsed facts; full HTML not retained",
+    "response_body_retained": false,
+    "response_hash_is_not_a_signature": true
+  },
+  "source_rows_sha256": "b121943bb9360714a57212073010f3b890cbe0eda7bee73b33c4419395620d9b",
+  "baseline_calendar_sha256": "a1b6a5d5911ae03f77802bd466227f0c1ea4fe97708b1b6f92cd4b08847c7c9c",
+  "valid_added": [
+    {
+      "date": "2026-10-01",
+      "references": [
+        "Јеванђеље по Луки, зачало 13. 4,16-22"
+      ],
+      "notes": [],
+      "supplemental_blessing": false,
+      "validation_errors": [],
+      "change": "ADDED_RADIO_ROW",
+      "status": "radio_only_not_liturgical_assignment",
+      "review_status": "PENDING",
+      "service_assignment_status": "UNRESOLVED",
+      "production_eligible": false,
+      "source_locator": "tr#Datum20261001",
+      "baseline_gospel_status": "UNRESOLVED",
+      "baseline_gospel_reason": "source_content_not_entered_or_missing",
+      "previously_unresolved": true
+    },
+    {
+      "date": "2026-10-02",
+      "references": [
+        "Јеванђеље по Луки, зачало 14. 4,22-30"
+      ],
+      "notes": [],
+      "supplemental_blessing": false,
+      "validation_errors": [],
+      "change": "ADDED_RADIO_ROW",
+      "status": "radio_only_not_liturgical_assignment",
+      "review_status": "PENDING",
+      "service_assignment_status": "UNRESOLVED",
+      "production_eligible": false,
+      "source_locator": "tr#Datum20261002",
+      "baseline_gospel_status": "UNRESOLVED",
+      "baseline_gospel_reason": "source_content_not_entered_or_missing",
+      "previously_unresolved": true
+    },
+    {
+      "date": "2026-10-03",
+      "references": [
+        "Јеванђеље по Јовану, зачало 30. 8,21-30",
+        "Јеванђеље по Луки, зачало 106. 21,12-27"
+      ],
+      "notes": [],
+      "supplemental_blessing": false,
+      "validation_errors": [],
+      "change": "ADDED_RADIO_ROW",
+      "status": "radio_only_not_liturgical_assignment",
+      "review_status": "PENDING",
+      "service_assignment_status": "UNRESOLVED",
+      "production_eligible": false,
+      "source_locator": "tr#Datum20261003",
+      "baseline_gospel_status": "UNRESOLVED",
+      "baseline_gospel_reason": "source_content_not_entered_or_missing",
+      "previously_unresolved": true
+    },
+    {
+      "date": "2026-10-04",
+      "references": [
+        "Јеванђеље по Марку, зачало 37. 8,34-9,1",
+        "Јеванђеље по Луки, зачало 17. 5,1-11"
+      ],
+      "notes": [],
+      "supplemental_blessing": false,
+      "validation_errors": [],
+      "change": "ADDED_RADIO_ROW",
+      "status": "radio_only_not_liturgical_assignment",
+      "review_status": "PENDING",
+      "service_assignment_status": "UNRESOLVED",
+      "production_eligible": false,
+      "source_locator": "tr#Datum20261004",
+      "baseline_gospel_status": "UNRESOLVED",
+      "baseline_gospel_reason": "source_content_not_entered_or_missing",
+      "previously_unresolved": true
+    },
+    {
+      "date": "2026-10-05",
+      "references": [
+        "Јеванђеље по Луки, зачало 16. 4,37-44",
+        "Јеванђеље по Јовану, зачало 36. 10,9-16"
+      ],
+      "notes": [],
+      "supplemental_blessing": false,
+      "validation_errors": [],
+      "change": "ADDED_RADIO_ROW",
+      "status": "radio_only_not_liturgical_assignment",
+      "review_status": "PENDING",
+      "service_assignment_status": "UNRESOLVED",
+      "production_eligible": false,
+      "source_locator": "tr#Datum20261005",
+      "baseline_gospel_status": "UNRESOLVED",
+      "baseline_gospel_reason": "source_content_not_entered_or_missing",
+      "previously_unresolved": true
+    },
+    {
+      "date": "2026-10-06",
+      "references": [
+        "Јеванђеље по Луки, зачало 18. 5,12-16",
+        "Јеванђеље по Луки, зачало 2. 1,5-23"
+      ],
+      "notes": [],
+      "supplemental_blessing": false,
+      "validation_errors": [],
+      "change": "ADDED_RADIO_ROW",
+      "status": "radio_only_not_liturgical_assignment",
+      "review_status": "PENDING",
+      "service_assignment_status": "UNRESOLVED",
+      "production_eligible": false,
+      "source_locator": "tr#Datum20261006",
+      "baseline_gospel_status": "UNRESOLVED",
+      "baseline_gospel_reason": "source_content_not_entered_or_missing",
+      "previously_unresolved": true
+    },
+    {
+      "date": "2026-10-07",
+      "references": [
+        "Јеванђеље по Луки, зачало 21. 5,33-39",
+        "Јеванђеље по Матеју, зачало 104. 25,1-13"
+      ],
+      "notes": [],
+      "supplemental_blessing": false,
+      "validation_errors": [],
+      "change": "ADDED_RADIO_ROW",
+      "status": "radio_only_not_liturgical_assignment",
+      "review_status": "PENDING",
+      "service_assignment_status": "UNRESOLVED",
+      "production_eligible": false,
+      "source_locator": "tr#Datum20261007",
+      "baseline_gospel_status": "UNRESOLVED",
+      "baseline_gospel_reason": "source_content_not_entered_or_missing",
+      "previously_unresolved": true
+    },
+    {
+      "date": "2026-10-08",
+      "references": [
+        "Јеванђеље по Луки, зачало 23. 6,12-16",
+        "Јеванђеље по Луки, зачало 24. 6,17-23"
+      ],
+      "notes": [],
+      "supplemental_blessing": false,
+      "validation_errors": [],
+      "change": "ADDED_RADIO_ROW",
+      "status": "radio_only_not_liturgical_assignment",
+      "review_status": "PENDING",
+      "service_assignment_status": "UNRESOLVED",
+      "production_eligible": false,
+      "source_locator": "tr#Datum20261008",
+      "baseline_gospel_status": "UNRESOLVED",
+      "baseline_gospel_reason": "source_content_not_entered_or_missing",
+      "previously_unresolved": true
+    },
+    {
+      "date": "2026-10-09",
+      "references": [
+        "Јеванђеље по Јовану, зачало 61. 19,25-37"
+      ],
+      "notes": [],
+      "supplemental_blessing": false,
+      "validation_errors": [],
+      "change": "ADDED_RADIO_ROW",
+      "status": "radio_only_not_liturgical_assignment",
+      "review_status": "PENDING",
+      "service_assignment_status": "UNRESOLVED",
+      "production_eligible": false,
+      "source_locator": "tr#Datum20261009",
+      "baseline_gospel_status": "UNRESOLVED",
+      "baseline_gospel_reason": "source_content_not_entered_or_missing",
+      "previously_unresolved": true
+    },
+    {
+      "date": "2026-10-10",
+      "references": [
+        "Јеванђеље по Луки, зачало 19. 5,17-26"
+      ],
+      "notes": [],
+      "supplemental_blessing": false,
+      "validation_errors": [],
+      "change": "ADDED_RADIO_ROW",
+      "status": "radio_only_not_liturgical_assignment",
+      "review_status": "PENDING",
+      "service_assignment_status": "UNRESOLVED",
+      "production_eligible": false,
+      "source_locator": "tr#Datum20261010",
+      "baseline_gospel_status": "UNRESOLVED",
+      "baseline_gospel_reason": "source_content_not_entered_or_missing",
+      "previously_unresolved": true
+    },
+    {
+      "date": "2026-10-11",
+      "references": [
+        "Јеванђеље по Луки, зачало 26. 6,31-36",
+        "Јеванђеље по Луки, зачало 24. 6,17-23"
+      ],
+      "notes": [],
+      "supplemental_blessing": false,
+      "validation_errors": [],
+      "change": "ADDED_RADIO_ROW",
+      "status": "radio_only_not_liturgical_assignment",
+      "review_status": "PENDING",
+      "service_assignment_status": "UNRESOLVED",
+      "production_eligible": false,
+      "source_locator": "tr#Datum20261011",
+      "baseline_gospel_status": "UNRESOLVED",
+      "baseline_gospel_reason": "source_content_not_entered_or_missing",
+      "previously_unresolved": true
+    },
+    {
+      "date": "2026-10-12",
+      "references": [
+        "Јеванђеље по Луки, зачало 25. 6,24-30",
+        "Јеванђеље по Луки, зачало 24. 6,17-23"
+      ],
+      "notes": [],
+      "supplemental_blessing": false,
+      "validation_errors": [],
+      "change": "ADDED_RADIO_ROW",
+      "status": "radio_only_not_liturgical_assignment",
+      "review_status": "PENDING",
+      "service_assignment_status": "UNRESOLVED",
+      "production_eligible": false,
+      "source_locator": "tr#Datum20261012",
+      "baseline_gospel_status": "UNRESOLVED",
+      "baseline_gospel_reason": "source_content_not_entered_or_missing",
+      "previously_unresolved": true
+    },
+    {
+      "date": "2026-10-13",
+      "references": [
+        "Јеванђеље по Луки, зачало 27. 6,37-45",
+        "Јеванђеље по Матеју, зачало 103. 24,42-51"
+      ],
+      "notes": [],
+      "supplemental_blessing": false,
+      "validation_errors": [],
+      "change": "ADDED_RADIO_ROW",
+      "status": "radio_only_not_liturgical_assignment",
+      "review_status": "PENDING",
+      "service_assignment_status": "UNRESOLVED",
+      "production_eligible": false,
+      "source_locator": "tr#Datum20261013",
+      "baseline_gospel_status": "UNRESOLVED",
+      "baseline_gospel_reason": "source_content_not_entered_or_missing",
+      "previously_unresolved": true
+    },
+    {
+      "date": "2026-10-14",
+      "references": [
+        "Јеванђеље по Луки, зачало 54. 10,38-42",
+        "Јеванђеље по Луки, зачало 51. 10,16-21"
+      ],
+      "notes": [],
+      "supplemental_blessing": false,
+      "validation_errors": [],
+      "change": "ADDED_RADIO_ROW",
+      "status": "radio_only_not_liturgical_assignment",
+      "review_status": "PENDING",
+      "service_assignment_status": "UNRESOLVED",
+      "production_eligible": false,
+      "source_locator": "tr#Datum20261014",
+      "baseline_gospel_status": "UNRESOLVED",
+      "baseline_gospel_reason": "source_content_not_entered_or_missing",
+      "previously_unresolved": true
+    },
+    {
+      "date": "2026-10-15",
+      "references": [
+        "Јеванђеље по Луки, зачало 28. 6,46-49",
+        "Јеванђеље по Луки, зачало 31. 7,17-30",
+        "Јеванђеље по Јовану, зачало 36. 10,9-16"
+      ],
+      "notes": [],
+      "supplemental_blessing": false,
+      "validation_errors": [],
+      "change": "ADDED_RADIO_ROW",
+      "status": "radio_only_not_liturgical_assignment",
+      "review_status": "PENDING",
+      "service_assignment_status": "UNRESOLVED",
+      "production_eligible": false,
+      "source_locator": "tr#Datum20261015",
+      "baseline_gospel_status": "UNRESOLVED",
+      "baseline_gospel_reason": "source_content_not_entered_or_missing",
+      "previously_unresolved": true
+    },
+    {
+      "date": "2026-10-17",
+      "references": [
+        "Јеванђеље по Луки, зачало 20. 5,27-32"
+      ],
+      "notes": [],
+      "supplemental_blessing": false,
+      "validation_errors": [],
+      "change": "ADDED_RADIO_ROW",
+      "status": "radio_only_not_liturgical_assignment",
+      "review_status": "PENDING",
+      "service_assignment_status": "UNRESOLVED",
+      "production_eligible": false,
+      "source_locator": "tr#Datum20261017",
+      "baseline_gospel_status": "UNRESOLVED",
+      "baseline_gospel_reason": "source_content_not_entered_or_missing",
+      "previously_unresolved": true
+    },
+    {
+      "date": "2026-10-18",
+      "references": [
+        "Јеванђеље по Луки, зачало 30. 7,11-16"
+      ],
+      "notes": [],
+      "supplemental_blessing": false,
+      "validation_errors": [],
+      "change": "ADDED_RADIO_ROW",
+      "status": "radio_only_not_liturgical_assignment",
+      "review_status": "PENDING",
+      "service_assignment_status": "UNRESOLVED",
+      "production_eligible": false,
+      "source_locator": "tr#Datum20261018",
+      "baseline_gospel_status": "UNRESOLVED",
+      "baseline_gospel_reason": "source_content_not_entered_or_missing",
+      "previously_unresolved": true
+    },
+    {
+      "date": "2026-10-19",
+      "references": [
+        "Јеванђеље по Луки, зачало 33. 7,36-50",
+        "Јеванђеље по Јовану, зачало 67. 21,15-25"
+      ],
+      "notes": [],
+      "supplemental_blessing": false,
+      "validation_errors": [],
+      "change": "ADDED_RADIO_ROW",
+      "status": "radio_only_not_liturgical_assignment",
+      "review_status": "PENDING",
+      "service_assignment_status": "UNRESOLVED",
+      "production_eligible": false,
+      "source_locator": "tr#Datum20261019",
+      "baseline_gospel_status": "UNRESOLVED",
+      "baseline_gospel_reason": "source_content_not_entered_or_missing",
+      "previously_unresolved": true
+    },
+    {
+      "date": "2026-10-20",
+      "references": [
+        "Јеванђеље по Луки, зачало 34. 8,1-4",
+        "Јеванђеље по Луки, зачало 106. 21,12-27"
+      ],
+      "notes": [],
+      "supplemental_blessing": false,
+      "validation_errors": [],
+      "change": "ADDED_RADIO_ROW",
+      "status": "radio_only_not_liturgical_assignment",
+      "review_status": "PENDING",
+      "service_assignment_status": "UNRESOLVED",
+      "production_eligible": false,
+      "source_locator": "tr#Datum20261020",
+      "baseline_gospel_status": "UNRESOLVED",
+      "baseline_gospel_reason": "source_content_not_entered_or_missing",
+      "previously_unresolved": true
+    },
+    {
+      "date": "2026-10-21",
+      "references": [
+        "Јеванђеље по Луки, зачало 37. 8,22-25"
+      ],
+      "notes": [],
+      "supplemental_blessing": false,
+      "validation_errors": [],
+      "change": "ADDED_RADIO_ROW",
+      "status": "radio_only_not_liturgical_assignment",
+      "review_status": "PENDING",
+      "service_assignment_status": "UNRESOLVED",
+      "production_eligible": false,
+      "source_locator": "tr#Datum20261021",
+      "baseline_gospel_status": "UNRESOLVED",
+      "baseline_gospel_reason": "source_content_not_entered_or_missing",
+      "previously_unresolved": true
+    },
+    {
+      "date": "2026-10-22",
+      "references": [
+        "Јеванђеље по Луки, зачало 41. 9,7-12",
+        "Јеванђеље по Луки, зачало 51. 10,16-21"
+      ],
+      "notes": [],
+      "supplemental_blessing": false,
+      "validation_errors": [],
+      "change": "ADDED_RADIO_ROW",
+      "status": "radio_only_not_liturgical_assignment",
+      "review_status": "PENDING",
+      "service_assignment_status": "UNRESOLVED",
+      "production_eligible": false,
+      "source_locator": "tr#Datum20261022",
+      "baseline_gospel_status": "UNRESOLVED",
+      "baseline_gospel_reason": "source_content_not_entered_or_missing",
+      "previously_unresolved": true
+    },
+    {
+      "date": "2026-10-23",
+      "references": [
+        "Јеванђеље по Луки, зачало 42. 9,12-17"
+      ],
+      "notes": [],
+      "supplemental_blessing": false,
+      "validation_errors": [],
+      "change": "ADDED_RADIO_ROW",
+      "status": "radio_only_not_liturgical_assignment",
+      "review_status": "PENDING",
+      "service_assignment_status": "UNRESOLVED",
+      "production_eligible": false,
+      "source_locator": "tr#Datum20261023",
+      "baseline_gospel_status": "UNRESOLVED",
+      "baseline_gospel_reason": "source_content_not_entered_or_missing",
+      "previously_unresolved": true
+    },
+    {
+      "date": "2026-10-24",
+      "references": [
+        "Јеванђеље по Луки, зачало 50. 10,1-15",
+        "Јеванђеље по Луки, зачало 22. 6,1-11"
+      ],
+      "notes": [],
+      "supplemental_blessing": false,
+      "validation_errors": [],
+      "change": "ADDED_RADIO_ROW",
+      "status": "radio_only_not_liturgical_assignment",
+      "review_status": "PENDING",
+      "service_assignment_status": "UNRESOLVED",
+      "production_eligible": false,
+      "source_locator": "tr#Datum20261024",
+      "baseline_gospel_status": "UNRESOLVED",
+      "baseline_gospel_reason": "source_content_not_entered_or_missing",
+      "previously_unresolved": true
+    },
+    {
+      "date": "2026-10-25",
+      "references": [
+        "Јеванђеље по Луки, зачало 35. 8,5-15",
+        "Јеванђеље по Јовану, зачало 56. 17,1-13"
+      ],
+      "notes": [],
+      "supplemental_blessing": false,
+      "validation_errors": [],
+      "change": "ADDED_RADIO_ROW",
+      "status": "radio_only_not_liturgical_assignment",
+      "review_status": "PENDING",
+      "service_assignment_status": "UNRESOLVED",
+      "production_eligible": false,
+      "source_locator": "tr#Datum20261025",
+      "baseline_gospel_status": "UNRESOLVED",
+      "baseline_gospel_reason": "source_content_not_entered_or_missing",
+      "previously_unresolved": true
+    },
+    {
+      "date": "2026-10-26",
+      "references": [
+        "Јеванђеље по Луки, зачало 43. 9,18-22"
+      ],
+      "notes": [],
+      "supplemental_blessing": false,
+      "validation_errors": [],
+      "change": "ADDED_RADIO_ROW",
+      "status": "radio_only_not_liturgical_assignment",
+      "review_status": "PENDING",
+      "service_assignment_status": "UNRESOLVED",
+      "production_eligible": false,
+      "source_locator": "tr#Datum20261026",
+      "baseline_gospel_status": "UNRESOLVED",
+      "baseline_gospel_reason": "source_content_not_entered_or_missing",
+      "previously_unresolved": true
+    },
+    {
+      "date": "2026-10-27",
+      "references": [
+        "Јеванђеље по Луки, зачало 44. 9,23-27",
+        "Јеванђеље по Матеју, зачало 104. 25,1-13"
+      ],
+      "notes": [],
+      "supplemental_blessing": false,
+      "validation_errors": [],
+      "change": "ADDED_RADIO_ROW",
+      "status": "radio_only_not_liturgical_assignment",
+      "review_status": "PENDING",
+      "service_assignment_status": "UNRESOLVED",
+      "production_eligible": false,
+      "source_locator": "tr#Datum20261027",
+      "baseline_gospel_status": "UNRESOLVED",
+      "baseline_gospel_reason": "source_content_not_entered_or_missing",
+      "previously_unresolved": true
+    },
+    {
+      "date": "2026-10-28",
+      "references": [
+        "Јеванђеље по Луки, зачало 47. 9,43-48"
+      ],
+      "notes": [],
+      "supplemental_blessing": false,
+      "validation_errors": [],
+      "change": "ADDED_RADIO_ROW",
+      "status": "radio_only_not_liturgical_assignment",
+      "review_status": "PENDING",
+      "service_assignment_status": "UNRESOLVED",
+      "production_eligible": false,
+      "source_locator": "tr#Datum20261028",
+      "baseline_gospel_status": "UNRESOLVED",
+      "baseline_gospel_reason": "source_content_not_entered_or_missing",
+      "previously_unresolved": true
+    },
+    {
+      "date": "2026-10-29",
+      "references": [
+        "Јеванђеље по Луки, зачало 48. 9,49-56",
+        "Јеванђеље по Матеју, зачало 113. 27,33-61"
+      ],
+      "notes": [],
+      "supplemental_blessing": false,
+      "validation_errors": [],
+      "change": "ADDED_RADIO_ROW",
+      "status": "radio_only_not_liturgical_assignment",
+      "review_status": "PENDING",
+      "service_assignment_status": "UNRESOLVED",
+      "production_eligible": false,
+      "source_locator": "tr#Datum20261029",
+      "baseline_gospel_status": "UNRESOLVED",
+      "baseline_gospel_reason": "source_content_not_entered_or_missing",
+      "previously_unresolved": true
+    },
+    {
+      "date": "2026-10-30",
+      "references": [
+        "Јеванђеље по Луки, зачало 50. 10,1-15",
+        "Јеванђеље по Луки, зачало 29. 7,1-10"
+      ],
+      "notes": [],
+      "supplemental_blessing": false,
+      "validation_errors": [],
+      "change": "ADDED_RADIO_ROW",
+      "status": "radio_only_not_liturgical_assignment",
+      "review_status": "PENDING",
+      "service_assignment_status": "UNRESOLVED",
+      "production_eligible": false,
+      "source_locator": "tr#Datum20261030",
+      "baseline_gospel_status": "UNRESOLVED",
+      "baseline_gospel_reason": "source_content_not_entered_or_missing",
+      "previously_unresolved": true
+    },
+    {
+      "date": "2026-10-31",
+      "references": [
+        "Јеванђеље по Луки, зачало 51. 10,16-21",
+        "Јеванђеље по Јовану, зачало 35. 9,39-10,9"
+      ],
+      "notes": [],
+      "supplemental_blessing": false,
+      "validation_errors": [],
+      "change": "ADDED_RADIO_ROW",
+      "status": "radio_only_not_liturgical_assignment",
+      "review_status": "PENDING",
+      "service_assignment_status": "UNRESOLVED",
+      "production_eligible": false,
+      "source_locator": "tr#Datum20261031",
+      "baseline_gospel_status": "UNRESOLVED",
+      "baseline_gospel_reason": "source_content_not_entered_or_missing",
+      "previously_unresolved": true
+    }
+  ],
+  "valid_changed": [],
+  "no_reference_observations": [],
+  "errored_observations": [
+    {
+      "date": "2026-04-09",
+      "references": [
+        "Јеванђеље по Јовану, зачало 44. 13,1-11",
+        "Јеванђеље по Луки, зачало 109. 19,39-71",
+        "Јеванђеље по Матеју, зачало 108. 26,40-56",
+        "Јеванђеље по Матеју, зачало 109. 26,57-75",
+        "Јеванђеље по Матеју, зачало 110. 27,1-2"
+      ],
+      "notes": [],
+      "supplemental_blessing": false,
+      "validation_errors": [
+        {
+          "reference": 1,
+          "code": "invalid_verse_endpoint",
+          "segment": 0
+        }
+      ],
+      "change": "UNCHANGED_RADIO_FACTS",
+      "status": "radio_only_not_liturgical_assignment",
+      "review_status": "PENDING",
+      "service_assignment_status": "UNRESOLVED",
+      "production_eligible": false,
+      "source_locator": "tr#Datum20260409",
+      "baseline_gospel_status": "UNRESOLVED",
+      "baseline_gospel_reason": "invalid_verse_endpoint",
+      "previously_unresolved": true
+    },
+    {
+      "date": "2026-10-16",
+      "references": [
+        "Јеванђеље по Луки, зачало 32. 7,31-25",
+        "Јеванђеље по Матеју, зачало 55. 13,44-52"
+      ],
+      "notes": [],
+      "supplemental_blessing": false,
+      "validation_errors": [
+        {
+          "reference": 0,
+          "code": "invalid_or_reversed_range",
+          "segment": 0
+        }
+      ],
+      "change": "ADDED_RADIO_ROW",
+      "status": "radio_only_not_liturgical_assignment",
+      "review_status": "PENDING",
+      "service_assignment_status": "UNRESOLVED",
+      "production_eligible": false,
+      "source_locator": "tr#Datum20261016",
+      "baseline_gospel_status": "UNRESOLVED",
+      "baseline_gospel_reason": "source_content_not_entered_or_missing",
+      "previously_unresolved": true
+    }
+  ],
+  "removed_observations": [],
+  "notes": [
+    "Verse-range validity is not liturgical assignment or owner approval.",
+    "Errored rows are not repaired or partly promoted.",
+    "Removed rows are review signals, not deletion instructions.",
+    "Supplemental blessing remains radio-only. Existing identity-review signals are not resolved by this parser."
+  ]
+}

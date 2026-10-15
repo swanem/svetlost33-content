@@ -1,0 +1,2440 @@
+{
+  "schema_version": "svetlost33-ks01-inventory-1",
+  "baseline": "PUBLIC_S12_CONFIRMED_BY_SEPARATE_COORDINATOR_RECEIPT",
+  "rows": [
+    {
+      "date": "2026-10-09",
+      "article_id": "john-theologian-repose",
+      "subject_id": "saint-john-theologian",
+      "observance_id": "obs-john-theologian-repose",
+      "package": "A",
+      "julian_date": "2026-09-26",
+      "calendar_title": {
+        "sr-Cyrl": "Свети апостол и јеванђелист Јован Богослов",
+        "sr-Latn": "Sveti apostol i jevanđelist Jovan Bogoslov"
+      },
+      "article_title": "Свети апостол и јеванђелист Јован Богослов",
+      "article_type": "saint",
+      "identity_basis": "Exact approved article title/type and its original church source records; exact approved day-to-article join.",
+      "identity_note": "Јован Богослов је засебан субјект; не спаја се са Јованом Крститељем.",
+      "operations": {
+        "subject": "add",
+        "observance": "add",
+        "occurrence": "add",
+        "article_link": "add"
+      },
+      "occurrence_id": "occ-obs-john-theologian-repose-2026",
+      "existing_aliases": [],
+      "proposed_aliases": [],
+      "calendar_sources": [
+        {
+          "id": "eparhija-month-10",
+          "title": "Епархија аустријска СПЦ — календар",
+          "url": "https://www.eparhija.at/kalendar?m=2026-10",
+          "publisher": "Епархија аустријска СПЦ",
+          "original_author": null,
+          "checked_on": "2026-09-15",
+          "review_status": "reviewed",
+          "rights_status": "pending"
+        }
+      ],
+      "article_sources": [
+        {
+          "id": "comp-oca-john-theologian",
+          "kind": "article",
+          "title": "Repose of the Holy Apostle and Evangelist John the Theologian",
+          "url": "https://www.oca.org/saints/lives/2026/09/26/102731-repose-of-the-holy-apostle-and-evangelist-john-the-theologian",
+          "publisher": "Orthodox Church in America",
+          "original_author": null,
+          "published_on": null,
+          "reviewed_on": "2026-09-21"
+        }
+      ],
+      "source_status": "REUSED_PRIOR_REVIEW_NO_NEW_WEB_CHECK",
+      "candidate_status": "PENDING_METADATA_REVIEW",
+      "unresolved_identity_or_date": []
+    },
+    {
+      "date": "2026-10-10",
+      "article_id": "callistratus-companions",
+      "subject_id": "group-callistratus-companions",
+      "observance_id": "obs-callistratus-companions",
+      "package": "A",
+      "julian_date": "2026-09-27",
+      "calendar_title": {
+        "sr-Cyrl": "Свети мученик Калистрат и остали",
+        "sr-Latn": "Sveti mučenik Kalistrat i ostali"
+      },
+      "article_title": "Свети мученик Калистрат и остали",
+      "article_type": "group",
+      "identity_basis": "Exact approved article title/type and its original church source records; exact approved day-to-article join.",
+      "identity_note": "Један групни идентитет; без аутоматског издвајања појединаца.",
+      "operations": {
+        "subject": "add",
+        "observance": "add",
+        "occurrence": "add",
+        "article_link": "add"
+      },
+      "occurrence_id": "occ-obs-callistratus-companions-2026",
+      "existing_aliases": [],
+      "proposed_aliases": [],
+      "calendar_sources": [
+        {
+          "id": "eparhija-month-10",
+          "title": "Епархија аустријска СПЦ — календар",
+          "url": "https://www.eparhija.at/kalendar?m=2026-10",
+          "publisher": "Епархија аустријска СПЦ",
+          "original_author": null,
+          "checked_on": "2026-09-15",
+          "review_status": "reviewed",
+          "rights_status": "pending"
+        }
+      ],
+      "article_sources": [
+        {
+          "id": "comp-oca-callistratus",
+          "kind": "article",
+          "title": "Martyr Callistratus and 49 companions",
+          "url": "https://www.oca.org/saints/lives/2026/09/27/102736-martyr-callistratus-and-49-companions",
+          "publisher": "Orthodox Church in America",
+          "original_author": null,
+          "published_on": null,
+          "reviewed_on": "2026-09-21"
+        }
+      ],
+      "source_status": "REUSED_PRIOR_REVIEW_NO_NEW_WEB_CHECK",
+      "candidate_status": "PENDING_METADATA_REVIEW",
+      "unresolved_identity_or_date": []
+    },
+    {
+      "date": "2026-10-11",
+      "article_id": "chariton-confessor",
+      "subject_id": "saint-chariton-confessor",
+      "observance_id": "obs-chariton-confessor",
+      "package": "A",
+      "julian_date": "2026-09-28",
+      "calendar_title": {
+        "sr-Cyrl": "Преподобни Харитон Исповедник",
+        "sr-Latn": "Prepodobni Hariton Ispovednik"
+      },
+      "article_title": "Преподобни Харитон Исповедник",
+      "article_type": "saint",
+      "identity_basis": "Exact approved article title/type and its original church source records; exact approved day-to-article join.",
+      "identity_note": "Канонско име из постојећег одобреног текста.",
+      "operations": {
+        "subject": "add",
+        "observance": "add",
+        "occurrence": "add",
+        "article_link": "add"
+      },
+      "occurrence_id": "occ-obs-chariton-confessor-2026",
+      "existing_aliases": [],
+      "proposed_aliases": [],
+      "calendar_sources": [
+        {
+          "id": "eparhija-month-10",
+          "title": "Епархија аустријска СПЦ — календар",
+          "url": "https://www.eparhija.at/kalendar?m=2026-10",
+          "publisher": "Епархија аустријска СПЦ",
+          "original_author": null,
+          "checked_on": "2026-09-15",
+          "review_status": "reviewed",
+          "rights_status": "pending"
+        }
+      ],
+      "article_sources": [
+        {
+          "id": "comp-oca-chariton",
+          "kind": "article",
+          "title": "Venerable Chariton the Confessor, Abbot of Palestine",
+          "url": "https://www.oca.org/saints/lives/2024/09/28/102742-venerable-chariton-the-confessor-abbot-of-palestine",
+          "publisher": "Orthodox Church in America",
+          "original_author": null,
+          "published_on": null,
+          "reviewed_on": "2026-09-21"
+        }
+      ],
+      "source_status": "REUSED_PRIOR_REVIEW_NO_NEW_WEB_CHECK",
+      "candidate_status": "PENDING_METADATA_REVIEW",
+      "unresolved_identity_or_date": []
+    },
+    {
+      "date": "2026-10-12",
+      "article_id": "cyriacus-anchorite-miholjdan",
+      "subject_id": "saint-cyriacus-hermit",
+      "observance_id": "obs-cyriacus-miholjdan",
+      "package": "A",
+      "julian_date": "2026-09-29",
+      "calendar_title": {
+        "sr-Cyrl": "Преподобни Киријак Отшелник – Михољдан",
+        "sr-Latn": "Prepodobni Kirijak Otšelnik – Miholjdan"
+      },
+      "article_title": "Преподобни Киријак Отшелник — Михољдан",
+      "article_type": "saint",
+      "identity_basis": "Exact approved article title/type and its original church source records; exact approved day-to-article join.",
+      "identity_note": "Постојећи Киријак и појава 12.10. остају исти; додаје се само веза ка одобреном тексту.",
+      "operations": {
+        "subject": "reuse",
+        "observance": "reuse",
+        "occurrence": "reuse",
+        "article_link": "add"
+      },
+      "occurrence_id": "occ-obs-cyriacus-miholjdan-2026",
+      "existing_aliases": [
+        {
+          "text": "Киријак",
+          "locale": "sr-Cyrl",
+          "kind": "name_variant",
+          "source_ids": [
+            "spc-kirijak",
+            "eparhija-month-10"
+          ]
+        },
+        {
+          "text": "Kirijak",
+          "locale": "sr-Latn",
+          "kind": "name_variant",
+          "source_ids": [
+            "spc-kirijak",
+            "eparhija-month-10"
+          ]
+        },
+        {
+          "text": "Михољдан",
+          "locale": "sr-Cyrl",
+          "kind": "popular",
+          "source_ids": [
+            "eparhija-month-10"
+          ]
+        },
+        {
+          "text": "Miholjdan",
+          "locale": "sr-Latn",
+          "kind": "popular",
+          "source_ids": [
+            "eparhija-month-10"
+          ]
+        }
+      ],
+      "proposed_aliases": [],
+      "calendar_sources": [
+        {
+          "id": "eparhija-month-10",
+          "title": "Епархија аустријска СПЦ — календар",
+          "url": "https://www.eparhija.at/kalendar?m=2026-10",
+          "publisher": "Епархија аустријска СПЦ",
+          "original_author": null,
+          "checked_on": "2026-09-15",
+          "review_status": "reviewed",
+          "rights_status": "pending"
+        }
+      ],
+      "article_sources": [
+        {
+          "id": "comp-oca-kyriakos",
+          "kind": "article",
+          "title": "Venerable Kyriakos the Anchorite",
+          "url": "https://www.oca.org/saints/lives/1950/09/29/102813-venerable-kyriakos-the-anchorite",
+          "publisher": "Orthodox Church in America",
+          "original_author": null,
+          "published_on": null,
+          "reviewed_on": "2026-09-21"
+        },
+        {
+          "id": "comp-mitropolija-miholjdan",
+          "kind": "article",
+          "title": "Преподобни Киријак Отшелник – Михољдан",
+          "url": "https://mitropolija.com/2022/10/11/prepodobni-kirijak-otselnik-miholjdan-2/",
+          "publisher": "Православна Митрополија црногорско-приморска",
+          "original_author": null,
+          "published_on": "2022-10-11",
+          "reviewed_on": "2026-09-21"
+        }
+      ],
+      "source_status": "REUSED_PRIOR_REVIEW_NO_NEW_WEB_CHECK",
+      "candidate_status": "PENDING_METADATA_REVIEW",
+      "unresolved_identity_or_date": []
+    },
+    {
+      "date": "2026-10-13",
+      "article_id": "gregory-enlightener-armenia",
+      "subject_id": "saint-gregory-enlightener-armenia",
+      "observance_id": "obs-gregory-enlightener-armenia",
+      "package": "A",
+      "julian_date": "2026-09-30",
+      "calendar_title": {
+        "sr-Cyrl": "Свети свештеномученик Григорије",
+        "sr-Latn": "Sveti sveštenomučenik Grigorije"
+      },
+      "article_title": "Свети свештеномученик Григорије, просветитељ Јерменије",
+      "article_type": "saint",
+      "identity_basis": "Exact approved article title/type and its original church source records; exact approved day-to-article join.",
+      "identity_note": "Пуни идентитет просветитеља Јерменије преузет је из одобреног чланка и његових извора; кратак календарски назив остаје исти.",
+      "operations": {
+        "subject": "add",
+        "observance": "add",
+        "occurrence": "add",
+        "article_link": "add"
+      },
+      "occurrence_id": "occ-obs-gregory-enlightener-armenia-2026",
+      "existing_aliases": [],
+      "proposed_aliases": [],
+      "calendar_sources": [
+        {
+          "id": "eparhija-month-10",
+          "title": "Епархија аустријска СПЦ — календар",
+          "url": "https://www.eparhija.at/kalendar?m=2026-10",
+          "publisher": "Епархија аустријска СПЦ",
+          "original_author": null,
+          "checked_on": "2026-09-15",
+          "review_status": "reviewed",
+          "rights_status": "pending"
+        }
+      ],
+      "article_sources": [
+        {
+          "id": "comp-oca-gregory-armenia",
+          "kind": "article",
+          "title": "Hieromartyr Gregory, Bishop of Greater Armenia, Equal of the Apostles, Enlightener of Armenia",
+          "url": "https://www.oca.org/saints/lives/2026/09/30/102818-hieromartyr-gregory-bishop-of-greater-armenia-equal-of-the-apost",
+          "publisher": "Orthodox Church in America",
+          "original_author": null,
+          "published_on": null,
+          "reviewed_on": "2026-09-21"
+        },
+        {
+          "id": "comp-kinonija-gregory-armenia",
+          "kind": "article",
+          "title": "Календар за 30. септембар / 13. октобар",
+          "url": "https://kinonija.rs/praznici/kalendar-za-30-septembar-13-oktobar/",
+          "publisher": "Кинонија — портал при Мисионарском одељењу Архиепископије београдско-карловачке",
+          "original_author": null,
+          "published_on": "2024-10-12",
+          "reviewed_on": "2026-09-21"
+        }
+      ],
+      "source_status": "REUSED_PRIOR_REVIEW_NO_NEW_WEB_CHECK",
+      "candidate_status": "PENDING_METADATA_REVIEW",
+      "unresolved_identity_or_date": []
+    },
+    {
+      "date": "2026-10-14",
+      "article_id": "protection-theotokos",
+      "subject_id": null,
+      "observance_id": "obs-protection-theotokos",
+      "package": "A",
+      "julian_date": "2026-10-01",
+      "calendar_title": {
+        "sr-Cyrl": "Покров Пресвете Богородице",
+        "sr-Latn": "Pokrov Presvete Bogorodice"
+      },
+      "article_title": "Покров Пресвете Богородице",
+      "article_type": "feast",
+      "identity_basis": "Exact approved article title/type and its original church source records; exact approved day-to-article join.",
+      "identity_note": "Празнични спомен без новог субјекта; само kind=feast не додаје чланство у browser листи празника.",
+      "operations": {
+        "subject": "none_for_feast",
+        "observance": "add",
+        "occurrence": "add",
+        "article_link": "add"
+      },
+      "occurrence_id": "occ-obs-protection-theotokos-2026",
+      "existing_aliases": [],
+      "proposed_aliases": [],
+      "calendar_sources": [
+        {
+          "id": "eparhija-month-10",
+          "title": "Епархија аустријска СПЦ — календар",
+          "url": "https://www.eparhija.at/kalendar?m=2026-10",
+          "publisher": "Епархија аустријска СПЦ",
+          "original_author": null,
+          "checked_on": "2026-09-15",
+          "review_status": "reviewed",
+          "rights_status": "pending"
+        }
+      ],
+      "article_sources": [
+        {
+          "id": "comp-oca-protection",
+          "kind": "article",
+          "title": "The Protection of our Most Holy Lady the Mother of God and Ever-Virgin Mary",
+          "url": "https://www.oca.org/saints/lives/2026/10/01/102824-the-protection-of-our-most-holy-lady-the-mother-of-god-and-ever",
+          "publisher": "Orthodox Church in America",
+          "original_author": null,
+          "published_on": null,
+          "reviewed_on": "2026-09-21"
+        },
+        {
+          "id": "comp-sumadija-protection",
+          "kind": "article",
+          "title": "ПОКРОВ ПРЕСВЕТЕ БОГОРОДИЦЕ",
+          "url": "https://www.eparhija-sumadijska.org.rs/index.php/%D0%B1%D0%B8%D0%B1%D0%BB%D0%B8%D0%BE%D1%82%D0%B5%D0%BA%D0%B0/7131-pokrov-presvete-bogorodice",
+          "publisher": "Епархија шумадијска",
+          "original_author": null,
+          "published_on": null,
+          "reviewed_on": "2026-09-21"
+        }
+      ],
+      "source_status": "REUSED_PRIOR_REVIEW_NO_NEW_WEB_CHECK",
+      "candidate_status": "PENDING_METADATA_REVIEW",
+      "unresolved_identity_or_date": []
+    },
+    {
+      "date": "2026-10-15",
+      "article_id": "cyprian-antioch-justina",
+      "subject_id": "group-cyprian-antioch-justina",
+      "observance_id": "obs-cyprian-antioch-justina",
+      "package": "A",
+      "julian_date": "2026-10-02",
+      "calendar_title": {
+        "sr-Cyrl": "Св. свештеномуч. Кипријан и Св. муч. Јустина девица",
+        "sr-Latn": "Sv. sveštenomuč. Kiprijan i Sv. muč. Justina devica"
+      },
+      "article_title": "Свети свештеномученик Кипријан и мученица Јустина",
+      "article_type": "group",
+      "identity_basis": "Exact approved article title/type and its original church source records; exact approved day-to-article join.",
+      "identity_note": "Један групни идентитет; без аутоматског издвајања појединаца.",
+      "operations": {
+        "subject": "add",
+        "observance": "add",
+        "occurrence": "add",
+        "article_link": "add"
+      },
+      "occurrence_id": "occ-obs-cyprian-antioch-justina-2026",
+      "existing_aliases": [],
+      "proposed_aliases": [],
+      "calendar_sources": [
+        {
+          "id": "eparhija-month-10",
+          "title": "Епархија аустријска СПЦ — календар",
+          "url": "https://www.eparhija.at/kalendar?m=2026-10",
+          "publisher": "Епархија аустријска СПЦ",
+          "original_author": null,
+          "checked_on": "2026-09-15",
+          "review_status": "reviewed",
+          "rights_status": "pending"
+        }
+      ],
+      "article_sources": [
+        {
+          "id": "comp-oca-cyprian-justina",
+          "kind": "article",
+          "title": "Hieromartyr Cyprian, Virgin Martyr Justina, and Martyr Theoctistus, of Nicomedia",
+          "url": "https://www.oca.org/saints/lives/2026/10/02/102835-hieromartyr-cyprian-virgin-martyr-justina-and-martyr-theoctistus",
+          "publisher": "Orthodox Church in America",
+          "original_author": null,
+          "published_on": null,
+          "reviewed_on": "2026-09-21"
+        },
+        {
+          "id": "comp-spc-cyprian-justina",
+          "kind": "article",
+          "title": "Свети свештеномученик Кипријан и Јустина Девица",
+          "url": "https://spc.rs/sr/news/11871.sveti-svestenomucenik-kiprijan-i-justina-devica.html",
+          "publisher": "Српска Православна Црква",
+          "original_author": null,
+          "published_on": "2024-10-15",
+          "reviewed_on": "2026-09-21"
+        }
+      ],
+      "source_status": "REUSED_PRIOR_REVIEW_NO_NEW_WEB_CHECK",
+      "candidate_status": "PENDING_METADATA_REVIEW",
+      "unresolved_identity_or_date": []
+    },
+    {
+      "date": "2026-10-16",
+      "article_id": "dionysius-areopagite",
+      "subject_id": "saint-dionysius-areopagite",
+      "observance_id": "obs-dionysius-areopagite",
+      "package": "A",
+      "julian_date": "2026-10-03",
+      "calendar_title": {
+        "sr-Cyrl": "Свети свештеномученик Дионисије Ареопагит",
+        "sr-Latn": "Sveti sveštenomučenik Dionisije Areopagit"
+      },
+      "article_title": "Свети свештеномученик Дионисије Ареопагит",
+      "article_type": "saint",
+      "identity_basis": "Exact approved article title/type and its original church source records; exact approved day-to-article join.",
+      "identity_note": "Канонско име из постојећег одобреног текста.",
+      "operations": {
+        "subject": "add",
+        "observance": "add",
+        "occurrence": "add",
+        "article_link": "add"
+      },
+      "occurrence_id": "occ-obs-dionysius-areopagite-2026",
+      "existing_aliases": [],
+      "proposed_aliases": [],
+      "calendar_sources": [
+        {
+          "id": "eparhija-month-10",
+          "title": "Епархија аустријска СПЦ — календар",
+          "url": "https://www.eparhija.at/kalendar?m=2026-10",
+          "publisher": "Епархија аустријска СПЦ",
+          "original_author": null,
+          "checked_on": "2026-09-15",
+          "review_status": "reviewed",
+          "rights_status": "pending"
+        }
+      ],
+      "article_sources": [
+        {
+          "id": "comp-oca-dionysius-areopagite",
+          "kind": "article",
+          "title": "Hieromartyr Dionysius the Areopagite, Bishop of Athens",
+          "url": "https://www.oca.org/saints/lives/2026/10/03/102843-hieromartyr-dionysius-the-areopagite-bishop-of-athens",
+          "publisher": "Orthodox Church in America",
+          "original_author": null,
+          "published_on": null,
+          "reviewed_on": "2026-09-21"
+        },
+        {
+          "id": "comp-bezanija-dionysius-areopagite",
+          "kind": "article",
+          "title": "ДИОНИСИЈЕ АРЕОПАГИТ",
+          "url": "https://crkva-bezanijska.rs/dionisije-areopagit/",
+          "publisher": "Црква Светог Ђорђа у Бежанији",
+          "original_author": "И. В. Попов; А. И. Покровски — потписани одељци пренетог текста",
+          "published_on": null,
+          "reviewed_on": "2026-09-21"
+        },
+        {
+          "id": "comp-eparhijazt-dionysius-mention",
+          "kind": "article",
+          "title": "Митрополит Фотије: ДАНАШЊИ СВЕТИ",
+          "url": "https://www.eparhijazt.com/sr/news/vijesti-iz-eparhije/pesme-episkopa/5305.mitropolit-fotije-danasnji-sveti.html",
+          "publisher": "Епархија зворничко-тузланска",
+          "original_author": "Митрополит Фотије",
+          "published_on": "2024-10-16",
+          "reviewed_on": "2026-09-21"
+        }
+      ],
+      "source_status": "REUSED_PRIOR_REVIEW_NO_NEW_WEB_CHECK",
+      "candidate_status": "PENDING_METADATA_REVIEW",
+      "unresolved_identity_or_date": []
+    },
+    {
+      "date": "2026-10-17",
+      "article_id": "hierotheus-athens",
+      "subject_id": "saint-hierotheus-athens",
+      "observance_id": "obs-hierotheus-athens",
+      "package": "A",
+      "julian_date": "2026-10-04",
+      "calendar_title": {
+        "sr-Cyrl": "Свети Јеротеј Атински",
+        "sr-Latn": "Sveti Jerotej Atinski"
+      },
+      "article_title": "Свети Јеротеј Атински",
+      "article_type": "saint",
+      "identity_basis": "Exact approved article title/type and its original church source records; exact approved day-to-article join.",
+      "identity_note": "Канонско име из постојећег одобреног текста.",
+      "operations": {
+        "subject": "add",
+        "observance": "add",
+        "occurrence": "add",
+        "article_link": "add"
+      },
+      "occurrence_id": "occ-obs-hierotheus-athens-2026",
+      "existing_aliases": [],
+      "proposed_aliases": [],
+      "calendar_sources": [
+        {
+          "id": "eparhija-month-10",
+          "title": "Епархија аустријска СПЦ — календар",
+          "url": "https://www.eparhija.at/kalendar?m=2026-10",
+          "publisher": "Епархија аустријска СПЦ",
+          "original_author": null,
+          "checked_on": "2026-09-15",
+          "review_status": "reviewed",
+          "rights_status": "pending"
+        }
+      ],
+      "article_sources": [
+        {
+          "id": "comp-oca-hierotheus-athens",
+          "kind": "article",
+          "title": "Hieromartyr Hierotheus, Bishop of Athens",
+          "url": "https://www.oca.org/saints/lives/2026/10/04/102849-hieromartyr-hierotheus-bishop-of-athens",
+          "publisher": "Orthodox Church in America",
+          "original_author": null,
+          "published_on": null,
+          "reviewed_on": "2026-09-21"
+        }
+      ],
+      "source_status": "REUSED_PRIOR_REVIEW_NO_NEW_WEB_CHECK",
+      "candidate_status": "PENDING_METADATA_REVIEW",
+      "unresolved_identity_or_date": []
+    },
+    {
+      "date": "2026-10-18",
+      "article_id": "martyr-charitina-amisos",
+      "subject_id": "saint-martyr-charitina-amisos",
+      "observance_id": "obs-martyr-charitina-amisos",
+      "package": "A",
+      "julian_date": "2026-10-05",
+      "calendar_title": {
+        "sr-Cyrl": "Света мученица Харитина",
+        "sr-Latn": "Sveta mučenica Haritina"
+      },
+      "article_title": "Света мученица Харитина",
+      "article_type": "saint",
+      "identity_basis": "Exact approved article title/type and its original church source records; exact approved day-to-article join.",
+      "identity_note": "Канонско име из постојећег одобреног текста.",
+      "operations": {
+        "subject": "add",
+        "observance": "add",
+        "occurrence": "add",
+        "article_link": "add"
+      },
+      "occurrence_id": "occ-obs-martyr-charitina-amisos-2026",
+      "existing_aliases": [],
+      "proposed_aliases": [],
+      "calendar_sources": [
+        {
+          "id": "eparhija-month-10",
+          "title": "Епархија аустријска СПЦ — календар",
+          "url": "https://www.eparhija.at/kalendar?m=2026-10",
+          "publisher": "Епархија аустријска СПЦ",
+          "original_author": null,
+          "checked_on": "2026-09-15",
+          "review_status": "reviewed",
+          "rights_status": "pending"
+        }
+      ],
+      "article_sources": [
+        {
+          "id": "comp-oca-charitina-amisos",
+          "kind": "article",
+          "title": "Martyr Charitina of Amisos",
+          "url": "https://www.oca.org/saints/lives/2025/10/05/102870-martyr-charitina-of-amisos",
+          "publisher": "Orthodox Church in America",
+          "original_author": null,
+          "published_on": null,
+          "reviewed_on": "2026-09-21"
+        }
+      ],
+      "source_status": "REUSED_PRIOR_REVIEW_NO_NEW_WEB_CHECK",
+      "candidate_status": "PENDING_METADATA_REVIEW",
+      "unresolved_identity_or_date": []
+    },
+    {
+      "date": "2026-10-19",
+      "article_id": "apostle-thomas",
+      "subject_id": "saint-apostle-thomas",
+      "observance_id": "obs-apostle-thomas",
+      "package": "A",
+      "julian_date": "2026-10-06",
+      "calendar_title": {
+        "sr-Cyrl": "Свети апостол Тома – Томиндан",
+        "sr-Latn": "Sveti apostol Toma – Tomindan"
+      },
+      "article_title": "Свети апостол Тома — Томиндан",
+      "article_type": "saint",
+      "identity_basis": "Exact approved article title/type and its original church source records; exact approved day-to-article join.",
+      "identity_note": "Канонско име из постојећег одобреног текста.",
+      "operations": {
+        "subject": "add",
+        "observance": "add",
+        "occurrence": "add",
+        "article_link": "add"
+      },
+      "occurrence_id": "occ-obs-apostle-thomas-2026",
+      "existing_aliases": [],
+      "proposed_aliases": [
+        {
+          "text": "Томиндан",
+          "locale": "sr-Cyrl",
+          "kind": "popular",
+          "source_ids": [
+            "eparhija-month-10"
+          ]
+        },
+        {
+          "text": "Tomindan",
+          "locale": "sr-Latn",
+          "kind": "popular",
+          "source_ids": [
+            "eparhija-month-10"
+          ]
+        }
+      ],
+      "calendar_sources": [
+        {
+          "id": "eparhija-month-10",
+          "title": "Епархија аустријска СПЦ — календар",
+          "url": "https://www.eparhija.at/kalendar?m=2026-10",
+          "publisher": "Епархија аустријска СПЦ",
+          "original_author": null,
+          "checked_on": "2026-09-15",
+          "review_status": "reviewed",
+          "rights_status": "pending"
+        }
+      ],
+      "article_sources": [
+        {
+          "id": "comp-oca-apostle-thomas",
+          "kind": "article",
+          "title": "Holy, Glorious Apostle Thomas",
+          "url": "https://www.oca.org/saints/lives/2026/10/06/102885-holy-glorious-apostle-thomas",
+          "publisher": "Orthodox Church in America",
+          "original_author": null,
+          "published_on": null,
+          "reviewed_on": "2026-09-21"
+        }
+      ],
+      "source_status": "REUSED_PRIOR_REVIEW_NO_NEW_WEB_CHECK",
+      "candidate_status": "PENDING_METADATA_REVIEW",
+      "unresolved_identity_or_date": []
+    },
+    {
+      "date": "2026-10-20",
+      "article_id": "sergius-bacchus",
+      "subject_id": "group-sergius-bacchus",
+      "observance_id": "obs-sergius-bacchus",
+      "package": "A",
+      "julian_date": "2026-10-07",
+      "calendar_title": {
+        "sr-Cyrl": "Свети мученици Сергије и Вакхо – Срђевдан",
+        "sr-Latn": "Sveti mučenici Sergije i Vakho – Srđevdan"
+      },
+      "article_title": "Свети мученици Сергије и Вакхо — Срђевдан",
+      "article_type": "group",
+      "identity_basis": "Exact approved article title/type and its original church source records; exact approved day-to-article join.",
+      "identity_note": "Један групни идентитет; без аутоматског издвајања појединаца.",
+      "operations": {
+        "subject": "add",
+        "observance": "add",
+        "occurrence": "add",
+        "article_link": "add"
+      },
+      "occurrence_id": "occ-obs-sergius-bacchus-2026",
+      "existing_aliases": [],
+      "proposed_aliases": [
+        {
+          "text": "Срђевдан",
+          "locale": "sr-Cyrl",
+          "kind": "popular",
+          "source_ids": [
+            "eparhija-month-10"
+          ]
+        },
+        {
+          "text": "Srđevdan",
+          "locale": "sr-Latn",
+          "kind": "popular",
+          "source_ids": [
+            "eparhija-month-10"
+          ]
+        }
+      ],
+      "calendar_sources": [
+        {
+          "id": "eparhija-month-10",
+          "title": "Епархија аустријска СПЦ — календар",
+          "url": "https://www.eparhija.at/kalendar?m=2026-10",
+          "publisher": "Епархија аустријска СПЦ",
+          "original_author": null,
+          "checked_on": "2026-09-15",
+          "review_status": "reviewed",
+          "rights_status": "pending"
+        }
+      ],
+      "article_sources": [
+        {
+          "id": "comp-oca-sergius-bacchus",
+          "kind": "article",
+          "title": "Martyrs Sergius and Bacchus in Syria",
+          "url": "https://www.oca.org/saints/lives/2026/10/07/102888-martyrs-sergius-and-bacchus-in-syria",
+          "publisher": "Orthodox Church in America",
+          "original_author": null,
+          "published_on": null,
+          "reviewed_on": "2026-09-21"
+        }
+      ],
+      "source_status": "REUSED_PRIOR_REVIEW_NO_NEW_WEB_CHECK",
+      "candidate_status": "PENDING_METADATA_REVIEW",
+      "unresolved_identity_or_date": []
+    },
+    {
+      "date": "2026-10-21",
+      "article_id": "pelagia-penitent",
+      "subject_id": "saint-pelagia-penitent",
+      "observance_id": "obs-pelagia-penitent",
+      "package": "A",
+      "julian_date": "2026-10-08",
+      "calendar_title": {
+        "sr-Cyrl": "Преподобна Пелагија Палестинска",
+        "sr-Latn": "Prepodobna Pelagija Palestinska"
+      },
+      "article_title": "Преподобна Пелагија Палестинска",
+      "article_type": "saint",
+      "identity_basis": "Exact approved article title/type and its original church source records; exact approved day-to-article join.",
+      "identity_note": "Покајница из одобреног чланка; не изједначава се са истоименом девицом-мученицом.",
+      "operations": {
+        "subject": "add",
+        "observance": "add",
+        "occurrence": "add",
+        "article_link": "add"
+      },
+      "occurrence_id": "occ-obs-pelagia-penitent-2026",
+      "existing_aliases": [],
+      "proposed_aliases": [],
+      "calendar_sources": [
+        {
+          "id": "eparhija-month-10",
+          "title": "Епархија аустријска СПЦ — календар",
+          "url": "https://www.eparhija.at/kalendar?m=2026-10",
+          "publisher": "Епархија аустријска СПЦ",
+          "original_author": null,
+          "checked_on": "2026-09-15",
+          "review_status": "reviewed",
+          "rights_status": "pending"
+        }
+      ],
+      "article_sources": [
+        {
+          "id": "next-oca-pelagia",
+          "kind": "article",
+          "title": "Venerable Pelagia the Penitent",
+          "url": "https://www.oca.org/saints/lives/2026/10/08/102899-venerable-pelagia-the-penitent",
+          "publisher": "Orthodox Church in America",
+          "original_author": null,
+          "published_on": null,
+          "reviewed_on": "2026-09-30"
+        }
+      ],
+      "source_status": "REUSED_PRIOR_REVIEW_NO_NEW_WEB_CHECK",
+      "candidate_status": "PENDING_METADATA_REVIEW",
+      "unresolved_identity_or_date": []
+    },
+    {
+      "date": "2026-10-22",
+      "article_id": "james-alphaeus",
+      "subject_id": "saint-james-alphaeus",
+      "observance_id": "obs-james-alphaeus",
+      "package": "A",
+      "julian_date": "2026-10-09",
+      "calendar_title": {
+        "sr-Cyrl": "Свети апостол Јаков",
+        "sr-Latn": "Sveti apostol Jakov"
+      },
+      "article_title": "Свети апостол Јаков Алфејев",
+      "article_type": "saint",
+      "identity_basis": "Exact approved article title/type and its original church source records; exact approved day-to-article join.",
+      "identity_note": "Јаков Алфејев је засебан идентитет; не Јаков брат Господњи или Зеведејев.",
+      "operations": {
+        "subject": "add",
+        "observance": "add",
+        "occurrence": "add",
+        "article_link": "add"
+      },
+      "occurrence_id": "occ-obs-james-alphaeus-2026",
+      "existing_aliases": [],
+      "proposed_aliases": [],
+      "calendar_sources": [
+        {
+          "id": "eparhija-month-10",
+          "title": "Епархија аустријска СПЦ — календар",
+          "url": "https://www.eparhija.at/kalendar?m=2026-10",
+          "publisher": "Епархија аустријска СПЦ",
+          "original_author": null,
+          "checked_on": "2026-09-15",
+          "review_status": "reviewed",
+          "rights_status": "pending"
+        }
+      ],
+      "article_sources": [
+        {
+          "id": "next-oca-james-alphaeus",
+          "kind": "article",
+          "title": "Apostle James, son of Alphaeus",
+          "url": "https://www.oca.org/saints/lives/2026/10/09/102916-apostle-james-son-of-alphaeus",
+          "publisher": "Orthodox Church in America",
+          "original_author": null,
+          "published_on": null,
+          "reviewed_on": "2026-09-30"
+        }
+      ],
+      "source_status": "REUSED_PRIOR_REVIEW_NO_NEW_WEB_CHECK",
+      "candidate_status": "PENDING_METADATA_REVIEW",
+      "unresolved_identity_or_date": []
+    },
+    {
+      "date": "2026-10-23",
+      "article_id": "eulampius-eulampia",
+      "subject_id": "group-eulampius-eulampia",
+      "observance_id": "obs-eulampius-eulampia",
+      "package": "A",
+      "julian_date": "2026-10-10",
+      "calendar_title": {
+        "sr-Cyrl": "Свети мученици Евлампије и Евлампија",
+        "sr-Latn": "Sveti mučenici Evlampije i Evlampija"
+      },
+      "article_title": "Свети мученици Евлампије и Евлампија",
+      "article_type": "group",
+      "identity_basis": "Exact approved article title/type and its original church source records; exact approved day-to-article join.",
+      "identity_note": "Један групни идентитет; без аутоматског издвајања појединаца.",
+      "operations": {
+        "subject": "add",
+        "observance": "add",
+        "occurrence": "add",
+        "article_link": "add"
+      },
+      "occurrence_id": "occ-obs-eulampius-eulampia-2026",
+      "existing_aliases": [],
+      "proposed_aliases": [],
+      "calendar_sources": [
+        {
+          "id": "eparhija-month-10",
+          "title": "Епархија аустријска СПЦ — календар",
+          "url": "https://www.eparhija.at/kalendar?m=2026-10",
+          "publisher": "Епархија аустријска СПЦ",
+          "original_author": null,
+          "checked_on": "2026-09-15",
+          "review_status": "reviewed",
+          "rights_status": "pending"
+        }
+      ],
+      "article_sources": [
+        {
+          "id": "next-oca-eulampius-eulampia",
+          "kind": "article",
+          "title": "Martyrs Eulampius and Eulampia, at Nicomedia, and 200 Martyrs with them",
+          "url": "https://www.oca.org/saints/lives/2026/10/10/102919-martyrs-eulampius-and-eulampia-at-nicomedia-and-200-martyrs-with",
+          "publisher": "Orthodox Church in America",
+          "original_author": null,
+          "published_on": null,
+          "reviewed_on": "2026-09-30"
+        }
+      ],
+      "source_status": "REUSED_PRIOR_REVIEW_NO_NEW_WEB_CHECK",
+      "candidate_status": "PENDING_METADATA_REVIEW",
+      "unresolved_identity_or_date": []
+    },
+    {
+      "date": "2026-10-24",
+      "article_id": "philip-deacon-seventy",
+      "subject_id": "saint-philip-deacon-seventy",
+      "observance_id": "obs-philip-deacon-seventy",
+      "package": "A",
+      "julian_date": "2026-10-11",
+      "calendar_title": {
+        "sr-Cyrl": "Свети апостол Филип",
+        "sr-Latn": "Sveti apostol Filip"
+      },
+      "article_title": "Свети апостол Филип, један од седморице ђакона",
+      "article_type": "saint",
+      "identity_basis": "Exact approved article title/type and its original church source records; exact approved day-to-article join.",
+      "identity_note": "Филип из Седамдесеторице и један од седморице ђакона; не Филип из Дванаесторице.",
+      "operations": {
+        "subject": "add",
+        "observance": "add",
+        "occurrence": "add",
+        "article_link": "add"
+      },
+      "occurrence_id": "occ-obs-philip-deacon-seventy-2026",
+      "existing_aliases": [],
+      "proposed_aliases": [],
+      "calendar_sources": [
+        {
+          "id": "eparhija-month-10",
+          "title": "Епархија аустријска СПЦ — календар",
+          "url": "https://www.eparhija.at/kalendar?m=2026-10",
+          "publisher": "Епархија аустријска СПЦ",
+          "original_author": null,
+          "checked_on": "2026-09-15",
+          "review_status": "reviewed",
+          "rights_status": "pending"
+        }
+      ],
+      "article_sources": [
+        {
+          "id": "next-oca-philip-deacon",
+          "kind": "article",
+          "title": "Apostle Philip of the Seventy, One of the Seven Deacons",
+          "url": "https://www.oca.org/saints/lives/2026/10/11/102936-apostle-philip-of-the-seventy-one-of-the-seven-deacons",
+          "publisher": "Orthodox Church in America",
+          "original_author": null,
+          "published_on": null,
+          "reviewed_on": "2026-09-30"
+        }
+      ],
+      "source_status": "REUSED_PRIOR_REVIEW_NO_NEW_WEB_CHECK",
+      "candidate_status": "PENDING_METADATA_REVIEW",
+      "unresolved_identity_or_date": []
+    },
+    {
+      "date": "2026-10-25",
+      "article_id": "tarachus-probus-andronicus",
+      "subject_id": "group-tarachus-probus-andronicus",
+      "observance_id": "obs-tarachus-probus-andronicus",
+      "package": "A",
+      "julian_date": "2026-10-12",
+      "calendar_title": {
+        "sr-Cyrl": "Свети мученици Тарах, Пров и Андроник",
+        "sr-Latn": "Sveti mučenici Tarah, Prov i Andronik"
+      },
+      "article_title": "Свети мученици Тарах, Пров и Андроник",
+      "article_type": "group",
+      "identity_basis": "Exact approved article title/type and its original church source records; exact approved day-to-article join.",
+      "identity_note": "Један групни идентитет; без аутоматског издвајања појединаца.",
+      "operations": {
+        "subject": "add",
+        "observance": "add",
+        "occurrence": "add",
+        "article_link": "add"
+      },
+      "occurrence_id": "occ-obs-tarachus-probus-andronicus-2026",
+      "existing_aliases": [],
+      "proposed_aliases": [],
+      "calendar_sources": [
+        {
+          "id": "eparhija-month-10",
+          "title": "Епархија аустријска СПЦ — календар",
+          "url": "https://www.eparhija.at/kalendar?m=2026-10",
+          "publisher": "Епархија аустријска СПЦ",
+          "original_author": null,
+          "checked_on": "2026-09-15",
+          "review_status": "reviewed",
+          "rights_status": "pending"
+        }
+      ],
+      "article_sources": [
+        {
+          "id": "next-oca-tarachus-group",
+          "kind": "article",
+          "title": "Martyrs Probus, Tarachus, and Andronicus, at Tarsus in Cilicia",
+          "url": "https://www.oca.org/saints/lives/2020/10/12/102941-martyrs-probus-tarachus-and-andronicus-at-tarsus-in-cilicia",
+          "publisher": "Orthodox Church in America",
+          "original_author": null,
+          "published_on": null,
+          "reviewed_on": "2026-09-30"
+        }
+      ],
+      "source_status": "REUSED_PRIOR_REVIEW_NO_NEW_WEB_CHECK",
+      "candidate_status": "PENDING_METADATA_REVIEW",
+      "unresolved_identity_or_date": []
+    },
+    {
+      "date": "2026-10-26",
+      "article_id": "carpus-papylus-companions",
+      "subject_id": "group-carpus-papylus-companions",
+      "observance_id": "obs-carpus-papylus-companions",
+      "package": "A",
+      "julian_date": "2026-10-13",
+      "calendar_title": {
+        "sr-Cyrl": "Свети мученик Карп и Папил",
+        "sr-Latn": "Sveti mučenik Karp i Papil"
+      },
+      "article_title": "Свети мученици Карп, Папил и сапострадалници",
+      "article_type": "group",
+      "identity_basis": "Exact approved article title/type and its original church source records; exact approved day-to-article join.",
+      "identity_note": "Један групни идентитет одобреног чланка; имена сапострадалника не стварају појединачне субјекте.",
+      "operations": {
+        "subject": "add",
+        "observance": "add",
+        "occurrence": "add",
+        "article_link": "add"
+      },
+      "occurrence_id": "occ-obs-carpus-papylus-companions-2026",
+      "existing_aliases": [],
+      "proposed_aliases": [],
+      "calendar_sources": [
+        {
+          "id": "eparhija-month-10",
+          "title": "Епархија аустријска СПЦ — календар",
+          "url": "https://www.eparhija.at/kalendar?m=2026-10",
+          "publisher": "Епархија аустријска СПЦ",
+          "original_author": null,
+          "checked_on": "2026-09-15",
+          "review_status": "reviewed",
+          "rights_status": "pending"
+        }
+      ],
+      "article_sources": [
+        {
+          "id": "next-oca-carpus-group",
+          "kind": "article",
+          "title": "Martyrs Carpus, Papylus, Agathadorus, and Agathonica, at Pergamum",
+          "url": "https://www.oca.org/saints/lives/2026/10/13/102953-martyrs-carpus-papylus-agathadorus-and-agathonica-at-pergamum",
+          "publisher": "Orthodox Church in America",
+          "original_author": null,
+          "published_on": null,
+          "reviewed_on": "2026-09-30"
+        }
+      ],
+      "source_status": "REUSED_PRIOR_REVIEW_NO_NEW_WEB_CHECK",
+      "candidate_status": "PENDING_METADATA_REVIEW",
+      "unresolved_identity_or_date": []
+    },
+    {
+      "date": "2026-10-27",
+      "article_id": "paraskeva-epivates",
+      "subject_id": "saint-paraskeva",
+      "observance_id": "obs-paraskeva",
+      "package": "A",
+      "julian_date": "2026-10-14",
+      "calendar_title": {
+        "sr-Cyrl": "Преподобна мати Параскева (Света Петка)",
+        "sr-Latn": "Prepodobna mati Paraskeva (Sveta Petka)"
+      },
+      "article_title": "Преподобна мати Параскева — Света Петка",
+      "article_type": "saint",
+      "identity_basis": "Exact approved article title/type and its original church source records; exact approved day-to-article join.",
+      "identity_note": "Постојећи субјект, спомен, појава и чланак већ су повезани; без дупликата.",
+      "operations": {
+        "subject": "reuse",
+        "observance": "reuse",
+        "occurrence": "reuse",
+        "article_link": "reuse"
+      },
+      "occurrence_id": "occ-obs-paraskeva-2026",
+      "existing_aliases": [
+        {
+          "text": "Света Петка",
+          "locale": "sr-Cyrl",
+          "kind": "name_variant",
+          "source_ids": [
+            "eparhija-month-10"
+          ]
+        },
+        {
+          "text": "Sveta Petka",
+          "locale": "sr-Latn",
+          "kind": "name_variant",
+          "source_ids": [
+            "eparhija-month-10"
+          ]
+        }
+      ],
+      "proposed_aliases": [],
+      "calendar_sources": [
+        {
+          "id": "eparhija-month-10",
+          "title": "Епархија аустријска СПЦ — календар",
+          "url": "https://www.eparhija.at/kalendar?m=2026-10",
+          "publisher": "Епархија аустријска СПЦ",
+          "original_author": null,
+          "checked_on": "2026-09-15",
+          "review_status": "reviewed",
+          "rights_status": "pending"
+        }
+      ],
+      "article_sources": [
+        {
+          "id": "next-spc-paraskeva",
+          "kind": "article",
+          "title": "Света Петка",
+          "url": "https://zvonce.spc.rs/%D1%81%D0%B2%D0%B5%D1%82%D0%B0-%D0%BF%D0%B5%D1%82%D0%BA%D0%B0/",
+          "publisher": "Светосавско Звонце — Српска православна црква",
+          "original_author": null,
+          "published_on": null,
+          "reviewed_on": "2026-09-30"
+        },
+        {
+          "id": "next-mcp-paraskeva",
+          "kind": "article",
+          "title": "Преподобна мати Параскева – Света Петка",
+          "url": "https://mitropolija.com/2014/10/26/prepodobna-mati-paraskeva-sveta-petka-2/",
+          "publisher": "Митрополија црногорско-приморска",
+          "original_author": "Преподобни Јустин Поповић — Житија светих (атрибуција странице)",
+          "published_on": "2014-10-26",
+          "reviewed_on": "2026-09-30"
+        }
+      ],
+      "source_status": "REUSED_PRIOR_REVIEW_NO_NEW_WEB_CHECK",
+      "candidate_status": "ALREADY_LINKED_IN_S12",
+      "unresolved_identity_or_date": []
+    },
+    {
+      "date": "2026-10-28",
+      "article_id": "lucian-antioch",
+      "subject_id": "saint-lucian-antioch",
+      "observance_id": "obs-lucian-antioch",
+      "package": "A",
+      "julian_date": "2026-10-15",
+      "calendar_title": {
+        "sr-Cyrl": "Свети свештеномученик Лукијан",
+        "sr-Latn": "Sveti sveštenomučenik Lukijan"
+      },
+      "article_title": "Свети свештеномученик Лукијан Антиохијски",
+      "article_type": "saint",
+      "identity_basis": "Exact approved article title/type and its original church source records; exact approved day-to-article join.",
+      "identity_note": "Канонско име из постојећег одобреног текста.",
+      "operations": {
+        "subject": "add",
+        "observance": "add",
+        "occurrence": "add",
+        "article_link": "add"
+      },
+      "occurrence_id": "occ-obs-lucian-antioch-2026",
+      "existing_aliases": [],
+      "proposed_aliases": [],
+      "calendar_sources": [
+        {
+          "id": "eparhija-month-10",
+          "title": "Епархија аустријска СПЦ — календар",
+          "url": "https://www.eparhija.at/kalendar?m=2026-10",
+          "publisher": "Епархија аустријска СПЦ",
+          "original_author": null,
+          "checked_on": "2026-09-15",
+          "review_status": "reviewed",
+          "rights_status": "pending"
+        }
+      ],
+      "article_sources": [
+        {
+          "id": "next-oca-lucian",
+          "kind": "article",
+          "title": "Martyr Lucian the Presbyter of Antioch",
+          "url": "https://www.oca.org/saints/lives/2015/10/15/102973-martyr-lucian-the-presbyter-of-antioch",
+          "publisher": "Orthodox Church in America",
+          "original_author": null,
+          "published_on": null,
+          "reviewed_on": "2026-09-30"
+        }
+      ],
+      "source_status": "REUSED_PRIOR_REVIEW_NO_NEW_WEB_CHECK",
+      "candidate_status": "PENDING_METADATA_REVIEW",
+      "unresolved_identity_or_date": []
+    },
+    {
+      "date": "2026-10-29",
+      "article_id": "longinus-centurion",
+      "subject_id": "saint-longinus-centurion",
+      "observance_id": "obs-longinus-centurion",
+      "package": "A",
+      "julian_date": "2026-10-16",
+      "calendar_title": {
+        "sr-Cyrl": "Свети мученик Лонгин Сотник",
+        "sr-Latn": "Sveti mučenik Longin Sotnik"
+      },
+      "article_title": "Свети мученик Лонгин Сотник",
+      "article_type": "saint",
+      "identity_basis": "Exact approved article title/type and its original church source records; exact approved day-to-article join.",
+      "identity_note": "Канонско име из постојећег одобреног текста.",
+      "operations": {
+        "subject": "add",
+        "observance": "add",
+        "occurrence": "add",
+        "article_link": "add"
+      },
+      "occurrence_id": "occ-obs-longinus-centurion-2026",
+      "existing_aliases": [],
+      "proposed_aliases": [],
+      "calendar_sources": [
+        {
+          "id": "eparhija-month-10",
+          "title": "Епархија аустријска СПЦ — календар",
+          "url": "https://www.eparhija.at/kalendar?m=2026-10",
+          "publisher": "Епархија аустријска СПЦ",
+          "original_author": null,
+          "checked_on": "2026-09-15",
+          "review_status": "reviewed",
+          "rights_status": "pending"
+        }
+      ],
+      "article_sources": [
+        {
+          "id": "next-oca-longinus",
+          "kind": "article",
+          "title": "Martyr Longinus the Centurion, who stood at the Cross of the Lord",
+          "url": "https://www.oca.org/saints/lives/2026/10/16/102980-martyr-longinus-the-centurion-who-stood-at-the-cross-of-the-lord",
+          "publisher": "Orthodox Church in America",
+          "original_author": null,
+          "published_on": null,
+          "reviewed_on": "2026-09-30"
+        }
+      ],
+      "source_status": "REUSED_PRIOR_REVIEW_NO_NEW_WEB_CHECK",
+      "candidate_status": "PENDING_METADATA_REVIEW",
+      "unresolved_identity_or_date": []
+    },
+    {
+      "date": "2026-10-30",
+      "article_id": "hosea-prophet",
+      "subject_id": "saint-hosea-prophet",
+      "observance_id": "obs-hosea-prophet",
+      "package": "A",
+      "julian_date": "2026-10-17",
+      "calendar_title": {
+        "sr-Cyrl": "Свети пророк Осија",
+        "sr-Latn": "Sveti prorok Osija"
+      },
+      "article_title": "Свети пророк Осија",
+      "article_type": "saint",
+      "identity_basis": "Exact approved article title/type and its original church source records; exact approved day-to-article join.",
+      "identity_note": "Канонско име из постојећег одобреног текста.",
+      "operations": {
+        "subject": "add",
+        "observance": "add",
+        "occurrence": "add",
+        "article_link": "add"
+      },
+      "occurrence_id": "occ-obs-hosea-prophet-2026",
+      "existing_aliases": [],
+      "proposed_aliases": [],
+      "calendar_sources": [
+        {
+          "id": "eparhija-month-10",
+          "title": "Епархија аустријска СПЦ — календар",
+          "url": "https://www.eparhija.at/kalendar?m=2026-10",
+          "publisher": "Епархија аустријска СПЦ",
+          "original_author": null,
+          "checked_on": "2026-09-15",
+          "review_status": "reviewed",
+          "rights_status": "pending"
+        }
+      ],
+      "article_sources": [
+        {
+          "id": "next-oca-hosea",
+          "kind": "article",
+          "title": "Prophet Hosea",
+          "url": "https://www.oca.org/saints/lives/2013/10/17/102983-prophet-hosea",
+          "publisher": "Orthodox Church in America",
+          "original_author": null,
+          "published_on": null,
+          "reviewed_on": "2026-09-30"
+        }
+      ],
+      "source_status": "REUSED_PRIOR_REVIEW_NO_NEW_WEB_CHECK",
+      "candidate_status": "PENDING_METADATA_REVIEW",
+      "unresolved_identity_or_date": []
+    },
+    {
+      "date": "2026-10-31",
+      "article_id": "peter-cetinje",
+      "subject_id": "saint-peter-cetinje",
+      "observance_id": "obs-peter-cetinje",
+      "package": "A",
+      "julian_date": "2026-10-18",
+      "calendar_title": {
+        "sr-Cyrl": "Свети Петар Цетињски",
+        "sr-Latn": "Sveti Petar Cetinjski"
+      },
+      "article_title": "Свети Петар Цетињски",
+      "article_type": "saint",
+      "identity_basis": "Exact approved article title/type and its original church source records; exact approved day-to-article join.",
+      "identity_note": "Канонско име из постојећег одобреног текста.",
+      "operations": {
+        "subject": "add",
+        "observance": "add",
+        "occurrence": "add",
+        "article_link": "add"
+      },
+      "occurrence_id": "occ-obs-peter-cetinje-2026",
+      "existing_aliases": [],
+      "proposed_aliases": [],
+      "calendar_sources": [
+        {
+          "id": "eparhija-month-10",
+          "title": "Епархија аустријска СПЦ — календар",
+          "url": "https://www.eparhija.at/kalendar?m=2026-10",
+          "publisher": "Епархија аустријска СПЦ",
+          "original_author": null,
+          "checked_on": "2026-09-15",
+          "review_status": "reviewed",
+          "rights_status": "pending"
+        }
+      ],
+      "article_sources": [
+        {
+          "id": "next-mcp-peter-cetinje",
+          "kind": "article",
+          "title": "Житије Светог Петра Цетињског",
+          "url": "https://mitropolija.com/2023/10/30/zitije-svetog-petra-cetinjskog-2/",
+          "publisher": "Митрополија црногорско-приморска",
+          "original_author": "Преподобни Јустин Ћелијски",
+          "published_on": "2023-10-30",
+          "reviewed_on": "2026-09-30"
+        }
+      ],
+      "source_status": "REUSED_PRIOR_REVIEW_NO_NEW_WEB_CHECK",
+      "candidate_status": "PENDING_METADATA_REVIEW",
+      "unresolved_identity_or_date": []
+    },
+    {
+      "date": "2026-11-01",
+      "article_id": "prohor-pcinja",
+      "subject_id": "saint-prohor-pcinja",
+      "observance_id": "obs-prohor-pcinja",
+      "package": "B",
+      "julian_date": "2026-10-19",
+      "calendar_title": {
+        "sr-Cyrl": "Преподобни Прохор Пчињски",
+        "sr-Latn": "Prepodobni Prohor Pčinjski"
+      },
+      "article_title": "Преподобни Прохор Пчињски",
+      "article_type": "saint",
+      "identity_basis": "Exact approved article title/type and its original church source records; exact approved day-to-article join.",
+      "identity_note": "Канонско име из постојећег одобреног текста.",
+      "operations": {
+        "subject": "add",
+        "observance": "add",
+        "occurrence": "add",
+        "article_link": "add"
+      },
+      "occurrence_id": "occ-obs-prohor-pcinja-2026",
+      "existing_aliases": [],
+      "proposed_aliases": [],
+      "calendar_sources": [
+        {
+          "id": "eparhija-month-11",
+          "title": "Епархија аустријска СПЦ — календар",
+          "url": "https://www.eparhija.at/kalendar?m=2026-11",
+          "publisher": "Епархија аустријска СПЦ",
+          "original_author": null,
+          "checked_on": "2026-09-15",
+          "review_status": "reviewed",
+          "rights_status": "pending"
+        }
+      ],
+      "article_sources": [
+        {
+          "id": "next-mcp-prohor",
+          "kind": "article",
+          "title": "Преподобни Прохор Пчињски",
+          "url": "https://mitropolija.com/2025/10/31/prepodobni-prohor-pcinjski-3/",
+          "publisher": "Митрополија црногорско-приморска",
+          "original_author": null,
+          "published_on": "2025-10-31",
+          "reviewed_on": "2026-09-30"
+        }
+      ],
+      "source_status": "REUSED_PRIOR_REVIEW_NO_NEW_WEB_CHECK",
+      "candidate_status": "INVENTORIED_AWAITING_PACKAGE_A_REVIEW",
+      "unresolved_identity_or_date": []
+    },
+    {
+      "date": "2026-11-02",
+      "article_id": "artemius-antioch",
+      "subject_id": "saint-artemius-antioch",
+      "observance_id": "obs-artemius-antioch",
+      "package": "B",
+      "julian_date": "2026-10-20",
+      "calendar_title": {
+        "sr-Cyrl": "Свети великомученик Артемије",
+        "sr-Latn": "Sveti velikomučenik Artemije"
+      },
+      "article_title": "Свети великомученик Артемије",
+      "article_type": "saint",
+      "identity_basis": "Exact approved article title/type and its original church source records; exact approved day-to-article join.",
+      "identity_note": "Канонско име из постојећег одобреног текста.",
+      "operations": {
+        "subject": "add",
+        "observance": "add",
+        "occurrence": "add",
+        "article_link": "add"
+      },
+      "occurrence_id": "occ-obs-artemius-antioch-2026",
+      "existing_aliases": [],
+      "proposed_aliases": [],
+      "calendar_sources": [
+        {
+          "id": "eparhija-month-11",
+          "title": "Епархија аустријска СПЦ — календар",
+          "url": "https://www.eparhija.at/kalendar?m=2026-11",
+          "publisher": "Епархија аустријска СПЦ",
+          "original_author": null,
+          "checked_on": "2026-09-15",
+          "review_status": "reviewed",
+          "rights_status": "pending"
+        }
+      ],
+      "article_sources": [
+        {
+          "id": "next-oca-artemius",
+          "kind": "article",
+          "title": "Greatmartyr Artemius at Antioch",
+          "url": "https://www.oca.org/saints/lives/2014/10/20/103005-greatmartyr-artemius-at-antioch",
+          "publisher": "Orthodox Church in America",
+          "original_author": null,
+          "published_on": null,
+          "reviewed_on": "2026-09-30"
+        }
+      ],
+      "source_status": "REUSED_PRIOR_REVIEW_NO_NEW_WEB_CHECK",
+      "candidate_status": "INVENTORIED_AWAITING_PACKAGE_A_REVIEW",
+      "unresolved_identity_or_date": []
+    },
+    {
+      "date": "2026-11-03",
+      "article_id": "hilarion-great",
+      "subject_id": "saint-hilarion-great",
+      "observance_id": "obs-hilarion-great",
+      "package": "B",
+      "julian_date": "2026-10-21",
+      "calendar_title": {
+        "sr-Cyrl": "Преподобни Иларион",
+        "sr-Latn": "Prepodobni Ilarion"
+      },
+      "article_title": "Преподобни Иларион Велики",
+      "article_type": "saint",
+      "identity_basis": "Exact approved article title/type and its original church source records; exact approved day-to-article join.",
+      "identity_note": "Канонско име из постојећег одобреног текста.",
+      "operations": {
+        "subject": "add",
+        "observance": "add",
+        "occurrence": "add",
+        "article_link": "add"
+      },
+      "occurrence_id": "occ-obs-hilarion-great-2026",
+      "existing_aliases": [],
+      "proposed_aliases": [],
+      "calendar_sources": [
+        {
+          "id": "eparhija-month-11",
+          "title": "Епархија аустријска СПЦ — календар",
+          "url": "https://www.eparhija.at/kalendar?m=2026-11",
+          "publisher": "Епархија аустријска СПЦ",
+          "original_author": null,
+          "checked_on": "2026-09-15",
+          "review_status": "reviewed",
+          "rights_status": "pending"
+        }
+      ],
+      "article_sources": [
+        {
+          "id": "next-oca-hilarion",
+          "kind": "article",
+          "title": "Venerable Hilarion the Great",
+          "url": "https://www.oca.org/saints/lives/2026/10/21/103009-venerable-hilarion-the-great",
+          "publisher": "Orthodox Church in America",
+          "original_author": null,
+          "published_on": null,
+          "reviewed_on": "2026-09-30"
+        }
+      ],
+      "source_status": "REUSED_PRIOR_REVIEW_NO_NEW_WEB_CHECK",
+      "candidate_status": "INVENTORIED_AWAITING_PACKAGE_A_REVIEW",
+      "unresolved_identity_or_date": []
+    },
+    {
+      "date": "2026-11-04",
+      "article_id": "averky-hierapolis",
+      "subject_id": "saint-averky-hierapolis",
+      "observance_id": "obs-averky-hierapolis",
+      "package": "B",
+      "julian_date": "2026-10-22",
+      "calendar_title": {
+        "sr-Cyrl": "Свети равноапостолни Аверкије Јерапољски",
+        "sr-Latn": "Sveti ravnoapostolni Averkije Jerapoljski"
+      },
+      "article_title": "Свети равноапостолни Аверкије Јерапољски",
+      "article_type": "saint",
+      "identity_basis": "Exact approved article title/type and its original church source records; exact approved day-to-article join.",
+      "identity_note": "Канонско име из постојећег одобреног текста.",
+      "operations": {
+        "subject": "add",
+        "observance": "add",
+        "occurrence": "add",
+        "article_link": "add"
+      },
+      "occurrence_id": "occ-obs-averky-hierapolis-2026",
+      "existing_aliases": [],
+      "proposed_aliases": [],
+      "calendar_sources": [
+        {
+          "id": "eparhija-month-11",
+          "title": "Епархија аустријска СПЦ — календар",
+          "url": "https://www.eparhija.at/kalendar?m=2026-11",
+          "publisher": "Епархија аустријска СПЦ",
+          "original_author": null,
+          "checked_on": "2026-09-15",
+          "review_status": "reviewed",
+          "rights_status": "pending"
+        }
+      ],
+      "article_sources": [
+        {
+          "id": "next-oca-averky",
+          "kind": "article",
+          "title": "Saint Averkios the Wonderworker, Bishop of Hieropolis, Equal of the Apostles",
+          "url": "https://www.oca.org/saints/lives/2026/10/22/103022-saint-averkios-the-wonderworker-bishop-of-hieropolis-equal-of-th",
+          "publisher": "Orthodox Church in America",
+          "original_author": null,
+          "published_on": null,
+          "reviewed_on": "2026-09-30"
+        }
+      ],
+      "source_status": "REUSED_PRIOR_REVIEW_NO_NEW_WEB_CHECK",
+      "candidate_status": "INVENTORIED_AWAITING_PACKAGE_A_REVIEW",
+      "unresolved_identity_or_date": []
+    },
+    {
+      "date": "2026-11-05",
+      "article_id": "james-brother-lord",
+      "subject_id": "saint-james-brother-lord",
+      "observance_id": "obs-james-brother-lord",
+      "package": "B",
+      "julian_date": "2026-10-23",
+      "calendar_title": {
+        "sr-Cyrl": "Свети апостол Јаков, први Епископ Јерусалимски",
+        "sr-Latn": "Sveti apostol Jakov, prvi Episkop Jerusalimski"
+      },
+      "article_title": "Свети апостол Јаков, први епископ Јерусалимски",
+      "article_type": "saint",
+      "identity_basis": "Exact approved article title/type and its original church source records; exact approved day-to-article join.",
+      "identity_note": "Јаков, брат Господњи, остаје различит од Јакова Алфејевог из пакета A.",
+      "operations": {
+        "subject": "add",
+        "observance": "add",
+        "occurrence": "add",
+        "article_link": "add"
+      },
+      "occurrence_id": "occ-obs-james-brother-lord-2026",
+      "existing_aliases": [],
+      "proposed_aliases": [],
+      "calendar_sources": [
+        {
+          "id": "eparhija-month-11",
+          "title": "Епархија аустријска СПЦ — календар",
+          "url": "https://www.eparhija.at/kalendar?m=2026-11",
+          "publisher": "Епархија аустријска СПЦ",
+          "original_author": null,
+          "checked_on": "2026-09-15",
+          "review_status": "reviewed",
+          "rights_status": "pending"
+        }
+      ],
+      "article_sources": [
+        {
+          "id": "next-oca-james-jerusalem",
+          "kind": "article",
+          "title": "Apostle James, the Brother of the Lord",
+          "url": "https://www.oca.org/saints/lives/2026/10/23/103039-apostle-james-the-brother-of-the-lord",
+          "publisher": "Orthodox Church in America",
+          "original_author": null,
+          "published_on": null,
+          "reviewed_on": "2026-09-30"
+        }
+      ],
+      "source_status": "REUSED_PRIOR_REVIEW_NO_NEW_WEB_CHECK",
+      "candidate_status": "INVENTORIED_AWAITING_PACKAGE_A_REVIEW",
+      "unresolved_identity_or_date": []
+    },
+    {
+      "date": "2026-11-06",
+      "article_id": "arethas-companions-najran",
+      "subject_id": "group-arethas-companions-najran",
+      "observance_id": "obs-arethas-companions-najran",
+      "package": "B",
+      "julian_date": "2026-10-24",
+      "calendar_title": {
+        "sr-Cyrl": "Свети великомученик Арета и остали",
+        "sr-Latn": "Sveti velikomučenik Areta i ostali"
+      },
+      "article_title": "Свети мученик Арета и сапострадалници",
+      "article_type": "group",
+      "identity_basis": "Exact approved article title/type and its original church source records; exact approved day-to-article join.",
+      "identity_note": "Један групни идентитет; без аутоматског издвајања појединаца.",
+      "operations": {
+        "subject": "add",
+        "observance": "add",
+        "occurrence": "add",
+        "article_link": "add"
+      },
+      "occurrence_id": "occ-obs-arethas-companions-najran-2026",
+      "existing_aliases": [],
+      "proposed_aliases": [],
+      "calendar_sources": [
+        {
+          "id": "eparhija-month-11",
+          "title": "Епархија аустријска СПЦ — календар",
+          "url": "https://www.eparhija.at/kalendar?m=2026-11",
+          "publisher": "Епархија аустријска СПЦ",
+          "original_author": null,
+          "checked_on": "2026-09-15",
+          "review_status": "reviewed",
+          "rights_status": "pending"
+        }
+      ],
+      "article_sources": [
+        {
+          "id": "next-oca-arethas",
+          "kind": "article",
+          "title": "Martyr Arethas and 4,299 Martyrs with him",
+          "url": "https://www.oca.org/saints/lives/2026/10/24/103043-martyr-arethas-and-4299-martyrs-with-him",
+          "publisher": "Orthodox Church in America",
+          "original_author": null,
+          "published_on": null,
+          "reviewed_on": "2026-09-30"
+        }
+      ],
+      "source_status": "REUSED_PRIOR_REVIEW_NO_NEW_WEB_CHECK",
+      "candidate_status": "INVENTORIED_AWAITING_PACKAGE_A_REVIEW",
+      "unresolved_identity_or_date": []
+    },
+    {
+      "date": "2026-11-07",
+      "article_id": "marcian-martyrius",
+      "subject_id": "group-marcian-martyrius",
+      "observance_id": "obs-marcian-martyrius",
+      "package": "B",
+      "julian_date": "2026-10-25",
+      "calendar_title": {
+        "sr-Cyrl": "Свети мученици Маркијан и Мартирије",
+        "sr-Latn": "Sveti mučenici Markijan i Martirije"
+      },
+      "article_title": "Свети мученици Маркијан и Мартирије",
+      "article_type": "group",
+      "identity_basis": "Exact approved article title/type and its original church source records; exact approved day-to-article join.",
+      "identity_note": "Један групни идентитет; без аутоматског издвајања појединаца.",
+      "operations": {
+        "subject": "add",
+        "observance": "add",
+        "occurrence": "add",
+        "article_link": "add"
+      },
+      "occurrence_id": "occ-obs-marcian-martyrius-2026",
+      "existing_aliases": [],
+      "proposed_aliases": [],
+      "calendar_sources": [
+        {
+          "id": "eparhija-month-11",
+          "title": "Епархија аустријска СПЦ — календар",
+          "url": "https://www.eparhija.at/kalendar?m=2026-11",
+          "publisher": "Епархија аустријска СПЦ",
+          "original_author": null,
+          "checked_on": "2026-09-15",
+          "review_status": "reviewed",
+          "rights_status": "pending"
+        }
+      ],
+      "article_sources": [
+        {
+          "id": "next-oca-marcian-martyrius",
+          "kind": "article",
+          "title": "Martyrs Marcian and Martyrius, the Notaries of Constantinople",
+          "url": "https://www.oca.org/saints/lives/2026/10/25/103053-martyrs-marcian-and-martyrius-the-notaries-of-constantinople",
+          "publisher": "Orthodox Church in America",
+          "original_author": null,
+          "published_on": null,
+          "reviewed_on": "2026-09-30"
+        }
+      ],
+      "source_status": "REUSED_PRIOR_REVIEW_NO_NEW_WEB_CHECK",
+      "candidate_status": "INVENTORIED_AWAITING_PACKAGE_A_REVIEW",
+      "unresolved_identity_or_date": []
+    },
+    {
+      "date": "2026-11-08",
+      "article_id": "demetrius-thessalonica",
+      "subject_id": "saint-demetrius",
+      "observance_id": "obs-demetrius",
+      "package": "B",
+      "julian_date": "2026-10-26",
+      "calendar_title": {
+        "sr-Cyrl": "Свети великомученик Димитрије – Митровдан",
+        "sr-Latn": "Sveti velikomučenik Dimitrije – Mitrovdan"
+      },
+      "article_title": "Свети великомученик Димитрије — Митровдан",
+      "article_type": "saint",
+      "identity_basis": "Exact approved article title/type and its original church source records; exact approved day-to-article join.",
+      "identity_note": "Постојећи субјект, спомен, појава и чланак већ су повезани; без дупликата.",
+      "operations": {
+        "subject": "reuse",
+        "observance": "reuse",
+        "occurrence": "reuse",
+        "article_link": "reuse"
+      },
+      "occurrence_id": "occ-obs-demetrius-2026",
+      "existing_aliases": [
+        {
+          "text": "Свети Димитрије",
+          "locale": "sr-Cyrl",
+          "kind": "name_variant",
+          "source_ids": [
+            "eparhija-month-11"
+          ]
+        },
+        {
+          "text": "Sveti Dimitrije",
+          "locale": "sr-Latn",
+          "kind": "name_variant",
+          "source_ids": [
+            "eparhija-month-11"
+          ]
+        },
+        {
+          "text": "Митровдан",
+          "locale": "sr-Cyrl",
+          "kind": "popular",
+          "source_ids": [
+            "eparhija-month-11"
+          ]
+        },
+        {
+          "text": "Mitrovdan",
+          "locale": "sr-Latn",
+          "kind": "popular",
+          "source_ids": [
+            "eparhija-month-11"
+          ]
+        }
+      ],
+      "proposed_aliases": [],
+      "calendar_sources": [
+        {
+          "id": "eparhija-month-11",
+          "title": "Епархија аустријска СПЦ — календар",
+          "url": "https://www.eparhija.at/kalendar?m=2026-11",
+          "publisher": "Епархија аустријска СПЦ",
+          "original_author": null,
+          "checked_on": "2026-09-15",
+          "review_status": "reviewed",
+          "rights_status": "pending"
+        }
+      ],
+      "article_sources": [
+        {
+          "id": "next-oca-demetrius",
+          "kind": "article",
+          "title": "Holy, Glorious Demetrios the Myrrh-gusher of Thessaloniki",
+          "url": "https://www.oca.org/saints/lives/2026/10/26/103059-holy-glorious-demetrios-the-myrrh-gusher-of-thessaloniki",
+          "publisher": "Orthodox Church in America",
+          "original_author": null,
+          "published_on": null,
+          "reviewed_on": "2026-09-30"
+        }
+      ],
+      "source_status": "REUSED_PRIOR_REVIEW_NO_NEW_WEB_CHECK",
+      "candidate_status": "INVENTORIED_AWAITING_PACKAGE_A_REVIEW",
+      "unresolved_identity_or_date": []
+    },
+    {
+      "date": "2026-11-09",
+      "article_id": "nestor-thessalonica",
+      "subject_id": "saint-nestor-thessalonica",
+      "observance_id": "obs-nestor-thessalonica",
+      "package": "B",
+      "julian_date": "2026-10-27",
+      "calendar_title": {
+        "sr-Cyrl": "Свети мученик Нестор",
+        "sr-Latn": "Sveti mučenik Nestor"
+      },
+      "article_title": "Свети мученик Нестор Солунски",
+      "article_type": "saint",
+      "identity_basis": "Exact approved article title/type and its original church source records; exact approved day-to-article join.",
+      "identity_note": "Канонско име из постојећег одобреног текста.",
+      "operations": {
+        "subject": "add",
+        "observance": "add",
+        "occurrence": "add",
+        "article_link": "add"
+      },
+      "occurrence_id": "occ-obs-nestor-thessalonica-2026",
+      "existing_aliases": [],
+      "proposed_aliases": [],
+      "calendar_sources": [
+        {
+          "id": "eparhija-month-11",
+          "title": "Епархија аустријска СПЦ — календар",
+          "url": "https://www.eparhija.at/kalendar?m=2026-11",
+          "publisher": "Епархија аустријска СПЦ",
+          "original_author": null,
+          "checked_on": "2026-09-15",
+          "review_status": "reviewed",
+          "rights_status": "pending"
+        }
+      ],
+      "article_sources": [
+        {
+          "id": "next-oca-nestor",
+          "kind": "article",
+          "title": "Martyr Nestor of Thessalonica",
+          "url": "https://www.oca.org/saints/lives/2026/10/27/103066-martyr-nestor-of-thessalonica",
+          "publisher": "Orthodox Church in America",
+          "original_author": null,
+          "published_on": null,
+          "reviewed_on": "2026-09-30"
+        }
+      ],
+      "source_status": "REUSED_PRIOR_REVIEW_NO_NEW_WEB_CHECK",
+      "candidate_status": "INVENTORIED_AWAITING_PACKAGE_A_REVIEW",
+      "unresolved_identity_or_date": []
+    },
+    {
+      "date": "2026-11-10",
+      "article_id": "terence-neonila-family",
+      "subject_id": "group-terence-neonila-family",
+      "observance_id": "obs-terence-neonila-family",
+      "package": "B",
+      "julian_date": "2026-10-28",
+      "calendar_title": {
+        "sr-Cyrl": "Свети мученик Терентије",
+        "sr-Latn": "Sveti mučenik Terentije"
+      },
+      "article_title": "Свети мученици Терентије, Неонила и њихова деца",
+      "article_type": "group",
+      "identity_basis": "Exact approved article title/type and its original church source records; exact approved day-to-article join.",
+      "identity_note": "Чланак је о породици као групи; непотпун календарски назив не раздваја групу.",
+      "operations": {
+        "subject": "add",
+        "observance": "add",
+        "occurrence": "add",
+        "article_link": "add"
+      },
+      "occurrence_id": "occ-obs-terence-neonila-family-2026",
+      "existing_aliases": [],
+      "proposed_aliases": [],
+      "calendar_sources": [
+        {
+          "id": "eparhija-month-11",
+          "title": "Епархија аустријска СПЦ — календар",
+          "url": "https://www.eparhija.at/kalendar?m=2026-11",
+          "publisher": "Епархија аустријска СПЦ",
+          "original_author": null,
+          "checked_on": "2026-09-15",
+          "review_status": "reviewed",
+          "rights_status": "pending"
+        }
+      ],
+      "article_sources": [
+        {
+          "id": "next-oca-terence",
+          "kind": "article",
+          "title": "Martyrs Terence and Neonila, and their children",
+          "url": "https://www.oca.org/saints/lives/2026/10/28/103091-martyrs-terence-and-neonila-and-their-children",
+          "publisher": "Orthodox Church in America",
+          "original_author": null,
+          "published_on": null,
+          "reviewed_on": "2026-09-30"
+        }
+      ],
+      "source_status": "REUSED_PRIOR_REVIEW_NO_NEW_WEB_CHECK",
+      "candidate_status": "INVENTORIED_AWAITING_PACKAGE_A_REVIEW",
+      "unresolved_identity_or_date": []
+    },
+    {
+      "date": "2026-11-11",
+      "article_id": "abramius-recluse",
+      "subject_id": "saint-abramius-recluse",
+      "observance_id": "obs-abramius-recluse",
+      "package": "B",
+      "julian_date": "2026-10-29",
+      "calendar_title": {
+        "sr-Cyrl": "Преп. Аврамије Затворник",
+        "sr-Latn": "Prep. Avramije Zatvornik"
+      },
+      "article_title": "Преподобни Аврамије Затворник",
+      "article_type": "saint",
+      "identity_basis": "Exact approved article title/type and its original church source records; exact approved day-to-article join.",
+      "identity_note": "Канонско име из постојећег одобреног текста.",
+      "operations": {
+        "subject": "add",
+        "observance": "add",
+        "occurrence": "add",
+        "article_link": "add"
+      },
+      "occurrence_id": "occ-obs-abramius-recluse-2026",
+      "existing_aliases": [],
+      "proposed_aliases": [],
+      "calendar_sources": [
+        {
+          "id": "eparhija-month-11",
+          "title": "Епархија аустријска СПЦ — календар",
+          "url": "https://www.eparhija.at/kalendar?m=2026-11",
+          "publisher": "Епархија аустријска СПЦ",
+          "original_author": null,
+          "checked_on": "2026-09-15",
+          "review_status": "reviewed",
+          "rights_status": "pending"
+        }
+      ],
+      "article_sources": [
+        {
+          "id": "next-oca-abramius",
+          "kind": "article",
+          "title": "Venerable Abramius the Recluse, and his niece, Blessed Mary, of Mesopotamia",
+          "url": "https://www.oca.org/saints/lives/2026/10/29/103100-venerable-abramius-the-recluse-and-his-niece-blessed-mary-of-mes",
+          "publisher": "Orthodox Church in America",
+          "original_author": null,
+          "published_on": null,
+          "reviewed_on": "2026-09-30"
+        }
+      ],
+      "source_status": "REUSED_PRIOR_REVIEW_NO_NEW_WEB_CHECK",
+      "candidate_status": "INVENTORIED_AWAITING_PACKAGE_A_REVIEW",
+      "unresolved_identity_or_date": []
+    },
+    {
+      "date": "2026-11-12",
+      "article_id": "zenobius-zenobia",
+      "subject_id": "group-zenobius-zenobia",
+      "observance_id": "obs-zenobius-zenobia",
+      "package": "B",
+      "julian_date": "2026-10-30",
+      "calendar_title": {
+        "sr-Cyrl": "Св. муч. Зиновије и Зиновија",
+        "sr-Latn": "Sv. muč. Zinovije i Zinovija"
+      },
+      "article_title": "Свети мученици Зиновије и Зиновија",
+      "article_type": "group",
+      "identity_basis": "Exact approved article title/type and its original church source records; exact approved day-to-article join.",
+      "identity_note": "Један групни идентитет; без аутоматског издвајања појединаца.",
+      "operations": {
+        "subject": "add",
+        "observance": "add",
+        "occurrence": "add",
+        "article_link": "add"
+      },
+      "occurrence_id": "occ-obs-zenobius-zenobia-2026",
+      "existing_aliases": [],
+      "proposed_aliases": [],
+      "calendar_sources": [
+        {
+          "id": "eparhija-month-11",
+          "title": "Епархија аустријска СПЦ — календар",
+          "url": "https://www.eparhija.at/kalendar?m=2026-11",
+          "publisher": "Епархија аустријска СПЦ",
+          "original_author": null,
+          "checked_on": "2026-09-15",
+          "review_status": "reviewed",
+          "rights_status": "pending"
+        }
+      ],
+      "article_sources": [
+        {
+          "id": "next-oca-zenobius",
+          "kind": "article",
+          "title": "Lives of all saints commemorated on October 30 — Hieromartyr Zenobios and his sister Zenobia",
+          "url": "https://www.oca.org/saints/all-lives/1983/10/30",
+          "publisher": "Orthodox Church in America",
+          "original_author": null,
+          "published_on": null,
+          "reviewed_on": "2026-09-30"
+        }
+      ],
+      "source_status": "REUSED_PRIOR_REVIEW_NO_NEW_WEB_CHECK",
+      "candidate_status": "INVENTORIED_AWAITING_PACKAGE_A_REVIEW",
+      "unresolved_identity_or_date": []
+    },
+    {
+      "date": "2026-11-13",
+      "article_id": "stachys-amplias-urban-companions",
+      "subject_id": "group-stachys-amplias-urban-companions",
+      "observance_id": "obs-stachys-amplias-urban-companions",
+      "package": "B",
+      "julian_date": "2026-10-31",
+      "calendar_title": {
+        "sr-Cyrl": "Свети апостоли Стахије, Амплије, Урван и други с њима",
+        "sr-Latn": "Sveti apostoli Stahije, Amplije, Urvan i drugi s njima"
+      },
+      "article_title": "Свети апостоли Стахије, Амплије, Урван и други с њима",
+      "article_type": "group",
+      "identity_basis": "Exact approved article title/type and its original church source records; exact approved day-to-article join.",
+      "identity_note": "Један групни идентитет; без аутоматског издвајања појединаца.",
+      "operations": {
+        "subject": "add",
+        "observance": "add",
+        "occurrence": "add",
+        "article_link": "add"
+      },
+      "occurrence_id": "occ-obs-stachys-amplias-urban-companions-2026",
+      "existing_aliases": [],
+      "proposed_aliases": [],
+      "calendar_sources": [
+        {
+          "id": "eparhija-month-11",
+          "title": "Епархија аустријска СПЦ — календар",
+          "url": "https://www.eparhija.at/kalendar?m=2026-11",
+          "publisher": "Епархија аустријска СПЦ",
+          "original_author": null,
+          "checked_on": "2026-09-15",
+          "review_status": "reviewed",
+          "rights_status": "pending"
+        }
+      ],
+      "article_sources": [
+        {
+          "id": "next-oca-stachys",
+          "kind": "article",
+          "title": "Holy Apostles Stakhys, Apelles, Amplias, Urban, and Narcissus of the 70",
+          "url": "https://www.oca.org/saints/lives/2026/10/31/103132-holy-apostles-stakhys-apelles-amplias-urban-and-narcissus-of-the",
+          "publisher": "Orthodox Church in America",
+          "original_author": null,
+          "published_on": null,
+          "reviewed_on": "2026-09-30"
+        }
+      ],
+      "source_status": "REUSED_PRIOR_REVIEW_NO_NEW_WEB_CHECK",
+      "candidate_status": "INVENTORIED_AWAITING_PACKAGE_A_REVIEW",
+      "unresolved_identity_or_date": []
+    },
+    {
+      "date": "2026-11-14",
+      "article_id": "cosmas-damian-asia",
+      "subject_id": "group-cosmas-damian-asia",
+      "observance_id": "obs-cosmas-damian-asia",
+      "package": "B",
+      "julian_date": "2026-11-01",
+      "calendar_title": {
+        "sr-Cyrl": "Свети Козма и Дамјан – Врачи",
+        "sr-Latn": "Sveti Kozma i Damjan – Vrači"
+      },
+      "article_title": "Свети Козма и Дамјан — Врачи",
+      "article_type": "group",
+      "identity_basis": "Exact approved article title/type and its original church source records; exact approved day-to-article join.",
+      "identity_note": "Група из одобреног чланка; не спаја се са другим истоименим паровима.",
+      "operations": {
+        "subject": "add",
+        "observance": "add",
+        "occurrence": "add",
+        "article_link": "add"
+      },
+      "occurrence_id": "occ-obs-cosmas-damian-asia-2026",
+      "existing_aliases": [],
+      "proposed_aliases": [
+        {
+          "text": "Врачи",
+          "locale": "sr-Cyrl",
+          "kind": "popular",
+          "source_ids": [
+            "eparhija-month-11"
+          ]
+        },
+        {
+          "text": "Vrači",
+          "locale": "sr-Latn",
+          "kind": "popular",
+          "source_ids": [
+            "eparhija-month-11"
+          ]
+        }
+      ],
+      "calendar_sources": [
+        {
+          "id": "eparhija-month-11",
+          "title": "Епархија аустријска СПЦ — календар",
+          "url": "https://www.eparhija.at/kalendar?m=2026-11",
+          "publisher": "Епархија аустријска СПЦ",
+          "original_author": null,
+          "checked_on": "2026-09-15",
+          "review_status": "reviewed",
+          "rights_status": "pending"
+        }
+      ],
+      "article_sources": [
+        {
+          "id": "next-oca-cosmas-damian",
+          "kind": "article",
+          "title": "Holy Wonderworkers and Unmercenaries Cosmas and Damian of Mesopotamia",
+          "url": "https://www.oca.org/saints/lives/2026/11/01/103133-holy-wonderworkers-and-unmercenaries-cosmas-and-damian-of-mesopo",
+          "publisher": "Orthodox Church in America",
+          "original_author": null,
+          "published_on": null,
+          "reviewed_on": "2026-09-30"
+        }
+      ],
+      "source_status": "REUSED_PRIOR_REVIEW_NO_NEW_WEB_CHECK",
+      "candidate_status": "INVENTORIED_AWAITING_PACKAGE_A_REVIEW",
+      "unresolved_identity_or_date": []
+    },
+    {
+      "date": "2026-11-15",
+      "article_id": "acindynus-pegasius-companions",
+      "subject_id": "group-acindynus-pegasius-companions",
+      "observance_id": "obs-acindynus-pegasius-companions",
+      "package": "B",
+      "julian_date": "2026-11-02",
+      "calendar_title": {
+        "sr-Cyrl": "Свети мученици Акиндин, Пигасије и други с њима",
+        "sr-Latn": "Sveti mučenici Akindin, Pigasije i drugi s njima"
+      },
+      "article_title": "Свети мученици Акиндин, Пигасије и сапострадалници",
+      "article_type": "group",
+      "identity_basis": "Exact approved article title/type and its original church source records; exact approved day-to-article join.",
+      "identity_note": "Један групни идентитет; без аутоматског издвајања појединаца.",
+      "operations": {
+        "subject": "add",
+        "observance": "add",
+        "occurrence": "add",
+        "article_link": "add"
+      },
+      "occurrence_id": "occ-obs-acindynus-pegasius-companions-2026",
+      "existing_aliases": [],
+      "proposed_aliases": [],
+      "calendar_sources": [
+        {
+          "id": "eparhija-month-11",
+          "title": "Епархија аустријска СПЦ — календар",
+          "url": "https://www.eparhija.at/kalendar?m=2026-11",
+          "publisher": "Епархија аустријска СПЦ",
+          "original_author": null,
+          "checked_on": "2026-09-15",
+          "review_status": "reviewed",
+          "rights_status": "pending"
+        }
+      ],
+      "article_sources": [
+        {
+          "id": "next-oca-acindynus",
+          "kind": "article",
+          "title": "Martyrs Acindynus, Pegasius, Aphthonius, Elpidephorus, Anempodistus, and 7,000 with them, of Persia",
+          "url": "https://www.oca.org/saints/lives/2026/11/02/103151-martyrs-acindynus-pegasius-aphthonius-elpidephorus-anempodistus",
+          "publisher": "Orthodox Church in America",
+          "original_author": null,
+          "published_on": null,
+          "reviewed_on": "2026-09-30"
+        }
+      ],
+      "source_status": "REUSED_PRIOR_REVIEW_NO_NEW_WEB_CHECK",
+      "candidate_status": "INVENTORIED_AWAITING_PACKAGE_A_REVIEW",
+      "unresolved_identity_or_date": []
+    },
+    {
+      "date": "2026-11-16",
+      "article_id": "george-lydda-dedication",
+      "subject_id": "saint-george",
+      "observance_id": "obs-george-lydda-dedication",
+      "package": "B",
+      "julian_date": "2026-11-03",
+      "calendar_title": {
+        "sr-Cyrl": "Обновљење храма Светог великомученика Георгија – Ђурђиц",
+        "sr-Latn": "Obnovljenje hrama Svetog velikomučenika Georgija – Đurđic"
+      },
+      "article_title": "Обновљење храма Светог Георгија — Ђурђиц",
+      "article_type": "feast",
+      "identity_basis": "Exact approved article title/type and its original church source records; exact approved day-to-article join.",
+      "identity_note": "Постојећи Георгије, нов засебан спомен обновљења храма; не замењује Ђурђевдан.",
+      "operations": {
+        "subject": "reuse",
+        "observance": "add",
+        "occurrence": "add",
+        "article_link": "add"
+      },
+      "occurrence_id": "occ-obs-george-lydda-dedication-2026",
+      "existing_aliases": [
+        {
+          "text": "Свети Георгије",
+          "locale": "sr-Cyrl",
+          "kind": "name_variant",
+          "source_ids": [
+            "eparhija-month-05"
+          ]
+        },
+        {
+          "text": "Sveti Georgije",
+          "locale": "sr-Latn",
+          "kind": "name_variant",
+          "source_ids": [
+            "eparhija-month-05"
+          ]
+        }
+      ],
+      "proposed_aliases": [
+        {
+          "text": "Ђурђиц",
+          "locale": "sr-Cyrl",
+          "kind": "popular",
+          "source_ids": [
+            "eparhija-month-11"
+          ]
+        },
+        {
+          "text": "Đurđic",
+          "locale": "sr-Latn",
+          "kind": "popular",
+          "source_ids": [
+            "eparhija-month-11"
+          ]
+        }
+      ],
+      "calendar_sources": [
+        {
+          "id": "eparhija-month-11",
+          "title": "Епархија аустријска СПЦ — календар",
+          "url": "https://www.eparhija.at/kalendar?m=2026-11",
+          "publisher": "Епархија аустријска СПЦ",
+          "original_author": null,
+          "checked_on": "2026-09-15",
+          "review_status": "reviewed",
+          "rights_status": "pending"
+        }
+      ],
+      "article_sources": [
+        {
+          "id": "next-mcp-george-lydda",
+          "kind": "article",
+          "title": "Обновљење храма Светог великомученика Георгија – Ђурђиц",
+          "url": "https://mitropolija.com/2019/11/16/obnovljenje-hrama-svetog-velikomucenika-georgija-djurdjic/",
+          "publisher": "Митрополија црногорско-приморска",
+          "original_author": null,
+          "published_on": "2019-11-16",
+          "reviewed_on": "2026-09-30"
+        },
+        {
+          "id": "next-oca-george-lydda",
+          "kind": "article",
+          "title": "Consecration of the Church of the Holy Great Martyr George in Lydda",
+          "url": "https://www.oca.org/saints/lives/2026/11/03/103161-consecration-of-the-church-of-the-holy-great-martyr-george-in-ly",
+          "publisher": "Orthodox Church in America",
+          "original_author": null,
+          "published_on": null,
+          "reviewed_on": "2026-09-30"
+        }
+      ],
+      "source_status": "REUSED_PRIOR_REVIEW_NO_NEW_WEB_CHECK",
+      "candidate_status": "INVENTORIED_AWAITING_PACKAGE_A_REVIEW",
+      "unresolved_identity_or_date": []
+    },
+    {
+      "date": "2026-11-17",
+      "article_id": "joannicius-great",
+      "subject_id": "saint-joannicius-great",
+      "observance_id": "obs-joannicius-great",
+      "package": "B",
+      "julian_date": "2026-11-04",
+      "calendar_title": {
+        "sr-Cyrl": "Преподобни Јоаникије Велики",
+        "sr-Latn": "Prepodobni Joanikije Veliki"
+      },
+      "article_title": "Преподобни Јоаникије Велики",
+      "article_type": "saint",
+      "identity_basis": "Exact approved article title/type and its original church source records; exact approved day-to-article join.",
+      "identity_note": "Канонско име из постојећег одобреног текста.",
+      "operations": {
+        "subject": "add",
+        "observance": "add",
+        "occurrence": "add",
+        "article_link": "add"
+      },
+      "occurrence_id": "occ-obs-joannicius-great-2026",
+      "existing_aliases": [],
+      "proposed_aliases": [],
+      "calendar_sources": [
+        {
+          "id": "eparhija-month-11",
+          "title": "Епархија аустријска СПЦ — календар",
+          "url": "https://www.eparhija.at/kalendar?m=2026-11",
+          "publisher": "Епархија аустријска СПЦ",
+          "original_author": null,
+          "checked_on": "2026-09-15",
+          "review_status": "reviewed",
+          "rights_status": "pending"
+        }
+      ],
+      "article_sources": [
+        {
+          "id": "next-oca-joannicius",
+          "kind": "article",
+          "title": "Venerable Joannicius the Great",
+          "url": "https://www.oca.org/saints/lives/2018/11/04/103171-venerable-joannicius-the-great",
+          "publisher": "Orthodox Church in America",
+          "original_author": null,
+          "published_on": null,
+          "reviewed_on": "2026-09-30"
+        }
+      ],
+      "source_status": "REUSED_PRIOR_REVIEW_NO_NEW_WEB_CHECK",
+      "candidate_status": "INVENTORIED_AWAITING_PACKAGE_A_REVIEW",
+      "unresolved_identity_or_date": []
+    },
+    {
+      "date": "2026-11-18",
+      "article_id": "galaction-epistima",
+      "subject_id": "group-galaction-epistima",
+      "observance_id": "obs-galaction-epistima",
+      "package": "B",
+      "julian_date": "2026-11-05",
+      "calendar_title": {
+        "sr-Cyrl": "Свети преподобномученици Галактион и Епистима",
+        "sr-Latn": "Sveti prepodobnomučenici Galaktion i Epistima"
+      },
+      "article_title": "Свети преподобномученици Галактион и Епистима",
+      "article_type": "group",
+      "identity_basis": "Exact approved article title/type and its original church source records; exact approved day-to-article join.",
+      "identity_note": "Један групни идентитет; без аутоматског издвајања појединаца.",
+      "operations": {
+        "subject": "add",
+        "observance": "add",
+        "occurrence": "add",
+        "article_link": "add"
+      },
+      "occurrence_id": "occ-obs-galaction-epistima-2026",
+      "existing_aliases": [],
+      "proposed_aliases": [],
+      "calendar_sources": [
+        {
+          "id": "eparhija-month-11",
+          "title": "Епархија аустријска СПЦ — календар",
+          "url": "https://www.eparhija.at/kalendar?m=2026-11",
+          "publisher": "Епархија аустријска СПЦ",
+          "original_author": null,
+          "checked_on": "2026-09-15",
+          "review_status": "reviewed",
+          "rights_status": "pending"
+        }
+      ],
+      "article_sources": [
+        {
+          "id": "next-oca-galaction",
+          "kind": "article",
+          "title": "Martyrs Galaction and his wife, Epistemis, at Emesa",
+          "url": "https://www.oca.org/saints/lives/2026/11/05/103176-martyrs-galaction-and-his-wife-epistemis-at-emesa",
+          "publisher": "Orthodox Church in America",
+          "original_author": null,
+          "published_on": null,
+          "reviewed_on": "2026-09-30"
+        }
+      ],
+      "source_status": "REUSED_PRIOR_REVIEW_NO_NEW_WEB_CHECK",
+      "candidate_status": "INVENTORIED_AWAITING_PACKAGE_A_REVIEW",
+      "unresolved_identity_or_date": []
+    },
+    {
+      "date": "2026-11-19",
+      "article_id": "paul-confessor-constantinople",
+      "subject_id": "saint-paul-confessor-constantinople",
+      "observance_id": "obs-paul-confessor-constantinople",
+      "package": "B",
+      "julian_date": "2026-11-06",
+      "calendar_title": {
+        "sr-Cyrl": "Свети Павле Исповедник",
+        "sr-Latn": "Sveti Pavle Ispovednik"
+      },
+      "article_title": "Свети Павле Исповедник",
+      "article_type": "saint",
+      "identity_basis": "Exact approved article title/type and its original church source records; exact approved day-to-article join.",
+      "identity_note": "Канонско име из постојећег одобреног текста.",
+      "operations": {
+        "subject": "add",
+        "observance": "add",
+        "occurrence": "add",
+        "article_link": "add"
+      },
+      "occurrence_id": "occ-obs-paul-confessor-constantinople-2026",
+      "existing_aliases": [],
+      "proposed_aliases": [],
+      "calendar_sources": [
+        {
+          "id": "eparhija-month-11",
+          "title": "Епархија аустријска СПЦ — календар",
+          "url": "https://www.eparhija.at/kalendar?m=2026-11",
+          "publisher": "Епархија аустријска СПЦ",
+          "original_author": null,
+          "checked_on": "2026-09-15",
+          "review_status": "reviewed",
+          "rights_status": "pending"
+        }
+      ],
+      "article_sources": [
+        {
+          "id": "next-oca-paul-confessor",
+          "kind": "article",
+          "title": "Saint Paul the Confessor, Archbishop of Constantinople",
+          "url": "https://www.oca.org/saints/lives/2026/11/06/103185-saint-paul-the-confessor-archbishop-of-constantinople",
+          "publisher": "Orthodox Church in America",
+          "original_author": null,
+          "published_on": null,
+          "reviewed_on": "2026-09-30"
+        }
+      ],
+      "source_status": "REUSED_PRIOR_REVIEW_NO_NEW_WEB_CHECK",
+      "candidate_status": "INVENTORIED_AWAITING_PACKAGE_A_REVIEW",
+      "unresolved_identity_or_date": []
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "status": "ROOT_AUTHORIZED_LOCAL_S14_R2_SIGNING",
+  "recorded_at_utc": "2026-10-06T21:09:55Z",
+  "user_instructions": [
+    "odobravam ispravke i objavljivanje",
+    "objavi sve"
+  ],
+  "release_set_id": "shared-calendar-gospel-2026-10-06-m0v2-s14",
+  "sequence": 14,
+  "index_sha256": "3dfef0768a2862e4709276114dec8f5817189bd4b833192b33aa6b0e889d4f1b",
+  "release_sha256": "86f105fbb95e4188565415b3184e3f160fa36b8cbd4a2dcc5b891df6ad0c6025",
+  "signing_request_sha256": "941bc0d6b96360f6a0dbb7efaf7da050c87c8b7dd670f8708d13e9dd038ba236",
+  "minimum_ios": "0.1.15",
+  "expected_public_head": "0cbc5e31100c3a66830f1fd6e3d0a08a489dcb8b",
+  "expected_public_index_sha256": "6250554d597daa19025cdcd3bc1d0c7c1763c3763ff4bc4fe1b85fb03f69441b",
+  "publication_authorized": false,
+  "root_shared_review": {
+    "handoff_sha256": "f71fd16fdaf019f86edcf63494cababf022718725421b380e30c576647044901",
+    "tests": 7,
+    "failures": 0,
+    "skips": 0,
+    "duration_ms": 3243.998416,
+    "log_sha256": "4f20dc175910cf73eb889fc467340aed893adf5837667aadee4951e9340aade9",
+    "all_handoff_artifact_sha_pins_verified": true,
+    "plan_and_protected_inputs_before_after_equal": true,
+    "independent_read_only_ack": "ui02_readonly_review final r2 ACK, transport-only delta and semantic confirmation binding"
+  },
+  "ios_preflight_receipt_sha256": "f3ae3f72d335e8c4d5413b85fcb025f1c8a3c9b9ac3fdb03a095756ed49e5b85",
+  "publication_prerequisites": [
+    "Exact production-signed S13→S14 native acceptance Android66 and iOS0.1.15, including restart/reader/rejected-candidate retention",
+    "Compatible signed iOS delivery",
+    "Fresh GitHub expected-HEAD CAS and immutable18-file allowlist",
+    "Ordinary public exact-byte and24signature-profile readback"
+  ],
+  "note": "Only local signing here; no new fact/content approval inferred. Four approved payloads unchanged from frozen r1."
+}

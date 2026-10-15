@@ -1,0 +1,34 @@
+{
+  "status": "LOCAL_READBACK_TOOL_READY_NOT_EXECUTED_ON_NETWORK",
+  "release_set_id": "shared-calendar-saints-2026-10-02-m0v2-s12",
+  "script": "scripts/verify-public-calendar-saints-window-v2.mjs",
+  "script_sha256": "ff27de6ca5529ee942fbb352e1641607186051d3211d9edb205a5e11d7e0be6c",
+  "command_after_publication_only": "node scripts/verify-public-calendar-saints-window-v2.mjs --signed build/calendar-saints-window-2026-10-02/signed-s12 --receipt approvals/calendar-saints-window-2026-10-02/public-readback-s12.json",
+  "network_execution_note": "The coordinator runs this after publication with authorized network access where sandbox DNS is restricted. No network request was made while preparing this tool.",
+  "reused": [
+    "CHANNEL and bounded redirect-rejecting fetchExactPublicFile from verify-public-shared-refresh-v2.mjs",
+    "No-follow captureRefreshTree",
+    "validateCalendarSaintsWindowSigned exact signed-plan reconstruction and 24 profile validation"
+  ],
+  "checks": [
+    "Validate local exact approved signed S12 graph before any fetch.",
+    "Fetch every file in the exact signed graph through the ordinary app URL; verify bounded length and SHA-256.",
+    "Validate the freshly received complete graph and all 24 production-signature profiles again.",
+    "Re-fetch both discovery files after graph validation and require exact unchanged bytes.",
+    "Write the successful receipt only with wx, without overwriting an existing receipt. Receipt does not claim native activation."
+  ],
+  "local_probe": {
+    "syntax_check": "PASS",
+    "injected_transport_negative": "PASS: mismatched public bytes rejected; no success receipt created",
+    "mock_fetch_calls": 1,
+    "network_calls": 0,
+    "production_key_access": false,
+    "public_readback_performed": false
+  },
+  "scope": {
+    "frozen_prepare_sign_tests_changed": false,
+    "historical_s11_evidence_changed": false,
+    "native_changed": false,
+    "publish_or_push_performed": false
+  }
+}

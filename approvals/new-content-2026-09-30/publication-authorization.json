@@ -1,0 +1,40 @@
+{
+  "authorization_id": "shared-completed-increments-publication-2026-09-30-r1",
+  "record_kind": "owner_publication_authorization_not_delivery_receipt",
+  "statement": "odobreno sve i objavi sve posle implementacije",
+  "context": "Owner approved continuation and publication after the implementation/specification status handoff. This is additive to the exact editorial approval, not a change to its immutable bytes.",
+  "editorial_approval_id": "shared-new-content-2026-09-30-owner-r1",
+  "editorial_approval_sha256": "549e767f5734030b8c36d7b05c1b7eefc02583a4b6b14f4313e8721594002290",
+  "authorized": {
+    "continue_approved_implementation": true,
+    "local_signing_of_reviewed_candidate": true,
+    "shared_content_publication_after_native_acceptance": true,
+    "android_signed_internal_release_on_existing_website": true,
+    "ios_install_over_existing_app_on_Nemus_when_available": true,
+    "incremental_delivery_under_approved_plan": true
+  },
+  "release_conditions": [
+    "Exact candidate preserves approved content, source uncertainty, rights and attribution.",
+    "No known blocking data-loss, wrong-content, signature or unsafe-network failures.",
+    "Required shared and native integration checks pass with evidence and limitations recorded.",
+    "Production changes use the current remote baseline and only reviewed public runtime paths.",
+    "One shared editorial approval applies to both platforms; platform tests remain separate.",
+    "Website exposes only the latest active Android artifact; existing audience is preserved.",
+    "Device installation requires the actual Nemus iPhone to be available; no silent substitution."
+  ],
+  "not_authorized_by_inference": [
+    "Resume the explicitly paused liturgical text work.",
+    "Publish synthetic or unverified 2027/calendar data or future unreviewed content.",
+    "Change rights claims, add unverified charity logos, or contact organizations.",
+    "Public Play Store/App Store distribution or broaden the test audience.",
+    "Automatically approve or publish future monitor findings.",
+    "Choose a new external private reporting destination or paid service without resolving that choice.",
+    "Delete unrelated user changes, reset repositories, or reinstall by removing existing app data."
+  ],
+  "delivery": {
+    "content_published": false,
+    "website_updated": false,
+    "iphone_installed": false,
+    "note": "Actual delivery is recorded by later signed manifests, deployment results and device readback, never by this authorization."
+  }
+}

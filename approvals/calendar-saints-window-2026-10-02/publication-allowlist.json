@@ -1,0 +1,91 @@
+{
+  "release_set_id": "shared-calendar-saints-2026-10-02-m0v2-s12",
+  "sequence": 12,
+  "status": "EXPECTED_PUBLIC_PATHS_ONLY_UNSIGNED_NO_PUBLICATION",
+  "paths": [
+    "discovery-archive/shared-content-refresh-2026-09-30-m0v2-s11/index.json",
+    "discovery-archive/shared-content-refresh-2026-09-30-m0v2-s11/index.sig",
+    "index.json",
+    "index.sig",
+    "releases/shared-calendar-saints-2026-10-02-m0v2-s12/modules/calendar-browser-v1-2026.10.2-r3/data/calendar-browser-v1.json",
+    "releases/shared-calendar-saints-2026-10-02-m0v2-s12/modules/calendar-browser-v1-2026.10.2-r3/manifest.json",
+    "releases/shared-calendar-saints-2026-10-02-m0v2-s12/modules/calendar-browser-v1-2026.10.2-r3/manifest.sig",
+    "releases/shared-calendar-saints-2026-10-02-m0v2-s12/modules/liturgical-catalog-v1-2026.10.1-r7/data/liturgical-catalog-v1.json",
+    "releases/shared-calendar-saints-2026-10-02-m0v2-s12/modules/liturgical-catalog-v1-2026.10.1-r7/manifest.json",
+    "releases/shared-calendar-saints-2026-10-02-m0v2-s12/modules/liturgical-catalog-v1-2026.10.1-r7/manifest.sig",
+    "releases/shared-calendar-saints-2026-10-02-m0v2-s12/release-set.json",
+    "releases/shared-calendar-saints-2026-10-02-m0v2-s12/release-set.sig"
+  ],
+  "unsigned_files": [
+    {
+      "path": "discovery-archive/shared-content-refresh-2026-09-30-m0v2-s11/index.json",
+      "bytes": 592,
+      "sha256": "36d39ce8882df55b66987afedcb8f080f31c2b8fd565a45561492aae5e2631ff"
+    },
+    {
+      "path": "discovery-archive/shared-content-refresh-2026-09-30-m0v2-s11/index.sig",
+      "bytes": 513,
+      "sha256": "b680c6e5b96812399acba10d5d6be2945b5dd962424b9c63008cb155e9760a5a"
+    },
+    {
+      "path": "index.json",
+      "bytes": 592,
+      "sha256": "a0d50c23036db203035419f4ba169ddb6005223799ed3ac4e89e03dd9f7733e9"
+    },
+    {
+      "path": "releases/shared-calendar-saints-2026-10-02-m0v2-s12/modules/calendar-browser-v1-2026.10.2-r3/data/calendar-browser-v1.json",
+      "bytes": 97947,
+      "sha256": "20d3d0ad3d9a352c87d05425e8673460c62c9a0cf4043988c48e4c0da3d61fae"
+    },
+    {
+      "path": "releases/shared-calendar-saints-2026-10-02-m0v2-s12/modules/calendar-browser-v1-2026.10.2-r3/manifest.json",
+      "bytes": 533,
+      "sha256": "6a61a1593a890f4a8c9ac6fbd54feb6ee0b349c92020dd5f56f4c6c25492a805"
+    },
+    {
+      "path": "releases/shared-calendar-saints-2026-10-02-m0v2-s12/modules/liturgical-catalog-v1-2026.10.1-r7/data/liturgical-catalog-v1.json",
+      "bytes": 66656,
+      "sha256": "d973f659da3a1e084739afe70a6a31daea390c32f5508ecdaa56a3fc3e7b4af3"
+    },
+    {
+      "path": "releases/shared-calendar-saints-2026-10-02-m0v2-s12/modules/liturgical-catalog-v1-2026.10.1-r7/manifest.json",
+      "bytes": 695,
+      "sha256": "1bb3d4b5ac6a5b4f4946ea7438cfe465f6121a7877dbb35976965ff28a13943e"
+    },
+    {
+      "path": "releases/shared-calendar-saints-2026-10-02-m0v2-s12/release-set.json",
+      "bytes": 3944,
+      "sha256": "78142e24f74812be9859b88163203de23517a9ed40a16c0f5ee085e25354255d"
+    }
+  ],
+  "signatures_pending": [
+    {
+      "path": "releases/shared-calendar-saints-2026-10-02-m0v2-s12/modules/liturgical-catalog-v1-2026.10.1-r7/manifest.sig",
+      "document_path": "releases/shared-calendar-saints-2026-10-02-m0v2-s12/modules/liturgical-catalog-v1-2026.10.1-r7/manifest.json",
+      "document_sha256": "1bb3d4b5ac6a5b4f4946ea7438cfe465f6121a7877dbb35976965ff28a13943e"
+    },
+    {
+      "path": "releases/shared-calendar-saints-2026-10-02-m0v2-s12/modules/calendar-browser-v1-2026.10.2-r3/manifest.sig",
+      "document_path": "releases/shared-calendar-saints-2026-10-02-m0v2-s12/modules/calendar-browser-v1-2026.10.2-r3/manifest.json",
+      "document_sha256": "6a61a1593a890f4a8c9ac6fbd54feb6ee0b349c92020dd5f56f4c6c25492a805"
+    },
+    {
+      "path": "releases/shared-calendar-saints-2026-10-02-m0v2-s12/release-set.sig",
+      "document_path": "releases/shared-calendar-saints-2026-10-02-m0v2-s12/release-set.json",
+      "document_sha256": "78142e24f74812be9859b88163203de23517a9ed40a16c0f5ee085e25354255d"
+    },
+    {
+      "path": "index.sig",
+      "document_path": "index.json",
+      "document_sha256": "a0d50c23036db203035419f4ba169ddb6005223799ed3ac4e89e03dd9f7733e9"
+    }
+  ],
+  "requires_atomic_index_and_signature_commit": true,
+  "exclude": [
+    "signing-request.json",
+    "approvals/**",
+    "drafts/**",
+    "source checkout metadata",
+    "trusted-public-key.pem"
+  ]
+}

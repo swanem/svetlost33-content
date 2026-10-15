@@ -1,0 +1,32 @@
+{
+  "status": "EXACT_PENDING_MASTER_READING_VIEWS_NOT_APPROVAL",
+  "inputs": [
+    {
+      "folder": "saints-year-end-block1-2026-10-06",
+      "handoff_sha256": "13e19c3406397d5bf30ab0e03c8e060d4ae8fafd1be38583b76dc18615777ca1"
+    },
+    {
+      "folder": "saints-year-end-block2-2026-10-06",
+      "handoff_sha256": "54bb0a1475199c0aa0884c7a32409ca0aef9033967d4055c14717751b5f1cc8d"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "PREGLED-CIRILICA.md",
+      "bytes": 71236,
+      "sha256": "5648b6bdfe3a886c80ff19ffe25b96604b4675a1aa6aabd2628921d6e6ef890b",
+      "articles": 42,
+      "script": "sr-Cyrl"
+    },
+    {
+      "path": "PREGLED-LATINICA.md",
+      "bytes": 43588,
+      "sha256": "92c600ccc4c0a8db41ccf78a02b6ce8f3ac34925a62754ad89da2127c7b44a6e",
+      "articles": 42,
+      "script": "sr-Latn"
+    }
+  ],
+  "source_text_modified": false,
+  "published": false,
+  "owner_approval": null
+}

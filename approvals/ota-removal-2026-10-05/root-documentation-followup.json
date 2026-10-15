@@ -1,0 +1,36 @@
+{
+  "recorded_on": "2026-10-05",
+  "scope": "Content-only OTA tooling removal and current documentation cleanup",
+  "owner_receipt": {
+    "path": "approvals/ota-removal-2026-10-05/removal-receipt.json",
+    "sha256": "7dd9bbd1ed09bbd294247b955def707519ef7f8e4bb8a7ca2922c1e36ac72d95"
+  },
+  "root_checks": {
+    "eleven_removed_paths_absent": true,
+    "two_removed_npm_commands_absent": true,
+    "backup_sha256_and_eleven_entry_listing_verified": true,
+    "preserved_tree_file_counts_and_byte_totals_match_owner_inventory": true,
+    "native_builds_or_test_rerun": false
+  },
+  "subsequent_documentation_changes": [
+    {
+      "path": "README.md",
+      "sha256": "8906434f2693009e89e9b5d5ec752f2c2b5e7e392a7a64ca52228a82e168c4a0",
+      "change": "Replace removed OTA command instructions with bundle-only app distribution and recovery receipt."
+    },
+    {
+      "path": "modules/README.md",
+      "sha256": "89aa544f43d072e3f56c982effdb0b96f1263349ca53c535839612f804910c40",
+      "change": "Remove obsolete background generator references. This documentation-only edit follows the owner tree-hash receipt; its earlier modules tree hash is a historical pre-documentation checkpoint, not the new current whole-directory hash."
+    }
+  ],
+  "preserved": [
+    "All public release payloads, manifests, indexes and signatures",
+    "All module data JSON, original images, thumbnails, rights and approved content",
+    "Text/calendar publisher and generic validators",
+    "Historical evidence and recoverable removed-code archive"
+  ],
+  "validation": "git diff --check for the two README files and package.json passed",
+  "publication": "None",
+  "native_removal": "Separate ongoing platform-owner task; not accepted by this record"
+}

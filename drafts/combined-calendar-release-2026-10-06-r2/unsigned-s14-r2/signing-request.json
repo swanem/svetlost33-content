@@ -1,0 +1,1467 @@
+{
+  "schema_version": "svetlost33-signing-request-1",
+  "state": "UNSIGNED_CANDIDATE_ROOT_SIGNING_GO_REQUIRED",
+  "release_set_id": "shared-calendar-gospel-2026-10-06-m0v2-s14",
+  "sequence": 14,
+  "key_id": "svetlost33-content-2026-key-1",
+  "expected_public_key_sha256": "9671cc745a71f3b35ac2281bfd4e8da9335db9c6a44beda0ae5cf380b292c1f6",
+  "owner_approval_path": "approvals/pravoslavno-gospel-2026-10-06/owner-combined-publication-approval.json",
+  "owner_approval_sha256": "5f6caab4281e3a31a1b0c9b6d69c1aca89bed418a81e1d8822ccf0c846db3912",
+  "approval_id": "owner-combined-calendar-gospel-2026-10-06",
+  "source_public_commit": "0cbc5e31100c3a66830f1fd6e3d0a08a489dcb8b",
+  "source_index_sha256": "6250554d597daa19025cdcd3bc1d0c7c1763c3763ff4bc4fe1b85fb03f69441b",
+  "source_release_sha256": "76054fb851221ad1de64922a1167741646e2dd9f199588404b9a6a7745d4b7ff",
+  "public_base_observation_path": "approvals/saints104-2026-10-06/public-readback-s13.json",
+  "public_base_observation_sha256": "e6bce373760da88996bf2df0a789ff853eef483e12a9d393608106d149f9c700",
+  "minimum_clients": {
+    "android": 66,
+    "ios": "0.1.15"
+  },
+  "preserved_module_ids": [
+    "library-annual-2026-r1",
+    "daily-cycles-r1",
+    "organizations-v1"
+  ],
+  "replaced_module_ids": [
+    "calendar-2026-r1",
+    "saints-v1",
+    "liturgical-catalog-v1",
+    "calendar-browser-v1"
+  ],
+  "signature_algorithm": "RSA-PSS-SHA256",
+  "salt_length": 32,
+  "signature_encoding": "base64-with-final-newline",
+  "production_signing_requires_separate_coordinator_go": true,
+  "native_exact_generation_acceptance_required_before_publication": true,
+  "minimum_clients_are_requested_not_proven_compatible": false,
+  "signing_blocked_until_native_projection_gate_resolved": false,
+  "publication_requires_public_head_compare_and_swap": "0cbc5e31100c3a66830f1fd6e3d0a08a489dcb8b",
+  "publication_immutable_paths": [
+    "discovery-archive/shared-saints104-2026-10-06-m0v2-s13/index.json",
+    "discovery-archive/shared-saints104-2026-10-06-m0v2-s13/index.sig",
+    "releases/shared-calendar-gospel-2026-10-06-m0v2-s14/modules/calendar-2026-r1-2026.10.6-r3/data/calendar.2026.json",
+    "releases/shared-calendar-gospel-2026-10-06-m0v2-s14/modules/calendar-2026-r1-2026.10.6-r3/manifest.json",
+    "releases/shared-calendar-gospel-2026-10-06-m0v2-s14/modules/calendar-browser-v1-2026.10.6-r5/data/calendar-browser-v1.json",
+    "releases/shared-calendar-gospel-2026-10-06-m0v2-s14/modules/calendar-browser-v1-2026.10.6-r5/manifest.json",
+    "releases/shared-calendar-gospel-2026-10-06-m0v2-s14/modules/liturgical-catalog-v1-2026.10.6-r9/data/liturgical-catalog-v1.json",
+    "releases/shared-calendar-gospel-2026-10-06-m0v2-s14/modules/liturgical-catalog-v1-2026.10.6-r9/manifest.json",
+    "releases/shared-calendar-gospel-2026-10-06-m0v2-s14/modules/saints-v1-2026.10.6-r6/data/saints-v1.json",
+    "releases/shared-calendar-gospel-2026-10-06-m0v2-s14/modules/saints-v1-2026.10.6-r6/manifest.json",
+    "releases/shared-calendar-gospel-2026-10-06-m0v2-s14/release-set.json"
+  ],
+  "documents_to_sign": [
+    {
+      "path": "releases/shared-calendar-gospel-2026-10-06-m0v2-s14/modules/calendar-2026-r1-2026.10.6-r3/manifest.json",
+      "bytes": 631,
+      "sha256": "9c080209792f4ff5b8aa2116e32a47d95094d690cca5e56d352c68f5c4c7195a",
+      "signature_path": "releases/shared-calendar-gospel-2026-10-06-m0v2-s14/modules/calendar-2026-r1-2026.10.6-r3/manifest.sig"
+    },
+    {
+      "path": "releases/shared-calendar-gospel-2026-10-06-m0v2-s14/modules/saints-v1-2026.10.6-r6/manifest.json",
+      "bytes": 587,
+      "sha256": "29ab2725c1df13a8ec40c8e41651e938c05b9ad19a0d23acb92b35b58d4ce465",
+      "signature_path": "releases/shared-calendar-gospel-2026-10-06-m0v2-s14/modules/saints-v1-2026.10.6-r6/manifest.sig"
+    },
+    {
+      "path": "releases/shared-calendar-gospel-2026-10-06-m0v2-s14/modules/liturgical-catalog-v1-2026.10.6-r9/manifest.json",
+      "bytes": 697,
+      "sha256": "c08ad88208f3c61030556dffbb449c1ff64370a17b5ed58d9e47103e68a57480",
+      "signature_path": "releases/shared-calendar-gospel-2026-10-06-m0v2-s14/modules/liturgical-catalog-v1-2026.10.6-r9/manifest.sig"
+    },
+    {
+      "path": "releases/shared-calendar-gospel-2026-10-06-m0v2-s14/modules/calendar-browser-v1-2026.10.6-r5/manifest.json",
+      "bytes": 533,
+      "sha256": "b172df702838fda0d49d13a0dc485fa0a087a3a60205ddc29c547285a88c20c7",
+      "signature_path": "releases/shared-calendar-gospel-2026-10-06-m0v2-s14/modules/calendar-browser-v1-2026.10.6-r5/manifest.sig"
+    },
+    {
+      "path": "releases/shared-calendar-gospel-2026-10-06-m0v2-s14/release-set.json",
+      "bytes": 3974,
+      "sha256": "86f105fbb95e4188565415b3184e3f160fa36b8cbd4a2dcc5b891df6ad0c6025",
+      "signature_path": "releases/shared-calendar-gospel-2026-10-06-m0v2-s14/release-set.sig"
+    },
+    {
+      "path": "index.json",
+      "bytes": 592,
+      "sha256": "3dfef0768a2862e4709276114dec8f5817189bd4b833192b33aa6b0e889d4f1b",
+      "signature_path": "index.sig"
+    }
+  ],
+  "publication_allowlist": [
+    "discovery-archive/shared-saints104-2026-10-06-m0v2-s13/index.json",
+    "discovery-archive/shared-saints104-2026-10-06-m0v2-s13/index.sig",
+    "index.json",
+    "index.sig",
+    "releases/shared-calendar-gospel-2026-10-06-m0v2-s14/modules/calendar-2026-r1-2026.10.6-r3/data/calendar.2026.json",
+    "releases/shared-calendar-gospel-2026-10-06-m0v2-s14/modules/calendar-2026-r1-2026.10.6-r3/manifest.json",
+    "releases/shared-calendar-gospel-2026-10-06-m0v2-s14/modules/calendar-2026-r1-2026.10.6-r3/manifest.sig",
+    "releases/shared-calendar-gospel-2026-10-06-m0v2-s14/modules/calendar-browser-v1-2026.10.6-r5/data/calendar-browser-v1.json",
+    "releases/shared-calendar-gospel-2026-10-06-m0v2-s14/modules/calendar-browser-v1-2026.10.6-r5/manifest.json",
+    "releases/shared-calendar-gospel-2026-10-06-m0v2-s14/modules/calendar-browser-v1-2026.10.6-r5/manifest.sig",
+    "releases/shared-calendar-gospel-2026-10-06-m0v2-s14/modules/liturgical-catalog-v1-2026.10.6-r9/data/liturgical-catalog-v1.json",
+    "releases/shared-calendar-gospel-2026-10-06-m0v2-s14/modules/liturgical-catalog-v1-2026.10.6-r9/manifest.json",
+    "releases/shared-calendar-gospel-2026-10-06-m0v2-s14/modules/liturgical-catalog-v1-2026.10.6-r9/manifest.sig",
+    "releases/shared-calendar-gospel-2026-10-06-m0v2-s14/modules/saints-v1-2026.10.6-r6/data/saints-v1.json",
+    "releases/shared-calendar-gospel-2026-10-06-m0v2-s14/modules/saints-v1-2026.10.6-r6/manifest.json",
+    "releases/shared-calendar-gospel-2026-10-06-m0v2-s14/modules/saints-v1-2026.10.6-r6/manifest.sig",
+    "releases/shared-calendar-gospel-2026-10-06-m0v2-s14/release-set.json",
+    "releases/shared-calendar-gospel-2026-10-06-m0v2-s14/release-set.sig"
+  ],
+  "all_candidate_files": [
+    {
+      "path": "discovery-archive/shared-calendar-saints-2026-10-02-m0v2-s12/index.json",
+      "bytes": 592,
+      "sha256": "a0d50c23036db203035419f4ba169ddb6005223799ed3ac4e89e03dd9f7733e9"
+    },
+    {
+      "path": "discovery-archive/shared-calendar-saints-2026-10-02-m0v2-s12/index.sig",
+      "bytes": 513,
+      "sha256": "caae1bacd679c17637de572ec64761aab98e4f5da18e6486abe6e25504e2f5d3"
+    },
+    {
+      "path": "discovery-archive/shared-content-refresh-2026-09-30-m0v2-s11/index.json",
+      "bytes": 592,
+      "sha256": "36d39ce8882df55b66987afedcb8f080f31c2b8fd565a45561492aae5e2631ff"
+    },
+    {
+      "path": "discovery-archive/shared-content-refresh-2026-09-30-m0v2-s11/index.sig",
+      "bytes": 513,
+      "sha256": "b680c6e5b96812399acba10d5d6be2945b5dd962424b9c63008cb155e9760a5a"
+    },
+    {
+      "path": "discovery-archive/shared-saints104-2026-10-06-m0v2-s13/index.json",
+      "bytes": 574,
+      "sha256": "6250554d597daa19025cdcd3bc1d0c7c1763c3763ff4bc4fe1b85fb03f69441b"
+    },
+    {
+      "path": "discovery-archive/shared-saints104-2026-10-06-m0v2-s13/index.sig",
+      "bytes": 513,
+      "sha256": "04d6deaae79d9e76acef883b9caef5ca3a4137e9122e7046633190d2d6b22467"
+    },
+    {
+      "path": "index.json",
+      "bytes": 592,
+      "sha256": "3dfef0768a2862e4709276114dec8f5817189bd4b833192b33aa6b0e889d4f1b"
+    },
+    {
+      "path": "releases/shared-annual-2026-r1-m0v2-s2/modules/calendar-2026-r1-2026.1.1-r2/data/calendar.2026.json",
+      "bytes": 1665524,
+      "sha256": "a1b6a5d5911ae03f77802bd466227f0c1ea4fe97708b1b6f92cd4b08847c7c9c"
+    },
+    {
+      "path": "releases/shared-annual-2026-r1-m0v2-s2/modules/calendar-2026-r1-2026.1.1-r2/manifest.json",
+      "bytes": 630,
+      "sha256": "11e5d8b92ebbacd40ae6d0bad861c85a2df8220cd0b1091a2b7522754d538905"
+    },
+    {
+      "path": "releases/shared-annual-2026-r1-m0v2-s2/modules/calendar-2026-r1-2026.1.1-r2/manifest.sig",
+      "bytes": 513,
+      "sha256": "969b6e297bd64f8f539ecd150c40cfc1d1b154fe06abd641118d03903969b5b0"
+    },
+    {
+      "path": "releases/shared-annual-2026-r1-m0v2-s2/modules/library-annual-2026-r1-2026.1.1-r2/data/gospels.sr-Cyrl.json",
+      "bytes": 1026828,
+      "sha256": "3855892ef6a8784e20b3ef83729a29437b7f8663bf83f6775f63978eeedc9809"
+    },
+    {
+      "path": "releases/shared-annual-2026-r1-m0v2-s2/modules/library-annual-2026-r1-2026.1.1-r2/data/gospels.sr-Latn.json",
+      "bytes": 778280,
+      "sha256": "392b4290654a9b2376e7319af980e8b9238ba8b4c20593f4b20c9d8688e31610"
+    },
+    {
+      "path": "releases/shared-annual-2026-r1-m0v2-s2/modules/library-annual-2026-r1-2026.1.1-r2/data/licenses.sr-Cyrl.json",
+      "bytes": 23878,
+      "sha256": "6cf614188455fdc99826f4f6ce0a141fb7e40ca812a72830305524d9dd9a7629"
+    },
+    {
+      "path": "releases/shared-annual-2026-r1-m0v2-s2/modules/library-annual-2026-r1-2026.1.1-r2/data/licenses.sr-Latn.json",
+      "bytes": 22899,
+      "sha256": "32fdeaf7e5b02ee79ee84977fa111767f5d8230828889a1ce2e1bc6ddb8afa48"
+    },
+    {
+      "path": "releases/shared-annual-2026-r1-m0v2-s2/modules/library-annual-2026-r1-2026.1.1-r2/data/prayers.sr-Cyrl.json",
+      "bytes": 92677,
+      "sha256": "246982434b47014bfbd3bca0646b5f5770d1fd5f433e517bfbf08e49cf35722f"
+    },
+    {
+      "path": "releases/shared-annual-2026-r1-m0v2-s2/modules/library-annual-2026-r1-2026.1.1-r2/data/prayers.sr-Latn.json",
+      "bytes": 71066,
+      "sha256": "ae66eba3ec77946d6de3240baa9f7faff786f3b5eabe04d5c7b1ee3b2a881629"
+    },
+    {
+      "path": "releases/shared-annual-2026-r1-m0v2-s2/modules/library-annual-2026-r1-2026.1.1-r2/data/psalms.sr-Cyrl.json",
+      "bytes": 707117,
+      "sha256": "71918c97fe6fcc6d9f21a1990aaf0ceb2399bc503a43a9106f8e680f67844e83"
+    },
+    {
+      "path": "releases/shared-annual-2026-r1-m0v2-s2/modules/library-annual-2026-r1-2026.1.1-r2/data/psalms.sr-Latn.json",
+      "bytes": 553977,
+      "sha256": "01b2657d85430ec68bcc56d8a0b7b45e03449d1c2cb658a07d130ea57cf8a63d"
+    },
+    {
+      "path": "releases/shared-annual-2026-r1-m0v2-s2/modules/library-annual-2026-r1-2026.1.1-r2/data/release-scope.json",
+      "bytes": 1176,
+      "sha256": "3f89787c8868b6afb17d164e3074b833c5e10e07a76eac066e7b55b50c21ff78"
+    },
+    {
+      "path": "releases/shared-annual-2026-r1-m0v2-s2/modules/library-annual-2026-r1-2026.1.1-r2/data/sources.sr-Cyrl.json",
+      "bytes": 117364,
+      "sha256": "0dba9e468f7e6e541bd2ce2b2f6f203642f15a0b6d8f8d0b3157337a83a070a0"
+    },
+    {
+      "path": "releases/shared-annual-2026-r1-m0v2-s2/modules/library-annual-2026-r1-2026.1.1-r2/data/sources.sr-Latn.json",
+      "bytes": 104511,
+      "sha256": "b837e9c284548a9613efe6f129e889fb821402346f3639c6812a29dad8fc1b6c"
+    },
+    {
+      "path": "releases/shared-annual-2026-r1-m0v2-s2/modules/library-annual-2026-r1-2026.1.1-r2/evidence/owner-approval.json",
+      "bytes": 2601,
+      "sha256": "8460422a065ad8055381a7855eb9c729ceea31992041ee0c40d48e71c3d7ba22"
+    },
+    {
+      "path": "releases/shared-annual-2026-r1-m0v2-s2/modules/library-annual-2026-r1-2026.1.1-r2/evidence/source-release-manifest.json",
+      "bytes": 4104,
+      "sha256": "adcd9c4c03fea220142c4e4e7027ffc4596d77ea44f6f248556723cbe73c640a"
+    },
+    {
+      "path": "releases/shared-annual-2026-r1-m0v2-s2/modules/library-annual-2026-r1-2026.1.1-r2/manifest.json",
+      "bytes": 3329,
+      "sha256": "5247bedb3d3deaf5f81601ff2f7a274417b0ce11ac1cebbb3f4b518cd26ee16d"
+    },
+    {
+      "path": "releases/shared-annual-2026-r1-m0v2-s2/modules/library-annual-2026-r1-2026.1.1-r2/manifest.sig",
+      "bytes": 513,
+      "sha256": "6bc2b00b1b608ad1a8c04d8b1d50a0ba323addd2c40cd48652c4c19aabf74648"
+    },
+    {
+      "path": "releases/shared-calendar-gospel-2026-10-06-m0v2-s14/modules/calendar-2026-r1-2026.10.6-r3/data/calendar.2026.json",
+      "bytes": 1712834,
+      "sha256": "299842090189bd44974cb6aabfa8a6af5db4fccdc64e3c556ab4dc60aa1944b4"
+    },
+    {
+      "path": "releases/shared-calendar-gospel-2026-10-06-m0v2-s14/modules/calendar-2026-r1-2026.10.6-r3/manifest.json",
+      "bytes": 631,
+      "sha256": "9c080209792f4ff5b8aa2116e32a47d95094d690cca5e56d352c68f5c4c7195a"
+    },
+    {
+      "path": "releases/shared-calendar-gospel-2026-10-06-m0v2-s14/modules/calendar-browser-v1-2026.10.6-r5/data/calendar-browser-v1.json",
+      "bytes": 97946,
+      "sha256": "b24b687db725d1c7f255d2a5024bda15a20d3f629c2744262e9f61694b653ea6"
+    },
+    {
+      "path": "releases/shared-calendar-gospel-2026-10-06-m0v2-s14/modules/calendar-browser-v1-2026.10.6-r5/manifest.json",
+      "bytes": 533,
+      "sha256": "b172df702838fda0d49d13a0dc485fa0a087a3a60205ddc29c547285a88c20c7"
+    },
+    {
+      "path": "releases/shared-calendar-gospel-2026-10-06-m0v2-s14/modules/liturgical-catalog-v1-2026.10.6-r9/data/liturgical-catalog-v1.json",
+      "bytes": 255272,
+      "sha256": "0659df40a030557f56a52d87ac79853d28aaaea62838ee52191be990a97cb669"
+    },
+    {
+      "path": "releases/shared-calendar-gospel-2026-10-06-m0v2-s14/modules/liturgical-catalog-v1-2026.10.6-r9/manifest.json",
+      "bytes": 697,
+      "sha256": "c08ad88208f3c61030556dffbb449c1ff64370a17b5ed58d9e47103e68a57480"
+    },
+    {
+      "path": "releases/shared-calendar-gospel-2026-10-06-m0v2-s14/modules/saints-v1-2026.10.6-r6/data/saints-v1.json",
+      "bytes": 399124,
+      "sha256": "4c418f4f8f3eb09f3613218b2c65cc444049ccdd886fb17f3e4426bfa03abafa"
+    },
+    {
+      "path": "releases/shared-calendar-gospel-2026-10-06-m0v2-s14/modules/saints-v1-2026.10.6-r6/manifest.json",
+      "bytes": 587,
+      "sha256": "29ab2725c1df13a8ec40c8e41651e938c05b9ad19a0d23acb92b35b58d4ce465"
+    },
+    {
+      "path": "releases/shared-calendar-gospel-2026-10-06-m0v2-s14/release-set.json",
+      "bytes": 3974,
+      "sha256": "86f105fbb95e4188565415b3184e3f160fa36b8cbd4a2dcc5b891df6ad0c6025"
+    },
+    {
+      "path": "releases/shared-calendar-saints-2026-10-02-m0v2-s12/modules/calendar-browser-v1-2026.10.2-r3/data/calendar-browser-v1.json",
+      "bytes": 97947,
+      "sha256": "20d3d0ad3d9a352c87d05425e8673460c62c9a0cf4043988c48e4c0da3d61fae"
+    },
+    {
+      "path": "releases/shared-calendar-saints-2026-10-02-m0v2-s12/modules/calendar-browser-v1-2026.10.2-r3/manifest.json",
+      "bytes": 533,
+      "sha256": "6a61a1593a890f4a8c9ac6fbd54feb6ee0b349c92020dd5f56f4c6c25492a805"
+    },
+    {
+      "path": "releases/shared-calendar-saints-2026-10-02-m0v2-s12/modules/calendar-browser-v1-2026.10.2-r3/manifest.sig",
+      "bytes": 513,
+      "sha256": "97b1a321cdb8576016b9fb745cfea6d8691b953423991b6c11b0dfc68e825e4f"
+    },
+    {
+      "path": "releases/shared-calendar-saints-2026-10-02-m0v2-s12/modules/liturgical-catalog-v1-2026.10.1-r7/data/liturgical-catalog-v1.json",
+      "bytes": 66656,
+      "sha256": "d973f659da3a1e084739afe70a6a31daea390c32f5508ecdaa56a3fc3e7b4af3"
+    },
+    {
+      "path": "releases/shared-calendar-saints-2026-10-02-m0v2-s12/modules/liturgical-catalog-v1-2026.10.1-r7/manifest.json",
+      "bytes": 695,
+      "sha256": "1bb3d4b5ac6a5b4f4946ea7438cfe465f6121a7877dbb35976965ff28a13943e"
+    },
+    {
+      "path": "releases/shared-calendar-saints-2026-10-02-m0v2-s12/modules/liturgical-catalog-v1-2026.10.1-r7/manifest.sig",
+      "bytes": 513,
+      "sha256": "ef1d773edc92105e0e84f7c69d4c94c8bcde3f30d6b0876e745ede068eaf59a7"
+    },
+    {
+      "path": "releases/shared-calendar-saints-2026-10-02-m0v2-s12/release-set.json",
+      "bytes": 3944,
+      "sha256": "78142e24f74812be9859b88163203de23517a9ed40a16c0f5ee085e25354255d"
+    },
+    {
+      "path": "releases/shared-calendar-saints-2026-10-02-m0v2-s12/release-set.sig",
+      "bytes": 513,
+      "sha256": "8f2a46ba5e575bd6a3bd0e1a27637f85829c94ddeeedde23616638ba3dbf97e1"
+    },
+    {
+      "path": "releases/shared-content-refresh-2026-09-30-m0v2-s11/modules/calendar-browser-v1-2026.9.30-r2/data/calendar-browser-v1.json",
+      "bytes": 58366,
+      "sha256": "a473ae32563d1c6abb4ed43fc9615763b8667d3376f9e3e055f3fe1191367b53"
+    },
+    {
+      "path": "releases/shared-content-refresh-2026-09-30-m0v2-s11/modules/calendar-browser-v1-2026.9.30-r2/manifest.json",
+      "bytes": 533,
+      "sha256": "ad783700988aa044cf5a2a98eecaa853e3e695f64a831a7ee7aa80389225700c"
+    },
+    {
+      "path": "releases/shared-content-refresh-2026-09-30-m0v2-s11/modules/calendar-browser-v1-2026.9.30-r2/manifest.sig",
+      "bytes": 513,
+      "sha256": "6ace088ac52af7ba90e4835f270d60aac86d1f31995d03a84107bcde18c467ca"
+    },
+    {
+      "path": "releases/shared-content-refresh-2026-09-30-m0v2-s11/modules/liturgical-catalog-v1-2026.9.30-r6/data/liturgical-catalog-v1.json",
+      "bytes": 39260,
+      "sha256": "7aa40603faefad1a291d8bb379bc54b32576c5119a6fcc93b49cad5172096c26"
+    },
+    {
+      "path": "releases/shared-content-refresh-2026-09-30-m0v2-s11/modules/liturgical-catalog-v1-2026.9.30-r6/manifest.json",
+      "bytes": 695,
+      "sha256": "52ed3faecc892198263e0b192c037ba4b3ee6978ffce2c6d8d5e68a507857521"
+    },
+    {
+      "path": "releases/shared-content-refresh-2026-09-30-m0v2-s11/modules/liturgical-catalog-v1-2026.9.30-r6/manifest.sig",
+      "bytes": 513,
+      "sha256": "1e465489dd9e04cf739a6887a0ea5f6f57e392cf974e853364347d255c7ec8ff"
+    },
+    {
+      "path": "releases/shared-content-refresh-2026-09-30-m0v2-s11/modules/organizations-v1-2026.9.30-r3/data/organizations-v1.json",
+      "bytes": 11073,
+      "sha256": "9f3a9c178fed8beec842f2612f64fe6aa4e620fbbba92db02ba472bf288a0428"
+    },
+    {
+      "path": "releases/shared-content-refresh-2026-09-30-m0v2-s11/modules/organizations-v1-2026.9.30-r3/manifest.json",
+      "bytes": 530,
+      "sha256": "e493239cd2f1a6012dc40ab84da56c20f7bd86fde6100bbda6dd1a6af7f5ed46"
+    },
+    {
+      "path": "releases/shared-content-refresh-2026-09-30-m0v2-s11/modules/organizations-v1-2026.9.30-r3/manifest.sig",
+      "bytes": 513,
+      "sha256": "f4d754a0d60ce0388b0fdce19a72cc4d3ac1a1b4f029f2e00a32a6a63f004180"
+    },
+    {
+      "path": "releases/shared-content-refresh-2026-09-30-m0v2-s11/modules/saints-v1-2026.9.30-r4/data/saints-v1.json",
+      "bytes": 211965,
+      "sha256": "ca3e4fd02ca79e97d53e0e456b2ccaaeb81ebc3b740a71b3eb72049bf01331b5"
+    },
+    {
+      "path": "releases/shared-content-refresh-2026-09-30-m0v2-s11/modules/saints-v1-2026.9.30-r4/manifest.json",
+      "bytes": 586,
+      "sha256": "ae73dcd04221e44e57c07af7daf669a27a73005f054d1d99b2333011e77c3292"
+    },
+    {
+      "path": "releases/shared-content-refresh-2026-09-30-m0v2-s11/modules/saints-v1-2026.9.30-r4/manifest.sig",
+      "bytes": 513,
+      "sha256": "70605c8b24a6ea7452da3b02f8bd1ea12cf388664a76ca5c7a669ba01cea94a5"
+    },
+    {
+      "path": "releases/shared-content-refresh-2026-09-30-m0v2-s11/release-set.json",
+      "bytes": 3944,
+      "sha256": "ef109fcdb5ef14baae8697664e447a1c17378030e57f1209cb3fa2510cbf13d3"
+    },
+    {
+      "path": "releases/shared-content-refresh-2026-09-30-m0v2-s11/release-set.sig",
+      "bytes": 513,
+      "sha256": "c52007467bf24520a79d8d1e2b1e8669eacd1984611bb2f071b22e88a37f6170"
+    },
+    {
+      "path": "releases/shared-saints104-2026-10-06-m0v2-s13/modules/calendar-browser-v1-2026.10.6-r4/data/calendar-browser-v1.json",
+      "bytes": 97934,
+      "sha256": "13ef75b85963573eaf3f61131381af2116a70a32459a3afeff8759aa31a82db6"
+    },
+    {
+      "path": "releases/shared-saints104-2026-10-06-m0v2-s13/modules/calendar-browser-v1-2026.10.6-r4/manifest.json",
+      "bytes": 533,
+      "sha256": "c07a825e17f617b81931eef25de9b94bbff7675b23afbfb0533a18cd8d364dae"
+    },
+    {
+      "path": "releases/shared-saints104-2026-10-06-m0v2-s13/modules/calendar-browser-v1-2026.10.6-r4/manifest.sig",
+      "bytes": 513,
+      "sha256": "d9c6e316d07c3816996bb01b43d6311173898c9a1b056070e26a6599e4c864f9"
+    },
+    {
+      "path": "releases/shared-saints104-2026-10-06-m0v2-s13/modules/liturgical-catalog-v1-2026.10.6-r8/data/liturgical-catalog-v1.json",
+      "bytes": 159835,
+      "sha256": "3d79bc91da681f46dc5b016f3b2033693b7d7b3a12742c0b245cdcbce47f5df8"
+    },
+    {
+      "path": "releases/shared-saints104-2026-10-06-m0v2-s13/modules/liturgical-catalog-v1-2026.10.6-r8/manifest.json",
+      "bytes": 696,
+      "sha256": "9e16fa38a8f6f2ca3e038582cbdea410a7e9f9856e7c14108891cd42427844ad"
+    },
+    {
+      "path": "releases/shared-saints104-2026-10-06-m0v2-s13/modules/liturgical-catalog-v1-2026.10.6-r8/manifest.sig",
+      "bytes": 513,
+      "sha256": "9f49fb5d51be3372c623637cbe85bfba5e63453b10da355b61bf9f8968566128"
+    },
+    {
+      "path": "releases/shared-saints104-2026-10-06-m0v2-s13/modules/saints-v1-2026.10.6-r5/data/saints-v1.json",
+      "bytes": 399111,
+      "sha256": "35d9401dd895557de013e42ce71d8101a11b5e96e42212a3605951181c002047"
+    },
+    {
+      "path": "releases/shared-saints104-2026-10-06-m0v2-s13/modules/saints-v1-2026.10.6-r5/manifest.json",
+      "bytes": 586,
+      "sha256": "049b54e85bd26b38ad909a39b8c54ebaae88790d9f6a7365507ab783d957b148"
+    },
+    {
+      "path": "releases/shared-saints104-2026-10-06-m0v2-s13/modules/saints-v1-2026.10.6-r5/manifest.sig",
+      "bytes": 513,
+      "sha256": "e9efe1c06d488cc2b296ed2312fd85feeaa108ebe22ba5cc3a8eb7a1352361d4"
+    },
+    {
+      "path": "releases/shared-saints104-2026-10-06-m0v2-s13/release-set.json",
+      "bytes": 3903,
+      "sha256": "76054fb851221ad1de64922a1167741646e2dd9f199588404b9a6a7745d4b7ff"
+    },
+    {
+      "path": "releases/shared-saints104-2026-10-06-m0v2-s13/release-set.sig",
+      "bytes": 513,
+      "sha256": "83431f372b6903e04da7bc3e7367bda12a638e0876bd35c5453df5d59d9d8c2f"
+    },
+    {
+      "path": "releases/shared-widget-excerpts-2026-09-18-m0v2-s4/modules/daily-cycles-r1-2026.1.2-r3/data/legacy-cycle.sr-Cyrl.json",
+      "bytes": 71899,
+      "sha256": "46aedf8c494dc79dbc6756fbff19d858cec0885218af18af0ce551e004293415"
+    },
+    {
+      "path": "releases/shared-widget-excerpts-2026-09-18-m0v2-s4/modules/daily-cycles-r1-2026.1.2-r3/data/legacy-cycle.sr-Latn.json",
+      "bytes": 63690,
+      "sha256": "e02c2cdd593d2823e9cabe44e5618ea87746815d1fb3476b2309380237c20b84"
+    },
+    {
+      "path": "releases/shared-widget-excerpts-2026-09-18-m0v2-s4/modules/daily-cycles-r1-2026.1.2-r3/evidence/widget-excerpt-owner-approval.json",
+      "bytes": 12879,
+      "sha256": "1f6808e6cc226612341c07160fa97960103bce86ba350a612b3c02409fe6a8c9"
+    },
+    {
+      "path": "releases/shared-widget-excerpts-2026-09-18-m0v2-s4/modules/daily-cycles-r1-2026.1.2-r3/manifest.json",
+      "bytes": 1118,
+      "sha256": "b20e5ff4f29faf3b18b4e1e23d37dd5384a00b9cb54567fb838de71b095a630d"
+    },
+    {
+      "path": "releases/shared-widget-excerpts-2026-09-18-m0v2-s4/modules/daily-cycles-r1-2026.1.2-r3/manifest.sig",
+      "bytes": 513,
+      "sha256": "33d010da0a599a32b3b8de9dc91f186bd2037629fd8faa783484440c0d591c83"
+    },
+    {
+      "path": "trusted-public-key.pem",
+      "bytes": 625,
+      "sha256": "9671cc745a71f3b35ac2281bfd4e8da9335db9c6a44beda0ae5cf380b292c1f6"
+    }
+  ],
+  "protected_inputs": [
+    {
+      "path": "../svetlost33-github/docs/contracts/calendar-saints-expansion-2026-10-06/package-a-source-review.json",
+      "bytes": 10844,
+      "sha256": "e4376220de5d59a88c61f081d70a6b7d4734b3a0a839a1bb49345cdc49510c50"
+    },
+    {
+      "path": "approvals/calendar-saints-window-2026-10-02/owner-approval.json",
+      "bytes": 3074,
+      "sha256": "15a5c33a13cfb572c2861e20463b49fd073164118375d86c97216472c2d1ae71"
+    },
+    {
+      "path": "approvals/new-content-2026-09-30/owner-approval.json",
+      "bytes": 7829,
+      "sha256": "549e767f5734030b8c36d7b05c1b7eefc02583a4b6b14f4313e8721594002290"
+    },
+    {
+      "path": "approvals/pravoslavno-gospel-2026-10-06/owner-combined-publication-approval.json",
+      "bytes": 3183,
+      "sha256": "5f6caab4281e3a31a1b0c9b6d69c1aca89bed418a81e1d8822ccf0c846db3912"
+    },
+    {
+      "path": "approvals/pravoslavno-gospel-2026-10-06/root-combined-draft-review.json",
+      "bytes": 3225,
+      "sha256": "a1f6fb1997a9c2ea9cc246e2367d62ab82489dcba52a70077409f357b6eea476"
+    },
+    {
+      "path": "approvals/pravoslavno-gospel-2026-10-06/source-label-adapter-decision.json",
+      "bytes": 2201,
+      "sha256": "978269e1f256a5567634baec0c893d69e53902c6be55d5c6959bf32252d5d4d1"
+    },
+    {
+      "path": "approvals/saints-completion-2026-09-21/owner-publication-approval.json",
+      "bytes": 7021,
+      "sha256": "8a103bf8ba8508360d377236517660320708cf1221caf8c279fe91fefb78df06"
+    },
+    {
+      "path": "approvals/saints104-2026-10-06/public-readback-s13.json",
+      "bytes": 25097,
+      "sha256": "e6bce373760da88996bf2df0a789ff853eef483e12a9d393608106d149f9c700"
+    },
+    {
+      "path": "drafts/calendar-saints-expansion-2026-10-06/handoff.json",
+      "bytes": 4470,
+      "sha256": "5c6c7664c8dec4ec72959ad59a0916ec9154670162c5523eee315f8146f96bf6"
+    },
+    {
+      "path": "drafts/calendar-saints-expansion-2026-10-06/inventory.json",
+      "bytes": 100072,
+      "sha256": "a95ac333c9a1fd8c67c781bc62f23e6f9c8028be5c29503c5f6ec8bef8380d21"
+    },
+    {
+      "path": "drafts/calendar-saints-expansion-2026-10-06/master.mjs",
+      "bytes": 7236,
+      "sha256": "4b60b054c72593b3948c8970e74e3f0793b8ffd57edb32e51c2356966948043b"
+    },
+    {
+      "path": "drafts/calendar-saints-expansion-2026-10-06/package-a.browser.pending.json",
+      "bytes": 97906,
+      "sha256": "97a0dbbfa106e9c941f5fda076dd35f3aefd8e1c0bdb8df00e4800fc8717f763"
+    },
+    {
+      "path": "drafts/calendar-saints-expansion-2026-10-06/package-a.catalog.pending.json",
+      "bytes": 119549,
+      "sha256": "121387e5bb1d80ab76460e1aff92cdfa10d70590ba8e78db0c5717bc3e6674d4"
+    },
+    {
+      "path": "drafts/calendar-saints-expansion-2026-10-06/package-a.delta.json",
+      "bytes": 59791,
+      "sha256": "7de48daef0c9bf521d560d7f699dfa2c14f88ff90ed3aced4420dcb24aff4677"
+    },
+    {
+      "path": "drafts/calendar-saints-expansion-2026-10-06/PREGLED.md",
+      "bytes": 12465,
+      "sha256": "57912956c518abc6f8a9abd84458c0ed7b62e84cfe5ebfe71ff86d6609fdb1b7"
+    },
+    {
+      "path": "drafts/calendar-saints-expansion-2026-10-06/prepare.mjs",
+      "bytes": 20377,
+      "sha256": "aee1bca36140ddbcf1d8c2515a8cae059a5df710c9bf8af3d77cc8bab1fee636"
+    },
+    {
+      "path": "drafts/calendar-saints-expansion-2026-10-06/public-baseline-reference.json",
+      "bytes": 464,
+      "sha256": "07f80575760e380fb0a67f01e9835c13cb0a813ba8ad4f2522e1a573b6927fc8"
+    },
+    {
+      "path": "drafts/calendar-saints-expansion-2026-10-06/source-provenance.json",
+      "bytes": 30412,
+      "sha256": "f54ff4326a46ab4801f86afdfaa1f47571b73763b6437a1ca207ef6f73e1aa01"
+    },
+    {
+      "path": "drafts/calendar-saints-expansion-2026-10-06/verification.json",
+      "bytes": 2969,
+      "sha256": "4dd108699cdd1629de9be73c2a06895b95c6419f0b0da0ef2e1ade2928d93a15"
+    },
+    {
+      "path": "drafts/calendar-saints-expansion-2026-10-06/verify.mjs",
+      "bytes": 15856,
+      "sha256": "97f9eceb1e4d566ecb201fea4fc148b6707bd8cadbca9cf2ddf412210ead9b72"
+    },
+    {
+      "path": "drafts/ks01-combined-calendar-2026-10-06/ab-component/browser.pending.json",
+      "bytes": 97906,
+      "sha256": "11a1af5d008047556ac18e27dea72950ea0daf6f1cb42259bee90a236585bf24"
+    },
+    {
+      "path": "drafts/ks01-combined-calendar-2026-10-06/ab-component/catalog.pending.json",
+      "bytes": 255076,
+      "sha256": "255d2e902d91a596252e2426e70cd530f3c2517194fc35ec48b6e638a4a30c21"
+    },
+    {
+      "path": "drafts/ks01-combined-calendar-2026-10-06/ab-component/combined-operation-manifest.json",
+      "bytes": 139865,
+      "sha256": "6a6381ab117069e91d3ab63050da9b42607cb084345a70255ca1ec386c3e6561"
+    },
+    {
+      "path": "drafts/ks01-combined-calendar-2026-10-06/ab-component/delta.json",
+      "bytes": 104066,
+      "sha256": "a0a445f82f3b2b71e6df2ce936dd119e747b9d17d94bfff15830746ee412d391"
+    },
+    {
+      "path": "drafts/ks01-combined-calendar-2026-10-06/ab-component/inventory.json",
+      "bytes": 165388,
+      "sha256": "c486bb855d74c04fdc26c6f6793bed57bf5ccda4025676dfc3539840c4929908"
+    },
+    {
+      "path": "drafts/ks01-combined-calendar-2026-10-06/ab-component/source-provenance.json",
+      "bytes": 22237,
+      "sha256": "43c3a9e56d99d9f69ca610c11bfc3759141f592508d8f736aa59c5a5c5acfbdf"
+    },
+    {
+      "path": "drafts/ks01-combined-calendar-2026-10-06/ab-component/unchanged-modules.json",
+      "bytes": 3935,
+      "sha256": "370ec2db607fd1e8b22036b0bf20e04eb5c37bf5558f99c4273bf74316950c9f"
+    },
+    {
+      "path": "drafts/ks01-combined-calendar-2026-10-06/handoff.json",
+      "bytes": 4868,
+      "sha256": "a7d8aa97ce1af0710029c145c1d156a17976638db7473f645238b8f8aa48bb57"
+    },
+    {
+      "path": "drafts/ks01-combined-calendar-2026-10-06/prepare.mjs",
+      "bytes": 19631,
+      "sha256": "afe53310c05d2286cb13d40d8db37bba0775498a8c007be2b098d77bbd20eef4"
+    },
+    {
+      "path": "drafts/ks01-combined-calendar-2026-10-06/verification/receipt.json",
+      "bytes": 44642,
+      "sha256": "a1a955ae4456dab83c29b0d5d54c91857ac00b37babf3d505735aff5b1296762"
+    },
+    {
+      "path": "drafts/ks01-combined-calendar-2026-10-06/verification/targeted-tests.log",
+      "bytes": 2791,
+      "sha256": "d0119d84a496f93f5cadeebb2b4a268a78cbafff0b29ae58322400daef5b16ec"
+    },
+    {
+      "path": "drafts/ks01-combined-calendar-2026-10-06/verify.mjs",
+      "bytes": 4553,
+      "sha256": "615651594e18dc648c38ca44fd0d00a83a2f20fe11be609c9720aacad12a3ea1"
+    },
+    {
+      "path": "drafts/ks01-combined-calendar-2026-10-06/verify.test.mjs",
+      "bytes": 13833,
+      "sha256": "30bb9bd41bb3fe1f0d954fd3c2a2fa396951223bbdf4d4c4bf414da59ede0e3c"
+    },
+    {
+      "path": "drafts/pravoslavno-gospel-2026-10-06/handoff.json",
+      "bytes": 10365,
+      "sha256": "fbfb34c177017198bbc76761f0841c99f006cf931ba3b5c9d4675425a9661cc9"
+    },
+    {
+      "path": "drafts/pravoslavno-gospel-2026-10-06/review/candidate.json",
+      "bytes": 253027,
+      "sha256": "fb4ed9f299fce8c8ee411815c5c2c68884c68e0c9468c4437c3c044f82a5ae1c"
+    },
+    {
+      "path": "drafts/saints-completion-2026-09-21/sources.json",
+      "bytes": 19540,
+      "sha256": "6a5705620d8c95ff6fb5c9feac83ccfb610af3f1fad6df59320d66209bfa27aa"
+    },
+    {
+      "path": "drafts/saints-next-window-2026-09-30/sources.json",
+      "bytes": 30502,
+      "sha256": "c6bba1b829d595620ef3adfb28d1fcc1b8915dcf4a4f0abbf3e5c2d3431635a2"
+    },
+    {
+      "path": "drafts/saints104-release-2026-10-06/prepare.mjs",
+      "bytes": 23190,
+      "sha256": "2a38f9a0dac361925e9392e0c9a976b95d1c447c335f9b3356aa1d3568ddb4fb"
+    },
+    {
+      "path": "drafts/saints104-release-2026-10-06/signed-s13/discovery-archive/shared-calendar-saints-2026-10-02-m0v2-s12/index.json",
+      "bytes": 592,
+      "sha256": "a0d50c23036db203035419f4ba169ddb6005223799ed3ac4e89e03dd9f7733e9"
+    },
+    {
+      "path": "drafts/saints104-release-2026-10-06/signed-s13/discovery-archive/shared-calendar-saints-2026-10-02-m0v2-s12/index.sig",
+      "bytes": 513,
+      "sha256": "caae1bacd679c17637de572ec64761aab98e4f5da18e6486abe6e25504e2f5d3"
+    },
+    {
+      "path": "drafts/saints104-release-2026-10-06/signed-s13/discovery-archive/shared-content-refresh-2026-09-30-m0v2-s11/index.json",
+      "bytes": 592,
+      "sha256": "36d39ce8882df55b66987afedcb8f080f31c2b8fd565a45561492aae5e2631ff"
+    },
+    {
+      "path": "drafts/saints104-release-2026-10-06/signed-s13/discovery-archive/shared-content-refresh-2026-09-30-m0v2-s11/index.sig",
+      "bytes": 513,
+      "sha256": "b680c6e5b96812399acba10d5d6be2945b5dd962424b9c63008cb155e9760a5a"
+    },
+    {
+      "path": "drafts/saints104-release-2026-10-06/signed-s13/index.json",
+      "bytes": 574,
+      "sha256": "6250554d597daa19025cdcd3bc1d0c7c1763c3763ff4bc4fe1b85fb03f69441b"
+    },
+    {
+      "path": "drafts/saints104-release-2026-10-06/signed-s13/index.sig",
+      "bytes": 513,
+      "sha256": "04d6deaae79d9e76acef883b9caef5ca3a4137e9122e7046633190d2d6b22467"
+    },
+    {
+      "path": "drafts/saints104-release-2026-10-06/signed-s13/releases/shared-annual-2026-r1-m0v2-s2/modules/calendar-2026-r1-2026.1.1-r2/data/calendar.2026.json",
+      "bytes": 1665524,
+      "sha256": "a1b6a5d5911ae03f77802bd466227f0c1ea4fe97708b1b6f92cd4b08847c7c9c"
+    },
+    {
+      "path": "drafts/saints104-release-2026-10-06/signed-s13/releases/shared-annual-2026-r1-m0v2-s2/modules/calendar-2026-r1-2026.1.1-r2/manifest.json",
+      "bytes": 630,
+      "sha256": "11e5d8b92ebbacd40ae6d0bad861c85a2df8220cd0b1091a2b7522754d538905"
+    },
+    {
+      "path": "drafts/saints104-release-2026-10-06/signed-s13/releases/shared-annual-2026-r1-m0v2-s2/modules/calendar-2026-r1-2026.1.1-r2/manifest.sig",
+      "bytes": 513,
+      "sha256": "969b6e297bd64f8f539ecd150c40cfc1d1b154fe06abd641118d03903969b5b0"
+    },
+    {
+      "path": "drafts/saints104-release-2026-10-06/signed-s13/releases/shared-annual-2026-r1-m0v2-s2/modules/library-annual-2026-r1-2026.1.1-r2/data/gospels.sr-Cyrl.json",
+      "bytes": 1026828,
+      "sha256": "3855892ef6a8784e20b3ef83729a29437b7f8663bf83f6775f63978eeedc9809"
+    },
+    {
+      "path": "drafts/saints104-release-2026-10-06/signed-s13/releases/shared-annual-2026-r1-m0v2-s2/modules/library-annual-2026-r1-2026.1.1-r2/data/gospels.sr-Latn.json",
+      "bytes": 778280,
+      "sha256": "392b4290654a9b2376e7319af980e8b9238ba8b4c20593f4b20c9d8688e31610"
+    },
+    {
+      "path": "drafts/saints104-release-2026-10-06/signed-s13/releases/shared-annual-2026-r1-m0v2-s2/modules/library-annual-2026-r1-2026.1.1-r2/data/licenses.sr-Cyrl.json",
+      "bytes": 23878,
+      "sha256": "6cf614188455fdc99826f4f6ce0a141fb7e40ca812a72830305524d9dd9a7629"
+    },
+    {
+      "path": "drafts/saints104-release-2026-10-06/signed-s13/releases/shared-annual-2026-r1-m0v2-s2/modules/library-annual-2026-r1-2026.1.1-r2/data/licenses.sr-Latn.json",
+      "bytes": 22899,
+      "sha256": "32fdeaf7e5b02ee79ee84977fa111767f5d8230828889a1ce2e1bc6ddb8afa48"
+    },
+    {
+      "path": "drafts/saints104-release-2026-10-06/signed-s13/releases/shared-annual-2026-r1-m0v2-s2/modules/library-annual-2026-r1-2026.1.1-r2/data/prayers.sr-Cyrl.json",
+      "bytes": 92677,
+      "sha256": "246982434b47014bfbd3bca0646b5f5770d1fd5f433e517bfbf08e49cf35722f"
+    },
+    {
+      "path": "drafts/saints104-release-2026-10-06/signed-s13/releases/shared-annual-2026-r1-m0v2-s2/modules/library-annual-2026-r1-2026.1.1-r2/data/prayers.sr-Latn.json",
+      "bytes": 71066,
+      "sha256": "ae66eba3ec77946d6de3240baa9f7faff786f3b5eabe04d5c7b1ee3b2a881629"
+    },
+    {
+      "path": "drafts/saints104-release-2026-10-06/signed-s13/releases/shared-annual-2026-r1-m0v2-s2/modules/library-annual-2026-r1-2026.1.1-r2/data/psalms.sr-Cyrl.json",
+      "bytes": 707117,
+      "sha256": "71918c97fe6fcc6d9f21a1990aaf0ceb2399bc503a43a9106f8e680f67844e83"
+    },
+    {
+      "path": "drafts/saints104-release-2026-10-06/signed-s13/releases/shared-annual-2026-r1-m0v2-s2/modules/library-annual-2026-r1-2026.1.1-r2/data/psalms.sr-Latn.json",
+      "bytes": 553977,
+      "sha256": "01b2657d85430ec68bcc56d8a0b7b45e03449d1c2cb658a07d130ea57cf8a63d"
+    },
+    {
+      "path": "drafts/saints104-release-2026-10-06/signed-s13/releases/shared-annual-2026-r1-m0v2-s2/modules/library-annual-2026-r1-2026.1.1-r2/data/release-scope.json",
+      "bytes": 1176,
+      "sha256": "3f89787c8868b6afb17d164e3074b833c5e10e07a76eac066e7b55b50c21ff78"
+    },
+    {
+      "path": "drafts/saints104-release-2026-10-06/signed-s13/releases/shared-annual-2026-r1-m0v2-s2/modules/library-annual-2026-r1-2026.1.1-r2/data/sources.sr-Cyrl.json",
+      "bytes": 117364,
+      "sha256": "0dba9e468f7e6e541bd2ce2b2f6f203642f15a0b6d8f8d0b3157337a83a070a0"
+    },
+    {
+      "path": "drafts/saints104-release-2026-10-06/signed-s13/releases/shared-annual-2026-r1-m0v2-s2/modules/library-annual-2026-r1-2026.1.1-r2/data/sources.sr-Latn.json",
+      "bytes": 104511,
+      "sha256": "b837e9c284548a9613efe6f129e889fb821402346f3639c6812a29dad8fc1b6c"
+    },
+    {
+      "path": "drafts/saints104-release-2026-10-06/signed-s13/releases/shared-annual-2026-r1-m0v2-s2/modules/library-annual-2026-r1-2026.1.1-r2/evidence/owner-approval.json",
+      "bytes": 2601,
+      "sha256": "8460422a065ad8055381a7855eb9c729ceea31992041ee0c40d48e71c3d7ba22"
+    },
+    {
+      "path": "drafts/saints104-release-2026-10-06/signed-s13/releases/shared-annual-2026-r1-m0v2-s2/modules/library-annual-2026-r1-2026.1.1-r2/evidence/source-release-manifest.json",
+      "bytes": 4104,
+      "sha256": "adcd9c4c03fea220142c4e4e7027ffc4596d77ea44f6f248556723cbe73c640a"
+    },
+    {
+      "path": "drafts/saints104-release-2026-10-06/signed-s13/releases/shared-annual-2026-r1-m0v2-s2/modules/library-annual-2026-r1-2026.1.1-r2/manifest.json",
+      "bytes": 3329,
+      "sha256": "5247bedb3d3deaf5f81601ff2f7a274417b0ce11ac1cebbb3f4b518cd26ee16d"
+    },
+    {
+      "path": "drafts/saints104-release-2026-10-06/signed-s13/releases/shared-annual-2026-r1-m0v2-s2/modules/library-annual-2026-r1-2026.1.1-r2/manifest.sig",
+      "bytes": 513,
+      "sha256": "6bc2b00b1b608ad1a8c04d8b1d50a0ba323addd2c40cd48652c4c19aabf74648"
+    },
+    {
+      "path": "drafts/saints104-release-2026-10-06/signed-s13/releases/shared-calendar-saints-2026-10-02-m0v2-s12/modules/calendar-browser-v1-2026.10.2-r3/data/calendar-browser-v1.json",
+      "bytes": 97947,
+      "sha256": "20d3d0ad3d9a352c87d05425e8673460c62c9a0cf4043988c48e4c0da3d61fae"
+    },
+    {
+      "path": "drafts/saints104-release-2026-10-06/signed-s13/releases/shared-calendar-saints-2026-10-02-m0v2-s12/modules/calendar-browser-v1-2026.10.2-r3/manifest.json",
+      "bytes": 533,
+      "sha256": "6a61a1593a890f4a8c9ac6fbd54feb6ee0b349c92020dd5f56f4c6c25492a805"
+    },
+    {
+      "path": "drafts/saints104-release-2026-10-06/signed-s13/releases/shared-calendar-saints-2026-10-02-m0v2-s12/modules/calendar-browser-v1-2026.10.2-r3/manifest.sig",
+      "bytes": 513,
+      "sha256": "97b1a321cdb8576016b9fb745cfea6d8691b953423991b6c11b0dfc68e825e4f"
+    },
+    {
+      "path": "drafts/saints104-release-2026-10-06/signed-s13/releases/shared-calendar-saints-2026-10-02-m0v2-s12/modules/liturgical-catalog-v1-2026.10.1-r7/data/liturgical-catalog-v1.json",
+      "bytes": 66656,
+      "sha256": "d973f659da3a1e084739afe70a6a31daea390c32f5508ecdaa56a3fc3e7b4af3"
+    },
+    {
+      "path": "drafts/saints104-release-2026-10-06/signed-s13/releases/shared-calendar-saints-2026-10-02-m0v2-s12/modules/liturgical-catalog-v1-2026.10.1-r7/manifest.json",
+      "bytes": 695,
+      "sha256": "1bb3d4b5ac6a5b4f4946ea7438cfe465f6121a7877dbb35976965ff28a13943e"
+    },
+    {
+      "path": "drafts/saints104-release-2026-10-06/signed-s13/releases/shared-calendar-saints-2026-10-02-m0v2-s12/modules/liturgical-catalog-v1-2026.10.1-r7/manifest.sig",
+      "bytes": 513,
+      "sha256": "ef1d773edc92105e0e84f7c69d4c94c8bcde3f30d6b0876e745ede068eaf59a7"
+    },
+    {
+      "path": "drafts/saints104-release-2026-10-06/signed-s13/releases/shared-calendar-saints-2026-10-02-m0v2-s12/release-set.json",
+      "bytes": 3944,
+      "sha256": "78142e24f74812be9859b88163203de23517a9ed40a16c0f5ee085e25354255d"
+    },
+    {
+      "path": "drafts/saints104-release-2026-10-06/signed-s13/releases/shared-calendar-saints-2026-10-02-m0v2-s12/release-set.sig",
+      "bytes": 513,
+      "sha256": "8f2a46ba5e575bd6a3bd0e1a27637f85829c94ddeeedde23616638ba3dbf97e1"
+    },
+    {
+      "path": "drafts/saints104-release-2026-10-06/signed-s13/releases/shared-content-refresh-2026-09-30-m0v2-s11/modules/calendar-browser-v1-2026.9.30-r2/data/calendar-browser-v1.json",
+      "bytes": 58366,
+      "sha256": "a473ae32563d1c6abb4ed43fc9615763b8667d3376f9e3e055f3fe1191367b53"
+    },
+    {
+      "path": "drafts/saints104-release-2026-10-06/signed-s13/releases/shared-content-refresh-2026-09-30-m0v2-s11/modules/calendar-browser-v1-2026.9.30-r2/manifest.json",
+      "bytes": 533,
+      "sha256": "ad783700988aa044cf5a2a98eecaa853e3e695f64a831a7ee7aa80389225700c"
+    },
+    {
+      "path": "drafts/saints104-release-2026-10-06/signed-s13/releases/shared-content-refresh-2026-09-30-m0v2-s11/modules/calendar-browser-v1-2026.9.30-r2/manifest.sig",
+      "bytes": 513,
+      "sha256": "6ace088ac52af7ba90e4835f270d60aac86d1f31995d03a84107bcde18c467ca"
+    },
+    {
+      "path": "drafts/saints104-release-2026-10-06/signed-s13/releases/shared-content-refresh-2026-09-30-m0v2-s11/modules/liturgical-catalog-v1-2026.9.30-r6/data/liturgical-catalog-v1.json",
+      "bytes": 39260,
+      "sha256": "7aa40603faefad1a291d8bb379bc54b32576c5119a6fcc93b49cad5172096c26"
+    },
+    {
+      "path": "drafts/saints104-release-2026-10-06/signed-s13/releases/shared-content-refresh-2026-09-30-m0v2-s11/modules/liturgical-catalog-v1-2026.9.30-r6/manifest.json",
+      "bytes": 695,
+      "sha256": "52ed3faecc892198263e0b192c037ba4b3ee6978ffce2c6d8d5e68a507857521"
+    },
+    {
+      "path": "drafts/saints104-release-2026-10-06/signed-s13/releases/shared-content-refresh-2026-09-30-m0v2-s11/modules/liturgical-catalog-v1-2026.9.30-r6/manifest.sig",
+      "bytes": 513,
+      "sha256": "1e465489dd9e04cf739a6887a0ea5f6f57e392cf974e853364347d255c7ec8ff"
+    },
+    {
+      "path": "drafts/saints104-release-2026-10-06/signed-s13/releases/shared-content-refresh-2026-09-30-m0v2-s11/modules/organizations-v1-2026.9.30-r3/data/organizations-v1.json",
+      "bytes": 11073,
+      "sha256": "9f3a9c178fed8beec842f2612f64fe6aa4e620fbbba92db02ba472bf288a0428"
+    },
+    {
+      "path": "drafts/saints104-release-2026-10-06/signed-s13/releases/shared-content-refresh-2026-09-30-m0v2-s11/modules/organizations-v1-2026.9.30-r3/manifest.json",
+      "bytes": 530,
+      "sha256": "e493239cd2f1a6012dc40ab84da56c20f7bd86fde6100bbda6dd1a6af7f5ed46"
+    },
+    {
+      "path": "drafts/saints104-release-2026-10-06/signed-s13/releases/shared-content-refresh-2026-09-30-m0v2-s11/modules/organizations-v1-2026.9.30-r3/manifest.sig",
+      "bytes": 513,
+      "sha256": "f4d754a0d60ce0388b0fdce19a72cc4d3ac1a1b4f029f2e00a32a6a63f004180"
+    },
+    {
+      "path": "drafts/saints104-release-2026-10-06/signed-s13/releases/shared-content-refresh-2026-09-30-m0v2-s11/modules/saints-v1-2026.9.30-r4/data/saints-v1.json",
+      "bytes": 211965,
+      "sha256": "ca3e4fd02ca79e97d53e0e456b2ccaaeb81ebc3b740a71b3eb72049bf01331b5"
+    },
+    {
+      "path": "drafts/saints104-release-2026-10-06/signed-s13/releases/shared-content-refresh-2026-09-30-m0v2-s11/modules/saints-v1-2026.9.30-r4/manifest.json",
+      "bytes": 586,
+      "sha256": "ae73dcd04221e44e57c07af7daf669a27a73005f054d1d99b2333011e77c3292"
+    },
+    {
+      "path": "drafts/saints104-release-2026-10-06/signed-s13/releases/shared-content-refresh-2026-09-30-m0v2-s11/modules/saints-v1-2026.9.30-r4/manifest.sig",
+      "bytes": 513,
+      "sha256": "70605c8b24a6ea7452da3b02f8bd1ea12cf388664a76ca5c7a669ba01cea94a5"
+    },
+    {
+      "path": "drafts/saints104-release-2026-10-06/signed-s13/releases/shared-content-refresh-2026-09-30-m0v2-s11/release-set.json",
+      "bytes": 3944,
+      "sha256": "ef109fcdb5ef14baae8697664e447a1c17378030e57f1209cb3fa2510cbf13d3"
+    },
+    {
+      "path": "drafts/saints104-release-2026-10-06/signed-s13/releases/shared-content-refresh-2026-09-30-m0v2-s11/release-set.sig",
+      "bytes": 513,
+      "sha256": "c52007467bf24520a79d8d1e2b1e8669eacd1984611bb2f071b22e88a37f6170"
+    },
+    {
+      "path": "drafts/saints104-release-2026-10-06/signed-s13/releases/shared-saints104-2026-10-06-m0v2-s13/modules/calendar-browser-v1-2026.10.6-r4/data/calendar-browser-v1.json",
+      "bytes": 97934,
+      "sha256": "13ef75b85963573eaf3f61131381af2116a70a32459a3afeff8759aa31a82db6"
+    },
+    {
+      "path": "drafts/saints104-release-2026-10-06/signed-s13/releases/shared-saints104-2026-10-06-m0v2-s13/modules/calendar-browser-v1-2026.10.6-r4/manifest.json",
+      "bytes": 533,
+      "sha256": "c07a825e17f617b81931eef25de9b94bbff7675b23afbfb0533a18cd8d364dae"
+    },
+    {
+      "path": "drafts/saints104-release-2026-10-06/signed-s13/releases/shared-saints104-2026-10-06-m0v2-s13/modules/calendar-browser-v1-2026.10.6-r4/manifest.sig",
+      "bytes": 513,
+      "sha256": "d9c6e316d07c3816996bb01b43d6311173898c9a1b056070e26a6599e4c864f9"
+    },
+    {
+      "path": "drafts/saints104-release-2026-10-06/signed-s13/releases/shared-saints104-2026-10-06-m0v2-s13/modules/liturgical-catalog-v1-2026.10.6-r8/data/liturgical-catalog-v1.json",
+      "bytes": 159835,
+      "sha256": "3d79bc91da681f46dc5b016f3b2033693b7d7b3a12742c0b245cdcbce47f5df8"
+    },
+    {
+      "path": "drafts/saints104-release-2026-10-06/signed-s13/releases/shared-saints104-2026-10-06-m0v2-s13/modules/liturgical-catalog-v1-2026.10.6-r8/manifest.json",
+      "bytes": 696,
+      "sha256": "9e16fa38a8f6f2ca3e038582cbdea410a7e9f9856e7c14108891cd42427844ad"
+    },
+    {
+      "path": "drafts/saints104-release-2026-10-06/signed-s13/releases/shared-saints104-2026-10-06-m0v2-s13/modules/liturgical-catalog-v1-2026.10.6-r8/manifest.sig",
+      "bytes": 513,
+      "sha256": "9f49fb5d51be3372c623637cbe85bfba5e63453b10da355b61bf9f8968566128"
+    },
+    {
+      "path": "drafts/saints104-release-2026-10-06/signed-s13/releases/shared-saints104-2026-10-06-m0v2-s13/modules/saints-v1-2026.10.6-r5/data/saints-v1.json",
+      "bytes": 399111,
+      "sha256": "35d9401dd895557de013e42ce71d8101a11b5e96e42212a3605951181c002047"
+    },
+    {
+      "path": "drafts/saints104-release-2026-10-06/signed-s13/releases/shared-saints104-2026-10-06-m0v2-s13/modules/saints-v1-2026.10.6-r5/manifest.json",
+      "bytes": 586,
+      "sha256": "049b54e85bd26b38ad909a39b8c54ebaae88790d9f6a7365507ab783d957b148"
+    },
+    {
+      "path": "drafts/saints104-release-2026-10-06/signed-s13/releases/shared-saints104-2026-10-06-m0v2-s13/modules/saints-v1-2026.10.6-r5/manifest.sig",
+      "bytes": 513,
+      "sha256": "e9efe1c06d488cc2b296ed2312fd85feeaa108ebe22ba5cc3a8eb7a1352361d4"
+    },
+    {
+      "path": "drafts/saints104-release-2026-10-06/signed-s13/releases/shared-saints104-2026-10-06-m0v2-s13/release-set.json",
+      "bytes": 3903,
+      "sha256": "76054fb851221ad1de64922a1167741646e2dd9f199588404b9a6a7745d4b7ff"
+    },
+    {
+      "path": "drafts/saints104-release-2026-10-06/signed-s13/releases/shared-saints104-2026-10-06-m0v2-s13/release-set.sig",
+      "bytes": 513,
+      "sha256": "83431f372b6903e04da7bc3e7367bda12a638e0876bd35c5453df5d59d9d8c2f"
+    },
+    {
+      "path": "drafts/saints104-release-2026-10-06/signed-s13/releases/shared-widget-excerpts-2026-09-18-m0v2-s4/modules/daily-cycles-r1-2026.1.2-r3/data/legacy-cycle.sr-Cyrl.json",
+      "bytes": 71899,
+      "sha256": "46aedf8c494dc79dbc6756fbff19d858cec0885218af18af0ce551e004293415"
+    },
+    {
+      "path": "drafts/saints104-release-2026-10-06/signed-s13/releases/shared-widget-excerpts-2026-09-18-m0v2-s4/modules/daily-cycles-r1-2026.1.2-r3/data/legacy-cycle.sr-Latn.json",
+      "bytes": 63690,
+      "sha256": "e02c2cdd593d2823e9cabe44e5618ea87746815d1fb3476b2309380237c20b84"
+    },
+    {
+      "path": "drafts/saints104-release-2026-10-06/signed-s13/releases/shared-widget-excerpts-2026-09-18-m0v2-s4/modules/daily-cycles-r1-2026.1.2-r3/evidence/widget-excerpt-owner-approval.json",
+      "bytes": 12879,
+      "sha256": "1f6808e6cc226612341c07160fa97960103bce86ba350a612b3c02409fe6a8c9"
+    },
+    {
+      "path": "drafts/saints104-release-2026-10-06/signed-s13/releases/shared-widget-excerpts-2026-09-18-m0v2-s4/modules/daily-cycles-r1-2026.1.2-r3/manifest.json",
+      "bytes": 1118,
+      "sha256": "b20e5ff4f29faf3b18b4e1e23d37dd5384a00b9cb54567fb838de71b095a630d"
+    },
+    {
+      "path": "drafts/saints104-release-2026-10-06/signed-s13/releases/shared-widget-excerpts-2026-09-18-m0v2-s4/modules/daily-cycles-r1-2026.1.2-r3/manifest.sig",
+      "bytes": 513,
+      "sha256": "33d010da0a599a32b3b8de9dc91f186bd2037629fd8faa783484440c0d591c83"
+    },
+    {
+      "path": "drafts/saints104-release-2026-10-06/signed-s13/trusted-public-key.pem",
+      "bytes": 625,
+      "sha256": "9671cc745a71f3b35ac2281bfd4e8da9335db9c6a44beda0ae5cf380b292c1f6"
+    },
+    {
+      "path": "scripts/pravoslavno-calendar-reference.mjs",
+      "bytes": 2855,
+      "sha256": "5a8da65aab0b8e339a902a4a85bc973f4b2404327ffd1c371e76318e9203e2e8"
+    },
+    {
+      "path": "scripts/validate-bible-reference-v1.mjs",
+      "bytes": 17582,
+      "sha256": "b6ae4c9eb29ba41ac838443a150e24d2d1496cf4fdbb2a1ea10fe43c57f73e0d"
+    },
+    {
+      "path": "drafts/combined-calendar-release-2026-10-06/handoff.json",
+      "bytes": 22987,
+      "sha256": "1179ff7461e93d454ba43ecf2aae49e23fcc935efc51ebf82a5d73cfe2e318e0"
+    },
+    {
+      "path": "drafts/combined-calendar-release-2026-10-06/preparation/native-acceptance.json",
+      "bytes": 4040,
+      "sha256": "ff2ac2511fb4ff6894f1455d61f958e6335f34924689be36b2c3764cd19646f0"
+    },
+    {
+      "path": "drafts/combined-calendar-release-2026-10-06/preparation/protected-inputs-before.json",
+      "bytes": 24406,
+      "sha256": "0509ff7adb52e9b3e9995a2e913a89552b514ea7d1b1eb3bb0900be3f87280d0"
+    },
+    {
+      "path": "drafts/combined-calendar-release-2026-10-06/preparation/report.json",
+      "bytes": 4956,
+      "sha256": "abc684f1688a2e2af4dcd31a19d3afe9eb980fbe6d33797cf4e45b2f7c425bca"
+    },
+    {
+      "path": "drafts/combined-calendar-release-2026-10-06/prepare.mjs",
+      "bytes": 18118,
+      "sha256": "76dbb4d46cfee6eb2dd97023e9fd10760a409227ebc979a3ffa0a1857b4da2e8"
+    },
+    {
+      "path": "drafts/combined-calendar-release-2026-10-06/unsigned-s14/discovery-archive/shared-calendar-saints-2026-10-02-m0v2-s12/index.json",
+      "bytes": 592,
+      "sha256": "a0d50c23036db203035419f4ba169ddb6005223799ed3ac4e89e03dd9f7733e9"
+    },
+    {
+      "path": "drafts/combined-calendar-release-2026-10-06/unsigned-s14/discovery-archive/shared-calendar-saints-2026-10-02-m0v2-s12/index.sig",
+      "bytes": 513,
+      "sha256": "caae1bacd679c17637de572ec64761aab98e4f5da18e6486abe6e25504e2f5d3"
+    },
+    {
+      "path": "drafts/combined-calendar-release-2026-10-06/unsigned-s14/discovery-archive/shared-content-refresh-2026-09-30-m0v2-s11/index.json",
+      "bytes": 592,
+      "sha256": "36d39ce8882df55b66987afedcb8f080f31c2b8fd565a45561492aae5e2631ff"
+    },
+    {
+      "path": "drafts/combined-calendar-release-2026-10-06/unsigned-s14/discovery-archive/shared-content-refresh-2026-09-30-m0v2-s11/index.sig",
+      "bytes": 513,
+      "sha256": "b680c6e5b96812399acba10d5d6be2945b5dd962424b9c63008cb155e9760a5a"
+    },
+    {
+      "path": "drafts/combined-calendar-release-2026-10-06/unsigned-s14/discovery-archive/shared-saints104-2026-10-06-m0v2-s13/index.json",
+      "bytes": 574,
+      "sha256": "6250554d597daa19025cdcd3bc1d0c7c1763c3763ff4bc4fe1b85fb03f69441b"
+    },
+    {
+      "path": "drafts/combined-calendar-release-2026-10-06/unsigned-s14/discovery-archive/shared-saints104-2026-10-06-m0v2-s13/index.sig",
+      "bytes": 513,
+      "sha256": "04d6deaae79d9e76acef883b9caef5ca3a4137e9122e7046633190d2d6b22467"
+    },
+    {
+      "path": "drafts/combined-calendar-release-2026-10-06/unsigned-s14/index.json",
+      "bytes": 592,
+      "sha256": "51cbc3824d371ac647950644bad8dbdea6945f7c75360c667975fc909265430c"
+    },
+    {
+      "path": "drafts/combined-calendar-release-2026-10-06/unsigned-s14/releases/shared-annual-2026-r1-m0v2-s2/modules/calendar-2026-r1-2026.1.1-r2/data/calendar.2026.json",
+      "bytes": 1665524,
+      "sha256": "a1b6a5d5911ae03f77802bd466227f0c1ea4fe97708b1b6f92cd4b08847c7c9c"
+    },
+    {
+      "path": "drafts/combined-calendar-release-2026-10-06/unsigned-s14/releases/shared-annual-2026-r1-m0v2-s2/modules/calendar-2026-r1-2026.1.1-r2/manifest.json",
+      "bytes": 630,
+      "sha256": "11e5d8b92ebbacd40ae6d0bad861c85a2df8220cd0b1091a2b7522754d538905"
+    },
+    {
+      "path": "drafts/combined-calendar-release-2026-10-06/unsigned-s14/releases/shared-annual-2026-r1-m0v2-s2/modules/calendar-2026-r1-2026.1.1-r2/manifest.sig",
+      "bytes": 513,
+      "sha256": "969b6e297bd64f8f539ecd150c40cfc1d1b154fe06abd641118d03903969b5b0"
+    },
+    {
+      "path": "drafts/combined-calendar-release-2026-10-06/unsigned-s14/releases/shared-annual-2026-r1-m0v2-s2/modules/library-annual-2026-r1-2026.1.1-r2/data/gospels.sr-Cyrl.json",
+      "bytes": 1026828,
+      "sha256": "3855892ef6a8784e20b3ef83729a29437b7f8663bf83f6775f63978eeedc9809"
+    },
+    {
+      "path": "drafts/combined-calendar-release-2026-10-06/unsigned-s14/releases/shared-annual-2026-r1-m0v2-s2/modules/library-annual-2026-r1-2026.1.1-r2/data/gospels.sr-Latn.json",
+      "bytes": 778280,
+      "sha256": "392b4290654a9b2376e7319af980e8b9238ba8b4c20593f4b20c9d8688e31610"
+    },
+    {
+      "path": "drafts/combined-calendar-release-2026-10-06/unsigned-s14/releases/shared-annual-2026-r1-m0v2-s2/modules/library-annual-2026-r1-2026.1.1-r2/data/licenses.sr-Cyrl.json",
+      "bytes": 23878,
+      "sha256": "6cf614188455fdc99826f4f6ce0a141fb7e40ca812a72830305524d9dd9a7629"
+    },
+    {
+      "path": "drafts/combined-calendar-release-2026-10-06/unsigned-s14/releases/shared-annual-2026-r1-m0v2-s2/modules/library-annual-2026-r1-2026.1.1-r2/data/licenses.sr-Latn.json",
+      "bytes": 22899,
+      "sha256": "32fdeaf7e5b02ee79ee84977fa111767f5d8230828889a1ce2e1bc6ddb8afa48"
+    },
+    {
+      "path": "drafts/combined-calendar-release-2026-10-06/unsigned-s14/releases/shared-annual-2026-r1-m0v2-s2/modules/library-annual-2026-r1-2026.1.1-r2/data/prayers.sr-Cyrl.json",
+      "bytes": 92677,
+      "sha256": "246982434b47014bfbd3bca0646b5f5770d1fd5f433e517bfbf08e49cf35722f"
+    },
+    {
+      "path": "drafts/combined-calendar-release-2026-10-06/unsigned-s14/releases/shared-annual-2026-r1-m0v2-s2/modules/library-annual-2026-r1-2026.1.1-r2/data/prayers.sr-Latn.json",
+      "bytes": 71066,
+      "sha256": "ae66eba3ec77946d6de3240baa9f7faff786f3b5eabe04d5c7b1ee3b2a881629"
+    },
+    {
+      "path": "drafts/combined-calendar-release-2026-10-06/unsigned-s14/releases/shared-annual-2026-r1-m0v2-s2/modules/library-annual-2026-r1-2026.1.1-r2/data/psalms.sr-Cyrl.json",
+      "bytes": 707117,
+      "sha256": "71918c97fe6fcc6d9f21a1990aaf0ceb2399bc503a43a9106f8e680f67844e83"
+    },
+    {
+      "path": "drafts/combined-calendar-release-2026-10-06/unsigned-s14/releases/shared-annual-2026-r1-m0v2-s2/modules/library-annual-2026-r1-2026.1.1-r2/data/psalms.sr-Latn.json",
+      "bytes": 553977,
+      "sha256": "01b2657d85430ec68bcc56d8a0b7b45e03449d1c2cb658a07d130ea57cf8a63d"
+    },
+    {
+      "path": "drafts/combined-calendar-release-2026-10-06/unsigned-s14/releases/shared-annual-2026-r1-m0v2-s2/modules/library-annual-2026-r1-2026.1.1-r2/data/release-scope.json",
+      "bytes": 1176,
+      "sha256": "3f89787c8868b6afb17d164e3074b833c5e10e07a76eac066e7b55b50c21ff78"
+    },
+    {
+      "path": "drafts/combined-calendar-release-2026-10-06/unsigned-s14/releases/shared-annual-2026-r1-m0v2-s2/modules/library-annual-2026-r1-2026.1.1-r2/data/sources.sr-Cyrl.json",
+      "bytes": 117364,
+      "sha256": "0dba9e468f7e6e541bd2ce2b2f6f203642f15a0b6d8f8d0b3157337a83a070a0"
+    },
+    {
+      "path": "drafts/combined-calendar-release-2026-10-06/unsigned-s14/releases/shared-annual-2026-r1-m0v2-s2/modules/library-annual-2026-r1-2026.1.1-r2/data/sources.sr-Latn.json",
+      "bytes": 104511,
+      "sha256": "b837e9c284548a9613efe6f129e889fb821402346f3639c6812a29dad8fc1b6c"
+    },
+    {
+      "path": "drafts/combined-calendar-release-2026-10-06/unsigned-s14/releases/shared-annual-2026-r1-m0v2-s2/modules/library-annual-2026-r1-2026.1.1-r2/evidence/owner-approval.json",
+      "bytes": 2601,
+      "sha256": "8460422a065ad8055381a7855eb9c729ceea31992041ee0c40d48e71c3d7ba22"
+    },
+    {
+      "path": "drafts/combined-calendar-release-2026-10-06/unsigned-s14/releases/shared-annual-2026-r1-m0v2-s2/modules/library-annual-2026-r1-2026.1.1-r2/evidence/source-release-manifest.json",
+      "bytes": 4104,
+      "sha256": "adcd9c4c03fea220142c4e4e7027ffc4596d77ea44f6f248556723cbe73c640a"
+    },
+    {
+      "path": "drafts/combined-calendar-release-2026-10-06/unsigned-s14/releases/shared-annual-2026-r1-m0v2-s2/modules/library-annual-2026-r1-2026.1.1-r2/manifest.json",
+      "bytes": 3329,
+      "sha256": "5247bedb3d3deaf5f81601ff2f7a274417b0ce11ac1cebbb3f4b518cd26ee16d"
+    },
+    {
+      "path": "drafts/combined-calendar-release-2026-10-06/unsigned-s14/releases/shared-annual-2026-r1-m0v2-s2/modules/library-annual-2026-r1-2026.1.1-r2/manifest.sig",
+      "bytes": 513,
+      "sha256": "6bc2b00b1b608ad1a8c04d8b1d50a0ba323addd2c40cd48652c4c19aabf74648"
+    },
+    {
+      "path": "drafts/combined-calendar-release-2026-10-06/unsigned-s14/releases/shared-calendar-gospel-2026-10-06-m0v2-s14/modules/calendar-2026-r1-2026.10.6-r3/data/calendar.2026.json",
+      "bytes": 1712834,
+      "sha256": "299842090189bd44974cb6aabfa8a6af5db4fccdc64e3c556ab4dc60aa1944b4"
+    },
+    {
+      "path": "drafts/combined-calendar-release-2026-10-06/unsigned-s14/releases/shared-calendar-gospel-2026-10-06-m0v2-s14/modules/calendar-2026-r1-2026.10.6-r3/manifest.json",
+      "bytes": 631,
+      "sha256": "9c080209792f4ff5b8aa2116e32a47d95094d690cca5e56d352c68f5c4c7195a"
+    },
+    {
+      "path": "drafts/combined-calendar-release-2026-10-06/unsigned-s14/releases/shared-calendar-gospel-2026-10-06-m0v2-s14/modules/calendar-browser-v1-2026.10.6-r5/data/calendar-browser-v1.json",
+      "bytes": 97946,
+      "sha256": "b24b687db725d1c7f255d2a5024bda15a20d3f629c2744262e9f61694b653ea6"
+    },
+    {
+      "path": "drafts/combined-calendar-release-2026-10-06/unsigned-s14/releases/shared-calendar-gospel-2026-10-06-m0v2-s14/modules/calendar-browser-v1-2026.10.6-r5/manifest.json",
+      "bytes": 533,
+      "sha256": "b172df702838fda0d49d13a0dc485fa0a087a3a60205ddc29c547285a88c20c7"
+    },
+    {
+      "path": "drafts/combined-calendar-release-2026-10-06/unsigned-s14/releases/shared-calendar-gospel-2026-10-06-m0v2-s14/modules/liturgical-catalog-v1-2026.10.6-r9/data/liturgical-catalog-v1.json",
+      "bytes": 255272,
+      "sha256": "0659df40a030557f56a52d87ac79853d28aaaea62838ee52191be990a97cb669"
+    },
+    {
+      "path": "drafts/combined-calendar-release-2026-10-06/unsigned-s14/releases/shared-calendar-gospel-2026-10-06-m0v2-s14/modules/liturgical-catalog-v1-2026.10.6-r9/manifest.json",
+      "bytes": 697,
+      "sha256": "c08ad88208f3c61030556dffbb449c1ff64370a17b5ed58d9e47103e68a57480"
+    },
+    {
+      "path": "drafts/combined-calendar-release-2026-10-06/unsigned-s14/releases/shared-calendar-gospel-2026-10-06-m0v2-s14/modules/saints-v1-2026.10.6-r6/data/saints-v1.json",
+      "bytes": 399124,
+      "sha256": "4c418f4f8f3eb09f3613218b2c65cc444049ccdd886fb17f3e4426bfa03abafa"
+    },
+    {
+      "path": "drafts/combined-calendar-release-2026-10-06/unsigned-s14/releases/shared-calendar-gospel-2026-10-06-m0v2-s14/modules/saints-v1-2026.10.6-r6/manifest.json",
+      "bytes": 587,
+      "sha256": "29ab2725c1df13a8ec40c8e41651e938c05b9ad19a0d23acb92b35b58d4ce465"
+    },
+    {
+      "path": "drafts/combined-calendar-release-2026-10-06/unsigned-s14/releases/shared-calendar-gospel-2026-10-06-m0v2-s14/release-set.json",
+      "bytes": 3974,
+      "sha256": "4e82e44fb0ef84fec3789ee009f4526cb57ac5e3d76162ca84b8ce5d378de097"
+    },
+    {
+      "path": "drafts/combined-calendar-release-2026-10-06/unsigned-s14/releases/shared-calendar-saints-2026-10-02-m0v2-s12/modules/calendar-browser-v1-2026.10.2-r3/data/calendar-browser-v1.json",
+      "bytes": 97947,
+      "sha256": "20d3d0ad3d9a352c87d05425e8673460c62c9a0cf4043988c48e4c0da3d61fae"
+    },
+    {
+      "path": "drafts/combined-calendar-release-2026-10-06/unsigned-s14/releases/shared-calendar-saints-2026-10-02-m0v2-s12/modules/calendar-browser-v1-2026.10.2-r3/manifest.json",
+      "bytes": 533,
+      "sha256": "6a61a1593a890f4a8c9ac6fbd54feb6ee0b349c92020dd5f56f4c6c25492a805"
+    },
+    {
+      "path": "drafts/combined-calendar-release-2026-10-06/unsigned-s14/releases/shared-calendar-saints-2026-10-02-m0v2-s12/modules/calendar-browser-v1-2026.10.2-r3/manifest.sig",
+      "bytes": 513,
+      "sha256": "97b1a321cdb8576016b9fb745cfea6d8691b953423991b6c11b0dfc68e825e4f"
+    },
+    {
+      "path": "drafts/combined-calendar-release-2026-10-06/unsigned-s14/releases/shared-calendar-saints-2026-10-02-m0v2-s12/modules/liturgical-catalog-v1-2026.10.1-r7/data/liturgical-catalog-v1.json",
+      "bytes": 66656,
+      "sha256": "d973f659da3a1e084739afe70a6a31daea390c32f5508ecdaa56a3fc3e7b4af3"
+    },
+    {
+      "path": "drafts/combined-calendar-release-2026-10-06/unsigned-s14/releases/shared-calendar-saints-2026-10-02-m0v2-s12/modules/liturgical-catalog-v1-2026.10.1-r7/manifest.json",
+      "bytes": 695,
+      "sha256": "1bb3d4b5ac6a5b4f4946ea7438cfe465f6121a7877dbb35976965ff28a13943e"
+    },
+    {
+      "path": "drafts/combined-calendar-release-2026-10-06/unsigned-s14/releases/shared-calendar-saints-2026-10-02-m0v2-s12/modules/liturgical-catalog-v1-2026.10.1-r7/manifest.sig",
+      "bytes": 513,
+      "sha256": "ef1d773edc92105e0e84f7c69d4c94c8bcde3f30d6b0876e745ede068eaf59a7"
+    },
+    {
+      "path": "drafts/combined-calendar-release-2026-10-06/unsigned-s14/releases/shared-calendar-saints-2026-10-02-m0v2-s12/release-set.json",
+      "bytes": 3944,
+      "sha256": "78142e24f74812be9859b88163203de23517a9ed40a16c0f5ee085e25354255d"
+    },
+    {
+      "path": "drafts/combined-calendar-release-2026-10-06/unsigned-s14/releases/shared-calendar-saints-2026-10-02-m0v2-s12/release-set.sig",
+      "bytes": 513,
+      "sha256": "8f2a46ba5e575bd6a3bd0e1a27637f85829c94ddeeedde23616638ba3dbf97e1"
+    },
+    {
+      "path": "drafts/combined-calendar-release-2026-10-06/unsigned-s14/releases/shared-content-refresh-2026-09-30-m0v2-s11/modules/calendar-browser-v1-2026.9.30-r2/data/calendar-browser-v1.json",
+      "bytes": 58366,
+      "sha256": "a473ae32563d1c6abb4ed43fc9615763b8667d3376f9e3e055f3fe1191367b53"
+    },
+    {
+      "path": "drafts/combined-calendar-release-2026-10-06/unsigned-s14/releases/shared-content-refresh-2026-09-30-m0v2-s11/modules/calendar-browser-v1-2026.9.30-r2/manifest.json",
+      "bytes": 533,
+      "sha256": "ad783700988aa044cf5a2a98eecaa853e3e695f64a831a7ee7aa80389225700c"
+    },
+    {
+      "path": "drafts/combined-calendar-release-2026-10-06/unsigned-s14/releases/shared-content-refresh-2026-09-30-m0v2-s11/modules/calendar-browser-v1-2026.9.30-r2/manifest.sig",
+      "bytes": 513,
+      "sha256": "6ace088ac52af7ba90e4835f270d60aac86d1f31995d03a84107bcde18c467ca"
+    },
+    {
+      "path": "drafts/combined-calendar-release-2026-10-06/unsigned-s14/releases/shared-content-refresh-2026-09-30-m0v2-s11/modules/liturgical-catalog-v1-2026.9.30-r6/data/liturgical-catalog-v1.json",
+      "bytes": 39260,
+      "sha256": "7aa40603faefad1a291d8bb379bc54b32576c5119a6fcc93b49cad5172096c26"
+    },
+    {
+      "path": "drafts/combined-calendar-release-2026-10-06/unsigned-s14/releases/shared-content-refresh-2026-09-30-m0v2-s11/modules/liturgical-catalog-v1-2026.9.30-r6/manifest.json",
+      "bytes": 695,
+      "sha256": "52ed3faecc892198263e0b192c037ba4b3ee6978ffce2c6d8d5e68a507857521"
+    },
+    {
+      "path": "drafts/combined-calendar-release-2026-10-06/unsigned-s14/releases/shared-content-refresh-2026-09-30-m0v2-s11/modules/liturgical-catalog-v1-2026.9.30-r6/manifest.sig",
+      "bytes": 513,
+      "sha256": "1e465489dd9e04cf739a6887a0ea5f6f57e392cf974e853364347d255c7ec8ff"
+    },
+    {
+      "path": "drafts/combined-calendar-release-2026-10-06/unsigned-s14/releases/shared-content-refresh-2026-09-30-m0v2-s11/modules/organizations-v1-2026.9.30-r3/data/organizations-v1.json",
+      "bytes": 11073,
+      "sha256": "9f3a9c178fed8beec842f2612f64fe6aa4e620fbbba92db02ba472bf288a0428"
+    },
+    {
+      "path": "drafts/combined-calendar-release-2026-10-06/unsigned-s14/releases/shared-content-refresh-2026-09-30-m0v2-s11/modules/organizations-v1-2026.9.30-r3/manifest.json",
+      "bytes": 530,
+      "sha256": "e493239cd2f1a6012dc40ab84da56c20f7bd86fde6100bbda6dd1a6af7f5ed46"
+    },
+    {
+      "path": "drafts/combined-calendar-release-2026-10-06/unsigned-s14/releases/shared-content-refresh-2026-09-30-m0v2-s11/modules/organizations-v1-2026.9.30-r3/manifest.sig",
+      "bytes": 513,
+      "sha256": "f4d754a0d60ce0388b0fdce19a72cc4d3ac1a1b4f029f2e00a32a6a63f004180"
+    },
+    {
+      "path": "drafts/combined-calendar-release-2026-10-06/unsigned-s14/releases/shared-content-refresh-2026-09-30-m0v2-s11/modules/saints-v1-2026.9.30-r4/data/saints-v1.json",
+      "bytes": 211965,
+      "sha256": "ca3e4fd02ca79e97d53e0e456b2ccaaeb81ebc3b740a71b3eb72049bf01331b5"
+    },
+    {
+      "path": "drafts/combined-calendar-release-2026-10-06/unsigned-s14/releases/shared-content-refresh-2026-09-30-m0v2-s11/modules/saints-v1-2026.9.30-r4/manifest.json",
+      "bytes": 586,
+      "sha256": "ae73dcd04221e44e57c07af7daf669a27a73005f054d1d99b2333011e77c3292"
+    },
+    {
+      "path": "drafts/combined-calendar-release-2026-10-06/unsigned-s14/releases/shared-content-refresh-2026-09-30-m0v2-s11/modules/saints-v1-2026.9.30-r4/manifest.sig",
+      "bytes": 513,
+      "sha256": "70605c8b24a6ea7452da3b02f8bd1ea12cf388664a76ca5c7a669ba01cea94a5"
+    },
+    {
+      "path": "drafts/combined-calendar-release-2026-10-06/unsigned-s14/releases/shared-content-refresh-2026-09-30-m0v2-s11/release-set.json",
+      "bytes": 3944,
+      "sha256": "ef109fcdb5ef14baae8697664e447a1c17378030e57f1209cb3fa2510cbf13d3"
+    },
+    {
+      "path": "drafts/combined-calendar-release-2026-10-06/unsigned-s14/releases/shared-content-refresh-2026-09-30-m0v2-s11/release-set.sig",
+      "bytes": 513,
+      "sha256": "c52007467bf24520a79d8d1e2b1e8669eacd1984611bb2f071b22e88a37f6170"
+    },
+    {
+      "path": "drafts/combined-calendar-release-2026-10-06/unsigned-s14/releases/shared-saints104-2026-10-06-m0v2-s13/modules/calendar-browser-v1-2026.10.6-r4/data/calendar-browser-v1.json",
+      "bytes": 97934,
+      "sha256": "13ef75b85963573eaf3f61131381af2116a70a32459a3afeff8759aa31a82db6"
+    },
+    {
+      "path": "drafts/combined-calendar-release-2026-10-06/unsigned-s14/releases/shared-saints104-2026-10-06-m0v2-s13/modules/calendar-browser-v1-2026.10.6-r4/manifest.json",
+      "bytes": 533,
+      "sha256": "c07a825e17f617b81931eef25de9b94bbff7675b23afbfb0533a18cd8d364dae"
+    },
+    {
+      "path": "drafts/combined-calendar-release-2026-10-06/unsigned-s14/releases/shared-saints104-2026-10-06-m0v2-s13/modules/calendar-browser-v1-2026.10.6-r4/manifest.sig",
+      "bytes": 513,
+      "sha256": "d9c6e316d07c3816996bb01b43d6311173898c9a1b056070e26a6599e4c864f9"
+    },
+    {
+      "path": "drafts/combined-calendar-release-2026-10-06/unsigned-s14/releases/shared-saints104-2026-10-06-m0v2-s13/modules/liturgical-catalog-v1-2026.10.6-r8/data/liturgical-catalog-v1.json",
+      "bytes": 159835,
+      "sha256": "3d79bc91da681f46dc5b016f3b2033693b7d7b3a12742c0b245cdcbce47f5df8"
+    },
+    {
+      "path": "drafts/combined-calendar-release-2026-10-06/unsigned-s14/releases/shared-saints104-2026-10-06-m0v2-s13/modules/liturgical-catalog-v1-2026.10.6-r8/manifest.json",
+      "bytes": 696,
+      "sha256": "9e16fa38a8f6f2ca3e038582cbdea410a7e9f9856e7c14108891cd42427844ad"
+    },
+    {
+      "path": "drafts/combined-calendar-release-2026-10-06/unsigned-s14/releases/shared-saints104-2026-10-06-m0v2-s13/modules/liturgical-catalog-v1-2026.10.6-r8/manifest.sig",
+      "bytes": 513,
+      "sha256": "9f49fb5d51be3372c623637cbe85bfba5e63453b10da355b61bf9f8968566128"
+    },
+    {
+      "path": "drafts/combined-calendar-release-2026-10-06/unsigned-s14/releases/shared-saints104-2026-10-06-m0v2-s13/modules/saints-v1-2026.10.6-r5/data/saints-v1.json",
+      "bytes": 399111,
+      "sha256": "35d9401dd895557de013e42ce71d8101a11b5e96e42212a3605951181c002047"
+    },
+    {
+      "path": "drafts/combined-calendar-release-2026-10-06/unsigned-s14/releases/shared-saints104-2026-10-06-m0v2-s13/modules/saints-v1-2026.10.6-r5/manifest.json",
+      "bytes": 586,
+      "sha256": "049b54e85bd26b38ad909a39b8c54ebaae88790d9f6a7365507ab783d957b148"
+    },
+    {
+      "path": "drafts/combined-calendar-release-2026-10-06/unsigned-s14/releases/shared-saints104-2026-10-06-m0v2-s13/modules/saints-v1-2026.10.6-r5/manifest.sig",
+      "bytes": 513,
+      "sha256": "e9efe1c06d488cc2b296ed2312fd85feeaa108ebe22ba5cc3a8eb7a1352361d4"
+    },
+    {
+      "path": "drafts/combined-calendar-release-2026-10-06/unsigned-s14/releases/shared-saints104-2026-10-06-m0v2-s13/release-set.json",
+      "bytes": 3903,
+      "sha256": "76054fb851221ad1de64922a1167741646e2dd9f199588404b9a6a7745d4b7ff"
+    },
+    {
+      "path": "drafts/combined-calendar-release-2026-10-06/unsigned-s14/releases/shared-saints104-2026-10-06-m0v2-s13/release-set.sig",
+      "bytes": 513,
+      "sha256": "83431f372b6903e04da7bc3e7367bda12a638e0876bd35c5453df5d59d9d8c2f"
+    },
+    {
+      "path": "drafts/combined-calendar-release-2026-10-06/unsigned-s14/releases/shared-widget-excerpts-2026-09-18-m0v2-s4/modules/daily-cycles-r1-2026.1.2-r3/data/legacy-cycle.sr-Cyrl.json",
+      "bytes": 71899,
+      "sha256": "46aedf8c494dc79dbc6756fbff19d858cec0885218af18af0ce551e004293415"
+    },
+    {
+      "path": "drafts/combined-calendar-release-2026-10-06/unsigned-s14/releases/shared-widget-excerpts-2026-09-18-m0v2-s4/modules/daily-cycles-r1-2026.1.2-r3/data/legacy-cycle.sr-Latn.json",
+      "bytes": 63690,
+      "sha256": "e02c2cdd593d2823e9cabe44e5618ea87746815d1fb3476b2309380237c20b84"
+    },
+    {
+      "path": "drafts/combined-calendar-release-2026-10-06/unsigned-s14/releases/shared-widget-excerpts-2026-09-18-m0v2-s4/modules/daily-cycles-r1-2026.1.2-r3/evidence/widget-excerpt-owner-approval.json",
+      "bytes": 12879,
+      "sha256": "1f6808e6cc226612341c07160fa97960103bce86ba350a612b3c02409fe6a8c9"
+    },
+    {
+      "path": "drafts/combined-calendar-release-2026-10-06/unsigned-s14/releases/shared-widget-excerpts-2026-09-18-m0v2-s4/modules/daily-cycles-r1-2026.1.2-r3/manifest.json",
+      "bytes": 1118,
+      "sha256": "b20e5ff4f29faf3b18b4e1e23d37dd5384a00b9cb54567fb838de71b095a630d"
+    },
+    {
+      "path": "drafts/combined-calendar-release-2026-10-06/unsigned-s14/releases/shared-widget-excerpts-2026-09-18-m0v2-s4/modules/daily-cycles-r1-2026.1.2-r3/manifest.sig",
+      "bytes": 513,
+      "sha256": "33d010da0a599a32b3b8de9dc91f186bd2037629fd8faa783484440c0d591c83"
+    },
+    {
+      "path": "drafts/combined-calendar-release-2026-10-06/unsigned-s14/signing-request.json",
+      "bytes": 49895,
+      "sha256": "08090800e048f7a3c1e92389a61d0ceebdb3e0907ca138b59203b9124fe6b06c"
+    },
+    {
+      "path": "drafts/combined-calendar-release-2026-10-06/unsigned-s14/trusted-public-key.pem",
+      "bytes": 625,
+      "sha256": "9671cc745a71f3b35ac2281bfd4e8da9335db9c6a44beda0ae5cf380b292c1f6"
+    },
+    {
+      "path": "drafts/combined-calendar-release-2026-10-06/verification/receipt.json",
+      "bytes": 51545,
+      "sha256": "701a0c96ebcb14e1ea998d9af131b9547d115e40c3dac63f53382f25c677f4ee"
+    },
+    {
+      "path": "drafts/combined-calendar-release-2026-10-06/verification/targeted-tests.log",
+      "bytes": 2111,
+      "sha256": "22d6ee0a242c1076dec01eb7bd98c5bd847218e5e162c6a088c6b415a1e98a85"
+    },
+    {
+      "path": "drafts/combined-calendar-release-2026-10-06/verify.mjs",
+      "bytes": 5081,
+      "sha256": "8e5f8ec428b11a4e6f91f22c3784719d8d0e9d764b9063dae8c0ffb7dd616b7d"
+    },
+    {
+      "path": "drafts/combined-calendar-release-2026-10-06/verify.test.mjs",
+      "bytes": 10507,
+      "sha256": "057a328979456610a6acbef090d2ff1f09d6ae4dd324af128faa466a86bb9016"
+    },
+    {
+      "path": "drafts/saints104-release-2026-10-06/sign.mjs",
+      "bytes": 9533,
+      "sha256": "f9f15f6aa69ae078dc7c72795c8eb0f16188c25509890bbfd5350f8ceefbd20e"
+    },
+    {
+      "path": "drafts/saints104-release-2026-10-06/public-readback.mjs",
+      "bytes": 6017,
+      "sha256": "63c79ae59feb25504fc3abefcd6f87ba462d3f432014ad20105721f512111a26"
+    },
+    {
+      "path": "approvals/pravoslavno-gospel-2026-10-06/root-ios-s14-compatible-floor.json",
+      "bytes": 4518,
+      "sha256": "f3ae3f72d335e8c4d5413b85fcb025f1c8a3c9b9ac3fdb03a095756ed49e5b85"
+    }
+  ],
+  "preflight": {
+    "state": "EDITORIAL_SIMULATION_ONLY",
+    "runtime_authenticated": false,
+    "profile": "ks01-capacity-366-r1",
+    "saints_articles": 104,
+    "saints_sources": 126,
+    "saints_days": 104,
+    "catalog_sources": 112,
+    "subjects": 93,
+    "observances": 112,
+    "occurrences": 110,
+    "article_links": 93,
+    "feast_memberships": 21,
+    "archive_days": 94,
+    "organizations": 3
+  },
+  "bible_checks": [
+    {
+      "valid": true,
+      "errors": [],
+      "counts": {
+        "quotes": 21,
+        "calendar_readings": 285
+      }
+    },
+    {
+      "valid": true,
+      "errors": [],
+      "counts": {
+        "quotes": 21,
+        "calendar_readings": 285
+      }
+    }
+  ],
+  "revision": "r2",
+  "blocked_until_explicit_root_signing_go": true,
+  "ios_compatibility_confirmation": {
+    "path": "approvals/pravoslavno-gospel-2026-10-06/root-ios-s14-compatible-floor.json",
+    "bytes": 4518,
+    "sha256": "f3ae3f72d335e8c4d5413b85fcb025f1c8a3c9b9ac3fdb03a095756ed49e5b85"
+  },
+  "frozen_r1_handoff_sha256": "1179ff7461e93d454ba43ecf2aae49e23fcc935efc51ebf82a5d73cfe2e318e0",
+  "payload_bytes_identical_to_r1": true
+}

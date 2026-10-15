@@ -1,0 +1,36 @@
+{
+  "schema_version": "svetlost33-source-intake-request-1",
+  "requested_on": "2026-10-06",
+  "user_request": "iskprisi za sada ovaj izvor da dopunimo koliko možemo i napravi task da 10dana pred poslednjeg znanog dnevnog jevanđelja pokrenemo novu pretragu za ovaj izvor i preuzmemo dodatne dnevne rasporede",
+  "source": "https://www.pravoslavno.rs/index.php?q=citanja",
+  "source_name": "Pravoslavno.rs / Pravoslavni podsetnik",
+  "scope": {
+    "year": 2026,
+    "initial_from": "2026-10-06",
+    "initial_requested_through": "2026-11-05",
+    "source_future_limit_days": 30,
+    "content": "Dated Gospel references and explicit service labels only; use already approved local Gospel text",
+    "current_published_baseline": "shared-saints104-2026-10-06-m0v2-s13"
+  },
+  "import_policy": [
+    "Respect site availability, robots and request limits; no horizon bypass",
+    "Match requested date against displayed civil date",
+    "Validate each book/chapter/verse against approved local Gospel corpus",
+    "Preserve all distinct readings and discontiguous ranges",
+    "Keep service unspecified unless explicitly stated by source",
+    "Compare previous accepted snapshot and preserve conflicts, removals and failures separately",
+    "Do not equate this source with Radio Slovo ljubve or official SPC endorsement",
+    "No copied translation/commentary in distributable candidate",
+    "No change to fasting, saints104, old archive assignments, app code, signing or published index in intake stage"
+  ],
+  "followup": {
+    "trigger": "last_contiguous_validated_source_date minus 10 calendar days in Europe/Belgrade",
+    "preferred_local_time": "09:00",
+    "on_success": "Download additional available 2026 dates, compare changes, validate and prepare next reviewable candidate; move this same follow-up to new endpoint minus10days",
+    "on_failure": "Keep last good data; report actionable failure without destructive overwrite or false completion",
+    "scope_end": "2026-12-31; 2027 sources and facts require separate plan",
+    "no_automatic_publication": true
+  },
+  "review_destination": "drafts/pravoslavno-gospel-2026-10-06/",
+  "old_delivery_followup": "svetlost33-objavi-zavr-eno-izdanje remains PAUSED"
+}

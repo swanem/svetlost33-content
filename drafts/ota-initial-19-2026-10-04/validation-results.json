@@ -1,0 +1,70 @@
+{
+  "status": "PASS_INPUT_INVENTORY_ONLY",
+  "original_count": 19,
+  "native_original_copies_hash_matched": 38,
+  "originals_full_decoded": 19,
+  "native_derivatives_full_decoded": 38,
+  "native_derivative_copies_hash_matched": 76,
+  "original_bytes": 48081295,
+  "native_derivative_bytes": 4156764,
+  "negative_probes_passed": 5,
+  "inventory_sha256": "fbe5e0c7a50124b79711cf7b7639928e31f7e4fdcafdacb6fc29bbe13b53ecd1",
+  "decoder": {
+    "sharp": "0.35.4",
+    "vips": "8.18.6"
+  },
+  "wire_validation_run": false,
+  "native_tests_run": false,
+  "publication_go": false,
+  "recorded_on": "2026-10-04",
+  "command": "node drafts/ota-initial-19-2026-10-04/validate-inputs.mjs",
+  "exit_code": 0,
+  "input_pins": [
+    {
+      "path": "svetlost33-content/drafts/ota-initial-19-2026-10-04/source-lock.json",
+      "bytes": 4315,
+      "sha256": "d79af77f3220ab14ad2de85b2b24f4397699896c5b8cd4dd24bee8117776867d"
+    },
+    {
+      "path": "svetlost33-content/drafts/ota-initial-19-2026-10-04/validate-inputs.mjs",
+      "bytes": 12728,
+      "sha256": "d519128d1a9e02c41a18c14537a5d36aaefd8b10c5cd723084027baa362e685e"
+    },
+    {
+      "path": "svetlost33-content/drafts/ota-initial-19-2026-10-04/inventory.json",
+      "bytes": 82445,
+      "sha256": "fbe5e0c7a50124b79711cf7b7639928e31f7e4fdcafdacb6fc29bbe13b53ecd1"
+    }
+  ],
+  "native_source_basis": {
+    "android": {
+      "runtime_commit": "cd27680a56325be346a5657ef12cf7187458e1e1",
+      "delivery_receipt": {
+        "path": "svetlost33-github/docs/evidence/v0.30-bg03-sl01/release-2026-10-04/site-publication.json",
+        "bytes": 3106,
+        "sha256": "ab56b230e51dfa2a457693afa06cdf61f946393f1039e85ce4c0b4d3c2a17bfe"
+      }
+    },
+    "ios": {
+      "runtime_commit": "3ebc6bec0ab730f284dfa5fb2a8e6efa89874066",
+      "delivery_receipt": {
+        "path": "svetlost33-ios-release-2026-10-02/docs/evidence/v0.30-bg03-sl01/release-2026-10-04/root-nemus-delivery36.json",
+        "bytes": 1559,
+        "sha256": "e13c5e50d45af725fc689a4e878d5afa75b4ab2bad1ee2d4ff09a6dc48e397d8"
+      }
+    },
+    "inspection": "git show at the exact delivered release source commits, not native moving working trees. Receipts are root-owned external delivery evidence, not a new device/artifact test by this validator."
+  },
+  "negative_probes": [
+    "extra previous draft image rejected",
+    "missing slava account-holder evidence join rejected",
+    "changed original hash rejected",
+    "BG02 derivative relabelled as OTA thumbnail rejected",
+    "changed bytes rejected by hash"
+  ],
+  "limits": [
+    "No 19-item wire export has been constructed: fixed R3 exporter only accepts25.",
+    "No additional image derivatives generated.",
+    "No production profile/version selection, signature verification, capability activation or native tests performed."
+  ]
+}

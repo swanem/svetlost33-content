@@ -1,0 +1,14 @@
+{
+  "recordedAtUTC": "2026-10-06T15:59:24Z",
+  "remote": "https://github.com/swanem/svetlost33-content.git",
+  "branch": "main",
+  "head": "16f1fe741aaad2450fe66a0832c28c1b3e891502",
+  "indexUrl": "https://raw.githubusercontent.com/swanem/svetlost33-content/main/releases/v2/production/index.json",
+  "httpStatus": 200,
+  "indexBytes": 592,
+  "indexSHA256": "a0d50c23036db203035419f4ba169ddb6005223799ed3ac4e89e03dd9f7733e9",
+  "sequence": 12,
+  "releaseSetId": "shared-calendar-saints-2026-10-02-m0v2-s12",
+  "releaseSHA256": "78142e24f74812be9859b88163203de23517a9ed40a16c0f5ee085e25354255d",
+  "scope": "Fresh public HEAD and exact discovery index readback; not full graph/native validation. Full pinned signature/hash graph validation belongs to candidate loader. Recheck before signing and public activation."
+}

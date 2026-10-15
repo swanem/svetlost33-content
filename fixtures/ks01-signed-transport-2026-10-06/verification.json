@@ -1,0 +1,140 @@
+{
+  "schema_version": "svetlost33-ks01-signed-transport-verification-1",
+  "status": "PASS_SHARED_RSA_RAW_HASH_EXACT_GRAPH_REFERENCE_ONLY",
+  "warning": "TEST_ONLY_LOCAL_RSA_PSS_NOT_PRODUCTION_TRUST_NOT_CONTENT_APPROVAL_NEVER_PUBLISH",
+  "handoff_sha256": "8538fc0aedbfa1ee7c19d6e74f5345cdc09e86cce1913a521111a9d841658304",
+  "trusted_public_key_sha256": "46661aaa8d0e9e0726ec3d432fd1742453a16e209c868e03922a88b84ab5c868",
+  "fixed_test_time": "2026-10-06T12:00:00Z",
+  "assertions": [
+    {
+      "name": "Frozen source and corpus inputs remain byte-identical; only the new output directory was written",
+      "status": "PASS"
+    },
+    {
+      "name": "All four raw signed transport trees validate for new Android/iOS; old test clients reject only expanded releases",
+      "status": "PASS"
+    },
+    {
+      "name": "Every output file is hash-pinned; RSA-PSS rejects altered signed bytes; no context or private-key file is in any transport tree",
+      "status": "PASS"
+    },
+    {
+      "name": "Real unchanged annual/core bytes and all exact saints/catalog/archive bindings form one coherent graph in each signed generation",
+      "status": "PASS"
+    },
+    {
+      "name": "Corpus saints/catalog bytes are exact; only two documented archive manifest hashes change in browser; archive assignments are preserved",
+      "status": "PASS"
+    }
+  ],
+  "assertion_groups": 5,
+  "transport_profiles": [
+    {
+      "dataset": "baseline62",
+      "platform": "android",
+      "result": {
+        "releaseSetId": "test-ks01-baseline62-100",
+        "sequence": 100,
+        "modules": 6,
+        "verifiedModules": 6,
+        "skippedOptionalModules": [],
+        "totalBytes": 5700185
+      }
+    },
+    {
+      "dataset": "baseline62",
+      "platform": "ios",
+      "result": {
+        "releaseSetId": "test-ks01-baseline62-100",
+        "sequence": 100,
+        "modules": 6,
+        "verifiedModules": 6,
+        "skippedOptionalModules": [],
+        "totalBytes": 5700185
+      }
+    },
+    {
+      "dataset": "packageA",
+      "platform": "android",
+      "result": {
+        "releaseSetId": "test-ks01-packagea-101",
+        "sequence": 101,
+        "modules": 6,
+        "verifiedModules": 6,
+        "skippedOptionalModules": [],
+        "totalBytes": 5753171
+      }
+    },
+    {
+      "dataset": "packageA",
+      "platform": "ios",
+      "result": {
+        "releaseSetId": "test-ks01-packagea-101",
+        "sequence": 101,
+        "modules": 6,
+        "verifiedModules": 6,
+        "skippedOptionalModules": [],
+        "totalBytes": 5753171
+      }
+    },
+    {
+      "dataset": "synthetic104",
+      "platform": "android",
+      "result": {
+        "releaseSetId": "test-ks01-synthetic104-102",
+        "sequence": 102,
+        "modules": 6,
+        "verifiedModules": 6,
+        "skippedOptionalModules": [],
+        "totalBytes": 6118206
+      }
+    },
+    {
+      "dataset": "synthetic104",
+      "platform": "ios",
+      "result": {
+        "releaseSetId": "test-ks01-synthetic104-102",
+        "sequence": 102,
+        "modules": 6,
+        "verifiedModules": 6,
+        "skippedOptionalModules": [],
+        "totalBytes": 6118206
+      }
+    },
+    {
+      "dataset": "synthetic366",
+      "platform": "android",
+      "result": {
+        "releaseSetId": "test-ks01-synthetic366-103",
+        "sequence": 103,
+        "modules": 6,
+        "verifiedModules": 6,
+        "skippedOptionalModules": [],
+        "totalBytes": 7599142
+      }
+    },
+    {
+      "dataset": "synthetic366",
+      "platform": "ios",
+      "result": {
+        "releaseSetId": "test-ks01-synthetic366-103",
+        "sequence": 103,
+        "modules": 6,
+        "verifiedModules": 6,
+        "skippedOptionalModules": [],
+        "totalBytes": 7599142
+      }
+    }
+  ],
+  "authentication_basis": "Actual RSA-PSS verification of index/release/manifests and exact raw payload length/hash under a fresh test-only key; no contexts.json/authenticated fixture flags used.",
+  "graph_scope": "Real immutable S12 core data; exact current corpus saints/catalog payloads; browser derivative changes only two core manifest hashes. Full 104/366 linked identities, real calendar dates, preserved archive assignments.",
+  "native_acceptance": false,
+  "production_authorization": false,
+  "private_key_saved": false,
+  "remaining_native_gates": [
+    "Real native signature/fetch/install/project/repository acceptance",
+    "old-client whole-release rejection and compatible generation/preferences retention",
+    "restart/offline/interrupted-update",
+    "native performance gates"
+  ]
+}

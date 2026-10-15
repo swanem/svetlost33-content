@@ -1,0 +1,134 @@
+{
+  "status": "TEST_ONLY_MEASURED_PROPOSAL_REQUIRES_SHARED_DECISION",
+  "saints": {
+    "articles": 366,
+    "bytes": 1572864,
+    "sources": 512,
+    "days": 366
+  },
+  "catalog": {
+    "sources": 512,
+    "subjects": 512,
+    "article_links": 512,
+    "bytes": 1048576,
+    "observances": 512,
+    "occurrences": 2048,
+    "calendar_bindings": 4,
+    "article_bindings": 4
+  },
+  "unchanged": {
+    "browser_bytes": 1048576,
+    "browser_memberships": 128,
+    "source_refs_per_record": 8,
+    "articles_per_day": 8,
+    "m0_document_bytes": 262144,
+    "modules": 16,
+    "files_per_manifest": 512
+  },
+  "rationale": "Coordinator-directed finite shared bounds: exactly 366 articles; catalog sources/subjects/article links use the existing 512 collection scale. Saints 1.5 MiB has 23.5% headroom above the measured 366 fixture; catalog 1 MiB has 15.9%. Counts and raw byte limits are joint constraints, not a promise that all scalar fields can simultaneously reach their maxima. Actual up-to-104 content, native performance and client-gating checks remain release gates.",
+  "warning": "TEST_ONLY_SYNTHETIC_TRUST_AND_REVIEW_NEVER_PUBLISH_NOT_OWNER_APPROVAL",
+  "schema_changes": {
+    "saints": [
+      {
+        "path": "properties.articles.maxItems",
+        "before": 64,
+        "after": 366
+      }
+    ],
+    "catalog": [
+      {
+        "path": "properties.sources.maxItems",
+        "before": 256,
+        "after": 512
+      },
+      {
+        "path": "properties.subjects.maxItems",
+        "before": 256,
+        "after": 512
+      },
+      {
+        "path": "properties.article_links.maxItems",
+        "before": 256,
+        "after": 512
+      }
+    ]
+  },
+  "unchanged_reference_inputs": [
+    {
+      "path": "schemas/saints-v1.schema.json",
+      "bytes": 5488,
+      "sha256": "0a619f79b660683c7a2c7b0f6040eb406872285129d6b632917715e6a355b965"
+    },
+    {
+      "path": "schemas/liturgical-catalog-v1.schema.json",
+      "bytes": 8737,
+      "sha256": "da1b2d0811d91152592483fc5f9e5322b98d0bf905356068e0c78e3e3a595e70"
+    },
+    {
+      "path": "scripts/validate-saints-v1.mjs",
+      "bytes": 9050,
+      "sha256": "4852e2c2e98efdad3a9385ed96f65e07391ce3435a450ef99a801fd366143681"
+    },
+    {
+      "path": "scripts/validate-liturgical-catalog-v1.mjs",
+      "bytes": 18206,
+      "sha256": "bfcab6f5d3ee8b7f8a4ceeef6aa494271172c761075e928a95ff278c1186c6e3"
+    },
+    {
+      "path": "scripts/validate-calendar-browser-v1.mjs",
+      "bytes": 13754,
+      "sha256": "072b23f4e7b2a876580ae68ef0b0229552b2c1779d6ac1a8d62feca1e72b5e42"
+    },
+    {
+      "path": "schemas/calendar-browser-v1.schema.json",
+      "bytes": 4293,
+      "sha256": "f9ac5beb4f96c7fc4ba85e84b6b8a85c78d09a6e10128c6eadac1ef7f5f1ce89"
+    }
+  ],
+  "measured366": {
+    "name": "synthetic-366",
+    "purpose": "TEST_ONLY_SYNTHETIC_TRUST_AND_REVIEW_NEVER_PUBLISH_NOT_OWNER_APPROVAL",
+    "synthetic_articles": 304,
+    "raw_bytes": {
+      "saints": 1273172,
+      "catalog": 904396,
+      "browser": 97941,
+      "calendar": 1665524
+    },
+    "saints_counts": {
+      "articles": 366,
+      "sources": 384,
+      "days": 62,
+      "max_articles_per_day": 6
+    },
+    "catalog_counts": {
+      "sources": 386,
+      "subjects": 384,
+      "observances": 400,
+      "occurrences": 398,
+      "article_links": 377,
+      "calendar_bindings": 1,
+      "article_bindings": 1
+    },
+    "distinct_test_identity_links": 366,
+    "browser_counts": {
+      "memberships": 21,
+      "archive_days": 94
+    },
+    "preserved_original_article_objects": 62,
+    "note": "All 62 original article objects retained unchanged; copied test articles and 366-way identity/source/link load are never real content or publication permission."
+  },
+  "headroom": {
+    "saints_bytes": 299692,
+    "catalog_bytes": 144180,
+    "saints_percent": 23.54,
+    "catalog_percent": 15.94
+  },
+  "release_gates": [
+    "Actual new up-to-104 approved content must be measured against these same limits before release; synthetic104 is not actual content.",
+    "Native same-device timing/memory/projection/startup and offline preservation acceptance remain required.",
+    "First compatible min_clients must be chosen and old-client whole-generation retention proven in native tests."
+  ],
+  "unchanged_production_shapes": true,
+  "production_ready": false
+}

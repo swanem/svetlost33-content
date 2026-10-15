@@ -1,0 +1,9 @@
+{
+  "warning": "TEST_ONLY_SYNTHETIC_TRUST_AND_REVIEW_NEVER_PUBLISH_NOT_OWNER_APPROVAL",
+  "publishable": false,
+  "production_signature": false,
+  "owner_approval": false,
+  "calendar_file": "../common/calendar.2026.json",
+  "calendar_sha256": "a1b6a5d5911ae03f77802bd466227f0c1ea4fe97708b1b6f92cd4b08847c7c9c",
+  "note": "All 62 original article objects retained unchanged; copied test articles and 366-way identity/source/link load are never real content or publication permission."
+}

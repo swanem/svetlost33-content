@@ -1,0 +1,97 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-10-13T06:17:20Z",
+  "user_request": "lista svihbslava treba da se dopuni",
+  "status": "pending_content_candidate_ready",
+  "updated_on": "2026-10-13",
+  "review_document": "PREGLED-DOPUNE-MOJA-SLAVA.md",
+  "content_proposal": "source-review-r1.json",
+  "existing_inventory": "POSTOJECI-KATALOG.md",
+  "candidate_file": "liturgical-catalog-v1.pending-r1.json",
+  "candidate_sha256": "c61a1745749009e19134461740bf8e82e0f510ce253eccbff7c4c6b6d1acae68",
+  "candidate_validation": "candidate-validation-r1.json",
+  "assumed_surface": "Podešavanja → Moj dan → Moja slava",
+  "surface_confirmation": "confirmed_by_user_2026-10-13_Moja_slava",
+  "native_changes": false,
+  "published": false,
+  "editorial_approval": null,
+  "baseline": {
+    "release": "shared-calendar-gospel-2026-10-06-m0v2-s14",
+    "catalog_path": "../combined-calendar-release-2026-10-06-r2/signed-s14-r2/releases/shared-calendar-gospel-2026-10-06-m0v2-s14/modules/liturgical-catalog-v1-2026.10.6-r9/data/liturgical-catalog-v1.json",
+    "catalog_sha256": "0659df40a030557f56a52d87ac79853d28aaaea62838ee52191be990a97cb669",
+    "calendar_path": "../combined-calendar-release-2026-10-06-r2/signed-s14-r2/releases/shared-calendar-gospel-2026-10-06-m0v2-s14/modules/calendar-2026-r1-2026.10.6-r3/data/calendar.2026.json",
+    "calendar_sha256": "299842090189bd44974cb6aabfa8a6af5db4fccdc64e3c556ab4dc60aa1944b4",
+    "subjects": 93,
+    "observances": 112,
+    "occurrences": 110,
+    "complete_saint_list": false,
+    "activation_on_every_installed_device": "not_established_by_this_audit"
+  },
+  "findings": [
+    {
+      "id": "catalog_gaps",
+      "fact": "Existing annual calendar contains names not represented by an identity in the S14 liturgical catalog. A daily title is not the complete list of saints commemorated that day.",
+      "source": "SL-01, baseline payloads",
+      "scope": "Content expansion; no synthetic articles or fabricated identities."
+    },
+    {
+      "id": "no_initial_browse",
+      "fact": "Both search engines return empty_query with no results for an empty query. iOS Moja slava only renders results for a nonempty query.",
+      "android_source": "svetlost33-github/app/src/main/java/app/svetlost33/data/LiturgicalCatalogV1.kt:150",
+      "android_ui_source": "svetlost33-github/app/src/main/java/app/svetlost33/ui/LiturgicalCatalogSearchScreen.kt:18",
+      "ios_source": "svetlost33-ios/Sources/SvetlostCore/LiturgicalCatalog.swift:824",
+      "ios_ui_source": "svetlost33-ios/Svetlost33App/SettingsView.swift:774",
+      "proposed_change": "Accepted planning direction: provide all reviewed selectable observances before typing; typing filters the same verified list. Exact native implementation follows content preparation."
+    },
+    {
+      "id": "search_result_cap",
+      "fact": "Ranked search limits results to 50. Do not treat a ranked search result as a complete catalog list.",
+      "android_truncation_notice": "Not rendered by LiturgicalCatalogSearchScreen.kt; iOS already shows Suzi pretragu.",
+      "proposed_change": "A browse-all view must use a verified uncapped identity projection or explicit paging, not a broad synthetic search query."
+    },
+    {
+      "id": "two_existing_unknown_dates",
+      "observance_ids": ["obs-stefan-decanski", "obs-nektarios-aegina"],
+      "fact": "Existing identities have no confirmed 2026 occurrence in the inspected catalog.",
+      "required_action": "Review canonical date evidence without changing their IDs or deriving a 2027 date."
+    }
+  ],
+  "candidate_gaps_from_existing_annual_calendar": [
+    {"date_in_2026_source": "2026-01-02", "source_title_cyrl": "Св. свештеномученик Игњатије", "source_id": "eparhija-month-01"},
+    {"date_in_2026_source": "2026-01-09", "source_title_cyrl": "Св. првомученик Стефан", "source_id": "eparhija-month-01"},
+    {"date_in_2026_source": "2026-02-14", "source_title_cyrl": "Свети мученик Трифун", "source_id": "eparhija-month-02"},
+    {"date_in_2026_source": "2026-03-22", "source_title_cyrl": "Светих 40 мученика Севастијских – Младенци", "source_id": "eparhija-month-03"},
+    {"date_in_2026_source": "2026-05-08", "source_title_cyrl": "Свети апостол и јеванђелист Марко – Марковдан", "source_id": "eparhija-month-05"},
+    {"date_in_2026_source": "2026-05-12", "source_title_cyrl": "Свети Василије Острошки Чудотворац", "source_id": "eparhija-month-05"},
+    {"date_in_2026_source": "2026-06-28", "source_title_cyrl": "Свети мученик Кнез Лазар и сви Св. муч. српски – Видовдан", "source_id": "eparhija-month-06"},
+    {"date_in_2026_source": "2026-07-14", "source_title_cyrl": "Свети мученици и бесребреници Козма и Дамјан", "source_id": "eparhija-month-07"},
+    {"date_in_2026_source": "2026-08-02", "source_title_cyrl": "Свети пророк Илија – Илиндан", "source_id": "eparhija-month-08"},
+    {"date_in_2026_source": "2026-08-09", "source_title_cyrl": "Свети великомученик Пантелејмон", "source_id": "eparhija-month-08"},
+    {"date_in_2026_source": "2026-09-22", "source_title_cyrl": "Свети праведни богородитељи Јоаким и Ана", "source_id": "eparhija-month-09"}
+  ],
+  "additional_identity_review": [
+    {"requested_name_cyrl": "Свети апостол и јеванђелист Лука", "reason": "Primary parish source explicitly records Luke on 2026-10-31 alongside Peter of Cetinje. Proposed addition and evidence are in source-review-r1.json; no runtime approval has been recorded."}
+  ],
+  "candidate_status": "Exact additive draft prepared and structurally validated. It contains 124 observances and 124 occurrences, remains pending and is rejected for runtime activation. Exact content acceptance has not been recorded.",
+  "work_sequence": [
+    "Completed: user confirmed Moja slava; existing inventory and first additive proposal prepared for review.",
+    "Review all twelve months and additional commemorations from church sources. Preserve existing IDs and distinguish multiple observances of the same saint.",
+    "Prepare one shared additive catalog candidate with canonical and familiar names in Cyrillic and Latin, source evidence and explicit date status. Do not require a biography or an image.",
+    "Present the exact candidate changes for the single shared editorial approval. Do not change approved/signed originals.",
+    "After content acceptance and confirmed UI scope, original Android and iOS owners implement only the necessary full-list/search changes, sequential builds and targeted tests.",
+    "Validate query/name parity, distinct observances, full-list completeness, offline behavior, selection/removal and preservation of existing slava/settings. No performance benchmark.",
+    "Sign and publish only through the existing release process with exact content approval and real acceptance evidence."
+  ],
+  "constraints": [
+    "No claim of a universal complete list before its coverage is established.",
+    "No automatic 2027 occurrence inference, changes to fasting or Gospel schedules.",
+    "No new biographies, images, analytics, reminders, loader or performance work.",
+    "Existing choices, identities, signatures, migrations, source approvals and unrelated modifications remain intact.",
+    "Root remains native read-only; original MVP chats own native implementation."
+  ],
+  "live_source_check": {
+    "checked_on": "2026-10-13",
+    "october": {"url": "https://www.eparhija.at/kalendar?m=2026-10", "status": "accessible", "complete_saint_list_established": false},
+    "january_may_august": {"status": "not_accessible_via_web_tool_in_this_turn", "effect": "Use prior hash-pinned evidence only as an inventory input, not as a new live review."}
+  }
+}

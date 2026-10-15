@@ -1,0 +1,116 @@
+{
+  "schema_version": "svetlost33-local-test-fixture-handoff-1",
+  "status": "LOCAL_TEST_FIXTURES_READY_NOT_NATIVE_OR_PRODUCTION_GO",
+  "created_on": "2026-10-05",
+  "scope": "One shared signed N/N+1 fixture set plus a small synthetic revocation variant; exact approved 19 media assets and exact S12 core payloads.",
+  "staging_root": "/var/folders/cf/rml65hmd6t771hjy4368hngc0000gn/T/svetlost33-media19-shared-test-only-XttKY0",
+  "inventory": {
+    "path": "fixture-inventory.json",
+    "bytes": 55109,
+    "sha256": "6923c9015bb525361b70c18f3c5ce9f127a2716e94c0a6a4935be7a82717c95b",
+    "identical_to_staged": "TEST-ONLY-FIXTURE-SET.json",
+    "contains": "Exact SHA-256 and length of all 89 files per variant, source core payloads, six real M0 validator results and three reference metadata transition results."
+  },
+  "source_pins": {
+    "production_s12_index": "a0d50c23036db203035419f4ba169ddb6005223799ed3ac4e89e03dd9f7733e9",
+    "production_s12_release_set": "78142e24f74812be9859b88163203de23517a9ed40a16c0f5ee085e25354255d",
+    "production_public_key_only": "9671cc745a71f3b35ac2281bfd4e8da9335db9c6a44beda0ae5cf380b292c1f6",
+    "approved19_m4_inventory": "b94c69fa69bf6bd292043baa695e6aa24a1242c2da58a40607e6808926892f30",
+    "pinned_m4_input_with_frozen_dependencies": "4134daa6b15266b6efe35c08c53cebcfd1d9c11be193b45329662297fee8748f",
+    "existing_m0_validator": "61eecde6660e71aa1fa28c861257d29ad195a82d3d766b86126a01216fed11ae"
+  },
+  "variants": [
+    {
+      "name": "N",
+      "relative_root": "n",
+      "test_sequence": 1,
+      "release_set_id": "test-only-media19-n",
+      "index_sha256": "f243e9e55797a8776e55d44c920a1e14d57e0b317d5ce3c97eee7e65e1ad4f1c",
+      "release_set_sha256": "13f3fc3e2da05c2f6982eca8bee06c6923c0a7bc6471d1d7563d6d62bf001408",
+      "catalog_sha256": "e9aae8ae11e5aa45885c4d51c08ac2eed92a6a2e3c3cd39236876e7c6b947d43",
+      "all_transport_files_bytes": 55181838,
+      "meaning": "Initial media metadata adoption in an isolated empty test store."
+    },
+    {
+      "name": "N+1",
+      "relative_root": "n-plus-one",
+      "test_sequence": 2,
+      "release_set_id": "test-only-media19-n-plus-one",
+      "index_sha256": "a8fbe51713bfc7d0efc002185112ec982aeed646c9bc1b2db434e043d589f5d9",
+      "release_set_sha256": "abeee1a851101c9d445a99a571a024c018b03d5bdf70db8f7d91aca70bd77a4e",
+      "catalog_sha256": "eb038ee8b1ec23629125ae7cda1e3741f68dfcdc85e05156e7822a0daede5a7b",
+      "all_transport_files_bytes": 55181852,
+      "meaning": "Same media manifest and all 38 image records; only catalog approval_join metadata changes, with corresponding signed policy/evidence rebind and sequence/revision increment. No title, date, saint, rights or image fact changes."
+    },
+    {
+      "name": "N+2 synthetic revocation",
+      "relative_root": "n-plus-two-revocation",
+      "test_sequence": 3,
+      "release_set_id": "test-only-media19-n-plus-two-revocation",
+      "index_sha256": "49030029188ae60afee2ce666d3aec4320a0a53ae5f0a5c6056b4cae84708828",
+      "release_set_sha256": "9d8f8b19a071f066e6f93b76f927ad7a8b0c13d3cbe99ebc31caba2416d0f8eb",
+      "catalog_sha256": "146def551253aad9c5b5efaa96c0907b50c91b151e26a5e43c572c43b634f3f0",
+      "all_transport_files_bytes": 55182329,
+      "meaning": "TEST ONLY: a cumulative, global slava-default tombstone and withdrawn catalog item. This is not a real owner decision or rights withdrawal. Fresh and N→N+1→N+2 reference outcomes match."
+    }
+  ],
+  "shared_payload": {
+    "modules_per_variant": 9,
+    "signed_documents_per_variant": 11,
+    "signature_scheme": "RSA-2048 PSS / SHA-256 / MGF1-SHA256 / salt length 32",
+    "payload_files_per_variant": 66,
+    "unchanged_s12_payload_files": 21,
+    "required_policy_json_files": 7,
+    "optional_media_files": 38,
+    "originals": 19,
+    "thumbnails": 19,
+    "media_bytes": 49398385,
+    "same_signed_media_manifest_sha256": "18c468c625569560476957edbf801a5718601968766a990305dc9e307d97e63f",
+    "transport_files_per_variant_including_public_key": 89,
+    "preserved": "All seven S12 module IDs, versions, revisions, dependencies, capabilities and raw payloads. Only their manifest key_id/signatures and transport locations are rebound to the test key. Original 19 media bytes, stable IDs, titles, captions, default day1–day7 membership and null calendar bindings are unchanged."
+  },
+  "test_trust": {
+    "key_id": "test-only-media19-shared-key",
+    "public_pem_path": "TEST-ONLY-PUBLIC-KEY.pem",
+    "public_pem_sha256": "9468f40380e2675f3a88119e33f7d60f769737a13c385b7b029eda9f7009c47c",
+    "public_spki_der_at_staging_root": "TEST-ONLY-PUBLIC-KEY.spki.der",
+    "public_spki_der_sha256": "39d78c77ca9bf5daafebc4316bac001c53dfbe9347399a5c5290c37086332216",
+    "channel": "development",
+    "min_clients": { "android": 1, "ios": "0.0.1" },
+    "fixture_evaluation_time": "2026-10-05T12:00:00Z",
+    "test_index_validity": ["2026-10-05T00:00:00Z", "2026-11-05T00:00:00Z"],
+    "production_private_key_accessed": false,
+    "private_test_key_exported_written_or_logged": false,
+    "note": "One ephemeral RSA KeyObject was generated in the builder process. It was never exported or returned; the process has ended. Inject the public key through a controlled test harness, never trust a public key downloaded from fixture transport."
+  },
+  "actual_validation": {
+    "source_s12": "Existing real RSA verifier accepted the original production index, release set, seven manifests, exact payloads and graph using only its pinned public key.",
+    "fixture_m0_profiles": "6/6 PASS: three signed variants × android/ios contexts; all nine modules active, schema/dependency/hash/length/budget checks and actual Sharp full image decode.",
+    "targeted_tests": "15/15 PASS, zero skipped, 1183.761334 ms. Read-only stage readback, 33 detached signatures, source preservation, exact graph, full R2 image structure/decode once for all 38 files, N/N+1 transitions, fresh/upgrade revocation, rollback/checkpoint-loss/tamper and real M0 wrong-key/channel/client/capability/replay rejection.",
+    "log": { "path": "targeted-tests.log", "bytes": 1632, "sha256": "a73ea9aafa875ad88102216afb3e92d45a6516bb13b4e7ed688b3d71ca13a9b6" },
+    "native_or_network_acceptance": false
+  },
+  "commands": {
+    "working_directory": "/Users/nemanjaveselic/Documents/ChatGPT/Projects/svetlost33-content",
+    "verify_exact_delivered_set": "MEDIA19_FIXTURE_ROOT=/var/folders/cf/rml65hmd6t771hjy4368hngc0000gn/T/svetlost33-media19-shared-test-only-XttKY0 node --test drafts/ota-shared-fixtures-2026-10-05/builder.test.mjs",
+    "rebuild_new_key_and_new_shared_set_only_if_needed": "node drafts/ota-shared-fixtures-2026-10-05/builder.mjs",
+    "optional_existing_m4_stage_override": "node drafts/ota-shared-fixtures-2026-10-05/builder.mjs --media-stage /var/folders/cf/rml65hmd6t771hjy4368hngc0000gn/T/svetlost33-media19-m4-dsU3D5",
+    "warning": "Every rebuild generates a different ephemeral key and randomized RSA-PSS signatures. Both OS owners must consume the SAME delivered stage and public key, not build independently. No server was started."
+  },
+  "remaining_native_test_mapping": [
+    "Inject only the test public key, development channel, explicit fixture clock/client context and existing dormant capabilities in isolated native test stores; do not reset a production S12 high-water or modify production config.",
+    "Later route index.json, index.sig and their signed relative paths from the chosen variant through the actual native host/transport adapter. These local files alone do not prove HTTP/HTTPS, range/redirect, cancellation or platform delivery behavior.",
+    "Native M2/M5 must verify metadata adoption and image installation separately, persist exact actual F2 authority/receipt identities, and prove N+1 does not reuse an old catalog receipt merely because image hashes match.",
+    "Synthetic N+2 must exercise global tombstone behavior, checkpoint persistence and recovery; the shared reference checks are not a native restart, filesystem or reader test.",
+    "Fixture payloads are regular-file hardlinks only within their fresh staging root. Copy into a separate test sandbox before any destructive fault injection; never alter the shared fixtures in place."
+  ],
+  "source_files": [
+    { "path": "builder.mjs", "bytes": 18529, "sha256": "d837d8fd9adc68190b27797d84ab81159d0a6aa9c061a499ac38d29270149a9a" },
+    { "path": "builder.test.mjs", "bytes": 13088, "sha256": "31742250b0b8f98314ad26903a8dab62f4c2e5dc49ed00c86040a9c8547bf823" }
+  ],
+  "production_release_sequence_reserved": false,
+  "production_capability_or_native_code_changed": false,
+  "frozen_contracts_changed": false,
+  "publication_or_network_performed": false,
+  "automatic_next_stage": false
+}

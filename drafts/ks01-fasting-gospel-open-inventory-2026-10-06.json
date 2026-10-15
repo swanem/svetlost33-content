@@ -1,0 +1,35 @@
+{
+  "schema_version": "svetlost33-ks01-fasting-gospel-open-inventory-1",
+  "recorded_at_utc": "2026-10-06T07:20:57Z",
+  "status": "PINNED_BASELINE_INVENTORY_NO_NEW_CALENDAR_FACTS",
+  "window": ["2026-10-09", "2026-12-31"],
+  "days": 84,
+  "source": {
+    "path": "fixtures/ks01-capacity-2026-10-06/generated/common/calendar.2026.json",
+    "sha256": "a1b6a5d5911ae03f77802bd466227f0c1ea4fe97708b1b6f92cd4b08847c7c9c",
+    "basis": "Exact immutable S12 annual payload copied into the shared fixture; existing observations only, not a fresh source lookup."
+  },
+  "fasting": {
+    "existing_status_counts": {"FAST": 49, "NON_FAST": 35},
+    "existing_rule_counts": {"UNKNOWN": 28, "NONE": 35, "OIL": 1, "FISH": 11, "WATER": 9},
+    "unknown_rule_dates": [
+      "2026-10-09", "2026-10-14", "2026-10-16", "2026-10-21", "2026-10-23", "2026-10-28", "2026-10-30",
+      "2026-11-04", "2026-11-06", "2026-11-11", "2026-11-13", "2026-11-18", "2026-11-20", "2026-11-27",
+      "2026-12-01", "2026-12-03", "2026-12-04", "2026-12-07", "2026-12-08", "2026-12-10", "2026-12-15",
+      "2026-12-17", "2026-12-18", "2026-12-24", "2026-12-25", "2026-12-29", "2026-12-30", "2026-12-31"
+    ],
+    "reason": "All 28 retain prior unresolved differing observations between svetosavlje-annual-engine and the corresponding eparhija-month-10/11/12. Read each date's fasting.observations for exact raw rules. Known FAST status is not a confirmed fasting rule.",
+    "next_gate": "A dated applicable authoritative source and explicit reconciliation of the disagreement, then a separate reviewed annual-content candidate. No rule inferred from a saint's feast."
+  },
+  "gospel": {
+    "unresolved_count": 84,
+    "unresolved_dates": "Every civil date in the inclusive window 2026-10-09 through 2026-12-31, without gaps.",
+    "production_eligible_count": 0,
+    "existing_reason": "source_content_not_entered_or_missing",
+    "next_gate": "Confirm dated service-assigned references and their exact canonical corpus bounds. Radio proposals alone are not liturgical reading approval."
+  },
+  "does_not_block_saints_packages": true,
+  "calendar_or_archive_bytes_changed": false,
+  "new_facts_approved": false,
+  "published": false
+}

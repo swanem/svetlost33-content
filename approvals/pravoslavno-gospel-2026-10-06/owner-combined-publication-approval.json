@@ -1,0 +1,32 @@
+{
+  "schema_version": "svetlost33-editorial-publication-approval-1",
+  "recorded_at_utc": "2026-10-06T18:15:09Z",
+  "status": "USER_APPROVED_EXACT_COMBINED_CONTENT_PUBLICATION_AFTER_FINAL_NATIVE_CHECKS",
+  "user_answer_exact": "odobravam",
+  "question_answered": "Odobravaš li ovaj objedinjeni sadržaj za objavu nakon završnih provera obe aplikacije?",
+  "presented_scope": "Kalendar i svetitelji do31.decembra uz104 postojeća teksta; dnevna Jevanđelja06.oktobar–05.novembar,33odlomka za31dan; jedna zajednička objava. Nacrt proveren, nije objavljen. Dopuna izvora26.oktobra09:00.",
+  "scope": "A23+B19 calendar dates with40 new approved-article links and2 existing links reused, preserving all104 S13 article objects and year-end links;31 exact Pravoslavno publisher-reference operations with33 readings; no later Gospel assignments invented.",
+  "approval_id": "owner-combined-calendar-gospel-2026-10-06",
+  "pins_verified_by_root": {
+    "combined_handoff": "a7d8aa97ce1af0710029c145c1d156a17976638db7473f645238b8f8aa48bb57",
+    "combined_operation_manifest": "6a6381ab117069e91d3ab63050da9b42607cb084345a70255ca1ec386c3e6561",
+    "catalog_pending": "255d2e902d91a596252e2426e70cd530f3c2517194fc35ec48b6e638a4a30c21",
+    "browser_pending": "11a1af5d008047556ac18e27dea72950ea0daf6f1cb42259bee90a236585bf24",
+    "root_combined_review": "a1f6fb1997a9c2ea9cc246e2367d62ab82489dcba52a70077409f357b6eea476",
+    "source_intake_candidate": "fb4ed9f299fce8c8ee411815c5c2c68884c68e0c9468c4437c3c044f82a5ae1c",
+    "public_S13_readback": "e6bce373760da88996bf2df0a789ff853eef483e12a9d393608106d149f9c700"
+  },
+  "authorized_transformations": [
+    "Make an approved copy of pinned pending catalog/browser records and apply exact31 Gospel operations to an S13 annual copy",
+    "Mark only reviewed new metadata and recorded publisher-reference eligibility approved with this real approval ID; do not claim complete service schedule",
+    "Regenerate final versions/revisions, calendar-to-saints-to-catalog-to-browser bindings, manifests and signed release-set dependencies",
+    "Preserve all article bodies, other calendar fields, fasting, old observations, unresolved future dates, existing memberships and archive choices",
+    "Publish one combined content release after exact native acceptance and verify ordinary public download"
+  ],
+  "source_basis": "User-selected Pravoslavno.rs date/reference observations; existing approved local Vuk/eBible text remains the only rendered translation. No imported website translation/commentary, public-domain assertion or independent legal/clergy endorsement.",
+  "preserve_original_pending_drafts": true,
+  "excluded": ["new prose or translations", "new images or OTA backgrounds", "2027 facts", "speed optimization or366", "new app build/device install/site update", "keys or ACL changes", "automatic publication of future source snapshots"],
+  "remaining_gates": ["Exact complete combined graph and binding review", "Original Android/iOS owner acceptance with sequential build slots", "Existing signing process", "Fresh remote baseline check and atomic publication", "Public readback"],
+  "signed": false,
+  "published": false
+}

@@ -10,3 +10,8 @@ node_modules/
 *.tar.gz
 dist/
 build/
+# Local v0.28 transport test trees duplicate the immutable release graph.
+approvals/calendar-browser-2026-09-27/unsigned-s10/
+approvals/calendar-browser-2026-09-27/signed-s10/
+approvals/calendar-browser-2026-09-27/unsigned-s10-r2/
+approvals/calendar-browser-2026-09-27/signed-s10-r2/

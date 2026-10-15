@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "status": "ROOT_ACCEPTED_IOS42_AND_EXACT_SIGNED_S14_BOUNDED_NATIVE_PROOF",
+  "recorded_at_utc": "2026-10-06 21:19:22 UTC",
+  "artifact_source": "473f5d926a9f15ba481d77b661c8e9629e53ecd6",
+  "test_source": "d5319f9747dcef487bc79532330bcfa6111a7cab",
+  "owner_evidence": "fa50c142a5ead5caca0e7940abfcd80afd574b2a",
+  "owner_handoff_sha256": "b3670627b2066de3c8d6fc3b03e73e848056d385c7029646a84a693d02ca2926",
+  "app_version": "0.1.15",
+  "build": 42,
+  "app_path": "/private/tmp/svetlost33-ios-s14-build42-dd/Build/Products/Release-iphoneos/Svetlost33.app",
+  "app_sha256": "3f6f80a4c4c2e0e2bbe8d7a8420eb714aa1066bb9cded87c0b08eee10fd19735",
+  "widget_sha256": "cecceb78f2a6545687460a69dfb75d52de9596589b8476765a8d4599e208f73d",
+  "signed_S14_index_sha256": "3dfef0768a2862e4709276114dec8f5817189bd4b833192b33aa6b0e889d4f1b",
+  "signed_S14_release_sha256": "86f105fbb95e4188565415b3184e3f160fa36b8cbd4a2dcc5b891df6ad0c6025",
+  "checks": {
+    "root_parser_shape": "4/4 independent focused PASS as previously recorded; not rerun",
+    "owner_actual_signed_transition": "1/1 PASS19.376s; raw log and exact input identity verified by root",
+    "test_sha256": "b79c9abdd36d933e8893e7c93a1735582f577865520716ef4fe9246614993242",
+    "log_sha256": "b7ae5ba180b477a849149c6393e072b719f71ea2227359e93ace9f3daaeb4efe",
+    "runtime_project_resource_trees_equal_across_test_only_delta": true,
+    "root_InfoPlist_readback": "0.1.15/42",
+    "root_artifact_hashes_match": true,
+    "root_codesign_deep_strict": "PASS with existing system Apple Development trust context",
+    "sandbox_initial_failure": "Restricted process returned CSSMERR_TP_NOT_TRUSTED; same exact bytes pass system-context codesign. No certificate/key changes.",
+    "independent_source_review": "Actual RSA-PSS + installer, no model bypass. Retained S13 calendar accessor assertion added; active snapshot/corpus/restart verified."
+  },
+  "scope_limits": [
+    "Portable core consumer-snapshot/corpus proof, not AppModel UI/WidgetKit-process/physical E2E",
+    "Minimum0.1.14 rejection is validator-only; malformed signature installer rejection preserves S13 and local state"
+  ],
+  "nemus": {
+    "udid": "00008140-00020C190EF1801C",
+    "state": "unavailable",
+    "last_installed": "0.1.14(41)",
+    "installed42": false,
+    "attempted_install42": false,
+    "device_json": "/private/tmp/svetlost33-s14-devices-20261006-system.json",
+    "question_sent_once": true
+  },
+  "build_slot": "Released by iOS; now assigned Android targeted test",
+  "native_code_modified_by_root": false,
+  "content_published": false,
+  "site_published": false
+}

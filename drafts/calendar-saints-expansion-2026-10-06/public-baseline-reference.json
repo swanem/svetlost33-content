@@ -1,0 +1,12 @@
+{
+  "path": "../svetlost33-github/docs/contracts/calendar-saints-expansion-2026-10-06/public-baseline-s12-2026-10-06.json",
+  "bytes": 12742,
+  "sha256": "4c75bc9c1721ca677d11d256f15159d81c683eef68baa641b0ba24b10182de28",
+  "status": "COORDINATOR_PUBLIC_S12_READBACK_PASS",
+  "completed_at": "2026-10-06T05:38:01.241Z",
+  "verified_files": 50,
+  "profile_checks": 24,
+  "candidate_approval": false,
+  "candidate_publication": false,
+  "native_acceptance": false
+}

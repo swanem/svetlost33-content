@@ -1,0 +1,113 @@
+{
+  "schema_version": "svetlost33-ks01-block2-root-content-review-1",
+  "reviewed_on": "2026-10-06",
+  "reviewer": "root independent content-review subagent",
+  "status": "BOUNDED_SOURCE_CONTENT_NO_P1_P2_BLOCKER_NOT_APPROVAL",
+  "scope": "Frozen block2: all 21 dates from 2026-12-11 through 2026-12-31, article identities, source links, both scripts, original prose and separate editorial takeaways; preservation and exact references in standalone and combined in-memory previews. No native/runtime/publication review.",
+  "frozen_handoff": {
+    "path": "handoff.json",
+    "sha256": "54bb0a1475199c0aa0884c7a32409ca0aef9033967d4055c14717751b5f1cc8d"
+  },
+  "frozen_artifacts": [
+    { "path": "manuscript.mjs", "bytes": 41703, "sha256": "098ce6a584e45c0bb9ea2e6ee7c9445839be141f85d054bdf4deb4c72a62769e" },
+    { "path": "prepare.mjs", "bytes": 17691, "sha256": "25a72a03e7f8e84b70a73ddd62a6e3594e1b71e4f4605f385eecb3e7254bd2c4" },
+    { "path": "verify.mjs", "bytes": 11003, "sha256": "bd8ea5ccb9bffc28dc546253368068707241cd7d14f6c50e6968ea71448f43ea" },
+    { "path": "master.json", "bytes": 130925, "sha256": "4f0373511527c47876cb50fd390b47f9159842cad2776a1436ab13b528aa495e" },
+    { "path": "delta.json", "bytes": 79173, "sha256": "c4f563433a916885f6c730d873f32cc76730a18226649bb612dff1865480b4e4" },
+    { "path": "sources.json", "bytes": 13417, "sha256": "e13a6e416bd6701aab3eff13a2f927c3f39eea0e4a27cc287ae3964d20f29a47" },
+    { "path": "validation.json", "bytes": 5586, "sha256": "33f649afdfae34bc2b15d9223fc4d403bce18686aa26648bd1f55056dd6b0a61" }
+  ],
+  "frozen_block1_handoff_sha256": "13e19c3406397d5bf30ab0e03c8e060d4ae8fafd1be38583b76dc18615777ca1",
+  "method": {
+    "local_check": "node drafts/saints-year-end-block2-2026-10-06/verify.mjs --check",
+    "local_check_result": "10/10 PASS",
+    "independent_checks": [
+      "Rehashed block2 handoff and all seven artifacts against frozen pins; prepare also asserts all eight immutable block1 handoff/artifact pins.",
+      "Read all Cyrillic manuscripts and all Latin outputs. Directly opened and read all 23 cited primary church pages: 21 OCA pages, Mitropolija and Manastir Gornjak. All-lives references reviewed at their relevant sections, including both martyr narratives for December 27.",
+      "Checked all 21 date, Julian-date, calendar-title and source-ID mappings against exact pinned annual rows. Website commemoration dates are cross-checks only, not occurrence-generation authority.",
+      "Independently deep-compared original article/day/source prefixes and untouched saints/catalog/browser fields in both previews; block1 article and catalog prefixes preserved in combined preview.",
+      "Independently resolved catalog article links to observances, article bindings and article IDs, resolved all saints day article IDs, and recomputed saints-to-catalog and catalog-to-browser byte hashes.",
+      "Checked master and per-row owner/clerical/rights gates, signed=false and published=false."
+    ],
+    "web_access_date": "2026-10-06",
+    "source_registry": "sources.json (exact frozen hash above); each row below was compared to every source linked by that article in master.json.",
+    "web_limitations": "Page text extracts were read, not raw HTML snapshots. No original-response SHA or independent HTTP-status receipt claimed. Source access is not copyright permission or church endorsement."
+  },
+  "results": {
+    "dates": 21,
+    "articles": 21,
+    "primary_source_pages_read": 23,
+    "words_per_script": { "minimum": 113, "maximum": 123, "policy": "intro + body + separately stored takeaway; title excluded" },
+    "scripts": "Exact Serbian Cyrillic-to-Latin parity and consistent meaning; all new takeaways separately stored and clearly editorial, not attributed quotations.",
+    "semantic_quality": "No concrete P1/P2 identity, source-fidelity, date-mapping or semantic defect found. No copied source passage identified in this bounded comparison. Tradition is distinguished from independently established history where material; no medical guarantees, graphic martyrdom retellings or invented unknown biographical details.",
+    "original_articles_preserved": 62,
+    "original_days_preserved": 62,
+    "original_sources_preserved": 80,
+    "prior_pending_block1_articles_preserved": 21,
+    "new_pending_block2_articles": 21,
+    "combined_preview": {
+      "articles": 104,
+      "days": 104,
+      "sources": 126,
+      "approved_original_articles": 62,
+      "pending_new_articles": 42,
+      "saints_bytes": 399113,
+      "saints_sha256": "34aaa713f61e57990b0d3f85e62c69f5bda661f4db08f569cf6a9d6635006832",
+      "catalog_bytes": 159604,
+      "catalog_sha256": "cca6c025c025797f5e0bcc50b89903bbedaa9d10ad094eccfc1335b529d8d7e0",
+      "browser_bytes": 97906,
+      "browser_sha256": "cf12a20df56122ec1130017841a7d6d2de90af934463e1054cc257c0c98dd8e7",
+      "result": "PASS_IN_MEMORY_PENDING_GRAPH_NOT_PUBLISHABLE_RELEASE"
+    },
+    "base_saints_payload_sha256": "ca3e4fd02ca79e97d53e0e456b2ccaaeb81ebc3b740a71b3eb72049bf01331b5",
+    "base_annual_payload_sha256": "a1b6a5d5911ae03f77802bd466227f0c1ea4fe97708b1b6f92cd4b08847c7c9c",
+    "scope_preservation": "S12 raw data, original62, block1, annual dates/facts, calendar binding, browser/archive membership and pre-existing catalog records preserved. Calendar source reviewed_on remains 2026-09-15. No new annual-site fetch, fasting/Gospel rule, 2027 claim or hidden approval."
+  },
+  "row_reviews": [
+    { "date": "2026-12-11", "article_id": "stephen-new-confessor", "result": "NO_P1_P2", "note": "Auxentios mountain icon-veneration confessor, not a Serbian ruler or Stephen the Protomartyr." },
+    { "date": "2026-12-12", "article_id": "paramon-philumenus-commemoration", "result": "NO_P1_P2", "note": "Both separate primary lives support the two accounts. Calendar group does not claim common travel, location or martyrdom event." },
+    { "date": "2026-12-13", "article_id": "andrew-first-called-apostle", "result": "NO_P1_P2", "note": "Bethsaida, Peter relationship and Patra narrative supported; uncertain route and relic-date details omitted." },
+    { "date": "2026-12-14", "article_id": "nahum-prophet", "result": "NO_P1_P2", "note": "Old Testament prophet distinct from Nahum of Ohrid; sparse biography not invented." },
+    { "date": "2026-12-15", "article_id": "habakkuk-prophet", "result": "NO_P1_P2", "note": "Prophet distinct from Serbian martyr; Daniel feeding narrative and fourth ode supported, without adding calendar readings." },
+    { "date": "2026-12-16", "article_id": "zephaniah-prophet", "result": "NO_P1_P2", "note": "Josiah/Jeremiah context and prophetic exhortation supported; no invented family detail." },
+    { "date": "2026-12-17", "article_id": "barbara-heliopolis-martyr", "result": "NO_P1_P2", "note": "Barbara identity preserved; source's Juliana mention does not silently add a calendar occurrence. Takeaway does not glorify enduring abuse without support." },
+    { "date": "2026-12-18", "article_id": "sabbas-sanctified", "result": "NO_P1_P2", "note": "Cappadocian/Palestinian monastic identity explicitly separate from Saint Sava of Serbia." },
+    { "date": "2026-12-19", "article_id": "nicholas-myra-december", "result": "NO_P1_P2", "note": "Exactly one existing subject/observance/occurrence reused: saint-nicholas-myra / obs-nicholas-december / occ-obs-nicholas-december-2026. Existing aliases preserved; new article not linked to relics-transfer observance." },
+    { "date": "2026-12-20", "article_id": "gregory-gornjak", "result": "NO_P1_P2", "note": "Both official sources support Gornjak/Zdrelo, Lazar, monastic work and relics. Uncertain repose place/year deliberately omitted; no invented date requested. Excluded question does not block this bounded summary." },
+    { "date": "2026-12-21", "article_id": "patapius-thebes", "result": "NO_P1_P2", "note": "Egyptian Thebes and Blachernae identity supported; healings attributed to life, not medical promises." },
+    { "date": "2026-12-22", "article_id": "conception-theotokos-by-anna", "result": "NO_P1_P2", "note": "Conception of the Theotokos by Anna, not conception of Anna or an Annunciation article. New feast with null subject, distinct from the preserved September joachim-and-anna group article; tradition and compassionate takeaway clearly separated." },
+    { "date": "2026-12-23", "article_id": "menas-hermogenes-eugraphus-alexandria", "result": "NO_P1_P2", "note": "Source supports shared Alexandrian narrative and separate roles; not the Egyptian soldier Menas of block1." },
+    { "date": "2026-12-24", "article_id": "daniel-stylite-constantinople", "result": "NO_P1_P2", "note": "Stylite distinct from prophet Daniel; no unsafe directive to imitate extreme asceticism." },
+    { "date": "2026-12-25", "article_id": "spyridon-tremithus", "result": "NO_P1_P2", "note": "Cypriot bishop narrative supported; council participation framed through tradition; source's fasting anecdote not turned into a rule." },
+    { "date": "2026-12-26", "article_id": "eustratius-sebaste-martyr", "result": "NO_P1_P2", "note": "Eustratius distinct from Eustathius; companions provide narrative context without unapproved additional occurrence creation." },
+    { "date": "2026-12-27", "article_id": "thyrsus-leucius-philemon-apollonius", "result": "NO_P1_P2", "note": "Both source sections read. Bithynian and Egyptian events explicitly distinguished; no false joint martyrdom; this Philemon not the apostle of block1." },
+    { "date": "2026-12-28", "article_id": "eleutherius-illyria-hieromartyr", "result": "NO_P1_P2", "note": "Roman/Illyrian hieromartyr identity supported; age/ordination chronology not fabricated." },
+    { "date": "2026-12-29", "article_id": "haggai-prophet", "result": "NO_P1_P2", "note": "Darius and Second Temple message supported; unknown personal details and burial certainty omitted." },
+    { "date": "2026-12-30", "article_id": "daniel-prophet", "result": "NO_P1_P2", "note": "Biblical prophet and lions narrative distinguished from stylite Daniel; no new liturgical-reading assignment." },
+    { "date": "2026-12-31", "article_id": "sebastian-rome-martyr", "result": "NO_P1_P2", "note": "Roman martyr, Gaul/Milan and Irene recovery narrative supported; not Sebastian Dabovich; graphic details omitted." }
+  ],
+  "special_case_sources": {
+    "gregory_gornjak": ["https://mitropolija.com/2021/12/20/prepodobni-grigorije-gornjacki/", "https://www.manastirgornjak.rs/manastir/"],
+    "anna_conception": "https://www.oca.org/saints/all-lives/2026/12/09",
+    "paramon": "https://www.oca.org/saints/lives/2025/11/29/103442-martyr-paramon-and-370-martyrs-in-bithynia",
+    "philumenus": "https://www.oca.org/saints/lives/2026/11/29/103444-martyr-philoumenus-of-ancyra",
+    "two_martyr_groups": "https://www.oca.org/saints/all-lives/2026/12/14"
+  },
+  "findings": [],
+  "approval_boundary": {
+    "owner_approval": null,
+    "clerical_review": null,
+    "rights_clearance": null,
+    "signed": false,
+    "published": false,
+    "statement": "This assistant source-consistency/content review supplies no user editorial approval, ecclesiastical endorsement, license, legal clearance or signing/publication authority. Original PENDING metadata is unchanged."
+  },
+  "open_gates": [
+    "Human approval of exact bilingual text, identities and links; rights/permission review remains pending.",
+    "The measured104 graph is only62 approved originals plus42 pending drafts, excluding Package A/B catalog deltas; final whole-generation merge and exact dependency regeneration remain separate.",
+    "Native acceptance and any authorized signing/publication remain outside this bounded review."
+  ],
+  "writes": ["drafts/saints-year-end-block2-2026-10-06/root-content-review-r1.json"],
+  "native_builds_or_tests_run": false,
+  "source_or_draft_mutations": false
+}

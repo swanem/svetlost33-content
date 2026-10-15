@@ -1,0 +1,15 @@
+{
+  "schema_version": "svetlost33-background-rendition-sources-1",
+  "items": [
+    {
+      "group": "approved-existing",
+      "height": 1672,
+      "id": "slava-default",
+      "source_bytes": 2200011,
+      "source_path": "backgrounds/slava-default.png",
+      "source_root": "android-assets",
+      "source_sha256": "87ce4958b5cc3e3157f02d8be930272979b64cae76b33aa3fd55db370438b9c7",
+      "width": 941
+    }
+  ]
+}

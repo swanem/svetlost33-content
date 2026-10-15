@@ -1,0 +1,323 @@
+{
+  "schema_version": "svetlost33-owner-widget-excerpt-approval-1",
+  "approval_id": "shared-widget-excerpts-five-2026-09-18-r1",
+  "approved_at": "2026-09-18",
+  "approved_by": "project_owner",
+  "review_status": "approved",
+  "user_statement": "odobravam pet predlozenih izvoda i nastavi sa svim ostalim",
+  "conversation_id": "01a06b7f-775f-7d03-82b5-c2b416ade556",
+  "consumer_platforms": [
+    "android",
+    "ios"
+  ],
+  "locales": [
+    "sr-Cyrl",
+    "sr-Latn"
+  ],
+  "scope": "Only the five exact bilingual pairs below, selected from the linked proposal. This record binds the resulting optional inline objects and new cycle payloads; it is not a cryptographic owner signature.",
+  "proposal": {
+    "path": "docs/PROPOSAL-SMALL-WIDGET-EXCERPTS-v0243.md",
+    "sha256": "42325da3e0bc8119cd98ae9d363a3921a35e97002bb1d3b3a876fce8bfe96225"
+  },
+  "source_cycle_files": [
+    {
+      "locale": "sr-Cyrl",
+      "path": "releases/v2/production/releases/shared-annual-2026-r1-m0v2-s2/modules/daily-cycles-r1-2026.1.1-r2/data/legacy-cycle.sr-Cyrl.json",
+      "sha256": "7e0de7104845133e26c326f770cdd9faef1b91993261ef78bcdf6b9629a7f4c4",
+      "bytes": 66639
+    },
+    {
+      "locale": "sr-Latn",
+      "path": "releases/v2/production/releases/shared-annual-2026-r1-m0v2-s2/modules/daily-cycles-r1-2026.1.1-r2/data/legacy-cycle.sr-Latn.json",
+      "sha256": "5becca805591135d7120c89c3052f577633072fa60fb0eaf691450baefe5c0f3",
+      "bytes": 58613
+    }
+  ],
+  "approved_slot_ids": [
+    "general-day-2-morning",
+    "general-day-4-morning",
+    "general-day-5-morning",
+    "general-day-6-morning",
+    "general-day-6-noon"
+  ],
+  "excluded_draft_slot_ids": [
+    "general-day-1-evening",
+    "general-day-2-noon",
+    "general-day-5-noon",
+    "general-day-5-evening",
+    "general-day-7-morning",
+    "general-day-7-evening"
+  ],
+  "approved_excerpts": [
+    {
+      "schema_version": "svetlost33-widget-excerpt-1",
+      "locale": "sr-Cyrl",
+      "source_slot_id": "general-day-2-morning",
+      "text": "Ујутру нас насити доброте своје,",
+      "text_sha256": "a39b36e6e56cad54b47a3ad97c10c57e3cbf68e6de3d9c7fee0697f0004aa285",
+      "reference": "Пс 90,14 · Даничић",
+      "verse_numbers": [
+        14
+      ],
+      "source_range": {
+        "start": 0,
+        "end": 32
+      },
+      "source_text_sha256": "a2a1eff6fcada77663ab01b5dcec434946ab9a7040c74e16c2d813ff16d8b4dd",
+      "psalm_id": "psalm-90",
+      "source_id": "EBIBLE-PSA090",
+      "source_url": "https://ebible.org/srp1868/PSA090.htm#V14",
+      "numbering": "DANICIC_EBIBLE_SRP1868",
+      "approval_id": "shared-widget-excerpts-five-2026-09-18-r1",
+      "review_status": "approved",
+      "character_count": 32,
+      "source_snapshot_sha256": "d625d8ebae5ce7e96ed25a396471b38d2920f23a7b023d8322f90ed57c09fd0c"
+    },
+    {
+      "schema_version": "svetlost33-widget-excerpt-1",
+      "locale": "sr-Cyrl",
+      "source_slot_id": "general-day-4-morning",
+      "text": "Боже! Ти си Бог мој, к Теби раним,",
+      "text_sha256": "b10010c0a857787c7a8c67cc8736826f466791dad2beafd8c9b272839edddda3",
+      "reference": "Пс 63,1 · Даничић",
+      "verse_numbers": [
+        1
+      ],
+      "source_range": {
+        "start": 0,
+        "end": 34
+      },
+      "source_text_sha256": "9d91c66c877969b36cf3a261de70d3c802462dbcab37708ac55aca118a5f94e0",
+      "psalm_id": "psalm-63",
+      "source_id": "EBIBLE-PSA063",
+      "source_url": "https://ebible.org/srp1868/PSA063.htm#V1",
+      "numbering": "DANICIC_EBIBLE_SRP1868",
+      "approval_id": "shared-widget-excerpts-five-2026-09-18-r1",
+      "review_status": "approved",
+      "character_count": 34,
+      "source_snapshot_sha256": "06619da8804f0511e6604e67b3b7591108dd7db80411820297dbb0c575384796"
+    },
+    {
+      "schema_version": "svetlost33-widget-excerpt-1",
+      "locale": "sr-Cyrl",
+      "source_slot_id": "general-day-5-morning",
+      "text": "Лепо је хвалити Господа, и певати имену Твом, Вишњи,",
+      "text_sha256": "089c8d6344552247a8dab78afc0f47b83000edc2679800df4a9734f4ec9a6b5f",
+      "reference": "Пс 92,1 · Даничић",
+      "verse_numbers": [
+        1
+      ],
+      "source_range": {
+        "start": 0,
+        "end": 52
+      },
+      "source_text_sha256": "31ed27618bdc63e69c65bd4d505c4b6db67b86bfa6fbd59ce62885eb50fb909a",
+      "psalm_id": "psalm-92",
+      "source_id": "EBIBLE-PSA092",
+      "source_url": "https://ebible.org/srp1868/PSA092.htm#V1",
+      "numbering": "DANICIC_EBIBLE_SRP1868",
+      "approval_id": "shared-widget-excerpts-five-2026-09-18-r1",
+      "review_status": "approved",
+      "character_count": 52,
+      "source_snapshot_sha256": "030e76ab1645c4169fc2fa9186846a2524dff76ae71e3bea3d44ccd5de5fe723"
+    },
+    {
+      "schema_version": "svetlost33-widget-excerpt-1",
+      "locale": "sr-Cyrl",
+      "source_slot_id": "general-day-6-morning",
+      "text": "А ја ћу певати силу Твоју,",
+      "text_sha256": "933ef9aa380783cbbff44ed637d840691c88ef3fd2154c62282e7480d0624339",
+      "reference": "Пс 59,16 · Даничић",
+      "verse_numbers": [
+        16
+      ],
+      "source_range": {
+        "start": 0,
+        "end": 26
+      },
+      "source_text_sha256": "59a2ec566cbc24657dfd81db14a7952b9c470f599222e24931bf31c66cbb0959",
+      "psalm_id": "psalm-59",
+      "source_id": "EBIBLE-PSA059",
+      "source_url": "https://ebible.org/srp1868/PSA059.htm#V16",
+      "numbering": "DANICIC_EBIBLE_SRP1868",
+      "approval_id": "shared-widget-excerpts-five-2026-09-18-r1",
+      "review_status": "approved",
+      "character_count": 26,
+      "source_snapshot_sha256": "ecafe07ef98ba1b45b9e2d2caec023f3f0527bf491260169fdd2f35eb8360905"
+    },
+    {
+      "schema_version": "svetlost33-widget-excerpt-1",
+      "locale": "sr-Cyrl",
+      "source_slot_id": "general-day-6-noon",
+      "text": "Стави на Господа бреме своје, и Он ће те поткрепити.",
+      "text_sha256": "75a14ec2a75743aa6445b9e2e120265199eaf8230d0210f74a8dd2711aba70ed",
+      "reference": "Пс 55,22 · Даничић",
+      "verse_numbers": [
+        22
+      ],
+      "source_range": {
+        "start": 0,
+        "end": 52
+      },
+      "source_text_sha256": "196870987cee100311535c72cfa965aec60ede3f1b7fa3b262b4d5f37d53e7c1",
+      "psalm_id": "psalm-55",
+      "source_id": "EBIBLE-PSA055",
+      "source_url": "https://ebible.org/srp1868/PSA055.htm#V22",
+      "numbering": "DANICIC_EBIBLE_SRP1868",
+      "approval_id": "shared-widget-excerpts-five-2026-09-18-r1",
+      "review_status": "approved",
+      "character_count": 52,
+      "source_snapshot_sha256": "f23708ac600bdcf8adeed842974da41d215c51546b5630c6f6aded991d8dca71"
+    },
+    {
+      "schema_version": "svetlost33-widget-excerpt-1",
+      "locale": "sr-Latn",
+      "source_slot_id": "general-day-2-morning",
+      "text": "Ujutru nas nasiti dobrote svoje,",
+      "text_sha256": "66144f4812b223ca069018781edecc50b064001f5011a9e5c13fc0b28e1d2a1a",
+      "reference": "Ps 90,14 · Daničić",
+      "verse_numbers": [
+        14
+      ],
+      "source_range": {
+        "start": 0,
+        "end": 32
+      },
+      "source_text_sha256": "ea117650694d6f84ec370e0007e795254222be47ab2bf31f71b62af27b992b48",
+      "psalm_id": "psalm-90",
+      "source_id": "EBIBLE-PSA090",
+      "source_url": "https://ebible.org/srp1868/PSA090.htm#V14",
+      "numbering": "DANICIC_EBIBLE_SRP1868",
+      "approval_id": "shared-widget-excerpts-five-2026-09-18-r1",
+      "review_status": "approved",
+      "character_count": 32,
+      "source_snapshot_sha256": "d625d8ebae5ce7e96ed25a396471b38d2920f23a7b023d8322f90ed57c09fd0c"
+    },
+    {
+      "schema_version": "svetlost33-widget-excerpt-1",
+      "locale": "sr-Latn",
+      "source_slot_id": "general-day-4-morning",
+      "text": "Bože! Ti si Bog moj, k Tebi ranim,",
+      "text_sha256": "f4353b8dad5f2561b1d9eae3481e25da3ff708e2477edfe6d0f949558241e9c3",
+      "reference": "Ps 63,1 · Daničić",
+      "verse_numbers": [
+        1
+      ],
+      "source_range": {
+        "start": 0,
+        "end": 34
+      },
+      "source_text_sha256": "00ed66d758af594b5763384adc3535a665c522da042b14f62663539c34665687",
+      "psalm_id": "psalm-63",
+      "source_id": "EBIBLE-PSA063",
+      "source_url": "https://ebible.org/srp1868/PSA063.htm#V1",
+      "numbering": "DANICIC_EBIBLE_SRP1868",
+      "approval_id": "shared-widget-excerpts-five-2026-09-18-r1",
+      "review_status": "approved",
+      "character_count": 34,
+      "source_snapshot_sha256": "06619da8804f0511e6604e67b3b7591108dd7db80411820297dbb0c575384796"
+    },
+    {
+      "schema_version": "svetlost33-widget-excerpt-1",
+      "locale": "sr-Latn",
+      "source_slot_id": "general-day-5-morning",
+      "text": "Lepo je hvaliti Gospoda, i pevati imenu Tvom, Višnji,",
+      "text_sha256": "2cd00a725bfee3019bac49c9cecaa8b875ee2c5e5b3fffc78ee901dabc1c7b1c",
+      "reference": "Ps 92,1 · Daničić",
+      "verse_numbers": [
+        1
+      ],
+      "source_range": {
+        "start": 0,
+        "end": 53
+      },
+      "source_text_sha256": "7d1cae4250a0c9d7d9fd13ed2008c12c0b0eef5fe838752423583dffecb97f6c",
+      "psalm_id": "psalm-92",
+      "source_id": "EBIBLE-PSA092",
+      "source_url": "https://ebible.org/srp1868/PSA092.htm#V1",
+      "numbering": "DANICIC_EBIBLE_SRP1868",
+      "approval_id": "shared-widget-excerpts-five-2026-09-18-r1",
+      "review_status": "approved",
+      "character_count": 53,
+      "source_snapshot_sha256": "030e76ab1645c4169fc2fa9186846a2524dff76ae71e3bea3d44ccd5de5fe723"
+    },
+    {
+      "schema_version": "svetlost33-widget-excerpt-1",
+      "locale": "sr-Latn",
+      "source_slot_id": "general-day-6-morning",
+      "text": "A ja ću pevati silu Tvoju,",
+      "text_sha256": "5fc5684a2a78f1e6b5ca98e578d67df8dd0804d954eb3ab471df792572014170",
+      "reference": "Ps 59,16 · Daničić",
+      "verse_numbers": [
+        16
+      ],
+      "source_range": {
+        "start": 0,
+        "end": 26
+      },
+      "source_text_sha256": "812fe9bce051e0e2398f86173edde2485eb6086099f538a6e5a02f0734cb7ac9",
+      "psalm_id": "psalm-59",
+      "source_id": "EBIBLE-PSA059",
+      "source_url": "https://ebible.org/srp1868/PSA059.htm#V16",
+      "numbering": "DANICIC_EBIBLE_SRP1868",
+      "approval_id": "shared-widget-excerpts-five-2026-09-18-r1",
+      "review_status": "approved",
+      "character_count": 26,
+      "source_snapshot_sha256": "ecafe07ef98ba1b45b9e2d2caec023f3f0527bf491260169fdd2f35eb8360905"
+    },
+    {
+      "schema_version": "svetlost33-widget-excerpt-1",
+      "locale": "sr-Latn",
+      "source_slot_id": "general-day-6-noon",
+      "text": "Stavi na Gospoda breme svoje, i On će te potkrepiti.",
+      "text_sha256": "4adde5b5f34c4a6715e197b1def75120a0426b70bf0eaa7e65350e1d22d6e68f",
+      "reference": "Ps 55,22 · Daničić",
+      "verse_numbers": [
+        22
+      ],
+      "source_range": {
+        "start": 0,
+        "end": 52
+      },
+      "source_text_sha256": "a7ad6a90f963ca8618403942da87779ef4415662edf52a513e505f0934c68336",
+      "psalm_id": "psalm-55",
+      "source_id": "EBIBLE-PSA055",
+      "source_url": "https://ebible.org/srp1868/PSA055.htm#V22",
+      "numbering": "DANICIC_EBIBLE_SRP1868",
+      "approval_id": "shared-widget-excerpts-five-2026-09-18-r1",
+      "review_status": "approved",
+      "character_count": 52,
+      "source_snapshot_sha256": "f23708ac600bdcf8adeed842974da41d215c51546b5630c6f6aded991d8dca71"
+    }
+  ],
+  "resulting_payloads": [
+    {
+      "path": "modules/daily-cycles-r1/2026.1.2-r3/data/legacy-cycle.sr-Cyrl.json",
+      "locale": "sr-Cyrl",
+      "bytes": 71899,
+      "sha256": "46aedf8c494dc79dbc6756fbff19d858cec0885218af18af0ce551e004293415"
+    },
+    {
+      "path": "modules/daily-cycles-r1/2026.1.2-r3/data/legacy-cycle.sr-Latn.json",
+      "locale": "sr-Latn",
+      "bytes": 63690,
+      "sha256": "e02c2cdd593d2823e9cabe44e5618ea87746815d1fb3476b2309380237c20b84"
+    }
+  ],
+  "preserved_limits": {
+    "full_quote_and_reference_unchanged": true,
+    "full_reading_actions_unchanged": true,
+    "visible_label": {
+      "sr-Cyrl": "извод",
+      "sr-Latn": "izvod"
+    },
+    "other_proposed_excerpts_approved": false,
+    "scripture_paraphrases": false,
+    "new_scripture_translation": false,
+    "widget_fit_still_requires_native_qa": true,
+    "payment_or_organization_changes": false
+  },
+  "source_review": "Each exact text is a strict contiguous prefix of the approved shared full quote in the matching script. Full quotes were matched byte-for-byte to the selected local psalm verses, and source cycle bytes match their frozen s2 manifest. No external source was refetched or source rights expanded.",
+  "evidence_record_only": true,
+  "publication_or_installation_performed_by_this_record": false
+}

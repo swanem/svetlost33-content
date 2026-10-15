@@ -1,0 +1,13 @@
+{
+  "reviewedOn": "2026-10-01",
+  "result": "ACCEPT_LOCAL_EDITORIAL_CANDIDATE_ONLY",
+  "candidateSha256": "5bdbe2e1693f89bd5f65d62212798d60ea88bf7662133138292b2fd474948eae",
+  "deltaSha256": "972543715c4da483e9d3d757be1c31131f98522e79c6455b69cc437c3bfafbee",
+  "validatorSha256": "e0da1e1be9f619d6718fceb0e4e01a6edb508eae094fa47b7dd4e6caba2d3aad",
+  "rootExecution": "node drafts/calendar-saints-window-2026-10-02/validate-candidate.mjs",
+  "checks": { "passed": 21, "failed": 0 },
+  "review": "Read the entire delta and validator; verified deterministic pending candidate against exact S11 manifest/payload pins. Seven exact occurrence/article joins reuse approved source facts, with six new subjects and one reused John identity. Old identities, article links, sources, rights, bindings and legacy map remain unchanged. Both-script search, distinct John observances, wrong-profile/year, binding/date/script corruption and unapproved candidate rejection are exercised.",
+  "notClaimed": ["native acceptance of a new signed generation", "signature verification by this editorial validator", "fresh independent source audit", "publication approval", "resolution of unknown Gospel or fasting data"],
+  "published": false,
+  "readyForRuntimeActivation": false
+}

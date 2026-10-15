@@ -1,0 +1,27 @@
+{
+  "schema_version": "svetlost33-editorial-approval-record-1",
+  "recorded_at": "2026-10-05T05:30:36Z",
+  "status": "CONTENT_APPROVED_FOR_PLANNED_INTEGRATION",
+  "authority": "Explicit project owner message in the current conversation",
+  "user_statement": "odobravam sadrzaj za 10 Bozijih zapovesti",
+  "approved_manuscript": {
+    "path": "drafts/ten-commandments-2026-10-05/manuscript.json",
+    "sha256": "55a86a22200408ef594eaf99bf2f4ab376dc2e7be3c2556cf8b7b66e160ffdaf",
+    "revision": 1,
+    "includes": ["10 editorial abbreviated commandments", "10 separately labelled editorial explanations", "EXO 20:1–17 full biblical excerpt", "Both Serbian scripts and prepared labels/references"]
+  },
+  "source_record": {
+    "path": "drafts/ten-commandments-2026-10-05/sources.json",
+    "sha256": "fdce8a0790bf25bda01b3852cba9a53e1428c659f8dada92135a00656525b15d"
+  },
+  "historical_draft_fields": "The pinned manuscript and sources remain unchanged. Their null owner approval / draft fields describe the pre-approval snapshot; this additive exact-hash record supplies the subsequent editorial approval.",
+  "clerical_review": null,
+  "official_church_approval_claimed": false,
+  "execution": {
+    "spec_and_implementation_plan_requested": true,
+    "native_implementation_started_by_this_message": false,
+    "publication_executed": false,
+    "included_in_ota_image_package": false
+  },
+  "scope_limits": ["No new approval for other texts, illustrations, calendar facts or liturgical material", "No change to the biblical translator attribution or source rights scope", "No repeated editorial approval required for these exact approved content bytes; final app integration and release checks remain separate"]
+}

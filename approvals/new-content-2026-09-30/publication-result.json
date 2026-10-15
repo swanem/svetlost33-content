@@ -1,0 +1,27 @@
+{
+  "schema_version": "svetlost33-shared-publication-result-1",
+  "status": "PUBLIC_HTTPS_VERIFIED",
+  "release_set_id": "shared-content-refresh-2026-09-30-m0v2-s11",
+  "sequence": 11,
+  "public_repository": "swanem/svetlost33-content",
+  "public_commit": "e59bfa36bed840e751f7dbe5e0b7fa1e86cbced0",
+  "public_tree": "998b0869498cead336aa043d7ab4f69e8d3af480",
+  "public_changed_files": 18,
+  "index_sha256": "36d39ce8882df55b66987afedcb8f080f31c2b8fd565a45561492aae5e2631ff",
+  "release_sha256": "ef109fcdb5ef14baae8697664e447a1c17378030e57f1209cb3fa2510cbf13d3",
+  "readback_completed_at": "2026-09-30T22:11:39.240Z",
+  "readback_path": "public-readback-s11.json",
+  "readback_sha256": "126eaac51ca2566e3393409e73ed33fd9479681f5766da587e8492c14d65573c",
+  "readback_files": 58,
+  "readback_bytes": 5971144,
+  "signed_profile_checks": 24,
+  "native_acceptance": {
+    "android": {"status": "GO_FOR_S11_ACTIVATION", "tests_passed": 2, "proof_sha256": "4deafbf4c31d80c280ef6fbc85dd536c51b9b49df60fa20b66c4fea2c7d20ffc"},
+    "ios": {"status": "GO_FOR_S11_ACTIVATION", "tests_passed": 2, "proof_sha256": "8398d1a4bcfecc9254084c51c752a113a9f5d27aa2cdd084d0d626ee15473c4d"}
+  },
+  "published": {"saints_articles": 62, "new_saints_articles": 30, "new_window": ["2026-10-21", "2026-11-19"], "organizations": 3, "organization_links": 15, "canonical_article_links": 4},
+  "preserved": {"prior_saints_articles": 32, "feast_memberships": 21, "archive_assignments": 94, "library_cycle_annual_bytes": true, "prior_signed_artifacts": true},
+  "excluded": ["media7", "radio_proposals_as_liturgical_assignments", "synthetic_2027", "paused_liturgy", "private_approval_and_QA_records", "payment_data_changes", "organization_logos"],
+  "physical_device_activation_proven": false,
+  "app_binaries_released_by_this_record": false
+}

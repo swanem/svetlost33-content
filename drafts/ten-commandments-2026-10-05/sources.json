@@ -1,0 +1,53 @@
+{
+  "schema_version": "svetlost33-ten-commandments-sources-1",
+  "checked_on": "2026-10-05",
+  "sources": [
+    {
+      "id": "exodus-20-danicic",
+      "url": "https://ebible.org/srp1868/EXO20.htm#V1",
+      "title": "Друга књига Мојсијева 20",
+      "translator": "Ђура Даничић",
+      "source_edition": "eBible srp1868",
+      "use": "Primary wording, EXO20:1–17 and per-commandment references",
+      "verification": "Full HTML retrieved with curl after web extraction failed; verses manually transcribed with whitespace normalization."
+    },
+    {
+      "id": "deuteronomy-5-danicic",
+      "url": "https://ebible.org/srp1868/DEU05.htm#V6",
+      "title": "Пета књига Мојсијева 5",
+      "translator": "Ђура Даничић",
+      "source_edition": "eBible srp1868",
+      "use": "Parallel reference DEU5:6–21; not silently merged into the Exodus quotation",
+      "verification": "Full HTML retrieved with curl; numbered verse mapping checked."
+    },
+    {
+      "id": "ebible-rights",
+      "url": "https://ebible.org/srp1868/copyright.htm",
+      "use": "Publisher statement for this translation",
+      "observed_statement": "Овај превод Библије је у јавном власништву (није заштићен ауторским правима).",
+      "scope": "Applies to named biblical translation; not modern commentaries, website layout, images or every Serbian Bible."
+    },
+    {
+      "id": "orthodox-numbering-cross-check",
+      "url": "https://svetosavlje.org/pravoslavni-pojmovnik-za-pocetnike/137/",
+      "use": "Numbering cross-check only; no source commentary copied",
+      "verification": "Search-index excerpt observed; full web extraction failed. Not the source of the verbatim biblical text."
+    }
+  ],
+  "rights_basis": {
+    "biblical_text": "Publisher-labelled public domain for Daničić–Karadžić eBible srp1868; Old Testament passage attributed specifically to Đura Daničić.",
+    "short_forms": "New editorial abbreviations based on that biblical passage, not a copied modern catechism.",
+    "explanations": "New AI-assisted editorial sentences for review; no third-party commentary copied.",
+    "not_claimed": [
+      "Official SPC approval",
+      "Clerical review",
+      "Public-domain status of newly authored editorial explanations",
+      "Rights to modern printed editions or images"
+    ]
+  },
+  "publication": {
+    "authorized": false,
+    "status": "Local draft only; exact editorial approval and separate application integration remain."
+  }
+}
+

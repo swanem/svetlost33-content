@@ -1,0 +1,65 @@
+{
+  "status": "UNSIGNED_S13_APPROVED_COPY_NOT_PUBLISHED",
+  "release_set_id": "shared-saints104-2026-10-06-m0v2-s13",
+  "sequence": 13,
+  "source_index_sha256": "a0d50c23036db203035419f4ba169ddb6005223799ed3ac4e89e03dd9f7733e9",
+  "index_sha256": "6250554d597daa19025cdcd3bc1d0c7c1763c3763ff4bc4fe1b85fb03f69441b",
+  "release_sha256": "76054fb851221ad1de64922a1167741646e2dd9f199588404b9a6a7745d4b7ff",
+  "saints": {
+    "path": "data/saints-v1.json",
+    "bytes": 399111,
+    "sha256": "35d9401dd895557de013e42ce71d8101a11b5e96e42212a3605951181c002047"
+  },
+  "catalog": {
+    "path": "data/liturgical-catalog-v1.json",
+    "bytes": 159835,
+    "sha256": "3d79bc91da681f46dc5b016f3b2033693b7d7b3a12742c0b245cdcbce47f5df8"
+  },
+  "browser": {
+    "path": "data/calendar-browser-v1.json",
+    "bytes": 97934,
+    "sha256": "13ef75b85963573eaf3f61131381af2116a70a32459a3afeff8759aa31a82db6"
+  },
+  "preflight": {
+    "state": "EDITORIAL_SIMULATION_ONLY",
+    "runtime_authenticated": false,
+    "profile": "ks01-capacity-366-r1",
+    "saints_articles": 104,
+    "saints_sources": 126,
+    "saints_days": 104,
+    "catalog_sources": 65,
+    "subjects": 56,
+    "observances": 73,
+    "occurrences": 71,
+    "article_links": 53,
+    "feast_memberships": 21,
+    "archive_days": 94,
+    "organizations": 3
+  },
+  "old_articles_preserved": 62,
+  "new_authorized_original_articles": 42,
+  "rights": "Original editorial summaries with attributed factual sources; no copied source passages identified by saved bounded review. This request does not license third-party source pages, certify public domain or supply an independent legal guarantee.",
+  "source_page_rights_fields_unchanged": true,
+  "clergy_review": null,
+  "independent_legal_clearance": null,
+  "original_pending_drafts_unchanged": true,
+  "test_fixture_reused": false,
+  "packages_A_B_included": false,
+  "approval_id_binding": {
+    "id": "saints104-2026-10-06-owner-r1",
+    "path": "approvals/saints104-2026-10-06/owner-publication-approval.json",
+    "sha256": "3cd32c026190cbf30054f52d0ff742cf2d1bc53b7013348cbe662e1325902629"
+  },
+  "unsigned_documents": 5,
+  "publication_delta_files_after_signing": 15,
+  "remaining_gates": [
+    "root exact source/candidate review and signing GO",
+    "fresh public discovery and HEAD compare-and-swap at publication",
+    "existing-key local signing",
+    "both native exact S12→S13 functional/security/memory/retention acceptance; no speed work",
+    "narrow atomic publication and exact HTTPS readback"
+  ],
+  "native_pass": false,
+  "signed": false,
+  "published": false
+}

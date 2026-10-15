@@ -1,0 +1,64 @@
+TAP version 13
+# Subtest: 01 exact reproducible approved candidate and frozen inputs, no new production signature
+ok 1 - 01 exact reproducible approved candidate and frozen inputs, no new production signature
+  ---
+  duration_ms: 983.742541
+  type: 'test'
+  ...
+# Subtest: 02 exact62 preserved plus42 approved original bilingual summaries, rights/provenance unchanged
+ok 2 - 02 exact62 preserved plus42 approved original bilingual summaries, rights/provenance unchanged
+  ---
+  duration_ms: 2.902542
+  type: 'test'
+  ...
+# Subtest: 03 exactly four unchanged modules and authenticated S12 archive retained; correct new versions/dependencies
+ok 3 - 03 exactly four unchanged modules and authenticated S12 archive retained; correct new versions/dependencies
+  ---
+  duration_ms: 65.738125
+  type: 'test'
+  ...
+# Subtest: 04 explicit KS01 domain profile and real contexts, default historical parser remains strict
+ok 4 - 04 explicit KS01 domain profile and real contexts, default historical parser remains strict
+  ---
+  duration_ms: 2251.861083
+  type: 'test'
+  ...
+# Subtest: 05 isolated ephemeral RSA-PSS graph passes24 actual transport profiles; S12 predecessor retained
+ok 5 - 05 isolated ephemeral RSA-PSS graph passes24 actual transport profiles; S12 predecessor retained
+  ---
+  duration_ms: 571.957417
+  type: 'test'
+  ...
+# Subtest: 06 old clients reject whole release; replay, expiry and signature corruption fail closed
+ok 6 - 06 old clients reject whole release; replay, expiry and signature corruption fail closed
+  ---
+  duration_ms: 45.980291
+  type: 'test'
+  ...
+# Subtest: 07 exact unsigned file set, byte identity and pre-key approval/GO/key-location guards
+ok 7 - 07 exact unsigned file set, byte identity and pre-key approval/GO/key-location guards
+  ---
+  duration_ms: 1087.294916
+  type: 'test'
+  ...
+# Subtest: 08 source CAS, publication allowlist/immutable conflicts and safe immutable outputs
+ok 8 - 08 source CAS, publication allowlist/immutable conflicts and safe immutable outputs
+  ---
+  duration_ms: 34.085917
+  type: 'test'
+  ...
+# Subtest: 09 all frozen pending, approval and production inputs unchanged after preparation/tests
+ok 9 - 09 all frozen pending, approval and production inputs unchanged after preparation/tests
+  ---
+  duration_ms: 78.425625
+  type: 'test'
+  ...
+1..9
+# tests 9
+# suites 0
+# pass 9
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 6371.333

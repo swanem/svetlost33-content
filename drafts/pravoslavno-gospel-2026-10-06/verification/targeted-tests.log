@@ -1,0 +1,64 @@
+TAP version 13
+# Subtest: 01 robots/horizon gates and actual bounded acquisition policy
+ok 1 - 01 robots/horizon gates and actual bounded acquisition policy
+  ---
+  duration_ms: 1.226375
+  type: 'test'
+  ...
+# Subtest: 02 raw provenance byte/hash checks, exact URLs and deterministic candidate/delta
+ok 2 - 02 raw provenance byte/hash checks, exact URLs and deterministic candidate/delta
+  ---
+  duration_ms: 35.92375
+  type: 'test'
+  ...
+# Subtest: 03 all31 displayed dates and33 canonical references in both scripts; no gaps/conflicts
+ok 3 - 03 all31 displayed dates and33 canonical references in both scripts; no gaps/conflicts
+  ---
+  duration_ms: 6.728708
+  type: 'test'
+  ...
+# Subtest: 04 mismatched/ambiguous displayed dates, horizon refusals and unknown headings fail closed
+ok 4 - 04 mismatched/ambiguous displayed dates, horizon refusals and unknown headings fail closed
+  ---
+  duration_ms: 1.115333
+  type: 'test'
+  ...
+# Subtest: 05 printed discontiguous/cross-chapter grammar preserved without sorting or silent repair
+ok 5 - 05 printed discontiguous/cross-chapter grammar preserved without sorting or silent repair
+  ---
+  duration_ms: 0.3675
+  type: 'test'
+  ...
+# Subtest: 06 every intermediate canonical verse/source checked; missing/duplicate/out-of-bounds cannot pass
+ok 6 - 06 every intermediate canonical verse/source checked; missing/duplicate/out-of-bounds cannot pass
+  ---
+  duration_ms: 9.672125
+  type: 'test'
+  ...
+# Subtest: 07 multiple readings, printed services and all zachala retained; no inferred service
+ok 7 - 07 multiple readings, printed services and all zachala retained; no inferred service
+  ---
+  duration_ms: 0.157125
+  type: 'test'
+  ...
+# Subtest: 08 untouched S13 facts and old observations; reference-only pending candidate with honest source incompatibility
+ok 8 - 08 untouched S13 facts and old observations; reference-only pending candidate with honest source incompatibility
+  ---
+  duration_ms: 8.244125
+  type: 'test'
+  ...
+# Subtest: 09 continuous endpoint and minus10 calendar-day followup; unresolved later dates remain outside candidate
+ok 9 - 09 continuous endpoint and minus10 calendar-day followup; unresolved later dates remain outside candidate
+  ---
+  duration_ms: 0.204958
+  type: 'test'
+  ...
+1..9
+# tests 9
+# suites 0
+# pass 9
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 277.448917

@@ -1,0 +1,170 @@
+{
+  "status": "TEST_ONLY_CORPUS_COMPLETE_SHARED_DECISION_INPUT",
+  "warning": "TEST_ONLY_SYNTHETIC_TRUST_AND_REVIEW_NEVER_PUBLISH_NOT_OWNER_APPROVAL",
+  "publication_authorized": false,
+  "actual104_content_supplied": false,
+  "datasets": [
+    {
+      "name": "baseline-62",
+      "purpose": "TEST_ONLY_SYNTHETIC_TRUST_AND_REVIEW_NEVER_PUBLISH_NOT_OWNER_APPROVAL",
+      "synthetic_articles": 0,
+      "raw_bytes": {
+        "saints": 211965,
+        "catalog": 66656,
+        "browser": 97947,
+        "calendar": 1665524
+      },
+      "saints_counts": {
+        "articles": 62,
+        "sources": 80,
+        "days": 62,
+        "max_articles_per_day": 1
+      },
+      "catalog_counts": {
+        "sources": 20,
+        "subjects": 18,
+        "observances": 34,
+        "occurrences": 32,
+        "article_links": 11,
+        "calendar_bindings": 1,
+        "article_bindings": 1
+      },
+      "distinct_test_identity_links": 0,
+      "browser_counts": {
+        "memberships": 21,
+        "archive_days": 94
+      },
+      "preserved_original_article_objects": 62,
+      "note": "Exact raw approved S12 payload bytes in an unauthenticated test harness."
+    },
+    {
+      "name": "synthetic-104",
+      "purpose": "TEST_ONLY_SYNTHETIC_TRUST_AND_REVIEW_NEVER_PUBLISH_NOT_OWNER_APPROVAL",
+      "synthetic_articles": 42,
+      "raw_bytes": {
+        "saints": 391867,
+        "catalog": 304765,
+        "browser": 97941,
+        "calendar": 1665524
+      },
+      "saints_counts": {
+        "articles": 104,
+        "sources": 122,
+        "days": 62,
+        "max_articles_per_day": 2
+      },
+      "catalog_counts": {
+        "sources": 124,
+        "subjects": 122,
+        "observances": 138,
+        "occurrences": 136,
+        "article_links": 115,
+        "calendar_bindings": 1,
+        "article_bindings": 1
+      },
+      "distinct_test_identity_links": 104,
+      "browser_counts": {
+        "memberships": 21,
+        "archive_days": 94
+      },
+      "preserved_original_article_objects": 62,
+      "note": "All 62 original article objects retained unchanged; copied test articles and 104-way identity/source/link load are never real content or publication permission."
+    },
+    {
+      "name": "synthetic-366",
+      "purpose": "TEST_ONLY_SYNTHETIC_TRUST_AND_REVIEW_NEVER_PUBLISH_NOT_OWNER_APPROVAL",
+      "synthetic_articles": 304,
+      "raw_bytes": {
+        "saints": 1273172,
+        "catalog": 904396,
+        "browser": 97941,
+        "calendar": 1665524
+      },
+      "saints_counts": {
+        "articles": 366,
+        "sources": 384,
+        "days": 62,
+        "max_articles_per_day": 6
+      },
+      "catalog_counts": {
+        "sources": 386,
+        "subjects": 384,
+        "observances": 400,
+        "occurrences": 398,
+        "article_links": 377,
+        "calendar_bindings": 1,
+        "article_bindings": 1
+      },
+      "distinct_test_identity_links": 366,
+      "browser_counts": {
+        "memberships": 21,
+        "archive_days": 94
+      },
+      "preserved_original_article_objects": 62,
+      "note": "All 62 original article objects retained unchanged; copied test articles and 366-way identity/source/link load are never real content or publication permission."
+    }
+  ],
+  "package_a_test_view_manifest_sha256": "da31d9a3206f70836d9c207a13c27a2880de91fb47ba3c828b197703425b7b9b",
+  "bounded_profile": {
+    "status": "TEST_ONLY_MEASURED_PROPOSAL_REQUIRES_SHARED_DECISION",
+    "saints": {
+      "articles": 366,
+      "bytes": 1572864,
+      "sources": 512,
+      "days": 366
+    },
+    "catalog": {
+      "sources": 512,
+      "subjects": 512,
+      "article_links": 512,
+      "bytes": 1048576,
+      "observances": 512,
+      "occurrences": 2048,
+      "calendar_bindings": 4,
+      "article_bindings": 4
+    },
+    "unchanged": {
+      "browser_bytes": 1048576,
+      "browser_memberships": 128,
+      "source_refs_per_record": 8,
+      "articles_per_day": 8,
+      "m0_document_bytes": 262144,
+      "modules": 16,
+      "files_per_manifest": 512
+    },
+    "rationale": "Coordinator-directed finite shared bounds: exactly 366 articles; catalog sources/subjects/article links use the existing 512 collection scale. Saints 1.5 MiB has 23.5% headroom above the measured 366 fixture; catalog 1 MiB has 15.9%. Counts and raw byte limits are joint constraints, not a promise that all scalar fields can simultaneously reach their maxima. Actual up-to-104 content, native performance and client-gating checks remain release gates."
+  },
+  "tests": {
+    "assertion_groups": 12,
+    "status": "PASS_TEST_ONLY_REFERENCE_NOT_NATIVE_ACCEPTANCE"
+  },
+  "outputs": {
+    "profile-proposal.json": {
+      "bytes": 4322,
+      "sha256": "fb4469338db9d619eac763a42da588fbeae9dd8d6eb788a8c0e5d3fc0a5e69ea"
+    },
+    "saints.test-schema.json": {
+      "bytes": 8015,
+      "sha256": "1039b276a2457653347a120a0051136640682f8348cb4c691d53007c0b36c334"
+    },
+    "catalog.test-schema.json": {
+      "bytes": 14019,
+      "sha256": "ee5bb5b1e7961b4902ac3ada48976b3809a0a4cce81076685936042f4ef61b70"
+    },
+    "verification.json": {
+      "bytes": 4594,
+      "sha256": "5a0f0e9aa549983196f247ca76903cc2700cdf0026f51872beb952355d15f9ee"
+    }
+  },
+  "generator_hashes": {
+    "generate.mjs": "05f69f0c94f7abb5658fa62d8f2c71e6e6937cc6d3e38c9720520228a9db5b73",
+    "reference-profile.mjs": "7abec40b8a4f8b976f027bc272923319b62cc7a6ab497d827c1fded1a04d528b",
+    "verify.mjs": "d25d1d37da904308306637c857a5435a5c06886163a7290c9035597f08e126fb",
+    "README.md": "decbb8cdcd3d6c59832c1bd9b6faaece84d0a4d766dbf760f3a35e2276e6d208"
+  },
+  "next_gates": [
+    "Actual new up-to-104 approved content must be measured against these same limits before release; synthetic104 is not actual content.",
+    "Native same-device timing/memory/projection/startup and offline preservation acceptance remain required.",
+    "First compatible min_clients must be chosen and old-client whole-generation retention proven in native tests."
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "schema_version": "svetlost33-native-calendar-release-go-1",
+  "platform": "android",
+  "status": "GO_FOR_S10_ACTIVATION",
+  "release_set_id": "shared-calendar-browser-2026-09-27-m0v2-s10",
+  "sequence": 10,
+  "index_sha256": "cbb21ce4fcd50dbc7c97c95f56d5b5aea96da5c1ace65a1a49e68099cbd8ec23",
+  "release_sha256": "ccc354a8c9e2af4e45b08ec8ffc1d73dfeb4d8154dcf923efb5324d50debe879",
+  "recorded_at": "2026-09-27T09:28:50.489Z",
+  "recorded_by": "coordinator_from_existing_native_task_final_GO",
+  "artifacts": [
+    {
+      "path": "approvals/calendar-browser-2026-09-27/native/android-status.md",
+      "bytes": 8423,
+      "sha256": "d8540af7ad7846084307abdbb3f1842f315dc6019ee70d09395392e6365c7b3a"
+    },
+    {
+      "path": "approvals/calendar-browser-2026-09-27/native/android-native.xml",
+      "bytes": 676,
+      "sha256": "9020e4a1b5215e8d8792e1758d429a138bf56267d925d6ac3a682102b4170482"
+    },
+    {
+      "path": "approvals/calendar-browser-2026-09-27/native/android-emulator.xml",
+      "bytes": 1249,
+      "sha256": "5918405a061fff451d98515dd7243be626d5ca9d36fa0cd759d5e9d792f746b4"
+    }
+  ],
+  "note": "Frozen native status/test snapshots: newline normalization and workstation path/hostname redaction only. Source hashes recorded in README. GO is for shared content compatibility, not a physical-device or native public release claim."
+}

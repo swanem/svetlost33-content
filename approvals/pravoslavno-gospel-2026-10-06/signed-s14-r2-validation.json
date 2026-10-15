@@ -1,0 +1,417 @@
+{
+  "status": "SIGNED_LOCAL_S14_R2_VALID_NOT_PUBLISHED",
+  "release_set_id": "shared-calendar-gospel-2026-10-06-m0v2-s14",
+  "sequence": 14,
+  "index_sha256": "3dfef0768a2862e4709276114dec8f5817189bd4b833192b33aa6b0e889d4f1b",
+  "release_sha256": "86f105fbb95e4188565415b3184e3f160fa36b8cbd4a2dcc5b891df6ad0c6025",
+  "minimum_clients": {
+    "android": 66,
+    "ios": "0.1.15"
+  },
+  "checks": [
+    {
+      "platform": "android",
+      "profile": "no_organizations_base_no_browser",
+      "releaseSetId": "shared-calendar-gospel-2026-10-06-m0v2-s14",
+      "sequence": 14,
+      "modules": 3,
+      "verifiedModules": 7,
+      "skippedOptionalModules": [
+        "organizations-v1",
+        "saints-v1",
+        "liturgical-catalog-v1",
+        "calendar-browser-v1"
+      ],
+      "totalBytes": 5372346
+    },
+    {
+      "platform": "android",
+      "profile": "no_organizations_base_browser",
+      "releaseSetId": "shared-calendar-gospel-2026-10-06-m0v2-s14",
+      "sequence": 14,
+      "modules": 4,
+      "verifiedModules": 7,
+      "skippedOptionalModules": [
+        "organizations-v1",
+        "saints-v1",
+        "liturgical-catalog-v1"
+      ],
+      "totalBytes": 5470292
+    },
+    {
+      "platform": "android",
+      "profile": "no_organizations_saints_no_browser",
+      "releaseSetId": "shared-calendar-gospel-2026-10-06-m0v2-s14",
+      "sequence": 14,
+      "modules": 4,
+      "verifiedModules": 7,
+      "skippedOptionalModules": [
+        "organizations-v1",
+        "liturgical-catalog-v1",
+        "calendar-browser-v1"
+      ],
+      "totalBytes": 5771470
+    },
+    {
+      "platform": "android",
+      "profile": "no_organizations_saints_browser",
+      "releaseSetId": "shared-calendar-gospel-2026-10-06-m0v2-s14",
+      "sequence": 14,
+      "modules": 5,
+      "verifiedModules": 7,
+      "skippedOptionalModules": [
+        "organizations-v1",
+        "liturgical-catalog-v1"
+      ],
+      "totalBytes": 5869416
+    },
+    {
+      "platform": "android",
+      "profile": "no_organizations_catalog_and_saints_no_browser",
+      "releaseSetId": "shared-calendar-gospel-2026-10-06-m0v2-s14",
+      "sequence": 14,
+      "modules": 5,
+      "verifiedModules": 7,
+      "skippedOptionalModules": [
+        "organizations-v1",
+        "calendar-browser-v1"
+      ],
+      "totalBytes": 6026742
+    },
+    {
+      "platform": "android",
+      "profile": "no_organizations_catalog_and_saints_browser",
+      "releaseSetId": "shared-calendar-gospel-2026-10-06-m0v2-s14",
+      "sequence": 14,
+      "modules": 6,
+      "verifiedModules": 7,
+      "skippedOptionalModules": [
+        "organizations-v1"
+      ],
+      "totalBytes": 6124688
+    },
+    {
+      "platform": "android",
+      "profile": "organizations_base_no_browser",
+      "releaseSetId": "shared-calendar-gospel-2026-10-06-m0v2-s14",
+      "sequence": 14,
+      "modules": 4,
+      "verifiedModules": 7,
+      "skippedOptionalModules": [
+        "saints-v1",
+        "liturgical-catalog-v1",
+        "calendar-browser-v1"
+      ],
+      "totalBytes": 5383419
+    },
+    {
+      "platform": "android",
+      "profile": "organizations_base_browser",
+      "releaseSetId": "shared-calendar-gospel-2026-10-06-m0v2-s14",
+      "sequence": 14,
+      "modules": 5,
+      "verifiedModules": 7,
+      "skippedOptionalModules": [
+        "saints-v1",
+        "liturgical-catalog-v1"
+      ],
+      "totalBytes": 5481365
+    },
+    {
+      "platform": "android",
+      "profile": "organizations_saints_no_browser",
+      "releaseSetId": "shared-calendar-gospel-2026-10-06-m0v2-s14",
+      "sequence": 14,
+      "modules": 5,
+      "verifiedModules": 7,
+      "skippedOptionalModules": [
+        "liturgical-catalog-v1",
+        "calendar-browser-v1"
+      ],
+      "totalBytes": 5782543
+    },
+    {
+      "platform": "android",
+      "profile": "organizations_saints_browser",
+      "releaseSetId": "shared-calendar-gospel-2026-10-06-m0v2-s14",
+      "sequence": 14,
+      "modules": 6,
+      "verifiedModules": 7,
+      "skippedOptionalModules": [
+        "liturgical-catalog-v1"
+      ],
+      "totalBytes": 5880489
+    },
+    {
+      "platform": "android",
+      "profile": "organizations_catalog_and_saints_no_browser",
+      "releaseSetId": "shared-calendar-gospel-2026-10-06-m0v2-s14",
+      "sequence": 14,
+      "modules": 6,
+      "verifiedModules": 7,
+      "skippedOptionalModules": [
+        "calendar-browser-v1"
+      ],
+      "totalBytes": 6037815
+    },
+    {
+      "platform": "android",
+      "profile": "organizations_catalog_and_saints_browser",
+      "releaseSetId": "shared-calendar-gospel-2026-10-06-m0v2-s14",
+      "sequence": 14,
+      "modules": 7,
+      "verifiedModules": 7,
+      "skippedOptionalModules": [],
+      "totalBytes": 6135761
+    },
+    {
+      "platform": "ios",
+      "profile": "no_organizations_base_no_browser",
+      "releaseSetId": "shared-calendar-gospel-2026-10-06-m0v2-s14",
+      "sequence": 14,
+      "modules": 3,
+      "verifiedModules": 7,
+      "skippedOptionalModules": [
+        "organizations-v1",
+        "saints-v1",
+        "liturgical-catalog-v1",
+        "calendar-browser-v1"
+      ],
+      "totalBytes": 5372346
+    },
+    {
+      "platform": "ios",
+      "profile": "no_organizations_base_browser",
+      "releaseSetId": "shared-calendar-gospel-2026-10-06-m0v2-s14",
+      "sequence": 14,
+      "modules": 4,
+      "verifiedModules": 7,
+      "skippedOptionalModules": [
+        "organizations-v1",
+        "saints-v1",
+        "liturgical-catalog-v1"
+      ],
+      "totalBytes": 5470292
+    },
+    {
+      "platform": "ios",
+      "profile": "no_organizations_saints_no_browser",
+      "releaseSetId": "shared-calendar-gospel-2026-10-06-m0v2-s14",
+      "sequence": 14,
+      "modules": 4,
+      "verifiedModules": 7,
+      "skippedOptionalModules": [
+        "organizations-v1",
+        "liturgical-catalog-v1",
+        "calendar-browser-v1"
+      ],
+      "totalBytes": 5771470
+    },
+    {
+      "platform": "ios",
+      "profile": "no_organizations_saints_browser",
+      "releaseSetId": "shared-calendar-gospel-2026-10-06-m0v2-s14",
+      "sequence": 14,
+      "modules": 5,
+      "verifiedModules": 7,
+      "skippedOptionalModules": [
+        "organizations-v1",
+        "liturgical-catalog-v1"
+      ],
+      "totalBytes": 5869416
+    },
+    {
+      "platform": "ios",
+      "profile": "no_organizations_catalog_and_saints_no_browser",
+      "releaseSetId": "shared-calendar-gospel-2026-10-06-m0v2-s14",
+      "sequence": 14,
+      "modules": 5,
+      "verifiedModules": 7,
+      "skippedOptionalModules": [
+        "organizations-v1",
+        "calendar-browser-v1"
+      ],
+      "totalBytes": 6026742
+    },
+    {
+      "platform": "ios",
+      "profile": "no_organizations_catalog_and_saints_browser",
+      "releaseSetId": "shared-calendar-gospel-2026-10-06-m0v2-s14",
+      "sequence": 14,
+      "modules": 6,
+      "verifiedModules": 7,
+      "skippedOptionalModules": [
+        "organizations-v1"
+      ],
+      "totalBytes": 6124688
+    },
+    {
+      "platform": "ios",
+      "profile": "organizations_base_no_browser",
+      "releaseSetId": "shared-calendar-gospel-2026-10-06-m0v2-s14",
+      "sequence": 14,
+      "modules": 4,
+      "verifiedModules": 7,
+      "skippedOptionalModules": [
+        "saints-v1",
+        "liturgical-catalog-v1",
+        "calendar-browser-v1"
+      ],
+      "totalBytes": 5383419
+    },
+    {
+      "platform": "ios",
+      "profile": "organizations_base_browser",
+      "releaseSetId": "shared-calendar-gospel-2026-10-06-m0v2-s14",
+      "sequence": 14,
+      "modules": 5,
+      "verifiedModules": 7,
+      "skippedOptionalModules": [
+        "saints-v1",
+        "liturgical-catalog-v1"
+      ],
+      "totalBytes": 5481365
+    },
+    {
+      "platform": "ios",
+      "profile": "organizations_saints_no_browser",
+      "releaseSetId": "shared-calendar-gospel-2026-10-06-m0v2-s14",
+      "sequence": 14,
+      "modules": 5,
+      "verifiedModules": 7,
+      "skippedOptionalModules": [
+        "liturgical-catalog-v1",
+        "calendar-browser-v1"
+      ],
+      "totalBytes": 5782543
+    },
+    {
+      "platform": "ios",
+      "profile": "organizations_saints_browser",
+      "releaseSetId": "shared-calendar-gospel-2026-10-06-m0v2-s14",
+      "sequence": 14,
+      "modules": 6,
+      "verifiedModules": 7,
+      "skippedOptionalModules": [
+        "liturgical-catalog-v1"
+      ],
+      "totalBytes": 5880489
+    },
+    {
+      "platform": "ios",
+      "profile": "organizations_catalog_and_saints_no_browser",
+      "releaseSetId": "shared-calendar-gospel-2026-10-06-m0v2-s14",
+      "sequence": 14,
+      "modules": 6,
+      "verifiedModules": 7,
+      "skippedOptionalModules": [
+        "calendar-browser-v1"
+      ],
+      "totalBytes": 6037815
+    },
+    {
+      "platform": "ios",
+      "profile": "organizations_catalog_and_saints_browser",
+      "releaseSetId": "shared-calendar-gospel-2026-10-06-m0v2-s14",
+      "sequence": 14,
+      "modules": 7,
+      "verifiedModules": 7,
+      "skippedOptionalModules": [],
+      "totalBytes": 6135761
+    }
+  ],
+  "public_files": [
+    {
+      "path": "discovery-archive/shared-saints104-2026-10-06-m0v2-s13/index.json",
+      "bytes": 574,
+      "sha256": "6250554d597daa19025cdcd3bc1d0c7c1763c3763ff4bc4fe1b85fb03f69441b"
+    },
+    {
+      "path": "discovery-archive/shared-saints104-2026-10-06-m0v2-s13/index.sig",
+      "bytes": 513,
+      "sha256": "04d6deaae79d9e76acef883b9caef5ca3a4137e9122e7046633190d2d6b22467"
+    },
+    {
+      "path": "index.json",
+      "bytes": 592,
+      "sha256": "3dfef0768a2862e4709276114dec8f5817189bd4b833192b33aa6b0e889d4f1b"
+    },
+    {
+      "path": "index.sig",
+      "bytes": 513,
+      "sha256": "6917de9de689559caf6b974049b88f1927698a2623ebccc37e5c41dac76f3ed9"
+    },
+    {
+      "path": "releases/shared-calendar-gospel-2026-10-06-m0v2-s14/modules/calendar-2026-r1-2026.10.6-r3/data/calendar.2026.json",
+      "bytes": 1712834,
+      "sha256": "299842090189bd44974cb6aabfa8a6af5db4fccdc64e3c556ab4dc60aa1944b4"
+    },
+    {
+      "path": "releases/shared-calendar-gospel-2026-10-06-m0v2-s14/modules/calendar-2026-r1-2026.10.6-r3/manifest.json",
+      "bytes": 631,
+      "sha256": "9c080209792f4ff5b8aa2116e32a47d95094d690cca5e56d352c68f5c4c7195a"
+    },
+    {
+      "path": "releases/shared-calendar-gospel-2026-10-06-m0v2-s14/modules/calendar-2026-r1-2026.10.6-r3/manifest.sig",
+      "bytes": 513,
+      "sha256": "894be80bb8f96ecfd908f9088c670486bc7bfeda007ce66e1f7154b4dfcb2624"
+    },
+    {
+      "path": "releases/shared-calendar-gospel-2026-10-06-m0v2-s14/modules/calendar-browser-v1-2026.10.6-r5/data/calendar-browser-v1.json",
+      "bytes": 97946,
+      "sha256": "b24b687db725d1c7f255d2a5024bda15a20d3f629c2744262e9f61694b653ea6"
+    },
+    {
+      "path": "releases/shared-calendar-gospel-2026-10-06-m0v2-s14/modules/calendar-browser-v1-2026.10.6-r5/manifest.json",
+      "bytes": 533,
+      "sha256": "b172df702838fda0d49d13a0dc485fa0a087a3a60205ddc29c547285a88c20c7"
+    },
+    {
+      "path": "releases/shared-calendar-gospel-2026-10-06-m0v2-s14/modules/calendar-browser-v1-2026.10.6-r5/manifest.sig",
+      "bytes": 513,
+      "sha256": "3eb8a23a6bb4d64b3446cd0759d6ca689e4491c5aa4ab089274baa77620996da"
+    },
+    {
+      "path": "releases/shared-calendar-gospel-2026-10-06-m0v2-s14/modules/liturgical-catalog-v1-2026.10.6-r9/data/liturgical-catalog-v1.json",
+      "bytes": 255272,
+      "sha256": "0659df40a030557f56a52d87ac79853d28aaaea62838ee52191be990a97cb669"
+    },
+    {
+      "path": "releases/shared-calendar-gospel-2026-10-06-m0v2-s14/modules/liturgical-catalog-v1-2026.10.6-r9/manifest.json",
+      "bytes": 697,
+      "sha256": "c08ad88208f3c61030556dffbb449c1ff64370a17b5ed58d9e47103e68a57480"
+    },
+    {
+      "path": "releases/shared-calendar-gospel-2026-10-06-m0v2-s14/modules/liturgical-catalog-v1-2026.10.6-r9/manifest.sig",
+      "bytes": 513,
+      "sha256": "e87e7a8b85f37329d8ac01350e2d93b54740c321b4294af6e8321cbae0693b8c"
+    },
+    {
+      "path": "releases/shared-calendar-gospel-2026-10-06-m0v2-s14/modules/saints-v1-2026.10.6-r6/data/saints-v1.json",
+      "bytes": 399124,
+      "sha256": "4c418f4f8f3eb09f3613218b2c65cc444049ccdd886fb17f3e4426bfa03abafa"
+    },
+    {
+      "path": "releases/shared-calendar-gospel-2026-10-06-m0v2-s14/modules/saints-v1-2026.10.6-r6/manifest.json",
+      "bytes": 587,
+      "sha256": "29ab2725c1df13a8ec40c8e41651e938c05b9ad19a0d23acb92b35b58d4ce465"
+    },
+    {
+      "path": "releases/shared-calendar-gospel-2026-10-06-m0v2-s14/modules/saints-v1-2026.10.6-r6/manifest.sig",
+      "bytes": 513,
+      "sha256": "fa6fc8fefe56ca5d29c71bef16c6e8714271641cbba488edab78930c758a6461"
+    },
+    {
+      "path": "releases/shared-calendar-gospel-2026-10-06-m0v2-s14/release-set.json",
+      "bytes": 3974,
+      "sha256": "86f105fbb95e4188565415b3184e3f160fa36b8cbd4a2dcc5b891df6ad0c6025"
+    },
+    {
+      "path": "releases/shared-calendar-gospel-2026-10-06-m0v2-s14/release-set.sig",
+      "bytes": 513,
+      "sha256": "203d0c76ba03d24c5aba80a9e6305140eb4f3f512a0c4e53bd7558bd015e6fd3"
+    }
+  ],
+  "native_exact_generation_acceptance_required": true,
+  "published": false
+}

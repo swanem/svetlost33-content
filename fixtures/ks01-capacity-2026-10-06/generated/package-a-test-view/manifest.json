@@ -1,0 +1,65 @@
+{
+  "schema_version": "svetlost33-test-fixture-files-1",
+  "warning": "TEST_ONLY_SYNTHETIC_TRUST_AND_REVIEW_NEVER_PUBLISH_NOT_OWNER_APPROVAL",
+  "publishable": false,
+  "files": [
+    {
+      "path": "package-a-test-view/saints-v1.json",
+      "bytes": 211965,
+      "sha256": "ca3e4fd02ca79e97d53e0e456b2ccaaeb81ebc3b740a71b3eb72049bf01331b5"
+    },
+    {
+      "path": "package-a-test-view/liturgical-catalog-v1.json",
+      "bytes": 119660,
+      "sha256": "d6a8a9df9a2ddd1596e4e1c72d3b2bdb7f26bdc0486241814543996cd7c92849"
+    },
+    {
+      "path": "package-a-test-view/calendar-browser-v1.json",
+      "bytes": 97933,
+      "sha256": "0266e72ee0dbf112e7bb3bde2e93a7eab7cfcc45e7c3fa9579e52a33fb51e96a"
+    },
+    {
+      "path": "package-a-test-view/contexts.json",
+      "bytes": 1633703,
+      "sha256": "d6a1ac398ee46978b45935e16e5f0ae45d08791d07935ed67713a4110bd3be18"
+    },
+    {
+      "path": "package-a-test-view/TEST-ONLY.json",
+      "bytes": 452,
+      "sha256": "5a7013ccb391e629a235d708f7a278e3e3f443919ecf7a461aa0f82270c44218"
+    }
+  ],
+  "measurements": {
+    "name": "package-a-test-view",
+    "purpose": "TEST_ONLY_SYNTHETIC_TRUST_AND_REVIEW_NEVER_PUBLISH_NOT_OWNER_APPROVAL",
+    "synthetic_articles": 0,
+    "raw_bytes": {
+      "saints": 211965,
+      "catalog": 119660,
+      "browser": 97933,
+      "calendar": 1665524
+    },
+    "saints_counts": {
+      "articles": 62,
+      "sources": 80,
+      "days": 62,
+      "max_articles_per_day": 1
+    },
+    "catalog_counts": {
+      "sources": 48,
+      "subjects": 38,
+      "observances": 55,
+      "occurrences": 53,
+      "article_links": 33,
+      "calendar_bindings": 1,
+      "article_bindings": 1
+    },
+    "distinct_test_identity_links": 0,
+    "browser_counts": {
+      "memberships": 21,
+      "archive_days": 94
+    },
+    "preserved_original_article_objects": 62,
+    "note": "Only pending review flags and unmistakable test approval IDs promoted; browser hash rebound. Original frozen draft untouched."
+  }
+}

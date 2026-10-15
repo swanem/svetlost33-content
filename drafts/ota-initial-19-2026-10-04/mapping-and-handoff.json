@@ -1,0 +1,109 @@
+{
+  "schema_version": "svetlost33-ota-initial19-m4-handoff-1",
+  "recorded_on": "2026-10-04",
+  "status": "INPUT_INVENTORY_READY_ADDITIVE_EXPORTER_MAPPING_REQUIRED",
+  "scope": "Exactly the approved original 18 assets plus the exact slava-default motif; no other draft images.",
+  "normative_source": {
+    "path": "svetlost33-github/docs/SPECIFIKACIJA.md#ota-podloge-manual-wifi",
+    "sha256": "36cbd275c490f8952b082c27f3f2388ff6884e61e224645efab15cac41afc61d"
+  },
+  "inventory": "inventory.json",
+  "source_lock": "source-lock.json",
+  "validator": "validate-inputs.mjs",
+  "validation_results": "validation-results.json",
+  "native_source_basis": {
+    "android": "git show cd27680a56325be346a5657ef12cf7187458e1e1 in svetlost33-android-release-0.21.1, delivered 0.21.1 (61)",
+    "ios": "git show 3ebc6bec0ab730f284dfa5fb2a8e6efa89874066 in svetlost33-ios-release-2026-10-02, delivered 0.1.9 (36)",
+    "root_delivery_receipts": "Exact references and hashes are in validation-results.json; no new device/artifact check was run. Native moving working trees were not used as distribution evidence."
+  },
+  "exporter_boundary": {
+    "path": "svetlost33-github/docs/contracts/media-ota-v1-2026-09-30/wire/review-r3/exporter.mjs",
+    "sha256": "5548051ca8428dba059411d5742b00a65aa742af6678bc2a5318300acf84e860",
+    "observed_api": "buildCandidate() has no arguments and loads its adjacent fixed source-lock.json.",
+    "blockers": [
+      "Hardcoded joins require old18 plus the previous seven-item candidate/new-approval/new-source anchors.",
+      "Hardcoded record count 25 and original byte totals 45,881,284 + 17,414,965 cannot describe the requested 19.",
+      "R3 publicationGate is permanently false for that immutable local revision; passing a caller flag cannot approve it.",
+      "Existing native BG02 derivatives are 360x640 and 720x1280. Neither can be relabeled as the R4 single 480x853 OTA thumbnail."
+    ],
+    "action_taken": "Did not run the fixed 25 exporter, alter frozen files, generate excluded images or change the wire contract."
+  },
+  "minimal_additive_adapter": {
+    "new_location_required": true,
+    "do_not_overwrite": "wire/review-r2, review-r3 or review-r4",
+    "input": "Use this new pinned19 input inventory and its existing18 and additive slava approval/provenance chain. Preserve stable IDs, exact PNG bytes, titles in both scripts and default day1-day7 membership.",
+    "images": "Generate one mechanical 480x853 JPEG contain thumbnail per original using frozen R3 RECIPE. Record exact original/recipe/tool-version/output hash+bytes+dimensions. Do not package BG02 small/large as additional wire renditions. Run bounded full decode and targeted visual/crop review.",
+    "policy_payload": [
+      {
+        "path": "data/catalog-v2.json",
+        "mapping": "19 exact item identities; original+new OTA thumbnail; required source/rights/derivation joins; no automatic rotation or artwork-derived calendar binding. Preserve old saint associations only as evidence."
+      },
+      {
+        "path": "data/media-policy-v1.json",
+        "mapping": "Bind exact catalog bytes and media manifest bytes. Derive real version/sequence/checkpoint/retained state from current approved channel/history at release preparation; never copy synthetic R3 sequence1 as production reset."
+      },
+      {
+        "path": "evidence/owner-approval.json",
+        "mapping": "Existing18 immutable approval plus exact slava editorial and 04.10 account/publication-continuation evidence; no blanket authorization for seven other drafts."
+      },
+      {
+        "path": "evidence/source-manifest.json",
+        "mapping": "19 exact original source records and per-item pointers, no invented author/license."
+      },
+      {
+        "path": "evidence/rights.json",
+        "mapping": "Preserve exact existing RS/BA owner-distribution scope and separately recorded slava basis; no public-domain/CC0/worldwide legal assertion."
+      },
+      {
+        "path": "evidence/approved-catalog.json",
+        "mapping": "Bind exact19 ID/title catalog to old catalog plus approved slava candidate, without overwriting either."
+      },
+      {
+        "path": "evidence/derivations.json",
+        "mapping": "19 new OTA thumbnail source/recipe/output joins; existing38 BG02 derivatives remain separately traced local fallback evidence, not wire roles."
+      }
+    ],
+    "evidence_semantics": "Five evidence files are object-root, strict raw-byte-bound records per clarification01, not newly invented closed schemas. Do not blindly publish local absolute source paths, private prompts/account details or internal approval discussion; review a minimal public evidence projection separately.",
+    "manifests": "Required background-policy-v1, optional background-media-v2, exact dependency on policy ID+version; policy manifests list the exact seven JSON files and media lists exactly 38 image records (19 originals +19 OTA thumbnails). Authenticate both at native adoption.",
+    "budgets": "Originals are 48,081,295 B only. Final download/package size cannot be stated until the19 OTA thumbnails+7 evidence/catalog/policy files+manifests are generated. Retain frozen side/pixel/per-file/pair/M0 bounds and separately prove the whole-release budget and OTA-M1 storage cap.",
+    "profiles": "Do not invent min-client versions or enable capabilities. M1-M5 native compatibility/profile and full vertical checks remain coordinator/native gates."
+  },
+  "preserved_behavior": {
+    "default_ids": [
+      "day1",
+      "day2",
+      "day3",
+      "day4",
+      "day5",
+      "day6",
+      "day7"
+    ],
+    "slava_default": "One common motif, not a new saint/observance/date or default-rotation member.",
+    "priority": "today > fixed > confirmed canonical slava > day1-day7",
+    "legacy_saint_associations": "Preserved as source evidence, not imported artwork dates as canonical calendar facts.",
+    "removed_personal_collection": "Must not reappear through adoption of old R4 mapping text."
+  },
+  "rights_boundary": {
+    "slava_account_holder_gate": "CLOSED by exact additive record, no new user approval requested here.",
+    "old18_scope": "Recorded owner app distribution RS/BA; not a global public reuse license.",
+    "unasserted": [
+      "independent account audit",
+      "legal guarantee",
+      "CC0",
+      "public domain",
+      "new rights for seven drafts"
+    ]
+  },
+  "not_performed": [
+    "wire export",
+    "OTA thumbnail generation",
+    "new production version/sequence assignment",
+    "native build/test",
+    "signature",
+    "public push",
+    "capability enablement",
+    "device installation"
+  ],
+  "command_from_content_root": "node drafts/ota-initial-19-2026-10-04/validate-inputs.mjs",
+  "next_step": "Coordinator may authorize one bounded additive19 exporter adapter after reviewing this mapping; keep it unsigned until the real compatible native M5 gate. No automatic continuation by this task."
+}

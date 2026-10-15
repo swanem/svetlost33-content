@@ -1,0 +1,141 @@
+{
+  "schema_version": "svetlost33-ks01-block1-validation-1",
+  "status": "PASS_PENDING_CONTENT_NOT_APPROVED",
+  "checked_on": "2026-10-06",
+  "command": "node drafts/saints-year-end-block1-2026-10-06/verify.mjs --check",
+  "checks": [
+    {
+      "name": "pinned_S12_inputs_and_previously_frozen_A_capacity_handoffs",
+      "result": "PASS"
+    },
+    {
+      "name": "exact_21_existing_annual_rows_no_unproven_date_conversion",
+      "result": "PASS"
+    },
+    {
+      "name": "62_existing_articles_sources_days_and_calendar_binding_preserved",
+      "result": "PASS"
+    },
+    {
+      "name": "both_scripts_100_to_200_words_separate_original_editorial_takeaway",
+      "result": "PASS"
+    },
+    {
+      "name": "22_specific_church_sources_unknown_publication_not_fabricated",
+      "result": "PASS"
+    },
+    {
+      "name": "reuse_two_catalog_observances_no_duplicate_or_silent_group_split",
+      "result": "PASS"
+    },
+    {
+      "name": "explicit_KS01_profile_accepts_83_article_local_preview_not_historical_v1",
+      "result": "PASS"
+    },
+    {
+      "name": "pending_prose_metadata_and_links_never_runtime_eligible",
+      "result": "PASS"
+    },
+    {
+      "name": "negative_duplicate_script_shape_and_exact_annual_join",
+      "result": "PASS"
+    },
+    {
+      "name": "master_delta_source_registry_deterministic_bytes",
+      "result": "PASS"
+    }
+  ],
+  "total_checks": 10,
+  "files": [
+    {
+      "path": "manuscript.mjs",
+      "bytes": 40401,
+      "sha256": "402ea6e792b88630baa2dde31a40ef9d4eccd36afff68d6ef384cfc7f8ad9f33"
+    },
+    {
+      "path": "prepare.mjs",
+      "bytes": 17489,
+      "sha256": "713a423c3b205bb616b4300d2c0e04a8bc80094b47f44b19643a0d89d728ec0c"
+    },
+    {
+      "path": "verify.mjs",
+      "bytes": 10196,
+      "sha256": "74db010322e12a14323699ce98c5f8c9099db3e3e8ef7085f6c7c37a39a0aed6"
+    },
+    {
+      "path": "master.json",
+      "bytes": 134635,
+      "sha256": "167eb762f87a3d1dbfd5623b32197d5af683e7ed01fbc8f2948499ceca7dae6b"
+    },
+    {
+      "path": "delta.json",
+      "bytes": 67743,
+      "sha256": "f929151078bf1a99e392dcd786cbdde3142ddd34aa5929828c524d31a9b537e3"
+    },
+    {
+      "path": "sources.json",
+      "bytes": 15683,
+      "sha256": "b1d2b2a701ba1adda3f9451785e108b10c98be69b12a03e67d91cca680b877d2"
+    }
+  ],
+  "counts": {
+    "dates": 21,
+    "existing_articles_reused": 0,
+    "new_pending_articles": 21,
+    "unknown_identity_or_date": 0,
+    "content_approval_pending": 21,
+    "independent_rights_clearance": 0,
+    "real_articles_after_local_merge": 83,
+    "reused_observances": 2,
+    "reused_occurrences": 2,
+    "new_subjects": 19,
+    "new_observances": 19,
+    "new_occurrences": 19,
+    "new_article_links": 21
+  },
+  "words_per_script": {
+    "min": 106,
+    "max": 125
+  },
+  "in_memory_raw_bytes": {
+    "saints": 322298,
+    "catalog": 112854,
+    "browser": 97906
+  },
+  "runtime_files_written": false,
+  "native_tested": false,
+  "owner_approval": null,
+  "clerical_review": null,
+  "rights_clearance": null,
+  "signed": false,
+  "published": false,
+  "protected_inputs": [
+    {
+      "path": "drafts/calendar-saints-expansion-2026-10-06/handoff.json",
+      "bytes": 4470,
+      "sha256": "5c6c7664c8dec4ec72959ad59a0916ec9154670162c5523eee315f8146f96bf6"
+    },
+    {
+      "path": "fixtures/ks01-capacity-2026-10-06/generated/handoff.json",
+      "bytes": 5971,
+      "sha256": "1e47b55ff442628eb0445ecbb0456d48b511ec449912b55a154d4ab9a12e0c33"
+    },
+    {
+      "path": "drafts/ks01-capacity-shared-implementation-2026-10-06/handoff.json",
+      "bytes": 4422,
+      "sha256": "1838ab2e80bb693eea1e069ec9194476e84ac9cca836c7b00b47f75e12944d04"
+    },
+    {
+      "path": "../svetlost33-github/docs/contracts/calendar-saints-expansion-2026-10-06/public-baseline-s12-2026-10-06.json",
+      "bytes": 12742,
+      "sha256": "4c75bc9c1721ca677d11d256f15159d81c683eef68baa641b0ba24b10182de28"
+    }
+  ],
+  "limitations": [
+    "Structural validation does not certify prose correctness, rights or canonical approval.",
+    "Church-page extracted text read; original HTML not archived and response-byte hashes unavailable.",
+    "S12 annual rows are the sole 2026 date authority; no fresh November/December calendar fetch.",
+    "Local merged 83-article preview excludes pending Package A/B changes; future approved release must rebase and regenerate exact bindings.",
+    "No second block, production payload, release set, signature, approval record or native build produced."
+  ]
+}

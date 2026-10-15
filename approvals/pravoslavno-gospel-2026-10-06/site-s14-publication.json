@@ -1,0 +1,42 @@
+{
+  "schema_version": 1,
+  "status": "SITE_V32_PUBLISHED",
+  "recorded_at_utc": "2026-10-07 05:44:49 UTC",
+  "project_id": "appgprj_6aa31d39002081919206ba1581ce3c28",
+  "version_id": "appgprj_6aa31d39002081919206ba1581ce3c28~appgver_33114729bb288191b5a93fc3629762b2",
+  "version_number": 32,
+  "deployment_id": "appgdep_6ac5dc16696481919bfd2118b2832806",
+  "deployed_at": "2026-10-07T05:44:09.471677+00:00",
+  "url": "https://svetlost33-preuzimanje.swanem.chatgpt.site",
+  "source_commit": "c836da0da0e5c1448531d775234a4f399af4e74a",
+  "archive": {
+    "archive_format": "tar",
+    "sediment_file_id": "file_000000002b048246b73c4ef8d01f6a90",
+    "content_hash": "sha256:c997143a33053217263d699791d827fdac771d62ed9140a99dddf190bcd5f390",
+    "size_bytes": 84510720,
+    "file_count": 123
+  },
+  "checks": {
+    "catalog_tests": "10/10 PASS;55.27525ms;0fail/skip",
+    "asset_signature_and_hash_validation": "PASS;exact existing APK66 and parts unchanged",
+    "build": "PASS",
+    "local_preview": "HTTP200 and successful render",
+    "first_check": "stale generated UPUTSTVO.txt; regenerated with existing release:prepare script, then10/10 and build pass"
+  },
+  "changed_source_paths": [
+    "data/releases.json",
+    "public/UPUTSTVO.txt"
+  ],
+  "files_sha256": {
+    "data/releases.json": "875fab7aaadd0cbedc239fb17b0c6ebc15c0b0275477e83027a0a1597dc3e052",
+    "public/UPUTSTVO.txt": "4bad40d0d54b4c13d3a449180622869e497e0a7b899c202fa62122f8f82eb5bc",
+    "data/artifacts.json": "feb04d9c4dc280e553534ed6897483c71e09430350d4bbbf7f12a4693d356b3c"
+  },
+  "android": "0.22.3(66),no rebuild/re-sign/version bump;same download artifact",
+  "content": "S14 published;public79files/24profiles verified",
+  "ios": "0.1.15(42) signed ready,not installed;Nemus unavailable,last installed41",
+  "audience": "public,unchanged",
+  "new_schedule_created": false,
+  "scheduled_source_followup": "Existing26October09:00Europe/Belgrade unchanged",
+  "device_activation_claimed": false
+}

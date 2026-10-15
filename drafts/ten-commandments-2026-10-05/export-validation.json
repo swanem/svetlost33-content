@@ -1,0 +1,48 @@
+{
+  "status": "LOCAL_EXPORT_VALIDATED_NOT_PUBLISHED",
+  "recorded_on": "2026-10-05",
+  "scope": "ZP-01 step 1: one identical offline bundle resource for both native applications; no OTA schema or release activation.",
+  "runtime": {
+    "path": "exports/ten-commandments-v1/ten-commandments.json",
+    "id": "ten-commandments",
+    "revision": 1,
+    "bytes": 17209,
+    "sha256": "7d115ac047a12ee28394c74251355803c3c9969dde2e05bd3613e81000673835",
+    "commandments": 10,
+    "explanations": 10,
+    "biblical_verses": 17,
+    "exact_manuscript_localized_pairs": 48,
+    "mechanically_transliterated_source_title_translator_pairs": 4
+  },
+  "unchanged_inputs": [
+    {"path": "drafts/ten-commandments-2026-10-05/manuscript.json", "sha256": "55a86a22200408ef594eaf99bf2f4ab376dc2e7be3c2556cf8b7b66e160ffdaf"},
+    {"path": "drafts/ten-commandments-2026-10-05/sources.json", "sha256": "fdce8a0790bf25bda01b3852cba9a53e1428c659f8dada92135a00656525b15d"},
+    {"path": "approvals/ten-commandments-2026-10-05/approval.json", "sha256": "17b0582b4fad2fe6257099f5cc76001c15552dbef6e5202deb43d3044756eeae"},
+    {"path": "drafts/ten-commandments-2026-10-05/validation.json", "sha256": "01bf18fa0be1de5820f2eb503f7c91e59ecd788597aef3138523db4b011f84dd"}
+  ],
+  "new_tooling": [
+    {"path": "scripts/export-ten-commandments-v1.mjs", "bytes": 5762, "sha256": "0cf072499764090c2b69a6e9cc1a4ea3022a92db57ae87b6a29a1eceb5809e97"},
+    {"path": "tests/ten-commandments-export-v1.test.mjs", "bytes": 5883, "sha256": "e24ba4c457b04d570f1edd0b01478c3c54b03eec60d57e41e0ae97d7b92fee2f"}
+  ],
+  "commands": [
+    "node scripts/export-ten-commandments-v1.mjs",
+    "node scripts/export-ten-commandments-v1.mjs --check",
+    "node --test tests/ten-commandments-export-v1.test.mjs"
+  ],
+  "test_result": {
+    "exit_code": 0,
+    "passed": 8,
+    "failed": 0,
+    "duration_ms": 46.822291,
+    "coverage": ["exact source/approval/validation pins", "changed or unapproved input rejects", "all48 original localized pairs identical", "10+10+17 identifiers/order/reference/attribution parity", "Cyrillic/Latin separation and transliteration", "four exact external source URLs without unsupported reader routes", "closed nested consumer allowlist excludes draft/evidence fields", "deterministic sole bundle file matches checked-in bytes"]
+  },
+  "native_handoff": [
+    "Copy only exports/ten-commandments-v1/ten-commandments.json into each application bundle and compare this exact SHA. No generated timestamps or platform-specific rewrites.",
+    "id/revision are stable local content identity, not a new remote package version. S12 active content and OTA media remain unchanged.",
+    "Summary attribution and explanatory note stay separate from full biblical attribution to Đura Daničić. No clerical review is claimed.",
+    "EXO/DEU reference objects are bibliographic only; the complete EXO excerpt is embedded. Do not pass these references to the existing Gospel reader or invent a deep link.",
+    "Sources retain four exact HTTPS URLs. Existing source titles/translators get mechanical Latin counterparts. Two sources have no approved localized title, so display their URL or host rather than technical id; no new editorial wording was invented.",
+    "Exporter is idempotent only for identical bytes and rejects a different existing export. All draft, approval, prior validation and private helper fields stay outside the runtime directory."
+  ],
+  "not_claimed": ["native reader/UI acceptance", "fresh web/source verification", "public distribution", "signing", "new legal approval", "official church review", "new OTA transport or schema"]
+}

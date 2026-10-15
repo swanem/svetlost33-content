@@ -1,0 +1,21 @@
+✔ prepare requires closed explicit baseline, minima, identity, history and compatibility binding (11.401167ms)
+✔ production exports never accept test binding or a caller-provided trust override (2.522875ms)
+✔ unsigned plan preserves exact S12 payloads and exact19/38 image bytes; no rights expansion (18.93325ms)
+✔ required policy, optional media and explicit first-history ledger are exact (0.2385ms)
+✔ public allowlist excludes signing request and raw local approval paths (0.262ms)
+✔ sign gate rejects missing/partial M5, mismatched minima, declined projection and changed plan (5.2415ms)
+✔ approval hash and changed artifact bytes are rechecked, not trusted flags (2.247416ms)
+✔ baseline advance or existing immutable target cannot be repurposed (604.61475ms)
+✔ wrong public baseline observation and expired candidate reject before signing (1.684834ms)
+✔ ephemeral signatures verify real PSS/SHA256 with salt32; private key not in any output (21.784958ms)
+✔ readback executes exact graph and discovery recheck, with24 accept +24 old-capability reject profiles (27889.141416ms)
+✔ existing bounded public fetch primitive rejects corruption, oversize and HTTP failures (0.864542ms)
+✔ production source index remains exact S12 and no next sequence has been reserved (0.544166ms)
+ℹ tests 13
+ℹ suites 0
+ℹ pass 13
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 30182.147709

@@ -1,0 +1,53 @@
+TAP version 13
+# Subtest: Exact unsigned approved-copy reproducibility, six absent signatures, bounded18-path allowlist; development blocked
+ok 1 - Exact unsigned approved-copy reproducibility, six absent signatures, bounded18-path allowlist; development blocked
+  ---
+  duration_ms: 34.656208
+  type: 'test'
+  ...
+# Subtest: Only four module identities changed; all old signed history and library/cycles/charities preserved
+ok 2 - Only four module identities changed; all old signed history and library/cycles/charities preserved
+  ---
+  duration_ms: 4.853625
+  type: 'test'
+  ...
+# Subtest: All104 article objects/days/sources identical; only authorized A+B rows promoted with actual approval ID
+ok 3 - All104 article objects/days/sources identical; only authorized A+B rows promoted with actual approval ID
+  ---
+  duration_ms: 1.393084
+  type: 'test'
+  ...
+# Subtest: Only31 pinned Gospel operations, exact publisher registration, true display eligibility; all other annual fields untouched
+ok 4 - Only31 pinned Gospel operations, exact publisher registration, true display eligibility; all other annual fields untouched
+  ---
+  duration_ms: 4.308709
+  type: 'test'
+  ...
+# Subtest: Calendar→saints→catalog→browser exact raw bindings/dependencies and full semantic checks
+ok 5 - Calendar→saints→catalog→browser exact raw bindings/dependencies and full semantic checks
+  ---
+  duration_ms: 789.766208
+  type: 'test'
+  ...
+# Subtest: Wrong dependency, payload bytes, stale binding, forged zachalo and missing corpus verse fail closed
+ok 6 - Wrong dependency, payload bytes, stale binding, forged zachalo and missing corpus verse fail closed
+  ---
+  duration_ms: 44.048834
+  type: 'test'
+  ...
+# Subtest: Old review/service gates preserved, no native/signature/publication acceptance claimed, immutable inputs unchanged
+ok 7 - Old review/service gates preserved, no native/signature/publication acceptance claimed, immutable inputs unchanged
+  ---
+  duration_ms: 74.672875
+  type: 'test'
+  ...
+1..7
+# tests 7
+# suites 0
+# pass 7
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 2089.276375
+{"status":"SHARED_UNSIGNED_CHECKS_PASS_DEVELOPMENT_BLOCKED_NATIVE_GATE","tests":7,"index_sha256":"51cbc3824d371ac647950644bad8dbdea6945f7c75360c667975fc909265430c","release_sha256":"4e82e44fb0ef84fec3789ee009f4526cb57ac5e3d76162ca84b8ce5d378de097"}
