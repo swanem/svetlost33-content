@@ -1,0 +1,21 @@
+{
+  "schema_version": "svetlost33-module-manifest-2",
+  "module_id": "calendar-browser-v1",
+  "module_type": "library",
+  "version": "2026.10.24",
+  "revision": 7,
+  "key_id": "svetlost33-content-2026-key-1",
+  "capabilities": [
+    "calendar-browser-v1"
+  ],
+  "dependencies": [],
+  "files": [
+    {
+      "path": "data/calendar-browser-v1.json",
+      "bytes": 97951,
+      "sha256": "f84fccc91075b53735056674cd52203ba04c9d5f715c92851d82f9282bf0d1b2",
+      "content_type": "application/json",
+      "encoding": "utf-8"
+    }
+  ]
+}
