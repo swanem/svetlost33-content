@@ -1,0 +1,121 @@
+{
+  "schema_version": "svetlost33-module-manifest-2",
+  "module_id": "library-annual-2026-r1",
+  "module_type": "library",
+  "version": "2026.1.1",
+  "revision": 3,
+  "key_id": "svetlost33-content-2026-key-1",
+  "capabilities": [
+    "library-v1",
+    "sr-Cyrl",
+    "sr-Latn"
+  ],
+  "dependencies": [],
+  "files": [
+    {
+      "path": "data/psalms.sr-Cyrl.json",
+      "bytes": 707117,
+      "sha256": "71918c97fe6fcc6d9f21a1990aaf0ceb2399bc503a43a9106f8e680f67844e83",
+      "content_type": "application/json",
+      "encoding": "utf-8"
+    },
+    {
+      "path": "data/psalms.sr-Latn.json",
+      "bytes": 553977,
+      "sha256": "01b2657d85430ec68bcc56d8a0b7b45e03449d1c2cb658a07d130ea57cf8a63d",
+      "content_type": "application/json",
+      "encoding": "utf-8"
+    },
+    {
+      "path": "data/prayers.sr-Cyrl.json",
+      "bytes": 115616,
+      "sha256": "363f7e20bb3d8f6a2a5b9262d576aa5778272a12962290f43d9750465b594e79",
+      "content_type": "application/json",
+      "encoding": "utf-8"
+    },
+    {
+      "path": "data/prayers.sr-Latn.json",
+      "bytes": 87570,
+      "sha256": "e82acf35bac8ae3c3d73cfb3034852da150e055ef960cbf207f7e5d1f9a103bd",
+      "content_type": "application/json",
+      "encoding": "utf-8"
+    },
+    {
+      "path": "data/gospels.sr-Cyrl.json",
+      "bytes": 1026828,
+      "sha256": "3855892ef6a8784e20b3ef83729a29437b7f8663bf83f6775f63978eeedc9809",
+      "content_type": "application/json",
+      "encoding": "utf-8"
+    },
+    {
+      "path": "data/gospels.sr-Latn.json",
+      "bytes": 778280,
+      "sha256": "392b4290654a9b2376e7319af980e8b9238ba8b4c20593f4b20c9d8688e31610",
+      "content_type": "application/json",
+      "encoding": "utf-8"
+    },
+    {
+      "path": "data/sources.sr-Cyrl.json",
+      "bytes": 118398,
+      "sha256": "c9dc9fce9e592bcebea1f794ce2c052f5ec0246540fbdbd999692dbd8562d818",
+      "content_type": "application/json",
+      "encoding": "utf-8"
+    },
+    {
+      "path": "data/sources.sr-Latn.json",
+      "bytes": 105336,
+      "sha256": "61e36e4e2b8e7341e5128cd16f70d2ded8d15089e1124b1738eae77d2491f867",
+      "content_type": "application/json",
+      "encoding": "utf-8"
+    },
+    {
+      "path": "data/licenses.sr-Cyrl.json",
+      "bytes": 47291,
+      "sha256": "15ab31c792b35b3e286da7dcfabe34581da9eda24f35a22dc0aee402e2527202",
+      "content_type": "application/json",
+      "encoding": "utf-8"
+    },
+    {
+      "path": "data/licenses.sr-Latn.json",
+      "bytes": 45398,
+      "sha256": "a33e5aad6b83e436aade7ffcd53c446580556514b8eb51089382f84f246138e0",
+      "content_type": "application/json",
+      "encoding": "utf-8"
+    },
+    {
+      "path": "data/release-scope.json",
+      "bytes": 1266,
+      "sha256": "c866f16a87626056a0467ca5912b9ca642843b181503d3f9646cb94f635f0cd6",
+      "content_type": "application/json",
+      "encoding": "utf-8"
+    },
+    {
+      "path": "evidence/owner-approval.json",
+      "bytes": 3691,
+      "sha256": "c075799ff858216ee828ec8c7c17e4812379f00a620494f5ecc9c07a0a95ea9d",
+      "content_type": "application/json",
+      "encoding": "utf-8"
+    },
+    {
+      "path": "evidence/source-release-manifest.json",
+      "bytes": 4243,
+      "sha256": "175768df3a856fd6d57f77475302431365752d0d3321f9e24a7a1236e82a6c03",
+      "content_type": "application/json",
+      "encoding": "utf-8"
+    },
+    {
+      "path": "evidence/prayer-selection-approval.json",
+      "bytes": 672,
+      "sha256": "1a765cf96e2674a62e0157939aa1aa749f7c41f3a59e93d86aa48d79e859e36f",
+      "content_type": "application/json",
+      "encoding": "utf-8"
+    },
+    {
+      "path": "evidence/prayer-catalog.json",
+      "bytes": 26284,
+      "sha256": "b88c800e8a7ca9e0ad54c3eef880291a217e2f62019c3ddb8139d786f98c21c3",
+      "content_type": "application/json",
+      "encoding": "utf-8"
+    }
+  ]
+}

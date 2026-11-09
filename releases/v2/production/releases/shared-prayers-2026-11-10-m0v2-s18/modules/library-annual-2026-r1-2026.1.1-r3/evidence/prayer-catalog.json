@@ -1,0 +1,363 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-10",
+  "status": "SEVEN_PRAYER_SELECTION_APPROVED_NOT_RUNTIME_PACKAGE",
+  "parent_catalog_sha256": "3cf4f1e4f2d37cc17c867ded126e12399249f6e91b82ff945f6f7b24d8cc997b",
+  "sources": [
+    {
+      "id": "USER-PRAYERBOOK-P207",
+      "kind": "user_supplied_photo",
+      "page": 207,
+      "attachment": "35B772A0-75E4-484B-A743-F43FE12A6485/1-Photo-1.jpg",
+      "evidence": "Image visible in conversation; original temporary file is no longer present locally.",
+      "bibliography_status": "edition_and_translator_unspecified_by_user",
+      "release_rights": "unresolved",
+      "title": "Молитвеник, стр. 207 — фотографија коју је доставио корисник",
+      "user_decision": "2026-11-09: exact book title not required; do not invent bibliographic or license facts"
+    },
+    {
+      "id": "MOL1929-R73934",
+      "url": "https://sr.wikisource.org/w/index.php?title=%D0%9C%D0%B0%D0%BB%D0%B8_%D0%BC%D0%BE%D0%BB%D0%B8%D1%82%D0%B2%D0%B5%D0%BD%D0%B8%D0%BA_(1929)&oldid=73934",
+      "title": "Мали молитвеник (1929)",
+      "credited_editor": "Јован Константиновић; сарадници Викизворника",
+      "retrieved_on": "2026-11-08",
+      "snapshot": "evidence/molitvenik-wikisource.html",
+      "sha256": "0655b37d5961afe8fd53c0ca8494b809f9345a1369a96bb2792b2f66763714cc",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "license_scope": "Site states CC BY-SA 4.0; underlying translation provenance/facsimile remains unresolved as in the existing prayerbook review.",
+      "changes": "Selected Serbian columns; whitespace normalization; separately enumerated proposed typo corrections; Latin transliteration.",
+      "release_rights": "review_pending"
+    }
+  ],
+  "prayers": [
+    {
+      "id": "when-aware-of-sin",
+      "title": {
+        "sr-Cyrl": "Молитва када приметиш да си учинио какав грех",
+        "sr-Latn": "Molitva kada primetiš da si učinio kakav greh"
+      },
+      "aliases": {
+        "sr-Cyrl": [
+          "Покајање",
+          "Када сагрешим"
+        ],
+        "sr-Latn": [
+          "Pokajanje",
+          "Kada sagrešim"
+        ]
+      },
+      "text": {
+        "sr-Cyrl": "Господе! Ти, Који си на Крсту приковао грехе наше, прикуј на Крст Свој и овај грех мој и помилуј ме по великој милости Својој (и осени се крсним знаком).",
+        "sr-Latn": "Gospode! Ti, Koji si na Krstu prikovao grehe naše, prikuj na Krst Svoj i ovaj greh moj i pomiluj me po velikoj milosti Svojoj (i oseni se krsnim znakom)."
+      },
+      "source_text": "Господе! Ти, Који си на Крсту приковао грехе наше, прикуј на Крст Свој и овај грех мој и помилуј ме по великој милости Својој (и осени се крсним знаком).",
+      "source_text_sha256": "a48e9af9f69ed9473550d70fad4d0037650948435de8dcc47e8fb64b65538d73",
+      "text_sha256": {
+        "sr-Cyrl": "a48e9af9f69ed9473550d70fad4d0037650948435de8dcc47e8fb64b65538d73",
+        "sr-Latn": "2ee9d8d25fc1ca923b603f864e5e2a2e56e5610ebab36cb2f431395ec08b3149"
+      },
+      "source_id": "USER-PRAYERBOOK-P207",
+      "source_locator": "Страна 207, прва цела молитва",
+      "attribution": {
+        "sr-Cyrl": "Светог Јована Кронштатског — атрибуција са фотографије",
+        "sr-Latn": "Svetog Jovana Kronštatskog — atribucija sa fotografije"
+      },
+      "proposed_corrections": [],
+      "categories": [
+        "by_need"
+      ],
+      "library_only": true,
+      "automatic_cycle_eligible": false,
+      "full_selected_prayer_included": true,
+      "editorial_approved": false,
+      "release_allowed": false,
+      "selection_approved": true
+    },
+    {
+      "id": "in-uncertainty",
+      "title": {
+        "sr-Cyrl": "Молитва у недоумици како поступити",
+        "sr-Latn": "Molitva u nedoumici kako postupiti"
+      },
+      "aliases": {
+        "sr-Cyrl": [
+          "Недоумица",
+          "Одлука"
+        ],
+        "sr-Latn": [
+          "Nedoumica",
+          "Odluka"
+        ]
+      },
+      "text": {
+        "sr-Cyrl": "Даруј, Господе, мојој недостојности благодат разумевања да бих распознао шта је пријатно за Тебе, а корисно за мене, и не само да распознајем, већ да то и чиним, да се не бих одушевљавао и привезивао за ништавно, већ да бих саосећао са онима који страдају и да бих снисходио грешницима.",
+        "sr-Latn": "Daruj, Gospode, mojoj nedostojnosti blagodat razumevanja da bih raspoznao šta je prijatno za Tebe, a korisno za mene, i ne samo da raspoznajem, već da to i činim, da se ne bih oduševljavao i privezivao za ništavno, već da bih saosećao sa onima koji stradaju i da bih snishodio grešnicima."
+      },
+      "source_text": "Даруј, Господе, мојој недостојности благодат разумевања да бих распознао шта је пријатно за Тебе, а корисно за мене, и не само да распознајем, већ да то и чиним, да се не бих одушевљавао и привезивао за ништавно, већ да бих саосећао са онима који страдају и да бих снисходио грешницима.",
+      "source_text_sha256": "0e90352fae00a0ae83500bcb0668510bc80d00c0fad77b1ff514f737c9330916",
+      "text_sha256": {
+        "sr-Cyrl": "0e90352fae00a0ae83500bcb0668510bc80d00c0fad77b1ff514f737c9330916",
+        "sr-Latn": "c9efd645cc207f54e3e9a4da31c2ce3cf96ea8420a67183c405967d07e806614"
+      },
+      "source_id": "USER-PRAYERBOOK-P207",
+      "source_locator": "Страна 207, друга цела молитва",
+      "attribution": {
+        "sr-Cyrl": "Светог Јована Златоустог — атрибуција са фотографије",
+        "sr-Latn": "Svetog Jovana Zlatoustog — atribucija sa fotografije"
+      },
+      "proposed_corrections": [],
+      "categories": [
+        "by_need"
+      ],
+      "library_only": true,
+      "automatic_cycle_eligible": false,
+      "full_selected_prayer_included": true,
+      "editorial_approved": false,
+      "release_allowed": false,
+      "selection_approved": true
+    },
+    {
+      "id": "in-suffering",
+      "title": {
+        "sr-Cyrl": "Молитва у свакој патњи",
+        "sr-Latn": "Molitva u svakoj patnji"
+      },
+      "aliases": {
+        "sr-Cyrl": [
+          "Патња",
+          "Искушење"
+        ],
+        "sr-Latn": [
+          "Patnja",
+          "Iskušenje"
+        ]
+      },
+      "text": {
+        "sr-Cyrl": "Не допусти на мене, Владико, Господе, искушења, или патње, или болести које су изнад мојих снага, већ ме избави од њих или ми даруј снаге да их поднесем са благодарношћу.",
+        "sr-Latn": "Ne dopusti na mene, Vladiko, Gospode, iskušenja, ili patnje, ili bolesti koje su iznad mojih snaga, već me izbavi od njih ili mi daruj snage da ih podnesem sa blagodarnošću."
+      },
+      "source_text": "Не допусти на мене, Владико, Господе, искушења, или патње, или болести које су изнад мојих снага, већ ме избави од њих или ми даруј снаге да их поднесем са благодарношћу.",
+      "source_text_sha256": "1f9288c71d35f1fbd5b7e9419384e6d9d239d9af0fdf5e55b54eff341578d20f",
+      "text_sha256": {
+        "sr-Cyrl": "1f9288c71d35f1fbd5b7e9419384e6d9d239d9af0fdf5e55b54eff341578d20f",
+        "sr-Latn": "7bc019f2eb727a6422d0155de023e0845c8443cd316a6404e4c7b49105f0629c"
+      },
+      "source_id": "USER-PRAYERBOOK-P207",
+      "source_locator": "Страна 207, трећа цела молитва",
+      "attribution": {
+        "sr-Cyrl": "Преподобног Симеона Новог Богослова — атрибуција са фотографије",
+        "sr-Latn": "Prepodobnog Simeona Novog Bogoslova — atribucija sa fotografije"
+      },
+      "proposed_corrections": [],
+      "categories": [
+        "by_need"
+      ],
+      "library_only": true,
+      "automatic_cycle_eligible": false,
+      "full_selected_prayer_included": true,
+      "editorial_approved": false,
+      "release_allowed": false,
+      "selection_approved": true
+    },
+    {
+      "id": "before-communion",
+      "title": {
+        "sr-Cyrl": "Молитва пре светог причешћа",
+        "sr-Latn": "Molitva pre svetog pričešća"
+      },
+      "aliases": {
+        "sr-Cyrl": [
+          "Причешће",
+          "Пре причешћа"
+        ],
+        "sr-Latn": [
+          "Pričešće",
+          "Pre pričešća"
+        ]
+      },
+      "text": {
+        "sr-Cyrl": "Верујем, Господе, и исповедам да си ти у истину Христос, Син Бога живог, који је дошао у свет да спасе грешнике од којих сам први (прва) ја. Још верујем да је ово само пречисто тело твоје и да је ово сама драгоцена крв твоја; молим се дакле теби: смилуј се на ме, и опрости ми погрешења моја што учиних хотимице или не хотимице, било речју, било делом, било знањем или у незнању; и удостој ме да се неосуђено (без казне) причестим пречистих твојих тајана ради опроштења грехова и ради живота вечнога. Вечере твоје тајне данас, Сине Божји, за учасника ме прими, јер нећу непријатељима одати тајне, нити цјелова ти дати као Јуда, него као разбојник (на Крсту) исповедам те, сети ме се Господе у царству твоме. Да ми не буде на казну или на осуђење причешћивање (примање) светих твојих тајни, Господе, него на исцељење (оздрављење) душе и тела.",
+        "sr-Latn": "Verujem, Gospode, i ispovedam da si ti u istinu Hristos, Sin Boga živog, koji je došao u svet da spase grešnike od kojih sam prvi (prva) ja. Još verujem da je ovo samo prečisto telo tvoje i da je ovo sama dragocena krv tvoja; molim se dakle tebi: smiluj se na me, i oprosti mi pogrešenja moja što učinih hotimice ili ne hotimice, bilo rečju, bilo delom, bilo znanjem ili u neznanju; i udostoj me da se neosuđeno (bez kazne) pričestim prečistih tvojih tajana radi oproštenja grehova i radi života večnoga. Večere tvoje tajne danas, Sine Božji, za učasnika me primi, jer neću neprijateljima odati tajne, niti cjelova ti dati kao Juda, nego kao razbojnik (na Krstu) ispovedam te, seti me se Gospode u carstvu tvome. Da mi ne bude na kaznu ili na osuđenje pričešćivanje (primanje) svetih tvojih tajni, Gospode, nego na isceljenje (ozdravljenje) duše i tela."
+      },
+      "source_text": "Верујем, Господе, и исповедам да си ти у истину Христос, Син Бога живог, који је дошао у свет да спасе грешнике од којих сам први (прва) ја. Још верујем да је ово само пречисто тело твоје и да је ово сама драгоцена крв твоја; молим се дакле теби: смилује се на ме, и опрости ми погрешења моја што учиних хотимице или не хотимице, било речју, било делом, било знањем или у незнању; у удостој ме да се неосуђено (без казне) причестим пречистих твојих тајана ради опроштења грехова и ради живота вечнога. Вечере твоје тајне данас, Сине Божји, за учасника ме прими, јер нећу непријатељима одати тајне, нити цјелова ти дати као Јуда, него као разбојник (на Крсту) исповедам те, сети ме се Господе у царству твоме. Да ми не буде на казну или на осуђење причешћивање (примање) светих твојих тајни, Господе, него на исцељење (оздрављење) душе и тела.",
+      "source_text_sha256": "36ce585c1a11ef922cb23526357950f17b9a5bc53d6684150e1c4538f5e1a71f",
+      "text_sha256": {
+        "sr-Cyrl": "c22f8e16072a12ed2406feb233cc4fdf2789ce9b94e74997243028ba6fa239a8",
+        "sr-Latn": "e6812ee43ce5c3c9ca3334d57af7b1f6a13d08f08a85e432c570ec9c9360f9ee"
+      },
+      "source_id": "MOL1929-R73934",
+      "source_locator": "Молитва пре причешћа, табела 1, десна српска колона",
+      "attribution": {
+        "sr-Cyrl": "",
+        "sr-Latn": ""
+      },
+      "proposed_corrections": [
+        {
+          "from": "смилује се на ме",
+          "to": "смилуј се на ме",
+          "status": "pending_editorial_approval"
+        },
+        {
+          "from": "у удостој ме",
+          "to": "и удостој ме",
+          "status": "pending_editorial_approval"
+        }
+      ],
+      "categories": [
+        "by_need"
+      ],
+      "library_only": true,
+      "automatic_cycle_eligible": false,
+      "full_selected_prayer_included": true,
+      "editorial_approved": false,
+      "release_allowed": false,
+      "selection_approved": true
+    },
+    {
+      "id": "after-communion-thanksgiving",
+      "title": {
+        "sr-Cyrl": "Благодарствена молитва после светог причешћа",
+        "sr-Latn": "Blagodarstvena molitva posle svetog pričešća"
+      },
+      "aliases": {
+        "sr-Cyrl": [
+          "Причешће",
+          "После причешћа",
+          "Благодарење"
+        ],
+        "sr-Latn": [
+          "Pričešće",
+          "Posle pričešća",
+          "Blagodarenje"
+        ]
+      },
+      "text": {
+        "sr-Cyrl": "Владаоче Христе Боже, царе векова и Творче свега, благодарим ти за сва, што си ми даровао, добра и за примање пречистих и животворних твојих тајана: молим те дакле, добри и човекољупче, сачувај ме под заштитом твојом и заклони ме снагом твојом. И даруј ми чистом савешћу све до последњега мојега издисаја достојно примати у себе светиње твоје ради остављења грехова и ради живота вечнога. Јер ти си хлеб за живот, извор светиње и дарове делиш, и теби славу уздижем са Оцем и Светим Духом сада и свагда и у веке векова. Амин.",
+        "sr-Latn": "Vladaoče Hriste Bože, care vekova i Tvorče svega, blagodarim ti za sva, što si mi darovao, dobra i za primanje prečistih i životvornih tvojih tajana: molim te dakle, dobri i čovekoljupče, sačuvaj me pod zaštitom tvojom i zakloni me snagom tvojom. I daruj mi čistom savešću sve do poslednjega mojega izdisaja dostojno primati u sebe svetinje tvoje radi ostavljenja grehova i radi života večnoga. Jer ti si hleb za život, izvor svetinje i darove deliš, i tebi slavu uzdižem sa Ocem i Svetim Duhom sada i svagda i u veke vekova. Amin."
+      },
+      "source_text": "Владаоче Христе Боже, царе векова и Творче свега, благодарим ти за сва, што си ми даровао, добра и за примање пречистих и животворних твојих тајана: молим те дакле, добри и човекољупче, сачувај ме под заштитом твојом и заклони ме снагом твојом. И даруј ми чистом савешћу све до последњега мојега издисаја достојно примати у себе светиње твоје ради остављења грехова и ради живота вечнога. Јер ти си хлаб за живот, извор светиње и дарове делиш, и теби славу уздижем са Оцем и Светим Духом сада и свагда и у веке векова. Амин.",
+      "source_text_sha256": "1d53dd77ed1c3fb5910f70871c1ec8dd54198a4a0cdde933175b5fe31fde9dc0",
+      "text_sha256": {
+        "sr-Cyrl": "b50b82f060047e12a2043736f4da22937569825e45339d046a71de177190cc88",
+        "sr-Latn": "53a7a5e731bb1b12219ad7c0a2b3d5b88dd2d10c31ecdc8cd1fa03e5195b3767"
+      },
+      "source_id": "MOL1929-R73934",
+      "source_locator": "Молитве после причешћа, молитва 1, десна српска колона",
+      "attribution": {
+        "sr-Cyrl": "",
+        "sr-Latn": ""
+      },
+      "proposed_corrections": [
+        {
+          "from": "хлаб за живот",
+          "to": "хлеб за живот",
+          "status": "pending_editorial_approval"
+        }
+      ],
+      "categories": [
+        "by_need"
+      ],
+      "library_only": true,
+      "automatic_cycle_eligible": false,
+      "full_selected_prayer_included": true,
+      "editorial_approved": false,
+      "release_allowed": false,
+      "selection_approved": true
+    },
+    {
+      "id": "for-the-sick",
+      "title": {
+        "sr-Cyrl": "Молитва за болесне",
+        "sr-Latn": "Molitva za bolesne"
+      },
+      "aliases": {
+        "sr-Cyrl": [
+          "Болест",
+          "Болесник",
+          "Здравље"
+        ],
+        "sr-Latn": [
+          "Bolest",
+          "Bolesnik",
+          "Zdravlje"
+        ]
+      },
+      "text": {
+        "sr-Cyrl": "Господе милостиви, који нећеш да човек у греху умре него да се обрати и жив буде, поштеди и смилуј се на слугу свога (слушкињу своју) … (име), запрети болести, ослободи га (ју) сваке муке и свега бола, ублажи зиму и огањ, и пружи му (јој) твоју снажну руку, па га (ју) као Јаирову кћер подигни са постеље болесничке и здравље му (јој) поврати.",
+        "sr-Latn": "Gospode milostivi, koji nećeš da čovek u grehu umre nego da se obrati i živ bude, poštedi i smiluj se na slugu svoga (sluškinju svoju) … (ime), zapreti bolesti, oslobodi ga (ju) svake muke i svega bola, ublaži zimu i oganj, i pruži mu (joj) tvoju snažnu ruku, pa ga (ju) kao Jairovu kćer podigni sa postelje bolesničke i zdravlje mu (joj) povrati."
+      },
+      "source_text": "Господе милостиви, који нећеш да човек у греху умре него да се обрати и жив буде, поштеди и смилуј се на слугу свога (слушкињу своју) … (име), запрети болести, ослободи га (ју) сваке муке и свега бола, ублажи зиму и огањ, и пружи му (јој) твоју снажну руку, па га (ју) као Јаирову кћер подигни са постеље болесничке и здравље му (јој) поврати.",
+      "source_text_sha256": "88543c67185bdf36656524138c46c0f19a52dfa77ef175e43e8dd167fa681d63",
+      "text_sha256": {
+        "sr-Cyrl": "88543c67185bdf36656524138c46c0f19a52dfa77ef175e43e8dd167fa681d63",
+        "sr-Latn": "275f680c353c60134fa29cbc238ca841bde142d4e0dad0f80761b4c00ad63ff6"
+      },
+      "source_id": "MOL1929-R73934",
+      "source_locator": "Молитве за болеснике, молитва 3, десна српска колона",
+      "attribution": {
+        "sr-Cyrl": "",
+        "sr-Latn": ""
+      },
+      "proposed_corrections": [],
+      "categories": [
+        "by_need"
+      ],
+      "library_only": true,
+      "automatic_cycle_eligible": false,
+      "full_selected_prayer_included": true,
+      "editorial_approved": false,
+      "release_allowed": false,
+      "selection_approved": true
+    },
+    {
+      "id": "for-the-departed",
+      "title": {
+        "sr-Cyrl": "Молитва за упокојене",
+        "sr-Latn": "Molitva za upokojene"
+      },
+      "aliases": {
+        "sr-Cyrl": [
+          "Упокојени",
+          "Покојни"
+        ],
+        "sr-Latn": [
+          "Upokojeni",
+          "Pokojni"
+        ]
+      },
+      "text": {
+        "sr-Cyrl": "Боже духова и свакога тела, ти који си сатро смрт и победио ђавола, и живот свету твом даровао! Ти Господе, упокој душу слуге твога (слушкиње твоје) … (име) у месту светлом, у месту цветном, у месту мирном: где нема болести, жалости ни уздисања. Опрости му (јој) све што ти сагреши речју, или делом или помишљу, јер си ти Бог добри и волеш људе; а нема човека који је жив и да није сагрешио, тек ти си једини без греха, и правда је твоја правда на веки, и реч је твоја истина. Ти си пак Христе Боже наш, васкрсење и живот и покој умрлога слуге твога (слушкиње твоје) … (име), и теби славу узносим са твојим Оцем који нема почетка, и пресветим и добрим и животворним твојим Духом сада и свагда, и у веке векова. Амин.",
+        "sr-Latn": "Bože duhova i svakoga tela, ti koji si satro smrt i pobedio đavola, i život svetu tvom darovao! Ti Gospode, upokoj dušu sluge tvoga (sluškinje tvoje) … (ime) u mestu svetlom, u mestu cvetnom, u mestu mirnom: gde nema bolesti, žalosti ni uzdisanja. Oprosti mu (joj) sve što ti sagreši rečju, ili delom ili pomišlju, jer si ti Bog dobri i voleš ljude; a nema čoveka koji je živ i da nije sagrešio, tek ti si jedini bez greha, i pravda je tvoja pravda na veki, i reč je tvoja istina. Ti si pak Hriste Bože naš, vaskrsenje i život i pokoj umrloga sluge tvoga (sluškinje tvoje) … (ime), i tebi slavu uznosim sa tvojim Ocem koji nema početka, i presvetim i dobrim i životvornim tvojim Duhom sada i svagda, i u veke vekova. Amin."
+      },
+      "source_text": "Боже духова и свакога тела, ти који си сатро смрт и победио ђавола, и живот свету твом даровао! Ти Господе, упокој душу слуге твога (слушкиње твоје) … (име) у месту светлом, у месту цветном, у месту мирном: где нема болести, жалости ни уздисања. Опрости му (јој) све што ти сагреши речју, или делом или помишљу, јер си ти Бог добри и волеш људе; а нема човека који је жив и да није сагрешио, тек ти си једини без греха, и правда је твоја правда на веки, и реч је твоја истина. Ти си пак Христе Боже наш, васкрсење и живот и покој умрлога слуге твога (слушкиње твоје) … (име), и теби славу узносим са твојим Оцем који нема почетка, и пресветим и добрим и животворним твојим Духом сада и свагда, и у веке векова. Амин.",
+      "source_text_sha256": "3634f8f4c42520b4118eed89bd5cdcbed86e9471616a1b9293753238178f9d5c",
+      "text_sha256": {
+        "sr-Cyrl": "3634f8f4c42520b4118eed89bd5cdcbed86e9471616a1b9293753238178f9d5c",
+        "sr-Latn": "04de539d14943ac228774815943a6c8cc78dc51aabf58260a05307794184a425"
+      },
+      "source_id": "MOL1929-R73934",
+      "source_locator": "Молитве за мртве, а) за одрасле, десна српска колона",
+      "attribution": {
+        "sr-Cyrl": "",
+        "sr-Latn": ""
+      },
+      "proposed_corrections": [],
+      "categories": [
+        "by_need"
+      ],
+      "library_only": true,
+      "automatic_cycle_eligible": false,
+      "full_selected_prayer_included": true,
+      "editorial_approved": false,
+      "release_allowed": false,
+      "selection_approved": true
+    }
+  ],
+  "deferred": [
+    "before-work"
+  ],
+  "existing_prayers": 18,
+  "target_prayers": 25,
+  "signed": false,
+  "published": false
+}

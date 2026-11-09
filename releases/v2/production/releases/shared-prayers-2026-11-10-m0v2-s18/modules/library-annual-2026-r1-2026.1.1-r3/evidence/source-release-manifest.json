@@ -1,0 +1,133 @@
+{
+  "schema_version": "annual-content-handoff-1",
+  "package_id": "svetlost33-annual-2026-r1",
+  "revision": 2,
+  "year": 2026,
+  "valid_from": "2026-01-01",
+  "valid_to": "2026-12-31",
+  "status": "RELEASED",
+  "production_ready": true,
+  "release_allowed": true,
+  "calendar_active_in_apps": true,
+  "signing_key_id": "svetlost33-content-2026-key-1",
+  "owner_release_approval": {
+    "schema_version": "svetlost33-owner-release-approval-1",
+    "approval_id": "prayer-expansion-seven-2026-11-10",
+    "approved_at": "2026-11-10",
+    "source_package_id": "svetlost33-annual-2026-review-1",
+    "source_manifest_sha256": "ba0e4da37a792094aaac9919d1638e5d75d0590b0a7dd7ff5d5680e557bfa99d",
+    "source_commit": "a240a87cac915dee26e0106a43a327c1582a07f3",
+    "psalms": 150,
+    "prayers": 25,
+    "gospel_books": 4,
+    "historical_prayers_distribution_authorized": true,
+    "radio_suggestion_dates": 173,
+    "unresolved_gospel_dates": 192,
+    "unknown_fasting_rule_dates": 91,
+    "unresolved_display_policy": "SHOW_NOT_CONFIRMED",
+    "android_release_before_ios_authorized": true,
+    "statement": "Owner approved the seven-prayer selection on 2026-11-10 and requested publication; original 18 and daily schedule remain unchanged. Source and translation limitations remain recorded.",
+    "additive_catalog_sha256": "b88c800e8a7ca9e0ad54c3eef880291a217e2f62019c3ddb8139d786f98c21c3"
+  },
+  "files": [
+    {
+      "path": "calendar.2026.json",
+      "bytes": 1665524,
+      "sha256": "a1b6a5d5911ae03f77802bd466227f0c1ea4fe97708b1b6f92cd4b08847c7c9c"
+    },
+    {
+      "path": "gospels.sr-Cyrl.json",
+      "bytes": 1026828,
+      "sha256": "3855892ef6a8784e20b3ef83729a29437b7f8663bf83f6775f63978eeedc9809"
+    },
+    {
+      "path": "gospels.sr-Latn.json",
+      "bytes": 778280,
+      "sha256": "392b4290654a9b2376e7319af980e8b9238ba8b4c20593f4b20c9d8688e31610"
+    },
+    {
+      "path": "legacy-cycle.sr-Cyrl.json",
+      "bytes": 66639,
+      "sha256": "7e0de7104845133e26c326f770cdd9faef1b91993261ef78bcdf6b9629a7f4c4"
+    },
+    {
+      "path": "legacy-cycle.sr-Latn.json",
+      "bytes": 58613,
+      "sha256": "5becca805591135d7120c89c3052f577633072fa60fb0eaf691450baefe5c0f3"
+    },
+    {
+      "path": "licenses.sr-Cyrl.json",
+      "bytes": 47291,
+      "sha256": "15ab31c792b35b3e286da7dcfabe34581da9eda24f35a22dc0aee402e2527202"
+    },
+    {
+      "path": "licenses.sr-Latn.json",
+      "bytes": 45398,
+      "sha256": "a33e5aad6b83e436aade7ffcd53c446580556514b8eb51089382f84f246138e0"
+    },
+    {
+      "path": "prayers.sr-Cyrl.json",
+      "bytes": 115616,
+      "sha256": "363f7e20bb3d8f6a2a5b9262d576aa5778272a12962290f43d9750465b594e79"
+    },
+    {
+      "path": "prayers.sr-Latn.json",
+      "bytes": 87570,
+      "sha256": "e82acf35bac8ae3c3d73cfb3034852da150e055ef960cbf207f7e5d1f9a103bd"
+    },
+    {
+      "path": "psalms.sr-Cyrl.json",
+      "bytes": 707117,
+      "sha256": "71918c97fe6fcc6d9f21a1990aaf0ceb2399bc503a43a9106f8e680f67844e83"
+    },
+    {
+      "path": "psalms.sr-Latn.json",
+      "bytes": 553977,
+      "sha256": "01b2657d85430ec68bcc56d8a0b7b45e03449d1c2cb658a07d130ea57cf8a63d"
+    },
+    {
+      "path": "sources.sr-Cyrl.json",
+      "bytes": 118398,
+      "sha256": "c9dc9fce9e592bcebea1f794ce2c052f5ec0246540fbdbd999692dbd8562d818"
+    },
+    {
+      "path": "sources.sr-Latn.json",
+      "bytes": 105336,
+      "sha256": "61e36e4e2b8e7341e5128cd16f70d2ded8d15089e1124b1738eae77d2491f867"
+    }
+  ],
+  "counts": {
+    "psalms": 150,
+    "psalm_verses": 2461,
+    "prayers": 25,
+    "biblical_prayers": 6,
+    "held_historical_prayers": 12,
+    "gospel_books": 4,
+    "gospel_chapters": 89,
+    "gospel_verses": 3779,
+    "calendar_dates": 365,
+    "gospel_dates": {
+      "SOURCE_RECORDED": 173,
+      "CONFIRMED_NONE": 0,
+      "UNRESOLVED": 192
+    },
+    "gospel_reference_records": 493,
+    "service_schedules_verified": 0,
+    "fasting_dates": {
+      "FAST": 194,
+      "NON_FAST": 166,
+      "UNKNOWN": 5
+    },
+    "fasting_rule_dates": {
+      "NONE": 166,
+      "WATER": 54,
+      "OIL": 30,
+      "FISH": 24,
+      "OTHER": 0,
+      "UNKNOWN": 91
+    },
+    "legacy_cycle_slots": 21,
+    "slots_depending_on_held_prayers": 14,
+    "additional_library_only_prayers": 7
+  }
+}

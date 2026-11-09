@@ -1,0 +1,21 @@
+{
+  "date": "2026-11-10",
+  "user_verbatim": "odobravam.izbor molitava",
+  "context": "Reply to seven complete prayers now versus waiting for before-work text",
+  "selected_ids": [
+    "when-aware-of-sin",
+    "in-uncertainty",
+    "in-suffering",
+    "before-communion",
+    "after-communion-thanksgiving",
+    "for-the-sick",
+    "for-the-departed"
+  ],
+  "deferred_ids": [
+    "before-work"
+  ],
+  "catalog_sha256": "b88c800e8a7ca9e0ad54c3eef880291a217e2f62019c3ddb8139d786f98c21c3",
+  "text_changes_from_parent": false,
+  "publication_request_already_recorded": true,
+  "scope": "Selection approval; does not itself assert a license or successful native acceptance"
+}

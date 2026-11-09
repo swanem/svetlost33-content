@@ -1,0 +1,104 @@
+{
+  "schema_version": "svetlost33-owner-content-approval-1",
+  "approval_id": "prayer-expansion-seven-2026-11-10",
+  "approval_type": "SHARED_CONTENT_DISTRIBUTION_AUTHORIZATION",
+  "approved_at": "2026-11-10",
+  "approved_by": "project_owner",
+  "user_statement": "odobravam.izbor molitava",
+  "approval_policy": "ONCE_PER_IMMUTABLE_CONTENT_REVISION",
+  "consumer_platforms": [
+    "android",
+    "ios"
+  ],
+  "territories": [
+    "RS",
+    "BA"
+  ],
+  "consolidates_prior_decisions": [
+    "android-annual-2026-r1-2026-09-15",
+    "ios-annual-2026-r1-2026-09-15"
+  ],
+  "source": {
+    "repository": "swanem/svetlost33-content",
+    "commit": "3b1ca8050c44afc41d52ec28a5dc53d5b7e60b19",
+    "package_id": "svetlost33-annual-2026-r1",
+    "manifest_path": "evidence/source-release-manifest.json",
+    "manifest_sha256": "175768df3a856fd6d57f77475302431365752d0d3321f9e24a7a1236e82a6c03",
+    "payload_file_count": 13,
+    "payload_identity_rule": "All entries in manifest.files retain exact content bytes, sizes, SHA-256 and source identity; no independent platform edits.",
+    "previous_source": {
+      "repository": "swanem/svetlost33-content",
+      "commit": "3b1ca8050c44afc41d52ec28a5dc53d5b7e60b19",
+      "package_id": "svetlost33-annual-2026-r1",
+      "manifest_path": "releases/legacy/annual-2026-r1/manifest.json",
+      "manifest_sha256": "adcd9c4c03fea220142c4e4e7027ffc4596d77ea44f6f248556723cbe73c640a",
+      "payload_file_count": 13,
+      "payload_identity_rule": "All entries in manifest.files retain exact content bytes, sizes, SHA-256 and source identity; no independent platform edits."
+    }
+  },
+  "authorized_content": {
+    "psalms": 150,
+    "prayers": 25,
+    "historical_prayers": 12,
+    "gospel_books": 4,
+    "locales": [
+      "sr-Cyrl",
+      "sr-Latn"
+    ],
+    "daily_cycle_days": 7,
+    "daily_cycle_slots": 21,
+    "calendar_year": 2026,
+    "calendar_dates": 365,
+    "local_sources_and_licenses": true,
+    "additional_library_only_prayers": 7
+  },
+  "preserved_limits": {
+    "radio_suggestion_dates": 173,
+    "radio_source": "Radio Slovo ljubve",
+    "unresolved_gospel_dates": 192,
+    "unknown_fasting_rule_dates": 91,
+    "unresolved_display_policy": "SHOW_NOT_CONFIRMED",
+    "complete_liturgical_schedule": false,
+    "rights_basis": "Existing r1 per-item evidence and recorded owner authorization; no new legal or ecclesiastical certification or territory expansion."
+  },
+  "not_in_this_revision": [
+    "background_module",
+    "organizations_and_payment_data",
+    "before-work",
+    "changes_to_existing_prayers_or_daily_cycle"
+  ],
+  "release_policy": {
+    "shared_release_set": true,
+    "shared_discovery_channel": true,
+    "target_platforms": [
+      "android",
+      "ios"
+    ],
+    "platform_specific_content_reapproval_required": false,
+    "client_compatibility_checks_required": true,
+    "platform_technical_qa_required": true,
+    "existing_signed_artifacts_immutable": true,
+    "changed_content_or_rights_requires_new_shared_approval": true,
+    "technical_metadata_only_revision_may_reuse_approval": true
+  },
+  "evidence_record_only": true,
+  "signed_runtime_release_created_by_this_record": false,
+  "publication_or_installation_performed": false,
+  "previous_approval_id": "shared-annual-2026-r1-2026-09-15",
+  "additive_selection": {
+    "catalog_sha256": "b88c800e8a7ca9e0ad54c3eef880291a217e2f62019c3ddb8139d786f98c21c3",
+    "ids": [
+      "when-aware-of-sin",
+      "in-uncertainty",
+      "in-suffering",
+      "before-communion",
+      "after-communion-thanksgiving",
+      "for-the-sick",
+      "for-the-departed"
+    ],
+    "deferred": [
+      "before-work"
+    ],
+    "previous_18_unchanged": true
+  }
+}

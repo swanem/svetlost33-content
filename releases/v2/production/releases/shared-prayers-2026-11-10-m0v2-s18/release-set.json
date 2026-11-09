@@ -1,0 +1,87 @@
+{
+  "schema_version": "svetlost33-release-set-2",
+  "release_set_id": "shared-prayers-2026-11-10-m0v2-s18",
+  "sequence": 18,
+  "channel": "production",
+  "key_id": "svetlost33-content-2026-key-1",
+  "approved_platforms": [
+    "android",
+    "ios"
+  ],
+  "min_clients": {
+    "android": 85,
+    "ios": "0.1.37"
+  },
+  "modules": [
+    {
+      "module_id": "library-annual-2026-r1",
+      "module_type": "library",
+      "version": "2026.1.1",
+      "required": true,
+      "manifest_path": "releases/shared-prayers-2026-11-10-m0v2-s18/modules/library-annual-2026-r1-2026.1.1-r3/manifest.json",
+      "manifest_bytes": 3805,
+      "manifest_sha256": "0bc9e40f4940e6f9f6b86f1eadf11f2d802c19a9c277f3e0f993f7f53a633cfa",
+      "signature_path": "releases/shared-prayers-2026-11-10-m0v2-s18/modules/library-annual-2026-r1-2026.1.1-r3/manifest.sig"
+    },
+    {
+      "module_id": "daily-cycles-r1",
+      "module_type": "cycles",
+      "version": "2026.10.24",
+      "required": true,
+      "manifest_path": "releases/shared-psalm-cycle90-2026-10-24-m0v2-s16/modules/daily-cycles-r1-2026.10.24-r4/manifest.json",
+      "manifest_bytes": 1374,
+      "manifest_sha256": "3a823687a2ffe3d250d70ccf9cd08b06011054ec8556d4636e7654d2552edd2d",
+      "signature_path": "releases/shared-psalm-cycle90-2026-10-24-m0v2-s16/modules/daily-cycles-r1-2026.10.24-r4/manifest.sig"
+    },
+    {
+      "module_id": "calendar-2026-r1",
+      "module_type": "calendar",
+      "version": "2026.10.26",
+      "required": true,
+      "manifest_path": "releases/shared-gospel-2026-10-26-m0v2-s17/modules/calendar-2026-r1-2026.10.26-r4/manifest.json",
+      "manifest_bytes": 632,
+      "manifest_sha256": "7c626dbbc3bab3ac63ea578c56cabad5c564932beec012439c28de33d8d81e91",
+      "signature_path": "releases/shared-gospel-2026-10-26-m0v2-s17/modules/calendar-2026-r1-2026.10.26-r4/manifest.sig"
+    },
+    {
+      "module_id": "organizations-v1",
+      "module_type": "organizations",
+      "version": "2026.9.30",
+      "required": false,
+      "manifest_path": "releases/shared-content-refresh-2026-09-30-m0v2-s11/modules/organizations-v1-2026.9.30-r3/manifest.json",
+      "manifest_bytes": 530,
+      "manifest_sha256": "e493239cd2f1a6012dc40ab84da56c20f7bd86fde6100bbda6dd1a6af7f5ed46",
+      "signature_path": "releases/shared-content-refresh-2026-09-30-m0v2-s11/modules/organizations-v1-2026.9.30-r3/manifest.sig"
+    },
+    {
+      "module_id": "saints-v1",
+      "module_type": "library",
+      "version": "2026.10.26",
+      "required": false,
+      "manifest_path": "releases/shared-gospel-2026-10-26-m0v2-s17/modules/saints-v1-2026.10.26-r7/manifest.json",
+      "manifest_bytes": 589,
+      "manifest_sha256": "21c06899ccb021344502886dadf44094ef80404ca9a2c2159f1807c336c9e4a1",
+      "signature_path": "releases/shared-gospel-2026-10-26-m0v2-s17/modules/saints-v1-2026.10.26-r7/manifest.sig"
+    },
+    {
+      "module_id": "liturgical-catalog-v1",
+      "module_type": "library",
+      "version": "2026.10.26",
+      "required": false,
+      "manifest_path": "releases/shared-gospel-2026-10-26-m0v2-s17/modules/liturgical-catalog-v1-2026.10.26-r11/manifest.json",
+      "manifest_bytes": 701,
+      "manifest_sha256": "1a29ae4971d22ca2de6f6e119fc486435d9cffea7448f3902a6ee7e0132f0d9a",
+      "signature_path": "releases/shared-gospel-2026-10-26-m0v2-s17/modules/liturgical-catalog-v1-2026.10.26-r11/manifest.sig"
+    },
+    {
+      "module_id": "calendar-browser-v1",
+      "module_type": "library",
+      "version": "2026.11.10",
+      "required": false,
+      "manifest_path": "releases/shared-prayers-2026-11-10-m0v2-s18/modules/calendar-browser-v1-2026.11.10-r9/manifest.json",
+      "manifest_bytes": 534,
+      "manifest_sha256": "c6315591f80ec167def53896d33099254557bf5e9583e7a23416346d1df71d14",
+      "signature_path": "releases/shared-prayers-2026-11-10-m0v2-s18/modules/calendar-browser-v1-2026.11.10-r9/manifest.sig"
+    }
+  ]
+}
